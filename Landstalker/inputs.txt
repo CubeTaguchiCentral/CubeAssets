@@ -1,0 +1,2 @@
+#Game;ROM File;Music Banks;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;
+Landstalker;.\Landstalker.bin;1F8910,1F0000;0;1F8000;true;1F74D4;true;1E0000,1E8000;.\bank0\,.\bank1\

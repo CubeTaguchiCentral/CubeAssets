@@ -1,0 +1,2 @@
+#Game;ROM File;Music Banks;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;
+Dr Robotnik's Mean Bean Machine;.\Dr Robotnik's Mean Bean Machine.bin;F937C;0;F8000;true;F74E4;true;B0000,E8000;.\bank0\

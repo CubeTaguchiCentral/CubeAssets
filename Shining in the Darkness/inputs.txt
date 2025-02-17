@@ -1,0 +1,2 @@
+#Game;ROM File;Music Banks;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;
+Shining in the Darkness;.\Shining in the Darkness.bin;F8900;0;F3755;true;F36ED;true;F0000;.\bank0\

@@ -1,0 +1,2 @@
+#Game;ROM File;Music Banks;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;
+Langrisser;.\Langrisser.bin;78C00;0;7F453;false;7FF7D;true;70000,78000;.\bank0\

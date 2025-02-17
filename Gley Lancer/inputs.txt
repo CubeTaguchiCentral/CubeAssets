@@ -1,0 +1,2 @@
+#Game;ROM File;Music Banks;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;
+Gley Lancer;.\Gley Lancer.bin;F937C,F2280;0;F8000;true;F74E4;true;E8000;.\bank0\,.\bank1\

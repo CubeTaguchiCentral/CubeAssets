@@ -1,0 +1,2 @@
+#Game;ROM File;Music Banks;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;
+Shining Force II;.\Shining Force II.bin;1F8000,1F0000;0;1EB000;true;1ED535;true;1E0000,1E8000;.\bank0\,.\bank1\

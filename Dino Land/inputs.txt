@@ -1,0 +1,2 @@
+#Game;ROM File;Music Banks;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;
+Dino Land;.\Dino Land.bin;78600;0;7F8BC;true;7F7EC;true;68000,70000,78000;.\bank0\

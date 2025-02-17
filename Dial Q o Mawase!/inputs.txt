@@ -1,0 +1,2 @@
+#Game;ROM File;Music Banks;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;
+Dial Q o Mawase!;.\Dial Q o Mawase!.bin;58000;0;574AD;true;57425;true;40000,48000,50000;.\bank0\
