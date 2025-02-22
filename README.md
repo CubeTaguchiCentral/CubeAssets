@@ -18,7 +18,7 @@ Cube to Furnace conversion status
 | 13/03/1992 | Steel Empire                    |                                                                                   |
 | 20/03/1992 | Shining Force                   |                                                                                   |
 | 30/06/1992 | Dial Q o Mawase!                |                                                                                   |
-| 17/07/1992 | Gley Lancer                     | Desync in bank 1 song 4, YM instrument unexpectedly fading out                    |
+| 17/07/1992 | Gley Lancer                     | YM instrument unexpectedly fading out                                             |
 | 30/10/1992 | Landstalker                     |                                                                                   |
 | 28/05/1993 | Snow Bros.                      |                                                                                   |
 | 28/05/1993 | Ranger-X (Ex-Ranza)             | Wrong samples                                                                     |
@@ -26,6 +26,6 @@ Cube to Furnace conversion status
 | 01/10/1993 | Shining Force II                | Best results as initially intended, but no solution for portamentos after release |
 | 01/12/1993 | Dr Robotnik's Mean Bean Machine | PSG Noise channel unexpectedly contains commands                                  |
 | 29/12/1993 | Maten no Soumetsu               |                                                                                   |
-| 17/06/1994 | Crusader of Centy               | A few desyncs                                                                     |
+| 17/06/1994 | Crusader of Centy               |                                                                                   |
 | 24/06/1994 | Lord Monarch                    |                                                                                   |
-| 26/08/1994 | Langrisser II                   | Desync in bank 2 song 1                                                           |
+| 26/08/1994 | Langrisser II                   |                                                                                   |
