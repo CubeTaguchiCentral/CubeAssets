@@ -141,7 +141,7 @@ Music_20_Channel_6:
             waitL 112
       psgInst 0bh
             psgNoteL G4, 19
-      setSlide 112
+      sustain
             psgNoteL Cs4, 13
             psgNote E4
             psgNoteL As3, 12
@@ -164,9 +164,9 @@ Music_20_Channel_6:
             psgNoteL F3, 13
             waitL 12
             psgNoteL G3, 112
-      setSlide 50
+      sustain
             psgNoteL G4, 132
-      noSlide
+      sustain
     channel_end
 Music_20_Channel_7:
       psgInst 00h
@@ -176,7 +176,7 @@ Music_20_Channel_7:
             waitL 112
       psgInst 08h
             psgNoteL G4, 19
-      setSlide 112
+      sustain
             psgNoteL Cs4, 13
             psgNote E4
             psgNoteL As3, 12
@@ -199,7 +199,7 @@ Music_20_Channel_7:
             psgNoteL F3, 13
             waitL 12
             psgNoteL G3, 112
-      setSlide 50
+      sustain
             psgNoteL G4, 132
-      noSlide
+      sustain
     channel_end

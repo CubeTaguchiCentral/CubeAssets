@@ -1723,7 +1723,7 @@ Music_04_Channel_6:
       psgInst 0bh
       setRelease 55
             psgNoteL As4, 96
-      noSlide
+      sustain
       psgInst 00h
             wait
             wait
@@ -1911,7 +1911,7 @@ Music_04_Channel_7:
       psgInst 09h
       setRelease 55
             psgNoteL As4, 96
-      noSlide
+      sustain
       psgInst 00h
             wait
             wait
