@@ -18,7 +18,7 @@ Music_18_Channel_0:
       inst 24
       vol 14
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 040h
             noteL Gs3, 0
       setSlide 16
@@ -42,7 +42,7 @@ Music_18_Channel_1:
       inst 25
       vol 15
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL A5, 0
       setSlide 16
@@ -67,7 +67,7 @@ Music_18_Channel_2:
       inst 24
       vol 14
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 080h
             noteL A3, 0
       setSlide 16
@@ -91,7 +91,7 @@ Music_18_Channel_3:
       inst 29
       vol 14
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL A2, 0
       setSlide 16
@@ -116,7 +116,7 @@ Music_18_Channel_4:
       inst 24
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL A3, 0
       setSlide 16

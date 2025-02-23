@@ -19,7 +19,7 @@ Music_08_Channel_0:
       inst 14
       vol 11
       setRelease 1
-      vibrato 0
+      vibrato 00h
             noteL A7, 96
             noteL Gs7, 48
             noteL A7, 96
@@ -69,7 +69,7 @@ Music_08_Channel_1:
       inst 14
       vol 10
       setRelease 1
-      vibrato 0
+      vibrato 00h
     mainLoopStart
             noteL Fs7, 96
             noteL F7, 48
@@ -123,7 +123,7 @@ Music_08_Channel_2:
       inst 14
       vol 10
       setRelease 1
-      vibrato 0
+      vibrato 00h
     mainLoopStart
             noteL D6, 48
             note A6
@@ -183,7 +183,7 @@ Music_08_Channel_3:
       inst 14
       vol 8
       setRelease 1
-      vibrato 0
+      vibrato 00h
             noteL A7, 96
             noteL Gs7, 48
             noteL A7, 96

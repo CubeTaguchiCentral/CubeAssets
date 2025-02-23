@@ -14,7 +14,7 @@ Music_20:
     dw Music_20_Channel_6
     dw Music_20_Channel_6
 Music_20_Channel_0:
-      vibrato 42
+      vibrato 02ah
     repeatStart
       vol 13
     countedLoopStart 2
@@ -435,7 +435,7 @@ Music_20_Channel_0:
             waitL 48
     channel_end
 Music_20_Channel_1:
-      vibrato 42
+      vibrato 02ah
     repeatStart
     countedLoopStart 1
       stereo 0c0h
@@ -606,7 +606,7 @@ Music_20_Channel_1:
             waitL 48
     channel_end
 Music_20_Channel_2:
-      vibrato 42
+      vibrato 02ah
     repeatStart
       shifting 32
     countedLoopStart 1
@@ -782,7 +782,7 @@ Music_20_Channel_2:
     countedLoopEnd
     channel_end
 Music_20_Channel_3:
-      vibrato 42
+      vibrato 02ah
     repeatStart
     countedLoopStart 6
       vol 8
@@ -1028,7 +1028,7 @@ Music_20_Channel_4:
     countedLoopStart 2
             waitL 96
     countedLoopEnd
-      vibrato 16
+      vibrato 010h
       vol 10
       inst 40
       stereo 040h
@@ -1113,7 +1113,7 @@ Music_20_Channel_4:
     countedLoopStart 25
             waitL 96
     countedLoopEnd
-      vibrato 42
+      vibrato 02ah
             waitL 24
     countedLoopStart 3
       vol 7

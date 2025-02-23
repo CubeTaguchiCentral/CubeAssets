@@ -17,7 +17,7 @@ Music_06_Channel_0:
       inst 8
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       sustain
             noteL A5, 8
       setSlide 6
@@ -53,7 +53,7 @@ Music_06_Channel_1:
       inst 8
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       sustain
             noteL E5, 6
       setSlide 9
@@ -89,7 +89,7 @@ Music_06_Channel_2:
       inst 25
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL A3, 24
             noteL A3, 6
             note C4
@@ -120,7 +120,7 @@ Music_06_Channel_3:
       inst 8
       vol 8
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       sustain
       shifting 32
       stereo 080h
@@ -159,7 +159,7 @@ Music_06_Channel_4:
       inst 8
       vol 8
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 040h
       shifting 32
             waitL 12

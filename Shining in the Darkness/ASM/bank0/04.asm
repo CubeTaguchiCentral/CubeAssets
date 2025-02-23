@@ -18,7 +18,7 @@ Music_04_Channel_0:
       inst 15
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL F5, 36
       vol 13
             noteL As5, 12
@@ -95,7 +95,7 @@ Music_04_Channel_1:
       inst 15
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL Fs5, 92
       vol 9
             noteL F5, 96
@@ -145,7 +145,7 @@ Music_04_Channel_2:
       inst 15
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL Cs5, 93
       vol 9
             noteL C5, 96
@@ -189,7 +189,7 @@ Music_04_Channel_3:
       inst 15
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL Ds4, 94
       vol 9
             noteL F4, 96
@@ -222,7 +222,7 @@ Music_04_Channel_4:
       inst 15
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL Ds3, 96
       vol 9
             note F3

@@ -15,7 +15,7 @@ Music_02:
     dw Music_02_Channel_5
 Music_02_Channel_0:
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
             waitL 48
       inst 49
@@ -32,10 +32,10 @@ Music_02_Channel_0:
             note Gs6
       sustain
             noteL E6, 192
-      vibrato 32
+      vibrato 020h
       setRelease 1
             noteL E6, 96
-      vibrato 44
+      vibrato 02ch
             note Gs5
             waitL 24
             note Ds5
@@ -64,10 +64,10 @@ Music_02_Channel_0:
             noteL G6, 48
       sustain
             noteL Gs6, 144
-      vibrato 32
+      vibrato 020h
       setRelease 1
             noteL Gs6, 216
-      vibrato 44
+      vibrato 02ch
       vol 12
             noteL Gs6, 24
             note As6
@@ -87,7 +87,7 @@ Music_02_Channel_0:
 Music_02_Channel_1:
       inst 49
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
             waitL 24
       vol 11
@@ -118,13 +118,13 @@ Music_02_Channel_1:
       vol 10
       sustain
             noteL G6, 144
-      vibrato 32
+      vibrato 020h
       setRelease 1
             note G6
-      vibrato 44
+      vibrato 02ch
       sustain
             note F6
-      vibrato 32
+      vibrato 020h
       setRelease 1
             note F6
             waitL 48
@@ -136,7 +136,7 @@ Music_02_Channel_2:
       inst 36
       vol 11
       setRelease 0
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
             noteL As3, 192
             note As3
@@ -177,7 +177,7 @@ Music_02_Channel_3:
       shifting 132
       vol 10
       setRelease 0
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
             noteL D7, 96
             note D7
@@ -242,7 +242,7 @@ Music_02_Channel_4:
       inst 59
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
             noteL B6, 96
             note B6
@@ -306,7 +306,7 @@ Music_02_Channel_5:
 Music_02_Channel_6:
       psgInst 028h
       setRelease 0
-      vibrato 0
+      vibrato 00h
     mainLoopStart
             psgNoteL D5, 96
             psgNote D5
@@ -368,7 +368,7 @@ Music_02_Channel_6:
 Music_02_Channel_7:
       psgInst 028h
       setRelease 0
-      vibrato 0
+      vibrato 00h
     mainLoopStart
             psgNoteL B4, 96
             psgNote B4

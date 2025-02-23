@@ -16,7 +16,7 @@ Music_12:
 Music_12_Channel_0:
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     countedLoopStart 1
       inst 38
             noteL D4, 16
@@ -124,7 +124,7 @@ Music_12_Channel_0:
     mainLoopEnd
 Music_12_Channel_1:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     countedLoopStart 1
             waitL 96
     countedLoopEnd
@@ -140,15 +140,15 @@ Music_12_Channel_1:
             noteL Fs6, 56
             waitL 16
       vol 10
-      vibrato 35
+      vibrato 023h
       inst 2
             noteL C7, 24
-      vibrato 42
+      vibrato 02ah
             noteL B6, 8
             waitL 64
-      vibrato 35
+      vibrato 023h
             noteL B6, 24
-      vibrato 42
+      vibrato 02ah
             noteL A6, 8
             waitL 72
     countedLoopEnd
@@ -189,7 +189,7 @@ Music_12_Channel_1:
     mainLoopEnd
 Music_12_Channel_2:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     countedLoopStart 1
             waitL 96
     countedLoopEnd
@@ -206,14 +206,14 @@ Music_12_Channel_2:
             noteL Fs6, 56
             waitL 12
       inst 2
-      vibrato 35
+      vibrato 023h
             noteL G6, 24
-      vibrato 42
+      vibrato 02ah
             noteL G6, 8
             waitL 64
-      vibrato 35
+      vibrato 023h
             noteL G6, 24
-      vibrato 42
+      vibrato 02ah
             noteL E6, 8
             waitL 72
     countedLoopEnd
@@ -265,7 +265,7 @@ Music_12_Channel_2:
     mainLoopEnd
 Music_12_Channel_3:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     countedLoopStart 1
             waitL 96
     countedLoopEnd
@@ -287,14 +287,14 @@ Music_12_Channel_3:
             noteL A6, 56
             waitL 16
       inst 2
-      vibrato 35
+      vibrato 023h
             noteL D6, 24
-      vibrato 42
+      vibrato 02ah
             noteL D6, 8
             waitL 64
-      vibrato 35
+      vibrato 023h
             noteL D6, 24
-      vibrato 42
+      vibrato 02ah
             noteL Cs6, 8
             waitL 72
     countedLoopEnd
@@ -337,7 +337,7 @@ Music_12_Channel_3:
     mainLoopEnd
 Music_12_Channel_4:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     countedLoopStart 1
             waitL 96
     countedLoopEnd
@@ -346,14 +346,14 @@ Music_12_Channel_4:
             waitL 88
       vol 10
       inst 2
-      vibrato 35
+      vibrato 023h
             noteL C6, 24
-      vibrato 42
+      vibrato 02ah
             noteL B5, 8
             waitL 64
-      vibrato 35
+      vibrato 023h
             noteL B5, 24
-      vibrato 42
+      vibrato 02ah
             noteL A5, 8
             waitL 72
     countedLoopEnd

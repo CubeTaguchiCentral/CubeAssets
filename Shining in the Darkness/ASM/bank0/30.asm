@@ -17,7 +17,7 @@ Music_30_Channel_0:
       inst 24
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL As4, 12
             note A2
             note As3
@@ -42,7 +42,7 @@ Music_30_Channel_1:
       inst 8
       vol 11
       setRelease 1
-      vibrato 16
+      vibrato 010h
             noteL As4, 12
             note A2
             note As3
@@ -67,7 +67,7 @@ Music_30_Channel_2:
       inst 30
       vol 13
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL As3, 12
             note A2
             note As2
@@ -92,7 +92,7 @@ Music_30_Channel_3:
       inst 13
       vol 11
       setRelease 1
-      vibrato 16
+      vibrato 010h
             noteL As5, 12
             note A3
             note As4
@@ -119,7 +119,7 @@ Music_30_Channel_4:
       inst 13
       vol 9
       setRelease 1
-      vibrato 16
+      vibrato 010h
             noteL As5, 12
             note A3
             note As4

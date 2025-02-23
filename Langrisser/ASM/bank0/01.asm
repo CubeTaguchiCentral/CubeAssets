@@ -19,7 +19,7 @@ Music_01_Channel_0:
       inst 42
       vol 12
       setRelease 1
-      vibrato 39
+      vibrato 027h
             noteL C3, 24
             noteL A2, 18
             noteL A2, 6
@@ -31,7 +31,7 @@ Music_01_Channel_1:
       inst 42
       vol 10
       setRelease 1
-      vibrato 39
+      vibrato 027h
             noteL E4, 24
             noteL C4, 18
             noteL C4, 6
@@ -42,7 +42,7 @@ Music_01_Channel_2:
       inst 42
       vol 10
       setRelease 1
-      vibrato 39
+      vibrato 027h
             noteL A4, 24
             noteL E4, 18
             noteL E4, 6
@@ -56,7 +56,7 @@ Music_01_Channel_3:
       inst 43
       vol 7
       setRelease 1
-      vibrato 39
+      vibrato 027h
             noteL Cs6, 12
             note Gs5
             noteL Cs6, 24
@@ -69,7 +69,7 @@ Music_01_Channel_4:
       inst 43
       vol 8
       setRelease 1
-      vibrato 39
+      vibrato 027h
             noteL Gs5, 12
             note E5
             noteL Gs5, 24

@@ -17,7 +17,7 @@ Music_11_Channel_0:
       inst 32
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     mainLoopStart
       stereo 0c0h
             noteL C4, 7
@@ -61,10 +61,10 @@ Music_11_Channel_0:
     mainLoopEnd
 Music_11_Channel_1:
       setRelease 1
-      vibrato 37
+      vibrato 025h
             waitL 112
     mainLoopStart
-      vibrato 27
+      vibrato 01bh
       inst 15
       vol 10
             noteL C5, 14
@@ -109,7 +109,7 @@ Music_11_Channel_1:
       inst 7
       vol 11
     repeatStart
-      vibrato 42
+      vibrato 02ah
             noteL G5, 7
             note Ds5
             note C5
@@ -204,7 +204,7 @@ Music_11_Channel_1:
             note As5
     repeatEnd
     repeatSection2Start
-      vibrato 212
+      vibrato 0d4h
             noteL C6, 28
             waitL 84
     mainLoopEnd
@@ -212,7 +212,7 @@ Music_11_Channel_2:
       inst 6
       vol 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     mainLoopStart
       stereo 040h
             noteL C5, 7
@@ -362,7 +362,7 @@ Music_11_Channel_2:
     mainLoopEnd
 Music_11_Channel_3:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     mainLoopStart
       stereo 0c0h
             waitL 42
@@ -421,12 +421,12 @@ Music_11_Channel_3:
 Music_11_Channel_4:
             waitL 19
       setRelease 1
-      vibrato 37
+      vibrato 025h
             waitL 112
     mainLoopStart
       inst 15
       vol 8
-      vibrato 27
+      vibrato 01bh
             noteL C5, 14
             waitL 7
             noteL C6, 63
@@ -469,7 +469,7 @@ Music_11_Channel_4:
       inst 7
       vol 8
     repeatStart
-      vibrato 42
+      vibrato 02ah
             noteL G5, 7
             note Ds5
             note C5
@@ -564,7 +564,7 @@ Music_11_Channel_4:
             note As5
     repeatEnd
     repeatSection2Start
-      vibrato 212
+      vibrato 0d4h
             noteL C6, 28
             waitL 84
     mainLoopEnd
@@ -670,7 +670,7 @@ Music_11_Channel_5:
 Music_11_Channel_6:
       psgInst 08h
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     mainLoopStart
             psgNoteL C2, 7
             psgNote D2

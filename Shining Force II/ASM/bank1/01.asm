@@ -15,7 +15,7 @@ Music_01:
     dw Music_01_Channel_8
 Music_01_Channel_0:
       stereo 0c0h
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
       inst 38
       vol 12
@@ -252,7 +252,7 @@ Music_01_Channel_0:
 Music_01_Channel_1:
       stereo 0c0h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
             waitL 12
       inst 26
@@ -616,7 +616,7 @@ Music_01_Channel_1:
     mainLoopEnd
 Music_01_Channel_2:
       stereo 0c0h
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
       inst 13
       vol 10
@@ -1010,7 +1010,7 @@ Music_01_Channel_2:
     mainLoopEnd
 Music_01_Channel_3:
       stereo 0c0h
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
       inst 13
       vol 10
@@ -1367,7 +1367,7 @@ Music_01_Channel_4:
             waitL 6
       shifting 32
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
             waitL 12
       stereo 040h
@@ -2069,7 +2069,7 @@ Music_01_Channel_5:
     mainLoopEnd
 Music_01_Channel_6:
       setRelease 1
-      vibrato 76
+      vibrato 04ch
     mainLoopStart
       psgInst 07bh
             psgNoteL F3, 72
@@ -2374,7 +2374,7 @@ Music_01_Channel_6:
     mainLoopEnd
 Music_01_Channel_7:
       setRelease 1
-      vibrato 76
+      vibrato 04ch
     mainLoopStart
       shifting 0
       psgInst 07bh

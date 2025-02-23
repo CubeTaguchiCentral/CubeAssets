@@ -16,7 +16,7 @@ Music_17:
 Music_17_Channel_0:
       stereo 0c0h
       inst 24
-      vibrato 44
+      vibrato 02ch
       setRelease 1
     mainLoopStart
             waitL 22
@@ -106,7 +106,7 @@ Music_17_Channel_0:
 Music_17_Channel_1:
       stereo 0c0h
       setRelease 1
-      vibrato 0
+      vibrato 00h
     mainLoopStart
       inst 5
       vol 11
@@ -143,7 +143,7 @@ Music_17_Channel_1:
 Music_17_Channel_2:
       stereo 0c0h
       setRelease 1
-      vibrato 0
+      vibrato 00h
     mainLoopStart
       inst 5
       vol 10
@@ -191,7 +191,7 @@ Music_17_Channel_2:
 Music_17_Channel_3:
       stereo 0c0h
       setRelease 1
-      vibrato 0
+      vibrato 00h
     mainLoopStart
       inst 5
       vol 10
@@ -233,7 +233,7 @@ Music_17_Channel_3:
 Music_17_Channel_4:
       stereo 0c0h
       setRelease 1
-      vibrato 0
+      vibrato 00h
     mainLoopStart
       inst 5
             waitL 125
@@ -273,7 +273,7 @@ Music_17_Channel_5:
       stereo 080h
       shifting 32
             waitL 15
-      vibrato 44
+      vibrato 02ch
       inst 24
       setRelease 1
     mainLoopStart

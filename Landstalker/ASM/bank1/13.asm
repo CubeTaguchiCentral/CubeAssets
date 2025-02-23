@@ -18,7 +18,7 @@ Music_13_Channel_0:
             waitL 8
       inst 1
       setRelease 1
-      vibrato 0
+      vibrato 00h
       vol 11
             noteL E6, 23
             waitL 19
@@ -185,7 +185,7 @@ Music_13_Channel_1:
             waitL 28
       inst 1
       setRelease 1
-      vibrato 0
+      vibrato 00h
       vol 11
             noteL D6, 110
             waitL 25
@@ -329,7 +329,7 @@ Music_13_Channel_2:
             waitL 5
       inst 1
       setRelease 1
-      vibrato 0
+      vibrato 00h
       vol 11
             noteL C6, 133
             waitL 4
@@ -444,7 +444,7 @@ Music_13_Channel_3:
             waitL 3
       inst 1
       setRelease 1
-      vibrato 0
+      vibrato 00h
       vol 10
             noteL A5, 135
             waitL 2
@@ -564,7 +564,7 @@ Music_13_Channel_4:
     mainLoopStart
       inst 1
       setRelease 1
-      vibrato 0
+      vibrato 00h
       vol 10
             noteL F4, 138
       vol 9

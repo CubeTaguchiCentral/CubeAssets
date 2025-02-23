@@ -17,7 +17,7 @@ Music_03_Channel_0:
       inst 13
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 48
             noteL B5, 16
             wait
@@ -32,7 +32,7 @@ Music_03_Channel_0:
             waitL 14
       sustain
             noteL Fs6, 48
-      vibrato 32
+      vibrato 020h
             noteL Fs6, 144
       setRelease 1
             noteL Fs6, 96
@@ -42,7 +42,7 @@ Music_03_Channel_1:
       inst 4
       vol 9
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 080h
             noteL A4, 6
             note A4
@@ -137,7 +137,7 @@ Music_03_Channel_2:
       inst 27
       vol 14
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 040h
             waitL 96
             waitL 36
@@ -153,7 +153,7 @@ Music_03_Channel_2:
             noteL B3, 12
       sustain
             noteL B3, 144
-      vibrato 32
+      vibrato 020h
       setRelease 1
             noteL B3, 96
             waitL 12
@@ -162,7 +162,7 @@ Music_03_Channel_3:
       inst 13
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 96
             noteL Fs6, 132
             waitL 12
@@ -174,7 +174,7 @@ Music_03_Channel_3:
             waitL 14
       sustain
             noteL Cs6, 48
-      vibrato 32
+      vibrato 020h
             noteL Cs6, 144
       setRelease 1
             noteL Cs6, 96
@@ -184,7 +184,7 @@ Music_03_Channel_4:
       inst 13
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 96
             noteL Cs6, 132
             waitL 12
@@ -196,7 +196,7 @@ Music_03_Channel_4:
             waitL 14
       sustain
             noteL B5, 48
-      vibrato 32
+      vibrato 020h
             noteL B5, 144
       setRelease 1
             noteL B5, 96
@@ -430,7 +430,7 @@ Music_03_Channel_5:
 Music_03_Channel_6:
       psgInst 0ch
       setRelease 0
-      vibrato 76
+      vibrato 04ch
             psgNoteL A2, 6
             psgNote B2
             psgNote Cs3
@@ -482,7 +482,7 @@ Music_03_Channel_6:
 Music_03_Channel_7:
       psgInst 00h
       setRelease 0
-      vibrato 76
+      vibrato 04ch
             waitL 48
       psgInst 0ch
             psgNoteL A2, 4

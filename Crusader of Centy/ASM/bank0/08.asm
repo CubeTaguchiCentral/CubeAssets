@@ -17,7 +17,7 @@ Music_08_Channel_0:
       inst 28
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL Gs3, 36
             note Gs3
             noteL Cs4, 12
@@ -328,7 +328,7 @@ Music_08_Channel_1:
       vol 7
       shifting 32
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 080h
             waitL 12
             noteL Ds6, 24
@@ -469,7 +469,7 @@ Music_08_Channel_2:
       inst 1
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL Ds6, 24
             noteL C6, 6
             wait
@@ -575,7 +575,7 @@ Music_08_Channel_3:
       inst 1
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL G6, 30
             waitL 6
             noteL F6, 60
@@ -667,7 +667,7 @@ Music_08_Channel_4:
       vol 7
       shifting 32
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 040h
             waitL 12
             noteL G6, 30
@@ -932,7 +932,7 @@ Music_08_Channel_6:
     repeatStart
       psgInst 01ch
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             psgNoteL Ds4, 12
             psgNote C4
             psgNote G3
@@ -1125,7 +1125,7 @@ Music_08_Channel_7:
       psgInst 08h
       shifting 16
       setRelease 1
-      vibrato 76
+      vibrato 04ch
             waitL 8
     repeatStart
             psgNoteL Ds4, 12

@@ -16,7 +16,7 @@ Music_28:
 Music_28_Channel_0:
       stereo 0c0h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       inst 13
       vol 12
             noteL D6, 30
@@ -88,7 +88,7 @@ Music_28_Channel_0:
             note Gs6
       sustain
             noteL Fs6, 216
-      vibrato 32
+      vibrato 020h
       vol 9
             noteL Fs6, 6
       vol 7
@@ -101,7 +101,7 @@ Music_28_Channel_0:
 Music_28_Channel_1:
       stereo 0c0h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 24
       inst 3
       vol 12
@@ -129,7 +129,7 @@ Music_28_Channel_1:
             noteL E3, 9
       setSlide 8
             noteL Fs4, 7
-      vibrato 32
+      vibrato 020h
             noteL Fs4, 200
       noSlide
       vol 8
@@ -144,7 +144,7 @@ Music_28_Channel_1:
 Music_28_Channel_2:
       stereo 0c0h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       inst 13
       vol 11
             noteL C6, 30
@@ -216,7 +216,7 @@ Music_28_Channel_2:
             note Ds6
       sustain
             noteL Ds6, 216
-      vibrato 32
+      vibrato 020h
       vol 8
             noteL Ds6, 6
       vol 6
@@ -229,7 +229,7 @@ Music_28_Channel_2:
 Music_28_Channel_3:
       stereo 0c0h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       inst 13
       vol 11
             noteL F5, 30
@@ -279,7 +279,7 @@ Music_28_Channel_3:
             noteL Gs5, 6
       sustain
             noteL As5, 216
-      vibrato 32
+      vibrato 020h
       vol 8
             noteL As5, 6
       vol 6
@@ -294,7 +294,7 @@ Music_28_Channel_4:
       shifting 16
       stereo 040h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       inst 13
       vol 11
             noteL D6, 18
@@ -388,7 +388,7 @@ Music_28_Channel_4:
       vol 12
       sustain
             noteL E3, 108
-      vibrato 32
+      vibrato 020h
       vol 9
             noteL E3, 6
       vol 7
@@ -420,7 +420,7 @@ Music_28_Channel_5:
 Music_28_Channel_6:
       psgInst 07ch
       setRelease 1
-      vibrato 76
+      vibrato 04ch
     countedLoopStart 23
             psgNoteL F5, 3
             psgNote G5
@@ -468,7 +468,7 @@ Music_28_Channel_6:
             psgNote E5
     countedLoopEnd
             psgNoteL Ds5, 108
-      vibrato 64
+      vibrato 040h
             waitL 6
       psgInst 0ah
             wait
@@ -483,7 +483,7 @@ Music_28_Channel_7:
             waitL 9
       psgInst 07ah
       setRelease 1
-      vibrato 76
+      vibrato 04ch
     countedLoopStart 23
             psgNoteL F5, 3
             psgNote G5
@@ -531,7 +531,7 @@ Music_28_Channel_7:
             psgNote E5
     countedLoopEnd
             psgNoteL Ds5, 108
-      vibrato 64
+      vibrato 040h
             waitL 6
       psgInst 08h
             wait

@@ -17,7 +17,7 @@ Music_06_Channel_0:
       inst 8
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL B5, 5
             waitL 11
             noteL B5, 5
@@ -202,9 +202,9 @@ Music_06_Channel_0:
       sustain
             noteL E7, 48
       setRelease 1
-      vibrato 32
+      vibrato 020h
             noteL E7, 32
-      vibrato 44
+      vibrato 02ch
             noteL D7, 8
             note Cs7
             note Fs7
@@ -212,11 +212,11 @@ Music_06_Channel_0:
             note D7
       sustain
             noteL G7, 72
-      vibrato 32
+      vibrato 020h
       setRelease 1
             note G7
             wait
-      vibrato 44
+      vibrato 02ch
             wait
             wait
             waitL 48
@@ -305,9 +305,9 @@ Music_06_Channel_0:
       sustain
             noteL E6, 48
       setRelease 1
-      vibrato 32
+      vibrato 020h
             noteL E6, 32
-      vibrato 44
+      vibrato 02ch
             noteL D6, 8
             note Cs6
             note Fs6
@@ -316,9 +316,9 @@ Music_06_Channel_0:
       sustain
             noteL G6, 72
       setRelease 1
-      vibrato 32
+      vibrato 020h
             noteL G6, 48
-      vibrato 44
+      vibrato 02ch
             waitL 16
       inst 21
       vol 10
@@ -339,13 +339,13 @@ Music_06_Channel_0:
       sustain
             noteL E5, 72
       setRelease 1
-      vibrato 32
+      vibrato 020h
             noteL E5, 48
-      vibrato 44
+      vibrato 02ch
             waitL 16
       inst 8
       vol 11
-      vibrato 44
+      vibrato 02ch
       setRelease 3
       stereo 0c0h
             noteL Fs6, 8
@@ -513,9 +513,9 @@ Music_06_Channel_0:
       sustain
             noteL E7, 48
       setRelease 1
-      vibrato 32
+      vibrato 020h
             noteL E7, 32
-      vibrato 44
+      vibrato 02ch
             noteL D7, 8
             note Cs7
             note Fs7
@@ -523,12 +523,12 @@ Music_06_Channel_0:
             note D7
       sustain
             noteL G7, 72
-      vibrato 32
+      vibrato 020h
             note G7
             note G7
       setRelease 1
             noteL G7, 48
-      vibrato 44
+      vibrato 02ch
       inst 8
       vol 11
       setRelease 1
@@ -551,16 +551,16 @@ Music_06_Channel_0:
       sustain
             noteL Fs6, 66
       setRelease 1
-      vibrato 32
+      vibrato 020h
             noteL Fs6, 72
-      vibrato 44
+      vibrato 02ch
             waitL 12
     channel_end
 Music_06_Channel_1:
       inst 4
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 15
             noteL B3, 3
             note B3
@@ -990,11 +990,11 @@ Music_06_Channel_1:
             note E3
       sustain
             note D3
-      vibrato 32
+      vibrato 020h
             note D3
       setRelease 1
             note D3
-      vibrato 44
+      vibrato 02ch
       inst 4
       vol 6
       setRelease 1
@@ -1376,9 +1376,9 @@ Music_06_Channel_1:
       sustain
             note Fs5
       setRelease 1
-      vibrato 32
+      vibrato 020h
             note Fs5
-      vibrato 44
+      vibrato 02ch
       inst 4
       vol 4
       setRelease 1
@@ -1611,7 +1611,7 @@ Music_06_Channel_2:
       inst 27
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 24
             noteL B3, 8
             wait
@@ -1652,9 +1652,9 @@ Music_06_Channel_2:
       sustain
             noteL G3, 72
       setRelease 1
-      vibrato 32
+      vibrato 020h
             note G3
-      vibrato 44
+      vibrato 02ch
             noteL A3, 48
             noteL G3, 24
             note Fs3
@@ -1699,9 +1699,9 @@ Music_06_Channel_2:
       sustain
             noteL G3, 72
       setRelease 1
-      vibrato 32
+      vibrato 020h
             note G3
-      vibrato 44
+      vibrato 02ch
             noteL A3, 48
             noteL G3, 24
             note Fs3
@@ -1733,18 +1733,18 @@ Music_06_Channel_2:
       sustain
             note G2
       setRelease 1
-      vibrato 32
+      vibrato 020h
             note G2
       sustain
-      vibrato 44
+      vibrato 02ch
             note A2
       setRelease 1
-      vibrato 32
+      vibrato 020h
             note A2
       inst 27
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL B3, 8
             wait
             note B3
@@ -1784,7 +1784,7 @@ Music_06_Channel_2:
       sustain
             noteL G3, 72
       setRelease 1
-      vibrato 32
+      vibrato 020h
             note G3
             noteL A3, 48
             noteL G3, 24
@@ -1816,18 +1816,18 @@ Music_06_Channel_2:
       sustain
             note G3
       setRelease 1
-      vibrato 32
+      vibrato 020h
             note G3
       sustain
-      vibrato 44
+      vibrato 02ch
             note A3
       setRelease 1
-      vibrato 32
+      vibrato 020h
             note A3
       inst 27
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL B3, 8
             wait
             note B3
@@ -1939,9 +1939,9 @@ Music_06_Channel_2:
       sustain
             noteL G3, 72
       setRelease 1
-      vibrato 32
+      vibrato 020h
             note G3
-      vibrato 44
+      vibrato 02ch
             noteL A3, 48
             noteL G3, 24
             note Fs3
@@ -1970,18 +1970,18 @@ Music_06_Channel_2:
       sustain
             note Gs3
       setRelease 1
-      vibrato 32
+      vibrato 020h
             note Gs3
       sustain
-      vibrato 44
+      vibrato 02ch
             note A3
-      vibrato 32
+      vibrato 020h
             note A3
             note A3
       setRelease 1
             note A3
       vol 11
-      vibrato 44
+      vibrato 02ch
             noteL B3, 18
             waitL 6
             noteL A3, 18
@@ -1999,7 +1999,7 @@ Music_06_Channel_2:
       sustain
             noteL B3, 48
       setRelease 1
-      vibrato 32
+      vibrato 020h
             noteL B3, 72
             waitL 12
     channel_end
@@ -2007,7 +2007,7 @@ Music_06_Channel_3:
       inst 8
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 24
             noteL Fs6, 40
             waitL 8
@@ -2130,19 +2130,19 @@ Music_06_Channel_3:
       sustain
             noteL Fs5, 50
       setRelease 1
-      vibrato 32
+      vibrato 020h
             noteL Fs5, 72
       sustain
-      vibrato 44
+      vibrato 02ch
             note As5
       setRelease 1
-      vibrato 32
+      vibrato 020h
             note As5
             wait
       inst 8
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
             wait
             wait
@@ -2224,9 +2224,9 @@ Music_06_Channel_3:
       sustain
             noteL B5, 48
       setRelease 1
-      vibrato 32
+      vibrato 020h
             noteL B5, 32
-      vibrato 44
+      vibrato 02ch
             noteL G5, 8
             note G5
             note D6
@@ -2235,13 +2235,13 @@ Music_06_Channel_3:
       sustain
             noteL E6, 72
       setRelease 1
-      vibrato 32
+      vibrato 020h
             noteL E6, 48
             waitL 16
       inst 21
       vol 10
       setRelease 4
-      vibrato 44
+      vibrato 02ch
             noteL Cs5, 8
             noteL Cs5, 72
             noteL B4, 48
@@ -2260,7 +2260,7 @@ Music_06_Channel_3:
             waitL 16
       inst 8
       vol 11
-      vibrato 44
+      vibrato 02ch
       setRelease 3
       stereo 0c0h
             noteL Cs6, 8
@@ -2294,7 +2294,7 @@ Music_06_Channel_3:
       inst 2
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL Fs5, 16
             noteL Fs5, 8
       vol 8
@@ -2423,9 +2423,9 @@ Music_06_Channel_3:
       sustain
             noteL E6, 48
       setRelease 1
-      vibrato 32
+      vibrato 020h
             noteL E6, 32
-      vibrato 44
+      vibrato 02ch
             noteL D6, 8
             note Cs6
             note Fs6
@@ -2434,17 +2434,17 @@ Music_06_Channel_3:
       sustain
             noteL D7, 72
       setRelease 1
-      vibrato 32
+      vibrato 020h
             note D7
       sustain
-      vibrato 44
+      vibrato 02ch
             note Cs7
       setRelease 1
             noteL Cs7, 48
       inst 21
       vol 9
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL B4, 8
             wait
             note B4
@@ -2465,7 +2465,7 @@ Music_06_Channel_3:
       sustain
             noteL Ds6, 66
       setRelease 1
-      vibrato 32
+      vibrato 020h
             noteL Ds6, 72
             waitL 12
     channel_end
@@ -2473,7 +2473,7 @@ Music_06_Channel_4:
       inst 8
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 24
             noteL Cs6, 40
             waitL 8
@@ -2584,19 +2584,19 @@ Music_06_Channel_4:
       sustain
             noteL D4, 50
       setRelease 1
-      vibrato 32
+      vibrato 020h
             noteL D4, 72
       sustain
-      vibrato 44
+      vibrato 02ch
             note G4
-      vibrato 32
+      vibrato 020h
       setRelease 1
             note G4
             wait
       inst 8
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
             wait
             wait
@@ -2643,17 +2643,17 @@ Music_06_Channel_4:
       sustain
             note G4
       setRelease 1
-      vibrato 32
+      vibrato 020h
             note G4
       sustain
-      vibrato 44
+      vibrato 02ch
             note G4
       setRelease 1
-      vibrato 32
+      vibrato 020h
             noteL G4, 48
             waitL 16
       inst 21
-      vibrato 44
+      vibrato 02ch
       vol 11
       setRelease 4
             noteL B4, 8
@@ -2672,12 +2672,12 @@ Music_06_Channel_4:
       sustain
             noteL Fs4, 72
       setRelease 1
-      vibrato 32
+      vibrato 020h
             noteL Fs4, 48
             waitL 16
       inst 8
       vol 11
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
       setRelease 3
             noteL B5, 8
@@ -2711,7 +2711,7 @@ Music_06_Channel_4:
       inst 2
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL B5, 8
             note A5
             note G5
@@ -2762,16 +2762,16 @@ Music_06_Channel_4:
       sustain
             note E5
       setRelease 1
-      vibrato 32
+      vibrato 020h
             note E5
       sustain
-      vibrato 44
+      vibrato 02ch
             note G4
-      vibrato 32
+      vibrato 020h
             note G4
             note G4
       setRelease 1
-      vibrato 32
+      vibrato 020h
             noteL G4, 48
       inst 21
       vol 9
@@ -2796,7 +2796,7 @@ Music_06_Channel_4:
       sustain
             noteL B5, 66
       setRelease 1
-      vibrato 32
+      vibrato 020h
             noteL B5, 72
             waitL 12
     channel_end
@@ -3459,7 +3459,7 @@ Music_06_Channel_5:
     channel_end
 Music_06_Channel_6:
       psgInst 00h
-      vibrato 76
+      vibrato 04ch
             waitL 24
       psgInst 0dh
       setRelease 4
@@ -3546,10 +3546,10 @@ Music_06_Channel_6:
       psgInst 0bh
       sustain
             psgNoteL B2, 72
-      vibrato 64
+      vibrato 040h
       setRelease 1
             psgNote B2
-      vibrato 76
+      vibrato 04ch
             psgNoteL Cs3, 48
             psgNoteL B2, 24
             psgNote B2
@@ -3642,9 +3642,9 @@ Music_06_Channel_6:
       sustain
             psgNoteL B2, 72
       setRelease 1
-      vibrato 64
+      vibrato 040h
             psgNote B2
-      vibrato 76
+      vibrato 04ch
             psgNoteL Cs3, 48
             psgNoteL B2, 24
             psgNote B2
@@ -3696,9 +3696,9 @@ Music_06_Channel_6:
       sustain
             psgNoteL E5, 48
       setRelease 1
-      vibrato 64
+      vibrato 040h
             psgNoteL E5, 32
-      vibrato 76
+      vibrato 04ch
             psgNoteL D5, 8
             psgNote Cs5
             psgNote Fs5
@@ -3707,11 +3707,11 @@ Music_06_Channel_6:
       sustain
             psgNoteL Cs5, 72
       ymTimer 185
-      vibrato 64
+      vibrato 040h
       setRelease 1
             psgNote Cs5
       ymTimer 190
-      vibrato 76
+      vibrato 04ch
       setRelease 4
       psgInst 0dh
             psgNoteL B2, 8
@@ -3798,9 +3798,9 @@ Music_06_Channel_6:
       psgInst 0bh
             psgNoteL B2, 72
       setRelease 1
-      vibrato 64
+      vibrato 040h
             psgNote B2
-      vibrato 76
+      vibrato 04ch
             psgNoteL Cs3, 48
             psgNoteL B2, 24
             psgNote B2
@@ -3847,17 +3847,17 @@ Music_06_Channel_6:
       sustain
             psgNoteL B3, 48
       setRelease 1
-      vibrato 64
+      vibrato 040h
             psgNoteL B3, 72
-      vibrato 76
+      vibrato 04ch
       sustain
             psgNote As3
       ymTimer 185
       setRelease 1
-      vibrato 64
+      vibrato 040h
             psgNote As3
       ymTimer 190
-      vibrato 76
+      vibrato 04ch
       setRelease 4
       psgInst 0dh
             psgNoteL B2, 8
@@ -4152,42 +4152,42 @@ Music_06_Channel_6:
       ymTimer 177
       sustain
             psgNote Fs3
-      vibrato 64
+      vibrato 040h
       setRelease 1
             psgNote Fs3
       ymTimer 174
       sustain
-      vibrato 76
+      vibrato 04ch
             psgNote D3
       setRelease 1
-      vibrato 64
+      vibrato 040h
             psgNote D3
       ymTimer 171
       sustain
-      vibrato 64
+      vibrato 040h
             psgNote Cs3
       ymTimer 167
       setRelease 1
-      vibrato 64
+      vibrato 040h
             psgNote Cs3
       sustain
       psgInst 08h
-      vibrato 92
+      vibrato 05ch
             psgNote Fs5
       setRelease 1
-      vibrato 80
+      vibrato 050h
             psgNoteL Fs5, 48
-      vibrato 92
+      vibrato 05ch
             psgNoteL E5, 24
       sustain
             psgNoteL Fs5, 72
       setRelease 1
-      vibrato 80
+      vibrato 050h
             psgNote Fs5
     channel_end
 Music_06_Channel_7:
       psgInst 00h
-      vibrato 76
+      vibrato 04ch
             waitL 24
       psgInst 0dh
       setRelease 4
@@ -4394,15 +4394,15 @@ Music_06_Channel_7:
       sustain
             psgNoteL B2, 50
       setRelease 1
-      vibrato 64
+      vibrato 040h
             psgNoteL B2, 72
-      vibrato 76
+      vibrato 04ch
       sustain
             psgNote As2
       setRelease 1
-      vibrato 64
+      vibrato 040h
             psgNote As2
-      vibrato 76
+      vibrato 04ch
       setRelease 4
       psgInst 0dh
             psgNoteL Fs2, 8
@@ -4520,15 +4520,15 @@ Music_06_Channel_7:
       sustain
             psgNoteL D4, 48
       setRelease 1
-      vibrato 64
+      vibrato 040h
             psgNoteL D4, 72
       sustain
-      vibrato 76
+      vibrato 04ch
             psgNote E4
       setRelease 1
-      vibrato 64
+      vibrato 040h
             psgNote E4
-      vibrato 76
+      vibrato 04ch
       psgInst 0dh
       setRelease 4
             psgNoteL Fs2, 8
@@ -4784,22 +4784,22 @@ Music_06_Channel_7:
       sustain
             psgNote B2
       setRelease 1
-      vibrato 64
+      vibrato 040h
             psgNote B2
       sustain
-      vibrato 76
+      vibrato 04ch
             psgNote E2
       setRelease 1
-      vibrato 64
+      vibrato 040h
             psgNote E2
       sustain
-      vibrato 64
+      vibrato 040h
             psgNote E2
       setRelease 1
-      vibrato 64
+      vibrato 040h
             psgNote E2
       ymTimer 160
-      vibrato 76
+      vibrato 04ch
       psgInst 0ah
             psgNoteL B2, 16
       psgInst 00h
@@ -4837,9 +4837,9 @@ Music_06_Channel_7:
       sustain
             psgNoteL Fs2, 48
       setRelease 1
-      vibrato 64
+      vibrato 040h
             psgNoteL Fs2, 72
-      vibrato 76
+      vibrato 04ch
     channel_end
 Music_06_Channel_8:
     channel_end

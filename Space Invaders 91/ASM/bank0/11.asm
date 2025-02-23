@@ -17,7 +17,7 @@ Music_11_Channel_0:
       inst 22
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 24
             noteL C4, 6
             note C4
@@ -29,7 +29,7 @@ Music_11_Channel_1:
       inst 34
       vol 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL G5, 8
             wait
             note G5
@@ -43,7 +43,7 @@ Music_11_Channel_2:
       inst 34
       vol 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL G5, 8
             wait
             note G5
@@ -57,7 +57,7 @@ Music_11_Channel_3:
       inst 34
       vol 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL G4, 8
             wait
             note G4

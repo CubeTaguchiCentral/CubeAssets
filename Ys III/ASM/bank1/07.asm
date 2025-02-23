@@ -19,7 +19,7 @@ Music_07_Channel_0:
       inst 33
       vol 13
       setRelease 0
-      vibrato 156
+      vibrato 09ch
             noteL Ds3, 32
             note Ds3
             note Ds3
@@ -36,7 +36,7 @@ Music_07_Channel_1:
       inst 33
       vol 13
       setRelease 0
-      vibrato 156
+      vibrato 09ch
       shifting 32
             noteL E3, 32
             note E3
@@ -53,7 +53,7 @@ Music_07_Channel_2:
       inst 33
       vol 13
       setRelease 0
-      vibrato 156
+      vibrato 09ch
             noteL A2, 32
             note A2
             note A2
@@ -71,7 +71,7 @@ Music_07_Channel_3:
       inst 33
       vol 13
       setRelease 0
-      vibrato 156
+      vibrato 09ch
       shifting 32
             noteL Ds3, 32
             note Ds3
@@ -90,7 +90,7 @@ Music_07_Channel_4:
       inst 33
       vol 13
       setRelease 0
-      vibrato 156
+      vibrato 09ch
             noteL E3, 32
             note E3
             note E3
@@ -105,7 +105,7 @@ Music_07_Channel_5:
 Music_07_Channel_6:
       psgInst 097h
       setRelease 0
-      vibrato 42
+      vibrato 02ah
             psgNoteL A6, 16
             psgNote Gs6
       psgInst 098h
@@ -139,7 +139,7 @@ Music_07_Channel_6:
 Music_07_Channel_7:
       psgInst 095h
       setRelease 0
-      vibrato 74
+      vibrato 04ah
             psgNoteL E6, 16
             psgNote Ds6
       psgInst 096h

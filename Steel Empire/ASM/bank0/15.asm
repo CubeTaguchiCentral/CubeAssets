@@ -17,7 +17,7 @@ Music_15_Channel_0:
       inst 44
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 95
     mainLoopStart
     countedLoopStart 8
@@ -50,7 +50,7 @@ Music_15_Channel_1:
       inst 33
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 95
     mainLoopStart
     countedLoopStart 8
@@ -82,7 +82,7 @@ Music_15_Channel_1:
     mainLoopEnd
 Music_15_Channel_2:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       inst 46
       vol 13
             noteL A3, 6
@@ -331,7 +331,7 @@ Music_15_Channel_4:
       inst 44
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 95
     mainLoopStart
     countedLoopStart 8

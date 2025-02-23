@@ -18,7 +18,7 @@ Music_07_Channel_0:
       inst 61
       vol 13
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 080h
             noteL C3, 255
             note G3
@@ -32,7 +32,7 @@ Music_07_Channel_1:
       inst 61
       vol 13
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 040h
             noteL D3, 255
             note A3
@@ -45,7 +45,7 @@ Music_07_Channel_2:
       inst 61
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       shifting 32
       stereo 040h
             waitL 32
@@ -61,7 +61,7 @@ Music_07_Channel_3:
       inst 61
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 080h
       shifting 32
             waitL 32

@@ -17,7 +17,7 @@ Music_12_Channel_0:
       inst 13
       vol 10
       setRelease 1
-      vibrato 74
+      vibrato 04ah
             noteL F6, 10
             waitL 14
             noteL F6, 10
@@ -53,7 +53,7 @@ Music_12_Channel_1:
       inst 13
       vol 10
       setRelease 1
-      vibrato 74
+      vibrato 04ah
             noteL As5, 10
             waitL 14
             noteL As5, 10
@@ -89,7 +89,7 @@ Music_12_Channel_2:
       inst 13
       vol 10
       setRelease 1
-      vibrato 74
+      vibrato 04ah
             noteL Ds5, 10
             waitL 14
             noteL Ds5, 10
@@ -125,7 +125,7 @@ Music_12_Channel_3:
       inst 26
       vol 12
       setRelease 1
-      vibrato 74
+      vibrato 04ah
             noteL F4, 12
             wait
             note As4
@@ -163,7 +163,7 @@ Music_12_Channel_4:
       inst 26
       vol 9
       setRelease 1
-      vibrato 74
+      vibrato 04ah
             noteL F4, 12
             wait
             note As4

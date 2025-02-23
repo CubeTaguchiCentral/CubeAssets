@@ -17,7 +17,7 @@ Music_18_Channel_0:
       inst 27
       vol 13
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     mainLoopStart
     countedLoopStart 7
             noteL D4, 12
@@ -258,7 +258,7 @@ Music_18_Channel_1:
       inst 5
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL A5, 60
             noteL C6, 12
             note Cs6
@@ -451,7 +451,7 @@ Music_18_Channel_2:
       inst 8
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 24
             note F6
             noteL F6, 12
@@ -671,7 +671,7 @@ Music_18_Channel_3:
       inst 8
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 24
             note C6
             noteL C6, 12
@@ -1229,7 +1229,7 @@ Music_18_Channel_5:
 Music_18_Channel_6:
       psgInst 0ah
       setRelease 1
-      vibrato 74
+      vibrato 04ah
     mainLoopStart
     countedLoopStart 3
             psgNoteL F3, 6
@@ -1433,7 +1433,7 @@ Music_18_Channel_6:
 Music_18_Channel_7:
       psgInst 00h
       setRelease 1
-      vibrato 74
+      vibrato 04ah
             waitL 6
       psgInst 08h
     mainLoopStart

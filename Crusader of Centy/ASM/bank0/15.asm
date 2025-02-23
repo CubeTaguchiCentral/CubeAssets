@@ -17,7 +17,7 @@ Music_15_Channel_0:
       inst 34
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL D5, 12
     mainLoopStart
             noteL G5, 12
@@ -183,7 +183,7 @@ Music_15_Channel_1:
       inst 34
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 12
     mainLoopStart
             noteL G4, 48
@@ -240,7 +240,7 @@ Music_15_Channel_2:
       inst 34
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 12
     mainLoopStart
             waitL 96
@@ -305,7 +305,7 @@ Music_15_Channel_3:
       inst 34
       vol 9
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       shifting 32
       stereo 0c0h
             waitL 12
@@ -474,7 +474,7 @@ Music_15_Channel_4:
       inst 34
       vol 9
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       shifting 32
       stereo 040h
             waitL 24
@@ -533,7 +533,7 @@ Music_15_Channel_5:
       inst 34
       vol 9
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       shifting 32
       stereo 080h
             waitL 24

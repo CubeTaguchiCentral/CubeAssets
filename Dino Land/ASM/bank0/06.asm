@@ -18,7 +18,7 @@ Music_06_Channel_0:
       inst 29
       vol 14
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL C4, 12
             wait
@@ -92,7 +92,7 @@ Music_06_Channel_1:
       inst 59
       vol 12
       setRelease 1
-      vibrato 38
+      vibrato 026h
       stereo 040h
             waitL 12
             note Ds5
@@ -171,7 +171,7 @@ Music_06_Channel_2:
       inst 59
       vol 12
       setRelease 1
-      vibrato 38
+      vibrato 026h
       stereo 080h
       shifting 64
             waitL 14
@@ -253,7 +253,7 @@ Music_06_Channel_3:
       inst 43
       vol 9
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 12
             note G5
             wait
@@ -331,7 +331,7 @@ Music_06_Channel_4:
       inst 43
       vol 9
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 12
             note E5
             wait

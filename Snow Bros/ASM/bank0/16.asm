@@ -17,7 +17,7 @@ Music_16_Channel_0:
       inst 0
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL E4, 16
             note As3
@@ -34,7 +34,7 @@ Music_16_Channel_1:
       inst 5
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 040h
             noteL G5, 255
       sustain
@@ -47,7 +47,7 @@ Music_16_Channel_2:
       inst 5
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 080h
             noteL As4, 255
       sustain
@@ -61,7 +61,7 @@ Music_16_Channel_3:
       inst 0
       vol 9
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL E4, 16
             note As3
@@ -79,7 +79,7 @@ Music_16_Channel_4:
       inst 5
       vol 8
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL G5, 255
       sustain

@@ -15,7 +15,7 @@ Music_18:
     dw Music_18_Channel_6
 Music_18_Channel_0:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
       shifting 0
     countedLoopStart 3
@@ -393,7 +393,7 @@ Music_18_Channel_1:
       inst 18
       vol 9
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 040h
       shifting 0
       vol 0
@@ -608,7 +608,7 @@ Music_18_Channel_2:
       inst 14
       vol 14
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
       shifting 0
       vol 0
@@ -738,7 +738,7 @@ Music_18_Channel_2:
 Music_18_Channel_3:
             waitL 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
       shifting 64
     countedLoopStart 3
@@ -1117,7 +1117,7 @@ Music_18_Channel_3:
 Music_18_Channel_4:
             waitL 1
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 040h
       shifting 32
       inst 18

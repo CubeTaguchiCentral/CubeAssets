@@ -17,7 +17,7 @@ Music_21_Channel_0:
       inst 26
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL E5, 24
             note Cs5
             note E5
@@ -40,7 +40,7 @@ Music_21_Channel_1:
       inst 26
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL C5, 24
             note As4
             note C5
@@ -63,7 +63,7 @@ Music_21_Channel_2:
       inst 26
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL G4, 4
             note A4
             note G4
@@ -189,7 +189,7 @@ Music_21_Channel_3:
       inst 26
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL Cs4, 3
             note Ds4
             note Cs4
@@ -355,7 +355,7 @@ Music_21_Channel_4:
       inst 30
       vol 13
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL E2, 192
             note E2
             noteL E2, 96
@@ -370,7 +370,7 @@ Music_21_Channel_5:
 Music_21_Channel_6:
       psgInst 06ch
       setRelease 0
-      vibrato 76
+      vibrato 04ch
             psgNoteL E5, 2
             psgNote Fs5
             psgNote Gs5
@@ -442,7 +442,7 @@ Music_21_Channel_6:
 Music_21_Channel_7:
       psgInst 00h
       setRelease 0
-      vibrato 76
+      vibrato 04ch
             waitL 48
       psgInst 06ch
             psgNoteL E5, 2

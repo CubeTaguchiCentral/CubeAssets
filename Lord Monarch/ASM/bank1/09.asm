@@ -14,7 +14,7 @@ Music_09:
     dw Music_09_Channel_8
     dw Music_09_Channel_8
 Music_09_Channel_0:
-      vibrato 44
+      vibrato 02ch
       stereo 080h
       inst 19
       vol 11
@@ -58,7 +58,7 @@ Music_09_Channel_0:
             wait
     channel_end
 Music_09_Channel_1:
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
       inst 19
       vol 12
@@ -88,7 +88,7 @@ Music_09_Channel_1:
             wait
     channel_end
 Music_09_Channel_2:
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
       inst 19
       vol 11
@@ -120,7 +120,7 @@ Music_09_Channel_2:
             wait
     channel_end
 Music_09_Channel_3:
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
       inst 19
       vol 13
@@ -155,7 +155,7 @@ Music_09_Channel_3:
             wait
     channel_end
 Music_09_Channel_4:
-      vibrato 44
+      vibrato 02ch
       stereo 040h
       inst 19
       vol 10
@@ -269,7 +269,7 @@ Music_09_Channel_5:
     channel_end
 Music_09_Channel_6:
       setRelease 1
-      vibrato 64
+      vibrato 040h
       psgInst 00h
             waitL 36
       psgInst 0ch
@@ -298,14 +298,14 @@ Music_09_Channel_6:
             psgNoteL Fs2, 15
             waitL 21
             psgNoteL G2, 72
-      vibrato 49
+      vibrato 031h
             psgNoteL G2, 156
       psgInst 00h
             wait
     channel_end
 Music_09_Channel_7:
       setRelease 1
-      vibrato 80
+      vibrato 050h
       psgInst 00h
             waitL 36
       psgInst 0bh
@@ -337,7 +337,7 @@ Music_09_Channel_7:
       sustain
             psgNoteL G4, 72
       setRelease 1
-      vibrato 49
+      vibrato 031h
             psgNoteL B4, 156
       psgInst 00h
             wait

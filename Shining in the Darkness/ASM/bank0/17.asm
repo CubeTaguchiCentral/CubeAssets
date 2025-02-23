@@ -17,7 +17,7 @@ Music_17_Channel_0:
       inst 11
       vol 10
       setRelease 1
-      vibrato 90
+      vibrato 05ah
             noteL C6, 12
             note Cs6
             note D6
@@ -39,7 +39,7 @@ Music_17_Channel_1:
       inst 11
       vol 10
       setRelease 1
-      vibrato 90
+      vibrato 05ah
             noteL Gs5, 12
             note A5
             note As5
@@ -61,7 +61,7 @@ Music_17_Channel_2:
       inst 11
       vol 10
       setRelease 1
-      vibrato 90
+      vibrato 05ah
             noteL Ds5, 12
             note E5
             note F5
@@ -83,7 +83,7 @@ Music_17_Channel_3:
       inst 11
       vol 11
       setRelease 1
-      vibrato 90
+      vibrato 05ah
             noteL C4, 96
             noteL F4, 48
             noteL C5, 6
@@ -93,7 +93,7 @@ Music_17_Channel_4:
       inst 11
       vol 12
       setRelease 1
-      vibrato 90
+      vibrato 05ah
             noteL C3, 96
             noteL F3, 48
             noteL C4, 6

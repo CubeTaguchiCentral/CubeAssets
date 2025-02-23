@@ -17,7 +17,7 @@ Music_01_Channel_0:
       inst 27
       vol 13
       setRelease 0
-      vibrato 44
+      vibrato 02ch
             waitL 24
     mainLoopStart
     repeatStart
@@ -555,7 +555,7 @@ Music_01_Channel_1:
       inst 6
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 24
     mainLoopStart
     repeatStart
@@ -1187,7 +1187,7 @@ Music_01_Channel_2:
       inst 6
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 24
     mainLoopStart
     repeatStart
@@ -1822,7 +1822,7 @@ Music_01_Channel_3:
       inst 6
       vol 9
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 24
     mainLoopStart
     countedLoopStart 1
@@ -2598,7 +2598,7 @@ Music_01_Channel_4:
       inst 31
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 24
     mainLoopStart
     countedLoopStart 1
@@ -3678,7 +3678,7 @@ Music_01_Channel_5:
 Music_01_Channel_6:
       psgInst 00h
       setRelease 1
-      vibrato 60
+      vibrato 03ch
             waitL 24
     mainLoopStart
     repeatStart
@@ -3747,7 +3747,7 @@ Music_01_Channel_6:
 Music_01_Channel_7:
       psgInst 00h
       setRelease 1
-      vibrato 60
+      vibrato 03ch
             waitL 24
     mainLoopStart
     repeatStart

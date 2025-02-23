@@ -16,7 +16,7 @@ Music_16:
 Music_16_Channel_0:
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       inst 1
             noteL A3, 24
             waitL 72
@@ -64,7 +64,7 @@ Music_16_Channel_0:
     mainLoopEnd
 Music_16_Channel_1:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     countedLoopStart 1
             waitL 96
     countedLoopEnd
@@ -197,7 +197,7 @@ Music_16_Channel_1:
 Music_16_Channel_2:
       vol 8
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       inst 6
     countedLoopStart 1
             noteL C6, 8
@@ -374,7 +374,7 @@ Music_16_Channel_2:
 Music_16_Channel_3:
       vol 8
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       inst 6
     countedLoopStart 1
             noteL A5, 8
@@ -550,7 +550,7 @@ Music_16_Channel_3:
     mainLoopEnd
 Music_16_Channel_4:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     countedLoopStart 1
             waitL 96
     countedLoopEnd

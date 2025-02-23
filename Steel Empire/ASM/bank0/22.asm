@@ -15,7 +15,7 @@ Music_22:
     dw Music_22_Channel_8
 Music_22_Channel_0:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
       inst 42
       vol 11
@@ -246,7 +246,7 @@ Music_22_Channel_0:
     channel_end
 Music_22_Channel_1:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 080h
       inst 42
       vol 10
@@ -546,7 +546,7 @@ Music_22_Channel_1:
     channel_end
 Music_22_Channel_2:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 040h
       inst 42
       vol 10
@@ -811,7 +811,7 @@ Music_22_Channel_2:
     channel_end
 Music_22_Channel_3:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
       inst 42
       vol 10
@@ -1369,7 +1369,7 @@ Music_22_Channel_3:
 Music_22_Channel_4:
             waitL 13
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
       inst 42
       vol 8
@@ -1892,7 +1892,7 @@ Music_22_Channel_5:
 Music_22_Channel_6:
       psgInst 00h
       setRelease 1
-      vibrato 79
+      vibrato 04fh
     countedLoopStart 7
             waitL 104
     countedLoopEnd
@@ -1957,7 +1957,7 @@ Music_22_Channel_6:
 Music_22_Channel_7:
       psgInst 00h
       setRelease 1
-      vibrato 79
+      vibrato 04fh
     countedLoopStart 7
             waitL 104
     countedLoopEnd

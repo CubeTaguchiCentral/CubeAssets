@@ -18,7 +18,7 @@ Music_14_Channel_0:
       inst 15
       vol 8
       setRelease 0
-      vibrato 42
+      vibrato 02ah
             noteL Fs3, 6
       setSlide 126
             note Fs3
@@ -289,7 +289,7 @@ Music_14_Channel_1:
       inst 15
       vol 9
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
     countedLoopStart 1
             waitL 96
@@ -345,7 +345,7 @@ Music_14_Channel_2:
       inst 57
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL Fs3, 6
             note Fs3
             note G3
@@ -421,7 +421,7 @@ Music_14_Channel_3:
       inst 12
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 96
             noteL C3, 0
       setSlide 31
@@ -474,7 +474,7 @@ Music_14_Channel_4:
       inst 15
       vol 6
       setRelease 0
-      vibrato 42
+      vibrato 02ah
             noteL Fs3, 6
       setSlide 126
             note Fs3

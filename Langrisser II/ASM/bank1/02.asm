@@ -1109,7 +1109,7 @@ Music_02_Channel_6:
     mainLoopStart
       psgInst 00h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 96
             wait
             wait
@@ -1154,7 +1154,7 @@ Music_02_Channel_7:
     mainLoopStart
       psgInst 00h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 96
             wait
             wait

@@ -18,7 +18,7 @@ Music_02_Channel_0:
       inst 35
       vol 9
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL E6, 36
             noteL F6, 6
             note E6
@@ -79,7 +79,7 @@ Music_02_Channel_0:
             noteL C6, 84
       inst 44
       vol 11
-      vibrato 89
+      vibrato 059h
             noteL A5, 3
             note B5
             note C6
@@ -231,7 +231,7 @@ Music_02_Channel_0:
       setRelease 0
       inst 43
       vol 12
-      vibrato 59
+      vibrato 03bh
             noteL Ds6, 3
             note D6
             note C6
@@ -378,7 +378,7 @@ Music_02_Channel_0:
       setRelease 1
       inst 15
       vol 11
-      vibrato 42
+      vibrato 02ah
             noteL E6, 36
             noteL F6, 6
             note E6
@@ -416,7 +416,7 @@ Music_02_Channel_1:
       inst 35
       vol 7
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 040h
             noteL A5, 96
     repeatStart
@@ -815,7 +815,7 @@ Music_02_Channel_2:
       inst 35
       vol 8
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 080h
             noteL F4, 12
             note C4
@@ -1207,7 +1207,7 @@ Music_02_Channel_3:
       inst 35
       vol 9
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       inst 35
             noteL F3, 96
             note E3
@@ -1515,7 +1515,7 @@ Music_02_Channel_4:
       inst 35
       vol 5
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     repeatStart
             noteL E6, 36
             noteL F6, 6
@@ -1577,7 +1577,7 @@ Music_02_Channel_4:
             noteL C6, 84
       inst 44
       vol 9
-      vibrato 89
+      vibrato 059h
             noteL A5, 3
             note B5
             note C6
@@ -1725,7 +1725,7 @@ Music_02_Channel_4:
             noteL C6, 96
       inst 6
       vol 9
-      vibrato 42
+      vibrato 02ah
             noteL F5, 30
       inst 50
       vol 10
@@ -1739,7 +1739,7 @@ Music_02_Channel_4:
             noteL Ds5, 30
       inst 50
       vol 10
-      vibrato 59
+      vibrato 03bh
             noteL Ds5, 6
             note Gs5
             note C6
@@ -1756,7 +1756,7 @@ Music_02_Channel_4:
       setRelease 0
       inst 43
       vol 9
-      vibrato 59
+      vibrato 03bh
             noteL Ds6, 3
             note D6
             note C6

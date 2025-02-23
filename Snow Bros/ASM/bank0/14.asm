@@ -17,7 +17,7 @@ Music_14_Channel_0:
       inst 15
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL D5, 7
             note A4
@@ -39,7 +39,7 @@ Music_14_Channel_1:
       inst 15
       vol 7
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 040h
             noteL A4, 56
             noteL A4, 28
@@ -49,7 +49,7 @@ Music_14_Channel_2:
       inst 27
       vol 9
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL D4, 56
             noteL D4, 28
@@ -59,7 +59,7 @@ Music_14_Channel_3:
       inst 15
       vol 7
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 080h
             noteL D5, 56
             noteL G5, 28
@@ -70,7 +70,7 @@ Music_14_Channel_4:
       inst 15
       vol 6
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL D5, 7
             note A4

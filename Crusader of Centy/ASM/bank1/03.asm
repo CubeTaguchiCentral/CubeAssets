@@ -18,7 +18,7 @@ Music_03_Channel_0:
       inst 20
       vol 12
       setRelease 6
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
             noteL E4, 12
       stereo 080h
@@ -497,7 +497,7 @@ Music_03_Channel_1:
       inst 7
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     countedLoopStart 7
             waitL 96
     countedLoopEnd
@@ -688,7 +688,7 @@ Music_03_Channel_2:
       inst 7
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     countedLoopStart 7
             waitL 96
     countedLoopEnd
@@ -883,7 +883,7 @@ Music_03_Channel_3:
       inst 20
       vol 7
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       shifting 32
       stereo 0c0h
             noteL E4, 12
@@ -1365,7 +1365,7 @@ Music_03_Channel_5:
       inst 30
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     countedLoopStart 7
             waitL 24
             noteL As6, 48
@@ -1374,21 +1374,21 @@ Music_03_Channel_5:
     countedLoopStart 6
       inst 44
       vol 12
-      vibrato 0
+      vibrato 00h
             waitL 24
             noteL A7, 48
             noteL A7, 24
     countedLoopEnd
             waitL 24
             note A7
-      vibrato 240
+      vibrato 0f0h
             note C7
       inst 33
       vol 13
             note G3
       inst 33
       vol 8
-      vibrato 227
+      vibrato 0e3h
             noteL D5, 12
             note E5
             note Cs5
@@ -1519,19 +1519,19 @@ Music_03_Channel_5:
             note Ds5
       inst 58
       vol 12
-      vibrato 0
+      vibrato 00h
             note Ds6
       inst 33
       vol 8
-      vibrato 226
+      vibrato 0e2h
             note E5
       inst 58
       vol 12
-      vibrato 0
+      vibrato 00h
             note Ds6
       inst 33
       vol 8
-      vibrato 226
+      vibrato 0e2h
             note D5
             note Cs5
             note C5
@@ -1539,39 +1539,39 @@ Music_03_Channel_5:
             note Cs5
       inst 58
       vol 12
-      vibrato 0
+      vibrato 00h
             note Ds6
       inst 33
       vol 8
-      vibrato 226
+      vibrato 0e2h
             note Ds5
             note E5
       inst 58
       vol 12
-      vibrato 0
+      vibrato 00h
             note Ds6
       inst 33
       vol 8
-      vibrato 226
+      vibrato 0e2h
             note Ds5
             note D5
             note Cs5
             note C5
       inst 58
       vol 12
-      vibrato 0
+      vibrato 00h
             note Ds6
       inst 33
       vol 8
-      vibrato 226
+      vibrato 0e2h
             note Cs5
       inst 58
       vol 12
-      vibrato 0
+      vibrato 00h
             note Ds6
       inst 33
       vol 8
-      vibrato 226
+      vibrato 0e2h
             note Ds5
             note E5
             note C5
@@ -1579,39 +1579,39 @@ Music_03_Channel_5:
             note D5
       inst 58
       vol 12
-      vibrato 0
+      vibrato 00h
             note Ds6
       inst 33
       vol 8
-      vibrato 226
+      vibrato 0e2h
             note E5
             note C5
       inst 58
       vol 12
-      vibrato 0
+      vibrato 00h
             note Ds6
       inst 33
       vol 8
-      vibrato 226
+      vibrato 0e2h
             note D5
             note Ds5
             note E5
             note C5
       inst 58
       vol 12
-      vibrato 0
+      vibrato 00h
             note Ds6
       inst 33
       vol 8
-      vibrato 226
+      vibrato 0e2h
             note C5
       inst 58
       vol 12
-      vibrato 0
+      vibrato 00h
             note Ds6
       inst 33
       vol 8
-      vibrato 226
+      vibrato 0e2h
             note Cs5
             note C5
             note E5
@@ -1620,11 +1620,11 @@ Music_03_Channel_5:
             note Ds5
       inst 58
       vol 12
-      vibrato 0
+      vibrato 00h
             note Ds6
       inst 33
       vol 8
-      vibrato 226
+      vibrato 0e2h
             note C5
             note Cs5
             note D5
@@ -1633,19 +1633,19 @@ Music_03_Channel_5:
             note Cs5
       inst 58
       vol 12
-      vibrato 0
+      vibrato 00h
             note Ds6
       inst 33
       vol 8
-      vibrato 226
+      vibrato 0e2h
             note C5
       inst 58
       vol 12
-      vibrato 0
+      vibrato 00h
             note Ds6
       inst 33
       vol 8
-      vibrato 226
+      vibrato 0e2h
             note E5
             note Ds5
             note D5
@@ -1654,20 +1654,20 @@ Music_03_Channel_5:
             note C5
       inst 58
       vol 12
-      vibrato 0
+      vibrato 00h
             note Ds6
       inst 33
       vol 8
-      vibrato 226
+      vibrato 0e2h
             note D5
             note Ds5
       inst 58
       vol 12
-      vibrato 0
+      vibrato 00h
             note Ds6
       inst 33
       vol 8
-      vibrato 226
+      vibrato 0e2h
             note E5
             note D5
             note Ds5
@@ -1688,7 +1688,7 @@ Music_03_Channel_5:
             note E5
       inst 44
       vol 11
-      vibrato 240
+      vibrato 0f0h
             note C7
     mainLoopEnd
 Music_03_Channel_6:
@@ -1696,7 +1696,7 @@ Music_03_Channel_6:
     countedLoopStart 24
       psgInst 00h
       setRelease 1
-      vibrato 76
+      vibrato 04ch
             waitL 96
     countedLoopEnd
             waitL 12
@@ -1836,7 +1836,7 @@ Music_03_Channel_7:
     mainLoopStart
       psgInst 00h
       setRelease 1
-      vibrato 76
+      vibrato 04ch
       shifting 16
             waitL 12
     countedLoopStart 24

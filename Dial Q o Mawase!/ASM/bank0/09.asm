@@ -17,7 +17,7 @@ Music_09_Channel_0:
       inst 7
       vol 13
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL E5, 30
             noteL D5, 6
@@ -32,7 +32,7 @@ Music_09_Channel_1:
       inst 7
       vol 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 040h
             noteL Cs5, 30
             noteL B4, 6
@@ -47,7 +47,7 @@ Music_09_Channel_2:
       inst 9
       vol 13
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       inst 0
       inst 33
             noteL A2, 48
@@ -64,7 +64,7 @@ Music_09_Channel_3:
       inst 7
       vol 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 080h
             noteL Gs4, 48
             note B4
@@ -75,7 +75,7 @@ Music_09_Channel_4:
       inst 7
       vol 9
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL E5, 30
             noteL D5, 6

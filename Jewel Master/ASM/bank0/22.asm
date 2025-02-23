@@ -16,7 +16,7 @@ Music_22:
 Music_22_Channel_0:
       inst 2
       vol 10
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
       sustain
             noteL A3, 192
@@ -28,7 +28,7 @@ Music_22_Channel_1:
       inst 19
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 48
             noteL A5, 10
             noteL C6, 7
@@ -43,7 +43,7 @@ Music_22_Channel_2:
       inst 19
       vol 8
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 66
             noteL A5, 10
             noteL C6, 7
@@ -58,7 +58,7 @@ Music_22_Channel_3:
       inst 19
       vol 8
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 84
             noteL A5, 10
             noteL C6, 7
@@ -71,7 +71,7 @@ Music_22_Channel_3:
 Music_22_Channel_4:
       inst 13
       vol 10
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
       sustain
             waitL 120

@@ -18,7 +18,7 @@ Music_13_Channel_0:
       inst 5
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
             noteL F3, 192
             note F3
@@ -45,7 +45,7 @@ Music_13_Channel_1:
       stereo 0c0h
       inst 5
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 24
     mainLoopStart
       vol 11
@@ -71,7 +71,7 @@ Music_13_Channel_2:
       inst 6
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
     countedLoopStart 1
             noteL B5, 12
@@ -295,7 +295,7 @@ Music_13_Channel_3:
       inst 6
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
     countedLoopStart 1
             noteL B5, 12
@@ -519,7 +519,7 @@ Music_13_Channel_4:
       inst 6
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
     countedLoopStart 1
             noteL B5, 12
@@ -751,7 +751,7 @@ Music_13_Channel_5:
       stereo 0c0h
       inst 5
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 48
     mainLoopStart
       vol 10

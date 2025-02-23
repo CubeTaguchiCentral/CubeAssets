@@ -15,7 +15,7 @@ Music_07:
     dw Music_07_Channel_6
 Music_07_Channel_0:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 84
     mainLoopStart
       vol 13
@@ -177,7 +177,7 @@ Music_07_Channel_0:
     mainLoopEnd
 Music_07_Channel_1:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 96
     mainLoopStart
     countedLoopStart 3
@@ -298,7 +298,7 @@ Music_07_Channel_1:
     mainLoopEnd
 Music_07_Channel_2:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 96
       shifting 32
             waitL 10
@@ -420,7 +420,7 @@ Music_07_Channel_2:
     mainLoopEnd
 Music_07_Channel_3:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 84
     mainLoopStart
       inst 1
@@ -624,7 +624,7 @@ Music_07_Channel_3:
     mainLoopEnd
 Music_07_Channel_4:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     mainLoopStart
             waitL 96
     mainLoopStart

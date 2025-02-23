@@ -17,7 +17,7 @@ Music_08_Channel_0:
       inst 11
       vol 10
       setRelease 1
-      vibrato 81
+      vibrato 051h
     mainLoopStart
             noteL Ds6, 48
             note C6
@@ -102,7 +102,7 @@ Music_08_Channel_1:
       inst 11
       vol 10
       setRelease 1
-      vibrato 82
+      vibrato 052h
     mainLoopStart
             noteL A5, 96
             note As5
@@ -177,7 +177,7 @@ Music_08_Channel_2:
       inst 11
       vol 10
       setRelease 1
-      vibrato 82
+      vibrato 052h
     mainLoopStart
             noteL F5, 192
             note G5
@@ -250,7 +250,7 @@ Music_08_Channel_3:
       inst 11
       vol 9
       setRelease 1
-      vibrato 82
+      vibrato 052h
     mainLoopStart
             noteL F4, 12
             note Ds5
@@ -481,7 +481,7 @@ Music_08_Channel_4:
       inst 11
       vol 12
       setRelease 1
-      vibrato 82
+      vibrato 052h
     mainLoopStart
             noteL A2, 24
             note G2

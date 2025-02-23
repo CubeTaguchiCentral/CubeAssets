@@ -17,7 +17,7 @@ Music_20_Channel_0:
       inst 0
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
             noteL A5, 6
             noteL E5, 112
@@ -168,7 +168,7 @@ Music_20_Channel_1:
       inst 0
       vol 8
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 080h
       shifting 32
             waitL 12
@@ -287,7 +287,7 @@ Music_20_Channel_2:
       inst 0
       vol 8
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 040h
       shifting 32
             waitL 18
@@ -378,7 +378,7 @@ Music_20_Channel_3:
       inst 0
       vol 6
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 080h
       shifting 64
             waitL 24
@@ -534,7 +534,7 @@ Music_20_Channel_4:
       inst 0
       vol 6
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 040h
       shifting 64
             waitL 30
@@ -686,7 +686,7 @@ Music_20_Channel_5:
 Music_20_Channel_6:
       psgInst 00h
       setRelease 1
-      vibrato 60
+      vibrato 03ch
     countedLoopStart 1
             waitL 144
     countedLoopEnd
@@ -766,7 +766,7 @@ Music_20_Channel_6:
 Music_20_Channel_7:
       psgInst 00h
       setRelease 1
-      vibrato 60
+      vibrato 03ch
     countedLoopStart 1
             waitL 144
     countedLoopEnd

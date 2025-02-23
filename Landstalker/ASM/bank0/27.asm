@@ -17,7 +17,7 @@ Music_27_Channel_0:
       inst 49
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     repeatStart
             noteL B6, 60
             noteL D6, 12
@@ -322,7 +322,7 @@ Music_27_Channel_0:
             noteL G6, 50
       sustain
             noteL G6, 192
-      vibrato 32
+      vibrato 020h
       setRelease 1
             noteL G6, 140
             waitL 6
@@ -331,7 +331,7 @@ Music_27_Channel_1:
       inst 9
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     repeatStart
             noteL D5, 18
             note B4
@@ -748,7 +748,7 @@ Music_27_Channel_1:
       sustain
             noteL E5, 192
       setRelease 1
-      vibrato 32
+      vibrato 020h
             noteL E5, 140
             waitL 6
     channel_end
@@ -756,7 +756,7 @@ Music_27_Channel_2:
       inst 9
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL G5, 96
             note F5
             note D5
@@ -1061,23 +1061,23 @@ Music_27_Channel_2:
       sustain
             noteL B4, 192
       setRelease 1
-      vibrato 32
+      vibrato 020h
             noteL B4, 140
             waitL 6
     channel_end
 Music_27_Channel_3:
       inst 2
       vol 12
-      vibrato 44
+      vibrato 02ch
       sustain
             noteL B4, 0
       setSlide 5
             noteL C5, 192
-      vibrato 32
+      vibrato 020h
       setRelease 1
             noteL C5, 168
       noSlide
-      vibrato 44
+      vibrato 02ch
             noteL G4, 24
             noteL C4, 192
             noteL B3, 0
@@ -1431,7 +1431,7 @@ Music_27_Channel_3:
       sustain
             noteL C4, 192
       setRelease 1
-      vibrato 32
+      vibrato 020h
             noteL C4, 140
             waitL 6
     channel_end
@@ -1440,7 +1440,7 @@ Music_27_Channel_4:
       inst 39
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     repeatStart
             noteL B6, 60
             noteL D6, 12
@@ -1750,7 +1750,7 @@ Music_27_Channel_4:
             noteL G6, 50
       sustain
             noteL G6, 192
-      vibrato 32
+      vibrato 020h
       setRelease 1
             noteL G6, 140
             waitL 6
@@ -2020,7 +2020,7 @@ Music_27_Channel_5:
 Music_27_Channel_6:
       psgInst 07ah
       setRelease 1
-      vibrato 76
+      vibrato 04ch
             psgNoteL G3, 96
             psgNote F3
             psgNote D3
@@ -2394,7 +2394,7 @@ Music_27_Channel_6:
       sustain
             psgNoteL E3, 192
       setRelease 1
-      vibrato 64
+      vibrato 040h
             psgNoteL E3, 140
       psgInst 00h
             waitL 6
@@ -2402,7 +2402,7 @@ Music_27_Channel_6:
 Music_27_Channel_7:
       psgInst 07ah
       setRelease 1
-      vibrato 76
+      vibrato 04ch
             psgNoteL D3, 96
             psgNote C3
             psgNote B2
@@ -2785,7 +2785,7 @@ Music_27_Channel_7:
             psgNoteL As2, 50
       sustain
             psgNoteL C3, 192
-      vibrato 64
+      vibrato 040h
       setRelease 1
             psgNoteL C3, 140
       psgInst 00h

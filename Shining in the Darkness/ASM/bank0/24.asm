@@ -17,7 +17,7 @@ Music_24_Channel_0:
       inst 38
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     mainLoopStart
             noteL As6, 36
             waitL 12
@@ -66,7 +66,7 @@ Music_24_Channel_1:
       inst 38
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     mainLoopStart
             noteL D6, 36
             waitL 12
@@ -114,7 +114,7 @@ Music_24_Channel_1:
 Music_24_Channel_2:
       stereo 080h
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     mainLoopStart
       inst 50
       vol 9
@@ -315,7 +315,7 @@ Music_24_Channel_2:
 Music_24_Channel_3:
       stereo 040h
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     mainLoopStart
             waitL 24
       inst 26
@@ -503,7 +503,7 @@ Music_24_Channel_4:
       inst 26
       vol 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       inst 26
     mainLoopStart
             noteL As3, 24
@@ -592,7 +592,7 @@ Music_24_Channel_5:
 Music_24_Channel_6:
       psgInst 00h
       setRelease 0
-      vibrato 76
+      vibrato 04ch
     mainLoopStart
             waitL 24
       psgInst 06ah
@@ -743,7 +743,7 @@ Music_24_Channel_6:
 Music_24_Channel_7:
       psgInst 00h
       setRelease 0
-      vibrato 76
+      vibrato 04ch
     mainLoopStart
             waitL 24
       psgInst 06ah

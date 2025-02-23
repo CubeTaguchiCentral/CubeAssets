@@ -17,7 +17,7 @@ Music_16_Channel_0:
       inst 12
       vol 9
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 080h
             noteL D4, 6
             note D4
@@ -345,7 +345,7 @@ Music_16_Channel_1:
       inst 26
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL D6, 72
       vol 11
             noteL D6, 12
@@ -534,7 +534,7 @@ Music_16_Channel_2:
       inst 26
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL F5, 72
       vol 11
             noteL F5, 12
@@ -727,7 +727,7 @@ Music_16_Channel_3:
       inst 12
       vol 9
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 040h
             waitL 1
             noteL D4, 6
@@ -1055,7 +1055,7 @@ Music_16_Channel_4:
       inst 26
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL D5, 72
       vol 11
             noteL D5, 12
@@ -1473,7 +1473,7 @@ Music_16_Channel_5:
 Music_16_Channel_6:
       psgInst 0ah
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             psgNoteL C3, 4
             psgNote F3
             psgNote D3
@@ -1863,7 +1863,7 @@ Music_16_Channel_6:
 Music_16_Channel_7:
       psgInst 0ah
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             psgNoteL F3, 4
             psgNote D3
             psgNote A2

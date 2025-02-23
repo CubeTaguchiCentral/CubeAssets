@@ -17,7 +17,7 @@ Music_15_Channel_0:
       inst 42
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
             waitL 12
     mainLoopStart
@@ -111,7 +111,7 @@ Music_15_Channel_1:
       inst 17
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
             noteL D5, 6
             note E5
@@ -222,7 +222,7 @@ Music_15_Channel_2:
       inst 19
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
       inst 63
             waitL 12
@@ -330,7 +330,7 @@ Music_15_Channel_3:
       inst 17
       vol 9
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
       stereo 080h
       shifting 32
@@ -464,7 +464,7 @@ Music_15_Channel_4:
       inst 17
       vol 9
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 040h
       shifting 32
             waitL 12
@@ -648,7 +648,7 @@ Music_15_Channel_5:
 Music_15_Channel_6:
       psgInst 00h
       setRelease 1
-      vibrato 76
+      vibrato 04ch
             waitL 12
     mainLoopStart
             waitL 96
@@ -708,7 +708,7 @@ Music_15_Channel_6:
 Music_15_Channel_7:
       psgInst 00h
       setRelease 1
-      vibrato 76
+      vibrato 04ch
             waitL 12
     mainLoopStart
             waitL 96
@@ -770,7 +770,7 @@ Music_15_Channel_7:
 Music_15_Channel_8:
       psgInst 0bh
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 48
       ymTimer 192
             waitL 6

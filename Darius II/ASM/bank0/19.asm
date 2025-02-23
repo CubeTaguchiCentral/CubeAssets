@@ -17,7 +17,7 @@ Music_19_Channel_0:
       inst 0
       vol 13
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     countedLoopStart 1
             noteL A3, 12
             note A3
@@ -113,7 +113,7 @@ Music_19_Channel_0:
             noteL E3, 204
 Music_19_Channel_1:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       vol 10
     countedLoopStart 1
       inst 12
@@ -195,7 +195,7 @@ Music_19_Channel_1:
 Music_19_Channel_2:
       setRelease 1
       shifting 32
-      vibrato 42
+      vibrato 02ah
       vol 10
     countedLoopStart 1
       inst 12
@@ -292,7 +292,7 @@ Music_19_Channel_2:
     channel_end
 Music_19_Channel_3:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       vol 8
     countedLoopStart 1
       inst 12
@@ -439,7 +439,7 @@ Music_19_Channel_3:
             waitL 96
     channel_end
 Music_19_Channel_4:
-      vibrato 42
+      vibrato 02ah
       setRelease 1
       vol 10
     countedLoopStart 1

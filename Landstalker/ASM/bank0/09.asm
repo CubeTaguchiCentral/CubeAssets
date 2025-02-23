@@ -17,7 +17,7 @@ Music_09_Channel_0:
       inst 6
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     countedLoopStart 1
             noteL Gs5, 3
             note Cs6
@@ -42,7 +42,7 @@ Music_09_Channel_1:
       inst 6
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 040h
             waitL 2
     countedLoopStart 1
@@ -69,7 +69,7 @@ Music_09_Channel_2:
       inst 6
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 080h
             waitL 4
     countedLoopStart 1

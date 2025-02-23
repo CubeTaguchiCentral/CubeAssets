@@ -18,7 +18,7 @@ Music_16_Channel_0:
       vol 12
       setRelease 1
       noSlide
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL C6, 18
             noteL B5, 3
@@ -38,7 +38,7 @@ Music_16_Channel_1:
       vol 7
       setRelease 1
       noSlide
-      vibrato 42
+      vibrato 02ah
       stereo 080h
             noteL C6, 18
             noteL B5, 3
@@ -58,7 +58,7 @@ Music_16_Channel_2:
       vol 4
       setRelease 1
       noSlide
-      vibrato 42
+      vibrato 02ah
       stereo 040h
             noteL C6, 18
             noteL B5, 3
@@ -78,7 +78,7 @@ Music_16_Channel_3:
       vol 8
       setRelease 1
       noSlide
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL C6, 18
             noteL B5, 3

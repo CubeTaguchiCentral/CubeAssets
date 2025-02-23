@@ -18,7 +18,7 @@ Music_04_Channel_0:
       inst 60
       vol 10
       setRelease 8
-      vibrato 0
+      vibrato 00h
             noteL Ds7, 12
             note F7
     mainLoopStart
@@ -107,7 +107,7 @@ Music_04_Channel_1:
       inst 60
       vol 9
       setRelease 15
-      vibrato 0
+      vibrato 00h
     mainLoopStart
             waitL 24
             noteL Ds7, 48
@@ -154,7 +154,7 @@ Music_04_Channel_2:
       inst 60
       vol 9
       setRelease 15
-      vibrato 0
+      vibrato 00h
     mainLoopStart
             waitL 25
             noteL G7, 46
@@ -199,7 +199,7 @@ Music_04_Channel_3:
       inst 60
       vol 9
       setRelease 15
-      vibrato 0
+      vibrato 00h
     mainLoopStart
             noteL Ds6, 72
             note As5
@@ -235,7 +235,7 @@ Music_04_Channel_4:
       inst 60
       vol 10
       setRelease 8
-      vibrato 0
+      vibrato 00h
             noteL Ds7, 12
             note F7
     mainLoopStart

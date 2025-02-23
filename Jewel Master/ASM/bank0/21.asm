@@ -18,7 +18,7 @@ Music_21_Channel_0:
       inst 24
       vol 9
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     countedLoopStart 1
             noteL A3, 72
     countedLoopEnd
@@ -38,7 +38,7 @@ Music_21_Channel_1:
       inst 14
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     countedLoopStart 1
             waitL 12
             note C5
@@ -51,7 +51,7 @@ Music_21_Channel_1:
             waitL 12
       inst 12
       vol 12
-      vibrato 71
+      vibrato 047h
             note G5
             note D5
             note E5
@@ -92,7 +92,7 @@ Music_21_Channel_2:
       inst 16
       vol 9
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     countedLoopStart 1
             noteL A4, 12
             noteL A5, 6
@@ -189,7 +189,7 @@ Music_21_Channel_3:
       inst 14
       vol 8
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     countedLoopStart 1
             waitL 12
             note A4
@@ -254,7 +254,7 @@ Music_21_Channel_6:
       ymTimer 90
       psgInst 00h
       setRelease 1
-      vibrato 0
+      vibrato 00h
             waitL 144
     countedLoopStart 1
       psgInst 00h

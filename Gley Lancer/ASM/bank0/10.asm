@@ -17,7 +17,7 @@ Music_10_Channel_0:
       inst 15
       vol 9
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       shifting 0
       stereo 0c0h
             waitL 63
@@ -203,7 +203,7 @@ Music_10_Channel_1:
       inst 23
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 63
             noteL D4, 21
     mainLoopStart
@@ -351,7 +351,7 @@ Music_10_Channel_2:
       inst 15
       vol 9
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       shifting 0
       stereo 0c0h
       inst 62
@@ -579,7 +579,7 @@ Music_10_Channel_2:
     mainLoopEnd
 Music_10_Channel_3:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       shifting 0
       stereo 040h
       inst 12
@@ -793,7 +793,7 @@ Music_10_Channel_4:
       inst 15
       vol 8
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       shifting 0
       stereo 0c0h
             waitL 74
@@ -1269,7 +1269,7 @@ Music_10_Channel_6:
     mainLoopStart
     repeatStart
       psgInst 0bh
-      vibrato 74
+      vibrato 04ah
             psgNoteL Fs3, 84
             psgNote G3
             psgNoteL A3, 21
@@ -1441,7 +1441,7 @@ Music_10_Channel_7:
       psgInst 0ah
             psgNoteL Fs2, 21
     mainLoopStart
-      vibrato 74
+      vibrato 04ah
     repeatStart
       setRelease 1
             psgNoteL Fs3, 84

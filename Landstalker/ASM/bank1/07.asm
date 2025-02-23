@@ -18,7 +18,7 @@ Music_07_Channel_0:
       inst 42
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL B4, 10
             noteL E5, 8
             noteL Cs5, 56
@@ -36,7 +36,7 @@ Music_07_Channel_0:
             note Cs6
             noteL As5, 54
     mainLoopStart
-      vibrato 76
+      vibrato 04ch
       inst 17
       vol 11
             noteL Ds6, 48
@@ -56,10 +56,10 @@ Music_07_Channel_0:
             noteL Gs5, 24
       sustain
             noteL As5, 144
-      vibrato 64
+      vibrato 040h
       setRelease 1
             note As5
-      vibrato 76
+      vibrato 04ch
             noteL Gs5, 48
             note Ds5
             noteL Cs6, 156
@@ -77,12 +77,12 @@ Music_07_Channel_0:
             noteL Ds6, 24
       sustain
             noteL Ds6, 144
-      vibrato 64
+      vibrato 040h
       setRelease 1
             note Ds6
             waitL 120
       vol 10
-      vibrato 76
+      vibrato 04ch
             noteL Ds6, 36
             note Gs5
             noteL Fs6, 120
@@ -115,7 +115,7 @@ Music_07_Channel_0:
             noteL Ds6, 96
             note Ds6
             note Cs6
-      vibrato 44
+      vibrato 02ch
       inst 53
       vol 11
             noteL Ds5, 24
@@ -196,7 +196,7 @@ Music_07_Channel_1:
       inst 42
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL Gs4, 86
             waitL 32
             noteL B4, 78
@@ -282,12 +282,12 @@ Music_07_Channel_1:
             note As5
       sustain
             noteL As5, 144
-      vibrato 32
+      vibrato 020h
       setRelease 1
             note As5
             waitL 112
       vol 11
-      vibrato 44
+      vibrato 02ch
             noteL Gs5, 16
             note Ds5
             noteL Cs6, 30
@@ -394,7 +394,7 @@ Music_07_Channel_2:
       inst 42
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL F4, 102
             waitL 18
             noteL Gs4, 92
@@ -490,12 +490,12 @@ Music_07_Channel_2:
             note As5
       sustain
             noteL As5, 144
-      vibrato 32
+      vibrato 020h
       setRelease 1
             note As5
             waitL 112
       vol 9
-      vibrato 44
+      vibrato 02ch
             noteL Gs5, 16
             note Ds5
             noteL Cs6, 30
@@ -586,7 +586,7 @@ Music_07_Channel_3:
       inst 34
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL D3, 122
             noteL F3, 110
       vol 11
@@ -704,7 +704,7 @@ Music_07_Channel_4:
       inst 56
       vol 7
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 040h
             noteL B4, 10
             noteL E5, 8
@@ -734,7 +734,7 @@ Music_07_Channel_4:
       shifting 16
     mainLoopStart
       stereo 040h
-      vibrato 76
+      vibrato 04ch
       inst 17
       vol 9
             noteL Ds6, 48
@@ -754,10 +754,10 @@ Music_07_Channel_4:
             noteL Gs5, 24
       sustain
             noteL As5, 144
-      vibrato 64
+      vibrato 040h
       setRelease 1
             note As5
-      vibrato 76
+      vibrato 04ch
             noteL Gs5, 48
             note Ds5
             noteL Cs6, 156
@@ -775,12 +775,12 @@ Music_07_Channel_4:
             noteL Ds6, 24
       sustain
             noteL Ds6, 144
-      vibrato 64
+      vibrato 040h
       setRelease 1
             note Ds6
             waitL 120
       vol 8
-      vibrato 76
+      vibrato 04ch
             noteL Ds6, 36
             note Gs5
             noteL Fs6, 120
@@ -814,7 +814,7 @@ Music_07_Channel_4:
             note Ds6
             note Cs6
       stereo 080h
-      vibrato 44
+      vibrato 02ch
       inst 53
       vol 9
             noteL Ds5, 24
@@ -943,7 +943,7 @@ Music_07_Channel_5:
 Music_07_Channel_6:
       psgInst 00h
       setRelease 1
-      vibrato 76
+      vibrato 04ch
             waitL 232
             waitL 160
       psgInst 02bh
@@ -1268,7 +1268,7 @@ Music_07_Channel_6:
 Music_07_Channel_7:
       psgInst 00h
       setRelease 1
-      vibrato 76
+      vibrato 04ch
             waitL 232
             waitL 168
       psgInst 02ah

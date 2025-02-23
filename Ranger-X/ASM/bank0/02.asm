@@ -17,7 +17,7 @@ Music_02_Channel_0:
       inst 26
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 080h
     countedLoopStart 2
             noteL D4, 36
@@ -206,7 +206,7 @@ Music_02_Channel_1:
       inst 21
       vol 11
       setRelease 8
-      vibrato 44
+      vibrato 02ch
             noteL F5, 12
       vol 8
             note F5
@@ -373,24 +373,24 @@ Music_02_Channel_1:
             note G6
             note E6
             note G6
-      vibrato 144
+      vibrato 090h
             note E6
             note G6
             note E6
             note G6
-      vibrato 176
+      vibrato 0b0h
             note E6
             note G6
             note E6
             note G6
-      vibrato 208
+      vibrato 0d0h
             note E6
             note G6
             note E6
       setRelease 1
             note G6
             waitL 24
-      vibrato 42
+      vibrato 02ah
       inst 19
       vol 11
             noteL A6, 12
@@ -534,7 +534,7 @@ Music_02_Channel_2:
       inst 21
       vol 11
       setRelease 8
-      vibrato 44
+      vibrato 02ch
             noteL D5, 12
       vol 8
             note D5
@@ -584,7 +584,7 @@ Music_02_Channel_2:
       inst 21
       vol 11
       setRelease 8
-      vibrato 42
+      vibrato 02ah
             noteL D5, 12
       vol 8
             note D5
@@ -698,9 +698,9 @@ Music_02_Channel_2:
             note D5
             note Ds5
       vol 11
-      vibrato 120
+      vibrato 078h
             noteL E6, 96
-      vibrato 42
+      vibrato 02ah
             waitL 24
       inst 19
       vol 11
@@ -806,14 +806,14 @@ Music_02_Channel_2:
             note D7
             note B6
             note D7
-      vibrato 112
+      vibrato 070h
             note B6
             note D7
             note B6
             note D7
             note B6
             note D7
-      vibrato 144
+      vibrato 090h
             note B6
             note D7
             note B6
@@ -821,30 +821,30 @@ Music_02_Channel_2:
             note B6
             note D7
             note B6
-      vibrato 176
+      vibrato 0b0h
             note D7
             note B6
             note D7
             note B6
             note D7
             note B6
-      vibrato 208
+      vibrato 0d0h
             note D7
             note B6
             note D7
             note B6
             note D7
-      vibrato 240
+      vibrato 0f0h
             note B6
             note D7
             note B6
             note D7
             noteL B5, 0
       setSlide 3
-      vibrato 42
+      vibrato 02ah
       sustain
             noteL Cs6, 84
-      vibrato 31
+      vibrato 01fh
       setRelease 1
             noteL Cs6, 108
       noSlide
@@ -854,7 +854,7 @@ Music_02_Channel_3:
       inst 30
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 12
             note Fs3
             noteL Fs3, 24
@@ -953,24 +953,24 @@ Music_02_Channel_3:
             note G6
             note E6
             note G6
-      vibrato 144
+      vibrato 090h
             note E6
             note G6
             note E6
             note G6
-      vibrato 176
+      vibrato 0b0h
             note E6
             note G6
             note E6
             note G6
-      vibrato 208
+      vibrato 0d0h
             note E6
             note G6
             note E6
       setRelease 1
             note G6
             waitL 24
-      vibrato 42
+      vibrato 02ah
       inst 19
       vol 8
             noteL A6, 12
@@ -1112,7 +1112,7 @@ Music_02_Channel_4:
       inst 26
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 1
       shifting 32
       stereo 040h
@@ -1129,7 +1129,7 @@ Music_02_Channel_4:
       inst 26
       vol 11
       stereo 040h
-      vibrato 42
+      vibrato 02ah
     countedLoopStart 2
             noteL D4, 36
             noteL D4, 60
@@ -1369,10 +1369,10 @@ Music_02_Channel_4:
       noSlide
             noteL B5, 0
       setSlide 3
-      vibrato 42
+      vibrato 02ah
       sustain
             noteL Cs6, 84
-      vibrato 31
+      vibrato 01fh
       setRelease 1
             noteL Cs6, 108
       noSlide
@@ -1525,7 +1525,7 @@ Music_02_Channel_5:
 Music_02_Channel_6:
       psgInst 00h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     countedLoopStart 3
             waitL 96
     countedLoopEnd
@@ -1732,7 +1732,7 @@ Music_02_Channel_6:
 Music_02_Channel_7:
       psgInst 00h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     countedLoopStart 3
             waitL 96
     countedLoopEnd

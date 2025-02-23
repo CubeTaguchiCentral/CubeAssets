@@ -17,7 +17,7 @@ Music_21_Channel_0:
       inst 77
       vol 15
       setRelease 1
-      vibrato 79
+      vibrato 04fh
       stereo 0c0h
       shifting 5
       sustain
@@ -32,7 +32,7 @@ Music_21_Channel_0:
 Music_21_Channel_1:
       inst 78
       vol 15
-      vibrato 34
+      vibrato 022h
       stereo 0c0h
       shifting 0
       sustain
@@ -48,7 +48,7 @@ Music_21_Channel_2:
             waitL 3
       inst 78
       vol 15
-      vibrato 34
+      vibrato 022h
       stereo 0c0h
       shifting 0
       sustain
@@ -64,7 +64,7 @@ Music_21_Channel_3:
             waitL 7
       inst 78
       vol 15
-      vibrato 34
+      vibrato 022h
       stereo 0c0h
       shifting 0
       sustain
@@ -80,7 +80,7 @@ Music_21_Channel_4:
             waitL 10
       inst 78
       vol 15
-      vibrato 34
+      vibrato 022h
       stereo 0c0h
       shifting 0
       sustain

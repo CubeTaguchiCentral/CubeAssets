@@ -17,7 +17,7 @@ Music_20_Channel_0:
       inst 49
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL A4, 48
     mainLoopStart
             noteL E5, 24
@@ -100,7 +100,7 @@ Music_20_Channel_1:
       inst 6
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 12
             note A5
             note D6
@@ -292,7 +292,7 @@ Music_20_Channel_2:
       inst 49
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
             noteL A4, 96
             noteL A4, 48
@@ -356,7 +356,7 @@ Music_20_Channel_3:
       inst 58
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
             noteL D3, 48
             note E3
@@ -413,7 +413,7 @@ Music_20_Channel_4:
       inst 49
       vol 9
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL A4, 48
     mainLoopStart
             noteL E5, 24
@@ -497,7 +497,7 @@ Music_20_Channel_6:
             waitL 54
     mainLoopStart
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 12
       psgInst 087h
             psgNote A3

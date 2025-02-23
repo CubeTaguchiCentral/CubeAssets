@@ -18,7 +18,7 @@ Music_07_Channel_0:
       inst 19
       vol 10
       setRelease 0
-      vibrato 44
+      vibrato 02ch
             noteL D6, 48
             note E6
             note A5
@@ -161,7 +161,7 @@ Music_07_Channel_1:
       inst 19
       vol 10
       setRelease 0
-      vibrato 44
+      vibrato 02ch
             noteL A5, 48
             note A5
             note G5
@@ -297,7 +297,7 @@ Music_07_Channel_2:
       inst 17
       vol 10
       setRelease 0
-      vibrato 44
+      vibrato 02ch
     countedLoopStart 1
             noteL D4, 6
             note E4
@@ -476,7 +476,7 @@ Music_07_Channel_3:
       inst 0
       vol 7
       setRelease 1
-      vibrato 58
+      vibrato 03ah
             noteL D6, 24
       stereo 080h
             noteL D6, 48
@@ -613,7 +613,7 @@ Music_07_Channel_4:
       inst 19
       vol 7
       setRelease 0
-      vibrato 44
+      vibrato 02ch
             noteL D6, 48
             note E6
             note A5

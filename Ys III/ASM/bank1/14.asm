@@ -17,7 +17,7 @@ Music_14_Channel_0:
       inst 58
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL G3, 8
             note A3
             note E4
@@ -508,7 +508,7 @@ Music_14_Channel_0:
       inst 5
       vol 14
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL E4, 12
             note E4
             note E4
@@ -672,7 +672,7 @@ Music_14_Channel_1:
       inst 58
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL D3, 8
             note E3
             note A3
@@ -1292,7 +1292,7 @@ Music_14_Channel_1:
       inst 5
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 8
             noteL E4, 12
             note E4
@@ -1501,7 +1501,7 @@ Music_14_Channel_2:
       inst 59
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL A2, 224
             noteL G2, 32
             noteL F2, 128
@@ -2008,7 +2008,7 @@ Music_14_Channel_2:
       inst 3
       vol 13
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 36
     countedLoopStart 1
             waitL 36
@@ -2118,7 +2118,7 @@ Music_14_Channel_3:
       inst 2
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL G4, 8
             note A4
             note E5
@@ -2685,7 +2685,7 @@ Music_14_Channel_3:
       inst 8
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 36
     countedLoopStart 1
             waitL 36
@@ -2974,7 +2974,7 @@ Music_14_Channel_4:
       inst 2
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL G4, 8
             note A4
             note E5
@@ -3575,7 +3575,7 @@ Music_14_Channel_4:
       inst 8
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 36
     countedLoopStart 1
             waitL 36
@@ -4703,7 +4703,7 @@ Music_14_Channel_5:
 Music_14_Channel_6:
       psgInst 0dh
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             psgNoteL D3, 8
             psgNote E3
             psgNote A3

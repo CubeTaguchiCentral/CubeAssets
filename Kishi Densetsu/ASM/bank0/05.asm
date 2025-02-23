@@ -19,7 +19,7 @@ Music_05_Channel_0:
       inst 39
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
             noteL F5, 12
             noteL F5, 6
@@ -237,7 +237,7 @@ Music_05_Channel_1:
       inst 18
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
     repeatStart
     countedLoopStart 2
@@ -366,7 +366,7 @@ Music_05_Channel_2:
       inst 39
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 040h
             waitL 84
             noteL C5, 12
@@ -581,7 +581,7 @@ Music_05_Channel_3:
       inst 32
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
     repeatStart
     countedLoopStart 2
@@ -803,7 +803,7 @@ Music_05_Channel_4:
       inst 39
       vol 8
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 080h
       shifting 32
             noteL F5, 12
@@ -1070,7 +1070,7 @@ Music_05_Channel_6:
     repeatStart
       psgInst 01ah
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             psgNoteL F4, 12
             psgNoteL F4, 6
             psgNote F4
@@ -1292,7 +1292,7 @@ Music_05_Channel_7:
     repeatStart
       psgInst 01ah
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             psgNoteL A3, 12
             psgNoteL A3, 6
             psgNote A3

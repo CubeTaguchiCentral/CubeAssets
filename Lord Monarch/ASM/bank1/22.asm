@@ -17,7 +17,7 @@ Music_22_Channel_0:
       inst 14
       vol 11
       setRelease 2
-      vibrato 61
+      vibrato 03dh
       stereo 0c0h
             noteL Ds6, 36
             noteL F6, 6
@@ -43,7 +43,7 @@ Music_22_Channel_0:
       setRelease 1
       inst 6
       vol 11
-      vibrato 247
+      vibrato 0f7h
             noteL E6, 8
             note B5
             note Gs5
@@ -126,7 +126,7 @@ Music_22_Channel_0:
             note B6
       inst 15
       vol 9
-      vibrato 34
+      vibrato 022h
             noteL Gs5, 32
             noteL Gs5, 8
             note A5
@@ -171,7 +171,7 @@ Music_22_Channel_0:
             note Gs6
       inst 6
       vol 12
-      vibrato 45
+      vibrato 02dh
             noteL Cs6, 72
             noteL Cs6, 8
             note Ds6
@@ -202,7 +202,7 @@ Music_22_Channel_0:
             note B5
             note Gs5
             note E6
-      vibrato 247
+      vibrato 0f7h
             noteL A6, 8
             note F6
             note C6
@@ -215,7 +215,7 @@ Music_22_Channel_0:
             noteL C8, 24
       inst 15
       vol 9
-      vibrato 34
+      vibrato 022h
     countedLoopStart 1
             noteL Cs6, 8
             waitL 32
@@ -268,7 +268,7 @@ Music_22_Channel_1:
       inst 28
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
             noteL C4, 48
             note F3
@@ -455,7 +455,7 @@ Music_22_Channel_2:
       inst 14
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 080h
             noteL G6, 48
             note A6
@@ -591,7 +591,7 @@ Music_22_Channel_3:
       inst 14
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 040h
             noteL Ds5, 48
             note F5
@@ -607,7 +607,7 @@ Music_22_Channel_3:
       shifting 16
       inst 6
       vol 9
-      vibrato 247
+      vibrato 0f7h
             noteL E6, 8
             note B5
             note Gs5
@@ -692,7 +692,7 @@ Music_22_Channel_3:
             note B6
       inst 15
       vol 8
-      vibrato 34
+      vibrato 022h
       stereo 080h
             noteL Gs5, 32
             noteL Gs5, 8
@@ -738,7 +738,7 @@ Music_22_Channel_3:
             note Gs6
       inst 6
       vol 9
-      vibrato 45
+      vibrato 02dh
       stereo 040h
             noteL Cs6, 72
             noteL Cs6, 8
@@ -770,7 +770,7 @@ Music_22_Channel_3:
             note B5
             note Gs5
             note E6
-      vibrato 247
+      vibrato 0f7h
             noteL A6, 8
             note F6
             note C6
@@ -784,7 +784,7 @@ Music_22_Channel_3:
       stereo 080h
       inst 15
       vol 8
-      vibrato 34
+      vibrato 022h
     countedLoopStart 1
             noteL Cs6, 8
             waitL 32
@@ -837,7 +837,7 @@ Music_22_Channel_4:
       inst 14
       vol 7
       setRelease 3
-      vibrato 61
+      vibrato 03dh
       shifting 32
       stereo 0c0h
             waitL 8
@@ -866,7 +866,7 @@ Music_22_Channel_4:
       stereo 080h
       inst 6
       vol 8
-      vibrato 247
+      vibrato 0f7h
             noteL E6, 8
             note B5
             note Gs5
@@ -951,7 +951,7 @@ Music_22_Channel_4:
             note B6
       inst 15
       vol 7
-      vibrato 34
+      vibrato 022h
       stereo 040h
             noteL Gs5, 32
             noteL Gs5, 8
@@ -997,7 +997,7 @@ Music_22_Channel_4:
             note Gs6
       inst 6
       vol 8
-      vibrato 45
+      vibrato 02dh
       stereo 080h
             noteL Cs6, 72
             noteL Cs6, 8
@@ -1029,7 +1029,7 @@ Music_22_Channel_4:
             note B5
             note Gs5
             note E6
-      vibrato 247
+      vibrato 0f7h
             noteL A6, 8
             note F6
             note C6
@@ -1043,7 +1043,7 @@ Music_22_Channel_4:
       stereo 040h
       inst 15
       vol 7
-      vibrato 34
+      vibrato 022h
     countedLoopStart 1
             noteL Cs6, 8
             waitL 32
@@ -1249,7 +1249,7 @@ Music_22_Channel_5:
 Music_22_Channel_6:
       psgInst 09h
       setRelease 1
-      vibrato 77
+      vibrato 04dh
             psgNoteL C4, 48
             psgNote C4
             psgNote As3
@@ -1396,7 +1396,7 @@ Music_22_Channel_7:
       psgInst 06h
       shifting 32
       setRelease 1
-      vibrato 77
+      vibrato 04dh
             psgNoteL C4, 48
             psgNote C4
             psgNote As3

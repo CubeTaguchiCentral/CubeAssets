@@ -17,7 +17,7 @@ Music_11_Channel_0:
       inst 56
       vol 11
       setRelease 1
-      vibrato 47
+      vibrato 02fh
             noteL D6, 60
             waitL 12
             noteL G5, 8
@@ -65,7 +65,7 @@ Music_11_Channel_0:
             note A5
       sustain
             noteL B5, 144
-      vibrato 32
+      vibrato 020h
       setRelease 1
             noteL B5, 160
             waitL 7
@@ -75,7 +75,7 @@ Music_11_Channel_1:
       inst 27
       vol 10
       setRelease 1
-      vibrato 47
+      vibrato 02fh
             noteL D4, 30
             waitL 8
             noteL D4, 10
@@ -106,7 +106,7 @@ Music_11_Channel_1:
     channel_end
 Music_11_Channel_2:
       setRelease 1
-      vibrato 47
+      vibrato 02fh
     countedLoopStart 1
             waitL 24
       inst 26
@@ -178,7 +178,7 @@ Music_11_Channel_3:
       inst 30
       vol 11
       setRelease 1
-      vibrato 47
+      vibrato 02fh
     countedLoopStart 1
             waitL 48
       sustain
@@ -230,7 +230,7 @@ Music_11_Channel_4:
       inst 56
       vol 9
       setRelease 1
-      vibrato 47
+      vibrato 02fh
             noteL D6, 60
             waitL 12
             noteL G5, 8
@@ -278,7 +278,7 @@ Music_11_Channel_4:
             note A5
       sustain
             noteL B5, 144
-      vibrato 32
+      vibrato 020h
       setRelease 1
             noteL B5, 160
             waitL 1
@@ -314,7 +314,7 @@ Music_11_Channel_5:
 Music_11_Channel_6:
       psgInst 07bh
       setRelease 1
-      vibrato 79
+      vibrato 04fh
             psgNoteL A3, 60
             waitL 12
             psgNoteL D3, 8
@@ -362,7 +362,7 @@ Music_11_Channel_6:
             psgNote E3
       sustain
             psgNoteL Ds3, 144
-      vibrato 64
+      vibrato 040h
       setRelease 1
             psgNoteL Ds3, 160
       psgInst 00h
@@ -371,7 +371,7 @@ Music_11_Channel_6:
 Music_11_Channel_7:
       psgInst 07bh
       setRelease 1
-      vibrato 79
+      vibrato 04fh
             psgNoteL G3, 60
             waitL 12
             psgNoteL C3, 8
@@ -419,7 +419,7 @@ Music_11_Channel_7:
             psgNote C3
       sustain
             psgNoteL B2, 144
-      vibrato 64
+      vibrato 040h
       setRelease 1
             psgNoteL B2, 160
       psgInst 00h

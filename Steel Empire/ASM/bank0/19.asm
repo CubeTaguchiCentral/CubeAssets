@@ -18,7 +18,7 @@ Music_19_Channel_0:
       vol 11
       setRelease 1
       noSlide
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL E5, 6
             note Fs5
@@ -45,7 +45,7 @@ Music_19_Channel_1:
       inst 39
       vol 9
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     countedLoopStart 5
       stereo 040h
             noteL Fs6, 3
@@ -68,7 +68,7 @@ Music_19_Channel_2:
       vol 13
       setRelease 1
       noSlide
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL D3, 96
             note Cs3
@@ -85,7 +85,7 @@ Music_19_Channel_4:
       vol 9
       setRelease 1
       noSlide
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL E5, 6
             note Fs5

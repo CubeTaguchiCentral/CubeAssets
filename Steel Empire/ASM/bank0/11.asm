@@ -18,7 +18,7 @@ Music_11_Channel_0:
       inst 26
       vol 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
     countedLoopStart 3
             noteL C3, 6
@@ -170,7 +170,7 @@ Music_11_Channel_1:
       inst 50
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 080h
             noteL D4, 192
             note Ds4
@@ -216,7 +216,7 @@ Music_11_Channel_2:
       inst 50
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL G4, 192
             note As4
@@ -262,7 +262,7 @@ Music_11_Channel_3:
       inst 62
       vol 8
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
     countedLoopStart 15
             noteL D6, 6
@@ -319,7 +319,7 @@ Music_11_Channel_4:
       inst 50
       vol 9
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL G4, 192
             note As4

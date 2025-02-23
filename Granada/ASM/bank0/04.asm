@@ -16,7 +16,7 @@ Music_04:
 Music_04_Channel_0:
     mainLoopStart
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     countedLoopStart 1
       inst 31
       vol 10
@@ -232,7 +232,7 @@ Music_04_Channel_0:
 Music_04_Channel_1:
     mainLoopStart
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     countedLoopStart 1
       inst 31
       vol 10
@@ -303,7 +303,7 @@ Music_04_Channel_1:
 Music_04_Channel_2:
     mainLoopStart
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     countedLoopStart 2
       inst 23
       vol 12
@@ -602,7 +602,7 @@ Music_04_Channel_2:
 Music_04_Channel_3:
     mainLoopStart
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     countedLoopStart 1
       inst 31
       vol 10
@@ -673,7 +673,7 @@ Music_04_Channel_3:
 Music_04_Channel_4:
     mainLoopStart
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     countedLoopStart 1
       inst 31
       vol 10

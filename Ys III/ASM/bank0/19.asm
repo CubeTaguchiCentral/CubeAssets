@@ -17,7 +17,7 @@ Music_19_Channel_0:
       inst 24
       vol 13
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 080h
             noteL E5, 8
             note D5
@@ -330,7 +330,7 @@ Music_19_Channel_1:
       inst 19
       vol 13
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 040h
             noteL C5, 8
             note A4
@@ -698,7 +698,7 @@ Music_19_Channel_2:
       inst 3
       vol 13
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL A3, 8
             note A3
             note A4
@@ -1112,7 +1112,7 @@ Music_19_Channel_3:
       inst 8
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
             noteL A4, 8
             note G4
@@ -1344,7 +1344,7 @@ Music_19_Channel_4:
       inst 8
       vol 8
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
             note A4
             note G4

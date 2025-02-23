@@ -18,7 +18,7 @@ Music_06_Channel_0:
       inst 11
       vol 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL D3, 36
             waitL 12
@@ -217,7 +217,7 @@ Music_06_Channel_1:
       inst 5
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL C6, 36
             waitL 12
@@ -343,7 +343,7 @@ Music_06_Channel_2:
       inst 5
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL A5, 36
             waitL 12
@@ -488,7 +488,7 @@ Music_06_Channel_3:
       inst 7
       vol 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 080h
             waitL 144
             waitL 72
@@ -664,7 +664,7 @@ Music_06_Channel_4:
     mainLoopStart
       inst 7
       vol 12
-      vibrato 2
+      vibrato 02h
       stereo 040h
             waitL 144
             waitL 84

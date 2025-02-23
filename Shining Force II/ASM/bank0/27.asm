@@ -15,7 +15,7 @@ Music_27:
     dw Music_27_Channel_8
 Music_27_Channel_0:
       stereo 0c0h
-      vibrato 44
+      vibrato 02ch
             waitL 21
       inst 13
       vol 12
@@ -40,7 +40,7 @@ Music_27_Channel_0:
 Music_27_Channel_1:
       stereo 0c0h
       setRelease 5
-      vibrato 44
+      vibrato 02ch
             waitL 21
       inst 13
       vol 13
@@ -63,7 +63,7 @@ Music_27_Channel_1:
 Music_27_Channel_2:
       stereo 0c0h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 21
       inst 3
       vol 12
@@ -83,7 +83,7 @@ Music_27_Channel_2:
 Music_27_Channel_3:
       stereo 0c0h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 21
       inst 3
       vol 13
@@ -104,7 +104,7 @@ Music_27_Channel_4:
       stereo 040h
       shifting 32
       setRelease 5
-      vibrato 44
+      vibrato 02ch
             waitL 25
       inst 13
       vol 11
@@ -155,7 +155,7 @@ Music_27_Channel_5:
 Music_27_Channel_6:
       psgInst 07dh
       setRelease 1
-      vibrato 76
+      vibrato 04ch
             psgNoteL F3, 3
             psgNote G3
             psgNote A3
@@ -205,7 +205,7 @@ Music_27_Channel_7:
       shifting 16
       psgInst 07bh
       setRelease 1
-      vibrato 76
+      vibrato 04ch
             psgNoteL F3, 3
             psgNote G3
             psgNote A3

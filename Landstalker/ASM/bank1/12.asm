@@ -18,7 +18,7 @@ Music_12_Channel_0:
       inst 1
       vol 11
       setRelease 1
-      vibrato 0
+      vibrato 00h
             noteL D5, 15
             noteL B5, 13
             note G5
@@ -213,7 +213,7 @@ Music_12_Channel_1:
       inst 1
       vol 10
       setRelease 1
-      vibrato 0
+      vibrato 00h
             noteL D5, 13
             wait
             noteL G5, 12
@@ -392,7 +392,7 @@ Music_12_Channel_2:
       inst 1
       vol 10
       setRelease 1
-      vibrato 0
+      vibrato 00h
             noteL B4, 44
             noteL B4, 140
       vol 9
@@ -542,7 +542,7 @@ Music_12_Channel_3:
       inst 1
       vol 10
       setRelease 1
-      vibrato 0
+      vibrato 00h
       sustain
             noteL G4, 186
       setRelease 1
@@ -692,7 +692,7 @@ Music_12_Channel_4:
       inst 1
       vol 10
       setRelease 1
-      vibrato 0
+      vibrato 00h
       sustain
             noteL C4, 188
       setRelease 1

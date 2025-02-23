@@ -18,7 +18,7 @@ Music_10_Channel_0:
       inst 58
       vol 11
       setRelease 0
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL E6, 48
             noteL A5, 72
@@ -95,7 +95,7 @@ Music_10_Channel_1:
       inst 58
       vol 9
       setRelease 0
-      vibrato 42
+      vibrato 02ah
       stereo 080h
             waitL 10
             noteL E6, 48
@@ -161,7 +161,7 @@ Music_10_Channel_2:
       inst 58
       vol 9
       setRelease 0
-      vibrato 42
+      vibrato 02ah
       stereo 040h
             waitL 5
             noteL E6, 48
@@ -224,7 +224,7 @@ Music_10_Channel_3:
       inst 58
       vol 8
       setRelease 0
-      vibrato 42
+      vibrato 02ah
       stereo 040h
             waitL 15
             noteL E6, 48
@@ -286,7 +286,7 @@ Music_10_Channel_4:
       inst 58
       vol 8
       setRelease 0
-      vibrato 42
+      vibrato 02ah
       stereo 080h
             waitL 20
             noteL E6, 48

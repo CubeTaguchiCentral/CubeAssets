@@ -17,7 +17,7 @@ Music_31_Channel_0:
       inst 3
       vol 15
       setRelease 2
-      vibrato 0
+      vibrato 00h
     mainLoopStart
             noteL C2, 7
     mainLoopEnd
@@ -25,7 +25,7 @@ Music_31_Channel_1:
       inst 3
       vol 15
       setRelease 2
-      vibrato 0
+      vibrato 00h
     mainLoopStart
             noteL Cs2, 8
     mainLoopEnd
@@ -33,7 +33,7 @@ Music_31_Channel_2:
       inst 3
       vol 15
       setRelease 2
-      vibrato 0
+      vibrato 00h
     mainLoopStart
             noteL D2, 9
     mainLoopEnd
@@ -42,7 +42,7 @@ Music_31_Channel_3:
       inst 3
       vol 15
       setRelease 2
-      vibrato 0
+      vibrato 00h
     mainLoopStart
             noteL D2, 7
     mainLoopEnd
@@ -51,7 +51,7 @@ Music_31_Channel_4:
       inst 3
       vol 15
       setRelease 2
-      vibrato 0
+      vibrato 00h
     mainLoopStart
             noteL E2, 8
     mainLoopEnd

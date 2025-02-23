@@ -18,7 +18,7 @@ Music_22_Channel_0:
       inst 9
       vol 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL G5, 28
             noteL Fs5, 196
@@ -30,7 +30,7 @@ Music_22_Channel_1:
       inst 9
       vol 13
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 040h
             waitL 42
             noteL G4, 182
@@ -42,7 +42,7 @@ Music_22_Channel_2:
       inst 14
       vol 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL E3, 14
             noteL G3, 5
             waitL 9
@@ -93,7 +93,7 @@ Music_22_Channel_3:
       inst 9
       vol 13
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 080h
             waitL 49
             noteL Cs5, 175
@@ -106,7 +106,7 @@ Music_22_Channel_4:
       inst 9
       vol 9
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       shifting 64
             noteL G5, 28
             noteL Fs5, 196
@@ -125,7 +125,7 @@ Music_22_Channel_6:
     mainLoopStart
       psgInst 09h
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             psgNoteL C2, 5
             waitL 9
             psgNoteL E2, 5
@@ -162,7 +162,7 @@ Music_22_Channel_7:
     mainLoopStart
       psgInst 0ah
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 14
             psgNoteL C3, 6
             waitL 15

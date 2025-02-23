@@ -16,7 +16,7 @@ Music_01:
 Music_01_Channel_0:
     countedLoopStart 1
       setRelease 1
-      vibrato 40
+      vibrato 028h
       stereo 0c0h
             waitL 96
             waitL 36
@@ -26,7 +26,7 @@ Music_01_Channel_0:
     countedLoopEnd
       inst 16
       vol 10
-      vibrato 88
+      vibrato 058h
             noteL D6, 72
             noteL Fs6, 12
             note E6
@@ -76,7 +76,7 @@ Music_01_Channel_0:
       setRelease 0
       inst 47
       vol 12
-      vibrato 62
+      vibrato 03eh
             noteL D6, 84
             noteL Cs6, 6
             note D6
@@ -109,7 +109,7 @@ Music_01_Channel_0:
     countedLoopStart 1
       inst 4
       vol 11
-      vibrato 66
+      vibrato 042h
             noteL A5, 6
             note A5
             waitL 24
@@ -156,7 +156,7 @@ Music_01_Channel_0:
       stereo 080h
       inst 47
       vol 13
-      vibrato 61
+      vibrato 03dh
             waitL 6
             note A4
             note B4
@@ -463,7 +463,7 @@ Music_01_Channel_2:
       inst 34
       vol 11
       setRelease 0
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL D4, 96
             note D4
@@ -981,7 +981,7 @@ Music_01_Channel_3:
       inst 45
       vol 10
       setRelease 1
-      vibrato 79
+      vibrato 04fh
       stereo 040h
     countedLoopStart 1
             noteL Fs5, 96
@@ -1050,7 +1050,7 @@ Music_01_Channel_3:
       inst 47
       vol 12
       setRelease 0
-      vibrato 61
+      vibrato 03dh
             waitL 6
             note Fs4
             note G4
@@ -1260,7 +1260,7 @@ Music_01_Channel_4:
             waitL 6
     countedLoopStart 1
       setRelease 1
-      vibrato 40
+      vibrato 028h
       stereo 0c0h
             waitL 96
             waitL 36
@@ -1270,7 +1270,7 @@ Music_01_Channel_4:
     countedLoopEnd
       inst 16
       vol 6
-      vibrato 88
+      vibrato 058h
             noteL D6, 72
             noteL Fs6, 12
             note E6
@@ -1320,7 +1320,7 @@ Music_01_Channel_4:
       setRelease 0
       inst 47
       vol 9
-      vibrato 61
+      vibrato 03dh
             noteL D6, 84
             noteL Cs6, 6
             note D6
@@ -1353,7 +1353,7 @@ Music_01_Channel_4:
     countedLoopStart 1
       inst 4
       vol 6
-      vibrato 42
+      vibrato 02ah
             noteL A5, 6
             note A5
             waitL 24
@@ -1401,7 +1401,7 @@ Music_01_Channel_4:
       inst 47
       vol 11
       setRelease 0
-      vibrato 61
+      vibrato 03dh
             waitL 6
             note A4
             note B4
@@ -1896,7 +1896,7 @@ Music_01_Channel_5:
 Music_01_Channel_6:
       psgInst 0ch
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     countedLoopStart 9
       psgInst 0ah
             psgNoteL D5, 4
@@ -1980,7 +1980,7 @@ Music_01_Channel_7:
             waitL 6
       psgInst 07h
       setRelease 1
-      vibrato 74
+      vibrato 04ah
     countedLoopStart 9
       psgInst 06h
             psgNoteL D5, 4

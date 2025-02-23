@@ -15,7 +15,7 @@ Music_18:
     dw Music_18_Channel_6
 Music_18_Channel_0:
       vol 10
-      vibrato 42
+      vibrato 02ah
       inst 2
       sustain
             noteL Cs6, 20
@@ -732,7 +732,7 @@ Music_18_Channel_0:
     mainLoopEnd
 Music_18_Channel_1:
       vol 11
-      vibrato 42
+      vibrato 02ah
       inst 2
       sustain
             noteL Fs6, 20
@@ -1133,7 +1133,7 @@ Music_18_Channel_1:
     mainLoopEnd
 Music_18_Channel_2:
       vol 10
-      vibrato 42
+      vibrato 02ah
       inst 2
       sustain
             noteL Gs5, 20
@@ -1532,7 +1532,7 @@ Music_18_Channel_2:
     mainLoopEnd
 Music_18_Channel_3:
       vol 10
-      vibrato 42
+      vibrato 02ah
       inst 2
       sustain
             noteL Cs5, 20
@@ -1909,7 +1909,7 @@ Music_18_Channel_3:
     mainLoopEnd
 Music_18_Channel_4:
       vol 10
-      vibrato 42
+      vibrato 02ah
       inst 2
       sustain
             noteL Fs5, 20
@@ -1983,7 +1983,7 @@ Music_18_Channel_4:
     countedLoopStart 2
             waitL 96
     countedLoopEnd
-      vibrato 16
+      vibrato 010h
       vol 10
       inst 40
       stereo 040h
@@ -2069,7 +2069,7 @@ Music_18_Channel_4:
     countedLoopEnd
             waitL 24
     countedLoopStart 3
-      vibrato 42
+      vibrato 02ah
       vol 7
       inst 17
             noteL Fs4, 12

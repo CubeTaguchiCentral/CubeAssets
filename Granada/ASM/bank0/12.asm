@@ -15,7 +15,7 @@ Music_12:
     dw Music_12_Channel_6
 Music_12_Channel_0:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       inst 1
       vol 6
             noteL A4, 6
@@ -265,7 +265,7 @@ Music_12_Channel_0:
 Music_12_Channel_1:
       inst 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       inst 2
       vol 6
             noteL D5, 6
@@ -582,7 +582,7 @@ Music_12_Channel_1:
 Music_12_Channel_2:
       inst 19
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       vol 8
             noteL A4, 6
             note A4
@@ -709,7 +709,7 @@ Music_12_Channel_2:
 Music_12_Channel_3:
       inst 31
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       vol 6
             noteL G5, 6
             note G5
@@ -816,7 +816,7 @@ Music_12_Channel_3:
 Music_12_Channel_4:
       inst 31
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       vol 6
             noteL A5, 6
             note A5

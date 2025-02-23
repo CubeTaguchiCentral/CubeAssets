@@ -16,7 +16,7 @@ Music_09:
 Music_09_Channel_0:
       stereo 0c0h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 216
             wait
             waitL 108
@@ -63,40 +63,40 @@ Music_09_Channel_0:
 Music_09_Channel_1:
       stereo 0c0h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 216
             wait
       inst 11
       vol 13
       sustain
             note Cs3
-      vibrato 32
+      vibrato 020h
       setRelease 1
             note F3
     mainLoopStart
       sustain
-      vibrato 44
+      vibrato 02ch
             noteL B2, 108
       setRelease 1
-      vibrato 32
+      vibrato 020h
             note D3
     countedLoopStart 1
       sustain
-      vibrato 44
+      vibrato 02ch
             noteL F3, 108
       setRelease 1
-      vibrato 32
+      vibrato 020h
             note E3
     countedLoopEnd
       sustain
             noteL F2, 216
-      vibrato 32
+      vibrato 020h
       setRelease 1
             note F2
-      vibrato 44
+      vibrato 02ch
       sustain
             noteL Cs3, 108
-      vibrato 32
+      vibrato 020h
       setRelease 1
             note F3
     mainLoopEnd
@@ -105,7 +105,7 @@ Music_09_Channel_2:
       shifting 16
       vol 0
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 222
             wait
             waitL 108
@@ -153,46 +153,46 @@ Music_09_Channel_3:
       shifting 32
       stereo 040h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 222
             wait
       inst 11
       vol 12
       sustain
             noteL Cs3, 216
-      vibrato 32
+      vibrato 020h
       setRelease 1
             note F3
     mainLoopStart
       sustain
-      vibrato 44
+      vibrato 02ch
             noteL B2, 108
       setRelease 1
-      vibrato 32
+      vibrato 020h
             note D3
     countedLoopStart 1
       sustain
-      vibrato 44
+      vibrato 02ch
             noteL F3, 108
       setRelease 1
-      vibrato 32
+      vibrato 020h
             note E3
     countedLoopEnd
       sustain
             noteL F2, 216
-      vibrato 32
+      vibrato 020h
       setRelease 1
             note F2
-      vibrato 44
+      vibrato 02ch
       sustain
             noteL Cs3, 108
-      vibrato 32
+      vibrato 020h
       setRelease 1
             note F3
     mainLoopEnd
 Music_09_Channel_4:
       stereo 040h
-      vibrato 44
+      vibrato 02ch
       setRelease 0
             waitL 108
             wait
@@ -257,7 +257,7 @@ Music_09_Channel_4:
 Music_09_Channel_5:
       shifting 32
       stereo 080h
-      vibrato 44
+      vibrato 02ch
       setRelease 0
             waitL 111
             waitL 108
@@ -321,7 +321,7 @@ Music_09_Channel_5:
     mainLoopEnd
 Music_09_Channel_6:
       setRelease 1
-      vibrato 76
+      vibrato 04ch
       psgInst 0a5h
             psgNoteL As4, 12
             psgNote B4
@@ -392,7 +392,7 @@ Music_09_Channel_6:
 Music_09_Channel_7:
       shifting 16
       setRelease 1
-      vibrato 76
+      vibrato 04ch
       psgInst 00h
             waitL 8
       psgInst 0a3h

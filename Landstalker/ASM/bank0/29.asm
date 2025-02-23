@@ -19,7 +19,7 @@ Music_29_Channel_0:
       inst 23
       vol 12
       setRelease 1
-      vibrato 0
+      vibrato 00h
     countedLoopStart 1
             noteL G5, 12
             noteL G5, 6
@@ -181,7 +181,7 @@ Music_29_Channel_1:
       inst 23
       vol 11
       setRelease 1
-      vibrato 0
+      vibrato 00h
     countedLoopStart 3
             noteL B4, 6
             note Ds5
@@ -344,7 +344,7 @@ Music_29_Channel_2:
       inst 23
       vol 11
       setRelease 1
-      vibrato 0
+      vibrato 00h
     countedLoopStart 3
             noteL G3, 18
             note A3
@@ -456,7 +456,7 @@ Music_29_Channel_3:
       inst 15
       vol 10
       setRelease 3
-      vibrato 0
+      vibrato 00h
             noteL A5, 6
             note B5
             note Cs6
@@ -487,7 +487,7 @@ Music_29_Channel_3:
       inst 44
       vol 13
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL F6, 4
             note Cs6
             note A5
@@ -654,7 +654,7 @@ Music_29_Channel_4:
       inst 15
       vol 10
       setRelease 3
-      vibrato 0
+      vibrato 00h
     countedLoopStart 1
             noteL G6, 6
             wait
@@ -705,7 +705,7 @@ Music_29_Channel_4:
       inst 44
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL F6, 4
             note Cs6
             note A5

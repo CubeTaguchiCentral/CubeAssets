@@ -17,7 +17,7 @@ Music_08_Channel_0:
       inst 34
       vol 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL C4, 6
             note D4
             note C4
@@ -178,7 +178,7 @@ Music_08_Channel_1:
       inst 34
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL C5, 7
             noteL D5, 6
             note C5
@@ -505,7 +505,7 @@ Music_08_Channel_2:
       inst 34
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL G4, 7
             noteL A4, 6
             note G4
@@ -738,7 +738,7 @@ Music_08_Channel_3:
       inst 34
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL C5, 6
             note D5
             note C5
@@ -854,7 +854,7 @@ Music_08_Channel_4:
       inst 34
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL G4, 6
             note A4
             note G4
@@ -1217,7 +1217,7 @@ Music_08_Channel_5:
 Music_08_Channel_6:
       psgInst 00h
       setRelease 1
-      vibrato 74
+      vibrato 04ah
             waitL 48
     countedLoopStart 1
             waitL 96
@@ -1343,7 +1343,7 @@ Music_08_Channel_6:
 Music_08_Channel_7:
       psgInst 00h
       setRelease 1
-      vibrato 74
+      vibrato 04ah
             waitL 48
     countedLoopStart 1
             waitL 96

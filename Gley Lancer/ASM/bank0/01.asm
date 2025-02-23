@@ -17,7 +17,7 @@ Music_01_Channel_0:
       inst 17
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL G3, 6
             note G3
             note G3
@@ -174,7 +174,7 @@ Music_01_Channel_1:
       inst 10
       vol 11
     repeatStart
-      vibrato 28
+      vibrato 01ch
             noteL Ds5, 84
             noteL D5, 6
             note Ds5
@@ -280,7 +280,7 @@ Music_01_Channel_1:
             note Gs6
             note G6
             note F6
-      vibrato 42
+      vibrato 02ah
       inst 7
       vol 10
       sustain
@@ -305,9 +305,9 @@ Music_01_Channel_1:
       noSlide
             noteL Ds7, 224
       setRelease 1
-      vibrato 35
+      vibrato 023h
             noteL Ds7, 96
-      vibrato 42
+      vibrato 02ah
     mainLoopEnd
 Music_01_Channel_2:
       setRelease 1
@@ -315,7 +315,7 @@ Music_01_Channel_2:
     mainLoopStart
       inst 10
       vol 8
-      vibrato 28
+      vibrato 01ch
     repeatStart
             noteL C5, 84
             noteL As4, 6
@@ -434,7 +434,7 @@ Music_01_Channel_2:
     mainLoopEnd
 Music_01_Channel_3:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 24
     mainLoopStart
       inst 4
@@ -518,7 +518,7 @@ Music_01_Channel_4:
       inst 10
       vol 8
     repeatStart
-      vibrato 28
+      vibrato 01ch
             noteL Ds5, 84
             noteL D5, 6
             note Ds5
@@ -626,7 +626,7 @@ Music_01_Channel_4:
             note F6
       inst 7
       vol 8
-      vibrato 42
+      vibrato 02ah
       sustain
             noteL C7, 192
       setRelease 1
@@ -649,9 +649,9 @@ Music_01_Channel_4:
       noSlide
             noteL Ds7, 224
       setRelease 1
-      vibrato 35
+      vibrato 023h
             noteL Ds7, 96
-      vibrato 42
+      vibrato 02ah
     mainLoopEnd
 Music_01_Channel_5:
       stereo 0c0h
@@ -791,7 +791,7 @@ Music_01_Channel_5:
 Music_01_Channel_6:
       psgInst 00h
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 24
     mainLoopStart
       psgInst 00h

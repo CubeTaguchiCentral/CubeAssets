@@ -17,7 +17,7 @@ Music_03_Channel_0:
       inst 4
       vol 0
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 12
     mainLoopStart
             waitL 2
@@ -238,7 +238,7 @@ Music_03_Channel_1:
       inst 19
       vol 0
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 12
     mainLoopStart
             waitL 2
@@ -479,7 +479,7 @@ Music_03_Channel_2:
       inst 4
       vol 13
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
             noteL A3, 6
             wait
@@ -853,7 +853,7 @@ Music_03_Channel_3:
       inst 19
       vol 0
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 12
     mainLoopStart
       stereo 080h
@@ -1192,7 +1192,7 @@ Music_03_Channel_4:
       vol 0
       shifting 32
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 15
     mainLoopStart
             waitL 4
@@ -1221,10 +1221,10 @@ Music_03_Channel_4:
             noteL F7, 9
       vol 3
       setRelease 1
-      vibrato 33
+      vibrato 021h
             noteL F7, 76
     countedLoopEnd
-      vibrato 0
+      vibrato 00h
             waitL 22
       stereo 040h
       inst 37
@@ -1491,7 +1491,7 @@ Music_03_Channel_6:
             waitL 12
     mainLoopStart
     countedLoopStart 1
-      vibrato 79
+      vibrato 04fh
             waitL 60
       psgInst 09h
             psgNoteL A5, 6
@@ -1634,7 +1634,7 @@ Music_03_Channel_6:
             psgNoteL A2, 6
       psgInst 00h
             waitL 18
-      vibrato 40
+      vibrato 028h
       psgInst 0ah
             psgNoteL A2, 1
             psgNote Cs3
@@ -1650,7 +1650,7 @@ Music_03_Channel_6:
             psgNoteL A4, 44
     countedLoopEnd
     countedLoopStart 2
-      vibrato 60
+      vibrato 03ch
       setRelease 1
       psgInst 0bh
             psgNoteL A5, 6
@@ -1673,7 +1673,7 @@ Music_03_Channel_6:
             psgNote A5
             psgNote Gs5
       setRelease 0
-      vibrato 40
+      vibrato 028h
       psgInst 0ah
             psgNoteL A2, 1
             psgNote Cs3
@@ -1688,7 +1688,7 @@ Music_03_Channel_6:
             psgNote Gs4
             psgNoteL A4, 42
     countedLoopEnd
-      vibrato 61
+      vibrato 03dh
       setRelease 1
       psgInst 0bh
             psgNoteL A5, 6
@@ -1733,7 +1733,7 @@ Music_03_Channel_6:
             psgNote G6
             psgNote F6
             psgNote D6
-      vibrato 95
+      vibrato 05fh
       psgInst 09h
             psgNoteL A5, 192
     mainLoopEnd
@@ -1743,7 +1743,7 @@ Music_03_Channel_7:
             waitL 12
     mainLoopStart
     countedLoopStart 1
-      vibrato 79
+      vibrato 04fh
             waitL 60
       psgInst 0ah
             psgNoteL D6, 6

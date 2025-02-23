@@ -18,7 +18,7 @@ Music_13_Channel_0:
       inst 14
       vol 9
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
             noteL B5, 14
             waitL 4
@@ -91,7 +91,7 @@ Music_13_Channel_1:
       inst 14
       vol 9
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
             noteL Ds5, 14
             waitL 4
@@ -167,7 +167,7 @@ Music_13_Channel_2:
       inst 17
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
             waitL 24
             waitL 96
@@ -239,7 +239,7 @@ Music_13_Channel_3:
       inst 14
       vol 7
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 080h
       shifting 32
             waitL 8
@@ -315,7 +315,7 @@ Music_13_Channel_4:
       inst 14
       vol 7
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 040h
       shifting 32
             waitL 8

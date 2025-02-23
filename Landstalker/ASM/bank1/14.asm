@@ -16,7 +16,7 @@ Music_14:
 Music_14_Channel_0:
       stereo 0c0h
       setRelease 0
-      vibrato 45
+      vibrato 02dh
             waitL 192
             waitL 168
       inst 53
@@ -56,10 +56,10 @@ Music_14_Channel_0:
       setSlide 2
       sustain
             noteL G5, 192
-      vibrato 32
+      vibrato 020h
       setRelease 1
             noteL G5, 156
-      vibrato 44
+      vibrato 02ch
       noSlide
             waitL 12
             note C5
@@ -95,11 +95,11 @@ Music_14_Channel_0:
       setSlide 1
       sustain
             noteL C5, 192
-      vibrato 32
+      vibrato 020h
       setRelease 1
             noteL C5, 156
       noSlide
-      vibrato 44
+      vibrato 02ch
             waitL 12
             note C5
             wait
@@ -108,7 +108,7 @@ Music_14_Channel_1:
       stereo 0c0h
       shifting 32
       setRelease 0
-      vibrato 60
+      vibrato 03ch
             waitL 198
             waitL 168
       inst 53
@@ -148,10 +148,10 @@ Music_14_Channel_1:
       setSlide 2
       sustain
             noteL G5, 192
-      vibrato 32
+      vibrato 020h
       setRelease 1
             noteL G5, 156
-      vibrato 44
+      vibrato 02ch
       noSlide
             waitL 12
             note C5
@@ -187,18 +187,18 @@ Music_14_Channel_1:
       setSlide 1
       sustain
             noteL C5, 192
-      vibrato 32
+      vibrato 020h
       setRelease 1
             noteL C5, 156
       noSlide
-      vibrato 44
+      vibrato 02ch
             waitL 12
             note C5
             wait
     mainLoopEnd
 Music_14_Channel_2:
       setRelease 1
-      vibrato 76
+      vibrato 04ch
     mainLoopStart
     countedLoopStart 5
             waitL 24
@@ -241,7 +241,7 @@ Music_14_Channel_3:
       inst 30
       vol 10
       setRelease 1
-      vibrato 76
+      vibrato 04ch
     mainLoopStart
     countedLoopStart 5
       sustain
@@ -280,7 +280,7 @@ Music_14_Channel_3:
     mainLoopEnd
 Music_14_Channel_4:
       setRelease 1
-      vibrato 76
+      vibrato 04ch
     mainLoopStart
     countedLoopStart 1
             waitL 24
@@ -406,7 +406,7 @@ Music_14_Channel_5:
     mainLoopEnd
 Music_14_Channel_6:
       setRelease 1
-      vibrato 76
+      vibrato 04ch
     mainLoopStart
     countedLoopStart 5
       psgInst 00h
@@ -447,7 +447,7 @@ Music_14_Channel_6:
     mainLoopEnd
 Music_14_Channel_7:
       setRelease 1
-      vibrato 76
+      vibrato 04ch
       psgInst 00h
             waitL 24
     mainLoopStart

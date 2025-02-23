@@ -17,7 +17,7 @@ Music_08_Channel_0:
       inst 34
       vol 13
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       inst 30
             waitL 96
     mainLoopStart
@@ -151,7 +151,7 @@ Music_08_Channel_1:
       inst 7
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       inst 48
             waitL 96
     mainLoopStart
@@ -280,7 +280,7 @@ Music_08_Channel_2:
       inst 15
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             waitL 96
     mainLoopStart
@@ -413,7 +413,7 @@ Music_08_Channel_3:
       inst 15
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 040h
             waitL 96
     mainLoopStart
@@ -549,7 +549,7 @@ Music_08_Channel_4:
       inst 15
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 080h
             waitL 96
     mainLoopStart

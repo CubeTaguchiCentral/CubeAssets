@@ -18,13 +18,13 @@ Music_23_Channel_0:
       inst 25
       vol 14
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       sustain
             noteL A2, 108
-      vibrato 32
+      vibrato 020h
       setRelease 1
             noteL A2, 182
-      vibrato 44
+      vibrato 02ch
             noteL G2, 42
             noteL F2, 123
             waitL 24
@@ -33,7 +33,7 @@ Music_23_Channel_1:
       stereo 0c0h
       inst 26
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 18
       vol 12
             note Fs4
@@ -57,7 +57,7 @@ Music_23_Channel_2:
       stereo 0c0h
       inst 63
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 36
       vol 11
             note D4
@@ -74,7 +74,7 @@ Music_23_Channel_3:
       stereo 0c0h
       inst 63
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 36
       vol 11
             note B3
@@ -92,7 +92,7 @@ Music_23_Channel_4:
       shifting 32
       inst 26
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 36
       vol 10
             noteL Fs4, 18
@@ -117,7 +117,7 @@ Music_23_Channel_5:
       shifting 16
       inst 26
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 27
       vol 11
             noteL Fs4, 18
@@ -140,7 +140,7 @@ Music_23_Channel_5:
 Music_23_Channel_6:
       psgInst 00h
       setRelease 1
-      vibrato 76
+      vibrato 04ch
             waitL 108
       psgInst 07dh
             psgNoteL B3, 27
@@ -181,7 +181,7 @@ Music_23_Channel_7:
       shifting 16
       psgInst 00h
       setRelease 1
-      vibrato 76
+      vibrato 04ch
             waitL 117
       psgInst 07bh
             psgNoteL B3, 27

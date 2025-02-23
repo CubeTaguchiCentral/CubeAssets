@@ -18,7 +18,7 @@ Music_18_Channel_0:
       inst 34
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL As3, 96
             noteL F3, 192
     countedLoopEnd
@@ -28,7 +28,7 @@ Music_18_Channel_1:
       inst 34
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL Ds3, 96
             noteL As2, 192
     countedLoopEnd
@@ -39,7 +39,7 @@ Music_18_Channel_2:
       inst 34
       vol 7
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL As3, 96
             noteL F3, 192
     countedLoopEnd
@@ -50,14 +50,14 @@ Music_18_Channel_3:
       inst 34
       vol 7
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL Ds3, 96
             noteL As2, 192
     countedLoopEnd
     channel_end
 Music_18_Channel_4:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     countedLoopStart 2
             waitL 96
     countedLoopEnd

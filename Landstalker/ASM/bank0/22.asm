@@ -17,7 +17,7 @@ Music_22_Channel_0:
       inst 43
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL G6, 6
             note G6
             note G6
@@ -219,7 +219,7 @@ Music_22_Channel_1:
       inst 43
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL D6, 6
             note D6
             note D6
@@ -368,7 +368,7 @@ Music_22_Channel_2:
       inst 43
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL C6, 6
             note C6
             note C6
@@ -562,7 +562,7 @@ Music_22_Channel_3:
       inst 38
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       inst 38
             noteL G3, 6
             note G3
@@ -768,7 +768,7 @@ Music_22_Channel_3:
     mainLoopEnd
 Music_22_Channel_4:
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 84
       inst 62
       vol 11

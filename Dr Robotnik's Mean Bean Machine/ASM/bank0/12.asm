@@ -17,7 +17,7 @@ Music_12_Channel_0:
       inst 7
       vol 15
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
       shifting 0
             noteL F4, 4
@@ -43,7 +43,7 @@ Music_12_Channel_1:
       inst 7
       vol 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
       shifting 0
             noteL F4, 4
@@ -68,7 +68,7 @@ Music_12_Channel_2:
       inst 7
       vol 15
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 040h
       shifting 0
             noteL As3, 4
@@ -94,7 +94,7 @@ Music_12_Channel_3:
       inst 7
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 040h
       shifting 0
             noteL As3, 4
@@ -119,7 +119,7 @@ Music_12_Channel_4:
       inst 7
       vol 15
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 080h
       shifting 0
             noteL B3, 4

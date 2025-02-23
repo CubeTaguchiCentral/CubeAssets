@@ -17,7 +17,7 @@ Music_19_Channel_0:
       inst 39
       vol 12
       setRelease 4
-      vibrato 44
+      vibrato 02ch
       stereo 040h
     mainLoopStart
             noteL C6, 12
@@ -56,7 +56,7 @@ Music_19_Channel_0:
             note As5
     mainLoopEnd
 Music_19_Channel_1:
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
       stereo 0c0h
       setRelease 0
@@ -91,7 +91,7 @@ Music_19_Channel_2:
       inst 16
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 040h
     mainLoopStart
             noteL Ds5, 96
@@ -109,7 +109,7 @@ Music_19_Channel_2:
 Music_19_Channel_3:
       inst 29
       vol 14
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
       setRelease 3
     mainLoopStart
@@ -134,7 +134,7 @@ Music_19_Channel_4:
       inst 19
       vol 10
       setRelease 8
-      vibrato 44
+      vibrato 02ch
       stereo 080h
     mainLoopStart
             noteL G6, 12
@@ -191,7 +191,7 @@ Music_19_Channel_5:
 Music_19_Channel_6:
     mainLoopStart
       setRelease 1
-      vibrato 87
+      vibrato 057h
       psgInst 00h
             waitL 24
       psgInst 0bh
@@ -204,11 +204,11 @@ Music_19_Channel_6:
             waitL 14
       psgInst 0bh
             psgNoteL Ds4, 12
-      vibrato 58
+      vibrato 03ah
             psgNoteL F4, 108
       psgInst 00h
             waitL 24
-      vibrato 87
+      vibrato 057h
       psgInst 0bh
             psgNoteL Ds4, 10
       psgInst 00h
@@ -220,7 +220,7 @@ Music_19_Channel_6:
       psgInst 0bh
       setRelease 2
             psgNoteL Ds4, 12
-      vibrato 78
+      vibrato 04eh
             psgNoteL G4, 24
             psgNote F4
             psgNote Ds4
@@ -229,7 +229,7 @@ Music_19_Channel_6:
             psgNoteL Ds4, 30
       psgInst 00h
             waitL 6
-      vibrato 87
+      vibrato 057h
       psgInst 0bh
             psgNoteL Ds4, 10
       psgInst 00h
@@ -240,11 +240,11 @@ Music_19_Channel_6:
             waitL 14
       psgInst 0bh
             psgNoteL Ds4, 12
-      vibrato 58
+      vibrato 03ah
             psgNoteL F4, 108
       psgInst 00h
             waitL 24
-      vibrato 87
+      vibrato 057h
       psgInst 0bh
             psgNoteL Ds4, 10
       psgInst 00h
@@ -256,7 +256,7 @@ Music_19_Channel_6:
       psgInst 0bh
       setRelease 2
             psgNoteL Ds4, 12
-      vibrato 74
+      vibrato 04ah
             psgNoteL G4, 24
             psgNote F4
             psgNote Ds4
@@ -270,7 +270,7 @@ Music_19_Channel_7:
       psgInst 00h
             waitL 24
       setRelease 1
-      vibrato 87
+      vibrato 057h
       psgInst 0ah
             psgNoteL Ds5, 10
       psgInst 00h
@@ -281,11 +281,11 @@ Music_19_Channel_7:
             waitL 14
       psgInst 0ah
             psgNoteL Ds5, 12
-      vibrato 58
+      vibrato 03ah
             psgNoteL F5, 108
       psgInst 00h
             waitL 24
-      vibrato 87
+      vibrato 057h
       psgInst 0ah
             psgNoteL Ds5, 10
       psgInst 00h
@@ -297,17 +297,17 @@ Music_19_Channel_7:
       psgInst 0ah
       setRelease 2
             psgNoteL Ds5, 12
-      vibrato 78
+      vibrato 04eh
             psgNoteL G5, 24
             psgNote F5
             psgNote Ds5
             psgNote F5
       setRelease 1
-      vibrato 56
+      vibrato 038h
             psgNoteL Ds5, 30
       psgInst 00h
             waitL 6
-      vibrato 87
+      vibrato 057h
       psgInst 0ah
             psgNoteL Ds5, 10
       psgInst 00h
@@ -318,11 +318,11 @@ Music_19_Channel_7:
             waitL 14
       psgInst 0ah
             psgNoteL Ds5, 12
-      vibrato 58
+      vibrato 03ah
             psgNoteL F5, 108
       psgInst 00h
             waitL 24
-      vibrato 87
+      vibrato 057h
       psgInst 0ah
             psgNoteL Ds5, 10
       psgInst 00h
@@ -334,12 +334,12 @@ Music_19_Channel_7:
       psgInst 0ah
       setRelease 2
             psgNoteL Ds5, 12
-      vibrato 74
+      vibrato 04ah
             psgNoteL G5, 24
             psgNote F5
             psgNote Ds5
       setRelease 1
-      vibrato 56
+      vibrato 038h
             psgNoteL F5, 36
     mainLoopEnd
 Music_19_Channel_8:

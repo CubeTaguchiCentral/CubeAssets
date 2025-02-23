@@ -18,7 +18,7 @@ Music_08_Channel_0:
       vol 12
       stereo 0c0h
       setRelease 0
-      vibrato 49
+      vibrato 031h
     mainLoopStart
             noteL C2, 160
     mainLoopEnd
@@ -27,7 +27,7 @@ Music_08_Channel_1:
       vol 10
       shifting 32
       setRelease 0
-      vibrato 33
+      vibrato 021h
             waitL 5
     mainLoopStart
       stereo 040h
@@ -41,7 +41,7 @@ Music_08_Channel_2:
       stereo 0c0h
       shifting 16
       setRelease 0
-      vibrato 33
+      vibrato 021h
             waitL 12
     mainLoopStart
             noteL C2, 160
@@ -51,7 +51,7 @@ Music_08_Channel_3:
       vol 8
       stereo 0c0h
       setRelease 7
-      vibrato 49
+      vibrato 031h
     mainLoopStart
             noteL C5, 10
             note C5
@@ -67,7 +67,7 @@ Music_08_Channel_4:
       vol 7
       shifting 32
       setRelease 7
-      vibrato 49
+      vibrato 031h
       stereo 040h
             waitL 2
     mainLoopStart

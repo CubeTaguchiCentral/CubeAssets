@@ -17,7 +17,7 @@ Music_09_Channel_0:
       inst 53
       vol 5
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       shifting 32
       stereo 040h
             noteL E6, 192
@@ -316,7 +316,7 @@ Music_09_Channel_1:
       inst 53
       vol 8
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL E5, 192
       vol 9
             note G5
@@ -721,7 +721,7 @@ Music_09_Channel_1:
             noteL As6, 36
       noSlide
             noteL A6, 96
-      vibrato 0
+      vibrato 00h
             noteL A6, 0
       setSlide 4
             noteL B6, 96
@@ -731,7 +731,7 @@ Music_09_Channel_2:
       inst 53
       vol 8
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL D5, 192
       vol 9
             note E5
@@ -932,14 +932,14 @@ Music_09_Channel_2:
             noteL Cs6, 24
             noteL As6, 36
             noteL A6, 96
-      vibrato 0
+      vibrato 00h
             note B6
     channel_end
 Music_09_Channel_3:
       inst 53
       vol 8
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL B4, 192
       vol 9
             note D5
@@ -1394,7 +1394,7 @@ Music_09_Channel_3:
             noteL Fs6, 36
       noSlide
             noteL F6, 96
-      vibrato 0
+      vibrato 00h
             noteL Fs6, 0
       setSlide 4
             noteL Gs6, 96
@@ -1404,7 +1404,7 @@ Music_09_Channel_4:
       inst 53
       vol 5
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       shifting 32
       stereo 040h
             waitL 8
@@ -1603,7 +1603,7 @@ Music_09_Channel_4:
             noteL Cs6, 24
             noteL As6, 36
             noteL A6, 96
-      vibrato 0
+      vibrato 00h
             noteL B6, 88
     channel_end
 Music_09_Channel_5:
@@ -1903,7 +1903,7 @@ Music_09_Channel_5:
 Music_09_Channel_6:
       psgInst 08ch
       setRelease 1
-      vibrato 0
+      vibrato 00h
             psgNoteL E4, 12
             psgNote Ds4
       psgInst 08bh
@@ -2119,7 +2119,7 @@ Music_09_Channel_6:
 Music_09_Channel_7:
       psgInst 088h
       setRelease 1
-      vibrato 0
+      vibrato 00h
             waitL 8
             psgNoteL E4, 12
             psgNote Ds4

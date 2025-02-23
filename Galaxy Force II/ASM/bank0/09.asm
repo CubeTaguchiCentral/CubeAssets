@@ -15,7 +15,7 @@ Music_09:
     dw Music_09_Channel_8
 Music_09_Channel_0:
       setRelease 0
-      vibrato 45
+      vibrato 02dh
       inst 34
       vol 11
       stereo 0c0h
@@ -230,7 +230,7 @@ Music_09_Channel_1:
       inst 34
       vol 8
       setRelease 0
-      vibrato 44
+      vibrato 02ch
       shifting 0
       stereo 0c0h
     countedLoopStart 1
@@ -337,7 +337,7 @@ Music_09_Channel_1:
       inst 34
       vol 8
       setRelease 0
-      vibrato 44
+      vibrato 02ch
       shifting 0
       stereo 0c0h
             noteL E4, 96
@@ -356,7 +356,7 @@ Music_09_Channel_1:
 Music_09_Channel_2:
       inst 33
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     countedLoopStart 7
       stereo 080h
       vol 9
@@ -412,7 +412,7 @@ Music_09_Channel_2:
     mainLoopStart
       inst 33
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 080h
       vol 9
             noteL Fs5, 96
@@ -422,7 +422,7 @@ Music_09_Channel_2:
 Music_09_Channel_3:
       inst 33
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     countedLoopStart 3
       vol 9
       stereo 040h
@@ -577,11 +577,11 @@ Music_09_Channel_3:
             noteL G4, 22
       inst 33
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     countedLoopStart 3
       inst 33
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
       vol 9
       stereo 040h
@@ -597,7 +597,7 @@ Music_09_Channel_4:
       inst 40
       vol 8
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     countedLoopStart 2
       stereo 0c0h
             waitL 12
@@ -825,7 +825,7 @@ Music_09_Channel_4:
       inst 40
       vol 8
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     countedLoopStart 2
       stereo 0c0h
             waitL 12
@@ -976,7 +976,7 @@ Music_09_Channel_5:
 Music_09_Channel_6:
       psgInst 095h
       setRelease 0
-      vibrato 47
+      vibrato 02fh
     countedLoopStart 7
             psgNoteL Fs3, 192
     countedLoopEnd
@@ -993,14 +993,14 @@ Music_09_Channel_6:
     mainLoopStart
       psgInst 095h
       setRelease 0
-      vibrato 47
+      vibrato 02fh
     countedLoopStart 7
             psgNoteL Fs3, 192
     mainLoopEnd
 Music_09_Channel_7:
       psgInst 095h
       setRelease 0
-      vibrato 47
+      vibrato 02fh
     countedLoopStart 3
             psgNoteL D3, 192
             psgNote Cs3
@@ -1018,7 +1018,7 @@ Music_09_Channel_7:
     mainLoopStart
       psgInst 095h
       setRelease 0
-      vibrato 47
+      vibrato 02fh
     countedLoopStart 3
             psgNoteL D3, 192
             psgNote Cs3

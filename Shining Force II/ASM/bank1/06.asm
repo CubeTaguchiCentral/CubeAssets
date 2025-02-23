@@ -18,7 +18,7 @@ Music_06_Channel_0:
       stereo 0c0h
       inst 13
       setRelease 1
-      vibrato 47
+      vibrato 02fh
     repeatStart
       vol 12
             noteL A5, 8
@@ -400,7 +400,7 @@ Music_06_Channel_1:
     mainLoopStart
       stereo 0c0h
       inst 52
-      vibrato 44
+      vibrato 02ch
     repeatStart
       vol 12
       sustain
@@ -534,11 +534,11 @@ Music_06_Channel_1:
             note Gs3
       sustain
             noteL A3, 168
-      vibrato 32
+      vibrato 020h
       setRelease 1
             note A3
             waitL 24
-      vibrato 44
+      vibrato 02ch
       inst 53
       vol 13
       sustain
@@ -656,7 +656,7 @@ Music_06_Channel_1:
       vol 11
       sustain
             noteL Cs3, 192
-      vibrato 32
+      vibrato 020h
       setRelease 1
             note Cs3
     mainLoopEnd
@@ -664,7 +664,7 @@ Music_06_Channel_2:
     mainLoopStart
       stereo 0c0h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       inst 13
     repeatStart
       vol 11
@@ -959,7 +959,7 @@ Music_06_Channel_3:
     mainLoopStart
       stereo 0c0h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       inst 13
     repeatStart
       vol 11
@@ -1303,7 +1303,7 @@ Music_06_Channel_4:
       stereo 040h
       shifting 0
       inst 12
-      vibrato 44
+      vibrato 02ch
     repeatStart
       vol 12
       sustain
@@ -1811,7 +1811,7 @@ Music_06_Channel_5:
     mainLoopEnd
 Music_06_Channel_6:
     mainLoopStart
-      vibrato 76
+      vibrato 04ch
       psgInst 07ch
     repeatStart
       setRelease 16
@@ -1991,13 +1991,13 @@ Music_06_Channel_6:
             psgNoteL Fs3, 48
       sustain
             psgNoteL F3, 192
-      vibrato 64
+      vibrato 040h
       setRelease 1
             psgNote F3
     mainLoopEnd
 Music_06_Channel_7:
     mainLoopStart
-      vibrato 76
+      vibrato 04ch
       psgInst 07bh
     repeatStart
       setRelease 16
@@ -2167,7 +2167,7 @@ Music_06_Channel_7:
             psgNote B2
       sustain
             psgNoteL Cs3, 192
-      vibrato 64
+      vibrato 040h
       setRelease 1
             psgNote Cs3
     mainLoopEnd

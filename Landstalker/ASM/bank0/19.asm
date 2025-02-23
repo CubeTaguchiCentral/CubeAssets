@@ -15,7 +15,7 @@ Music_19:
     dw Music_19_Channel_8
 Music_19_Channel_0:
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
             waitL 180
     repeatStart
@@ -194,7 +194,7 @@ Music_19_Channel_0:
     mainLoopEnd
 Music_19_Channel_1:
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
             waitL 192
     repeatStart
@@ -411,7 +411,7 @@ Music_19_Channel_2:
       inst 38
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
     countedLoopStart 2
             noteL D3, 6
@@ -599,7 +599,7 @@ Music_19_Channel_2:
 Music_19_Channel_3:
       shifting 32
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 6
     mainLoopStart
             waitL 180
@@ -1208,7 +1208,7 @@ Music_19_Channel_5:
     mainLoopEnd
 Music_19_Channel_6:
       setRelease 1
-      vibrato 76
+      vibrato 04ch
     mainLoopStart
       psgInst 07ah
     countedLoopStart 2
@@ -1452,7 +1452,7 @@ Music_19_Channel_6:
     mainLoopEnd
 Music_19_Channel_7:
       setRelease 1
-      vibrato 76
+      vibrato 04ch
     mainLoopStart
       psgInst 07ah
     countedLoopStart 2

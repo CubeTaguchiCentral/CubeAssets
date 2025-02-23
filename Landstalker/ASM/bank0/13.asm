@@ -18,7 +18,7 @@ Music_13_Channel_0:
       inst 18
       vol 13
       setRelease 0
-      vibrato 76
+      vibrato 04ch
       sustain
             noteL A8, 72
       setSlide 7
@@ -84,7 +84,7 @@ Music_13_Channel_1:
       inst 18
       vol 11
       setRelease 0
-      vibrato 76
+      vibrato 04ch
       sustain
             noteL A8, 72
       setSlide 7
@@ -178,7 +178,7 @@ Music_13_Channel_2:
       inst 18
       vol 11
       setRelease 0
-      vibrato 76
+      vibrato 04ch
       sustain
             noteL A8, 72
       setSlide 7

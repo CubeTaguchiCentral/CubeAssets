@@ -19,7 +19,7 @@ Music_17_Channel_0:
       vol 9
       setRelease 1
       noSlide
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL E5, 84
       setSlide 82
@@ -41,7 +41,7 @@ Music_17_Channel_1:
       vol 10
       setRelease 1
       noSlide
-      vibrato 42
+      vibrato 02ah
       stereo 040h
             waitL 14
             noteL C6, 7
@@ -59,7 +59,7 @@ Music_17_Channel_2:
       vol 9
       setRelease 1
       noSlide
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL C4, 14
             note C4
@@ -78,7 +78,7 @@ Music_17_Channel_3:
       vol 12
       setRelease 1
       noSlide
-      vibrato 42
+      vibrato 02ah
       stereo 080h
             noteL C4, 7
             note C4
@@ -100,7 +100,7 @@ Music_17_Channel_4:
       vol 8
       setRelease 1
       noSlide
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL E5, 84
       setSlide 82

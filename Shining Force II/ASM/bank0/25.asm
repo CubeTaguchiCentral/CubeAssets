@@ -18,7 +18,7 @@ Music_25_Channel_0:
       inst 12
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL E3, 24
       sustain
             noteL C4, 6
@@ -33,7 +33,7 @@ Music_25_Channel_0:
       sustain
             noteL As3, 192
       setRelease 1
-      vibrato 32
+      vibrato 020h
             noteL As3, 144
             waitL 24
     channel_end
@@ -42,7 +42,7 @@ Music_25_Channel_1:
       inst 13
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL Fs5, 60
       vol 9
             noteL Fs5, 12
@@ -72,7 +72,7 @@ Music_25_Channel_1:
       vol 11
       sustain
             noteL Ds6, 192
-      vibrato 32
+      vibrato 020h
             noteL Ds6, 144
       vol 8
             noteL Ds6, 6
@@ -86,7 +86,7 @@ Music_25_Channel_2:
       inst 13
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL E5, 60
       vol 7
             noteL E5, 12
@@ -102,7 +102,7 @@ Music_25_Channel_2:
             noteL Fs5, 48
       sustain
             noteL Gs5, 192
-      vibrato 32
+      vibrato 020h
             noteL Gs5, 144
       vol 7
             noteL Gs5, 6
@@ -116,7 +116,7 @@ Music_25_Channel_3:
       inst 13
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL B4, 60
       vol 7
             noteL B4, 12
@@ -132,7 +132,7 @@ Music_25_Channel_3:
             note As4
       sustain
             noteL C5, 192
-      vibrato 32
+      vibrato 020h
             noteL C5, 144
       vol 7
             noteL C5, 6
@@ -148,7 +148,7 @@ Music_25_Channel_4:
       inst 13
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL Fs5, 60
       vol 8
             noteL Fs5, 12
@@ -172,7 +172,7 @@ Music_25_Channel_4:
             note B5
       vol 11
             noteL Cs6, 18
-      vibrato 0
+      vibrato 00h
       setRelease 1
       stereo 0c0h
       inst 62
@@ -233,7 +233,7 @@ Music_25_Channel_5:
     channel_end
 Music_25_Channel_6:
       setRelease 1
-      vibrato 76
+      vibrato 04ch
     repeatStart
       psgInst 00h
             waitL 24
@@ -294,7 +294,7 @@ Music_25_Channel_7:
             waitL 12
       shifting 16
       setRelease 1
-      vibrato 76
+      vibrato 04ch
     repeatStart
       psgInst 00h
             waitL 24

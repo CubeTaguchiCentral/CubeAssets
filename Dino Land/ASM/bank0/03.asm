@@ -16,7 +16,7 @@ Music_03:
 Music_03_Channel_0:
       inst 32
       vol 9
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             waitL 24
       sustain
@@ -85,11 +85,11 @@ Music_03_Channel_0:
             note G6
             note A6
       sustain
-      vibrato 28
+      vibrato 01ch
             noteL G6, 36
       setRelease 1
             noteL G6, 24
-      vibrato 42
+      vibrato 02ah
             waitL 48
     countedLoopEnd
     countedLoopStart 1
@@ -207,7 +207,7 @@ Music_03_Channel_0:
 Music_03_Channel_1:
       inst 14
       vol 9
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             waitL 24
       sustain
@@ -364,7 +364,7 @@ Music_03_Channel_1:
 Music_03_Channel_2:
       inst 34
       vol 13
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             waitL 24
       sustain
@@ -561,7 +561,7 @@ Music_03_Channel_3:
       inst 14
       vol 6
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 080h
             waitL 34
             noteL C5, 12
@@ -723,7 +723,7 @@ Music_03_Channel_4:
       inst 61
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 36
     mainLoopStart
     countedLoopStart 10

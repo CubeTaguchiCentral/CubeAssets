@@ -17,7 +17,7 @@ Music_27_Channel_0:
       inst 49
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     mainLoopStart
             noteL F6, 27
             noteL D6, 9
@@ -48,7 +48,7 @@ Music_27_Channel_1:
       inst 49
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     mainLoopStart
             noteL D6, 27
             noteL A5, 9
@@ -78,7 +78,7 @@ Music_27_Channel_2:
       inst 49
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     mainLoopStart
             noteL A5, 27
             noteL F5, 9
@@ -109,7 +109,7 @@ Music_27_Channel_3:
       inst 49
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     mainLoopStart
             noteL D5, 108
             note D5
@@ -131,7 +131,7 @@ Music_27_Channel_4:
       inst 49
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     mainLoopStart
             waitL 108
             waitL 72

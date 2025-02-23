@@ -18,7 +18,7 @@ Music_05_Channel_0:
       inst 17
       vol 12
       setRelease 0
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL A3, 144
       inst 34
@@ -204,7 +204,7 @@ Music_05_Channel_1:
       setSlide 42
       inst 38
       vol 10
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
       sustain
             noteL D6, 2
@@ -269,10 +269,10 @@ Music_05_Channel_1:
             note F6
             note A6
             note C7
-      vibrato 127
+      vibrato 07fh
             noteL B6, 96
       noSlide
-      vibrato 42
+      vibrato 02ah
       setRelease 1
       inst 44
       vol 12
@@ -431,7 +431,7 @@ Music_05_Channel_2:
       inst 14
       vol 9
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL G4, 96
             note G5
             note F4
@@ -615,7 +615,7 @@ Music_05_Channel_3:
       inst 14
       vol 9
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL D4, 96
             note D5
             note C4
@@ -757,7 +757,7 @@ Music_05_Channel_4:
       inst 14
       vol 9
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL A3, 96
             note A4
             note G3

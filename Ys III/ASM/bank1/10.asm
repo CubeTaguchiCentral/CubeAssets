@@ -16,7 +16,7 @@ Music_10:
 Music_10_Channel_0:
       stereo 080h
       inst 16
-      vibrato 16
+      vibrato 010h
       vol 15
             noteL G3, 0
       setSlide 21
@@ -46,13 +46,13 @@ Music_10_Channel_0:
       setRelease 1
             noteL G3, 0
       setSlide 15
-      vibrato 208
+      vibrato 0d0h
             noteL G3, 48
       noSlide
     channel_end
 Music_10_Channel_1:
       inst 16
-      vibrato 16
+      vibrato 010h
       vol 12
             waitL 15
             noteL As3, 0
@@ -83,7 +83,7 @@ Music_10_Channel_1:
       setRelease 1
             noteL As3, 0
       setSlide 15
-      vibrato 208
+      vibrato 0d0h
             noteL As2, 33
       noSlide
     channel_end
@@ -91,7 +91,7 @@ Music_10_Channel_2:
       inst 3
       vol 15
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL C2, 12
             note C2
             note C2
@@ -115,7 +115,7 @@ Music_10_Channel_3:
       stereo 040h
       shifting 32
       inst 16
-      vibrato 16
+      vibrato 010h
       vol 15
             waitL 2
             noteL G3, 0
@@ -146,7 +146,7 @@ Music_10_Channel_3:
       setRelease 1
             noteL G3, 0
       setSlide 15
-      vibrato 208
+      vibrato 0d0h
             noteL G2, 47
       noSlide
     channel_end
@@ -154,7 +154,7 @@ Music_10_Channel_4:
       inst 54
       vol 10
       setRelease 0
-      vibrato 42
+      vibrato 02ah
             noteL C3, 12
             note C3
             note C3

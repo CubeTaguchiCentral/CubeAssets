@@ -18,7 +18,7 @@ Music_17_Channel_0:
       inst 0
       vol 13
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       sustain
     countedLoopStart 1
             noteL B3, 66
@@ -110,7 +110,7 @@ Music_17_Channel_1:
             waitL 24
       vol 13
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       inst 23
             note As5
             note Gs5
@@ -211,7 +211,7 @@ Music_17_Channel_2:
       inst 10
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL F5, 8
             note Fs5
             note Gs5
@@ -312,7 +312,7 @@ Music_17_Channel_3:
       inst 39
       vol 8
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL C6, 192
             waitL 24
             waitL 6
@@ -384,7 +384,7 @@ Music_17_Channel_4:
             waitL 24
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       inst 23
             waitL 8
             noteL As5, 24

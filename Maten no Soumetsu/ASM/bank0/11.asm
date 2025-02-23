@@ -17,7 +17,7 @@ Music_11_Channel_0:
       inst 15
       vol 8
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL A5, 24
             note As5
             noteL C6, 16
@@ -30,7 +30,7 @@ Music_11_Channel_1:
       inst 15
       vol 8
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL C5, 48
             noteL A5, 16
             note As5
@@ -42,7 +42,7 @@ Music_11_Channel_2:
       inst 15
       vol 8
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL A4, 48
             noteL A4, 16
             note Gs4
@@ -53,7 +53,7 @@ Music_11_Channel_3:
       inst 15
       vol 8
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL F4, 72
             noteL F3, 24
             noteL Fs3, 96
@@ -62,7 +62,7 @@ Music_11_Channel_4:
       inst 15
       vol 6
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       shifting 32
             waitL 8
             noteL A5, 24

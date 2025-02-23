@@ -16,7 +16,7 @@ Music_17:
 Music_17_Channel_0:
     mainLoopStart
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
       shifting 0
     countedLoopStart 1
@@ -242,7 +242,7 @@ Music_17_Channel_1:
       inst 7
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 040h
       shifting 0
     countedLoopStart 1
@@ -495,7 +495,7 @@ Music_17_Channel_2:
       inst 119
       vol 13
       setRelease 4
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
       shifting 0
     countedLoopStart 7
@@ -690,7 +690,7 @@ Music_17_Channel_2:
 Music_17_Channel_3:
     mainLoopStart
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 080h
       shifting 0
     countedLoopStart 1
@@ -943,7 +943,7 @@ Music_17_Channel_4:
             waitL 14
     mainLoopStart
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
       shifting 48
     countedLoopStart 1

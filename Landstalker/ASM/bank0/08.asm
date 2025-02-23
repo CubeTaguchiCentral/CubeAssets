@@ -17,7 +17,7 @@ Music_08_Channel_0:
       inst 26
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL G6, 16
             noteL As6, 14
             noteL A6, 13
@@ -40,7 +40,7 @@ Music_08_Channel_1:
       inst 26
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL Ds6, 16
             noteL G6, 14
             noteL F6, 13
@@ -57,7 +57,7 @@ Music_08_Channel_2:
       inst 26
       vol 9
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL As5, 15
             noteL Ds6, 14
             noteL C6, 12
@@ -74,7 +74,7 @@ Music_08_Channel_3:
       inst 26
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL Gs5, 16
             noteL E5, 14
             noteL Fs5, 13
@@ -93,7 +93,7 @@ Music_08_Channel_4:
       inst 26
       vol 9
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL G6, 16
             noteL As6, 14
             noteL A6, 13

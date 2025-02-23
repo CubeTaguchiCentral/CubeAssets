@@ -15,7 +15,7 @@ Music_10:
     dw Music_10_Channel_6
 Music_10_Channel_0:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 72
     mainLoopStart
     countedLoopStart 1
@@ -165,7 +165,7 @@ Music_10_Channel_0:
     mainLoopEnd
 Music_10_Channel_1:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 72
     mainLoopStart
     countedLoopStart 1
@@ -318,7 +318,7 @@ Music_10_Channel_2:
       inst 12
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL Gs6, 3
             note G6
             note Fs6
@@ -438,7 +438,7 @@ Music_10_Channel_3:
       inst 12
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL C7, 3
             note B6
             note As6
@@ -568,7 +568,7 @@ Music_10_Channel_4:
       inst 12
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL As6, 3
             note A6
             note Gs6

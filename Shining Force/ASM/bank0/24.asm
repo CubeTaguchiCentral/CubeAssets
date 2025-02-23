@@ -17,7 +17,7 @@ Music_24_Channel_0:
       inst 20
       vol 11
       setRelease 3
-      vibrato 60
+      vibrato 03ch
       stereo 0c0h
             noteL C6, 12
             note B5
@@ -35,7 +35,7 @@ Music_24_Channel_0:
       sustain
             noteL E6, 192
       setRelease 1
-      vibrato 48
+      vibrato 030h
             note E6
             wait
             wait
@@ -43,7 +43,7 @@ Music_24_Channel_0:
             waitL 168
       vol 11
       setRelease 3
-      vibrato 60
+      vibrato 03ch
             noteL C6, 12
             note B5
     mainLoopStart
@@ -90,12 +90,12 @@ Music_24_Channel_0:
       sustain
       vol 6
             noteL E7, 192
-      vibrato 48
+      vibrato 030h
             note E7
             note E7
       setRelease 1
             noteL E7, 168
-      vibrato 60
+      vibrato 03ch
       setRelease 3
       vol 11
             noteL C6, 12
@@ -106,25 +106,25 @@ Music_24_Channel_1:
       inst 20
       vol 12
       setRelease 1
-      vibrato 60
+      vibrato 03ch
       stereo 040h
       sustain
             noteL A4, 192
-      vibrato 48
+      vibrato 030h
             note A4
             note A4
       setRelease 1
             note A4
       sustain
-      vibrato 60
+      vibrato 03ch
             note A3
-      vibrato 48
+      vibrato 030h
             note A3
             note A3
       setRelease 1
             note A3
     mainLoopStart
-      vibrato 60
+      vibrato 03ch
             noteL A3, 192
             note A3
             note A3
@@ -145,7 +145,7 @@ Music_24_Channel_2:
       inst 20
       vol 8
       setRelease 3
-      vibrato 60
+      vibrato 03ch
       stereo 0c0h
             noteL C6, 12
             note B5
@@ -164,17 +164,17 @@ Music_24_Channel_2:
       inst 20
       vol 12
       setRelease 1
-      vibrato 53
+      vibrato 035h
       stereo 080h
       sustain
             note A2
-      vibrato 48
+      vibrato 030h
             note A2
             note A2
       setRelease 1
             note A2
     mainLoopStart
-      vibrato 58
+      vibrato 03ah
             noteL A2, 192
             note A2
             note A2
@@ -196,7 +196,7 @@ Music_24_Channel_3:
       inst 20
       vol 11
       setRelease 1
-      vibrato 55
+      vibrato 037h
       stereo 080h
             noteL C6, 48
             note B5
@@ -237,7 +237,7 @@ Music_24_Channel_4:
       inst 20
       vol 11
       setRelease 1
-      vibrato 54
+      vibrato 036h
       stereo 080h
             note E4
             note F4
@@ -268,7 +268,7 @@ Music_24_Channel_5:
 Music_24_Channel_6:
       psgInst 00h
       setRelease 1
-      vibrato 76
+      vibrato 04ch
             waitL 24
             waitL 192
             wait
@@ -285,7 +285,7 @@ Music_24_Channel_6:
             psgNote Ds4
       sustain
             psgNoteL E4, 192
-      vibrato 64
+      vibrato 040h
             psgNote E4
       setRelease 1
             psgNote E4
@@ -293,7 +293,7 @@ Music_24_Channel_6:
             wait
     mainLoopStart
             waitL 72
-      vibrato 76
+      vibrato 04ch
       psgInst 03ah
             psgNoteL C4, 12
             psgNote B3
@@ -376,7 +376,7 @@ Music_24_Channel_7:
       psgInst 00h
             waitL 12
       setRelease 1
-      vibrato 76
+      vibrato 04ch
             waitL 24
             waitL 192
             wait
@@ -393,7 +393,7 @@ Music_24_Channel_7:
             psgNote Ds4
       sustain
             psgNoteL E4, 192
-      vibrato 64
+      vibrato 040h
             psgNote E4
       setRelease 1
             psgNote E4
@@ -401,7 +401,7 @@ Music_24_Channel_7:
             wait
     mainLoopStart
             waitL 72
-      vibrato 76
+      vibrato 04ch
       psgInst 096h
             psgNoteL C4, 12
             psgNote B3

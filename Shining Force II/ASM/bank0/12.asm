@@ -19,17 +19,17 @@ Music_12_Channel_0:
       inst 0
       vol 11
       setRelease 1
-      vibrato 47
+      vibrato 02fh
       sustain
             noteL As2, 144
-      vibrato 32
+      vibrato 020h
             note As2
             note As2
       setRelease 1
             note As2
       inst 25
       vol 12
-      vibrato 44
+      vibrato 02ch
             noteL As2, 48
             noteL Gs2, 96
             noteL G2, 48
@@ -79,7 +79,7 @@ Music_12_Channel_1:
       stereo 0c0h
       setRelease 1
     mainLoopStart
-      vibrato 44
+      vibrato 02ch
             waitL 72
       inst 38
       vol 12
@@ -112,7 +112,7 @@ Music_12_Channel_1:
             noteL Ds6, 48
       sustain
             noteL C6, 96
-      vibrato 32
+      vibrato 020h
       vol 6
             noteL C6, 16
       vol 4
@@ -120,14 +120,14 @@ Music_12_Channel_1:
       setRelease 1
       vol 2
             note C6
-      vibrato 44
+      vibrato 02ch
       inst 44
       vol 8
             noteL Fs7, 96
             noteL F7, 48
       sustain
             noteL C7, 96
-      vibrato 32
+      vibrato 020h
       vol 6
             noteL C7, 16
       vol 4
@@ -141,7 +141,7 @@ Music_12_Channel_2:
       inst 49
       vol 9
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
             noteL C5, 16
             note C5
@@ -175,7 +175,7 @@ Music_12_Channel_3:
       inst 49
       vol 9
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
             noteL As4, 16
             note As4
@@ -209,7 +209,7 @@ Music_12_Channel_4:
       setRelease 1
     mainLoopStart
       shifting 32
-      vibrato 44
+      vibrato 02ch
             waitL 68
       stereo 040h
       inst 38
@@ -244,7 +244,7 @@ Music_12_Channel_4:
             noteL Ds6, 48
       sustain
             noteL C6, 96
-      vibrato 32
+      vibrato 020h
       vol 5
             noteL C6, 16
       vol 3
@@ -253,14 +253,14 @@ Music_12_Channel_4:
       vol 1
             note C6
       shifting 16
-      vibrato 44
+      vibrato 02ch
       inst 44
       vol 7
             noteL Fs7, 96
             noteL F7, 48
       sustain
             noteL C7, 96
-      vibrato 32
+      vibrato 020h
       vol 5
             noteL C7, 16
       vol 3
@@ -271,7 +271,7 @@ Music_12_Channel_4:
     mainLoopEnd
 Music_12_Channel_5:
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 6
     mainLoopStart
       stereo 0c0h

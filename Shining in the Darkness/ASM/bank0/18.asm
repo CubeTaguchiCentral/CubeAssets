@@ -17,7 +17,7 @@ Music_18_Channel_0:
       inst 16
       vol 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL C5, 24
             wait
             note C6
@@ -26,7 +26,7 @@ Music_18_Channel_0:
       sustain
             noteL G6, 72
       setRelease 1
-      vibrato 32
+      vibrato 020h
             noteL G6, 96
             waitL 72
     channel_end
@@ -34,7 +34,7 @@ Music_18_Channel_1:
       inst 16
       vol 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL G5, 24
             note A5
             note G5
@@ -43,7 +43,7 @@ Music_18_Channel_1:
       sustain
             noteL D6, 72
       setRelease 1
-      vibrato 32
+      vibrato 020h
             noteL D6, 96
             waitL 72
     channel_end
@@ -51,7 +51,7 @@ Music_18_Channel_2:
       inst 6
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL C8, 8
             noteL E7, 9
             note G7
@@ -87,7 +87,7 @@ Music_18_Channel_3:
       inst 6
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL A7, 10
             noteL C8, 9
             note E7
@@ -121,7 +121,7 @@ Music_18_Channel_4:
       inst 6
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 6
             noteL G7, 9
             note A7
@@ -157,7 +157,7 @@ Music_18_Channel_5:
     channel_end
 Music_18_Channel_6:
       psgInst 06bh
-      vibrato 76
+      vibrato 04ch
       sustain
             psgNoteL G5, 192
       setRelease 1
@@ -166,7 +166,7 @@ Music_18_Channel_6:
     channel_end
 Music_18_Channel_7:
       psgInst 06bh
-      vibrato 76
+      vibrato 04ch
       sustain
             psgNoteL E5, 192
       setRelease 1

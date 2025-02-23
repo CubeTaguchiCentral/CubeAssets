@@ -18,7 +18,7 @@ Music_20_Channel_0:
       inst 26
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     repeatStart
             noteL D7, 36
             noteL B6, 12
@@ -39,7 +39,7 @@ Music_20_Channel_1:
       inst 26
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL Fs6, 36
             noteL D6, 12
             noteL D6, 48
@@ -62,7 +62,7 @@ Music_20_Channel_2:
       inst 26
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       shifting 32
             noteL D7, 36
             noteL B6, 12
@@ -71,11 +71,11 @@ Music_20_Channel_2:
             noteL Cs7, 36
             noteL Gs6, 12
             noteL Gs6, 46
-      vibrato 192
+      vibrato 0c0h
       inst 26
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL F5, 48
             noteL Gs5, 72
             noteL F5, 24
@@ -104,7 +104,7 @@ Music_20_Channel_3:
       inst 26
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL Fs6, 36
             noteL D6, 12
             noteL D6, 48
@@ -118,7 +118,7 @@ Music_20_Channel_3:
       inst 26
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL Cs5, 48
             noteL F5, 72
             noteL Cs5, 24
@@ -144,12 +144,12 @@ Music_20_Channel_4:
       inst 30
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL B2, 144
       sustain
             note B2
       setRelease 1
-      vibrato 32
+      vibrato 020h
             noteL B2, 96
     mainLoopEnd
 Music_20_Channel_5:
@@ -158,7 +158,7 @@ Music_20_Channel_6:
     mainLoopStart
       psgInst 06bh
       setRelease 0
-      vibrato 76
+      vibrato 04ch
             psgNoteL D3, 6
             psgNote A2
             psgNote D3
@@ -293,7 +293,7 @@ Music_20_Channel_7:
     mainLoopStart
       psgInst 06bh
       setRelease 0
-      vibrato 76
+      vibrato 04ch
             psgNoteL A2, 4
             psgNote Fs2
             psgNote A2

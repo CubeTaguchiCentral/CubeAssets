@@ -17,7 +17,7 @@ Music_21_Channel_0:
             waitL 6
       stereo 0c0h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       inst 15
       vol 11
             noteL Gs3, 90
@@ -31,7 +31,7 @@ Music_21_Channel_0:
       sustain
             noteL Gs3, 48
       vol 9
-      vibrato 32
+      vibrato 020h
             noteL Gs3, 196
       setRelease 1
             noteL Gs3, 192
@@ -43,7 +43,7 @@ Music_21_Channel_1:
       inst 15
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL As4, 90
       inst 26
       vol 13
@@ -55,7 +55,7 @@ Music_21_Channel_1:
       vol 9
       sustain
             noteL C6, 194
-      vibrato 32
+      vibrato 020h
       setRelease 1
             noteL C6, 192
             waitL 12
@@ -66,7 +66,7 @@ Music_21_Channel_2:
       inst 15
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL Ds4, 90
       inst 26
       vol 12
@@ -75,7 +75,7 @@ Music_21_Channel_2:
       vol 9
       sustain
             noteL Ds5, 194
-      vibrato 32
+      vibrato 020h
       setRelease 1
             noteL Ds5, 192
             waitL 12
@@ -86,7 +86,7 @@ Music_21_Channel_3:
       inst 15
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL Cs4, 90
       inst 26
       vol 12
@@ -100,7 +100,7 @@ Music_21_Channel_3:
       sustain
             noteL Gs5, 24
       vol 7
-      vibrato 32
+      vibrato 020h
             noteL Gs5, 144
       setRelease 1
             noteL Gs5, 192
@@ -109,7 +109,7 @@ Music_21_Channel_3:
 Music_21_Channel_4:
       stereo 0c0h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 194
       inst 13
       vol 12
@@ -118,7 +118,7 @@ Music_21_Channel_4:
       sustain
             noteL Ds6, 24
       vol 9
-      vibrato 32
+      vibrato 020h
             noteL Ds6, 144
       setRelease 1
             noteL Ds6, 192
@@ -131,7 +131,7 @@ Music_21_Channel_5:
       inst 15
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL As4, 90
       stereo 040h
       inst 26
@@ -149,7 +149,7 @@ Music_21_Channel_5:
       sustain
             noteL Ds6, 24
       vol 8
-      vibrato 32
+      vibrato 020h
             noteL Ds6, 144
       setRelease 1
             noteL Ds6, 186
@@ -157,7 +157,7 @@ Music_21_Channel_5:
     channel_end
 Music_21_Channel_6:
       setRelease 1
-      vibrato 89
+      vibrato 059h
       psgInst 00h
             waitL 220
       psgInst 07dh
@@ -168,7 +168,7 @@ Music_21_Channel_6:
             psgNote As4
             psgNoteL C5, 36
             psgNoteL G5, 12
-      vibrato 95
+      vibrato 05fh
             psgNoteL F5, 192
             waitL 6
       psgInst 00h
@@ -177,7 +177,7 @@ Music_21_Channel_6:
 Music_21_Channel_7:
       shifting 16
       setRelease 1
-      vibrato 89
+      vibrato 059h
       psgInst 00h
             waitL 232
       psgInst 07bh
@@ -188,7 +188,7 @@ Music_21_Channel_7:
             psgNote As4
             psgNoteL C5, 36
             psgNoteL G5, 12
-      vibrato 95
+      vibrato 05fh
             psgNoteL F5, 180
             waitL 6
       psgInst 00h

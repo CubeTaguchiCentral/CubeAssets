@@ -18,7 +18,7 @@ Music_19_Channel_0:
       inst 35
       vol 13
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     mainLoopStart
     countedLoopStart 1
             noteL Gs3, 10
@@ -119,7 +119,7 @@ Music_19_Channel_1:
       inst 8
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     countedLoopStart 1
             noteL B6, 10
             waitL 26
@@ -186,7 +186,7 @@ Music_19_Channel_2:
       inst 8
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     mainLoopStart
       stereo 040h
     countedLoopStart 1
@@ -274,7 +274,7 @@ Music_19_Channel_3:
       inst 8
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     mainLoopStart
       stereo 080h
     countedLoopStart 1
@@ -355,7 +355,7 @@ Music_19_Channel_3:
 Music_19_Channel_4:
       stereo 0c0h
       setRelease 1
-      vibrato 0
+      vibrato 00h
     mainLoopStart
     countedLoopStart 2
       inst 39
@@ -617,7 +617,7 @@ Music_19_Channel_6:
     mainLoopStart
       psgInst 00h
       setRelease 1
-      vibrato 74
+      vibrato 04ah
     countedLoopStart 12
             waitL 24
     countedLoopEnd
@@ -687,7 +687,7 @@ Music_19_Channel_7:
     mainLoopStart
       psgInst 00h
       setRelease 1
-      vibrato 74
+      vibrato 04ah
     countedLoopStart 12
             waitL 24
     countedLoopEnd

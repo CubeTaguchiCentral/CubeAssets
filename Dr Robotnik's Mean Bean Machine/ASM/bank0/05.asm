@@ -18,7 +18,7 @@ Music_05_Channel_0:
       inst 21
       vol 9
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
       shifting 0
     countedLoopStart 3
@@ -41,33 +41,33 @@ Music_05_Channel_0:
     countedLoopEnd
       inst 10
       vol 12
-      vibrato 42
+      vibrato 02ah
       sustain
             noteL C6, 56
-      vibrato 80
+      vibrato 050h
       setRelease 1
             noteL C6, 56
             waitL 112
-      vibrato 42
+      vibrato 02ah
       sustain
             noteL Fs5, 56
-      vibrato 80
+      vibrato 050h
       setRelease 1
             noteL Fs5, 56
             waitL 112
-      vibrato 42
+      vibrato 02ah
       sustain
             noteL C6, 84
-      vibrato 80
+      vibrato 050h
       setRelease 1
             noteL C6, 84
-      vibrato 42
+      vibrato 02ah
             noteL F6, 28
             note Ds6
-      vibrato 42
+      vibrato 02ah
       sustain
             noteL C6, 56
-      vibrato 80
+      vibrato 050h
       setRelease 1
             noteL C6, 56
             waitL 112
@@ -75,7 +75,7 @@ Music_05_Channel_0:
 Music_05_Channel_1:
     mainLoopStart
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
       shifting 0
     countedLoopStart 7
@@ -176,7 +176,7 @@ Music_05_Channel_2:
       inst 13
       vol 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
       shifting 0
     countedLoopStart 3
@@ -247,7 +247,7 @@ Music_05_Channel_3:
       inst 21
       vol 8
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 040h
       shifting 32
     countedLoopStart 3
@@ -286,7 +286,7 @@ Music_05_Channel_3:
     countedLoopEnd
       inst 10
       vol 13
-      vibrato 90
+      vibrato 05ah
             noteL C6, 112
             wait
             note Fs5
@@ -303,7 +303,7 @@ Music_05_Channel_4:
       inst 21
       vol 5
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 080h
       shifting 64
     countedLoopStart 3
@@ -342,33 +342,33 @@ Music_05_Channel_4:
     countedLoopEnd
       inst 10
       vol 12
-      vibrato 42
+      vibrato 02ah
       setRelease 80
             noteL C6, 56
-      vibrato 80
+      vibrato 050h
       setRelease 1
             noteL C6, 56
             waitL 112
-      vibrato 42
+      vibrato 02ah
       setRelease 80
             noteL Fs5, 56
-      vibrato 93
+      vibrato 05dh
       setRelease 1
             noteL Fs5, 56
             waitL 112
-      vibrato 42
+      vibrato 02ah
       setRelease 80
             noteL C6, 84
-      vibrato 80
+      vibrato 050h
       setRelease 1
             noteL C6, 84
-      vibrato 42
+      vibrato 02ah
             noteL F6, 28
             note Ds6
-      vibrato 42
+      vibrato 02ah
       setRelease 80
             noteL C6, 56
-      vibrato 80
+      vibrato 050h
       setRelease 1
             noteL C6, 56
             waitL 112

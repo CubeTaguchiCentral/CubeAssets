@@ -17,7 +17,7 @@ Music_15_Channel_0:
       inst 3
       vol 9
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL E4, 12
             note F4
             note E4
@@ -37,7 +37,7 @@ Music_15_Channel_1:
       inst 4
       vol 8
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL C6, 12
             note D6
             note C6
@@ -58,7 +58,7 @@ Music_15_Channel_2:
       inst 21
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 12
             noteL C6, 6
             waitL 18
@@ -80,7 +80,7 @@ Music_15_Channel_3:
       inst 21
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 12
             noteL A5, 6
             waitL 18
@@ -102,7 +102,7 @@ Music_15_Channel_4:
       inst 28
       vol 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL F3, 12
             note F4
             note F3

@@ -18,7 +18,7 @@ Music_08_Channel_0:
       inst 52
       vol 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL E2, 96
       inst 44
       vol 12
@@ -36,7 +36,7 @@ Music_08_Channel_1:
       inst 52
       vol 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL E2, 96
       inst 53
       vol 12
@@ -50,7 +50,7 @@ Music_08_Channel_2:
       inst 7
       vol 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL E2, 12
             note E2
             note E2
@@ -96,7 +96,7 @@ Music_08_Channel_3:
       inst 2
       vol 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL C2, 12
             note C2
             note C2
@@ -134,7 +134,7 @@ Music_08_Channel_6:
     mainLoopStart
       psgInst 0ch
       setRelease 1
-      vibrato 16
+      vibrato 010h
             psgNoteL C1, 6
             psgNoteL F1, 3
             psgNote As1
@@ -246,7 +246,7 @@ Music_08_Channel_7:
     mainLoopStart
       psgInst 0ch
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             psgNoteL G1, 2
             psgNote As1
             psgNote D1

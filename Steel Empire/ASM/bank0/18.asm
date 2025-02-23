@@ -17,7 +17,7 @@ Music_18_Channel_0:
       inst 4
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     mainLoopStart
       stereo 0c0h
             noteL F4, 4
@@ -97,7 +97,7 @@ Music_18_Channel_1:
       inst 4
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
     mainLoopStart
             noteL D4, 4
@@ -177,7 +177,7 @@ Music_18_Channel_2:
       inst 26
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
     mainLoopStart
             noteL D4, 4
@@ -202,7 +202,7 @@ Music_18_Channel_3:
       inst 4
       vol 5
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     mainLoopStart
       stereo 0c0h
             noteL F4, 4
@@ -283,7 +283,7 @@ Music_18_Channel_4:
       inst 4
       vol 5
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
     mainLoopStart
             noteL D4, 4

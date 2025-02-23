@@ -24,7 +24,7 @@ Music_07_Channel_0:
       inst 6
       vol 7
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL E3, 24
             note B3
             note E4
@@ -78,7 +78,7 @@ Music_07_Channel_1:
       stereo 040h
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             note C5
             note C5
             note C5
@@ -138,7 +138,7 @@ Music_07_Channel_2:
       inst 2
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL C4, 144
             note C4
             note C4
@@ -172,7 +172,7 @@ Music_07_Channel_3:
       inst 44
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL A5, 16
             note G5
             note F5
@@ -207,7 +207,7 @@ Music_07_Channel_3:
             note C6
       sustain
             noteL C6, 144
-      vibrato 32
+      vibrato 020h
             note C6
             note C6
       setRelease 1
@@ -220,7 +220,7 @@ Music_07_Channel_4:
       stereo 080h
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             note G5
             note G5
             note G5
@@ -279,7 +279,7 @@ Music_07_Channel_5:
     channel_end
 Music_07_Channel_6:
       setRelease 1
-      vibrato 92
+      vibrato 05ch
       psgInst 00h
             waitL 46
       psgInst 099h
@@ -353,7 +353,7 @@ Music_07_Channel_6:
     channel_end
 Music_07_Channel_7:
       setRelease 1
-      vibrato 95
+      vibrato 05fh
       psgInst 0ah
             psgNoteL B3, 16
             wait
@@ -386,10 +386,10 @@ Music_07_Channel_7:
             psgNote E4
       sustain
             psgNoteL Fs4, 144
-      vibrato 64
+      vibrato 040h
       setRelease 1
             psgNote Fs4
-      vibrato 76
+      vibrato 04ch
       psgInst 00h
             wait
             wait
@@ -409,7 +409,7 @@ Music_07_Channel_8:
       shifting 16
             waitL 6
       setRelease 1
-      vibrato 95
+      vibrato 05fh
       psgInst 06h
             psgNoteL B3, 16
             wait
@@ -442,10 +442,10 @@ Music_07_Channel_8:
             psgNote E4
       sustain
             psgNoteL Fs4, 144
-      vibrato 64
+      vibrato 040h
       setRelease 1
             psgNote Fs4
-      vibrato 76
+      vibrato 04ch
       psgInst 00h
             wait
             wait

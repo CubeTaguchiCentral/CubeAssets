@@ -17,7 +17,7 @@ Music_08_Channel_0:
             waitL 48
       vol 13
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       inst 31
             noteL C2, 12
             noteL Fs2, 30
@@ -243,7 +243,7 @@ Music_08_Channel_0:
 Music_08_Channel_1:
             waitL 96
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     mainLoopStart
     repeatStart
       vol 10
@@ -413,7 +413,7 @@ Music_08_Channel_1:
 Music_08_Channel_2:
             waitL 96
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     mainLoopStart
     repeatStart
     countedLoopStart 7
@@ -705,7 +705,7 @@ Music_08_Channel_2:
     mainLoopEnd
 Music_08_Channel_3:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 96
     mainLoopStart
     repeatStart
@@ -942,7 +942,7 @@ Music_08_Channel_3:
     mainLoopEnd
 Music_08_Channel_4:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 96
             waitL 8
     mainLoopStart
@@ -1272,7 +1272,7 @@ Music_08_Channel_5:
 Music_08_Channel_6:
       psgInst 02h
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 96
     mainLoopStart
     repeatStart
@@ -1452,7 +1452,7 @@ Music_08_Channel_6:
 Music_08_Channel_7:
       psgInst 02h
       setRelease 1
-      vibrato 0
+      vibrato 00h
             waitL 96
     mainLoopStart
     repeatStart

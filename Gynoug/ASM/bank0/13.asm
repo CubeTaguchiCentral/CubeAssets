@@ -16,7 +16,7 @@ Music_13:
 Music_13_Channel_0:
       vol 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       inst 59
             noteL C3, 192
             noteL Fs2, 36
@@ -177,7 +177,7 @@ Music_13_Channel_0:
     mainLoopEnd
 Music_13_Channel_1:
       setRelease 1
-      vibrato 39
+      vibrato 027h
             waitL 72
       inst 58
       vol 11
@@ -513,7 +513,7 @@ Music_13_Channel_1:
     mainLoopEnd
 Music_13_Channel_2:
       setRelease 1
-      vibrato 39
+      vibrato 027h
             waitL 86
       inst 58
       vol 7
@@ -789,7 +789,7 @@ Music_13_Channel_2:
 Music_13_Channel_3:
       stereo 080h
       setRelease 1
-      vibrato 39
+      vibrato 027h
             waitL 80
       vol 9
       inst 58
@@ -995,7 +995,7 @@ Music_13_Channel_4:
       stereo 040h
       vol 8
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       inst 59
             noteL C3, 192
             noteL Fs2, 36
@@ -1451,7 +1451,7 @@ Music_13_Channel_5:
 Music_13_Channel_6:
     countedLoopStart 7
       psgInst 05h
-      vibrato 0
+      vibrato 00h
       sustain
             psgNoteL G5, 8
             psgNote A5
@@ -1484,7 +1484,7 @@ Music_13_Channel_6:
             psgNote C5
             psgNoteL Cs5, 96
             psgNote C5
-      vibrato 0
+      vibrato 00h
       psgInst 07h
       sustain
             psgNoteL G5, 8
@@ -1501,7 +1501,7 @@ Music_13_Channel_6:
       setRelease 1
             psgNote A5
     mainLoopStart
-      vibrato 0
+      vibrato 00h
       psgInst 06h
     countedLoopStart 3
       sustain
@@ -1569,7 +1569,7 @@ Music_13_Channel_6:
             psgNote G3
             psgNote D3
             psgNote B2
-      vibrato 58
+      vibrato 03ah
       psgInst 08h
     countedLoopStart 1
             psgNoteL Cs3, 6
@@ -1697,7 +1697,7 @@ Music_13_Channel_6:
 Music_13_Channel_7:
     countedLoopStart 7
       psgInst 05h
-      vibrato 0
+      vibrato 00h
       sustain
             psgNoteL E5, 8
             psgNote F5
@@ -1734,7 +1734,7 @@ Music_13_Channel_7:
             psgNote Gs4
             psgNote G4
             psgNoteL G4, 96
-      vibrato 0
+      vibrato 00h
       psgInst 07h
       sustain
             psgNoteL E5, 8
@@ -1751,7 +1751,7 @@ Music_13_Channel_7:
       setRelease 1
             psgNote F5
     mainLoopStart
-      vibrato 0
+      vibrato 00h
       psgInst 06h
     countedLoopStart 3
       sustain
@@ -1818,7 +1818,7 @@ Music_13_Channel_7:
             psgNote D3
             psgNote B2
             psgNote G2
-      vibrato 58
+      vibrato 03ah
       psgInst 08h
     countedLoopStart 1
             psgNoteL A2, 6

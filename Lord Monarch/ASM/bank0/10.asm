@@ -17,7 +17,7 @@ Music_10_Channel_0:
       inst 16
       vol 0
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     countedLoopStart 1
             waitL 96
     countedLoopEnd
@@ -207,7 +207,7 @@ Music_10_Channel_0:
 Music_10_Channel_1:
       inst 21
       vol 12
-      vibrato 44
+      vibrato 02ch
       setRelease 2
     countedLoopStart 1
             waitL 96
@@ -445,7 +445,7 @@ Music_10_Channel_2:
       inst 29
       vol 12
       setRelease 0
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
             noteL G4, 12
             note Fs4
@@ -598,7 +598,7 @@ Music_10_Channel_3:
       inst 37
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     countedLoopStart 1
             waitL 96
     countedLoopEnd
@@ -815,7 +815,7 @@ Music_10_Channel_4:
       inst 29
       vol 5
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 6
       shifting 32
       stereo 040h
@@ -1275,10 +1275,10 @@ Music_10_Channel_6:
       setRelease 2
       psgInst 09h
     repeatStart
-      vibrato 72
+      vibrato 048h
       psgInst 09h
             psgNoteL D4, 96
-      vibrato 76
+      vibrato 04ch
       psgInst 0bh
             psgNoteL D4, 24
             psgNoteL D4, 18
@@ -1286,9 +1286,9 @@ Music_10_Channel_6:
             psgNoteL G4, 48
     countedLoopStart 1
       psgInst 09h
-      vibrato 71
+      vibrato 047h
             psgNoteL E4, 96
-      vibrato 76
+      vibrato 04ch
       psgInst 0bh
             psgNoteL E4, 24
             psgNoteL E4, 18
@@ -1297,9 +1297,9 @@ Music_10_Channel_6:
     countedLoopEnd
     repeatSection1Start
       psgInst 09h
-      vibrato 71
+      vibrato 047h
             psgNoteL D4, 96
-      vibrato 76
+      vibrato 04ch
       psgInst 0bh
             psgNoteL D4, 24
             psgNoteL D4, 18
@@ -1313,12 +1313,12 @@ Music_10_Channel_6:
             psgNoteL D4, 24
             psgNoteL D4, 18
             psgNoteL D4, 6
-      vibrato 70
+      vibrato 046h
             psgNoteL G4, 96
       psgInst 00h
             wait
       psgInst 0bh
-      vibrato 76
+      vibrato 04ch
             psgNoteL E4, 24
             psgNoteL E4, 18
             psgNoteL E4, 6
@@ -1368,10 +1368,10 @@ Music_10_Channel_7:
       setRelease 2
       psgInst 08h
     repeatStart
-      vibrato 56
+      vibrato 038h
       psgInst 08h
             psgNoteL B3, 96
-      vibrato 76
+      vibrato 04ch
       psgInst 0ah
             psgNoteL B3, 24
             psgNoteL B3, 18
@@ -1379,9 +1379,9 @@ Music_10_Channel_7:
             psgNoteL D4, 48
     countedLoopStart 1
       psgInst 08h
-      vibrato 71
+      vibrato 047h
             psgNoteL C4, 96
-      vibrato 76
+      vibrato 04ch
       psgInst 0ah
             psgNoteL C4, 24
             psgNoteL C4, 18
@@ -1389,10 +1389,10 @@ Music_10_Channel_7:
             psgNoteL E4, 48
     countedLoopEnd
     repeatSection1Start
-      vibrato 71
+      vibrato 047h
       psgInst 08h
             psgNoteL B3, 96
-      vibrato 76
+      vibrato 04ch
       psgInst 0ah
             psgNoteL B3, 24
             psgNoteL B3, 18
@@ -1406,12 +1406,12 @@ Music_10_Channel_7:
             psgNoteL B3, 24
             psgNoteL B3, 18
             psgNoteL B3, 6
-      vibrato 70
+      vibrato 046h
             psgNoteL D4, 96
       psgInst 00h
             wait
       psgInst 0ah
-      vibrato 76
+      vibrato 04ch
             psgNoteL Cs4, 24
             psgNoteL Cs4, 18
             psgNoteL Cs4, 6

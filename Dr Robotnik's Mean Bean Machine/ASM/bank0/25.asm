@@ -17,7 +17,7 @@ Music_25_Channel_0:
       inst 14
       vol 13
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL E3, 24
             noteL Fs3, 12
@@ -36,7 +36,7 @@ Music_25_Channel_1:
       inst 15
       vol 0
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 040h
             waitL 12
       vol 14
@@ -66,7 +66,7 @@ Music_25_Channel_2:
       inst 15
       vol 0
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 080h
             waitL 12
       vol 14

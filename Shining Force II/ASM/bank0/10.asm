@@ -18,7 +18,7 @@ Music_10_Channel_0:
       inst 4
       vol 12
       setRelease 1
-      vibrato 47
+      vibrato 02fh
     mainLoopStart
     countedLoopStart 1
             noteL B3, 96
@@ -45,7 +45,7 @@ Music_10_Channel_0:
 Music_10_Channel_1:
       stereo 0c0h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
       inst 22
       vol 12
@@ -91,11 +91,11 @@ Music_10_Channel_1:
       vol 6
             note As6
       setSlide 20
-      vibrato 112
+      vibrato 070h
       vol 10
             noteL F7, 120
       noSlide
-      vibrato 44
+      vibrato 02ch
       inst 49
       vol 11
             noteL D5, 48
@@ -131,7 +131,7 @@ Music_10_Channel_1:
 Music_10_Channel_2:
       stereo 0c0h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 48
     mainLoopStart
       inst 49
@@ -220,7 +220,7 @@ Music_10_Channel_2:
 Music_10_Channel_3:
       stereo 0c0h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 48
     mainLoopStart
       inst 49
@@ -298,7 +298,7 @@ Music_10_Channel_4:
             waitL 12
       stereo 080h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
       inst 22
       vol 10
@@ -357,11 +357,11 @@ Music_10_Channel_4:
       vol 5
             noteL As6, 12
       setSlide 20
-      vibrato 117
+      vibrato 075h
       vol 9
             noteL F7, 102
       noSlide
-      vibrato 44
+      vibrato 02ch
             waitL 6
       inst 9
       vol 9
@@ -412,7 +412,7 @@ Music_10_Channel_5:
             waitL 6
       stereo 040h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
       inst 22
       vol 11
@@ -489,7 +489,7 @@ Music_10_Channel_5:
     mainLoopEnd
 Music_10_Channel_6:
       setRelease 0
-      vibrato 76
+      vibrato 04ch
     mainLoopStart
     countedLoopStart 1
       psgInst 076h
@@ -633,7 +633,7 @@ Music_10_Channel_7:
             waitL 6
       shifting 16
       setRelease 0
-      vibrato 76
+      vibrato 04ch
     mainLoopStart
     countedLoopStart 1
       psgInst 074h

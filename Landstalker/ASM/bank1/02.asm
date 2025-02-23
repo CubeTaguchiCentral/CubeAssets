@@ -17,7 +17,7 @@ Music_02_Channel_0:
       inst 1
       vol 10
       setRelease 1
-      vibrato 92
+      vibrato 05ch
     mainLoopStart
             noteL G5, 65
             noteL C6, 66
@@ -71,7 +71,7 @@ Music_02_Channel_1:
       inst 1
       vol 10
       setRelease 1
-      vibrato 92
+      vibrato 05ch
     mainLoopStart
             noteL Ds5, 65
             noteL G5, 66
@@ -123,7 +123,7 @@ Music_02_Channel_2:
       inst 1
       vol 9
       setRelease 1
-      vibrato 92
+      vibrato 05ch
     mainLoopStart
             noteL C5, 65
             noteL C5, 66
@@ -159,7 +159,7 @@ Music_02_Channel_3:
       inst 1
       vol 10
       setRelease 1
-      vibrato 92
+      vibrato 05ch
     mainLoopStart
             noteL C4, 65
             noteL Ds4, 66
@@ -201,7 +201,7 @@ Music_02_Channel_4:
       shifting 32
       vol 7
       setRelease 1
-      vibrato 92
+      vibrato 05ch
     mainLoopStart
             noteL G5, 65
             noteL C6, 66

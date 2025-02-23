@@ -17,7 +17,7 @@ Music_28_Channel_0:
       inst 44
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL As5, 18
             note Gs5
             note Gs5
@@ -28,7 +28,7 @@ Music_28_Channel_1:
       inst 44
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL Fs5, 18
             note E5
             note E5
@@ -39,7 +39,7 @@ Music_28_Channel_2:
       inst 6
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL E4, 9
             note As4
             note Fs5
@@ -64,7 +64,7 @@ Music_28_Channel_2:
     channel_end
 Music_28_Channel_3:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       inst 6
       vol 11
             waitL 3
@@ -92,7 +92,7 @@ Music_28_Channel_3:
     channel_end
 Music_28_Channel_4:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       inst 6
       vol 11
             waitL 6

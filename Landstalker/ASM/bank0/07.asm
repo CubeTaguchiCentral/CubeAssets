@@ -17,7 +17,7 @@ Music_07_Channel_0:
       inst 19
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 12
             noteL C6, 6
             wait
@@ -43,7 +43,7 @@ Music_07_Channel_1:
       inst 31
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL G5, 48
       setRelease 4
       inst 40
@@ -67,7 +67,7 @@ Music_07_Channel_2:
       inst 31
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL F5, 48
       setRelease 4
       inst 40
@@ -91,7 +91,7 @@ Music_07_Channel_3:
       inst 53
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL C2, 48
       setRelease 4
       inst 40
@@ -115,7 +115,7 @@ Music_07_Channel_4:
       inst 39
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 12
             noteL C6, 6
             wait

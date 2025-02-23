@@ -18,7 +18,7 @@ Music_24_Channel_0:
       inst 14
       vol 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
             noteL A3, 4
             waitL 8
@@ -41,7 +41,7 @@ Music_24_Channel_1:
       inst 14
       vol 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 040h
             waitL 12
     mainLoopStart
@@ -66,7 +66,7 @@ Music_24_Channel_2:
       inst 14
       vol 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 080h
             waitL 72
     mainLoopStart

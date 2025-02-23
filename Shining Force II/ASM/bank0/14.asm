@@ -18,7 +18,7 @@ Music_14_Channel_0:
       inst 5
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
             noteL F3, 192
             note F3
@@ -45,7 +45,7 @@ Music_14_Channel_1:
       stereo 0c0h
       inst 5
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 24
     mainLoopStart
       vol 11
@@ -71,7 +71,7 @@ Music_14_Channel_2:
       inst 6
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
     countedLoopStart 1
             noteL B5, 12
@@ -295,7 +295,7 @@ Music_14_Channel_3:
       inst 6
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
     countedLoopStart 1
             noteL B5, 12
@@ -519,7 +519,7 @@ Music_14_Channel_4:
       inst 6
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
     countedLoopStart 1
             noteL B5, 12
@@ -751,7 +751,7 @@ Music_14_Channel_5:
       stereo 0c0h
       inst 5
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 48
     mainLoopStart
       vol 10
@@ -774,7 +774,7 @@ Music_14_Channel_5:
     mainLoopEnd
 Music_14_Channel_6:
       setRelease 1
-      vibrato 76
+      vibrato 04ch
       psgInst 00h
     mainLoopStart
             waitL 24
@@ -793,11 +793,11 @@ Music_14_Channel_6:
             psgNoteL E4, 24
       sustain
             psgNoteL G3, 96
-      vibrato 64
+      vibrato 040h
       setRelease 1
             psgNoteL G3, 192
             waitL 24
-      vibrato 76
+      vibrato 04ch
             psgNote E4
             psgNote F4
             psgNoteL G4, 23
@@ -863,7 +863,7 @@ Music_14_Channel_7:
       psgInst 00h
             waitL 12
       setRelease 1
-      vibrato 76
+      vibrato 04ch
     mainLoopStart
             waitL 24
       psgInst 07ah
@@ -881,11 +881,11 @@ Music_14_Channel_7:
             psgNoteL E4, 24
       sustain
             psgNoteL G3, 96
-      vibrato 64
+      vibrato 040h
       setRelease 1
             psgNoteL G3, 192
             waitL 24
-      vibrato 76
+      vibrato 04ch
             psgNote E4
             psgNote F4
             psgNoteL G4, 23

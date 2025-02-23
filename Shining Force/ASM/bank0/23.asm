@@ -16,7 +16,7 @@ Music_23:
 Music_23_Channel_0:
       inst 13
       vol 10
-      vibrato 60
+      vibrato 03ch
       stereo 0c0h
       sustain
             noteL Fs6, 96
@@ -220,7 +220,7 @@ Music_23_Channel_1:
       inst 4
       vol 14
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 040h
             noteL C4, 6
             note C4
@@ -341,7 +341,7 @@ Music_23_Channel_2:
       inst 5
       vol 14
       sustain
-      vibrato 44
+      vibrato 02ch
       stereo 080h
             noteL C4, 96
       setRelease 1
@@ -407,7 +407,7 @@ Music_23_Channel_3:
       inst 13
       vol 10
       sustain
-      vibrato 58
+      vibrato 03ah
       stereo 0c0h
             noteL C6, 96
       setRelease 1
@@ -590,7 +590,7 @@ Music_23_Channel_4:
       inst 13
       vol 10
       sustain
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
             noteL As5, 96
       setRelease 1
@@ -908,7 +908,7 @@ Music_23_Channel_5:
 Music_23_Channel_6:
       psgInst 0bh
       setRelease 1
-      vibrato 76
+      vibrato 04ch
     countedLoopStart 15
             psgNoteL Fs5, 3
             psgNote G5
@@ -1102,7 +1102,7 @@ Music_23_Channel_6:
 Music_23_Channel_7:
       psgInst 0ch
       sustain
-      vibrato 85
+      vibrato 055h
             psgNoteL E4, 96
       setRelease 1
             psgNote E4

@@ -18,7 +18,7 @@ Music_19_Channel_0:
     mainLoopStart
       inst 38
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     countedLoopStart 3
       vol 8
             noteL C7, 24
@@ -150,7 +150,7 @@ Music_19_Channel_1:
     mainLoopStart
       inst 38
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     countedLoopStart 3
       vol 8
             noteL A6, 24
@@ -317,7 +317,7 @@ Music_19_Channel_3:
       inst 26
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL E4, 192
             note G4
             noteL F4, 144
@@ -336,7 +336,7 @@ Music_19_Channel_4:
       inst 38
       vol 11
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             noteL A3, 192
             note A3
             note D4
@@ -349,7 +349,7 @@ Music_19_Channel_4:
 Music_19_Channel_6:
       psgInst 06ch
       setRelease 1
-      vibrato 76
+      vibrato 04ch
             psgNoteL A3, 12
     mainLoopStart
       ymTimer 198
@@ -392,7 +392,7 @@ Music_19_Channel_6:
 Music_19_Channel_7:
       psgInst 06ch
       setRelease 1
-      vibrato 76
+      vibrato 04ch
             psgNoteL E3, 12
     mainLoopStart
             psgNoteL E3, 48

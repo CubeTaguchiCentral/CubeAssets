@@ -15,7 +15,7 @@ Music_13:
     dw Music_13_Channel_5
 Music_13_Channel_0:
       setRelease 0
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
       inst 8
       vol 12
@@ -31,7 +31,7 @@ Music_13_Channel_0:
     channel_end
 Music_13_Channel_1:
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 040h
       inst 37
       vol 12
@@ -56,7 +56,7 @@ Music_13_Channel_1:
     channel_end
 Music_13_Channel_2:
       setRelease 0
-      vibrato 44
+      vibrato 02ch
       stereo 080h
       inst 6
       vol 11
@@ -73,7 +73,7 @@ Music_13_Channel_2:
     channel_end
 Music_13_Channel_3:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
       stereo 0c0h
       inst 26
       vol 12
@@ -100,7 +100,7 @@ Music_13_Channel_3:
     channel_end
 Music_13_Channel_4:
       setRelease 0
-      vibrato 42
+      vibrato 02ah
       stereo 040h
       inst 8
       vol 9

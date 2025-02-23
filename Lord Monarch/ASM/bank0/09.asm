@@ -16,7 +16,7 @@ Music_09:
 Music_09_Channel_0:
       inst 21
       vol 12
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
       inst 21
       vol 12
@@ -277,7 +277,7 @@ Music_09_Channel_0:
 Music_09_Channel_1:
       inst 16
       vol 12
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
       inst 16
       vol 12
@@ -429,7 +429,7 @@ Music_09_Channel_2:
       inst 16
       vol 9
       shifting 32
-      vibrato 44
+      vibrato 02ch
             waitL 8
     mainLoopStart
       inst 16
@@ -583,7 +583,7 @@ Music_09_Channel_3:
       inst 18
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
     mainLoopStart
       inst 18
@@ -873,7 +873,7 @@ Music_09_Channel_4:
       inst 21
       vol 8
       shifting 32
-      vibrato 44
+      vibrato 02ch
             waitL 7
     mainLoopStart
       inst 21
@@ -1311,7 +1311,7 @@ Music_09_Channel_5:
 Music_09_Channel_6:
       psgInst 0ah
       setRelease 1
-      vibrato 95
+      vibrato 05fh
     mainLoopStart
       psgInst 0ah
             psgNoteL D3, 24
@@ -1546,7 +1546,7 @@ Music_09_Channel_6:
 Music_09_Channel_7:
       psgInst 00h
       setRelease 1
-      vibrato 95
+      vibrato 05fh
       shifting 16
     mainLoopStart
             waitL 6

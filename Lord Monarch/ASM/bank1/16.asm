@@ -18,7 +18,7 @@ Music_16_Channel_0:
       inst 28
       vol 13
       setRelease 1
-      vibrato 60
+      vibrato 03ch
       stereo 0c0h
             noteL F3, 40
             note E3
@@ -60,7 +60,7 @@ Music_16_Channel_0:
       inst 28
       vol 12
       setRelease 1
-      vibrato 60
+      vibrato 03ch
       stereo 0c0h
     countedLoopStart 1
             noteL F3, 40
@@ -134,7 +134,7 @@ Music_16_Channel_1:
       inst 24
       vol 10
       setRelease 1
-      vibrato 60
+      vibrato 03ch
       stereo 0c0h
             noteL F4, 40
             note E4
@@ -178,7 +178,7 @@ Music_16_Channel_1:
       inst 24
       vol 10
       setRelease 1
-      vibrato 60
+      vibrato 03ch
       stereo 0c0h
     countedLoopStart 1
             noteL F4, 40
@@ -262,7 +262,7 @@ Music_16_Channel_2:
       inst 37
       vol 13
       setRelease 1
-      vibrato 60
+      vibrato 03ch
       stereo 0c0h
     countedLoopStart 1
             waitL 160
@@ -422,7 +422,7 @@ Music_16_Channel_3:
       inst 28
       vol 8
       setRelease 1
-      vibrato 60
+      vibrato 03ch
       stereo 040h
             noteL F3, 40
       stereo 080h
@@ -489,7 +489,7 @@ Music_16_Channel_3:
       inst 28
       vol 10
       setRelease 1
-      vibrato 60
+      vibrato 03ch
     countedLoopStart 1
       stereo 040h
             noteL F3, 40
@@ -570,7 +570,7 @@ Music_16_Channel_4:
       inst 37
       vol 9
       setRelease 1
-      vibrato 60
+      vibrato 03ch
       stereo 0c0h
             waitL 160
       vol 5
@@ -738,7 +738,7 @@ Music_16_Channel_5:
 Music_16_Channel_6:
       psgInst 00h
       setRelease 0
-      vibrato 60
+      vibrato 03ch
     countedLoopStart 3
             waitL 160
     countedLoopEnd
@@ -922,7 +922,7 @@ Music_16_Channel_7:
       shifting 16
             waitL 6
       setRelease 0
-      vibrato 60
+      vibrato 03ch
     countedLoopStart 3
             waitL 160
     countedLoopEnd

@@ -18,7 +18,7 @@ Music_20_Channel_0:
       stereo 0c0h
       vol 9
       setRelease 0
-      vibrato 65
+      vibrato 041h
     mainLoopStart
       vol 11
     countedLoopStart 2
@@ -38,7 +38,7 @@ Music_20_Channel_1:
       stereo 0c0h
       vol 9
       setRelease 0
-      vibrato 49
+      vibrato 031h
     mainLoopStart
       vol 9
     countedLoopStart 2
@@ -70,7 +70,7 @@ Music_20_Channel_2:
       stereo 0c0h
       vol 9
       setRelease 0
-      vibrato 33
+      vibrato 021h
     mainLoopStart
       vol 9
     countedLoopStart 2
@@ -97,7 +97,7 @@ Music_20_Channel_3:
       stereo 080h
       vol 7
       setRelease 0
-      vibrato 32
+      vibrato 020h
             waitL 9
     mainLoopStart
       vol 7
@@ -119,7 +119,7 @@ Music_20_Channel_4:
       stereo 040h
       vol 6
       setRelease 0
-      vibrato 32
+      vibrato 020h
             waitL 6
     mainLoopStart
     countedLoopStart 2
@@ -200,7 +200,7 @@ Music_20_Channel_5:
     channel_end
 Music_20_Channel_6:
       psgInst 00h
-      vibrato 81
+      vibrato 051h
       setRelease 1
     mainLoopStart
     countedLoopStart 7
@@ -229,7 +229,7 @@ Music_20_Channel_6:
     mainLoopEnd
 Music_20_Channel_7:
       psgInst 00h
-      vibrato 81
+      vibrato 051h
       setRelease 1
             waitL 6
       shifting 16

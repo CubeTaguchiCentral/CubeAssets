@@ -15,7 +15,7 @@ Music_01:
     dw Music_01_Channel_4
 Music_01_Channel_0:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 96
       vol 13
     mainLoopStart
@@ -191,7 +191,7 @@ Music_01_Channel_0:
     mainLoopEnd
 Music_01_Channel_1:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 96
       vol 10
     mainLoopStart
@@ -385,7 +385,7 @@ Music_01_Channel_1:
     mainLoopEnd
 Music_01_Channel_2:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 96
       vol 10
     mainLoopStart
@@ -565,7 +565,7 @@ Music_01_Channel_2:
     mainLoopEnd
 Music_01_Channel_3:
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 96
       vol 8
     mainLoopStart
@@ -862,7 +862,7 @@ Music_01_Channel_5:
 Music_01_Channel_6:
       psgInst 00h
       setRelease 1
-      vibrato 74
+      vibrato 04ah
             waitL 96
     mainLoopStart
       psgInst 0ah

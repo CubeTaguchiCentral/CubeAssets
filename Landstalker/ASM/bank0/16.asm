@@ -34,10 +34,10 @@ Music_16_Channel_0:
       inst 7
       vol 12
       setRelease 1
-      vibrato 47
+      vibrato 02fh
             noteL D2, 0
       setSlide 33
-      vibrato 32
+      vibrato 020h
             noteL Ds7, 96
       noSlide
       inst 20
@@ -55,7 +55,7 @@ Music_16_Channel_1:
       inst 7
       vol 12
       setRelease 1
-      vibrato 47
+      vibrato 02fh
             noteL C2, 0
       setSlide 31
             noteL As6, 96
@@ -71,7 +71,7 @@ Music_16_Channel_1:
     channel_end
 Music_16_Channel_2:
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 080h
       inst 17
       vol 12
@@ -111,7 +111,7 @@ Music_16_Channel_3:
       vol 10
       sustain
             noteL Ds3, 72
-      vibrato 32
+      vibrato 020h
       vol 10
             noteL Ds3, 6
       vol 8
@@ -124,7 +124,7 @@ Music_16_Channel_3:
     channel_end
 Music_16_Channel_4:
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 040h
       shifting 32
             waitL 6
@@ -147,7 +147,7 @@ Music_16_Channel_4:
       vol 12
       sustain
             noteL Ds3, 72
-      vibrato 32
+      vibrato 020h
       vol 12
             noteL Ds3, 6
       vol 10

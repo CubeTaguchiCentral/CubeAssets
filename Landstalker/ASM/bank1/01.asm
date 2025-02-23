@@ -18,7 +18,7 @@ Music_01_Channel_0:
       inst 11
       vol 10
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
             noteL D6, 40
             waitL 8
@@ -117,7 +117,7 @@ Music_01_Channel_1:
       inst 11
       vol 9
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL Fs5, 48
     mainLoopStart
             noteL G5, 48
@@ -172,7 +172,7 @@ Music_01_Channel_2:
       inst 11
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL D4, 48
     mainLoopStart
             noteL E4, 48
@@ -217,7 +217,7 @@ Music_01_Channel_3:
       inst 11
       vol 8
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
             noteL D6, 40
             waitL 8
@@ -319,7 +319,7 @@ Music_01_Channel_4:
       inst 11
       vol 7
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL Fs5, 48
     mainLoopStart
             noteL G5, 48

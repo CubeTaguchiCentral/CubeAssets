@@ -17,7 +17,7 @@ Music_03_Channel_0:
       inst 27
       vol 13
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 36
     mainLoopStart
             noteL B3, 12
@@ -303,13 +303,13 @@ Music_03_Channel_1:
       inst 15
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 36
     mainLoopStart
       inst 8
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL E5, 6
             note Fs5
             note B5
@@ -504,7 +504,7 @@ Music_03_Channel_1:
             waitL 96
       inst 56
       vol 12
-      vibrato 60
+      vibrato 03ch
       sustain
             noteL Ds5, 3
       setRelease 1
@@ -533,13 +533,13 @@ Music_03_Channel_2:
       inst 60
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 36
     mainLoopStart
       inst 56
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
             noteL Fs5, 12
             waitL 24
@@ -1164,13 +1164,13 @@ Music_03_Channel_3:
       inst 56
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 36
     mainLoopStart
       inst 56
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       stereo 0c0h
             noteL D5, 12
             waitL 24
@@ -1896,13 +1896,13 @@ Music_03_Channel_4:
       inst 15
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 36
     mainLoopStart
       inst 8
       vol 8
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       shifting 32
       stereo 040h
             waitL 12
@@ -2100,7 +2100,7 @@ Music_03_Channel_4:
       inst 56
       vol 9
       shifting 32
-      vibrato 60
+      vibrato 03ch
       sustain
             noteL Ds5, 3
       setRelease 1
@@ -2538,7 +2538,7 @@ Music_03_Channel_5:
     mainLoopEnd
 Music_03_Channel_6:
       setRelease 1
-      vibrato 76
+      vibrato 04ch
       psgInst 00h
             waitL 36
     mainLoopStart
@@ -2827,7 +2827,7 @@ Music_03_Channel_6:
     mainLoopEnd
 Music_03_Channel_7:
       setRelease 1
-      vibrato 76
+      vibrato 04ch
       psgInst 00h
             waitL 36
     mainLoopStart

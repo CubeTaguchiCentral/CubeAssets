@@ -17,7 +17,7 @@ Music_17_Channel_0:
       inst 17
       vol 11
       setRelease 0
-      vibrato 44
+      vibrato 02ch
             noteL E5, 4
             note F5
             note G5
@@ -147,7 +147,7 @@ Music_17_Channel_1:
       inst 15
       vol 0
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 96
     mainLoopStart
       inst 15
@@ -559,7 +559,7 @@ Music_17_Channel_2:
       inst 32
       vol 0
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 96
     mainLoopStart
       vol 7
@@ -578,7 +578,7 @@ Music_17_Channel_3:
       inst 17
       vol 10
       setRelease 0
-      vibrato 44
+      vibrato 02ch
             noteL C5, 4
             note D5
             note E5
@@ -704,7 +704,7 @@ Music_17_Channel_4:
       inst 0
       vol 0
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 96
     mainLoopStart
     repeatStart
@@ -774,7 +774,7 @@ Music_17_Channel_5:
 Music_17_Channel_6:
       psgInst 00h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 96
     mainLoopStart
             waitL 12
@@ -952,7 +952,7 @@ Music_17_Channel_6:
 Music_17_Channel_7:
       psgInst 00h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 96
     mainLoopStart
       psgInst 01bh

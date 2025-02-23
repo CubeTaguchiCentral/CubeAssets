@@ -16,7 +16,7 @@ Music_16:
 Music_16_Channel_0:
       stereo 0c0h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       inst 25
       vol 12
     mainLoopStart
@@ -48,7 +48,7 @@ Music_16_Channel_1:
       setRelease 1
             waitL 48
     mainLoopStart
-      vibrato 44
+      vibrato 02ch
       inst 7
       vol 11
             noteL B5, 48
@@ -66,7 +66,7 @@ Music_16_Channel_1:
             noteL D5, 24
       sustain
             noteL G5, 216
-      vibrato 32
+      vibrato 020h
       vol 9
             noteL G5, 12
       vol 7
@@ -76,7 +76,7 @@ Music_16_Channel_1:
       vol 3
       setRelease 1
             note G5
-      vibrato 44
+      vibrato 02ch
       vol 11
             noteL B5, 48
             note A5
@@ -91,24 +91,24 @@ Music_16_Channel_1:
             note E6
       sustain
             noteL D6, 72
-      vibrato 32
+      vibrato 020h
       vol 9
             noteL D6, 12
       vol 7
       setRelease 1
             note D6
-      vibrato 44
+      vibrato 02ch
       vol 11
             noteL B5, 24
       sustain
             noteL E6, 192
-      vibrato 32
+      vibrato 020h
       vol 9
             noteL E6, 12
       setRelease 1
       vol 7
             note E6
-      vibrato 44
+      vibrato 02ch
       inst 26
       vol 13
     repeatStart
@@ -139,7 +139,7 @@ Music_16_Channel_1:
     repeatSection2Start
       sustain
             noteL G7, 224
-      vibrato 32
+      vibrato 020h
       vol 11
             noteL G7, 12
       vol 9
@@ -153,7 +153,7 @@ Music_16_Channel_1:
 Music_16_Channel_2:
       stereo 0c0h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
             waitL 48
       inst 25
@@ -218,7 +218,7 @@ Music_16_Channel_2:
 Music_16_Channel_3:
       stereo 0c0h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
       inst 25
     mainLoopStart
             waitL 24
@@ -290,7 +290,7 @@ Music_16_Channel_4:
       shifting 32
       stereo 040h
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 18
       inst 25
       vol 10
@@ -386,7 +386,7 @@ Music_16_Channel_5:
       setRelease 1
             waitL 48
     mainLoopStart
-      vibrato 44
+      vibrato 02ch
       inst 7
       vol 10
             noteL B5, 48
@@ -404,7 +404,7 @@ Music_16_Channel_5:
             noteL D5, 24
       sustain
             noteL G5, 216
-      vibrato 32
+      vibrato 020h
       vol 8
             noteL G5, 12
       vol 6
@@ -414,7 +414,7 @@ Music_16_Channel_5:
       vol 2
       setRelease 1
             note G5
-      vibrato 44
+      vibrato 02ch
       vol 10
             noteL B5, 48
             note A5
@@ -429,24 +429,24 @@ Music_16_Channel_5:
             note E6
       sustain
             noteL D6, 72
-      vibrato 32
+      vibrato 020h
       vol 8
             noteL D6, 12
       vol 6
       setRelease 1
             note D6
-      vibrato 44
+      vibrato 02ch
       vol 10
             noteL B5, 24
       sustain
             noteL E6, 192
-      vibrato 32
+      vibrato 020h
       vol 8
             noteL E6, 12
       setRelease 1
       vol 6
             note E6
-      vibrato 44
+      vibrato 02ch
       inst 26
       vol 12
     repeatStart
@@ -477,7 +477,7 @@ Music_16_Channel_5:
     repeatSection2Start
       sustain
             noteL G7, 224
-      vibrato 32
+      vibrato 020h
       vol 10
             noteL G7, 12
       vol 8

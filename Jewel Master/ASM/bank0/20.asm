@@ -18,7 +18,7 @@ Music_20_Channel_0:
       inst 35
       vol 12
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 192
             noteL D4, 168
             noteL C4, 24
@@ -133,7 +133,7 @@ Music_20_Channel_1:
       inst 5
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
             waitL 144
             waitL 192
             noteL D6, 24
@@ -604,7 +604,7 @@ Music_20_Channel_2:
       inst 20
       vol 10
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     countedLoopStart 5
             waitL 6
             note F6
@@ -864,7 +864,7 @@ Music_20_Channel_3:
       inst 20
       vol 9
       setRelease 1
-      vibrato 42
+      vibrato 02ah
     countedLoopStart 5
             waitL 6
             note D6
@@ -1120,7 +1120,7 @@ Music_20_Channel_3:
 Music_20_Channel_4:
       stereo 0c0h
       setRelease 1
-      vibrato 0
+      vibrato 00h
             waitL 192
     countedLoopStart 6
             waitL 12
@@ -1363,7 +1363,7 @@ Music_20_Channel_5:
 Music_20_Channel_6:
       psgInst 00h
       setRelease 1
-      vibrato 74
+      vibrato 04ah
             waitL 192
       psgInst 0ah
     countedLoopStart 19
@@ -1662,7 +1662,7 @@ Music_20_Channel_6:
 Music_20_Channel_7:
       psgInst 00h
       setRelease 1
-      vibrato 74
+      vibrato 04ah
     countedLoopStart 8
             waitL 96
     countedLoopEnd

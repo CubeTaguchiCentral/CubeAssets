@@ -16,7 +16,7 @@ Music_10:
 Music_10_Channel_0:
       inst 93
       vol 12
-      vibrato 0
+      vibrato 00h
       setRelease 0
             noteL C3, 30
     channel_end
@@ -24,14 +24,14 @@ Music_10_Channel_1:
       inst 93
       shifting 64
       vol 10
-      vibrato 0
+      vibrato 00h
       setRelease 0
             noteL C3, 30
     channel_end
 Music_10_Channel_2:
       inst 93
       vol 9
-      vibrato 0
+      vibrato 00h
       setRelease 0
       stereo 060h
             waitL 3
@@ -40,7 +40,7 @@ Music_10_Channel_2:
 Music_10_Channel_3:
       inst 93
       vol 9
-      vibrato 0
+      vibrato 00h
       setRelease 0
       stereo 080h
       shifting 32
@@ -50,7 +50,7 @@ Music_10_Channel_3:
 Music_10_Channel_4:
       inst 93
       vol 9
-      vibrato 0
+      vibrato 00h
       setRelease 0
       stereo 040h
       shifting 32

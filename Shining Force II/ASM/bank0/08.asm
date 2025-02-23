@@ -17,7 +17,7 @@ Music_08_Channel_0:
       stereo 0c0h
       inst 26
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
             waitL 16
       vol 13
@@ -383,9 +383,9 @@ Music_08_Channel_0:
       sustain
             noteL A6, 128
       setRelease 1
-      vibrato 32
+      vibrato 020h
             noteL A6, 112
-      vibrato 44
+      vibrato 02ch
             noteL B6, 16
       vol 12
             noteL C7, 6
@@ -546,7 +546,7 @@ Music_08_Channel_1:
       inst 38
       vol 12
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
             noteL D3, 64
             note C3
@@ -769,7 +769,7 @@ Music_08_Channel_1:
     mainLoopEnd
 Music_08_Channel_2:
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
       stereo 040h
       inst 38
@@ -1222,7 +1222,7 @@ Music_08_Channel_3:
       inst 38
       vol 11
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             noteL F5, 64
             note G5
             note Gs5
@@ -1762,7 +1762,7 @@ Music_08_Channel_4:
       inst 26
       shifting 32
       setRelease 1
-      vibrato 44
+      vibrato 02ch
             waitL 8
     mainLoopStart
       stereo 080h
@@ -2109,9 +2109,9 @@ Music_08_Channel_4:
       sustain
             noteL A6, 128
       setRelease 1
-      vibrato 32
+      vibrato 020h
             noteL A6, 112
-      vibrato 44
+      vibrato 02ch
             noteL B6, 8
       vol 9
             noteL C7, 6
@@ -2270,7 +2270,7 @@ Music_08_Channel_4:
     mainLoopEnd
 Music_08_Channel_5:
       setRelease 1
-      vibrato 44
+      vibrato 02ch
     mainLoopStart
       stereo 040h
       inst 38
@@ -2384,7 +2384,7 @@ Music_08_Channel_6:
     mainLoopStart
       psgInst 07bh
       setRelease 1
-      vibrato 76
+      vibrato 04ch
             psgNoteL C3, 64
             psgNote D3
             psgNote Ds3
@@ -2523,7 +2523,7 @@ Music_08_Channel_6:
             psgNoteL B3, 32
       sustain
             psgNoteL C4, 128
-      vibrato 64
+      vibrato 040h
       setRelease 1
             psgNote C4
             waitL 16
@@ -2544,7 +2544,7 @@ Music_08_Channel_6:
       psgInst 00h
     repeatSection1Start
             waitL 128
-      vibrato 76
+      vibrato 04ch
     countedLoopStart 1
       psgInst 00h
             waitL 16
@@ -2591,7 +2591,7 @@ Music_08_Channel_6:
     repeatSection2Start
             waitL 32
       setRelease 0
-      vibrato 76
+      vibrato 04ch
       psgInst 08h
             psgNoteL Ds4, 8
       psgInst 09h
@@ -2642,7 +2642,7 @@ Music_08_Channel_7:
     mainLoopStart
       psgInst 07bh
       setRelease 1
-      vibrato 76
+      vibrato 04ch
             psgNoteL A2, 64
             psgNote B2
             psgNote C3
@@ -2786,7 +2786,7 @@ Music_08_Channel_7:
       sustain
             psgNoteL C4, 128
       setRelease 1
-      vibrato 64
+      vibrato 040h
             psgNote C4
             waitL 16
       psgInst 07ah
@@ -2806,7 +2806,7 @@ Music_08_Channel_7:
       psgInst 00h
     repeatSection1Start
             waitL 120
-      vibrato 76
+      vibrato 04ch
     countedLoopStart 1
       psgInst 00h
             waitL 16
@@ -2854,7 +2854,7 @@ Music_08_Channel_7:
     repeatSection2Start
             waitL 24
       setRelease 0
-      vibrato 76
+      vibrato 04ch
       psgInst 08h
             psgNoteL As3, 8
       psgInst 09h
