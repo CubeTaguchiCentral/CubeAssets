@@ -1725,9 +1725,9 @@ Music_01_Channel_6:
             waitL 24
       psgInst 0bh
             psgNoteL E3, 0
-      sustain
+      setRelease 132
             psgNoteL F4, 24
-      sustain
+      setRelease 255
       setRelease 1
             psgNoteL E4, 12
             psgNote Ds4
@@ -1748,9 +1748,9 @@ Music_01_Channel_6:
             waitL 24
       psgInst 0bh
             psgNoteL E4, 0
-      sustain
+      setRelease 133
             psgNoteL F4, 24
-      sustain
+      setRelease 255
             psgNoteL E4, 12
             psgNote Ds4
             psgNote E4
@@ -1946,9 +1946,9 @@ Music_01_Channel_7:
             waitL 24
       psgInst 0bh
             psgNoteL B4, 0
-      sustain
+      setRelease 134
             psgNoteL C5, 24
-      sustain
+      setRelease 255
             psgNoteL B4, 12
             psgNote As4
             psgNote B4
@@ -1968,9 +1968,9 @@ Music_01_Channel_7:
             waitL 24
       psgInst 0bh
             psgNoteL B4, 0
-      sustain
+      setRelease 134
             psgNoteL C5, 24
-      sustain
+      setRelease 255
             psgNoteL B4, 12
             psgNote As4
             psgNote B4

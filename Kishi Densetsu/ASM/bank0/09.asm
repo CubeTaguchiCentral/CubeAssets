@@ -1334,7 +1334,7 @@ Music_09_Channel_6:
       setRelease 7
             psgNoteL G3, 24
             psgNote B3
-      sustain
+      setRelease 145
             psgNoteL C4, 48
             waitL 24
       psgInst 01bh

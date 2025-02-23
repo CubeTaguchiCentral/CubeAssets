@@ -847,7 +847,7 @@ Music_14_Channel_6:
       setRelease 1
       vibrato 79
             psgNoteL C4, 0
-      sustain
+      setRelease 129
             psgNoteL D4, 192
             psgNote Cs4
             psgNote D4
@@ -864,7 +864,7 @@ Music_14_Channel_6:
             psgNote E4
             psgNote D4
             psgNote Ds4
-      sustain
+      setRelease 255
     mainLoopEnd
 Music_14_Channel_7:
     mainLoopStart
@@ -872,7 +872,7 @@ Music_14_Channel_7:
       setRelease 1
       vibrato 79
             psgNoteL Fs4, 0
-      sustain
+      setRelease 129
             psgNoteL Gs4, 192
             psgNote G4
             psgNote Gs4
@@ -889,7 +889,7 @@ Music_14_Channel_7:
             psgNote As4
             psgNote Gs4
             psgNote A4
-      sustain
+      setRelease 255
     mainLoopEnd
 Music_14_Channel_8:
     channel_end
