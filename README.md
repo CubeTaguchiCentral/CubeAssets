@@ -18,7 +18,7 @@ Cube to Furnace conversion status
 | 13/03/1992 | Steel Empire                    |                                     |
 | 20/03/1992 | Shining Force                   |                                     |
 | 30/06/1992 | Dial Q o Mawase!                |                                     |
-| 17/07/1992 | Gley Lancer                     | Desync remaining in bank 1 song 4   |
+| 17/07/1992 | Gley Lancer                     |                                     |
 | 30/10/1992 | Landstalker                     |                                     |
 | 28/05/1993 | Snow Bros.                      |                                     |
 | 28/05/1993 | Ranger-X (Ex-Ranza)             | Wrong samples                       |
