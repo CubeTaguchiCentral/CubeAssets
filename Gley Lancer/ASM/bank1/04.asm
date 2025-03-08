@@ -3560,7 +3560,6 @@ Music_04_Channel_5:
             sample 1
     channel_end
 Music_04_Channel_6:
-            psgNoteL C0, 38
       psgInst 0dh
       setRelease 1
       vibrato 02ah

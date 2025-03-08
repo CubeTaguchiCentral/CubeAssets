@@ -455,7 +455,6 @@ Music_01_Channel_6:
       ymTimer 195
     mainLoopStart
     countedLoopStart 1
-            psgNoteL C0, 2
       psgInst 0bh
             psgNoteL F4, 8
             psgNote G4
@@ -665,7 +664,6 @@ Music_01_Channel_7:
             waitL 20
     mainLoopStart
     countedLoopStart 1
-            psgNoteL C0, 2
       psgInst 09h
             psgNoteL F4, 8
             psgNote G4

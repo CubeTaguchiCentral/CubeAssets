@@ -752,7 +752,6 @@ Music_19_Channel_7:
       psgInst 00h
       setRelease 1
       vibrato 02ch
-            psgNoteL C0, 45
             waitL 16
     mainLoopStart
             waitL 16

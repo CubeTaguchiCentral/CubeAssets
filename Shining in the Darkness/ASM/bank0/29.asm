@@ -1609,7 +1609,6 @@ Music_29_Channel_6:
       psgInst 07bh
       setRelease 1
       vibrato 04ch
-            psgNoteL C0, 31
             psgNoteL D6, 8
             psgNote D6
             psgNote D6
@@ -2052,7 +2051,6 @@ Music_29_Channel_7:
       psgInst 07bh
       setRelease 1
       vibrato 04ch
-            psgNoteL C0, 31
             psgNoteL D5, 6
             psgNote D5
             psgNote D5

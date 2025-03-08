@@ -169,7 +169,6 @@ Music_18_Channel_6:
       psgInst 0ah
       setRelease 1
       vibrato 02ah
-            psgNoteL C0, 26
             psgNoteL Fs2, 6
             psgNote A2
             psgNote D3
@@ -213,7 +212,6 @@ Music_18_Channel_7:
       psgInst 09h
       setRelease 1
       vibrato 02ah
-            psgNoteL C0, 26
             psgNoteL Fs2, 6
             psgNote A2
             psgNote D3

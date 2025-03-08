@@ -1073,7 +1073,6 @@ Music_07_Channel_7:
       psgInst 07ah
       sustain
       vibrato 04ah
-            psgNoteL C0, 26
             psgNoteL C3, 96
             psgNote C3
             psgNote C3

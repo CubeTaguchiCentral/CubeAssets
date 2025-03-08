@@ -376,7 +376,6 @@ Music_08_Channel_5:
     channel_end
 Music_08_Channel_6:
     countedLoopStart 8
-            psgNoteL C0, 18
       setRelease 1
       vibrato 03eh
       psgInst 00h

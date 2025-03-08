@@ -1794,7 +1794,6 @@ Music_03_Channel_6:
             wait
       psgInst 09h
             psgNote B3
-            psgNoteL C0, 0
             wait
       psgInst 09h
             psgNote B3

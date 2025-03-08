@@ -1411,7 +1411,6 @@ Music_01_Channel_6:
             psgNote As6
             wait
     countedLoopEnd
-            psgNoteL C0, 11
       psgInst 0ah
             waitL 8
             psgNote G5
@@ -1513,7 +1512,6 @@ Music_01_Channel_7:
             psgNote As5
             wait
     countedLoopEnd
-            psgNoteL C0, 11
       psgInst 0ah
             waitL 8
             psgNote G5

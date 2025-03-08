@@ -903,7 +903,6 @@ Music_07_Channel_6:
             wait
     repeatEnd
     repeatSection2Start
-            psgNoteL C0, 24
       psgInst 0dh
             psgNoteL A3, 6
             psgNote B3

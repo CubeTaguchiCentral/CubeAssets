@@ -166,7 +166,6 @@ Music_08_Channel_6:
             waitL 3
             psgNote As1
             psgNote F1
-            psgNoteL C0, 2
             psgNoteL C1, 72
             psgNoteL C1, 2
             psgNote C1
@@ -180,7 +179,6 @@ Music_08_Channel_6:
             psgNote Fs3
             psgNote Fs3
             psgNote Fs3
-            psgNoteL C0, 6
             psgNote C1
             psgNote As1
             wait

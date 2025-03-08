@@ -697,7 +697,6 @@ Music_03_Channel_6:
             waitL 96
     countedLoopStart 3
             waitL 90
-            psgNoteL C0, 11
       psgInst 07dh
             psgNoteL A3, 6
             psgNote As3
@@ -712,7 +711,6 @@ Music_03_Channel_6:
             waitL 18
     countedLoopEnd
             waitL 84
-            psgNoteL C0, 11
       psgInst 07dh
             psgNoteL D3, 6
             psgNote F3

@@ -1862,143 +1862,91 @@ Music_05_Channel_7:
     countedLoopStart 17
             waitL 96
     countedLoopEnd
-            psgNoteL C0, 0
             psgNoteL A2, 48
-            psgNoteL C0, 1
             psgNote E3
-            psgNoteL C0, 0
             psgNoteL A2, 16
-            psgNoteL C0, 0
             psgNoteL A2, 48
-            psgNoteL C0, 1
             psgNoteL E3, 32
     countedLoopStart 1
-            psgNoteL C0, 0
             psgNoteL A2, 48
-            psgNoteL C0, 1
             psgNote E3
     countedLoopEnd
-            psgNoteL C0, 0
             psgNoteL A2, 16
             psgNoteL A2, 48
-            psgNoteL C0, 1
             psgNoteL E3, 32
-            psgNoteL C0, 0
             psgNoteL A2, 48
-            psgNoteL C0, 1
             psgNote E3
-            psgNoteL C0, 0
             psgNoteL A2, 16
             psgNoteL A2, 48
-            psgNoteL C0, 1
             psgNoteL E3, 32
-            psgNoteL C0, 0
             psgNoteL A2, 16
             psgNoteL A2, 32
-            psgNoteL C0, 1
             psgNoteL E3, 16
-            psgNoteL C0, 9
             psgNoteL F3, 2
             psgNoteL F3, 6
-            psgNoteL C0, 10
             psgNoteL D3, 2
             psgNoteL D3, 6
-            psgNoteL C0, 11
             psgNoteL C3, 2
             psgNoteL C3, 6
-            psgNoteL C0, 1
             psgNoteL E3, 8
     repeatStart
-            psgNoteL C0, 12
             psgNoteL A2, 40
-            psgNoteL C0, 0
             psgNoteL A2, 8
-            psgNoteL C0, 1
             psgNoteL E3, 24
-            psgNoteL C0, 5
             psgNoteL A3, 16
             psgNoteL A3, 8
     repeatSection1Start
-            psgNoteL C0, 0
             psgNoteL A2, 16
             psgNoteL A2, 24
             psgNoteL A2, 8
-            psgNoteL C0, 1
             psgNote E3
-            psgNoteL C0, 9
             psgNoteL F3, 16
-            psgNoteL C0, 10
             psgNote D3
-            psgNoteL C0, 11
             psgNoteL C3, 8
     repeatEnd
     repeatSection2Start
-            psgNoteL C0, 0
             psgNoteL A2, 16
             psgNoteL A2, 24
             psgNoteL A2, 8
-            psgNoteL C0, 1
             psgNoteL E3, 24
-            psgNoteL C0, 0
             psgNoteL A2, 16
             psgNoteL A2, 8
-            psgNoteL C0, 12
             psgNoteL A2, 48
-            psgNoteL C0, 1
             psgNoteL E3, 24
-            psgNoteL C0, 5
             psgNoteL A3, 8
             psgNote A3
             psgNote A3
-            psgNoteL C0, 0
             psgNote A2
-            psgNoteL C0, 5
             psgNoteL A3, 16
             psgNote A3
             psgNoteL A3, 8
-            psgNoteL C0, 1
             psgNote E3
-            psgNoteL C0, 9
             psgNote F3
             psgNote F3
-            psgNoteL C0, 10
             psgNote D3
             psgNote D3
-            psgNoteL C0, 11
             psgNote C3
-            psgNoteL C0, 12
             psgNoteL A2, 40
-            psgNoteL C0, 0
             psgNoteL A2, 8
-            psgNoteL C0, 1
             psgNoteL E3, 24
-            psgNoteL C0, 5
             psgNoteL A3, 16
             psgNoteL A3, 8
-            psgNoteL C0, 0
             psgNoteL A2, 16
             psgNoteL A2, 32
-            psgNoteL C0, 1
             psgNoteL E3, 16
-            psgNoteL C0, 2
             psgNoteL F3, 2
             psgNoteL F3, 6
-            psgNoteL C0, 3
             psgNoteL D3, 2
             psgNoteL D3, 6
-            psgNoteL C0, 4
             psgNoteL C3, 2
             psgNoteL C3, 6
-            psgNoteL C0, 1
             psgNoteL E3, 8
     countedLoopStart 5
             waitL 96
     countedLoopEnd
-            psgNoteL C0, 5
             psgNoteL A3, 48
             psgNote A3
             psgNote A3
-            psgNoteL C0, 1
             psgNoteL E3, 2
             psgNoteL E3, 6
             psgNoteL E3, 2
@@ -2009,129 +1957,87 @@ Music_05_Channel_7:
             psgNoteL E3, 8
             psgNote E3
     countedLoopStart 2
-            psgNoteL C0, 12
             psgNoteL A2, 32
-            psgNoteL C0, 1
             psgNoteL E3, 8
-            psgNoteL C0, 0
             psgNote A2
             psgNoteL A2, 16
             psgNote A2
-            psgNoteL C0, 1
             psgNote E3
-            psgNoteL C0, 0
             psgNoteL A2, 8
-            psgNoteL C0, 5
             psgNote A3
             psgNote A3
-            psgNoteL C0, 0
             psgNote A2
-            psgNoteL C0, 1
             psgNote E3
-            psgNoteL C0, 0
             psgNote A2
             psgNote A2
-            psgNoteL C0, 5
             psgNote A3
-            psgNoteL C0, 0
             psgNoteL A2, 16
-            psgNoteL C0, 1
             psgNote E3
     countedLoopEnd
-            psgNoteL C0, 12
             psgNoteL A2, 32
-            psgNoteL C0, 1
             psgNoteL E3, 8
-            psgNoteL C0, 0
             psgNote A2
             psgNoteL A2, 16
             psgNote A2
-            psgNoteL C0, 1
             psgNote E3
             psgNoteL E3, 8
             psgNote E3
             psgNote E3
-            psgNoteL C0, 2
             psgNote F3
             psgNote F3
             psgNote F3
-            psgNoteL C0, 3
             psgNote D3
             psgNote D3
             psgNote D3
-            psgNoteL C0, 4
             psgNote C3
             psgNote C3
             psgNote C3
     repeatStart
     countedLoopStart 2
-            psgNoteL C0, 8
             psgNoteL A2, 16
-            psgNoteL C0, 1
             psgNote E3
-            psgNoteL C0, 0
             psgNoteL A2, 8
             psgNote A2
-            psgNoteL C0, 1
             psgNoteL E3, 16
             psgNoteL E3, 8
-            psgNoteL C0, 0
             psgNote A2
             psgNote A2
-            psgNoteL C0, 1
             psgNote E3
     countedLoopEnd
     repeatSection1Start
-            psgNoteL C0, 8
             psgNoteL A2, 16
-            psgNoteL C0, 1
             psgNote E3
-            psgNoteL C0, 0
             psgNoteL A2, 8
             psgNote A2
-            psgNoteL C0, 1
             psgNoteL E3, 4
             psgNote E3
             psgNote E3
             psgNote E3
-            psgNoteL C0, 2
             psgNote F3
             psgNote F3
             psgNoteL F3, 8
-            psgNoteL C0, 3
             psgNoteL D3, 4
             psgNote D3
-            psgNoteL C0, 4
             psgNoteL C3, 8
     repeatEnd
     repeatSection2Start
-            psgNoteL C0, 0
             psgNoteL A2, 8
             psgNote A2
-            psgNoteL C0, 1
             psgNote E3
-            psgNoteL C0, 0
             psgNote A2
             psgNote A2
-            psgNoteL C0, 1
             psgNote E3
-            psgNoteL C0, 0
             psgNote A2
             psgNote A2
-            psgNoteL C0, 1
             psgNoteL E3, 4
             psgNote E3
             psgNote E3
-            psgNoteL C0, 2
             psgNote F3
             psgNote F3
-            psgNoteL C0, 3
             psgNote D3
             psgNote D3
-            psgNoteL C0, 4
             psgNote C3
     countedLoopStart 1
-            psgNoteL C0, 0
             psgNoteL A2, 8
             psgNoteL A2, 48
             psgNoteL A2, 16
@@ -2140,124 +2046,77 @@ Music_05_Channel_7:
     countedLoopEnd
             psgNoteL A2, 16
             psgNote A2
-            psgNoteL C0, 1
             psgNote E3
-            psgNoteL C0, 0
             psgNote A2
             psgNote A2
-            psgNoteL C0, 1
             psgNoteL E3, 8
-            psgNoteL C0, 0
             psgNote A2
             psgNoteL A2, 16
             psgNote A2
-            psgNoteL C0, 1
             psgNote E3
-            psgNoteL C0, 0
             psgNoteL A2, 8
-            psgNoteL C0, 9
             psgNote F3
-            psgNoteL C0, 10
             psgNote D3
-            psgNoteL C0, 11
             psgNote C3
-            psgNoteL C0, 1
             psgNote E3
             psgNote E3
     repeatStart
-            psgNoteL C0, 0
             psgNoteL A2, 8
             psgNoteL A2, 16
             psgNoteL A2, 8
-            psgNoteL C0, 1
             psgNote E3
-            psgNoteL C0, 10
             psgNote D3
-            psgNoteL C0, 0
             psgNote A2
-            psgNoteL C0, 6
             psgNote B3
-            psgNoteL C0, 5
             psgNoteL A3, 16
-            psgNoteL C0, 1
             psgNote E3
     repeatSection1Start
-            psgNoteL C0, 0
             psgNoteL A2, 8
             psgNoteL A2, 24
-            psgNoteL C0, 1
             psgNoteL E3, 16
-            psgNoteL C0, 0
             psgNote A2
             psgNote A2
-            psgNoteL C0, 1
             psgNote E3
     repeatEnd
     repeatSection2Start
-            psgNoteL C0, 0
             psgNoteL A2, 8
             psgNoteL A2, 24
-            psgNoteL C0, 1
             psgNoteL E3, 16
-            psgNoteL C0, 0
             psgNoteL A2, 8
-            psgNoteL C0, 9
             psgNote F3
-            psgNoteL C0, 10
             psgNote D3
-            psgNoteL C0, 11
             psgNote C3
-            psgNoteL C0, 0
             psgNote A2
-            psgNoteL C0, 1
             psgNote E3
     repeatStart
     countedLoopStart 2
-            psgNoteL C0, 0
             psgNoteL A2, 8
             psgNoteL A2, 24
-            psgNoteL C0, 1
             psgNoteL E3, 16
-            psgNoteL C0, 0
             psgNote A2
             psgNote A2
-            psgNoteL C0, 1
             psgNote E3
     countedLoopEnd
     repeatSection1Start
-            psgNoteL C0, 0
             psgNoteL A2, 8
             psgNoteL A2, 16
             psgNoteL A2, 8
-            psgNoteL C0, 1
             psgNote E3
-            psgNoteL C0, 10
             psgNote D3
-            psgNoteL C0, 0
             psgNote A2
-            psgNoteL C0, 6
             psgNote B3
-            psgNoteL C0, 5
             psgNoteL A3, 16
-            psgNoteL C0, 1
             psgNote E3
     repeatEnd
     repeatSection2Start
-            psgNoteL C0, 0
             psgNoteL A2, 8
             psgNoteL A2, 16
             psgNoteL A2, 8
-            psgNoteL C0, 1
             psgNoteL E3, 16
-            psgNoteL C0, 0
             psgNoteL A2, 8
-            psgNoteL C0, 9
             psgNote F3
-            psgNoteL C0, 10
             psgNoteL D3, 16
-            psgNoteL C0, 1
             psgNote E3
-            psgNoteL C0, 7
             psgNoteL Ds4, 96
             wait
             wait

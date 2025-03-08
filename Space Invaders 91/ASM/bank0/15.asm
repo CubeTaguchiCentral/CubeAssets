@@ -198,7 +198,6 @@ Music_15_Channel_5:
     mainLoopEnd
 Music_15_Channel_6:
     mainLoopStart
-            psgNoteL C0, 8
       psgInst 00h
       setRelease 1
       vibrato 04ah
@@ -266,7 +265,6 @@ Music_15_Channel_7:
             waitL 6
     mainLoopStart
       shifting 16
-            psgNoteL C0, 8
       psgInst 00h
       setRelease 1
       vibrato 04ah

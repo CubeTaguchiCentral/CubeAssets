@@ -587,7 +587,6 @@ Music_08_Channel_7:
             wait
     mainLoopEnd
 Music_08_Channel_8:
-            psgNoteL C0, 15
       psgInst 00h
       setRelease 1
       vibrato 02ch

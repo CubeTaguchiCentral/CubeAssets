@@ -669,7 +669,6 @@ Music_04_Channel_5:
     mainLoopEnd
 Music_04_Channel_6:
     mainLoopStart
-            psgNoteL C0, 18
       psgInst 00h
       setRelease 1
       vibrato 02ah
@@ -739,7 +738,6 @@ Music_04_Channel_6:
     mainLoopEnd
 Music_04_Channel_7:
     mainLoopStart
-            psgNoteL C0, 18
       psgInst 01dh
       setRelease 1
       vibrato 02ah

@@ -897,7 +897,6 @@ Music_12_Channel_5:
 Music_12_Channel_6:
     mainLoopStart
     repeatStart
-            psgNoteL C0, 15
       psgInst 0bh
       setRelease 1
       vibrato 02ah
