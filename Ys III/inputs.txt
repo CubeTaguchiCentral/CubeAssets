@@ -1,2 +1,2 @@
 #Game;ROM File;Music Banks;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;
-Ys III;.\Ys III.bin;F8740,F0740;0;F0000,F8000;true;F7474;true;E8000;.\bank0\,.\bank1\
+Ys III;.\Ys III.bin;F8740,F0740;F6000;0;F0000,F8000;true;F7474;true;E8000;.\bank0\,.\bank1\;F721D

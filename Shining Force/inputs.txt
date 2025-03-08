@@ -1,2 +1,2 @@
 #Game;ROM File;Music Banks;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;
-Shining Force;.\Shining Force.bin;178AE0,170000;0;178000;true;1774B4;true;168000;.\bank0\,.\bank1\
+Shining Force;.\Shining Force.bin;178AE0,170000;176000;0;178000;true;1774B4;true;168000;.\bank0\,.\bank1\;17724E

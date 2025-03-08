@@ -1,2 +1,2 @@
 #Game;ROM File;Music Banks;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;
-Darius II;.\Darius II.bin;F9C00;0;F906C;false;F9503;true;E0000,E8000,F0000;.\bank0\
+Darius II;.\Darius II.bin;F9C00;F8000;0;F906C;false;F9503;true;E0000,E8000,F0000;.\bank0\;F8FBF

@@ -1,2 +1,2 @@
 #Game;ROM File;Music Banks;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;
-Zero Wing;.\Zero Wing.bin;C8000;0;C1483;true;C1433;true;C0000;.\bank0\
+Zero Wing;.\Zero Wing.bin;C8000;C0000;0;C1483;true;C1433;true;C0000;.\bank0\;C11ED

@@ -1,2 +1,2 @@
 #Game;ROM File;Music Banks;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;
-Maten no Soumetsu;.\Maten no Soumetsu.bin;F8AE0;0;F8000;true;F7494;true;E0000,E8000;.\bank0\
+Maten no Soumetsu;.\Maten no Soumetsu.bin;F8AE0;F6000;0;F8000;true;F7494;true;E0000,E8000;.\bank0\;F724E

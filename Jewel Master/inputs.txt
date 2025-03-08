@@ -1,2 +1,2 @@
 #Game;ROM File;Music Banks;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;
-Jewel Master;.\Jewel Master.bin;78000;0;77521;true;7732D;true;70000;.\bank0\
+Jewel Master;.\Jewel Master.bin;78000;76100;0;77521;true;7732D;true;70000;.\bank0\;7728B

@@ -1,2 +1,2 @@
 #Game;ROM File;Music Banks;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;
-Galaxy Force II;.\Galaxy Force II.bin;F8000;0;F14BD;true;F1425;true;E0000,E8000,F0000,F8000;.\bank0\
+Galaxy Force II;.\Galaxy Force II.bin;F8000;F0000;0;F14BD;true;F1425;true;E0000,E8000,F0000,F8000;.\bank0\;F11ED

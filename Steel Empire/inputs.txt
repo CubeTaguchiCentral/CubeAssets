@@ -1,2 +1,2 @@
 #Game;ROM File;Music Banks;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;
-Steel Empire;.\Steel Empire.bin;D8000;0;D14FD;true;D1425;true;E0000;.\bank0\
+Steel Empire;.\Steel Empire.bin;D8000;D0000;0;D14FD;true;D1425;true;E0000;.\bank0\;D11E9

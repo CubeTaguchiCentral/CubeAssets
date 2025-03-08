@@ -1,2 +1,2 @@
 #Game;ROM File;Music Banks;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;
-Crusader of Centy;.\Crusader of Centy.bin;1F8000,1F0000;0;1F7000;true;1EF5BB;true;1D8000,1E0000,1E8000;.\bank0\,.\bank1\
+Crusader of Centy;.\Crusader of Centy.bin;1F8000,1F0000;1EE000;0;1F7000;true;1EF5BB;true;1D8000,1E0000,1E8000;.\bank0\,.\bank1\;1EF2FC
