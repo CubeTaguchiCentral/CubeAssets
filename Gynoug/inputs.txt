@@ -1,2 +1,2 @@
-#Game;ROM File;Music Banks;Driver;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;PSG Instruments
-Gynoug;.\Gynoug.bin;70000;77C00;0;78C5D;false;793E2;true;78000;.\bank0\;78BB0
+#Game;ROM File;Music Banks;Driver;Pitch Effects;YM Levels;PSG Instruments;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks
+Gynoug;.\Gynoug.bin;70000;77C00;F49;F31;105D;0;78C5D;false;793E2;true;78000

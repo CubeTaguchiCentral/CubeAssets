@@ -1,2 +1,2 @@
-#Game;ROM File;Music Banks;Driver;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;PSG Instruments
-Shining Force II;.\Shining Force II.bin;1F8000,1F0000;1EC000;0;1EB000;true;1ED535;true;1E0000,1E8000;.\bank0\,.\bank1\;1ED2B2
+#Game;ROM File;Music Banks;Driver;Pitch Effects;YM Levels;PSG Instruments;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks
+Shining Force II;Shining Force II.bin;1F8000,1F0000;1EC000;124B;1233;12B2;0;1EB000;true;1ED535;true;1E0000,1E8000

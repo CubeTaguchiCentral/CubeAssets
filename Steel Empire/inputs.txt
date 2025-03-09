@@ -1,2 +1,2 @@
-#Game;ROM File;Music Banks;Driver;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;PSG Instruments
-Steel Empire;.\Steel Empire.bin;D8000;D0000;0;D14FD;true;D1425;true;E0000;.\bank0\;D11E9
+#Game;ROM File;Music Banks;Driver;Pitch Effects;YM Levels;PSG Instruments;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks
+Steel Empire;.\Steel Empire.bin;D8000;D0000;1182;116A;11E9;0;D14FD;true;D1425;true;E0000

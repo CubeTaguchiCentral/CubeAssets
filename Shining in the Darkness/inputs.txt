@@ -1,2 +1,2 @@
-#Game;ROM File;Music Banks;Driver;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;PSG Instruments
-Shining in the Darkness;.\Shining in the Darkness.bin;F8900;F22CC;0;F3755;true;F36ED;true;F0000;.\bank0\;F348F
+#Game;ROM File;Music Banks;Driver;Pitch Effects;YM Levels;PSG Instruments;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks
+Shining in the Darkness;.\Shining in the Darkness.bin;F8900;F22CC;115C;1144;11C3;0;F3755;true;F36ED;true;F0000

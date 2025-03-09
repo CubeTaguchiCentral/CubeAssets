@@ -1,2 +1,2 @@
-#Game;ROM File;Music Banks;Driver;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;PSG Instruments
-Space Invaders 91;.\Space Invaders 91.bin;34000;37400;1800;38036;false;38A50;false;38000;.\bank0\;37F89
+#Game;ROM File;Music Banks;Driver;Pitch Effects;YM Levels;PSG Instruments;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks
+Space Invaders 91;.\Space Invaders 91.bin;34000;37400;B22;B0A;B89;1800;38036;false;38A50;false;38000

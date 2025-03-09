@@ -1,2 +1,2 @@
-#Game;ROM File;Music Banks;Driver;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;PSG Instruments
-Gley Lancer;.\Gley Lancer.bin;F937C,F2280;F6000;0;F8000;true;F74E4;true;E8000;.\bank0\,.\bank1\;F7297
+#Game;ROM File;Music Banks;Driver;Pitch Effects;YM Levels;PSG Instruments;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks
+Gley Lancer;.\Gley Lancer.bin;F937C,F2280;F6000;1230;1218;1297;0;F8000;true;F74E4;true;E8000

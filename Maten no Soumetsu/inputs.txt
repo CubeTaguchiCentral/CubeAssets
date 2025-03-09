@@ -1,2 +1,2 @@
-#Game;ROM File;Music Banks;Driver;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;PSG Instruments
-Maten no Soumetsu;.\Maten no Soumetsu.bin;F8AE0;F6000;0;F8000;true;F7494;true;E0000,E8000;.\bank0\;F724E
+#Game;ROM File;Music Banks;Driver;Pitch Effects;YM Levels;PSG Instruments;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks
+Maten no Soumetsu;.\Maten no Soumetsu.bin;F8AE0;F6000;11E7;11CF;124E;0;F8000;true;F7494;true;E0000,E8000
