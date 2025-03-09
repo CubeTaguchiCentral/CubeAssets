@@ -15,7 +15,7 @@ Langrisser;.\Langrisser\Langrisser.bin;78C00;7E400;F3F;F27;FA6;0;7F453;false;7FF
 Langrisser II;.\Langrisser II\Langrisser II.bin;1F8000,1F0000,1E8000;1EC000;1295;127D;12FA;0;1EE000;true;1ED5BE;true;1C0000,1C8000,1D0000,1D8000,1E0000
 Lord Monarch;.\Lord Monarch\Lord Monarch.bin;1F8000,1F0000;1EE000;1295;127D;12FC;0;1ED000;true;1EF5BE;true;1C0000,1C8000,1D0000,1D8000,1E0000
 Maten no Soumetsu;.\Maten no Soumetsu\Maten no Soumetsu.bin;F8AE0;F6000;11E7;11CF;124E;0;F8000;true;F7494;true;E0000,E8000
-Ranger-X;.\Ranger-X\Ranger-X.bin;F8AE0,F2000;F6000;11F8;11E0;125F;0;F8000;true;F74A4;true;E8000,F0000
+Ranger-X;.\Ranger-X\Ranger-X.bin;F8AE0,F2000;F6000;11F8;11E0;125F;0;F8000;true;F74A4;true;E0000,E8000
 Shining Force;.\Shining Force\Shining Force.bin;178AE0,170000;176000;11E7;11CF;124E;0;178000;true;1774B4;true;168000
 Shining Force II;.\Shining Force II\Shining Force II.bin;1F8000,1F0000;1EC000;124B;1233;12B2;0;1EB000;true;1ED535;true;1E0000,1E8000
 Shining in the Darkness;.\Shining in the Darkness\Shining in the Darkness.bin;F8900;F22CC;115C;1144;11C3;0;F3755;true;F36ED;true;F0000

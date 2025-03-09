@@ -1,17 +1,20 @@
 
 
-Cube to Furnace conversion status 
+Cube to Furnace conversion status : now working well for all games
+TODO : 
+- Extract pitch effects (vibratos, slides, ...) for per-game conversion
+- Fine-tune tempo conversion (a few games a slightly slower than expected)
 
 | Release    | Game                            | Notes                              |
 | ---------- | ------------------------------- | ---------------------------------- |
 | 07/09/1990 | Space Invaders 91               |                                    |
-| 16/11/1990 | Granada                         | Wrong samples                      |
-| 20/12/1990 | Darius II                       | Wrong samples                      |
-| 25/01/1991 | Gynoug                          | Wrong samples                      |
+| 16/11/1990 | Granada                         |                                    |
+| 20/12/1990 | Darius II                       |                                    |
+| 25/01/1991 | Gynoug                          |                                    |
 | 29/03/1991 | Shining in the Darkness         |                                    |
 | 26/04/1991 | Langrisser                      |                                    |
 | 31/05/1991 | Zero Wing                       |                                    |
-| 02/08/1991 | Dino Land                       | Wrong samples                      |
+| 02/08/1991 | Dino Land                       |                                    |
 | 30/08/1991 | Jewel Master                    |                                    |
 | 13/09/1991 | Galaxy Force II                 |                                    |
 | 01/11/1991 | Ys III - Wanderers From Ys      |                                    |
@@ -21,7 +24,7 @@ Cube to Furnace conversion status
 | 17/07/1992 | Gley Lancer                     |                                    |
 | 30/10/1992 | Landstalker                     |                                    |
 | 28/05/1993 | Snow Bros.                      |                                    |
-| 28/05/1993 | Ranger-X (Ex-Ranza)             | Wrong samples                      |
+| 28/05/1993 | Ranger-X (Ex-Ranza)             |                                    |
 | 30/07/1993 | Kishi Densetsu                  |                                    |
 | 01/10/1993 | Shining Force II                | Best results as initially intended |
 | 01/12/1993 | Dr Robotnik's Mean Bean Machine |                                    |
