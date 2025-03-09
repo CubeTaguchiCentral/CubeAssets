@@ -1,2 +1,2 @@
-#Game;ROM File;Music Banks;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;
+#Game;ROM File;Music Banks;Driver;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;PSG Instruments
 Granada;.\Granada.bin;71400;6F700;0;7074C;false;70C47;true;78000;.\bank0\;0;7069F

@@ -1,2 +1,2 @@
-#Game;ROM File;Music Banks;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;
+#Game;ROM File;Music Banks;Driver;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;PSG Instruments
 Dial Q o Mawase!;.\Dial Q o Mawase!.bin;58000;56000;0;574AD;true;57425;true;40000,48000,50000;.\bank0\;571E9

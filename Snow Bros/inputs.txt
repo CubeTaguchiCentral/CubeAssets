@@ -1,2 +1,2 @@
-#Game;ROM File;Music Banks;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;
+#Game;ROM File;Music Banks;Driver;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;PSG Instruments
 Snow Bros;.\Snow Bros.bin;F937C,F2280;F6000;0;F8000;true;F74E4;true;E8000;.\bank0\,.\bank1\;F7297

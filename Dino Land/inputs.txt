@@ -1,2 +1,2 @@
-#Game;ROM File;Music Banks;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;
+#Game;ROM File;Music Banks;Driver;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;PSG Instruments
 Dino Land;.\Dino Land.bin;78600;7E400;0;7F8BC;true;7F7EC;true;68000,70000,78000;.\bank0\;7F103

@@ -1,2 +1,2 @@
-#Game;ROM File;Music Banks;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;
+#Game;ROM File;Music Banks;Driver;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;PSG Instruments
 Ranger-X;.\Ranger-X.bin;F8AE0,F2000;F6000;0;F8000;true;F74A4;true;E8000,F0000;.\bank0\,.\bank1\;F725F

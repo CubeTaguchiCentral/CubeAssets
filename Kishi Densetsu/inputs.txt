@@ -1,2 +1,2 @@
-#Game;ROM File;Music Banks;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;
+#Game;ROM File;Music Banks;Driver;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;PSG Instruments
 Kishi Densetsu;.\Kishi Densetsu.bin;F8AE0;F6000;0;F8000;true;F7494;true;E0000,E8000,F0000;.\bank0\;F724E
