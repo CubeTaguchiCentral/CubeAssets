@@ -1,4 +1,4 @@
-#Game;ROM File;Music Banks;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;
+#Game;ROM File;Music Banks;Driver;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;Target folders;PSG Instruments
 Crusader of Centy;.\Crusader of Centy\Crusader of Centy.bin;1F8000,1F0000;1EE000;0;1F7000;true;1EF5BB;true;1D8000,1E0000,1E8000;.\bank0\,.\bank1\;1EF2FC
 Darius II;.\Darius II\Darius II.bin;F9C00;F8000;0;F906C;false;F9503;true;E0000,E8000,F0000;.\bank0\;F8FBF
 Dial Q o Mawase!;.\Dial Q o Mawase!\Dial Q o Mawase!.bin;58000;56000;0;574AD;true;57425;true;40000,48000,50000;.\bank0\;571E9
@@ -7,7 +7,7 @@ Dr Robotnik's Mean Bean Machine;.\Dr Robotnik's Mean Bean Machine\Dr Robotnik's 
 Galaxy Force II;.\Galaxy Force II\Galaxy Force II.bin;F8000;F0000;0;F14BD;true;F1425;true;E0000,E8000,F0000,F8000;.\bank0\;F11ED
 Gley Lancer;.\Gley Lancer\Gley Lancer.bin;F937C,F2280;F6000;0;F8000;true;F74E4;true;E8000;.\bank0\,.\bank1\;F7297
 Granada;.\Granada\Granada.bin;71400;6F700;0;7074C;false;70C47;true;78000;.\bank0\;0;7069F
-Gynoug;.\Gynoug\Gynoug.bin;70000;77C00;0;78B41;false;793E2;true;78000;.\bank0\;78BB0
+Gynoug;.\Gynoug\Gynoug.bin;70000;77C00;0;78C5D;false;793E2;true;78000;.\bank0\;78BB0
 Jewel Master;.\Jewel Master\Jewel Master.bin;78000;76100;0;77521;true;7732D;true;70000;.\bank0\;7728B
 Kishi Densetsu;.\Kishi Densetsu\Kishi Densetsu.bin;F8AE0;F6000;0;F8000;true;F7494;true;E0000,E8000,F0000;.\bank0\;F724E
 Landstalker;.\Landstalker\Landstalker.bin;1F8910,1F0000;1F6000;0;1F8000;true;1F74D4;true;1E0000,1E8000;.\bank0\,.\bank1\;1F724A
