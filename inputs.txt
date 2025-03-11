@@ -15,7 +15,7 @@ Shining Force;.\Shining Force\Shining Force.bin;178AE0,170000;176000;11E7;11CF;1
 Dial Q o Mawase!;.\Dial Q o Mawase!\Dial Q o Mawase!.bin;58000;56000;1182;116A;11E9;0;574AD;true;57425;true;40000,48000,50000
 Gley Lancer;.\Gley Lancer\Gley Lancer.bin;F937C,F2280;F6000;1230;1218;1297;0;F8000;true;F74E4;true;E8000
 Landstalker;.\Landstalker\Landstalker.bin;1F8910,1F0000;1F6000;11E3;11CB;124A;0;1F8000;true;1F74D4;true;1E0000,1E8000
-Snow Bros;.\Snow Bros\Snow Bros.bin;;F937C,F2280;F6000;1230;1218;1297;0;F8000;true;F74E4;true;E8000
+Snow Bros;.\Snow Bros\Snow Bros.bin;F937C,F2280;F6000;1230;1218;1297;0;F8000;true;F74E4;true;E8000
 Ranger-X;.\Ranger-X\Ranger-X.bin;F8AE0,F2000;F6000;11F8;11E0;125F;0;F8000;true;F74A4;true;E0000,E8000
 Kishi Densetsu;.\Kishi Densetsu\Kishi Densetsu.bin;F8AE0;F6000;11E7;11CF;124E;0;F8000;true;F7494;true;E0000,E8000,F0000
 Shining Force II;.\Shining Force II\Shining Force II.bin;1F8000,1F0000;1EC000;124B;1233;12B2;0;1EB000;true;1ED535;true;1E0000,1E8000
