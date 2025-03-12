@@ -1,2 +1,2 @@
-#Game;ROM File;Music Banks;Driver;Pitch Effects;YM Levels;PSG Instruments;In-RAM pre-load;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks
-Dino Land;.\Dino Land.bin;78600;7E400;113C;1124;11A3;0;7F8BC;true;7F7EC;true;68000,70000,78000
+#Game;ROM File;Music Banks;Driver;Pitch Effects;YM Levels;PSG Instruments;In-RAM pre-load;Timer Increment;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks
+Dino Land;.\Dino Land.bin;78600;7E400;113C;1124;11A3;0;3;7F8BC;true;7F7EC;true;68000,70000,78000
