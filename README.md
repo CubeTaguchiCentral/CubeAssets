@@ -3,7 +3,6 @@
 Cube to Furnace conversion status : now working well for all games  
 TODO : 
 - Investigate last desyncs
-- Fine-tune tempo conversion (a few games a slightly slower than expected)
 - Document conversion specs
 - Extract SFX
 
