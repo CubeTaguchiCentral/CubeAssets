@@ -1,5 +1,11 @@
 
 
+Cube to Furnace Conversion
+
+Known Issues
+- https://github.com/CubeTaguchiCentral/CubeAssets/issues/1 : Ramp up/down vibrato is limited to a single semitone in Furnace playback
+- https://github.com/CubeTaguchiCentral/CubeAssets/issues/2 : Furnace Portamento expects previous note still playing when Portamento starts
+
 Cube to Furnace conversion status : now working well for all games  
 TODO : 
 - Document conversion specs
@@ -26,7 +32,7 @@ TODO :
 | 28/05/1993 | Snow Bros.                      |                                                                                                                 |
 | 28/05/1993 | Ranger-X (Ex-Ranza)             |                                                                                                                 |
 | 30/07/1993 | Kishi Densetsu                  |                                                                                                                 |
-| 01/10/1993 | Shining Force II                | Best results as initially intended, issue in b0/s10 : "ramp down" vibrato would need more depth than a semitone |
+| 01/10/1993 | Shining Force II                | Best results as initially intended, issue in b0/s10 : "ramp down" vibrato would need more depth than a semitone (see https://github.com/CubeTaguchiCentral/CubeAssets/issues/1) |
 | 01/12/1993 | Dr Robotnik's Mean Bean Machine |                                                                                                                 |
 | 29/12/1993 | Maten no Soumetsu               |                                                                                                                 |
 | 17/06/1994 | Crusader of Centy               |                                                                                                                 |
