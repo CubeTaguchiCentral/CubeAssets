@@ -29,7 +29,7 @@ https://github.com/CubeTaguchiCentral/CubeTools/blob/master/src/com/sega/md/snd/
 | ymTimerB                     | Set new YM2612 Timer B to apply for new tick rate effect Cxxx                                                                                                                                                                        |
 | countedLoopStart/End         | Unrolled before conversion. More details in https://github.com/CubeTaguchiCentral/CubeAssets/issues/3                                                                                                                                |
 | repeatStart/Section1/2/3/End | "                                                                                                                                                                                                                                    |
-| mainLoopStart/End            | Used on channel with longest intro to define loop point with effects 0Bxx + 0Dxx. F                                                                                                                                                  |
+| mainLoopStart/End            | Used on channel with longest intro to define loop point with effects 0Bxx + 0Dxx.                                                                                                                                                    |
 
 
 
