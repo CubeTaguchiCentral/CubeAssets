@@ -1,14 +1,15 @@
 
 
-Cube to Furnace Conversion
+<h3>Cube to Furnace Conversion</h3>
 
-Known Issues
+<h4>Known Issues</h4>
+
 - https://github.com/CubeTaguchiCentral/CubeAssets/issues/1 : Ramp up/down vibrato is limited to a single semitone in Furnace playback
 - https://github.com/CubeTaguchiCentral/CubeAssets/issues/2 (partially worked around) : Furnace Portamento expects previous note still playing when Portamento starts
 - https://github.com/CubeTaguchiCentral/CubeAssets/issues/3 (partially worked around) : Furnace's tracker design expects all channels to change patterns simultaneously
 - https://github.com/CubeTaguchiCentral/CubeAssets/issues/4 (partially worked around) : Furnace Portamento doesn't take note shifting effect into account
 
-Conversion details
+<h4>Conversion details</h4>
 
 Cube commands detailed here :  
 https://github.com/CubeTaguchiCentral/CubeDocs/blob/main/txt/music.txt
@@ -36,9 +37,11 @@ https://github.com/CubeTaguchiCentral/CubeTools/blob/master/src/com/sega/md/snd/
 
 
 
-TODO : 
-- Finish ASM export with macros.asm, entries.asm and embedded AS assembler for basic builds
+<h4>TODO :</h4>
+
+- Finish ASM export with macros.asm, entries.asm and embedded AS assembler for basic builds  
 - Extract SFX
+
 
 | Release    | Game                            | Notes                                                                                                                                                                           |
 | ---------- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
