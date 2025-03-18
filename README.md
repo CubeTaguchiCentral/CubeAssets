@@ -10,6 +10,9 @@ Known Issues
 
 Conversion details
 
+Cube commands detailed here :  
+https://github.com/CubeTaguchiCentral/CubeDocs/blob/main/txt/music.txt
+
 Pattern conversion mostly implemented there :  
 https://github.com/CubeTaguchiCentral/CubeTools/blob/master/src/com/sega/md/snd/convert/cubetofurnace/C2FPatternConverter.java#L146
 
