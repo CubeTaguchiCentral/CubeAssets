@@ -4,8 +4,8 @@ Cube to Furnace Conversion
 
 Known Issues
 - https://github.com/CubeTaguchiCentral/CubeAssets/issues/1 : Ramp up/down vibrato is limited to a single semitone in Furnace playback
-- https://github.com/CubeTaguchiCentral/CubeAssets/issues/2 (worked around) : Furnace Portamento expects previous note still playing when Portamento starts
-- https://github.com/CubeTaguchiCentral/CubeAssets/issues/3 (worked around) : Furnace's tracker design expects all channels to change patterns simultaneously
+- https://github.com/CubeTaguchiCentral/CubeAssets/issues/2 (partially worked around) : Furnace Portamento expects previous note still playing when Portamento starts
+- https://github.com/CubeTaguchiCentral/CubeAssets/issues/3 (partially worked around) : Furnace's tracker design expects all channels to change patterns simultaneously
 
 Cube to Furnace conversion status : now working well for all games  
 TODO : 
