@@ -11,7 +11,7 @@ Known Issues
 Conversion details
 
 Pattern conversion mostly implemented there :  
-https://github.com/CubeTaguchiCentral/CubeTools/blob/02e811ebdda275ead9dc3890443c48d4fad93eab/src/com/sega/md/snd/convert/cubetofurnace/C2FPatternConverter.java#L146
+https://github.com/CubeTaguchiCentral/CubeTools/blob/master/src/com/sega/md/snd/convert/cubetofurnace/C2FPatternConverter.java#L146
 
 | Cube command                 | Furnace conversion                                                                                                                                                                                                                   |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
