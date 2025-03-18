@@ -29,6 +29,6 @@ TODO :
 | 01/10/1993 | Shining Force II                | Best results as initially intended, issue in b0/s10 : "ramp down" vibrato would need more depth than a semitone |
 | 01/12/1993 | Dr Robotnik's Mean Bean Machine |                                                                                                                 |
 | 29/12/1993 | Maten no Soumetsu               |                                                                                                                 |
-| 17/06/1994 | Crusader of Centy               | Desync in b1/s8 (ending) to analyze                                                                             |
+| 17/06/1994 | Crusader of Centy               |                                                                                                                 |
 | 24/06/1994 | Lord Monarch                    |                                                                                                                 |
 | 26/08/1994 | Langrisser II                   |                                                                                                                 |
