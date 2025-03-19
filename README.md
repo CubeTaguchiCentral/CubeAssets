@@ -39,7 +39,6 @@ https://github.com/CubeTaguchiCentral/CubeTools/blob/master/src/com/sega/md/snd/
 
 <h4>TODO :</h4>
 
-- Finish ASM export with macros.asm, entries.asm and embedded AS assembler for basic builds  
 - Extract SFX
 
 
