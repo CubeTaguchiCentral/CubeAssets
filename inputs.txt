@@ -1,4 +1,4 @@
-#Game;ROM File;Music Banks;Driver;Pitch Effects;YM Levels;PSG Instruments;In-RAM pre-load;Timer Increment;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks
+#Game;ROM File;Music Banks;Driver;Pitch Effects;YM Levels;PSG Instruments;In-RAM pre-load;Timer Increment;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;SFX Offset;SFX count
 Space Invaders 91;.\Space Invaders 91\Space Invaders 91.bin;34000;37400;B22;B0A;B89;1800;2;38036;false;38A50;false;38000
 Granada;.\Granada\Granada.bin;71400;6F700;F38;F20;F9F;0;3;7074C;false;70C47;true;78000
 Darius II;.\Darius II\Darius II.bin;F9C00;F8000;F58;F40;FBF;0;3;F906C;false;F9503;true;E0000,E8000,F0000
@@ -18,9 +18,9 @@ Landstalker;.\Landstalker\Landstalker.bin;1F8910,1F0000;1F6000;11E3;11CB;124A;0;
 Snow Bros;.\Snow Bros\Snow Bros.bin;F937C,F2280;F6000;1230;1218;1297;0;3;F8000;true;F74E4;true;E8000
 Ranger-X;.\Ranger-X\Ranger-X.bin;F8AE0,F2000;F6000;11F8;11E0;125F;0;3;F8000;true;F74A4;true;E0000,E8000
 Kishi Densetsu;.\Kishi Densetsu\Kishi Densetsu.bin;F8AE0;F6000;11E7;11CF;124E;0;3;F8000;true;F7494;true;E0000,E8000,F0000
-Shining Force II;.\Shining Force II\Shining Force II.bin;1F8000,1F0000;1EC000;124B;1233;12B2;0;0;1EB000;true;1ED535;true;1E0000,1E8000
+Shining Force II;.\Shining Force II\Shining Force II.bin;1F8000,1F0000;1EC000;124B;1233;12B2;0;0;1EB000;true;1ED535;true;1E0000,1E8000;1ED5BD;56
 Dr Robotnik's Mean Bean Machine;.\Dr Robotnik's Mean Bean Machine\Dr Robotnik's Mean Bean Machine.bin;F937C;F6000;1248;1230;1294;0;3;F8000;true;F74E4;true;B0000,E8000
 Maten no Soumetsu;.\Maten no Soumetsu\Maten no Soumetsu.bin;F8AE0;F6000;11E7;11CF;124E;0;3;F8000;true;F7494;true;E0000,E8000
-Crusader of Centy;.\Crusader of Centy\Crusader of Centy.bin;1F8000,1F0000;1EE000;1295;127D;12FC;0;0;1F7000;true;1EF5BB;true;1D8000,1E0000,1E8000
+Crusader of Centy;.\Crusader of Centy\Crusader of Centy.bin;1F8000,1F0000;1EE000;1295;127D;12FC;0;0;1F7000;true;1EF5BB;true;1D8000,1E0000,1E8000;1EC000;117
 Lord Monarch;.\Lord Monarch\Lord Monarch.bin;1F8000,1F0000;1EE000;1295;127D;12FC;0;0;1ED000;true;1EF5BE;true;1C0000,1C8000,1D0000,1D8000,1E0000
 Langrisser II;.\Langrisser II\Langrisser II.bin;1F8000,1F0000,1E8000;1EC000;1295;127D;12FA;0;0;1EE000;true;1ED5BE;true;1C0000,1C8000,1D0000,1D8000,1E0000
