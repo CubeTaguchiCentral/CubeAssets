@@ -1,2 +1,2 @@
-#Game;ROM File;Music Banks;Driver;Pitch Effects;YM Levels;PSG Instruments;In-RAM pre-load;Timer Increment;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks
-Shining Force;.\Shining Force.bin;178AE0,170000;176000;11E7;11CF;124E;0;3;178000;true;1774B4;true;168000
+#Game;ROM File;Music Banks;Driver;Pitch Effects;YM Levels;PSG Instruments;In-RAM pre-load;Timer Increment;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks;SFX Offset;SFX count
+Shining Force;.\Shining Force.bin;178AE0,170000;176000;11E7;11CF;124E;0;3;178000;true;1774B4;true;168000;1774F4;46
