@@ -1,2 +1,2 @@
-#Game;ROM File;Music Banks;Driver;Pitch Effects;YM Levels;PSG Instruments;In-RAM pre-load;Timer Increment;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks
-Darius II;.\Darius II.bin;F9C00;F8000;F58;F40;FBF;0;3;F906C;false;F9503;true;E0000,E8000,F0000
+#Game;ROM File;Music Banks;Driver;Pitch Effects;YM Levels;PSG Instruments;In-RAM pre-load;Timer Increment;YM Instruments;SSG-EG;Sample Table;Sample Count;Multi-bank;Sample Banks
+Darius II;.\Darius II.bin;F9C00;F8000;F58;F40;FBF;0;3;F906C;false;F9503;15;true;E0000,E8000,F0000;F975A;35
