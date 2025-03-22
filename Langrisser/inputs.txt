@@ -1,2 +1,2 @@
-#Game;ROM File;Music Banks;Driver;Pitch Effects;YM Levels;PSG Instruments;In-RAM pre-load;Timer Increment;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks
-Langrisser;.\Langrisser.bin;78C00;7E400;F3F;F27;FA6;0;3;7F453;false;7FF7D;true;70000,78000
+#Game;ROM File;Music Banks;Driver;Pitch Effects;YM Levels;PSG Instruments;In-RAM pre-load;Timer Increment;YM Instruments;SSG-EG;Sample Table;Sample Count;Multi-bank;Sample Banks
+Langrisser;.\Langrisser.bin;78C00;7E400;F3F;F27;FA6;0;3;7F453;false;7FF7D;13;true;70000,78000;7FC74;27
