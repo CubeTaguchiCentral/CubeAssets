@@ -1,6 +1,6 @@
 #Game;ROM File;Music Banks;Driver;Pitch Effects;YM Levels;PSG Instruments;In-RAM pre-load;Timer Increment;YM Instruments;SSG-EG;Sample Table;Sample Count;Multi-bank;Sample Banks;SFX Offset;SFX count
 Space Invaders 91;.\Space Invaders 91\Space Invaders 91.bin;34000;37400;B22;B0A;B89;1800;2;38036;false;38A50;9;false;38000;38593;28
-Granada;.\Granada\Granada.bin;71400;6F700;F38;F20;F9F;0;3;7074C;false;70C47;15;true;78000
+Granada;.\Granada\Granada.bin;71400;6F700;F38;F20;F9F;0;3;7074C;false;70C47;15;true;78000;70E6E!;44
 Darius II;.\Darius II\Darius II.bin;F9C00;F8000;F58;F40;FBF;0;3;F906C;false;F9503;15;true;E0000,E8000,F0000;F975A;35
 Gynoug;.\Gynoug\Gynoug.bin;70000;77C00;F49;F31;105D;0;3;78C5D;false;793E2;18;true;78000;79621;31
 Shining in the Darkness;.\Shining in the Darkness\Shining in the Darkness.bin;F8900;F22CC;115C;1144;11C3;0;3;F3755;true;F36ED;13;true;F0000;F8000;55

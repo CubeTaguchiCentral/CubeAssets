@@ -1,2 +1,2 @@
 #Game;ROM File;Music Banks;Driver;Pitch Effects;YM Levels;PSG Instruments;In-RAM pre-load;Timer Increment;YM Instruments;SSG-EG;Sample Table;Sample Count;Multi-bank;Sample Banks
-Granada;.\Granada.bin;71400;6F700;F38;F20;F9F;0;3;7074C;false;70C47;15;true;78000
+Granada;.\Granada.bin;71400;6F700;F38;F20;F9F;0;3;7074C;false;70C47;15;true;78000;70E6E!;44
