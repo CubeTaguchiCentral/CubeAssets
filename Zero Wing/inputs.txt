@@ -1,2 +1,2 @@
-#Game;ROM File;Music Banks;Driver;Pitch Effects;YM Levels;PSG Instruments;In-RAM pre-load;Timer Increment;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks
-Zero Wing;.\Zero Wing.bin;C8000;C0000;1186;116E;11ED;0;3;C1483;true;C1433;true;C0000
+#Game;ROM File;Music Banks;Driver;Pitch Effects;YM Levels;PSG Instruments;In-RAM pre-load;Timer Increment;YM Instruments;SSG-EG;Sample Table;Sample Count;Multi-bank;Sample Banks
+Zero Wing;.\Zero Wing.bin;C8000;C0000;1186;116E;11ED;0;3;C1483;true;C1433;10;true;C0000;C8040;29
