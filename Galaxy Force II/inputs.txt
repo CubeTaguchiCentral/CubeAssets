@@ -1,2 +1,2 @@
-#Game;ROM File;Music Banks;Driver;Pitch Effects;YM Levels;PSG Instruments;In-RAM pre-load;Timer Increment;YM Instruments;SSG-EG;Sample Table;Multi-bank;Sample Banks
-Galaxy Force II;.\Galaxy Force II.bin;F8000;F0000;1186;116E;11ED;0;3;F14BD;true;F1425;true;E0000,E8000,F0000,F8000
+#Game;ROM File;Music Banks;Driver;Pitch Effects;YM Levels;PSG Instruments;In-RAM pre-load;Timer Increment;YM Instruments;SSG-EG;Sample Table;Sample Count;Multi-bank;Sample Banks
+Galaxy Force II;.\Galaxy Force II.bin;F8000;F0000;1186;116E;11ED;0;3;F14BD;true;F1425;19;true;E0000,E8000,F0000,F8000;F8020;13
