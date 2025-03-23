@@ -1,2 +1,2 @@
 #Game;ROM File;Music Banks;Driver;Pitch Effects;YM Levels;PSG Instruments;In-RAM pre-load;Timer Increment;YM Instruments;SSG-EG;Sample Table;Sample Count;Multi-bank;Sample Banks
-Ys III;.\Ys III.bin;F8740,F0740;F6000;11B6;119E;121D;0;3;F0000,F8000;true;F7474;13;true;E8000;F74DC;16
+Ys III;.\Ys III.bin;F8740,F0740;F6000;11B6;119E;121D;0;3;F0000,F8000;true;F7474;13;true;E8000;F74DC;14
