@@ -36,31 +36,44 @@ https://github.com/CubeTaguchiCentral/CubeTools/blob/master/src/com/sega/md/snd/
 | mainLoopStart/End            | Used on channel with longest intro to define loop point with effects 0Bxx + 0Dxx.                                                                                                                                                    |
 
 
+<h3>Furnace to Cube Conversion</h3>
 
-| Release    | Game                            | Notes                                                                                                                                                                           |
-| ---------- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 07/09/1990 | Space Invaders 91               |                                                                                                                                                                                 |
-| 16/11/1990 | Granada                         |                                                                                                                                                                                 |
-| 20/12/1990 | Darius II                       |                                                                                                                                                                                 |
-| 25/01/1991 | Gynoug                          |                                                                                                                                                                                 |
-| 29/03/1991 | Shining in the Darkness         |                                                                                                                                                                                 |
-| 26/04/1991 | Langrisser                      |                                                                                                                                                                                 |
-| 31/05/1991 | Zero Wing                       |                                                                                                                                                                                 |
-| 02/08/1991 | Dino Land                       |                                                                                                                                                                                 |
-| 30/08/1991 | Jewel Master                    |                                                                                                                                                                                 |
-| 13/09/1991 | Galaxy Force II                 |                                                                                                                                                                                 |
-| 01/11/1991 | Ys III - Wanderers From Ys      |                                                                                                                                                                                 |
-| 13/03/1992 | Steel Empire                    |                                                                                                                                                                                 |
-| 20/03/1992 | Shining Force                   |                                                                                                                                                                                 |
-| 30/06/1992 | Dial Q o Mawase!                |                                                                                                                                                                                 |
-| 17/07/1992 | Gley Lancer                     |                                                                                                                                                                                 |
-| 30/10/1992 | Landstalker                     |                                                                                                                                                                                 |
-| 28/05/1993 | Snow Bros.                      |                                                                                                                                                                                 |
-| 28/05/1993 | Ranger-X (Ex-Ranza)             |                                                                                                                                                                                 |
-| 30/07/1993 | Kishi Densetsu                  |                                                                                                                                                                                 |
-| 01/10/1993 | Shining Force II                | Best results as initially intended, issue in b0/s10 : "ramp down" vibrato would need more depth than a semitone (see https://github.com/CubeTaguchiCentral/CubeAssets/issues/1) |
-| 01/12/1993 | Dr Robotnik's Mean Bean Machine |                                                                                                                                                                                 |
-| 29/12/1993 | Maten no Soumetsu               |                                                                                                                                                                                 |
-| 17/06/1994 | Crusader of Centy               |                                                                                                                                                                                 |
-| 24/06/1994 | Lord Monarch                    |                                                                                                                                                                                 |
-| 26/08/1994 | Langrisser II                   |                                                                                                                                                                                 |
+<h4>Known Issues</h4>
+
+- Due to various by-design differences in the way Cube and Furnace work, conversions between Cube and Furnace cannot produce identical sequences, and while the audio result may be identical, command sequences are different indeed.  
+This means music banks converted back to ASM won't be bit-perfect replicas of original music banks, and they are prone to use more space, despite current optimizations. 
+Further optimizations can be done, but they would only be minor and wouldn't compensate specific situations : original data layout sometimes uses manual optimizations in very specific cases, like songs sharing factorized channel data, or songs stored as an optional intro for another song. 
+Further details available here : https://github.com/CubeTaguchiCentral/CubeAssets/tree/main/00-TOOLS#warnings
+
+- Conversion of pitch effects (vibrato, ramp...) relies on effect indexes from Shining Force II's pitch effect table, while other games may have a different original pitch effect table.  
+A planned solution will be to implement in CubeWiz driver a new song header flag, for the song to use bank-specific data like specific YM/PSG instrument table, specific PCM sample table, specific pitch effect table, etc.
+
+
+<h4>Conversion details</h4>
+
+Supported Furnace effects are the ones used in Cube to Furnace conversion.  
+Furnace effects :  
+https://github.com/tildearrow/furnace/blob/master/doc/3-pattern/effects.md
+
+Pattern conversion mostly implemented there :  
+https://github.com/CubeTaguchiCentral/CubeTools/blob/master/src/com/sega/md/snd/convert/furnacetocube/F2CPatternConverter.java  
+
+| Furnace data/effect                 | Cube conversion |
+| ---------------------------- | ----------------- |
+| Note/Sample | New YM/PSG note or sample, with optional new length |
+| Instrument | "inst", "psgInst" command |
+| Volume | "vol" command |
+| "===" Release | If a note was being played, then set release with computed delay. Otherwise, apply wait command with optional new length. |
+| 0x80xy Panning | stereo command |
+| 0x53xy Detune | shifting command |
+| 0xEAxx Legato | setRelease/sustain commands |
+| 0xE3xx&nbsp;Vibrato&nbsp;Shape<br/>0x04xy Vibrato | vibrato command with matched pitch effect index and computed delay |
+| 0x03xx Portamento | setSlide/noSlide commands |
+| 0xCxxx Tick Rate | ymTimerB command |
+| "OFF" Release<br/>0xFF00 Stop Song | Final note release and channel_end command |
+| 0x0Bxx Pattern Jump<br/>0x0Dxx Next Pattern | mainLoopStart/mainLoopEnd with computed loop location |
+
+Counted loops and volta brackets (repeated sections with distinct endings) are then re-applied by finding candidates and applying them in priority of best immediate gain.
+
+/!\ Most effects are expected in specific places to be taken into account properly : along with a note/release, following a note, combined with another effect, etc.  
+Original songs available here in CubeAssets make good examples to follow. 

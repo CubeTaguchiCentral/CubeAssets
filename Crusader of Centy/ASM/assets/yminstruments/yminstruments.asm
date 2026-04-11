@@ -1,18 +1,18 @@
 
-; 64 used YM instrument indexes : [1, 3, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 19, 20, 22, 26, 27, 28, 29, 30, 31, 32, 33, 37, 38, 39, 42, 44, 45, 46, 53, 55, 56, 57, 58, 59, 60, 62, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
-; 32 unused YM instrument indexes : [0, 2, 4, 5, 10, 11, 18, 21, 23, 24, 25, 34, 35, 36, 40, 41, 43, 47, 48, 49, 50, 51, 52, 54, 61, 63, 90, 91, 92, 93, 94, 95]
+; 81 used YM instrument indexes : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 49, 51, 52, 53, 55, 56, 57, 58, 59, 60, 61, 62, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+; 15 unused YM instrument indexes : [0, 11, 23, 24, 35, 48, 50, 54, 63, 90, 91, 92, 93, 94, 95]
 
     incbin "yminstrument000.bin" ; unused
     incbin "yminstrument001.bin"
-    incbin "yminstrument002.bin" ; unused
+    incbin "yminstrument002.bin"
     incbin "yminstrument003.bin"
-    incbin "yminstrument004.bin" ; unused
-    incbin "yminstrument005.bin" ; unused
+    incbin "yminstrument004.bin"
+    incbin "yminstrument005.bin"
     incbin "yminstrument006.bin"
     incbin "yminstrument007.bin"
     incbin "yminstrument008.bin"
     incbin "yminstrument009.bin"
-    incbin "yminstrument010.bin" ; unused
+    incbin "yminstrument010.bin"
     incbin "yminstrument011.bin" ; unused
     incbin "yminstrument012.bin"
     incbin "yminstrument013.bin"
@@ -20,14 +20,14 @@
     incbin "yminstrument015.bin"
     incbin "yminstrument016.bin"
     incbin "yminstrument017.bin"
-    incbin "yminstrument018.bin" ; unused
+    incbin "yminstrument018.bin"
     incbin "yminstrument019.bin"
     incbin "yminstrument020.bin"
-    incbin "yminstrument021.bin" ; unused
+    incbin "yminstrument021.bin"
     incbin "yminstrument022.bin"
     incbin "yminstrument023.bin" ; unused
     incbin "yminstrument024.bin" ; unused
-    incbin "yminstrument025.bin" ; unused
+    incbin "yminstrument025.bin"
     incbin "yminstrument026.bin"
     incbin "yminstrument027.bin"
     incbin "yminstrument028.bin"
@@ -36,25 +36,25 @@
     incbin "yminstrument031.bin"
     incbin "yminstrument032.bin"
     incbin "yminstrument033.bin"
-    incbin "yminstrument034.bin" ; unused
+    incbin "yminstrument034.bin"
     incbin "yminstrument035.bin" ; unused
-    incbin "yminstrument036.bin" ; unused
+    incbin "yminstrument036.bin"
     incbin "yminstrument037.bin"
     incbin "yminstrument038.bin"
     incbin "yminstrument039.bin"
-    incbin "yminstrument040.bin" ; unused
-    incbin "yminstrument041.bin" ; unused
+    incbin "yminstrument040.bin"
+    incbin "yminstrument041.bin"
     incbin "yminstrument042.bin"
-    incbin "yminstrument043.bin" ; unused
+    incbin "yminstrument043.bin"
     incbin "yminstrument044.bin"
     incbin "yminstrument045.bin"
     incbin "yminstrument046.bin"
-    incbin "yminstrument047.bin" ; unused
+    incbin "yminstrument047.bin"
     incbin "yminstrument048.bin" ; unused
-    incbin "yminstrument049.bin" ; unused
+    incbin "yminstrument049.bin"
     incbin "yminstrument050.bin" ; unused
-    incbin "yminstrument051.bin" ; unused
-    incbin "yminstrument052.bin" ; unused
+    incbin "yminstrument051.bin"
+    incbin "yminstrument052.bin"
     incbin "yminstrument053.bin"
     incbin "yminstrument054.bin" ; unused
     incbin "yminstrument055.bin"
@@ -63,7 +63,7 @@
     incbin "yminstrument058.bin"
     incbin "yminstrument059.bin"
     incbin "yminstrument060.bin"
-    incbin "yminstrument061.bin" ; unused
+    incbin "yminstrument061.bin"
     incbin "yminstrument062.bin"
     incbin "yminstrument063.bin" ; unused
     incbin "yminstrument064.bin"

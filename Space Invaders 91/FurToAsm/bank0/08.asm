@@ -1,0 +1,527 @@
+Music_08:
+    db 0
+    db 0
+    db 0
+    db 195
+    dw Music_08_Channel_0
+    dw Music_08_Channel_1
+    dw Music_08_Channel_2
+    dw Music_08_Channel_3
+    dw Music_08_Channel_4
+    dw Music_08_Channel_5
+    dw Music_08_Channel_6
+    dw Music_08_Channel_7
+    dw Music_08_Channel_8
+    dw Music_08_Channel_9
+Music_08_Channel_0:
+      stereo 0c0h
+            waitL 96
+      inst 17
+      vol 12
+      vibrato 05ah
+      setRelease 1
+            noteL C3, 12
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note F2
+            note F2
+            note F2
+            note F2
+            note F2
+            note F2
+            note F2
+            note F2
+            note Gs2
+            note Gs2
+            note Gs2
+            note Gs2
+            note Gs2
+            note Gs2
+            noteL As2, 24
+            noteL C3, 12
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note F2
+            note F2
+            note F2
+            note F2
+            note F2
+            note F2
+            note F2
+            note F2
+            note F2
+            note F2
+            note F2
+            note F2
+            note F2
+            note F2
+            note F2
+            note F2
+            note F2
+            note F2
+            note F2
+            note F2
+            note F2
+            note F2
+            note F2
+            note F2
+            note Gs2
+            note Gs2
+            note Gs2
+            note Gs2
+            note Gs2
+            note Gs2
+            noteL As2, 24
+            noteL C3, 12
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            note C3
+            noteL Gs2, 108
+            noteL Gs2, 12
+            note Gs2
+            note Gs2
+            note Gs2
+            note Gs2
+      vol 13
+            noteL Gs2, 8
+            note Gs2
+            note Gs2
+            noteL C2, 48
+    channel_end
+Music_08_Channel_1:
+      stereo 0c0h
+            waitL 96
+      inst 5
+      vol 10
+      setRelease 1
+      vibrato 05ah
+            note C5
+            note C5
+            note C5
+            note As4
+            note A4
+            note As4
+            note A4
+            noteL C5, 72
+            noteL D5, 24
+            noteL E5, 60
+            noteL F5, 12
+            note E5
+            note C5
+            noteL D5, 96
+            noteL C5, 84
+            noteL As4, 6
+            note C5
+            noteL As4, 96
+            note A4
+            noteL As4, 84
+            noteL A4, 6
+            note G4
+            noteL A4, 72
+            noteL F4, 24
+            waitL 12
+            note C5
+            note C5
+            noteL C5, 36
+            noteL D5, 24
+            noteL E5, 96
+            noteL As4, 60
+            noteL C5, 12
+            noteL D5, 24
+            noteL E5, 84
+            noteL C5, 12
+            noteL As4, 36
+            noteL C5, 24
+            noteL D5, 12
+            note E5
+            note F5
+            noteL G5, 176
+            noteL F5, 8
+            note Ds5
+            noteL C5, 48
+    channel_end
+Music_08_Channel_2:
+      stereo 0c0h
+            waitL 96
+      inst 5
+      vol 10
+      setRelease 1
+      vibrato 05ah
+            note E4
+            note F4
+            note E4
+            note D4
+            note C4
+            note D4
+            note C4
+            noteL Ds4, 72
+            noteL F4, 24
+            noteL G4, 96
+            note F4
+            note E4
+            note D4
+            note C4
+            note D4
+            noteL C4, 72
+            noteL C4, 24
+            waitL 12
+            note Ds4
+            note Ds4
+            noteL Ds4, 36
+            noteL F4, 24
+            noteL G4, 96
+            noteL D4, 60
+            noteL E4, 12
+            noteL F4, 24
+            noteL G4, 84
+            noteL E4, 12
+            noteL D4, 36
+            noteL E4, 24
+            noteL F4, 12
+            note G4
+            note A4
+            noteL Ds5, 176
+            noteL F4, 8
+            note Ds4
+            noteL C4, 48
+    channel_end
+Music_08_Channel_3:
+      stereo 080h
+            waitL 96
+      inst 8
+      vol 10
+      setRelease 1
+            noteL C4, 36
+      vibrato 05ah
+            noteL C5, 24
+            noteL C6, 36
+            waitL 96
+      stereo 040h
+            noteL C4, 36
+            noteL C5, 24
+            noteL C6, 36
+            waitL 96
+      stereo 080h
+            noteL C4, 36
+            noteL C5, 24
+            noteL C6, 36
+            waitL 96
+      stereo 040h
+            noteL C4, 36
+            noteL C5, 24
+            noteL C6, 36
+            waitL 96
+      stereo 080h
+            noteL C4, 36
+            noteL C5, 24
+            noteL C6, 36
+            waitL 96
+      stereo 040h
+            noteL C4, 36
+            noteL C5, 24
+            noteL C6, 36
+            waitL 96
+      stereo 080h
+            noteL C4, 36
+            noteL C5, 24
+            noteL C6, 36
+            waitL 96
+      stereo 040h
+            noteL C4, 36
+            noteL C5, 24
+            noteL C6, 36
+            waitL 96
+      stereo 080h
+            noteL C4, 36
+            noteL C5, 24
+            noteL C6, 36
+            waitL 96
+      stereo 040h
+            noteL C4, 36
+            noteL C5, 24
+            noteL C6, 36
+            waitL 96
+      stereo 0c0h
+            noteL Gs4, 36
+            noteL C5, 24
+            note C6
+            noteL C7, 108
+            waitL 96
+    channel_end
+Music_08_Channel_4:
+      stereo 0c0h
+            waitL 192
+            wait
+            wait
+            wait
+            waitL 96
+      inst 18
+      vol 12
+      vibrato 05eh
+            note G4
+            noteL D5, 36
+            noteL C5, 60
+            noteL F5, 36
+            noteL E5, 60
+            noteL D6, 36
+            note C6
+            noteL C6, 18
+      sustain
+            noteL D6, 2
+            note E6
+            note G6
+            noteL C7, 255
+            waitL 129
+            waitL 12
+      vol 13
+      setRelease 1
+            note G4
+            note C5
+            note D5
+            note F5
+            note E5
+            note C5
+            noteL D5, 10
+      sustain
+            noteL F5, 4
+            note Fs5
+      setRelease 2
+            noteL G5, 66
+      setRelease 1
+            noteL F5, 24
+            noteL E5, 12
+            note G5
+            note C6
+            note D6
+            note F6
+            note E6
+            note C6
+            note D6
+      sustain
+            noteL F6, 4
+            note Fs6
+      setRelease 2
+            noteL G6, 28
+      setRelease 1
+            noteL F6, 12
+            note E6
+            noteL C6, 8
+            waitL 4
+      sustain
+            note C6
+            note D6
+            note E6
+            note F6
+            note G6
+            note A6
+      setRelease 1
+            noteL As6, 96
+            noteL As4, 6
+            note Gs4
+            note As4
+            note C5
+            note Cs5
+            note C5
+            note F5
+            note G5
+            noteL Gs5, 4
+            note As5
+            note C6
+            note Cs6
+            note Ds6
+            note F6
+            note G6
+            note Gs6
+            note As6
+            note C7
+            note Ds7
+            note G7
+            noteL C8, 48
+    channel_end
+Music_08_Channel_5:
+            waitL 96
+            sampleL 0, 36
+            sampleL 4, 156
+            sampleL 0, 36
+            sampleL 4, 156
+            sampleL 0, 36
+            sampleL 4, 156
+            sampleL 0, 36
+            sampleL 4, 60
+            sampleL 0, 12
+            sampleL 0, 60
+            sampleL 1, 24
+            sampleL 0, 36
+            sampleL 4, 60
+            sampleL 0, 12
+            sampleL 0, 60
+            sampleL 1, 24
+            sampleL 0, 36
+            sampleL 4, 60
+            sampleL 0, 12
+            sampleL 0, 60
+            sampleL 1, 24
+            sampleL 0, 36
+            sampleL 4, 60
+            sampleL 0, 12
+            sampleL 0, 60
+            sampleL 1, 24
+            sampleL 0, 36
+            sampleL 4, 60
+            sampleL 0, 12
+            sampleL 0, 60
+            sampleL 1, 24
+            sampleL 0, 36
+            sampleL 4, 48
+            sampleL 0, 12
+            sample 0
+            sampleL 0, 60
+            sampleL 1, 24
+            sampleL 0, 36
+            sampleL 4, 48
+            sampleL 0, 12
+            sample 0
+            sampleL 0, 48
+            sampleL 0, 12
+            sample 1
+            sample 0
+            sampleL 5, 168
+            sampleL 7, 12
+            sample 7
+            sampleL 5, 96
+    channel_end
+Music_08_Channel_6:
+      psgInst 00h
+            waitL 192
+            wait
+            wait
+            wait
+            waitL 96
+      psgInst 0bh
+      setRelease 1
+            psgNote G2
+      vibrato 04eh
+            psgNoteL D3, 36
+            psgNoteL C3, 60
+            psgNoteL F3, 36
+            psgNoteL E3, 60
+            psgNoteL D4, 36
+            psgNote C4
+            psgNoteL C4, 18
+      sustain
+            psgNoteL D4, 2
+            psgNote E4
+            psgNote G4
+    channel_end
+Music_08_Channel_7:
+    channel_end
+Music_08_Channel_8:
+      psgInst 00h
+      setRelease 96
+      vibrato 00h
+            psgNoteL C1, 96
+    channel_end
+Music_08_Channel_9:
+    channel_end
