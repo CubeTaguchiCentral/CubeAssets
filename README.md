@@ -48,6 +48,8 @@ Further details available here : https://github.com/CubeTaguchiCentral/CubeAsset
 - Conversion of pitch effects (vibrato, ramp...) relies on effect indexes from Shining Force II's pitch effect table, while other games may have a different original pitch effect table.  
 A planned solution will be to implement in CubeWiz driver a new song header flag, for the song to use bank-specific data like specific YM/PSG instrument table, specific PCM sample table, specific pitch effect table, etc.
 
+- Portamento effect in Furnace requires Cube's slide speed value to be divided by 2, resulting in a loss of accuracy when converting back to Cube : a few occurrences of slides may become slightly faster compared to original song.
+
 
 <h4>Conversion details</h4>
 
