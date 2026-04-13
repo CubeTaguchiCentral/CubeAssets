@@ -129,18 +129,11 @@ Music_27_Channel_3:
             noteL D5, 108
       vibrato 05ah
             note D5
+    countedLoopStart 3
             noteL D5, 72
             waitL 36
             noteL D5, 108
-            noteL D5, 72
-            waitL 36
-            noteL D5, 108
-            noteL D5, 72
-            waitL 36
-            noteL D5, 108
-            noteL D5, 72
-            waitL 36
-            noteL D5, 108
+    countedLoopEnd
             noteL A4, 216
     mainLoopEnd
 Music_27_Channel_4:
@@ -155,12 +148,11 @@ Music_27_Channel_4:
       setRelease 1
             noteL A4, 36
       vibrato 05ah
+    countedLoopStart 1
             noteL D4, 108
             waitL 180
             noteL A4, 36
-            noteL D4, 108
-            waitL 180
-            noteL A4, 36
+    countedLoopEnd
             noteL D4, 108
             wait
             noteL A3, 216

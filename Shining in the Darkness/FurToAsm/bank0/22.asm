@@ -20,6 +20,7 @@ Music_22_Channel_0:
       vol 11
       setRelease 1
       vibrato 05ah
+    countedLoopStart 2
             noteL Cs5, 6
             wait
             note Ds5
@@ -28,22 +29,7 @@ Music_22_Channel_0:
             wait
             note Fs5
             wait
-            note Cs5
-            wait
-            note Ds5
-            wait
-            note E5
-            wait
-            note Fs5
-            wait
-            note Cs5
-            wait
-            note Ds5
-            wait
-            note E5
-            wait
-            note Fs5
-            wait
+    countedLoopEnd
             note Cs5
             wait
             note Ds5
@@ -62,6 +48,7 @@ Music_22_Channel_1:
       vol 11
       setRelease 1
       vibrato 05ah
+    countedLoopStart 2
             noteL Gs4, 6
             wait
             note As4
@@ -70,22 +57,7 @@ Music_22_Channel_1:
             wait
             note Cs5
             wait
-            note Gs4
-            wait
-            note As4
-            wait
-            note B4
-            wait
-            note Cs5
-            wait
-            note Gs4
-            wait
-            note As4
-            wait
-            note B4
-            wait
-            note Cs5
-            wait
+    countedLoopEnd
             note Gs4
             wait
             note As4
@@ -121,22 +93,12 @@ Music_22_Channel_4:
       vol 13
       vibrato 05ah
       setRelease 1
+    countedLoopStart 3
             noteL Cs7, 12
             note Gs6
             note Cs6
             note Gs6
-            note Cs7
-            note Gs6
-            note Cs6
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs6
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs6
-            note Gs6
+    countedLoopEnd
             noteL Ds6, 4
             note F6
             note G6
@@ -153,6 +115,7 @@ Music_22_Channel_6:
       psgInst 07ch
       setRelease 1
       vibrato 04eh
+    countedLoopStart 3
             psgNoteL Cs5, 6
             wait
             psgNote Ds5
@@ -161,36 +124,14 @@ Music_22_Channel_6:
             wait
             psgNote Fs5
             wait
-            psgNote Cs5
-            wait
-            psgNote Ds5
-            wait
-            psgNote E5
-            wait
-            psgNote Fs5
-            wait
-            psgNote Cs5
-            wait
-            psgNote Ds5
-            wait
-            psgNote E5
-            wait
-            psgNote Fs5
-            wait
-            psgNote Cs5
-            wait
-            psgNote Ds5
-            wait
-            psgNote E5
-            wait
-            psgNote Fs5
-            wait
+    countedLoopEnd
             psgNoteL F5, 168
     channel_end
 Music_22_Channel_7:
       psgInst 07ch
       setRelease 1
       vibrato 04eh
+    countedLoopStart 3
             psgNoteL Gs4, 6
             wait
             psgNote As4
@@ -199,30 +140,7 @@ Music_22_Channel_7:
             wait
             psgNote Cs5
             wait
-            psgNote Gs4
-            wait
-            psgNote As4
-            wait
-            psgNote B4
-            wait
-            psgNote Cs5
-            wait
-            psgNote Gs4
-            wait
-            psgNote As4
-            wait
-            psgNote B4
-            wait
-            psgNote Cs5
-            wait
-            psgNote Gs4
-            wait
-            psgNote As4
-            wait
-            psgNote B4
-            wait
-            psgNote Cs5
-            wait
+    countedLoopEnd
             psgNoteL Ds5, 168
     channel_end
 Music_22_Channel_8:

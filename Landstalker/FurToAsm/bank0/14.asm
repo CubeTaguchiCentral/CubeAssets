@@ -99,38 +99,12 @@ Music_14_Channel_1:
       vol 11
       vibrato 00h
       setRelease 8
+    countedLoopStart 7
             noteL B3, 24
             noteL B3, 12
             note B3
       vol 11
-            noteL B3, 24
-            noteL B3, 12
-            note B3
-      vol 11
-            noteL B3, 24
-            noteL B3, 12
-            note B3
-      vol 11
-            noteL B3, 24
-            noteL B3, 12
-            note B3
-      vol 11
-            noteL B3, 24
-            noteL B3, 12
-            note B3
-      vol 11
-            noteL B3, 24
-            noteL B3, 12
-            note B3
-      vol 11
-            noteL B3, 24
-            noteL B3, 12
-            note B3
-      vol 11
-            noteL B3, 24
-            noteL B3, 12
-            note B3
-      vol 11
+    countedLoopEnd
       sustain
             noteL B3, 6
     mainLoopStart
@@ -139,70 +113,12 @@ Music_14_Channel_1:
       shifting 0
             waitL 18
       setRelease 8
+    countedLoopStart 15
             noteL B3, 12
             note B3
       vol 11
             noteL B3, 24
-            noteL B3, 12
-            note B3
-      vol 11
-            noteL B3, 24
-            noteL B3, 12
-            note B3
-      vol 11
-            noteL B3, 24
-            noteL B3, 12
-            note B3
-      vol 11
-            noteL B3, 24
-            noteL B3, 12
-            note B3
-      vol 11
-            noteL B3, 24
-            noteL B3, 12
-            note B3
-      vol 11
-            noteL B3, 24
-            noteL B3, 12
-            note B3
-      vol 11
-            noteL B3, 24
-            noteL B3, 12
-            note B3
-      vol 11
-            noteL B3, 24
-            noteL B3, 12
-            note B3
-      vol 11
-            noteL B3, 24
-            noteL B3, 12
-            note B3
-      vol 11
-            noteL B3, 24
-            noteL B3, 12
-            note B3
-      vol 11
-            noteL B3, 24
-            noteL B3, 12
-            note B3
-      vol 11
-            noteL B3, 24
-            noteL B3, 12
-            note B3
-      vol 11
-            noteL B3, 24
-            noteL B3, 12
-            note B3
-      vol 11
-            noteL B3, 24
-            noteL B3, 12
-            note B3
-      vol 11
-            noteL B3, 24
-            noteL B3, 12
-            note B3
-      vol 11
-            noteL B3, 24
+    countedLoopEnd
             noteL B3, 12
             note B3
       vol 11
@@ -215,38 +131,12 @@ Music_14_Channel_2:
       vol 11
       vibrato 00h
       setRelease 8
+    countedLoopStart 7
             noteL A3, 24
             noteL A3, 12
             note A3
       vol 11
-            noteL A3, 24
-            noteL A3, 12
-            note A3
-      vol 11
-            noteL A3, 24
-            noteL A3, 12
-            note A3
-      vol 11
-            noteL A3, 24
-            noteL A3, 12
-            note A3
-      vol 11
-            noteL A3, 24
-            noteL A3, 12
-            note A3
-      vol 11
-            noteL A3, 24
-            noteL A3, 12
-            note A3
-      vol 11
-            noteL A3, 24
-            noteL A3, 12
-            note A3
-      vol 11
-            noteL A3, 24
-            noteL A3, 12
-            note A3
-      vol 11
+    countedLoopEnd
       sustain
             noteL A3, 6
     mainLoopStart
@@ -255,70 +145,12 @@ Music_14_Channel_2:
       shifting 0
             waitL 18
       setRelease 8
+    countedLoopStart 15
             noteL A3, 12
             note A3
       vol 11
             noteL A3, 24
-            noteL A3, 12
-            note A3
-      vol 11
-            noteL A3, 24
-            noteL A3, 12
-            note A3
-      vol 11
-            noteL A3, 24
-            noteL A3, 12
-            note A3
-      vol 11
-            noteL A3, 24
-            noteL A3, 12
-            note A3
-      vol 11
-            noteL A3, 24
-            noteL A3, 12
-            note A3
-      vol 11
-            noteL A3, 24
-            noteL A3, 12
-            note A3
-      vol 11
-            noteL A3, 24
-            noteL A3, 12
-            note A3
-      vol 11
-            noteL A3, 24
-            noteL A3, 12
-            note A3
-      vol 11
-            noteL A3, 24
-            noteL A3, 12
-            note A3
-      vol 11
-            noteL A3, 24
-            noteL A3, 12
-            note A3
-      vol 11
-            noteL A3, 24
-            noteL A3, 12
-            note A3
-      vol 11
-            noteL A3, 24
-            noteL A3, 12
-            note A3
-      vol 11
-            noteL A3, 24
-            noteL A3, 12
-            note A3
-      vol 11
-            noteL A3, 24
-            noteL A3, 12
-            note A3
-      vol 11
-            noteL A3, 24
-            noteL A3, 12
-            note A3
-      vol 11
-            noteL A3, 24
+    countedLoopEnd
             noteL A3, 12
             note A3
       vol 11
@@ -331,38 +163,12 @@ Music_14_Channel_3:
       vol 13
       vibrato 00h
       setRelease 8
+    countedLoopStart 7
             noteL A2, 24
             noteL E3, 12
             note E3
       vol 13
-            noteL A2, 24
-            noteL E3, 12
-            note E3
-      vol 13
-            noteL A2, 24
-            noteL E3, 12
-            note E3
-      vol 13
-            noteL A2, 24
-            noteL E3, 12
-            note E3
-      vol 13
-            noteL A2, 24
-            noteL E3, 12
-            note E3
-      vol 13
-            noteL A2, 24
-            noteL E3, 12
-            note E3
-      vol 13
-            noteL A2, 24
-            noteL E3, 12
-            note E3
-      vol 13
-            noteL A2, 24
-            noteL E3, 12
-            note E3
-      vol 13
+    countedLoopEnd
       sustain
             noteL A2, 6
     mainLoopStart
@@ -371,70 +177,12 @@ Music_14_Channel_3:
       shifting 0
             waitL 18
       setRelease 8
+    countedLoopStart 15
             noteL E3, 12
             note E3
       vol 13
             noteL A2, 24
-            noteL E3, 12
-            note E3
-      vol 13
-            noteL A2, 24
-            noteL E3, 12
-            note E3
-      vol 13
-            noteL A2, 24
-            noteL E3, 12
-            note E3
-      vol 13
-            noteL A2, 24
-            noteL E3, 12
-            note E3
-      vol 13
-            noteL A2, 24
-            noteL E3, 12
-            note E3
-      vol 13
-            noteL A2, 24
-            noteL E3, 12
-            note E3
-      vol 13
-            noteL A2, 24
-            noteL E3, 12
-            note E3
-      vol 13
-            noteL A2, 24
-            noteL E3, 12
-            note E3
-      vol 13
-            noteL A2, 24
-            noteL E3, 12
-            note E3
-      vol 13
-            noteL A2, 24
-            noteL E3, 12
-            note E3
-      vol 13
-            noteL A2, 24
-            noteL E3, 12
-            note E3
-      vol 13
-            noteL A2, 24
-            noteL E3, 12
-            note E3
-      vol 13
-            noteL A2, 24
-            noteL E3, 12
-            note E3
-      vol 13
-            noteL A2, 24
-            noteL E3, 12
-            note E3
-      vol 13
-            noteL A2, 24
-            noteL E3, 12
-            note E3
-      vol 13
-            noteL A2, 24
+    countedLoopEnd
             noteL E3, 12
             note E3
       vol 13
@@ -525,6 +273,7 @@ Music_14_Channel_5:
             sample 4
             sample 0
             sampleL 4, 24
+    countedLoopStart 1
             sampleL 4, 12
             sample 0
             sample 0
@@ -537,21 +286,11 @@ Music_14_Channel_5:
             sampleL 4, 12
             sampleL 4, 6
             sampleL 0, 12
-            sample 4
-            sample 0
-            sample 0
-            sampleL 4, 6
-            sample 4
-            sample 0
-            sample 0
-            sample 4
-            sample 0
-            sampleL 4, 12
-            sampleL 4, 6
-            sampleL 0, 12
+    countedLoopEnd
             sampleL 4, 6
     mainLoopStart
             wait
+    countedLoopStart 6
             sampleL 0, 12
             sample 0
             sampleL 4, 6
@@ -564,78 +303,7 @@ Music_14_Channel_5:
             sampleL 4, 6
             sampleL 0, 12
             sample 4
-            sample 0
-            sample 0
-            sampleL 4, 6
-            sample 4
-            sample 0
-            sample 0
-            sample 4
-            sample 0
-            sampleL 4, 12
-            sampleL 4, 6
-            sampleL 0, 12
-            sample 4
-            sample 0
-            sample 0
-            sampleL 4, 6
-            sample 4
-            sample 0
-            sample 0
-            sample 4
-            sample 0
-            sampleL 4, 12
-            sampleL 4, 6
-            sampleL 0, 12
-            sample 4
-            sample 0
-            sample 0
-            sampleL 4, 6
-            sample 4
-            sample 0
-            sample 0
-            sample 4
-            sample 0
-            sampleL 4, 12
-            sampleL 4, 6
-            sampleL 0, 12
-            sample 4
-            sample 0
-            sample 0
-            sampleL 4, 6
-            sample 4
-            sample 0
-            sample 0
-            sample 4
-            sample 0
-            sampleL 4, 12
-            sampleL 4, 6
-            sampleL 0, 12
-            sample 4
-            sample 0
-            sample 0
-            sampleL 4, 6
-            sample 4
-            sample 0
-            sample 0
-            sample 4
-            sample 0
-            sampleL 4, 12
-            sampleL 4, 6
-            sampleL 0, 12
-            sample 4
-            sample 0
-            sample 0
-            sampleL 4, 6
-            sample 4
-            sample 0
-            sample 0
-            sample 4
-            sample 0
-            sampleL 4, 12
-            sampleL 4, 6
-            sampleL 0, 12
-            sample 4
+    countedLoopEnd
             sample 0
             sample 0
             sampleL 4, 6
@@ -701,14 +369,10 @@ Music_14_Channel_6:
             psgNoteL G3, 5
             psgNoteL Gs3, 6
             psgNoteL As3, 5
+    countedLoopStart 3
             psgNoteL Gs3, 3
             psgNote As3
-            psgNote Gs3
-            psgNote As3
-            psgNote Gs3
-            psgNote As3
-            psgNote Gs3
-            psgNote As3
+    countedLoopEnd
             psgNoteL Gs3, 12
             waitL 8
       psgInst 00h
@@ -775,14 +439,10 @@ Music_14_Channel_7:
             psgNoteL G3, 5
             psgNoteL Gs3, 6
             psgNoteL As3, 5
+    countedLoopStart 3
             psgNoteL Gs3, 3
             psgNote As3
-            psgNote Gs3
-            psgNote As3
-            psgNote Gs3
-            psgNote As3
-            psgNote Gs3
-            psgNote As3
+    countedLoopEnd
             psgNoteL Gs3, 12
             waitL 8
       psgInst 00h

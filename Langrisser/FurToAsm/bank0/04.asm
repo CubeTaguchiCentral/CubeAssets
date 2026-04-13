@@ -37,15 +37,11 @@ Music_04_Channel_0:
             note F3
             note F3
             noteL D3, 24
+    countedLoopStart 2
             noteL C3, 6
             note C3
             wait
-            note C3
-            note C3
-            wait
-            note C3
-            note C3
-            wait
+    countedLoopEnd
             note C3
             noteL C3, 12
             noteL D3, 24
@@ -144,6 +140,7 @@ Music_04_Channel_4:
       vol 9
       setRelease 1
       vibrato 00h
+    countedLoopStart 2
             noteL C5, 6
             note C5
       inst 62
@@ -151,20 +148,7 @@ Music_04_Channel_4:
             noteL C5, 12
       inst 61
       vol 9
-            noteL C5, 6
-            note C5
-      inst 62
-      vol 11
-            noteL C5, 12
-      inst 61
-      vol 9
-            noteL C5, 6
-            note C5
-      inst 62
-      vol 11
-            noteL C5, 12
-      inst 61
-      vol 9
+    countedLoopEnd
             noteL C5, 6
             note C5
       inst 62
@@ -173,6 +157,7 @@ Music_04_Channel_4:
       stereo 0c0h
       inst 60
       vol 10
+    countedLoopStart 6
             noteL C6, 6
       stereo 040h
       inst 61
@@ -181,54 +166,7 @@ Music_04_Channel_4:
       stereo 0c0h
       inst 60
       vol 10
-            note C6
-      stereo 040h
-      inst 61
-      vol 9
-            note C5
-      stereo 0c0h
-      inst 60
-      vol 10
-            note C6
-      stereo 040h
-      inst 61
-      vol 9
-            note C5
-      stereo 0c0h
-      inst 60
-      vol 10
-            note C6
-      stereo 040h
-      inst 61
-      vol 9
-            note C5
-      stereo 0c0h
-      inst 60
-      vol 10
-            note C6
-      stereo 040h
-      inst 61
-      vol 9
-            note C5
-      stereo 0c0h
-      inst 60
-      vol 10
-            note C6
-      stereo 040h
-      inst 61
-      vol 9
-            note C5
-      stereo 0c0h
-      inst 60
-      vol 10
-            note C6
-      stereo 040h
-      inst 61
-      vol 9
-            note C5
-      stereo 0c0h
-      inst 60
-      vol 10
+    countedLoopEnd
             note C6
       stereo 040h
       inst 61

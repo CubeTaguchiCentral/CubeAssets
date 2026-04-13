@@ -264,34 +264,9 @@ Music_10_Channel_5:
             sample 19
             sample 14
             sample 19
+    countedLoopStart 27
             sampleL 14, 4
-            sample 14
-            sample 14
-            sample 14
-            sample 14
-            sample 14
-            sample 14
-            sample 14
-            sample 14
-            sample 14
-            sample 14
-            sample 14
-            sample 14
-            sample 14
-            sample 14
-            sample 14
-            sample 14
-            sample 14
-            sample 14
-            sample 14
-            sample 14
-            sample 14
-            sample 14
-            sample 14
-            sample 14
-            sample 14
-            sample 14
-            sample 14
+    countedLoopEnd
             sampleL 14, 80
     channel_end
 Music_10_Channel_6:
@@ -299,20 +274,15 @@ Music_10_Channel_6:
       setRelease 2
       vibrato 04ch
             psgNoteL As1, 2
-            psgNote D2
+    countedLoopStart 1
+            psgNoteL D2, 2
             psgNote F2
             psgNote As2
             psgNote D3
             psgNote F3
             psgNote As3
             psgNote D4
-            psgNote D2
-            psgNote F2
-            psgNote As2
-            psgNote D3
-            psgNote F3
-            psgNote As3
-            psgNote D4
+    countedLoopEnd
             psgNote F4
             psgNote F2
             psgNote As2
@@ -361,36 +331,10 @@ Music_10_Channel_6:
             psgNoteL C3, 192
       psgInst 0ah
       setRelease 4
+    countedLoopStart 14
             psgNoteL C6, 4
             psgNote D6
-            psgNote C6
-            psgNote D6
-            psgNote C6
-            psgNote D6
-            psgNote C6
-            psgNote D6
-            psgNote C6
-            psgNote D6
-            psgNote C6
-            psgNote D6
-            psgNote C6
-            psgNote D6
-            psgNote C6
-            psgNote D6
-            psgNote C6
-            psgNote D6
-            psgNote C6
-            psgNote D6
-            psgNote C6
-            psgNote D6
-            psgNote C6
-            psgNote D6
-            psgNote C6
-            psgNote D6
-            psgNote C6
-            psgNote D6
-            psgNote C6
-            psgNote D6
+    countedLoopEnd
       setRelease 10
             psgNoteL C6, 10
       psgInst 07h
@@ -405,20 +349,15 @@ Music_10_Channel_7:
       setRelease 2
       vibrato 04ch
             psgNoteL As1, 2
-            psgNote D2
+    countedLoopStart 1
+            psgNoteL D2, 2
             psgNote F2
             psgNote As2
             psgNote D3
             psgNote F3
             psgNote As3
             psgNote D4
-            psgNote D2
-            psgNote F2
-            psgNote As2
-            psgNote D3
-            psgNote F3
-            psgNote As3
-            psgNote D4
+    countedLoopEnd
             psgNote F4
             psgNote F2
             psgNote As2
@@ -466,36 +405,10 @@ Music_10_Channel_7:
             psgNoteL E2, 192
       psgInst 0bh
       setRelease 4
+    countedLoopStart 14
             psgNoteL E6, 4
             psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
+    countedLoopEnd
       setRelease 10
             psgNoteL E6, 10
       psgInst 08h

@@ -32,16 +32,14 @@ Music_18_Channel_0:
       inst 19
       vol 12
       setRelease 4
+    countedLoopStart 3
             noteL G7, 8
-            note G7
-            note G7
-            note G7
+    countedLoopEnd
             noteL G7, 16
             waitL 32
+    countedLoopStart 3
             noteL G7, 8
-            note G7
-            note G7
-            note G7
+    countedLoopEnd
             noteL G7, 16
       inst 24
       vol 14
@@ -66,10 +64,9 @@ Music_18_Channel_1:
             note A6
       inst 18
       vol 11
+    countedLoopStart 3
             noteL B7, 8
-            note B7
-            note B7
-            note B7
+    countedLoopEnd
             noteL B7, 16
       stereo 040h
       inst 29
@@ -83,10 +80,9 @@ Music_18_Channel_1:
       inst 18
       vol 11
       setRelease 3
+    countedLoopStart 3
             noteL B7, 8
-            note B7
-            note B7
-            note B7
+    countedLoopEnd
             noteL B7, 16
             waitL 6
       inst 24
@@ -113,16 +109,14 @@ Music_18_Channel_2:
       inst 20
       vol 12
       setRelease 2
+    countedLoopStart 3
             noteL B5, 8
-            note B5
-            note B5
-            note B5
+    countedLoopEnd
             noteL B5, 16
             waitL 32
+    countedLoopStart 3
             noteL B5, 8
-            note B5
-            note B5
-            note B5
+    countedLoopEnd
             noteL B5, 16
       shifting 32
             waitL 3
@@ -144,18 +138,16 @@ Music_18_Channel_3:
             note Fs3
       inst 29
       vol 14
+    countedLoopStart 3
             noteL G4, 8
-            note G4
-            note G4
-            note G4
+    countedLoopEnd
             noteL G4, 16
             noteL G3, 8
             note G3
             noteL G3, 16
+    countedLoopStart 3
             noteL G4, 8
-            note G4
-            note G4
-            note G4
+    countedLoopEnd
             noteL G4, 16
       shifting 48
             waitL 10
@@ -189,10 +181,9 @@ Music_18_Channel_4:
       inst 19
       vol 11
       setRelease 3
+    countedLoopStart 3
             noteL D7, 8
-            note D7
-            note D7
-            note D7
+    countedLoopEnd
             noteL D7, 16
             waitL 2
       inst 29
@@ -206,10 +197,9 @@ Music_18_Channel_4:
       inst 19
       vol 11
       setRelease 3
+    countedLoopStart 3
             noteL D7, 8
-            note D7
-            note D7
-            note D7
+    countedLoopEnd
             noteL D7, 16
             waitL 12
       inst 24
@@ -220,34 +210,20 @@ Music_18_Channel_4:
 Music_18_Channel_5:
       stereo 0c0h
             waitL 16
-            sample 14
+    countedLoopStart 7
+            sampleL 14, 16
             sample 19
-            sample 14
-            sample 19
-            sample 14
-            sample 19
-            sample 14
-            sample 19
-            sample 14
-            sample 19
-            sample 14
-            sample 19
-            sample 14
-            sample 19
-            sample 14
-            sample 19
+    countedLoopEnd
+    countedLoopStart 3
             sampleL 1, 8
-            sample 1
-            sample 1
-            sample 1
+    countedLoopEnd
             sampleL 1, 16
             sampleL 19, 8
             sample 19
             sampleL 19, 16
+    countedLoopStart 3
             sampleL 1, 8
-            sample 1
-            sample 1
-            sample 1
+    countedLoopEnd
             sampleL 1, 16
             sampleL 24, 168
     channel_end
@@ -271,18 +247,16 @@ Music_18_Channel_6:
             psgNoteL Fs4, 64
             psgNoteL A4, 62
       setRelease 3
+    countedLoopStart 3
             psgNoteL B4, 8
-            psgNote B4
-            psgNote B4
-            psgNote B4
+    countedLoopEnd
             psgNoteL B4, 16
       psgInst 00h
             waitL 32
       psgInst 0bh
+    countedLoopStart 3
             psgNoteL B4, 8
-            psgNote B4
-            psgNote B4
-            psgNote B4
+    countedLoopEnd
             psgNoteL B4, 16
       psgInst 00h
             waitL 168
@@ -308,18 +282,16 @@ Music_18_Channel_7:
             psgNoteL Fs4, 62
       psgInst 0dh
       setRelease 3
+    countedLoopStart 3
             psgNoteL G4, 8
-            psgNote G4
-            psgNote G4
-            psgNote G4
+    countedLoopEnd
             psgNoteL G4, 16
       psgInst 00h
             waitL 32
       psgInst 0dh
+    countedLoopStart 3
             psgNoteL G4, 8
-            psgNote G4
-            psgNote G4
-            psgNote G4
+    countedLoopEnd
             psgNoteL G4, 16
       psgInst 00h
             waitL 168

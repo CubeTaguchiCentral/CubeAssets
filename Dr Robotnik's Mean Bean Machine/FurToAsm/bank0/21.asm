@@ -70,6 +70,7 @@ Music_21_Channel_2:
       shifting 0
       setRelease 1
             waitL 3
+    repeatStart
             waitL 9
             noteL A3, 14
             noteL G3, 7
@@ -78,19 +79,15 @@ Music_21_Channel_2:
             waitL 9
             noteL A3, 5
             waitL 9
+    repeatSection1Start
             noteL D3, 7
             noteL E3, 21
             noteL G3, 5
-            waitL 9
-            noteL A3, 14
-            noteL G3, 7
-            noteL E3, 21
-            noteL E3, 5
-            waitL 9
-            noteL A3, 5
-            waitL 9
+    repeatEnd
+    repeatSection2Start
             noteL B3, 14
             note E3
+    repeatStart
             noteL G3, 5
             waitL 9
             noteL A3, 14
@@ -98,17 +95,13 @@ Music_21_Channel_2:
             noteL E3, 21
             noteL E3, 5
             waitL 9
+    repeatSection1Start
             noteL D3, 5
             waitL 9
             noteL Ds3, 7
             noteL E3, 21
-            noteL G3, 5
-            waitL 9
-            noteL A3, 14
-            noteL G3, 7
-            noteL E3, 21
-            noteL E3, 5
-            waitL 9
+    repeatEnd
+    repeatSection2Start
             noteL A3, 7
             note B3
             noteL Gs3, 14
@@ -158,21 +151,13 @@ Music_21_Channel_5:
             sampleL 0, 16
     mainLoopStart
             waitL 12
+    countedLoopStart 2
             sampleL 1, 21
             sample 0
             sampleL 0, 14
             sampleL 1, 28
             sample 0
-            sampleL 1, 21
-            sample 0
-            sampleL 0, 14
-            sampleL 1, 28
-            sample 0
-            sampleL 1, 21
-            sample 0
-            sampleL 0, 14
-            sampleL 1, 28
-            sample 0
+    countedLoopEnd
             sampleL 1, 21
             sample 0
             sampleL 0, 14
@@ -191,6 +176,7 @@ Music_21_Channel_6:
             waitL 3
             waitL 9
       setRelease 1
+    repeatStart
             psgNoteL D2, 7
             psgNote E2
             psgNoteL D2, 5
@@ -220,37 +206,11 @@ Music_21_Channel_6:
             psgNoteL G2, 14
             psgNoteL C2, 5
             waitL 9
+    repeatSection1Start
             psgNoteL E2, 5
             waitL 9
-            psgNoteL D2, 7
-            psgNote E2
-            psgNoteL D2, 5
-            waitL 9
-            psgNoteL G2, 5
-            waitL 9
-            psgNoteL C2, 7
-            psgNote Fs2
-            psgNoteL D2, 5
-            waitL 9
-            psgNoteL Fs2, 7
-            psgNote G2
-            psgNoteL C2, 5
-            waitL 9
-            psgNoteL E2, 5
-            waitL 9
-            psgNoteL D2, 7
-            psgNote Fs2
-            psgNoteL C2, 5
-            waitL 9
-            psgNoteL G2, 5
-            waitL 9
-            psgNoteL D2, 7
-            psgNote Fs2
-            psgNoteL C2, 5
-            waitL 9
-            psgNoteL G2, 14
-            psgNoteL C2, 5
-            waitL 9
+    repeatEnd
+    repeatSection2Start
       sustain
             psgNoteL E2, 2
     mainLoopEnd
@@ -264,46 +224,25 @@ Music_21_Channel_7:
             waitL 4
             waitL 15
       setRelease 1
+    repeatStart
+    countedLoopStart 2
             psgNoteL C3, 6
             waitL 15
-            psgNoteL C3, 6
-            waitL 15
-            psgNoteL C3, 6
-            waitL 15
+    countedLoopEnd
             psgNoteL C3, 7
             psgNote C3
             waitL 14
+    countedLoopStart 3
             psgNoteL C3, 6
             waitL 15
-            psgNoteL C3, 6
-            waitL 15
-            psgNoteL C3, 6
-            waitL 15
-            psgNoteL C3, 6
-            waitL 15
+    countedLoopEnd
             psgNoteL C3, 14
             wait
+    repeatSection1Start
             psgNoteL C3, 6
             waitL 15
-            psgNoteL C3, 6
-            waitL 15
-            psgNoteL C3, 6
-            waitL 15
-            psgNoteL C3, 6
-            waitL 15
-            psgNoteL C3, 7
-            psgNote C3
-            waitL 14
-            psgNoteL C3, 6
-            waitL 15
-            psgNoteL C3, 6
-            waitL 15
-            psgNoteL C3, 6
-            waitL 15
-            psgNoteL C3, 6
-            waitL 15
-            psgNoteL C3, 14
-            wait
+    repeatEnd
+    repeatSection2Start
       sustain
             psgNoteL C3, 2
     mainLoopEnd

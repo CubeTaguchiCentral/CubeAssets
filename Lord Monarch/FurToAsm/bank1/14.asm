@@ -135,14 +135,9 @@ Music_14_Channel_3:
             note E3
             note E3
       vol 7
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
+    countedLoopStart 7
+            noteL E3, 2
+    countedLoopEnd
       vol 8
             note E3
             note E3
@@ -217,7 +212,8 @@ Music_14_Channel_6:
       psgInst 0ah
             psgNote E6
             psgNote E6
-            psgNote E6
+    countedLoopStart 1
+            psgNoteL E6, 6
       psgInst 00h
             wait
       psgInst 0ah
@@ -225,14 +221,7 @@ Music_14_Channel_6:
       psgInst 00h
             wait
       psgInst 0ah
-            psgNote E6
-      psgInst 00h
-            wait
-      psgInst 0ah
-            psgNote C6
-      psgInst 00h
-            wait
-      psgInst 0ah
+    countedLoopEnd
             psgNote E6
       psgInst 00h
             wait
@@ -247,16 +236,10 @@ Music_14_Channel_6:
       setRelease 5
             psgNoteL Fs6, 9
       setRelease 3
+    countedLoopStart 4
             psgNoteL G6, 3
             psgNote Fs6
-            psgNote G6
-            psgNote Fs6
-            psgNote G6
-            psgNote Fs6
-            psgNote G6
-            psgNote Fs6
-            psgNote G6
-            psgNote Fs6
+    countedLoopEnd
             psgNote G6
       psgInst 0bh
             psgNote Fs6
@@ -278,7 +261,8 @@ Music_14_Channel_7:
       psgInst 0ah
             psgNote C6
             psgNote C6
-            psgNote C6
+    countedLoopStart 1
+            psgNoteL C6, 6
       psgInst 00h
             wait
       psgInst 0ah
@@ -286,14 +270,7 @@ Music_14_Channel_7:
       psgInst 00h
             wait
       psgInst 0ah
-            psgNote C6
-      psgInst 00h
-            wait
-      psgInst 0ah
-            psgNote G5
-      psgInst 00h
-            wait
-      psgInst 0ah
+    countedLoopEnd
             psgNote C6
       psgInst 00h
             wait

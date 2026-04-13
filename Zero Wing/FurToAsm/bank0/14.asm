@@ -50,22 +50,12 @@ Music_14_Channel_0:
             noteL E5, 24
             note D5
             note C5
+    countedLoopStart 3
             noteL C5, 12
       stereo 080h
             note G4
       stereo 040h
-            note C5
-      stereo 080h
-            note G4
-      stereo 040h
-            note C5
-      stereo 080h
-            note G4
-      stereo 040h
-            note C5
-      stereo 080h
-            note G4
-      stereo 040h
+    countedLoopEnd
             note B4
       stereo 080h
             note G4
@@ -76,6 +66,7 @@ Music_14_Channel_0:
       stereo 0c0h
             noteL G3, 96
             noteL C5, 12
+    repeatStart
             note F4
             note A4
             noteL C5, 24
@@ -90,6 +81,7 @@ Music_14_Channel_0:
             note B4
             note D5
             note E5
+    repeatSection1Start
             note G4
             note C5
             noteL E5, 24
@@ -105,20 +97,8 @@ Music_14_Channel_0:
             note B4
             note D5
             note C5
-            note F4
-            note A4
-            noteL C5, 24
-            noteL F4, 12
-            note A4
-            note C5
-            note D5
-            note G4
-            note B4
-            noteL D5, 24
-            noteL G4, 12
-            note B4
-            note D5
-            note E5
+    repeatEnd
+    repeatSection2Start
             note A4
             note C5
             noteL E5, 24
@@ -171,22 +151,12 @@ Music_14_Channel_0:
             note D5
             note C5
       stereo 040h
+    countedLoopStart 3
             noteL C5, 12
       stereo 080h
             note G4
       stereo 040h
-            note C5
-      stereo 080h
-            note G4
-      stereo 040h
-            note C5
-      stereo 080h
-            note G4
-      stereo 040h
-            note C5
-      stereo 080h
-            note G4
-      stereo 040h
+    countedLoopEnd
             note B4
       stereo 080h
             note G4
@@ -197,20 +167,8 @@ Music_14_Channel_0:
       stereo 0c0h
             noteL G3, 96
             noteL C5, 12
-            note F4
-            note A4
-            noteL C5, 24
-            noteL F4, 12
-            note A4
-            note C5
-            note D5
-            note G4
-            note B4
-            noteL D5, 24
-            noteL G4, 12
-            note B4
-            note D5
-            note E5
+    repeatEnd
+    repeatSection3Start
             note G4
             note C5
             noteL E5, 24
@@ -622,33 +580,17 @@ Music_14_Channel_4:
 Music_14_Channel_5:
             waitL 36
             sample 0
+    repeatStart
+    countedLoopStart 5
             sampleL 0, 12
             sampleL 1, 36
             sampleL 0, 12
             sampleL 0, 36
+    countedLoopEnd
             sampleL 0, 12
             sampleL 1, 36
             sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 1, 36
-            sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 1, 36
-            sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 1, 36
-            sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 1, 36
-            sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 1, 36
-            sampleL 0, 12
+    repeatSection1Start
             sampleL 0, 48
             sampleL 1, 12
             sampleL 1, 36
@@ -657,33 +599,8 @@ Music_14_Channel_5:
             sample 3
             sample 4
             sampleL 0, 36
-            sampleL 0, 12
-            sampleL 1, 36
-            sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 1, 36
-            sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 1, 36
-            sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 1, 36
-            sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 1, 36
-            sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 1, 36
-            sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 1, 36
-            sampleL 0, 12
+    repeatEnd
+    repeatSection2Start
             sample 0
             sampleL 1, 36
             sampleL 1, 12
@@ -693,33 +610,8 @@ Music_14_Channel_5:
     mainLoopStart
             waitL 36
             sample 0
-            sampleL 0, 12
-            sampleL 1, 36
-            sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 1, 36
-            sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 1, 36
-            sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 1, 36
-            sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 1, 36
-            sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 1, 36
-            sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 1, 36
-            sampleL 0, 12
+    repeatEnd
+    repeatSection3Start
             sampleL 0, 48
             sampleL 1, 12
             sampleL 1, 36
@@ -727,34 +619,12 @@ Music_14_Channel_5:
             sample 2
             sample 3
             sample 4
+    countedLoopStart 6
             sampleL 0, 36
             sampleL 0, 12
             sampleL 1, 36
             sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 1, 36
-            sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 1, 36
-            sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 1, 36
-            sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 1, 36
-            sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 1, 36
-            sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 1, 36
-            sampleL 0, 12
+    countedLoopEnd
             sample 0
             sampleL 1, 36
             sampleL 1, 12

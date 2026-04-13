@@ -19,10 +19,9 @@ Music_19_Channel_0:
       vol 7
       vibrato 05ah
       setRelease 1
+    countedLoopStart 3
             noteL E3, 12
-            note E3
-            note E3
-            note E3
+    countedLoopEnd
       vol 8
             note F3
             note F3
@@ -141,10 +140,9 @@ Music_19_Channel_3:
       vol 7
       vibrato 05ah
       setRelease 1
+    countedLoopStart 3
             noteL E4, 12
-            note E4
-            note E4
-            note E4
+    countedLoopEnd
       vol 8
             note F4
             note F4
@@ -180,12 +178,10 @@ Music_19_Channel_3:
             noteL C5, 12
             waitL 24
       vol 10
+    countedLoopStart 2
             noteL C5, 12
             waitL 36
-            noteL C5, 12
-            waitL 36
-            noteL C5, 12
-            waitL 36
+    countedLoopEnd
       vol 11
             noteL A4, 4
             note Fs4
@@ -202,66 +198,14 @@ Music_19_Channel_4:
       vol 13
       setRelease 1
       vibrato 00h
+    countedLoopStart 9
             noteL C6, 12
       stereo 040h
             note C5
             note C5
       stereo 080h
             note C6
-            note C6
-      stereo 040h
-            note C5
-            note C5
-      stereo 080h
-            note C6
-            note C6
-      stereo 040h
-            note C5
-            note C5
-      stereo 080h
-            note C6
-            note C6
-      stereo 040h
-            note C5
-            note C5
-      stereo 080h
-            note C6
-            note C6
-      stereo 040h
-            note C5
-            note C5
-      stereo 080h
-            note C6
-            note C6
-      stereo 040h
-            note C5
-            note C5
-      stereo 080h
-            note C6
-            note C6
-      stereo 040h
-            note C5
-            note C5
-      stereo 080h
-            note C6
-            note C6
-      stereo 040h
-            note C5
-            note C5
-      stereo 080h
-            note C6
-            note C6
-      stereo 040h
-            note C5
-            note C5
-      stereo 080h
-            note C6
-            note C6
-      stereo 040h
-            note C5
-            note C5
-      stereo 080h
-            note C6
+    countedLoopEnd
       stereo 0c0h
             noteL C6, 6
             note C5
@@ -270,15 +214,9 @@ Music_19_Channel_4:
     channel_end
 Music_19_Channel_5:
             waitL 24
+    countedLoopStart 8
             sampleL 0, 48
-            sample 0
-            sample 0
-            sample 0
-            sample 0
-            sample 0
-            sample 0
-            sample 0
-            sample 0
+    countedLoopEnd
             sampleL 0, 24
             sample 6
             sampleL 3, 4

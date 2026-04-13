@@ -83,11 +83,13 @@ Music_08_Channel_1:
       shifting 0
       setRelease 1
             waitL 94
+    repeatStart
             noteL F7, 48
             noteL Fs7, 96
             noteL F7, 48
             noteL Fs7, 96
             noteL Fs7, 48
+    repeatSection1Start
             noteL D7, 96
             waitL 48
             note Gs6
@@ -106,11 +108,8 @@ Music_08_Channel_1:
             noteL Gs7, 4
             waitL 68
             noteL Fs7, 96
-            noteL F7, 48
-            noteL Fs7, 96
-            noteL F7, 48
-            noteL Fs7, 96
-            noteL Fs7, 48
+    repeatEnd
+    repeatSection2Start
             note D7
             noteL B6, 24
             note Cs7
@@ -171,15 +170,11 @@ Music_08_Channel_2:
             waitL 18
             noteL A5, 6
             waitL 18
+    countedLoopStart 2
             noteL D6, 48
             note A6
             note A5
-            note D6
-            note A6
-            note A5
-            note D6
-            note A6
-            note A5
+    countedLoopEnd
             note B5
             noteL D6, 24
             note E6

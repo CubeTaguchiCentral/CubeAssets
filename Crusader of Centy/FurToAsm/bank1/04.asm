@@ -41,18 +41,14 @@ Music_04_Channel_0:
             noteL Gs3, 24
             noteL C4, 12
             noteL Ds4, 24
+    countedLoopStart 1
             noteL C4, 10
             waitL 26
             noteL B3, 60
             noteL As3, 10
             waitL 26
             noteL Gs3, 60
-            noteL C4, 10
-            waitL 26
-            noteL B3, 60
-            noteL As3, 10
-            waitL 26
-            noteL Gs3, 60
+    countedLoopEnd
             noteL C4, 10
             waitL 2
     mainLoopEnd
@@ -88,12 +84,14 @@ Music_04_Channel_1:
             noteL G6, 6
             wait
             noteL As6, 21
+    repeatStart
             waitL 3
             noteL B6, 12
             noteL A6, 6
             wait
             note G6
             wait
+    repeatSection1Start
             noteL A6, 21
             waitL 3
             noteL Fs6, 6
@@ -108,12 +106,8 @@ Music_04_Channel_1:
             note G6
             wait
             noteL As6, 57
-            waitL 3
-            noteL B6, 12
-            noteL A6, 6
-            wait
-            note G6
-            wait
+    repeatEnd
+    repeatSection2Start
             noteL A6, 46
             waitL 14
             noteL G6, 12
@@ -125,12 +119,8 @@ Music_04_Channel_1:
             noteL G6, 6
             wait
             noteL As6, 21
-            waitL 3
-            noteL B6, 12
-            noteL A6, 6
-            wait
-            note G6
-            wait
+    repeatEnd
+    repeatSection3Start
             noteL A6, 21
             waitL 3
             noteL Fs6, 6
@@ -166,6 +156,7 @@ Music_04_Channel_2:
       shifting 0
       stereo 0c0h
       setRelease 1
+    countedLoopStart 7
             noteL D7, 6
             note G7
       stereo 080h
@@ -186,146 +177,7 @@ Music_04_Channel_2:
       stereo 0c0h
             noteL G6, 4
             waitL 8
-            noteL D7, 6
-            note G7
-      stereo 080h
-            noteL G6, 4
-            waitL 8
-            noteL D7, 6
-            note G7
-      stereo 0c0h
-            noteL G6, 4
-            waitL 8
-            noteL D7, 6
-            note G7
-      stereo 040h
-            noteL G6, 4
-            waitL 8
-            noteL D7, 6
-            note G7
-      stereo 0c0h
-            noteL G6, 4
-            waitL 8
-            noteL D7, 6
-            note G7
-      stereo 080h
-            noteL G6, 4
-            waitL 8
-            noteL D7, 6
-            note G7
-      stereo 0c0h
-            noteL G6, 4
-            waitL 8
-            noteL D7, 6
-            note G7
-      stereo 040h
-            noteL G6, 4
-            waitL 8
-            noteL D7, 6
-            note G7
-      stereo 0c0h
-            noteL G6, 4
-            waitL 8
-            noteL D7, 6
-            note G7
-      stereo 080h
-            noteL G6, 4
-            waitL 8
-            noteL D7, 6
-            note G7
-      stereo 0c0h
-            noteL G6, 4
-            waitL 8
-            noteL D7, 6
-            note G7
-      stereo 040h
-            noteL G6, 4
-            waitL 8
-            noteL D7, 6
-            note G7
-      stereo 0c0h
-            noteL G6, 4
-            waitL 8
-            noteL D7, 6
-            note G7
-      stereo 080h
-            noteL G6, 4
-            waitL 8
-            noteL D7, 6
-            note G7
-      stereo 0c0h
-            noteL G6, 4
-            waitL 8
-            noteL D7, 6
-            note G7
-      stereo 040h
-            noteL G6, 4
-            waitL 8
-            noteL D7, 6
-            note G7
-      stereo 0c0h
-            noteL G6, 4
-            waitL 8
-            noteL D7, 6
-            note G7
-      stereo 080h
-            noteL G6, 4
-            waitL 8
-            noteL D7, 6
-            note G7
-      stereo 0c0h
-            noteL G6, 4
-            waitL 8
-            noteL D7, 6
-            note G7
-      stereo 040h
-            noteL G6, 4
-            waitL 8
-            noteL D7, 6
-            note G7
-      stereo 0c0h
-            noteL G6, 4
-            waitL 8
-            noteL D7, 6
-            note G7
-      stereo 080h
-            noteL G6, 4
-            waitL 8
-            noteL D7, 6
-            note G7
-      stereo 0c0h
-            noteL G6, 4
-            waitL 8
-            noteL D7, 6
-            note G7
-      stereo 040h
-            noteL G6, 4
-            waitL 8
-            noteL D7, 6
-            note G7
-      stereo 0c0h
-            noteL G6, 4
-            waitL 8
-            noteL D7, 6
-            note G7
-      stereo 080h
-            noteL G6, 4
-            waitL 8
-            noteL D7, 6
-            note G7
-      stereo 0c0h
-            noteL G6, 4
-            waitL 8
-            noteL D7, 6
-            note G7
-      stereo 040h
-            noteL G6, 4
-            waitL 8
-            noteL D7, 6
-            note G7
-      stereo 0c0h
-            noteL G6, 4
-            waitL 8
+    countedLoopEnd
     mainLoopEnd
 Music_04_Channel_3:
       stereo 0c0h
@@ -348,6 +200,7 @@ Music_04_Channel_3:
             noteL As5, 36
       stereo 080h
             noteL As4, 48
+    repeatStart
             waitL 12
       stereo 040h
             noteL As5, 36
@@ -358,32 +211,17 @@ Music_04_Channel_3:
             wait
             noteL As5, 36
       stereo 080h
+    repeatSection1Start
             note As4
       stereo 040h
             noteL As5, 6
       stereo 080h
             note As4
-            waitL 12
-      stereo 040h
-            noteL As5, 36
-      stereo 080h
-            note As4
-      stereo 040h
-            noteL As5, 12
-            wait
-            noteL As5, 36
-      stereo 080h
+    repeatEnd
+    repeatSection2Start
             noteL As4, 48
-            waitL 12
-      stereo 040h
-            noteL As5, 36
-      stereo 080h
-            note As4
-      stereo 040h
-            noteL As5, 12
-            wait
-            noteL As5, 36
-      stereo 080h
+    repeatEnd
+    repeatSection3Start
             note As4
       stereo 040h
             noteL As5, 6
@@ -409,6 +247,7 @@ Music_04_Channel_4:
       vol 8
       shifting 32
       setRelease 1
+    repeatStart
             noteL B6, 12
             noteL A6, 6
             wait
@@ -418,6 +257,7 @@ Music_04_Channel_4:
             waitL 14
             noteL G6, 12
             note F6
+    repeatSection1Start
             noteL C6, 8
             waitL 4
             noteL Ds6, 21
@@ -446,15 +286,8 @@ Music_04_Channel_4:
             wait
             noteL As6, 57
             waitL 3
-            noteL B6, 12
-            noteL A6, 6
-            wait
-            note G6
-            wait
-            noteL A6, 46
-            waitL 14
-            noteL G6, 12
-            note F6
+    repeatEnd
+    repeatSection2Start
             noteL C6, 9
             waitL 3
             noteL Ds6, 21
@@ -504,6 +337,7 @@ Music_04_Channel_5:
             sample 5
             sample 0
             sampleL 0, 24
+    repeatStart
             sampleL 5, 12
             sampleL 0, 24
             sampleL 0, 12
@@ -512,28 +346,17 @@ Music_04_Channel_5:
             sampleL 5, 12
             sampleL 0, 24
             sampleL 0, 12
+    repeatSection1Start
             sampleL 5, 24
       stereo 0c0h
             sample 0
-            sampleL 5, 12
-            sampleL 0, 24
-            sampleL 0, 12
-            sampleL 5, 24
-            sample 0
-            sampleL 5, 12
-            sampleL 0, 24
-            sampleL 0, 12
+    repeatEnd
+    repeatSection2Start
             sample 5
             sample 0
             sampleL 0, 24
-            sampleL 5, 12
-            sampleL 0, 24
-            sampleL 0, 12
-            sampleL 5, 24
-            sample 0
-            sampleL 5, 12
-            sampleL 0, 24
-            sampleL 0, 12
+    repeatEnd
+    repeatSection3Start
             sampleL 5, 24
       stereo 0c0h
             sampleL 0, 12

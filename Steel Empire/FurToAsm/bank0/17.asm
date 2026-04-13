@@ -37,18 +37,14 @@ Music_17_Channel_0:
             noteL C6, 112
       noSlide
       setSlide 83
+    countedLoopStart 1
             noteL B5, 7
       noSlide
       setSlide 83
             note A5
       noSlide
       setSlide 83
-            note B5
-      noSlide
-      setSlide 83
-            note A5
-      noSlide
-      setSlide 83
+    countedLoopEnd
             noteL G5, 56
       noSlide
       setSlide 83
@@ -80,6 +76,7 @@ Music_17_Channel_1:
       stereo 040h
       setRelease 1
             waitL 2
+    countedLoopStart 2
             waitL 21
             noteL C6, 7
             waitL 21
@@ -91,34 +88,11 @@ Music_17_Channel_1:
       vol 10
             waitL 14
             noteL C6, 7
+    countedLoopEnd
+    countedLoopStart 2
             waitL 21
             noteL C6, 7
-            waitL 21
-            noteL C6, 7
-            waitL 21
-            noteL C6, 7
-            wait
-      stereo 040h
-      vol 10
-            waitL 14
-            noteL C6, 7
-            waitL 21
-            noteL C6, 7
-            waitL 21
-            noteL C6, 7
-            waitL 21
-            noteL C6, 7
-            wait
-      stereo 040h
-      vol 10
-            waitL 14
-            noteL C6, 7
-            waitL 21
-            noteL C6, 7
-            waitL 21
-            noteL C6, 7
-            waitL 21
-            noteL C6, 7
+    countedLoopEnd
             wait
       stereo 040h
       vol 10
@@ -142,6 +116,7 @@ Music_17_Channel_2:
       stereo 0c0h
       setRelease 1
             waitL 9
+    countedLoopStart 2
             noteL C4, 7
             note C4
             note C4
@@ -154,34 +129,10 @@ Music_17_Channel_2:
       vol 9
             note C4
             note C4
+    countedLoopEnd
+    countedLoopStart 3
             noteL C4, 7
-            note C4
-            note C4
-            note C4
-            noteL C4, 14
-            note C4
-            wait
-            note C3
-      stereo 0c0h
-      vol 9
-            note C4
-            note C4
-            noteL C4, 7
-            note C4
-            note C4
-            note C4
-            noteL C4, 14
-            note C4
-            wait
-            note C3
-      stereo 0c0h
-      vol 9
-            note C4
-            note C4
-            noteL C4, 7
-            note C4
-            note C4
-            note C4
+    countedLoopEnd
             noteL C4, 14
             note C4
             wait
@@ -208,6 +159,7 @@ Music_17_Channel_3:
       stereo 080h
             waitL 9
       setRelease 1
+    countedLoopStart 2
             noteL C4, 7
             note C4
             waitL 14
@@ -222,43 +174,12 @@ Music_17_Channel_3:
             noteL C4, 7
             note C4
             waitL 14
+    countedLoopEnd
+    countedLoopStart 2
             noteL C4, 7
             note C4
             waitL 14
-            noteL C4, 7
-            note C4
-            waitL 14
-            noteL C4, 7
-            note C4
-            waitL 14
-      stereo 080h
-      vol 12
-            noteL C4, 7
-            note C4
-            waitL 14
-            noteL C4, 7
-            note C4
-            waitL 14
-            noteL C4, 7
-            note C4
-            waitL 14
-            noteL C4, 7
-            note C4
-            waitL 14
-      stereo 080h
-      vol 12
-            noteL C4, 7
-            note C4
-            waitL 14
-            noteL C4, 7
-            note C4
-            waitL 14
-            noteL C4, 7
-            note C4
-            waitL 14
-            noteL C4, 7
-            note C4
-            waitL 14
+    countedLoopEnd
       stereo 080h
       vol 12
             noteL C4, 7
@@ -288,18 +209,14 @@ Music_17_Channel_4:
             noteL C6, 112
       noSlide
       setSlide 83
+    countedLoopStart 1
             noteL B5, 7
       noSlide
       setSlide 83
             note A5
       noSlide
       setSlide 83
-            note B5
-      noSlide
-      setSlide 83
-            note A5
-      noSlide
-      setSlide 83
+    countedLoopEnd
             noteL G5, 56
       noSlide
       setSlide 83
@@ -316,6 +233,7 @@ Music_17_Channel_5:
             sampleL 1, 5
     mainLoopStart
             waitL 9
+    countedLoopStart 2
             sampleL 1, 7
             sample 5
             sample 1
@@ -325,24 +243,7 @@ Music_17_Channel_5:
             sampleL 0, 14
             sample 1
             sample 1
-            sampleL 1, 7
-            sample 5
-            sample 1
-            sample 5
-            sampleL 1, 14
-            sampleL 1, 28
-            sampleL 0, 14
-            sample 1
-            sample 1
-            sampleL 1, 7
-            sample 5
-            sample 1
-            sample 5
-            sampleL 1, 14
-            sampleL 1, 28
-            sampleL 0, 14
-            sample 1
-            sample 1
+    countedLoopEnd
             sampleL 1, 7
             sample 5
             sample 1

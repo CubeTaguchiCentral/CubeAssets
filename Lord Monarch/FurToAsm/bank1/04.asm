@@ -72,6 +72,7 @@ Music_04_Channel_0:
       inst 21
       vol 13
       setRelease 2
+    repeatStart
             noteL G5, 6
             waitL 12
             noteL G5, 6
@@ -209,147 +210,13 @@ Music_04_Channel_0:
             noteL C7, 96
       inst 16
       vol 12
+    repeatSection1Start
             noteL As4, 48
             noteL D5, 24
       inst 21
       vol 13
-            noteL G5, 6
-            waitL 12
-            noteL G5, 6
-      setRelease 1
-            noteL C6, 48
-            waitL 12
-            note G5
-            noteL C6, 9
-            waitL 3
-            noteL G6, 9
-            waitL 3
-      setRelease 2
-            noteL F6, 48
-            noteL D6, 24
-            note As5
-            noteL C6, 6
-            waitL 12
-      setRelease 1
-            noteL As5, 6
-            noteL C6, 72
-      inst 16
-      vol 12
-            noteL As4, 48
-            noteL As5, 24
-      inst 21
-      vol 13
-      setRelease 2
-            noteL G5, 6
-            waitL 12
-            noteL G5, 6
-      setRelease 1
-            noteL C6, 48
-            waitL 12
-            note G5
-            noteL C6, 9
-            waitL 3
-            noteL G6, 9
-            waitL 3
-      setRelease 2
-            noteL F6, 48
-            noteL As6, 24
-            note F6
-            noteL G6, 6
-            waitL 12
-      setRelease 1
-            noteL F6, 6
-            noteL G6, 120
-            waitL 24
-      inst 19
-      vol 12
-      setRelease 2
-            noteL G6, 6
-            waitL 12
-            noteL G6, 6
-      setRelease 1
-            noteL Gs6, 48
-            noteL Ds6, 24
-            note Gs6
-            noteL As6, 48
-            note F6
-            note Gs6
-            noteL Ds6, 24
-            note Gs6
-            note G6
-      inst 17
-      vol 13
-      setRelease 4
-            noteL D6, 8
-            note D6
-            note D6
-            noteL D6, 24
-      inst 19
-      vol 13
-      setRelease 2
-            noteL G6, 6
-            waitL 12
-      setRelease 1
-            noteL G6, 6
-            noteL Gs6, 48
-            noteL Ds6, 24
-            note Gs6
-            noteL As6, 48
-            noteL F6, 24
-            note As6
-            noteL B6, 48
-            noteL Fs6, 24
-            note B6
-            note As6
-      inst 17
-      vol 13
-      setRelease 4
-            noteL F6, 8
-            note F6
-            note F6
-            noteL F6, 24
-      inst 9
-      vol 12
-      setRelease 1
-            noteL G6, 6
-            waitL 12
-            noteL G6, 6
-      setRelease 12
-            noteL C7, 60
-            noteL G6, 12
-      setRelease 4
-            note C7
-            note G7
-      setRelease 2
-            noteL F7, 48
-            noteL D7, 24
-            note As6
-      setRelease 1
-            noteL C7, 6
-            waitL 12
-            noteL As6, 6
-            noteL C7, 60
-            noteL As6, 6
-            note C7
-            noteL As6, 48
-            waitL 24
-            noteL G6, 6
-            waitL 12
-            noteL G6, 4
-            waitL 2
-      setRelease 12
-            noteL C7, 60
-            noteL G6, 12
-      setRelease 4
-            note C7
-            note G7
-      setRelease 2
-            noteL F7, 48
-            noteL D7, 24
-            note As6
-            noteL C7, 96
-      inst 16
-      vol 12
+    repeatEnd
+    repeatSection2Start
       vibrato 00h
             noteL As4, 36
             noteL A4, 6
@@ -415,6 +282,8 @@ Music_04_Channel_1:
             noteL G3, 12
             waitL 6
             note G3
+    repeatStart
+    countedLoopStart 2
             noteL C4, 12
             noteL C4, 6
             note C4
@@ -441,119 +310,48 @@ Music_04_Channel_1:
             note As3
             note As3
             note As3
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            note C4
-            note C4
-            note C4
-            note C4
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            note C4
-            note C4
-            note C4
-            note C4
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
+    countedLoopEnd
+    countedLoopStart 2
             noteL Ds4, 12
             noteL Ds4, 6
             note Ds4
-            noteL Ds4, 12
-            noteL Ds4, 6
-            note Ds4
-            noteL Ds4, 12
-            noteL Ds4, 6
+    countedLoopEnd
             note Ds4
             note Ds4
             note Ds4
             note Ds4
-            note Ds4
+    countedLoopStart 1
             noteL D4, 12
             noteL D4, 6
             note D4
-            noteL D4, 12
-            noteL D4, 6
-            note D4
+    countedLoopEnd
             noteL G3, 12
+    countedLoopStart 5
             noteL G3, 6
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
+    countedLoopEnd
+    countedLoopStart 2
             noteL Gs3, 12
             noteL Gs3, 6
             note Gs3
-            noteL Gs3, 12
-            noteL Gs3, 6
-            note Gs3
-            noteL Gs3, 12
-            noteL Gs3, 6
+    countedLoopEnd
             note Gs3
             note Gs3
             note Gs3
             note Gs3
-            note Gs3
+    countedLoopStart 2
             noteL As3, 12
             noteL As3, 6
             note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL As3, 12
-            noteL As3, 6
+    countedLoopEnd
             note As3
             note As3
             note As3
             note As3
-            note As3
+    countedLoopStart 2
             noteL Gs3, 12
             noteL Gs3, 6
             note Gs3
-            noteL Gs3, 12
-            noteL Gs3, 6
-            note Gs3
-            noteL Gs3, 12
-            noteL Gs3, 6
-            note Gs3
+    countedLoopEnd
             note Gs3
             note Gs3
             note Gs3
@@ -565,31 +363,23 @@ Music_04_Channel_1:
             note B3
             note B3
             noteL G3, 12
+    countedLoopStart 5
             noteL G3, 6
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
+    countedLoopEnd
+    countedLoopStart 2
             noteL Gs3, 12
             noteL Gs3, 6
             note Gs3
-            noteL Gs3, 12
-            noteL Gs3, 6
-            note Gs3
-            noteL Gs3, 12
-            noteL Gs3, 6
+    countedLoopEnd
             note Gs3
             note Gs3
             note Gs3
             note Gs3
-            note Gs3
+    countedLoopStart 1
             noteL As3, 12
             noteL As3, 6
             note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
+    countedLoopEnd
             noteL F3, 12
             noteL F3, 6
             note F3
@@ -619,417 +409,81 @@ Music_04_Channel_1:
             noteL As3, 24
             noteL G3, 18
             noteL G3, 6
+    countedLoopStart 2
             noteL C4, 12
             noteL C4, 6
             note C4
+    countedLoopEnd
+            note C4
+            note C4
+            note C4
+            note C4
+    countedLoopStart 2
+            noteL As3, 12
+            noteL As3, 6
+            note As3
+    countedLoopEnd
+            note As3
+            note As3
+            note As3
+            note As3
+    countedLoopStart 2
             noteL C4, 12
             noteL C4, 6
             note C4
-            noteL C4, 12
-            noteL C4, 6
+    countedLoopEnd
             note C4
             note C4
             note C4
             note C4
-            note C4
+    countedLoopStart 2
             noteL As3, 12
             noteL As3, 6
             note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            note C4
-            note C4
-            note C4
-            note C4
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
+    countedLoopEnd
             note B3
             note B3
             note B3
             note B3
+    countedLoopStart 2
             noteL C4, 12
             noteL C4, 6
             note C4
+    countedLoopEnd
+            note C4
+            note C4
+            note C4
+            note C4
+    countedLoopStart 2
+            noteL As3, 12
+            noteL As3, 6
+            note As3
+    countedLoopEnd
+            note As3
+            note As3
+            note As3
+            note As3
+    countedLoopStart 2
             noteL C4, 12
             noteL C4, 6
             note C4
-            noteL C4, 12
-            noteL C4, 6
+    countedLoopEnd
             note C4
             note C4
             note C4
             note C4
-            note C4
+    countedLoopStart 2
             noteL As3, 12
             noteL As3, 6
             note As3
-            noteL As3, 12
-            noteL As3, 6
+    countedLoopEnd
             note As3
-            noteL As3, 12
-            noteL As3, 6
             note As3
             note As3
+    repeatSection1Start
             note As3
-            note As3
-            note As3
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            note C4
-            note C4
-            note C4
-            note C4
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            note C4
-            note C4
-            note C4
-            note C4
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            note C4
-            note C4
-            note C4
-            note C4
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            note C4
-            note C4
-            note C4
-            note C4
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            noteL Ds4, 12
-            noteL Ds4, 6
-            note Ds4
-            noteL Ds4, 12
-            noteL Ds4, 6
-            note Ds4
-            noteL Ds4, 12
-            noteL Ds4, 6
-            note Ds4
-            note Ds4
-            note Ds4
-            note Ds4
-            note Ds4
-            noteL D4, 12
-            noteL D4, 6
-            note D4
-            noteL D4, 12
-            noteL D4, 6
-            note D4
-            noteL G3, 12
-            noteL G3, 6
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            noteL Gs3, 12
-            noteL Gs3, 6
-            note Gs3
-            noteL Gs3, 12
-            noteL Gs3, 6
-            note Gs3
-            noteL Gs3, 12
-            noteL Gs3, 6
-            note Gs3
-            note Gs3
-            note Gs3
-            note Gs3
-            note Gs3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            noteL Gs3, 12
-            noteL Gs3, 6
-            note Gs3
-            noteL Gs3, 12
-            noteL Gs3, 6
-            note Gs3
-            noteL Gs3, 12
-            noteL Gs3, 6
-            note Gs3
-            note Gs3
-            note Gs3
-            note Gs3
-            note Gs3
-            noteL G3, 12
-            noteL G3, 6
-            note G3
-            noteL B3, 8
-            note B3
-            note B3
-            noteL G3, 12
-            noteL G3, 6
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            noteL Gs3, 12
-            noteL Gs3, 6
-            note Gs3
-            noteL Gs3, 12
-            noteL Gs3, 6
-            note Gs3
-            noteL Gs3, 12
-            noteL Gs3, 6
-            note Gs3
-            note Gs3
-            note Gs3
-            note Gs3
-            note Gs3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL F3, 12
-            noteL F3, 6
-            note F3
-            note As3
-            note As3
-            note As3
-            note As3
-            noteL B3, 12
-            noteL B3, 6
-            note B3
-            noteL Fs3, 12
-            noteL Fs3, 6
-            note Fs3
-            noteL Ds4, 12
-            noteL Ds4, 6
-            note Ds4
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL D4, 8
-            note D4
-            note D4
-            noteL As3, 24
-            noteL G3, 18
-            noteL G3, 6
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            note C4
-            note C4
-            note C4
-            note C4
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            note C4
-            note C4
-            note C4
-            note C4
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            note B3
-            note B3
-            note B3
-            note B3
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            note C4
-            note C4
-            note C4
-            note C4
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            noteL C4, 12
-            noteL C4, 6
-            note C4
-            note C4
-            note C4
-            note C4
-            note C4
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            noteL As3, 12
-            noteL As3, 6
-            note As3
-            note As3
-            note As3
-            note As3
+    repeatEnd
+    repeatSection2Start
       sustain
             note As3
     mainLoopEnd
@@ -1091,6 +545,7 @@ Music_04_Channel_2:
             waitL 12
             noteL B4, 6
       setRelease 1
+    repeatStart
             noteL Ds5, 96
             noteL D5, 48
             note F5
@@ -1269,6 +724,7 @@ Music_04_Channel_2:
             note Ds5
             note D5
             note F5
+    repeatSection1Start
             note D5
             note Cs5
             note D5
@@ -1277,184 +733,8 @@ Music_04_Channel_2:
             note G5
             note Gs5
             note As5
-            noteL Ds5, 96
-            noteL D5, 48
-            note F5
-            noteL Ds5, 84
-            noteL D5, 6
-            note Ds5
-            noteL F5, 48
-            note D5
-            noteL Ds5, 96
-            noteL D5, 48
-            note F5
-            noteL G5, 24
-            note Ds5
-            note As4
-            note Ds5
-            noteL D5, 34
-            waitL 2
-            noteL G5, 6
-            note A5
-            noteL B5, 22
-            waitL 2
-            noteL G5, 24
-            noteL Gs4, 6
-            note G4
-            note Gs4
-            note As4
-            note C5
-            note As4
-            note C5
-            note D5
-            note Ds5
-            note D5
-            note Ds5
-            note F5
-            note G5
-            note F5
-            note G5
-            note Gs5
-            noteL As5, 36
-            noteL A5, 6
-            note As5
-            noteL D6, 24
-            note As5
-            noteL Gs4, 6
-            note G4
-            note Gs4
-            note As4
-            note C5
-            note As4
-            note C5
-            note D5
-            note Ds5
-            note D5
-            note Ds5
-            note F5
-            note G5
-            note F5
-            note G5
-            note Gs5
-            noteL D5, 24
-            noteL G5, 8
-            note G5
-            note G5
-            noteL G5, 24
-            note B5
-            noteL Gs4, 6
-            note G4
-            note Gs4
-            note As4
-            note C5
-            note As4
-            note C5
-            note D5
-            note Ds5
-            note D5
-            note Ds5
-            note F5
-            note G5
-            note F5
-            note G5
-            note Gs5
-            note As4
-            note A4
-            note As4
-            note C5
-            note D5
-            note C5
-            note D5
-            note Ds5
-            note F5
-            note E5
-            note F5
-            note G5
-            note Gs5
-            note G5
-            note Gs5
-            note A5
-            noteL B4, 36
-            noteL As4, 6
-            note B4
-            noteL B5, 36
-            noteL As5, 6
-            note B5
-            noteL As4, 24
-            noteL As5, 8
-            note As5
-            note As5
-            noteL As5, 24
-      inst 22
-      vol 12
-      setRelease 2
-            noteL B4, 6
-            waitL 12
-            noteL B4, 6
-      setRelease 1
-            noteL Ds5, 36
-            noteL D5, 6
-            note Ds5
-            noteL G5, 48
-            noteL F5, 36
-            noteL E5, 6
-            note F5
-            noteL D5, 24
-            note As4
-      inst 16
-      vol 12
-            noteL Ds5, 36
-            noteL D5, 6
-            note Ds5
-            noteL G5, 36
-            noteL F5, 6
-            note Ds5
-            noteL F5, 36
-            noteL E5, 6
-            note F5
-            noteL D6, 24
-      inst 22
-      vol 13
-      setRelease 2
-            noteL B4, 6
-            waitL 12
-            noteL B4, 6
-      setRelease 1
-            noteL Ds5, 36
-            noteL D5, 6
-            note Ds5
-            noteL G5, 48
-            noteL F5, 36
-            noteL E5, 6
-            note F5
-            noteL D5, 24
-            note As4
-      inst 16
-      vol 12
-            noteL C5, 6
-            note B4
-            note C5
-            note D5
-            note Ds5
-            note D5
-            note C5
-            note B4
-            note C5
-            note B4
-            note C5
-            note D5
-            note Ds5
-            note D5
-            note Ds5
-            note F5
-            note D5
-            note Cs5
-            note D5
-            note Ds5
-            note F5
-            note Ds5
-            note D5
-            note F5
+    repeatEnd
+    repeatSection2Start
             noteL As5, 24
       shifting 32
       stereo 040h
@@ -1510,6 +790,7 @@ Music_04_Channel_3:
             noteL D7, 72
       vol 11
             noteL B6, 24
+    repeatStart
             noteL C7, 48
             noteL G6, 24
             note C7
@@ -1541,6 +822,7 @@ Music_04_Channel_3:
             note C7
             noteL D7, 24
       vol 10
+    repeatSection1Start
       setRelease 2
             noteL B6, 6
             waitL 12
@@ -1566,20 +848,15 @@ Music_04_Channel_3:
             note D7
       vol 12
             noteL B4, 6
-            note Cs5
+    countedLoopStart 1
+            noteL Cs5, 6
             note Ds5
             note F5
             note Fs5
             note Gs5
             note As5
             note B5
-            note Cs5
-            note Ds5
-            note F5
-            note Fs5
-            note Gs5
-            note As5
-            note B5
+    countedLoopEnd
             note Cs6
             note As5
             note A5
@@ -1627,37 +904,9 @@ Music_04_Channel_3:
             noteL D7, 48
             noteL As6, 24
             note D7
-            noteL C7, 48
-            noteL G6, 24
-            note C7
-            noteL As6, 48
-            noteL F6, 24
-            note D6
-            noteL C6, 36
-            noteL As5, 6
-            note C6
-            noteL C7, 36
-            noteL As6, 6
-            note C7
-            noteL As6, 48
-            noteL D7, 24
-            note As6
-            noteL C7, 48
-            noteL G6, 24
-            note C7
-            noteL As6, 48
-            note D6
-            noteL Ds6, 36
-            noteL Ds6, 6
-            note F6
-            noteL G6, 36
-            noteL G6, 6
-            note A6
-            noteL B6, 36
-            noteL B6, 6
-            note C7
-            noteL D7, 24
-      vol 10
+    repeatEnd
+    repeatSection2Start
+    repeatStart
             noteL B6, 6
             waitL 12
             noteL B6, 6
@@ -1665,37 +914,28 @@ Music_04_Channel_3:
             noteL Gs6, 24
             note C7
             noteL D7, 48
+    repeatSection1Start
             note As6
             note C7
             noteL Gs6, 24
             note C7
             noteL B6, 48
             noteL G6, 24
-            noteL B6, 6
-            waitL 12
-            noteL B6, 6
-            noteL C7, 48
-            noteL Gs6, 24
-            note C7
-            noteL D7, 48
+    repeatEnd
+    repeatSection2Start
             noteL As6, 24
             note D7
       vol 12
             noteL B4, 6
-            note Cs5
+    countedLoopStart 1
+            noteL Cs5, 6
             note Ds5
             note F5
             note Fs5
             note Gs5
             note As5
             note B5
-            note Cs5
-            note Ds5
-            note F5
-            note Fs5
-            note Gs5
-            note As5
-            note B5
+    countedLoopEnd
             note Cs6
             note As5
             note A5
@@ -1710,12 +950,14 @@ Music_04_Channel_3:
       vol 11
             noteL C6, 36
             noteL As5, 6
+    repeatStart
             note C6
             noteL Ds6, 48
             noteL D6, 36
             noteL Cs6, 6
             note D6
             noteL As6, 24
+    repeatSection1Start
             note D6
             noteL C6, 36
             noteL C6, 6
@@ -1730,12 +972,8 @@ Music_04_Channel_3:
             note D6
             noteL C6, 36
             noteL B5, 6
-            note C6
-            noteL Ds6, 48
-            noteL D6, 36
-            noteL Cs6, 6
-            note D6
-            noteL As6, 24
+    repeatEnd
+    repeatSection2Start
             note D7
             noteL Ds7, 84
             noteL D7, 6
@@ -1811,6 +1049,7 @@ Music_04_Channel_4:
       inst 21
       vol 9
       setRelease 2
+    repeatStart
             noteL G5, 6
             waitL 12
             noteL G5, 6
@@ -1951,151 +1190,14 @@ Music_04_Channel_4:
       stereo 040h
       inst 16
       vol 9
+    repeatSection1Start
             noteL As4, 48
             noteL D5, 24
       stereo 080h
       inst 21
       vol 9
-            noteL G5, 6
-            waitL 12
-            noteL G5, 6
-      setRelease 1
-            noteL C6, 48
-            waitL 12
-            note G5
-            noteL C6, 9
-            waitL 3
-            noteL G6, 9
-            waitL 3
-      setRelease 2
-            noteL F6, 48
-            noteL D6, 24
-            note As5
-      setRelease 1
-            noteL C6, 6
-            waitL 12
-            noteL As5, 6
-            noteL C6, 72
-      stereo 040h
-      inst 16
-      vol 9
-            noteL As4, 48
-            noteL As5, 24
-      stereo 080h
-      inst 21
-      vol 9
-      setRelease 2
-            noteL G5, 6
-            waitL 12
-            noteL G5, 6
-      setRelease 1
-            noteL C6, 48
-            waitL 12
-            note G5
-            noteL C6, 9
-            waitL 3
-            noteL G6, 9
-            waitL 3
-      setRelease 2
-            noteL F6, 48
-            noteL As6, 24
-            note F6
-            noteL G6, 6
-            waitL 12
-      setRelease 1
-            noteL F6, 6
-            noteL G6, 120
-            waitL 24
-      stereo 040h
-      inst 19
-      vol 10
-            noteL G6, 5
-            waitL 13
-            noteL G6, 6
-            noteL Gs6, 48
-            noteL Ds6, 24
-            note Gs6
-            noteL As6, 48
-            note F6
-            note Gs6
-            noteL Ds6, 24
-            note Gs6
-            noteL G6, 22
-      stereo 080h
-      inst 17
-      vol 11
-      setRelease 4
-            noteL D6, 8
-            note D6
-            note D6
-            noteL D6, 26
-      stereo 040h
-      inst 19
-      vol 10
-      setRelease 1
-            noteL G6, 6
-            waitL 12
-            noteL G6, 6
-            noteL Gs6, 48
-            noteL Ds6, 24
-            note Gs6
-            noteL As6, 48
-            noteL F6, 24
-            note As6
-            noteL B6, 48
-            noteL Fs6, 24
-            note B6
-            noteL As6, 22
-      stereo 080h
-      inst 17
-      vol 11
-      setRelease 4
-            noteL F6, 8
-            note F6
-            note F6
-            noteL F6, 26
-      inst 9
-      vol 11
-      setRelease 1
-            noteL G6, 6
-            waitL 12
-            noteL G6, 6
-      setRelease 12
-            noteL C7, 60
-            noteL G6, 12
-      setRelease 4
-            note C7
-            note G7
-      setRelease 2
-            noteL F7, 48
-            noteL D7, 24
-            note As6
-      setRelease 1
-            noteL C7, 6
-            waitL 12
-            noteL As6, 6
-            noteL C7, 60
-            noteL As6, 6
-            note C7
-            noteL As6, 48
-            waitL 24
-            noteL G6, 6
-            waitL 12
-            noteL G6, 6
-      setRelease 12
-            noteL C7, 60
-            noteL G6, 12
-      setRelease 4
-            note C7
-            note G7
-      setRelease 2
-            noteL F7, 48
-            noteL D7, 24
-            note As6
-            noteL C7, 96
-      stereo 040h
-      inst 16
-      vol 9
+    repeatEnd
+    repeatSection2Start
       vibrato 00h
             noteL As4, 36
             noteL A4, 6
@@ -2135,6 +1237,7 @@ Music_04_Channel_5:
             sampleL 19, 6
             sampleL 19, 24
             sampleL 1, 18
+    countedLoopStart 23
             sampleL 1, 6
             sampleL 1, 12
             sampleL 2, 2
@@ -2185,1156 +1288,7 @@ Music_04_Channel_5:
             sampleL 1, 6
             sample 1
             sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 12
-            sampleL 2, 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sample 2
-            sampleL 1, 6
-            sample 1
-            sample 1
+    countedLoopEnd
             sample 1
     mainLoopEnd
 Music_04_Channel_6:
@@ -3352,43 +1306,22 @@ Music_04_Channel_6:
       setRelease 24
             psgNoteL C6, 24
       psgInst 0ah
+    repeatStart
       setRelease 8
             psgNoteL G5, 8
             psgNote Gs5
             psgNote A5
       setRelease 3
+    countedLoopStart 5
             psgNoteL As5, 3
             psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
+    countedLoopEnd
+    repeatSection1Start
       setRelease 6
             psgNoteL A5, 6
             psgNote Gs5
-      setRelease 8
-            psgNoteL G5, 8
-            psgNote Gs5
-            psgNote A5
-      setRelease 3
-            psgNoteL As5, 3
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
+    repeatEnd
+    repeatSection2Start
             psgNote As5
             psgNote C6
             psgNote As5
@@ -3404,77 +1337,31 @@ Music_04_Channel_6:
       setRelease 24
             psgNoteL C6, 24
       psgInst 0ah
-      setRelease 8
-            psgNoteL G5, 8
-            psgNote Gs5
-            psgNote A5
-      setRelease 3
-            psgNoteL As5, 3
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
+    repeatEnd
+    repeatSection3Start
       setRelease 6
             psgNoteL G5, 6
             psgNote As5
       setRelease 3
+    countedLoopStart 15
             psgNoteL D6, 3
             psgNote Ds6
-            psgNote D6
-            psgNote Ds6
-            psgNote D6
-            psgNote Ds6
-            psgNote D6
-            psgNote Ds6
-            psgNote D6
-            psgNote Ds6
-            psgNote D6
-            psgNote Ds6
-            psgNote D6
-            psgNote Ds6
-            psgNote D6
-            psgNote Ds6
-            psgNote D6
-            psgNote Ds6
-            psgNote D6
-            psgNote Ds6
-            psgNote D6
-            psgNote Ds6
-            psgNote D6
-            psgNote Ds6
-            psgNote D6
-            psgNote Ds6
-            psgNote D6
-            psgNote Ds6
-            psgNote D6
-            psgNote Ds6
-            psgNote D6
-            psgNote Ds6
+    countedLoopEnd
       psgInst 08h
       setRelease 1
+    repeatStart
             psgNoteL C3, 48
             psgNote Ds3
             psgNote D3
             psgNote F3
-            psgNote C3
+    countedLoopStart 1
+            psgNoteL C3, 48
             psgNote Ds3
             psgNoteL D3, 36
             psgNoteL D3, 6
             psgNote Ds3
             psgNoteL F3, 48
-            psgNote C3
-            psgNote Ds3
-            psgNoteL D3, 36
-            psgNoteL D3, 6
-            psgNote Ds3
-            psgNoteL F3, 48
+    countedLoopEnd
             psgNote Ds3
             psgNote As2
             psgNote D3
@@ -3564,117 +1451,15 @@ Music_04_Channel_6:
       psgInst 0ah
             psgNoteL D5, 6
             psgNoteL Ds5, 24
+    repeatSection1Start
       psgInst 09h
             psgNoteL F5, 48
             psgNoteL D5, 24
       psgInst 00h
             wait
       psgInst 08h
-            psgNoteL C3, 48
-            psgNote Ds3
-            psgNote D3
-            psgNote F3
-            psgNote C3
-            psgNote Ds3
-            psgNoteL D3, 36
-            psgNoteL D3, 6
-            psgNote Ds3
-            psgNoteL F3, 48
-            psgNote C3
-            psgNote Ds3
-            psgNoteL D3, 36
-            psgNoteL D3, 6
-            psgNote Ds3
-            psgNoteL F3, 48
-            psgNote Ds3
-            psgNote As2
-            psgNote D3
-            psgNoteL G3, 24
-            psgNote D3
-            psgNoteL C3, 96
-            psgNoteL D3, 48
-            psgNote F3
-            psgNoteL C3, 96
-            psgNoteL B2, 48
-            psgNoteL G3, 24
-            psgNote D3
-            psgNoteL C3, 96
-            psgNoteL D3, 48
-            psgNote F3
-            psgNote Ds3
-            psgNote Fs3
-            psgNoteL F3, 72
-      psgInst 00h
-            waitL 48
-      psgInst 0ah
-            psgNoteL G5, 6
-      psgInst 00h
-            waitL 12
-      psgInst 0ah
-            psgNoteL G5, 6
-            psgNoteL Ds5, 24
-            psgNote C5
-      psgInst 09h
-            psgNote As4
-      psgInst 0ah
-            psgNoteL F5, 6
-      psgInst 00h
-            waitL 12
-      psgInst 0ah
-            psgNoteL F5, 6
-            psgNoteL D5, 24
-            psgNote As4
-      psgInst 09h
-            psgNoteL Ds5, 6
-      psgInst 00h
-            waitL 12
-      psgInst 09h
-            psgNoteL D5, 6
-            psgNoteL Ds5, 24
-      psgInst 0ah
-            psgNoteL Ds5, 6
-      psgInst 00h
-            waitL 12
-      psgInst 0ah
-            psgNoteL D5, 6
-            psgNoteL Ds5, 24
-      psgInst 09h
-            psgNoteL F5, 48
-            psgNoteL D5, 24
-            psgNote B4
-      psgInst 00h
-            wait
-      psgInst 0ah
-            psgNoteL G5, 6
-      psgInst 00h
-            waitL 12
-      psgInst 0ah
-            psgNoteL G5, 6
-            psgNoteL Ds5, 24
-            psgNote C5
-      psgInst 09h
-            psgNote As4
-      psgInst 0ah
-            psgNoteL F5, 6
-      psgInst 00h
-            waitL 12
-      psgInst 09h
-            psgNoteL F5, 6
-            psgNoteL D5, 24
-            psgNote As4
-            psgNoteL Ds5, 6
-      psgInst 00h
-            waitL 12
-      psgInst 09h
-            psgNoteL D5, 6
-            psgNoteL Ds5, 24
-      psgInst 0ah
-            psgNoteL Ds5, 6
-      psgInst 00h
-            waitL 12
-      psgInst 0ah
-            psgNoteL D5, 6
-            psgNoteL Ds5, 24
+    repeatEnd
+    repeatSection2Start
             psgNoteL F5, 48
             psgNoteL D5, 24
       psgInst 09h
@@ -3707,18 +1492,10 @@ Music_04_Channel_7:
             psgNote Cs6
             psgNote D6
       setRelease 3
+    countedLoopStart 5
             psgNoteL Ds6, 3
             psgNote F6
-            psgNote Ds6
-            psgNote F6
-            psgNote Ds6
-            psgNote F6
-            psgNote Ds6
-            psgNote F6
-            psgNote Ds6
-            psgNote F6
-            psgNote Ds6
-            psgNote F6
+    countedLoopEnd
       setRelease 6
             psgNoteL D6, 6
             psgNote Cs6
@@ -3727,22 +1504,10 @@ Music_04_Channel_7:
             psgNote Cs6
             psgNote D6
       setRelease 3
+    countedLoopStart 7
             psgNoteL Ds6, 3
             psgNote Fs6
-            psgNote Ds6
-            psgNote Fs6
-            psgNote Ds6
-            psgNote Fs6
-            psgNote Ds6
-            psgNote Fs6
-            psgNote Ds6
-            psgNote Fs6
-            psgNote Ds6
-            psgNote Fs6
-            psgNote Ds6
-            psgNote Fs6
-            psgNote Ds6
-            psgNote Fs6
+    countedLoopEnd
       psgInst 09h
       setRelease 4
             psgNoteL C5, 4
@@ -3759,14 +1524,10 @@ Music_04_Channel_7:
             psgNote Cs6
             psgNote D6
       setRelease 3
+    countedLoopStart 3
             psgNoteL Ds6, 3
             psgNote F6
-            psgNote Ds6
-            psgNote F6
-            psgNote Ds6
-            psgNote F6
-            psgNote Ds6
-            psgNote F6
+    countedLoopEnd
             psgNote Ds6
       setRelease 2
             psgNoteL F6, 2
@@ -3779,40 +1540,13 @@ Music_04_Channel_7:
             psgNoteL C6, 6
             psgNote Ds6
       setRelease 3
+    countedLoopStart 15
             psgNoteL G6, 3
             psgNote Gs6
-            psgNote G6
-            psgNote Gs6
-            psgNote G6
-            psgNote Gs6
-            psgNote G6
-            psgNote Gs6
-            psgNote G6
-            psgNote Gs6
-            psgNote G6
-            psgNote Gs6
-            psgNote G6
-            psgNote Gs6
-            psgNote G6
-            psgNote Gs6
-            psgNote G6
-            psgNote Gs6
-            psgNote G6
-            psgNote Gs6
-            psgNote G6
-            psgNote Gs6
-            psgNote G6
-            psgNote Gs6
-            psgNote G6
-            psgNote Gs6
-            psgNote G6
-            psgNote Gs6
-            psgNote G6
-            psgNote Gs6
-            psgNote G6
-            psgNote Gs6
+    countedLoopEnd
       psgInst 08h
       setRelease 1
+    repeatStart
             psgNoteL G2, 48
             psgNote C3
             psgNote As2
@@ -3904,103 +1638,15 @@ Music_04_Channel_7:
       psgInst 0ah
             psgNoteL As4, 6
             psgNoteL C5, 24
+    repeatSection1Start
       psgInst 09h
             psgNoteL D5, 48
             psgNoteL As4, 24
       psgInst 00h
             wait
       psgInst 08h
-            psgNoteL G2, 48
-            psgNote C3
-            psgNote As2
-            psgNote D3
-            psgNote G2
-            psgNote C3
-            psgNoteL As2, 96
-            psgNoteL G2, 48
-            psgNote C3
-            psgNote As2
-            psgNote D3
-            psgNote As2
-            psgNote Ds3
-            psgNote G2
-            psgNoteL B2, 24
-            psgNote G2
-            psgNoteL Gs2, 96
-            psgNoteL As2, 48
-            psgNote As2
-            psgNoteL Gs2, 96
-            psgNoteL G2, 48
-            psgNoteL B2, 24
-            psgNote B2
-            psgNoteL Gs2, 96
-            psgNoteL As2, 48
-            psgNote As2
-            psgNote B2
-            psgNote Ds3
-            psgNoteL D3, 72
-      psgInst 00h
-            waitL 48
-      psgInst 09h
-            psgNoteL Ds5, 6
-      psgInst 00h
-            waitL 12
-      psgInst 09h
-            psgNoteL Ds5, 6
-            psgNoteL C5, 24
-            psgNote G4
-      psgInst 00h
-            wait
-      psgInst 09h
-            psgNoteL D5, 6
-      psgInst 00h
-            waitL 12
-      psgInst 09h
-            psgNoteL D5, 6
-            psgNoteL As4, 24
-            psgNote F4
-      psgInst 00h
-            waitL 48
-      psgInst 0ah
-            psgNoteL C5, 6
-      psgInst 00h
-            waitL 12
-      psgInst 0ah
-            psgNoteL As4, 6
-            psgNoteL C5, 24
-      psgInst 09h
-            psgNoteL D5, 48
-            psgNoteL As4, 24
-            psgNote D5
-      psgInst 00h
-            wait
-      psgInst 09h
-            psgNoteL Ds5, 6
-      psgInst 00h
-            waitL 12
-      psgInst 09h
-            psgNoteL Ds5, 6
-            psgNoteL C5, 24
-            psgNote G4
-      psgInst 00h
-            wait
-      psgInst 09h
-            psgNoteL D5, 6
-      psgInst 00h
-            waitL 12
-      psgInst 09h
-            psgNoteL D5, 6
-            psgNoteL As4, 24
-            psgNote F4
-      psgInst 00h
-            waitL 48
-      psgInst 0ah
-            psgNoteL C5, 6
-      psgInst 00h
-            waitL 12
-      psgInst 0ah
-            psgNoteL As4, 6
-            psgNoteL C5, 24
+    repeatEnd
+    repeatSection2Start
             psgNoteL D5, 48
             psgNoteL As4, 24
       psgInst 09h

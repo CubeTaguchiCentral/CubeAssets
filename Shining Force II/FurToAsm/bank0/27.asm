@@ -20,10 +20,9 @@ Music_27_Channel_0:
       vol 12
       setRelease 5
       vibrato 05ch
+    countedLoopStart 3
             noteL F6, 8
-            note F6
-            note F6
-            note F6
+    countedLoopEnd
       vol 9
             note F6
       vol 12
@@ -139,12 +138,9 @@ Music_27_Channel_5:
             sample 3
             sample 3
             sample 3
-            sample 4
-            sample 4
-            sample 4
-            sample 4
-            sample 4
-            sample 4
+    countedLoopStart 5
+            sampleL 4, 3
+    countedLoopEnd
             sample 3
             sample 3
             sample 3

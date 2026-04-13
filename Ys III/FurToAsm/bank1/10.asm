@@ -22,18 +22,9 @@ Music_10_Channel_0:
       vibrato 011h
       noSlide
       vibrato 010h
+    countedLoopStart 11
             noteL G4, 6
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
+    countedLoopEnd
       sustain
             note G4
             note F4
@@ -57,18 +48,9 @@ Music_10_Channel_1:
             noteL As4, 24
       noSlide
       vibrato 010h
+    countedLoopStart 11
             noteL As4, 6
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
+    countedLoopEnd
       sustain
             note As4
             note Gs4
@@ -89,18 +71,9 @@ Music_10_Channel_2:
       vol 15
       vibrato 00h
       setRelease 1
+    countedLoopStart 11
             noteL C2, 12
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
+    countedLoopEnd
       vol 12
             note C2
       vol 10
@@ -119,18 +92,9 @@ Music_10_Channel_3:
       vibrato 011h
       noSlide
       vibrato 010h
+    countedLoopStart 11
             noteL G4, 6
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
+    countedLoopEnd
       sustain
             note G4
             note F4
@@ -150,16 +114,9 @@ Music_10_Channel_4:
       inst 54
       vibrato 00h
       vol 10
+    countedLoopStart 9
             noteL C3, 12
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
+    countedLoopEnd
       vol 9
             note C3
             note C3

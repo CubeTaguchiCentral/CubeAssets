@@ -46,72 +46,22 @@ Music_19_Channel_1:
       vol 9
       setRelease 1
       vibrato 00h
+    countedLoopStart 5
             noteL Fs6, 3
             waitL 5
       stereo 080h
             noteL Fs6, 3
             waitL 5
       stereo 040h
-            noteL Fs6, 3
-            waitL 5
-      stereo 080h
-            noteL Fs6, 3
-            waitL 5
-      stereo 040h
-            noteL Fs6, 3
-            waitL 5
-      stereo 080h
-            noteL Fs6, 3
-            waitL 5
-      stereo 040h
-            noteL Fs6, 3
-            waitL 5
-      stereo 080h
-            noteL Fs6, 3
-            waitL 5
-      stereo 040h
-            noteL Fs6, 3
-            waitL 5
-      stereo 080h
-            noteL Fs6, 3
-            waitL 5
-      stereo 040h
-            noteL Fs6, 3
-            waitL 5
-      stereo 080h
-            noteL Fs6, 3
-            waitL 5
-      stereo 040h
+    countedLoopEnd
+    countedLoopStart 4
             noteL F6, 3
             waitL 5
       stereo 080h
             noteL F6, 3
             waitL 5
       stereo 040h
-            noteL F6, 3
-            waitL 5
-      stereo 080h
-            noteL F6, 3
-            waitL 5
-      stereo 040h
-            noteL F6, 3
-            waitL 5
-      stereo 080h
-            noteL F6, 3
-            waitL 5
-      stereo 040h
-            noteL F6, 3
-            waitL 5
-      stereo 080h
-            noteL F6, 3
-            waitL 5
-      stereo 040h
-            noteL F6, 3
-            waitL 5
-      stereo 080h
-            noteL F6, 3
-            waitL 5
-      stereo 040h
+    countedLoopEnd
             noteL F6, 3
             waitL 5
       stereo 080h
@@ -163,6 +113,7 @@ Music_19_Channel_4:
     channel_end
 Music_19_Channel_5:
       stereo 0c0h
+    countedLoopStart 1
             sampleL 5, 1
             sample 5
             sampleL 1, 14
@@ -179,22 +130,7 @@ Music_19_Channel_5:
             sampleL 5, 3
             sample 5
             sample 5
-            sampleL 5, 1
-            sample 5
-            sampleL 1, 14
-            sampleL 1, 7
-            sampleL 5, 1
-            sample 5
-            sampleL 1, 22
-            sampleL 5, 1
-            sample 5
-            sampleL 1, 22
-            sampleL 5, 1
-            sample 5
-            sampleL 1, 14
-            sampleL 5, 3
-            sample 5
-            sample 5
+    countedLoopEnd
             sampleL 5, 1
             sample 5
             sampleL 1, 10

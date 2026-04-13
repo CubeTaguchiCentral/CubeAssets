@@ -40,18 +40,14 @@ Music_17_Channel_0:
             note Gs4
             noteL E4, 24
             noteL Cs4, 36
+    countedLoopStart 1
             noteL B3, 10
             noteL Cs4, 2
             noteL Ds4, 24
             note Ds4
             note As4
             noteL Gs4, 12
-            noteL B3, 10
-            noteL Cs4, 2
-            noteL Ds4, 24
-            note Ds4
-            note As4
-            noteL Gs4, 12
+    countedLoopEnd
             note Fs3
             note Cs4
             note Gs4
@@ -140,14 +136,10 @@ Music_17_Channel_1:
             noteL Cs6, 204
       inst 3
       vol 10
+    countedLoopStart 3
             noteL As5, 6
             note B5
-            note As5
-            note B5
-            note As5
-            note B5
-            note As5
-            note B5
+    countedLoopEnd
             note Gs5
             note As5
             note Gs5
@@ -156,14 +148,10 @@ Music_17_Channel_1:
             note Gs5
             note F5
             note Fs5
-            note As6
+    countedLoopStart 3
+            noteL As6, 6
             note B6
-            note As6
-            note B6
-            note As6
-            note B6
-            note As6
-            note B6
+    countedLoopEnd
             note Gs6
             note As6
             note Gs6
@@ -472,69 +460,32 @@ Music_17_Channel_4:
     channel_end
 Music_17_Channel_5:
             waitL 24
+    countedLoopStart 2
             sampleL 0, 36
             sampleL 0, 48
             sampleL 0, 12
+    countedLoopEnd
             sampleL 0, 36
-            sampleL 0, 48
-            sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 48
-            sampleL 0, 12
-            sampleL 0, 36
+    countedLoopStart 3
             sampleL 0, 48
             sampleL 0, 12
             sample 0
             sampleL 0, 24
-            sampleL 0, 48
-            sampleL 0, 12
-            sample 0
-            sampleL 0, 24
-            sampleL 0, 48
-            sampleL 0, 12
-            sample 0
-            sampleL 0, 24
-            sampleL 0, 48
-            sampleL 0, 12
-            sample 0
-            sampleL 0, 24
+    countedLoopEnd
+    countedLoopStart 1
             sampleL 0, 48
             sampleL 0, 12
             sampleL 0, 36
+    countedLoopEnd
             sampleL 0, 48
             sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 48
-            sampleL 0, 12
             sample 0
+    countedLoopStart 6
             sampleL 0, 24
             sample 0
             sampleL 0, 36
             sampleL 0, 12
-            sampleL 0, 24
-            sample 0
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 24
-            sample 0
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 24
-            sample 0
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 24
-            sample 0
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 24
-            sample 0
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 24
-            sample 0
-            sampleL 0, 36
-            sampleL 0, 12
+    countedLoopEnd
             sampleL 0, 24
             sampleL 0, 60
     channel_end

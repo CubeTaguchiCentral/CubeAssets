@@ -29,6 +29,7 @@ Music_12_Channel_0:
       stereo 080h
       setRelease 1
             waitL 6
+    countedLoopStart 6
             noteL G5, 12
             note As5
             note F5
@@ -45,102 +46,7 @@ Music_12_Channel_0:
             note D6
             note C5
             note F5
-            note G5
-            note As5
-            note F5
-            note G5
-            note As5
-            note C6
-            note Gs5
-            note As5
-            note C6
-            note Ds6
-            note As5
-            note F6
-            note Ds6
-            note D6
-            note C5
-            note F5
-            note G5
-            note As5
-            note F5
-            note G5
-            note As5
-            note C6
-            note Gs5
-            note As5
-            note C6
-            note Ds6
-            note As5
-            note F6
-            note Ds6
-            note D6
-            note C5
-            note F5
-            note G5
-            note As5
-            note F5
-            note G5
-            note As5
-            note C6
-            note Gs5
-            note As5
-            note C6
-            note Ds6
-            note As5
-            note F6
-            note Ds6
-            note D6
-            note C5
-            note F5
-            note G5
-            note As5
-            note F5
-            note G5
-            note As5
-            note C6
-            note Gs5
-            note As5
-            note C6
-            note Ds6
-            note As5
-            note F6
-            note Ds6
-            note D6
-            note C5
-            note F5
-            note G5
-            note As5
-            note F5
-            note G5
-            note As5
-            note C6
-            note Gs5
-            note As5
-            note C6
-            note Ds6
-            note As5
-            note F6
-            note Ds6
-            note D6
-            note C5
-            note F5
-            note G5
-            note As5
-            note F5
-            note G5
-            note As5
-            note C6
-            note Gs5
-            note As5
-            note C6
-            note Ds6
-            note As5
-            note F6
-            note Ds6
-            note D6
-            note C5
-            note F5
+    countedLoopEnd
             note G5
             note As5
             note F5
@@ -158,6 +64,7 @@ Music_12_Channel_0:
       inst 41
       vol 10
             note Ds6
+    repeatStart
             note D6
             note As5
             note D6
@@ -172,6 +79,7 @@ Music_12_Channel_0:
             noteL Gs5, 12
             note G5
             note F5
+    repeatSection1Start
             note C6
             noteL As5, 24
             note Gs5
@@ -181,20 +89,8 @@ Music_12_Channel_0:
             note Gs5
             noteL As5, 48
             noteL Ds6, 12
-            note D6
-            note As5
-            note D6
-            noteL C6, 24
-            note Gs5
-            noteL D6, 12
-            note C6
-            note As5
-            note D6
-            noteL C6, 24
-            note G5
-            noteL Gs5, 12
-            note G5
-            note F5
+    repeatEnd
+    repeatSection2Start
             note Ds5
             noteL D5, 24
             note F5
@@ -219,18 +115,11 @@ Music_12_Channel_1:
             waitL 180
       vibrato 05ah
             noteL C4, 6
-            note As3
+    countedLoopStart 3
+            noteL As3, 6
             noteL C4, 96
             noteL Gs3, 48
-            note As3
-            noteL C4, 96
-            noteL Gs3, 48
-            note As3
-            noteL C4, 96
-            noteL Gs3, 48
-            note As3
-            noteL C4, 96
-            noteL Gs3, 48
+    countedLoopEnd
             noteL As3, 24
             note F4
             noteL C4, 96
@@ -278,6 +167,7 @@ Music_12_Channel_2:
             waitL 12
       setRelease 1
       vibrato 05ch
+    repeatStart
             note Ds6
             note D6
             note Ds6
@@ -291,6 +181,7 @@ Music_12_Channel_2:
             note D6
             note F6
             wait
+    repeatSection1Start
             note Ds6
             note D6
             note Ds6
@@ -304,19 +195,8 @@ Music_12_Channel_2:
             note F6
             note D6
             wait
-            note Ds6
-            note D6
-            note Ds6
-            noteL C6, 48
-            waitL 12
-            note Gs5
-            note As5
-            note C6
-            note As5
-            note C6
-            note D6
-            note F6
-            wait
+    repeatEnd
+    repeatSection2Start
             note G6
             note F6
             note G6
@@ -388,18 +268,11 @@ Music_12_Channel_3:
             waitL 180
       vibrato 05ah
             noteL C4, 6
-            note As3
+    countedLoopStart 3
+            noteL As3, 6
             noteL C4, 96
             noteL Gs3, 48
-            note As3
-            noteL C4, 96
-            noteL Gs3, 48
-            note As3
-            noteL C4, 96
-            noteL Gs3, 48
-            note As3
-            noteL C4, 96
-            noteL Gs3, 48
+    countedLoopEnd
             noteL As3, 24
             note F4
             noteL C4, 96
@@ -449,6 +322,7 @@ Music_12_Channel_4:
             waitL 12
       setRelease 1
       vibrato 05ch
+    repeatStart
             note Ds6
             note D6
             note Ds6
@@ -462,6 +336,7 @@ Music_12_Channel_4:
             note D6
             note F6
             wait
+    repeatSection1Start
             note Ds6
             note D6
             note Ds6
@@ -475,19 +350,8 @@ Music_12_Channel_4:
             note F6
             note D6
             wait
-            note Ds6
-            note D6
-            note Ds6
-            noteL C6, 48
-            waitL 12
-            note Gs5
-            note As5
-            note C6
-            note As5
-            note C6
-            note D6
-            note F6
-            wait
+    repeatEnd
+    repeatSection2Start
             note G6
             note F6
             note G6
@@ -562,6 +426,7 @@ Music_12_Channel_5:
       stereo 040h
       setRelease 1
             waitL 7
+    countedLoopStart 6
             noteL G5, 12
             note As5
             note F5
@@ -578,102 +443,7 @@ Music_12_Channel_5:
             note D6
             note C5
             note F5
-            note G5
-            note As5
-            note F5
-            note G5
-            note As5
-            note C6
-            note Gs5
-            note As5
-            note C6
-            note Ds6
-            note As5
-            note F6
-            note Ds6
-            note D6
-            note C5
-            note F5
-            note G5
-            note As5
-            note F5
-            note G5
-            note As5
-            note C6
-            note Gs5
-            note As5
-            note C6
-            note Ds6
-            note As5
-            note F6
-            note Ds6
-            note D6
-            note C5
-            note F5
-            note G5
-            note As5
-            note F5
-            note G5
-            note As5
-            note C6
-            note Gs5
-            note As5
-            note C6
-            note Ds6
-            note As5
-            note F6
-            note Ds6
-            note D6
-            note C5
-            note F5
-            note G5
-            note As5
-            note F5
-            note G5
-            note As5
-            note C6
-            note Gs5
-            note As5
-            note C6
-            note Ds6
-            note As5
-            note F6
-            note Ds6
-            note D6
-            note C5
-            note F5
-            note G5
-            note As5
-            note F5
-            note G5
-            note As5
-            note C6
-            note Gs5
-            note As5
-            note C6
-            note Ds6
-            note As5
-            note F6
-            note Ds6
-            note D6
-            note C5
-            note F5
-            note G5
-            note As5
-            note F5
-            note G5
-            note As5
-            note C6
-            note Gs5
-            note As5
-            note C6
-            note Ds6
-            note As5
-            note F6
-            note Ds6
-            note D6
-            note C5
-            note F5
+    countedLoopEnd
             note G5
             note As5
             note F5
@@ -691,6 +461,7 @@ Music_12_Channel_5:
       inst 41
       vol 10
             note Ds6
+    repeatStart
             note D6
             note As5
             note D6
@@ -705,6 +476,7 @@ Music_12_Channel_5:
             noteL Gs5, 12
             note G5
             note F5
+    repeatSection1Start
             note C6
             noteL As5, 24
             note Gs5
@@ -714,20 +486,8 @@ Music_12_Channel_5:
             note Gs5
             noteL As5, 48
             noteL Ds6, 12
-            note D6
-            note As5
-            note D6
-            noteL C6, 24
-            note Gs5
-            noteL D6, 12
-            note C6
-            note As5
-            note D6
-            noteL C6, 24
-            note G5
-            noteL Gs5, 12
-            note G5
-            note F5
+    repeatEnd
+    repeatSection2Start
             note Ds5
             noteL D5, 24
             note F5
@@ -749,6 +509,7 @@ Music_12_Channel_6:
             psgNote F5
     mainLoopStart
       setRelease 6
+    countedLoopStart 22
             psgNoteL G4, 6
             psgNote C5
             psgNote F5
@@ -765,370 +526,12 @@ Music_12_Channel_6:
             psgNote G4
             psgNote C5
             psgNote F5
-            psgNote G4
+    countedLoopEnd
+    countedLoopStart 3
+            psgNoteL G4, 6
             psgNote C5
             psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
+    countedLoopEnd
             psgNote G4
             psgNote G4
             psgNote C5
@@ -1147,6 +550,7 @@ Music_12_Channel_7:
     mainLoopStart
             waitL 2
       setRelease 6
+    countedLoopStart 22
             psgNoteL F5, 6
             psgNote G4
             psgNote C5
@@ -1163,370 +567,12 @@ Music_12_Channel_7:
             psgNote G4
             psgNote G4
             psgNote C5
-            psgNote F5
+    countedLoopEnd
+    countedLoopStart 3
+            psgNoteL F5, 6
             psgNote G4
             psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
-            psgNote F5
-            psgNote G4
-            psgNote C5
+    countedLoopEnd
             psgNote F5
             psgNote G4
             psgNote G4

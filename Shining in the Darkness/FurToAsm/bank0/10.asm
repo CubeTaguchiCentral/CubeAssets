@@ -23,6 +23,7 @@ Music_10_Channel_0:
       vol 13
       setRelease 1
       vibrato 05ch
+    repeatStart
             noteL B4, 18
             note C5
             noteL D5, 36
@@ -48,6 +49,7 @@ Music_10_Channel_0:
             noteL D5, 63
             waitL 9
             noteL C5, 18
+    repeatSection1Start
             note E4
             note E4
             note Fs4
@@ -56,31 +58,8 @@ Music_10_Channel_0:
             noteL Fs4, 36
             noteL A4, 63
             waitL 9
-            noteL B4, 18
-            note C5
-            noteL D5, 36
-            noteL C5, 18
-            note B4
-            noteL C5, 36
-            noteL E4, 63
-            waitL 9
-            noteL A4, 18
-            note B4
-            noteL C5, 36
-            noteL B4, 18
-            note A4
-            noteL B4, 36
-            noteL D5, 63
-            waitL 9
-            noteL E5, 18
-            note Fs5
-            noteL G5, 36
-            noteL Fs5, 18
-            note E5
-            noteL Fs5, 36
-            noteL D5, 63
-            waitL 9
-            noteL C5, 18
+    repeatEnd
+    repeatSection2Start
             note C4
             note D4
             note E4
@@ -100,6 +79,7 @@ Music_10_Channel_1:
       vol 9
       setRelease 1
       vibrato 05ch
+    repeatStart
             noteL B7, 18
             note C8
             noteL D8, 36
@@ -125,6 +105,7 @@ Music_10_Channel_1:
             noteL D8, 63
             waitL 9
             noteL C8, 18
+    repeatSection1Start
             note E7
             note E7
             note Fs7
@@ -133,31 +114,8 @@ Music_10_Channel_1:
             noteL Fs7, 36
             noteL A7, 63
             waitL 9
-            noteL B7, 18
-            note C8
-            noteL D8, 36
-            noteL C8, 18
-            note B7
-            noteL C8, 36
-            noteL E7, 63
-            waitL 9
-            noteL A7, 18
-            note B7
-            noteL C8, 36
-            noteL B7, 18
-            note A7
-            noteL B7, 36
-            noteL D8, 63
-            waitL 9
-            noteL E8, 18
-            note Fs8
-            noteL G8, 36
-            noteL Fs8, 18
-            note E8
-            noteL Fs8, 36
-            noteL D8, 63
-            waitL 9
-            noteL C8, 18
+    repeatEnd
+    repeatSection2Start
             note C7
             note D7
             note E7
@@ -189,6 +147,7 @@ Music_10_Channel_2:
             note E5
             note C6
             note E5
+    repeatStart
             note C6
             note D5
             note C6
@@ -207,6 +166,7 @@ Music_10_Channel_2:
             note E5
             note C6
             note E5
+    repeatSection1Start
             note B5
             note D5
             note B5
@@ -219,42 +179,10 @@ Music_10_Channel_2:
             note E5
             note C6
             note E5
-            note C6
-            note D5
-            note C6
-            note D5
-            note C6
-            note D5
-            note B5
-            note D5
-            note B5
-            note D5
-            note B5
-            note D5
-            note C6
-            note E5
-            note C6
-            note E5
-            note C6
-            note E5
-            note C6
-            note D5
-            note C6
-            note D5
-            note C6
-            note D5
-            note B5
-            note D5
-            note B5
-            note D5
-            note B5
-            note D5
-            note C6
-            note E5
-            note C6
-            note E5
-            note C6
-            note E5
+    repeatEnd
+    repeatSection2Start
+    repeatEnd
+    repeatSection3Start
             note B5
             note D5
             note B5
@@ -281,12 +209,10 @@ Music_10_Channel_3:
       vol 10
       setRelease 1
       vibrato 05ch
+    countedLoopStart 2
             noteL G5, 18
             note B4
-            note G5
-            note B4
-            note G5
-            note B4
+    countedLoopEnd
             note G5
             note C5
             note G5
@@ -294,36 +220,7 @@ Music_10_Channel_3:
             note G5
             note C5
             note Fs5
-            note C5
-            note Fs5
-            note C5
-            note Fs5
-            note C5
-            note G5
-            note B4
-            note G5
-            note B4
-            note G5
-            note B4
-            note G5
-            note C5
-            note G5
-            note C5
-            note G5
-            note C5
-            note Fs5
-            note B4
-            note Fs5
-            note B4
-            note Fs5
-            note B4
-            note G5
-            note C5
-            note G5
-            note C5
-            note G5
-            note C5
-            note Fs5
+    repeatStart
             note C5
             note Fs5
             note C5
@@ -342,16 +239,11 @@ Music_10_Channel_3:
             note G5
             note C5
             note Fs5
-            note C5
-            note Fs5
-            note C5
-            note Fs5
-            note C5
-            note G5
+    repeatSection1Start
             note B4
-            note G5
+            note Fs5
             note B4
-            note G5
+            note Fs5
             note B4
             note G5
             note C5
@@ -360,6 +252,10 @@ Music_10_Channel_3:
             note G5
             note C5
             note Fs5
+    repeatEnd
+    repeatSection2Start
+    repeatEnd
+    repeatSection3Start
             note B4
             note Fs5
             note B4

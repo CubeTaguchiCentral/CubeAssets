@@ -122,10 +122,9 @@ Music_12_Channel_3:
             note C6
             note G5
             note E5
+    countedLoopStart 3
             waitL 18
-            wait
-            wait
-            wait
+    countedLoopEnd
       stereo 040h
       vol 8
             noteL C6, 9
@@ -171,10 +170,9 @@ Music_12_Channel_4:
             note C6
             note G5
             note E5
+    countedLoopStart 3
             waitL 18
-            wait
-            wait
-            wait
+    countedLoopEnd
       stereo 080h
       vol 8
             noteL C6, 9

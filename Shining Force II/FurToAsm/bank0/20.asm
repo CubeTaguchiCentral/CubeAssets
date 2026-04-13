@@ -123,15 +123,11 @@ Music_20_Channel_3:
       vol 9
       setRelease 1
       vibrato 05ch
+    countedLoopStart 2
             noteL A4, 24
             note F5
             noteL A4, 48
-            noteL A4, 24
-            note F5
-            noteL A4, 48
-            noteL A4, 24
-            note F5
-            noteL A4, 48
+    countedLoopEnd
             noteL A4, 24
             note F5
             noteL A4, 40
@@ -158,15 +154,11 @@ Music_20_Channel_4:
       vol 8
       setRelease 1
       vibrato 05ch
+    countedLoopStart 2
             noteL A4, 24
             note F5
             noteL A4, 48
-            noteL A4, 24
-            note F5
-            noteL A4, 48
-            noteL A4, 24
-            note F5
-            noteL A4, 48
+    countedLoopEnd
             noteL A4, 24
             note F5
             noteL A4, 40

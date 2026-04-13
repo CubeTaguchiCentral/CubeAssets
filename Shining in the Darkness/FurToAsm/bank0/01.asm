@@ -98,7 +98,8 @@ Music_01_Channel_2:
       setRelease 1
             noteL Fs6, 24
       vibrato 05ah
-            note Fs5
+    countedLoopStart 1
+            noteL Fs5, 24
             note Fs4
             note Fs5
             note Fs6
@@ -111,19 +112,7 @@ Music_01_Channel_2:
             note Fs5
       vol 12
             note Fs6
-            note Fs5
-            note Fs4
-            note Fs5
-            note Fs6
-            note Fs5
-            note Fs4
-            note Fs5
-            note Fs6
-            note Fs5
-            note Fs4
-            note Fs5
-      vol 12
-            note Fs6
+    countedLoopEnd
             note Fs5
             note Fs4
             note Fs5
@@ -147,296 +136,28 @@ Music_01_Channel_3:
       vol 7
       setRelease 1
       vibrato 00h
+    countedLoopStart 23
             noteL F7, 3
             note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note E7
+    countedLoopEnd
+    countedLoopStart 23
+            noteL E7, 3
             note C7
             note E7
             note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
+    countedLoopEnd
       stereo 040h
       vol 7
-            note F7
+    countedLoopStart 23
+            noteL F7, 3
             note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note F7
-            note Cs7
-            note E7
+    countedLoopEnd
+    countedLoopStart 23
+            noteL E7, 3
             note C7
             note E7
             note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
-            note E7
-            note C7
+    countedLoopEnd
     mainLoopEnd
 Music_01_Channel_4:
       stereo 0c0h
@@ -450,240 +171,36 @@ Music_01_Channel_4:
       vol 7
       setRelease 1
       vibrato 00h
+    countedLoopStart 17
             noteL Cs7, 4
             note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note C7
+    countedLoopEnd
+    countedLoopStart 17
+            noteL C7, 4
             note G6
             note C7
             note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
+    countedLoopEnd
       shifting 32
       stereo 080h
       vol 7
-            note Cs7
+    countedLoopStart 17
+            noteL Cs7, 4
             note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs7
-            note Gs6
-            note C7
+    countedLoopEnd
+    countedLoopStart 17
+            noteL C7, 4
             note G6
             note C7
             note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
-            note C7
-            note G6
+    countedLoopEnd
     mainLoopEnd
 Music_01_Channel_5:
     mainLoopStart
+    countedLoopStart 5
             sampleL 5, 48
             sampleL 5, 96
-            sampleL 5, 48
-            sampleL 5, 96
-            sampleL 5, 48
-            sampleL 5, 96
-            sampleL 5, 48
-            sampleL 5, 96
-            sampleL 5, 48
-            sampleL 5, 96
-            sampleL 5, 48
-            sampleL 5, 96
+    countedLoopEnd
     mainLoopEnd
 Music_01_Channel_6:
     mainLoopStart

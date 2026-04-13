@@ -20,6 +20,7 @@ Music_11_Channel_0:
       vol 10
       vibrato 05ah
       setRelease 1
+    countedLoopStart 3
             noteL B6, 12
             note As6
             note Fs6
@@ -32,42 +33,7 @@ Music_11_Channel_0:
             note B7
             note As7
             note Fs7
-            note B6
-            note As6
-            note Fs6
-            note Cs6
-            note Ds6
-            note As6
-            note Gs6
-            note Ds7
-            note Cs7
-            note B7
-            note As7
-            note Fs7
-            note B6
-            note As6
-            note Fs6
-            note Cs6
-            note Ds6
-            note As6
-            note Gs6
-            note Ds7
-            note Cs7
-            note B7
-            note As7
-            note Fs7
-            note B6
-            note As6
-            note Fs6
-            note Cs6
-            note Ds6
-            note As6
-            note Gs6
-            note Ds7
-            note Cs7
-            note B7
-            note As7
-            note Fs7
+    countedLoopEnd
             note B6
             note As6
             note Fs6
@@ -101,6 +67,7 @@ Music_11_Channel_1:
       vol 8
       vibrato 053h
       setRelease 1
+    countedLoopStart 3
             noteL B6, 12
             note As6
             note Fs6
@@ -113,42 +80,7 @@ Music_11_Channel_1:
             note B7
             note As7
             note Fs7
-            note B6
-            note As6
-            note Fs6
-            note Cs6
-            note Ds6
-            note As6
-            note Gs6
-            note Ds7
-            note Cs7
-            note B7
-            note As7
-            note Fs7
-            note B6
-            note As6
-            note Fs6
-            note Cs6
-            note Ds6
-            note As6
-            note Gs6
-            note Ds7
-            note Cs7
-            note B7
-            note As7
-            note Fs7
-            note B6
-            note As6
-            note Fs6
-            note Cs6
-            note Ds6
-            note As6
-            note Gs6
-            note Ds7
-            note Cs7
-            note B7
-            note As7
-            note Fs7
+    countedLoopEnd
             note B6
             note As6
       vol 9
@@ -183,6 +115,7 @@ Music_11_Channel_2:
       vol 9
       vibrato 05ah
       setRelease 1
+    countedLoopStart 2
             noteL B4, 12
             note Fs5
             note B5
@@ -195,30 +128,7 @@ Music_11_Channel_2:
             note Cs6
             note As5
             note Fs5
-            note B4
-            note Fs5
-            note B5
-            note As5
-            note Gs5
-            note Ds6
-            note Cs6
-            note As5
-            note Ds6
-            note Cs6
-            note As5
-            note Fs5
-            note B4
-            note Fs5
-            note B5
-            note As5
-            note Gs5
-            note Ds6
-            note Cs6
-            note As5
-            note Ds6
-            note Cs6
-            note As5
-            note Fs5
+    countedLoopEnd
             note B4
             note Fs5
       vol 8
@@ -249,6 +159,7 @@ Music_11_Channel_3:
       vol 7
       vibrato 053h
       setRelease 1
+    countedLoopStart 1
             noteL B4, 12
             note Fs5
             note B5
@@ -261,18 +172,7 @@ Music_11_Channel_3:
             note Cs6
             note As5
             note Fs5
-            note B4
-            note Fs5
-            note B5
-            note As5
-            note Gs5
-            note Ds6
-            note Cs6
-            note As5
-            note Ds6
-            note Cs6
-            note As5
-            note Fs5
+    countedLoopEnd
             note B4
             note Fs5
             note B5
@@ -313,16 +213,13 @@ Music_11_Channel_4:
       vol 9
       setRelease 1
       vibrato 05ah
+    countedLoopStart 1
             noteL C6, 96
             wait
       vol 2
             waitL 192
       vol 9
-            noteL C6, 96
-            wait
-      vol 2
-            waitL 192
-      vol 9
+    countedLoopEnd
             noteL C6, 96
             wait
       vol 2

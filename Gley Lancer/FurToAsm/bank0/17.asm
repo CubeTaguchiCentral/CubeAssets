@@ -214,10 +214,10 @@ Music_17_Channel_4:
             note A5
     channel_end
 Music_17_Channel_5:
+    countedLoopStart 3
             sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
+    countedLoopEnd
+    countedLoopStart 1
             sampleL 0, 12
             sampleL 1, 6
             sampleL 0, 18
@@ -225,25 +225,12 @@ Music_17_Channel_5:
             sampleL 1, 12
             sample 0
             sample 0
-            sample 0
-            sampleL 1, 6
-            sampleL 0, 18
-            sampleL 0, 24
-            sampleL 1, 12
-            sample 0
-            sample 0
+    countedLoopEnd
+    countedLoopStart 3
             sampleL 1, 6
             sample 0
             sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
+    countedLoopEnd
             sampleL 1, 12
             sampleL 0, 6
             sample 0

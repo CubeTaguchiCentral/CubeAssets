@@ -30,6 +30,7 @@ Music_05_Channel_0:
             waitL 6
       setRelease 8
             noteL As6, 18
+    repeatStart
             noteL As7, 36
             noteL D7, 18
             note Ds7
@@ -57,6 +58,7 @@ Music_05_Channel_0:
             noteL Ds8, 36
             noteL D8, 18
             note C8
+    repeatSection1Start
             note D8
             note As7
             noteL F8, 36
@@ -68,33 +70,8 @@ Music_05_Channel_0:
             note F7
             note G7
             note As6
-            noteL As7, 36
-            noteL D7, 18
-            note Ds7
-            note F7
-            note As6
-            noteL As7, 36
-            noteL Ds7, 18
-            note F7
-            note G7
-            note Ds7
-            noteL Ds8, 36
-            noteL D8, 18
-            note C8
-            noteL C8, 36
-            note As7
-            noteL F7, 18
-            note G7
-            note Gs7
-            note F7
-            noteL C8, 36
-            noteL As7, 18
-            note Gs7
-            note As7
-            note G7
-            noteL Ds8, 36
-            noteL D8, 18
-            note C8
+    repeatEnd
+    repeatSection2Start
             note Gs7
             note F7
             noteL C8, 36
@@ -170,6 +147,7 @@ Music_05_Channel_2:
       setRelease 1
             noteL Ds5, 72
       vibrato 05fh
+    repeatStart
             waitL 36
             noteL D5, 72
             waitL 36
@@ -184,26 +162,15 @@ Music_05_Channel_2:
             note F5
             note Ds5
             wait
+    repeatSection1Start
             note F5
             note Ds5
             note Ds5
             note D5
             waitL 72
             note Ds5
-            waitL 36
-            noteL D5, 72
-            waitL 36
-            note Ds5
-            note F5
-            note Ds5
-            note D5
-            waitL 72
-            noteL Ds5, 36
-            note D5
-            wait
-            note F5
-            note Ds5
-            wait
+    repeatEnd
+    repeatSection2Start
             note Ds5
             note D5
             note Gs4
@@ -300,11 +267,13 @@ Music_05_Channel_4:
       setRelease 1
             waitL 96
             noteL As3, 108
+    repeatStart
             noteL Ds3, 72
             noteL F3, 36
             note As3
             noteL As2, 72
             noteL F3, 108
+    repeatSection1Start
             note Ds3
             noteL F3, 72
             noteL F3, 36
@@ -313,11 +282,8 @@ Music_05_Channel_4:
             wait
             noteL Ds3, 108
             note As3
-            noteL Ds3, 72
-            noteL F3, 36
-            note As3
-            noteL As2, 72
-            noteL F3, 108
+    repeatEnd
+    repeatSection2Start
             noteL G3, 36
             noteL C3, 72
             noteL F3, 36

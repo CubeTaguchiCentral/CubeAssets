@@ -35,14 +35,10 @@ Music_07_Channel_0:
             noteL C7, 4
             note B6
             note C7
+    countedLoopStart 3
             noteL B6, 3
             note C7
-            note B6
-            note C7
-            note B6
-            note C7
-            note B6
-            note C7
+    countedLoopEnd
             noteL B6, 4
             note C7
             noteL B6, 6
@@ -118,14 +114,10 @@ Music_07_Channel_4:
             noteL C7, 4
             note B6
             note C7
+    countedLoopStart 3
             noteL B6, 3
             note C7
-            note B6
-            note C7
-            note B6
-            note C7
-            note B6
-            note C7
+    countedLoopEnd
             noteL B6, 4
             note C7
             noteL B6, 6

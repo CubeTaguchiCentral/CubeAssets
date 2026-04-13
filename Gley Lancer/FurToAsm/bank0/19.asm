@@ -89,12 +89,11 @@ Music_19_Channel_4:
             noteL Fs5, 144
     channel_end
 Music_19_Channel_5:
+    countedLoopStart 1
             sampleL 0, 24
             sampleL 1, 12
             sample 0
-            sampleL 0, 24
-            sampleL 1, 12
-            sample 0
+    countedLoopEnd
             sample 0
             sample 1
             sample 0

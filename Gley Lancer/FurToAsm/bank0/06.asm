@@ -19,8 +19,9 @@ Music_06_Channel_0:
       vol 10
       vibrato 05ah
             noteL A5, 7
+    countedLoopStart 4
       setSlide 127
-            note C6
+            noteL C6, 7
       noSlide
       setSlide 127
             note A5
@@ -57,6 +58,8 @@ Music_06_Channel_0:
       stereo 040h
             note A5
       noSlide
+    countedLoopEnd
+    repeatStart
       setSlide 127
             note C6
       noSlide
@@ -73,180 +76,17 @@ Music_06_Channel_0:
             note C6
       noSlide
       setSlide 127
+    repeatSection1Start
       stereo 080h
             note A5
       noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
+    repeatEnd
+    repeatSection2Start
       stereo 040h
       vol 11
-            note A5
+    repeatStart
+    countedLoopStart 2
+            noteL A5, 7
       noSlide
       setSlide 127
             note E6
@@ -284,6 +124,7 @@ Music_06_Channel_0:
       noSlide
       setSlide 127
       stereo 040h
+    countedLoopEnd
             note A5
       noSlide
       setSlide 127
@@ -318,234 +159,13 @@ Music_06_Channel_0:
             note A5
       noSlide
       setSlide 127
+    repeatSection1Start
             note C6
       noSlide
       setSlide 127
       stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
+    repeatEnd
+    repeatSection2Start
       sustain
             note C6
     mainLoopStart
@@ -581,36 +201,28 @@ Music_06_Channel_0:
       noSlide
       setSlide 127
             note C7
+    countedLoopStart 1
       noSlide
       setSlide 127
-            note B6
-      noSlide
-      setSlide 127
-            note A6
-      noSlide
-      setSlide 127
-            note B6
+            noteL B6, 7
       noSlide
       setSlide 127
             note A6
+    countedLoopEnd
       noSlide
       setSlide 127
             note G6
       noSlide
       setSlide 127
             note A6
+    countedLoopStart 1
       noSlide
       setSlide 127
-            note G6
+            noteL G6, 7
       noSlide
       setSlide 127
             note Fs6
-      noSlide
-      setSlide 127
-            note G6
-      noSlide
-      setSlide 127
-            note Fs6
+    countedLoopEnd
       noSlide
       setSlide 127
             note E6
@@ -639,36 +251,28 @@ Music_06_Channel_0:
       noSlide
       setSlide 127
             note D6
+    countedLoopStart 1
       noSlide
       setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-            note B5
-      noSlide
-      setSlide 127
-            note C6
+            noteL C6, 7
       noSlide
       setSlide 127
             note B5
+    countedLoopEnd
       noSlide
       setSlide 127
             note A5
       noSlide
       setSlide 127
             note B5
+    countedLoopStart 1
       noSlide
       setSlide 127
-            note A5
+            noteL A5, 7
       noSlide
       setSlide 127
             note G5
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note G5
+    countedLoopEnd
       noSlide
       setSlide 127
             note B5
@@ -697,51 +301,39 @@ Music_06_Channel_0:
       noSlide
       setSlide 127
             note E7
+    countedLoopStart 1
       noSlide
       setSlide 127
-            note D7
-      noSlide
-      setSlide 127
-            note C7
-      noSlide
-      setSlide 127
-            note D7
+            noteL D7, 7
       noSlide
       setSlide 127
             note C7
+    countedLoopEnd
       noSlide
       setSlide 127
             note B6
       noSlide
       setSlide 127
             note C7
+    countedLoopStart 1
       noSlide
       setSlide 127
-            note B6
+            noteL B6, 7
       noSlide
       setSlide 127
             note A6
-      noSlide
-      setSlide 127
-            note B6
-      noSlide
-      setSlide 127
-            note A6
+    countedLoopEnd
       noSlide
       setSlide 127
             note G6
+    countedLoopStart 1
       noSlide
       setSlide 127
             noteL G7, 14
       noSlide
       setSlide 127
             noteL D6, 7
-      noSlide
-      setSlide 127
-            noteL G7, 14
-      noSlide
-      setSlide 127
-            noteL D6, 7
+    countedLoopEnd
       noSlide
       setSlide 127
             noteL C6, 28
@@ -754,18 +346,14 @@ Music_06_Channel_0:
       noSlide
       setSlide 127
             note D6
+    countedLoopStart 1
       noSlide
       setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-            note B5
-      noSlide
-      setSlide 127
-            note C6
+            noteL C6, 7
       noSlide
       setSlide 127
             note B5
+    countedLoopEnd
       noSlide
       setSlide 127
             note A5
@@ -812,36 +400,28 @@ Music_06_Channel_0:
       noSlide
       setSlide 127
             note G6
+    countedLoopStart 1
       noSlide
       setSlide 127
-            note F6
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note F6
+            noteL F6, 7
       noSlide
       setSlide 127
             note E6
+    countedLoopEnd
       noSlide
       setSlide 127
             note D6
       noSlide
       setSlide 127
             note E6
+    countedLoopStart 1
       noSlide
       setSlide 127
-            note D6
+            noteL D6, 7
       noSlide
       setSlide 127
             note C6
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note C6
+    countedLoopEnd
       noSlide
       setSlide 127
             note B5
@@ -996,6 +576,7 @@ Music_06_Channel_0:
             noteL C7, 168
       noSlide
             note C7
+    countedLoopStart 2
       setSlide 127
             noteL A4, 21
       noSlide
@@ -1020,54 +601,7 @@ Music_06_Channel_0:
       setSlide 127
             note D5
       noSlide
-      setSlide 127
-            noteL A4, 21
-      noSlide
-      setSlide 127
-            noteL C5, 7
-      noSlide
-      setSlide 127
-            note B4
-      noSlide
-      setSlide 127
-            note As4
-      noSlide
-      setSlide 127
-            noteL A4, 21
-      noSlide
-      setSlide 127
-            noteL E5, 7
-      noSlide
-      setSlide 127
-            note Ds5
-      noSlide
-      setSlide 127
-            note D5
-      noSlide
-      setSlide 127
-            noteL A4, 21
-      noSlide
-      setSlide 127
-            noteL C5, 7
-      noSlide
-      setSlide 127
-            note B4
-      noSlide
-      setSlide 127
-            note As4
-      noSlide
-      setSlide 127
-            noteL A4, 21
-      noSlide
-      setSlide 127
-            noteL E5, 7
-      noSlide
-      setSlide 127
-            note Ds5
-      noSlide
-      setSlide 127
-            note D5
-      noSlide
+    countedLoopEnd
       setSlide 127
             noteL A4, 21
       noSlide
@@ -1137,41 +671,10 @@ Music_06_Channel_0:
       noSlide
       setSlide 127
       stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
+    repeatEnd
+    repeatSection3Start
+    countedLoopStart 2
+            noteL C6, 7
       noSlide
       setSlide 127
       stereo 040h
@@ -1209,196 +712,7 @@ Music_06_Channel_0:
             note A5
       noSlide
       setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
+    countedLoopEnd
       sustain
             note C6
     mainLoopEnd
@@ -1410,6 +724,8 @@ Music_06_Channel_1:
       vibrato 05ah
       setRelease 1
             noteL A3, 14
+    repeatStart
+    countedLoopStart 1
             noteL A3, 7
             noteL A3, 14
             noteL A3, 7
@@ -1429,6 +745,8 @@ Music_06_Channel_1:
             note A3
             note A3
             noteL A3, 14
+    countedLoopEnd
+    countedLoopStart 1
             noteL A3, 7
             noteL A3, 14
             noteL A3, 7
@@ -1436,241 +754,100 @@ Music_06_Channel_1:
             noteL A3, 7
             note A3
             note A3
+    countedLoopEnd
             note A3
+            note A3
+            note A3
+            note A3
+    repeatSection1Start
             noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            note A3
-            note A3
-            note A3
-            noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            note A3
-            note A3
-            note A3
-            noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            note A3
-            note A3
-            note A3
-            noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            note A3
-            note A3
-            note A3
-            noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
+    repeatEnd
+    repeatSection2Start
     mainLoopStart
       inst 23
       vol 11
       shifting 0
       setRelease 1
+    countedLoopStart 2
             noteL A3, 14
             noteL A3, 7
             note A3
             note A3
             note A3
-            noteL A3, 14
-            noteL A3, 7
-            note A3
-            note A3
-            note A3
-            noteL A3, 14
-            noteL A3, 7
-            note A3
-            note A3
-            note A3
+    countedLoopEnd
             noteL A3, 21
             note B3
+    countedLoopStart 2
             noteL C4, 14
             noteL C4, 7
             note C4
             note C4
             note C4
-            noteL C4, 14
-            noteL C4, 7
-            note C4
-            note C4
-            note C4
-            noteL C4, 14
-            noteL C4, 7
-            note C4
-            note C4
-            note C4
+    countedLoopEnd
             noteL C4, 21
             note B3
+    countedLoopStart 2
             noteL A3, 14
             noteL A3, 7
             note A3
             note A3
             note A3
-            noteL A3, 14
-            noteL A3, 7
-            note A3
-            note A3
-            note A3
-            noteL A3, 14
-            noteL A3, 7
-            note A3
-            note A3
-            note A3
+    countedLoopEnd
             noteL A3, 21
             note B3
+    countedLoopStart 2
             noteL C4, 14
             noteL C4, 7
             note C4
             note C4
             note C4
-            noteL C4, 14
-            noteL C4, 7
-            note C4
-            note C4
-            note C4
-            noteL C4, 14
-            noteL C4, 7
-            note C4
-            note C4
-            note C4
+    countedLoopEnd
             noteL C4, 21
             note As3
+    countedLoopStart 2
             noteL B3, 14
             noteL B3, 7
             note B3
             note B3
             note B3
-            noteL B3, 14
-            noteL B3, 7
-            note B3
-            note B3
-            note B3
-            noteL B3, 14
-            noteL B3, 7
-            note B3
-            note B3
-            note B3
+    countedLoopEnd
             noteL B3, 21
             note Fs3
+    countedLoopStart 2
             noteL G3, 14
             noteL G3, 7
             note G3
             note G3
             note G3
-            noteL G3, 14
-            noteL G3, 7
-            note G3
-            note G3
-            note G3
-            noteL G3, 14
-            noteL G3, 7
-            note G3
-            note G3
-            note G3
+    countedLoopEnd
             noteL F3, 21
             note A3
+    countedLoopStart 2
             noteL C4, 14
             noteL C4, 7
             note C4
             note C4
             note C4
-            noteL C4, 14
-            noteL C4, 7
-            note C4
-            note C4
-            note C4
-            noteL C4, 14
-            noteL C4, 7
-            note C4
-            note C4
-            note C4
+    countedLoopEnd
             noteL C4, 14
             noteL C4, 7
             note D4
             note D4
             note D4
+    countedLoopStart 2
             noteL Ds4, 14
             noteL Ds4, 7
             note Ds4
             note Ds4
             note Ds4
-            noteL Ds4, 14
-            noteL Ds4, 7
-            note Ds4
-            note Ds4
-            note Ds4
-            noteL Ds4, 14
-            noteL Ds4, 7
-            note Ds4
-            note Ds4
-            note Ds4
+    countedLoopEnd
             noteL Ds4, 14
             noteL Ds4, 7
             note C4
             note B3
             note As3
             noteL A3, 14
+    countedLoopStart 1
             noteL A3, 7
             noteL A3, 14
             noteL A3, 7
@@ -1678,18 +855,13 @@ Music_06_Channel_1:
             noteL A3, 7
             note A3
             note A3
-            note A3
-            noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            note A3
-            note A3
+    countedLoopEnd
             note A3
             note B3
             note B3
             note B3
             noteL C4, 14
+    countedLoopStart 1
             noteL C4, 7
             noteL C4, 14
             noteL C4, 7
@@ -1697,13 +869,7 @@ Music_06_Channel_1:
             noteL C4, 7
             note C4
             note C4
-            note C4
-            noteL C4, 14
-            noteL C4, 7
-            noteL C4, 14
-            noteL C4, 7
-            note C4
-            note C4
+    countedLoopEnd
             note C4
             note D4
             note D4
@@ -1714,62 +880,28 @@ Music_06_Channel_1:
             noteL E4, 14
             noteL E4, 7
             noteL E4, 14
+    countedLoopStart 3
             noteL E4, 7
-            note E4
-            note E4
-            note E4
+    countedLoopEnd
             noteL E4, 14
+    countedLoopStart 13
             noteL E4, 7
-            note E4
-            note E4
-            note E4
-            note E4
-            note E4
-            note E4
-            note E4
-            note E4
-            note E4
-            note E4
-            note E4
-            note E4
-            note E4
+    countedLoopEnd
             noteL E4, 14
             noteL E4, 7
             noteL E4, 14
+    countedLoopStart 3
             noteL E4, 7
-            note E4
-            note E4
-            note E4
+    countedLoopEnd
             noteL E4, 14
+    countedLoopStart 8
             noteL E4, 7
-            note E4
-            note E4
-            note E4
-            note E4
-            note E4
-            note E4
-            note E4
-            note E4
+    countedLoopEnd
       vol 11
             noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            note A3
-            note A3
-            note A3
-            noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
+    repeatEnd
+    repeatSection3Start
+    countedLoopStart 2
             noteL A3, 14
             noteL A3, 7
             noteL A3, 14
@@ -1789,82 +921,7 @@ Music_06_Channel_1:
             note A3
             note A3
             note A3
-            noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            note A3
-            note A3
-            note A3
-            noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            note A3
-            note A3
-            note A3
-            noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            note A3
-            note A3
-            note A3
-            noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            note A3
-            note A3
-            note A3
-            noteL A3, 14
-            noteL A3, 7
-            noteL A3, 14
-            noteL A3, 7
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
+    countedLoopEnd
     mainLoopEnd
 Music_06_Channel_2:
       stereo 080h
@@ -1882,20 +939,19 @@ Music_06_Channel_2:
       inst 57
       vol 11
             noteL C5, 11
+    repeatStart
       noSlide
       setSlide 113
             noteL E4, 168
       noSlide
       setSlide 113
+    repeatSection1Start
             noteL A4, 158
       noSlide
       setSlide 113
             noteL C5, 10
-      noSlide
-      setSlide 113
-            noteL E4, 168
-      noSlide
-      setSlide 113
+    repeatEnd
+    repeatSection2Start
             note A4
     mainLoopStart
       inst 57
@@ -1905,143 +961,62 @@ Music_06_Channel_2:
       noSlide
       vol 10
       setRelease 1
+    repeatStart
+    countedLoopStart 2
             noteL E5, 14
             noteL E5, 7
             note E5
             note E5
             note E5
-            noteL E5, 14
-            noteL E5, 7
-            note E5
-            note E5
-            note E5
-            noteL E5, 14
-            noteL E5, 7
-            note E5
-            note E5
-            note E5
+    countedLoopEnd
             noteL E5, 21
             note Fs5
+    countedLoopStart 2
             noteL G5, 14
             noteL G5, 7
             note G5
             note G5
             note G5
-            noteL G5, 14
-            noteL G5, 7
-            note G5
-            note G5
-            note G5
-            noteL G5, 14
-            noteL G5, 7
-            note G5
-            note G5
-            note G5
+    countedLoopEnd
             noteL G5, 21
+    repeatSection1Start
             note Fs5
-            noteL E5, 14
-            noteL E5, 7
-            note E5
-            note E5
-            note E5
-            noteL E5, 14
-            noteL E5, 7
-            note E5
-            note E5
-            note E5
-            noteL E5, 14
-            noteL E5, 7
-            note E5
-            note E5
-            note E5
-            noteL E5, 21
-            note Fs5
-            noteL G5, 14
-            noteL G5, 7
-            note G5
-            note G5
-            note G5
-            noteL G5, 14
-            noteL G5, 7
-            note G5
-            note G5
-            note G5
-            noteL G5, 14
-            noteL G5, 7
-            note G5
-            note G5
-            note G5
-            noteL G5, 21
+    repeatEnd
+    repeatSection2Start
             note F5
+    countedLoopStart 2
             noteL E5, 14
             noteL E5, 7
             note E5
             note E5
             note E5
-            noteL E5, 14
-            noteL E5, 7
-            note E5
-            note E5
-            note E5
-            noteL E5, 14
-            noteL E5, 7
-            note E5
-            note E5
-            note E5
+    countedLoopEnd
             noteL E5, 21
+    repeatStart
             note Fs5
+    countedLoopStart 2
             noteL G5, 14
             noteL G5, 7
             note G5
             note G5
             note G5
-            noteL G5, 14
-            noteL G5, 7
-            note G5
-            note G5
-            note G5
-            noteL G5, 14
-            noteL G5, 7
-            note G5
-            note G5
-            note G5
+    countedLoopEnd
+    repeatSection1Start
             noteL C5, 21
-            note E5
+    countedLoopStart 2
+            noteL E5, 21
             noteL E5, 14
             noteL E5, 7
             note E5
             note E5
-            note E5
-            noteL E5, 14
-            noteL E5, 7
-            note E5
-            note E5
-            note E5
-            noteL E5, 14
-            noteL E5, 7
-            note E5
-            note E5
+    countedLoopEnd
             note E5
             noteL E5, 14
             noteL E5, 7
             note Fs5
             note Fs5
-            note Fs5
-            noteL G5, 14
-            noteL G5, 7
-            note G5
-            note G5
-            note G5
-            noteL G5, 14
-            noteL G5, 7
-            note G5
-            note G5
-            note G5
-            noteL G5, 14
-            noteL G5, 7
-            note G5
-            note G5
-            note G5
+    repeatEnd
+    repeatSection2Start
             noteL G5, 14
             noteL G5, 7
             note G5
@@ -2050,6 +1025,7 @@ Music_06_Channel_2:
             noteL E7, 168
             note E7
             noteL E5, 7
+    repeatStart
             note A5
             note B5
             note E6
@@ -2070,6 +1046,7 @@ Music_06_Channel_2:
             note E6
             note B5
             note A5
+    repeatSection1Start
             note E6
             note B5
             note A5
@@ -2077,26 +1054,8 @@ Music_06_Channel_2:
             note A5
             note E5
             note E5
-            note A5
-            note B5
-            note E6
-            note B5
-            note A5
-            note E6
-            note B5
-            note A5
-            note B5
-            note A5
-            note E5
-            note B5
-            note A5
-            note E5
-            note E5
-            note A5
-            note B5
-            note E6
-            note B5
-            note A5
+    repeatEnd
+    repeatSection2Start
       inst 61
       vol 14
             noteL C4, 168
@@ -2140,6 +1099,7 @@ Music_06_Channel_3:
       noSlide
       inst 35
       vol 8
+    countedLoopStart 7
             noteL A5, 14
             noteL A5, 7
             noteL C6, 14
@@ -2148,62 +1108,7 @@ Music_06_Channel_3:
             noteL A5, 7
             noteL D6, 14
             noteL D6, 7
-            noteL A5, 14
-            noteL A5, 7
-            noteL C6, 14
-            noteL C6, 7
-            noteL A5, 14
-            noteL A5, 7
-            noteL D6, 14
-            noteL D6, 7
-            noteL A5, 14
-            noteL A5, 7
-            noteL C6, 14
-            noteL C6, 7
-            noteL A5, 14
-            noteL A5, 7
-            noteL D6, 14
-            noteL D6, 7
-            noteL A5, 14
-            noteL A5, 7
-            noteL C6, 14
-            noteL C6, 7
-            noteL A5, 14
-            noteL A5, 7
-            noteL D6, 14
-            noteL D6, 7
-            noteL A5, 14
-            noteL A5, 7
-            noteL C6, 14
-            noteL C6, 7
-            noteL A5, 14
-            noteL A5, 7
-            noteL D6, 14
-            noteL D6, 7
-            noteL A5, 14
-            noteL A5, 7
-            noteL C6, 14
-            noteL C6, 7
-            noteL A5, 14
-            noteL A5, 7
-            noteL D6, 14
-            noteL D6, 7
-            noteL A5, 14
-            noteL A5, 7
-            noteL C6, 14
-            noteL C6, 7
-            noteL A5, 14
-            noteL A5, 7
-            noteL D6, 14
-            noteL D6, 7
-            noteL A5, 14
-            noteL A5, 7
-            noteL C6, 14
-            noteL C6, 7
-            noteL A5, 14
-            noteL A5, 7
-            noteL D6, 14
-            noteL D6, 7
+    countedLoopEnd
     mainLoopStart
       inst 35
       vol 8
@@ -2308,6 +1213,7 @@ Music_06_Channel_3:
             wait
       inst 4
       vol 11
+    countedLoopStart 1
             noteL A4, 21
             noteL C5, 7
             note B4
@@ -2316,14 +1222,7 @@ Music_06_Channel_3:
             noteL E5, 7
             note Ds5
             note D5
-            noteL A4, 21
-            noteL C5, 7
-            note B4
-            note As4
-            noteL A4, 21
-            noteL E5, 7
-            note Ds5
-            note D5
+    countedLoopEnd
             waitL 168
             wait
       stereo 0c0h
@@ -2341,8 +1240,9 @@ Music_06_Channel_4:
       vol 6
       vibrato 05ah
             noteL A5, 7
+    countedLoopStart 4
       setSlide 127
-            note C6
+            noteL C6, 7
       noSlide
       setSlide 127
             note A5
@@ -2379,6 +1279,8 @@ Music_06_Channel_4:
       stereo 040h
             note A5
       noSlide
+    countedLoopEnd
+    repeatStart
       setSlide 127
             note C6
       noSlide
@@ -2395,180 +1297,17 @@ Music_06_Channel_4:
             note C6
       noSlide
       setSlide 127
+    repeatSection1Start
       stereo 080h
             note A5
       noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
+    repeatEnd
+    repeatSection2Start
       stereo 040h
       vol 8
-            note A5
+    repeatStart
+    countedLoopStart 2
+            noteL A5, 7
       noSlide
       setSlide 127
             note E6
@@ -2606,6 +1345,7 @@ Music_06_Channel_4:
       noSlide
       setSlide 127
       stereo 040h
+    countedLoopEnd
             note A5
       noSlide
       setSlide 127
@@ -2637,6 +1377,7 @@ Music_06_Channel_4:
             note D6
       noSlide
       setSlide 127
+    repeatSection1Start
             note A5
       noSlide
       setSlide 127
@@ -2644,227 +1385,8 @@ Music_06_Channel_4:
       noSlide
       setSlide 127
       stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
+    repeatEnd
+    repeatSection2Start
       sustain
             noteL A5, 3
     mainLoopStart
@@ -2904,36 +1426,28 @@ Music_06_Channel_4:
       noSlide
       setSlide 127
             note C7
+    countedLoopStart 1
       noSlide
       setSlide 127
-            note B6
-      noSlide
-      setSlide 127
-            note A6
-      noSlide
-      setSlide 127
-            note B6
+            noteL B6, 7
       noSlide
       setSlide 127
             note A6
+    countedLoopEnd
       noSlide
       setSlide 127
             note G6
       noSlide
       setSlide 127
             note A6
+    countedLoopStart 1
       noSlide
       setSlide 127
-            note G6
+            noteL G6, 7
       noSlide
       setSlide 127
             note Fs6
-      noSlide
-      setSlide 127
-            note G6
-      noSlide
-      setSlide 127
-            note Fs6
+    countedLoopEnd
       noSlide
       setSlide 127
             note E6
@@ -2962,36 +1476,28 @@ Music_06_Channel_4:
       noSlide
       setSlide 127
             note D6
+    countedLoopStart 1
       noSlide
       setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-            note B5
-      noSlide
-      setSlide 127
-            note C6
+            noteL C6, 7
       noSlide
       setSlide 127
             note B5
+    countedLoopEnd
       noSlide
       setSlide 127
             note A5
       noSlide
       setSlide 127
             note B5
+    countedLoopStart 1
       noSlide
       setSlide 127
-            note A5
+            noteL A5, 7
       noSlide
       setSlide 127
             note G5
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note G5
+    countedLoopEnd
       noSlide
       setSlide 127
             note B5
@@ -3020,51 +1526,39 @@ Music_06_Channel_4:
       noSlide
       setSlide 127
             note E7
+    countedLoopStart 1
       noSlide
       setSlide 127
-            note D7
-      noSlide
-      setSlide 127
-            note C7
-      noSlide
-      setSlide 127
-            note D7
+            noteL D7, 7
       noSlide
       setSlide 127
             note C7
+    countedLoopEnd
       noSlide
       setSlide 127
             note B6
       noSlide
       setSlide 127
             note C7
+    countedLoopStart 1
       noSlide
       setSlide 127
-            note B6
+            noteL B6, 7
       noSlide
       setSlide 127
             note A6
-      noSlide
-      setSlide 127
-            note B6
-      noSlide
-      setSlide 127
-            note A6
+    countedLoopEnd
       noSlide
       setSlide 127
             note G6
+    countedLoopStart 1
       noSlide
       setSlide 127
             noteL G7, 14
       noSlide
       setSlide 127
             noteL D6, 7
-      noSlide
-      setSlide 127
-            noteL G7, 14
-      noSlide
-      setSlide 127
-            noteL D6, 7
+    countedLoopEnd
       noSlide
       setSlide 127
             noteL C6, 28
@@ -3077,18 +1571,14 @@ Music_06_Channel_4:
       noSlide
       setSlide 127
             note D6
+    countedLoopStart 1
       noSlide
       setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-            note B5
-      noSlide
-      setSlide 127
-            note C6
+            noteL C6, 7
       noSlide
       setSlide 127
             note B5
+    countedLoopEnd
       noSlide
       setSlide 127
             note A5
@@ -3135,36 +1625,28 @@ Music_06_Channel_4:
       noSlide
       setSlide 127
             note G6
+    countedLoopStart 1
       noSlide
       setSlide 127
-            note F6
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note F6
+            noteL F6, 7
       noSlide
       setSlide 127
             note E6
+    countedLoopEnd
       noSlide
       setSlide 127
             note D6
       noSlide
       setSlide 127
             note E6
+    countedLoopStart 1
       noSlide
       setSlide 127
-            note D6
+            noteL D6, 7
       noSlide
       setSlide 127
             note C6
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note C6
+    countedLoopEnd
       noSlide
       setSlide 127
             note B5
@@ -3319,6 +1801,7 @@ Music_06_Channel_4:
             noteL C7, 168
       noSlide
             note C7
+    countedLoopStart 2
       setSlide 127
             noteL A4, 21
       noSlide
@@ -3343,54 +1826,7 @@ Music_06_Channel_4:
       setSlide 127
             note D5
       noSlide
-      setSlide 127
-            noteL A4, 21
-      noSlide
-      setSlide 127
-            noteL C5, 7
-      noSlide
-      setSlide 127
-            note B4
-      noSlide
-      setSlide 127
-            note As4
-      noSlide
-      setSlide 127
-            noteL A4, 21
-      noSlide
-      setSlide 127
-            noteL E5, 7
-      noSlide
-      setSlide 127
-            note Ds5
-      noSlide
-      setSlide 127
-            note D5
-      noSlide
-      setSlide 127
-            noteL A4, 21
-      noSlide
-      setSlide 127
-            noteL C5, 7
-      noSlide
-      setSlide 127
-            note B4
-      noSlide
-      setSlide 127
-            note As4
-      noSlide
-      setSlide 127
-            noteL A4, 21
-      noSlide
-      setSlide 127
-            noteL E5, 7
-      noSlide
-      setSlide 127
-            note Ds5
-      noSlide
-      setSlide 127
-            note D5
-      noSlide
+    countedLoopEnd
       setSlide 127
             noteL A4, 21
       noSlide
@@ -3459,38 +1895,10 @@ Music_06_Channel_4:
       noSlide
       setSlide 127
       stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
+    repeatEnd
+    repeatSection3Start
+    countedLoopStart 2
+            noteL A5, 7
       noSlide
       setSlide 127
             note C6
@@ -3528,222 +1936,24 @@ Music_06_Channel_4:
             note D6
       noSlide
       setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 040h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note C6
-      noSlide
-      setSlide 127
-      stereo 080h
-            note A5
-      noSlide
-      setSlide 127
-            note E6
-      noSlide
-      setSlide 127
-            note A5
-      noSlide
-      setSlide 127
-            note D6
-      noSlide
-      setSlide 127
+    countedLoopEnd
       sustain
             noteL A5, 3
     mainLoopEnd
 Music_06_Channel_5:
       stereo 0c0h
             waitL 168
+    countedLoopStart 13
             sampleL 0, 21
-            sample 0
-            sample 0
-            sample 0
-            sample 0
-            sample 0
-            sample 0
-            sample 0
-            sample 0
-            sample 0
-            sample 0
-            sample 0
-            sample 0
-            sample 0
+    countedLoopEnd
             sampleL 1, 7
             sample 5
             sample 5
             sample 1
             sample 5
             sample 5
+    repeatStart
+    countedLoopStart 6
             sampleL 0, 14
             sampleL 0, 7
             sampleL 1, 21
@@ -3752,80 +1962,23 @@ Music_06_Channel_5:
             sample 1
             sample 0
             sample 0
+    countedLoopEnd
             sampleL 0, 14
             sampleL 0, 7
             sampleL 1, 21
-            sampleL 0, 14
-            sampleL 0, 7
-            sample 1
-            sample 0
-            sample 0
-            sampleL 0, 14
-            sampleL 0, 7
-            sampleL 1, 21
-            sampleL 0, 14
-            sampleL 0, 7
-            sample 1
-            sample 0
-            sample 0
-            sampleL 0, 14
-            sampleL 0, 7
-            sampleL 1, 21
-            sampleL 0, 14
-            sampleL 0, 7
-            sample 1
-            sample 0
-            sample 0
-            sampleL 0, 14
-            sampleL 0, 7
-            sampleL 1, 21
-            sampleL 0, 14
-            sampleL 0, 7
-            sample 1
-            sample 0
-            sample 0
-            sampleL 0, 14
-            sampleL 0, 7
-            sampleL 1, 21
-            sampleL 0, 14
-            sampleL 0, 7
-            sample 1
-            sample 0
-            sample 0
-            sampleL 0, 14
-            sampleL 0, 7
-            sampleL 1, 21
-            sampleL 0, 14
-            sampleL 0, 7
-            sample 1
-            sample 0
-            sample 0
-            sampleL 0, 14
-            sampleL 0, 7
-            sampleL 1, 21
+    repeatSection1Start
+    countedLoopStart 5
             sampleL 1, 7
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
+    countedLoopEnd
     mainLoopStart
             sampleL 0, 14
             sampleL 0, 7
             sample 1
             sample 0
             sample 0
-            sampleL 0, 14
-            sampleL 0, 7
-            sampleL 1, 21
-            sampleL 0, 14
-            sampleL 0, 7
-            sample 1
-            sample 0
-            sample 0
-            sampleL 0, 14
-            sampleL 0, 7
-            sampleL 1, 21
+    repeatEnd
+    repeatSection2Start
+    countedLoopStart 2
             sampleL 0, 14
             sampleL 0, 7
             sample 1
@@ -3834,70 +1987,7 @@ Music_06_Channel_5:
             sampleL 0, 14
             sampleL 0, 7
             sampleL 1, 21
-            sampleL 0, 14
-            sampleL 0, 7
-            sample 1
-            sample 0
-            sample 0
-            sampleL 0, 14
-            sampleL 0, 7
-            sampleL 1, 21
-            sampleL 0, 14
-            sampleL 0, 7
-            sample 1
-            sample 0
-            sample 0
-            sampleL 0, 14
-            sampleL 0, 7
-            sampleL 1, 21
-            sampleL 0, 14
-            sampleL 0, 7
-            sample 1
-            sample 0
-            sample 0
-            sampleL 0, 14
-            sampleL 0, 7
-            sampleL 1, 21
-            sampleL 0, 14
-            sampleL 0, 7
-            sample 1
-            sample 0
-            sample 0
-            sampleL 0, 14
-            sampleL 0, 7
-            sampleL 1, 21
-            sampleL 0, 14
-            sampleL 0, 7
-            sample 1
-            sample 0
-            sample 0
-            sampleL 0, 14
-            sampleL 0, 7
-            sampleL 1, 21
-            sampleL 0, 14
-            sampleL 0, 7
-            sample 1
-            sample 0
-            sample 0
-            sampleL 0, 14
-            sampleL 0, 7
-            sampleL 1, 21
-            sampleL 0, 14
-            sampleL 0, 7
-            sample 1
-            sample 0
-            sample 0
-            sampleL 0, 14
-            sampleL 0, 7
-            sampleL 1, 21
-            sampleL 0, 14
-            sampleL 0, 7
-            sample 1
-            sample 0
-            sample 0
-            sampleL 0, 14
-            sampleL 0, 7
-            sampleL 1, 21
+    countedLoopEnd
             sampleL 0, 14
             sampleL 0, 7
             sample 1
@@ -3905,6 +1995,7 @@ Music_06_Channel_5:
             sample 0
             sampleL 0, 21
             sample 0
+    countedLoopStart 1
             sampleL 0, 14
             sampleL 0, 7
       stereo 080h
@@ -3941,42 +2032,7 @@ Music_06_Channel_5:
             sample 3
       stereo 040h
             sample 4
-            sampleL 0, 14
-            sampleL 0, 7
-      stereo 080h
-            sample 2
-      stereo 0c0h
-            sample 3
-      stereo 040h
-            sample 4
-      stereo 0c0h
-            sampleL 0, 14
-            sampleL 0, 7
-      stereo 080h
-            sample 2
-      stereo 0c0h
-            sample 3
-      stereo 040h
-            sample 4
-      stereo 0c0h
-            sampleL 0, 14
-            sampleL 0, 7
-      stereo 080h
-            sample 2
-      stereo 0c0h
-            sample 3
-      stereo 040h
-            sample 4
-      stereo 0c0h
-            sample 1
-            sample 5
-            sample 1
-      stereo 080h
-            sample 2
-      stereo 0c0h
-            sample 3
-      stereo 040h
-            sample 4
+    countedLoopEnd
       stereo 0c0h
             sampleL 0, 42
             sample 0
@@ -3985,12 +2041,10 @@ Music_06_Channel_5:
             sampleL 1, 7
             sample 5
             sample 1
+    countedLoopStart 2
             sampleL 0, 21
             sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
+    countedLoopEnd
             sample 0
             sampleL 1, 7
             sample 5
@@ -4048,71 +2102,11 @@ Music_06_Channel_5:
             sample 1
             sample 5
             sample 1
-            sampleL 0, 14
-            sampleL 0, 7
-            sampleL 1, 21
-            sampleL 0, 14
-            sampleL 0, 7
-            sample 1
-            sample 0
-            sample 0
-            sampleL 0, 14
-            sampleL 0, 7
-            sampleL 1, 21
-            sampleL 0, 14
-            sampleL 0, 7
-            sample 1
-            sample 0
-            sample 0
-            sampleL 0, 14
-            sampleL 0, 7
-            sampleL 1, 21
-            sampleL 0, 14
-            sampleL 0, 7
-            sample 1
-            sample 0
-            sample 0
-            sampleL 0, 14
-            sampleL 0, 7
-            sampleL 1, 21
-            sampleL 0, 14
-            sampleL 0, 7
-            sample 1
-            sample 0
-            sample 0
-            sampleL 0, 14
-            sampleL 0, 7
-            sampleL 1, 21
-            sampleL 0, 14
-            sampleL 0, 7
-            sample 1
-            sample 0
-            sample 0
-            sampleL 0, 14
-            sampleL 0, 7
-            sampleL 1, 21
-            sampleL 0, 14
-            sampleL 0, 7
-            sample 1
-            sample 0
-            sample 0
-            sampleL 0, 14
-            sampleL 0, 7
-            sampleL 1, 21
-            sampleL 0, 14
-            sampleL 0, 7
-            sample 1
-            sample 0
-            sample 0
-            sampleL 0, 14
-            sampleL 0, 7
-            sampleL 1, 21
+    repeatEnd
+    repeatSection3Start
+    countedLoopStart 5
             sampleL 1, 7
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
+    countedLoopEnd
     mainLoopEnd
 Music_06_Channel_6:
     channel_end

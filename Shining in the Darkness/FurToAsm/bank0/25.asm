@@ -36,18 +36,10 @@ Music_25_Channel_1:
             note D5
             note G5
             note D5
-            note A5
+    countedLoopStart 5
+            noteL A5, 12
             note E5
-            note A5
-            note E5
-            note A5
-            note E5
-            note A5
-            note E5
-            note A5
-            note E5
-            note A5
-            note E5
+    countedLoopEnd
     channel_end
 Music_25_Channel_2:
       stereo 0c0h
@@ -59,18 +51,10 @@ Music_25_Channel_2:
             note G4
             note B4
             note G4
-            note Cs5
+    countedLoopStart 5
+            noteL Cs5, 12
             note A4
-            note Cs5
-            note A4
-            note Cs5
-            note A4
-            note Cs5
-            note A4
-            note Cs5
-            note A4
-            note Cs5
-            note A4
+    countedLoopEnd
     channel_end
 Music_25_Channel_3:
       stereo 0c0h

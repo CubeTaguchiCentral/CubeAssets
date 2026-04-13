@@ -43,20 +43,19 @@ Music_20_Channel_0:
       noSlide
       setSlide 113
             note C5
+    repeatStart
       noSlide
       setSlide 113
             noteL Fs4, 7
       noSlide
       setSlide 113
+    repeatSection1Start
             note A4
       noSlide
       setSlide 113
             noteL Ds4, 6
-      noSlide
-      setSlide 113
-            noteL Fs4, 7
-      noSlide
-      setSlide 113
+    repeatEnd
+    repeatSection2Start
             noteL C4, 19
       noSlide
       setSlide 113
@@ -152,20 +151,19 @@ Music_20_Channel_4:
       noSlide
       setSlide 113
             note C5
+    repeatStart
       noSlide
       setSlide 113
             noteL Fs4, 7
       noSlide
       setSlide 113
+    repeatSection1Start
             note A4
       noSlide
       setSlide 113
             noteL Ds4, 6
-      noSlide
-      setSlide 113
-            noteL Fs4, 7
-      noSlide
-      setSlide 113
+    repeatEnd
+    repeatSection2Start
             noteL C4, 19
       noSlide
       setSlide 113

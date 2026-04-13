@@ -26,6 +26,7 @@ Music_20_Channel_0:
       shifting 0
       setRelease 1
             noteL B4, 8
+    repeatStart
             note As4
             note B4
             note Fs5
@@ -44,6 +45,7 @@ Music_20_Channel_0:
             note B4
             note As4
             note B4
+    repeatSection1Start
             note E5
             note B4
             note As4
@@ -58,24 +60,8 @@ Music_20_Channel_0:
             note B4
             note E5
             note B4
-            note As4
-            note B4
-            note Fs5
-            note B4
-            note As4
-            note B4
-            note G5
-            note B4
-            note As4
-            note B4
-            note E5
-            note B4
-            note As4
-            note B4
-            note Ds5
-            note B4
-            note As4
-            note B4
+    repeatEnd
+    repeatSection2Start
             note A4
             note B4
             note G4
@@ -104,6 +90,7 @@ Music_20_Channel_0:
             note B4
             note As4
             note B4
+    repeatStart
             note G5
             note A4
             note Gs4
@@ -121,6 +108,7 @@ Music_20_Channel_0:
             note Gs4
             note A4
             note Fs5
+    repeatSection1Start
             note G4
             note Fs4
             note G4
@@ -136,23 +124,8 @@ Music_20_Channel_0:
             note G4
             note Fs4
             note G4
-            note G5
-            note A4
-            note Gs4
-            note A4
-            note Fs5
-            note A4
-            note Gs4
-            note A4
-            note E5
-            note A4
-            note Gs4
-            note A4
-            note Fs5
-            note A4
-            note Gs4
-            note A4
-            note Fs5
+    repeatEnd
+    repeatSection2Start
             note B4
             note As4
             note B4
@@ -224,6 +197,7 @@ Music_20_Channel_1:
       setRelease 1
       vibrato 05ah
             noteL E5, 8
+    repeatStart
             note B4
             note As4
             note B4
@@ -243,6 +217,7 @@ Music_20_Channel_1:
             note B4
             note As4
             note B4
+    repeatSection1Start
             note E5
             note B4
             note As4
@@ -256,25 +231,8 @@ Music_20_Channel_1:
             note As4
             note B4
             note E5
-            note B4
-            note As4
-            note B4
-            note Fs5
-            note B4
-            note As4
-            note B4
-            note G5
-            note B4
-            note As4
-            note B4
-            note E5
-            note B4
-            note As4
-            note B4
-            note Ds5
-            note B4
-            note As4
-            note B4
+    repeatEnd
+    repeatSection2Start
             note A4
             note B4
             note G4
@@ -303,6 +261,7 @@ Music_20_Channel_1:
             note B4
             note As4
             note B4
+    repeatStart
             note G5
             note A4
             note Gs4
@@ -320,6 +279,7 @@ Music_20_Channel_1:
             note Gs4
             note A4
             note Fs5
+    repeatSection1Start
             note G4
             note Fs4
             note G4
@@ -335,23 +295,8 @@ Music_20_Channel_1:
             note G4
             note Fs4
             note G4
-            note G5
-            note A4
-            note Gs4
-            note A4
-            note Fs5
-            note A4
-            note Gs4
-            note A4
-            note E5
-            note A4
-            note Gs4
-            note A4
-            note Fs5
-            note A4
-            note Gs4
-            note A4
-            note Fs5
+    repeatEnd
+    repeatSection2Start
             note B4
             note As4
             note B4
@@ -457,18 +402,14 @@ Music_20_Channel_3:
             note B4
             wait
             note G4
-            wait
+    countedLoopStart 1
+            waitL 16
             note Fs4
             wait
             note G4
             wait
             note A4
-            wait
-            note Fs4
-            wait
-            note G4
-            wait
-            note A4
+    countedLoopEnd
             wait
             note B4
             wait
@@ -520,7 +461,8 @@ Music_20_Channel_3:
             note Cs4
             wait
             note D4
-            wait
+    countedLoopStart 1
+            waitL 16
             note A4
             wait
             note B4
@@ -528,14 +470,7 @@ Music_20_Channel_3:
             note Fs4
             wait
             note G4
-            wait
-            note A4
-            wait
-            note B4
-            wait
-            note Fs4
-            wait
-            note G4
+    countedLoopEnd
             wait
             note A4
             wait
@@ -652,6 +587,7 @@ Music_20_Channel_7:
     mainLoopStart
       setRelease 1
             psgNoteL B3, 8
+    repeatStart
             psgNote As3
             psgNote B3
             psgNote Fs4
@@ -670,6 +606,7 @@ Music_20_Channel_7:
             psgNote B3
             psgNote As3
             psgNote B3
+    repeatSection1Start
             psgNote E4
             psgNote B3
             psgNote As3
@@ -684,24 +621,8 @@ Music_20_Channel_7:
             psgNote B3
             psgNote E4
             psgNote B3
-            psgNote As3
-            psgNote B3
-            psgNote Fs4
-            psgNote B3
-            psgNote As3
-            psgNote B3
-            psgNote G4
-            psgNote B3
-            psgNote As3
-            psgNote B3
-            psgNote E4
-            psgNote B3
-            psgNote As3
-            psgNote B3
-            psgNote Ds4
-            psgNote B3
-            psgNote As3
-            psgNote B3
+    repeatEnd
+    repeatSection2Start
             psgNote A3
             psgNote B3
             psgNote G3
@@ -730,6 +651,7 @@ Music_20_Channel_7:
             psgNote B3
             psgNote As3
             psgNote B3
+    repeatStart
             psgNote G4
             psgNote A3
             psgNote Gs3
@@ -747,6 +669,7 @@ Music_20_Channel_7:
             psgNote Gs3
             psgNote A3
             psgNote Fs4
+    repeatSection1Start
             psgNote G3
             psgNote Fs3
             psgNote G3
@@ -762,23 +685,8 @@ Music_20_Channel_7:
             psgNote G3
             psgNote Fs3
             psgNote G3
-            psgNote G4
-            psgNote A3
-            psgNote Gs3
-            psgNote A3
-            psgNote Fs4
-            psgNote A3
-            psgNote Gs3
-            psgNote A3
-            psgNote E4
-            psgNote A3
-            psgNote Gs3
-            psgNote A3
-            psgNote Fs4
-            psgNote A3
-            psgNote Gs3
-            psgNote A3
-            psgNote Fs4
+    repeatEnd
+    repeatSection2Start
             psgNote B3
             psgNote As3
             psgNote B3

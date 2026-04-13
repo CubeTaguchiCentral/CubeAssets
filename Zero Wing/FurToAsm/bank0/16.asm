@@ -19,16 +19,13 @@ Music_16_Channel_0:
       vol 11
       vibrato 05ah
       setRelease 1
+    countedLoopStart 1
             noteL E5, 16
             noteL E5, 8
             note E5
             note E5
             note E5
-            noteL E5, 16
-            noteL E5, 8
-            note E5
-            note E5
-            note E5
+    countedLoopEnd
             noteL F5, 16
             noteL F5, 8
             note F5
@@ -65,15 +62,13 @@ Music_16_Channel_1:
       setRelease 1
       vibrato 05ah
             noteL C5, 16
+    countedLoopStart 3
             noteL C5, 8
-            note C5
-            note C5
-            note C5
+    countedLoopEnd
             noteL Cs5, 16
+    countedLoopStart 3
             noteL Cs5, 8
-            note Cs5
-            note Cs5
-            note Cs5
+    countedLoopEnd
             noteL D5, 16
             noteL D5, 8
             note D5
@@ -103,16 +98,13 @@ Music_16_Channel_2:
       vol 11
       setRelease 1
       vibrato 05ah
+    countedLoopStart 1
             noteL G5, 16
             noteL G5, 8
             note G5
             note G5
             note G5
-            noteL G5, 16
-            noteL G5, 8
-            note G5
-            note G5
-            note G5
+    countedLoopEnd
             noteL A5, 16
             noteL A5, 8
             note A5
@@ -180,16 +172,13 @@ Music_16_Channel_4:
             waitL 7
       vibrato 05ah
       setRelease 1
+    countedLoopStart 1
             noteL E5, 16
             noteL E5, 8
             note E5
             note E5
             note E5
-            noteL E5, 16
-            noteL E5, 8
-            note E5
-            note E5
-            note E5
+    countedLoopEnd
             noteL F5, 16
             noteL F5, 8
             note F5
@@ -217,27 +206,19 @@ Music_16_Channel_4:
     channel_end
 Music_16_Channel_5:
             sampleL 0, 16
+    repeatStart
+    countedLoopStart 1
             sampleL 0, 8
             sampleL 1, 16
             sampleL 0, 8
             sampleL 0, 16
+    countedLoopEnd
             sampleL 0, 8
             sampleL 1, 16
-            sampleL 0, 8
-            sampleL 0, 16
-            sampleL 0, 8
-            sampleL 1, 16
+    repeatSection1Start
             sampleL 0, 24
-            sampleL 0, 8
-            sampleL 1, 16
-            sampleL 0, 8
-            sampleL 0, 16
-            sampleL 0, 8
-            sampleL 1, 16
-            sampleL 0, 8
-            sampleL 0, 16
-            sampleL 0, 8
-            sampleL 1, 16
+    repeatEnd
+    repeatSection2Start
             sampleL 0, 8
       stereo 040h
             sample 2

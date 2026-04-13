@@ -26,6 +26,7 @@ Music_04_Channel_0:
       vibrato 05ch
       vol 13
             noteL As5, 12
+    repeatStart
             noteL As5, 96
       vol 11
             noteL A5, 48
@@ -43,6 +44,7 @@ Music_04_Channel_0:
             noteL Cs6, 96
       vol 11
             noteL C6, 48
+    repeatSection1Start
             noteL C6, 36
             noteL A5, 12
       vol 12
@@ -53,23 +55,8 @@ Music_04_Channel_0:
       vol 12
             noteL As5, 12
       vol 13
-            noteL As5, 96
-      vol 11
-            noteL A5, 48
-            noteL A5, 36
-      vol 12
-            noteL Cs6, 12
-      vol 13
-            noteL C6, 96
-      vol 11
-            noteL As5, 48
-            noteL As5, 36
-      vol 12
-            noteL Ds6, 12
-      vol 13
-            noteL Cs6, 96
-      vol 11
-            noteL C6, 48
+    repeatEnd
+    repeatSection2Start
       vol 12
             noteL C6, 36
             noteL A5, 12
@@ -105,6 +92,7 @@ Music_04_Channel_1:
             noteL Fs5, 92
       vibrato 05ch
       vol 9
+    repeatStart
             noteL F5, 96
       vol 11
             note Gs5
@@ -113,6 +101,7 @@ Music_04_Channel_1:
       vol 11
             note Fs5
       vol 10
+    repeatSection1Start
             noteL Ds5, 98
             noteL F5, 46
       vol 9
@@ -122,14 +111,8 @@ Music_04_Channel_1:
       vol 11
             noteL Fs5, 93
       vol 10
-            noteL F5, 96
-      vol 11
-            note Gs5
-      vol 10
-            note Fs5
-      vol 11
-            note Fs5
-      vol 10
+    repeatEnd
+    repeatSection2Start
             note Ds5
             noteL F5, 48
       vol 9
@@ -155,6 +138,7 @@ Music_04_Channel_2:
       setRelease 1
             noteL Cs5, 93
       vibrato 05ch
+    repeatStart
       vol 9
             noteL C5, 96
       vol 11
@@ -164,20 +148,14 @@ Music_04_Channel_2:
       vol 11
             note As4
       vol 10
+    repeatSection1Start
             noteL A4, 97
             noteL Cs5, 191
             waitL 2
       vol 11
             noteL Cs5, 94
-      vol 9
-            noteL C5, 96
-      vol 11
-            note Ds5
-      vol 10
-            note Cs5
-      vol 11
-            note As4
-      vol 10
+    repeatEnd
+    repeatSection2Start
             note A4
       vol 9
             noteL Cs5, 192
@@ -203,19 +181,18 @@ Music_04_Channel_3:
       vibrato 05ch
       vol 9
             noteL F4, 96
+    repeatStart
             noteL Fs4, 192
             noteL Ds4, 96
       vol 10
             note F4
             noteL Fs4, 192
+    repeatSection1Start
             noteL Ds4, 96
             note F4
       vol 11
-            noteL Fs4, 192
-            noteL Ds4, 96
-      vol 10
-            note F4
-            noteL Fs4, 192
+    repeatEnd
+    repeatSection2Start
             note Ds4
             noteL F4, 48
       vol 9
@@ -239,12 +216,11 @@ Music_04_Channel_4:
             noteL Fs3, 192
             noteL Ds3, 96
       vol 10
-            note F3
+    countedLoopStart 1
+            noteL F3, 96
             noteL Fs3, 192
             noteL Ds3, 96
-            note F3
-            noteL Fs3, 192
-            noteL Ds3, 96
+    countedLoopEnd
             note F3
             noteL Fs3, 192
             note Ds3

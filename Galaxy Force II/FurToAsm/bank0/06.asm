@@ -26,6 +26,7 @@ Music_06_Channel_0:
       setSlide 11
       setRelease 1
       vibrato 00h
+    countedLoopStart 2
             noteL E3, 18
       noSlide
             noteL D4, 6
@@ -57,68 +58,7 @@ Music_06_Channel_0:
             noteL E4, 6
             noteL D3, 0
       setSlide 11
-            noteL E3, 18
-      noSlide
-            noteL D4, 6
-            wait
-            note D4
-            note E4
-            wait
-            noteL E3, 18
-            note E3
-      sustain
-            noteL D4, 6
-      setRelease 1
-            note E4
-            note E3
-            note E3
-            noteL E3, 12
-            noteL E3, 6
-      sustain
-            note D4
-      setRelease 1
-            note E4
-            wait
-            noteL E3, 12
-      sustain
-            noteL D4, 6
-      setRelease 1
-            note E5
-            waitL 18
-            noteL E4, 6
-            noteL D3, 0
-      setSlide 11
-            noteL E3, 18
-      noSlide
-            noteL D4, 6
-            wait
-            note D4
-            note E4
-            wait
-            noteL E3, 18
-            note E3
-      sustain
-            noteL D4, 6
-      setRelease 1
-            note E4
-            note E3
-            note E3
-            noteL E3, 12
-            noteL E3, 6
-      sustain
-            note D4
-      setRelease 1
-            note E4
-            wait
-            noteL E3, 12
-      sustain
-            noteL D4, 6
-      setRelease 1
-            note E5
-            waitL 18
-            noteL E4, 6
-            noteL D3, 0
-      setSlide 11
+    countedLoopEnd
             noteL E3, 18
       noSlide
             noteL D4, 6
@@ -215,6 +155,7 @@ Music_06_Channel_4:
       vol 12
       setRelease 1
       vibrato 00h
+    countedLoopStart 2
             noteL As3, 18
             noteL As3, 12
             noteL As3, 6
@@ -245,91 +186,16 @@ Music_06_Channel_4:
             noteL As3, 18
             noteL As3, 12
       vol 12
+    countedLoopEnd
             noteL As3, 18
             noteL As3, 12
             noteL As3, 6
             noteL As3, 12
       inst 40
       vol 12
+    countedLoopStart 18
             noteL Fs3, 6
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-      inst 41
-      vol 12
-            noteL As3, 18
-            noteL As3, 12
-      vol 12
-            noteL As3, 18
-            noteL As3, 12
-            noteL As3, 6
-            noteL As3, 12
-      inst 40
-      vol 12
-            noteL Fs3, 6
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-      inst 41
-      vol 12
-            noteL As3, 18
-            noteL As3, 12
-      vol 12
-            noteL As3, 18
-            noteL As3, 12
-            noteL As3, 6
-            noteL As3, 12
-      inst 40
-      vol 12
-            noteL Fs3, 6
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
+    countedLoopEnd
       inst 41
       vol 12
             noteL As3, 18
@@ -349,6 +215,7 @@ Music_06_Channel_5:
             sampleL 4, 12
     mainLoopStart
       stereo 0c0h
+    countedLoopStart 2
             sampleL 0, 6
       stereo 080h
             sampleL 4, 12
@@ -382,72 +249,7 @@ Music_06_Channel_5:
             sampleL 1, 12
             sampleL 1, 6
       stereo 0c0h
-            sample 0
-      stereo 080h
-            sampleL 4, 12
-      stereo 0c0h
-            sample 0
-            sampleL 0, 6
-            sample 1
-      stereo 080h
-            sample 4
-            sampleL 4, 12
-            sample 4
-      stereo 040h
-            sampleL 3, 6
-      stereo 0c0h
-            sample 1
-            sample 1
-            sample 1
-      stereo 080h
-            sample 4
-      stereo 040h
-            sampleL 3, 12
-            sampleL 3, 18
-      stereo 0c0h
-            sampleL 1, 12
-            sampleL 1, 6
-            sample 1
-      stereo 080h
-            sampleL 4, 12
-      stereo 0c0h
-            sampleL 1, 6
-            sampleL 1, 12
-            sampleL 1, 6
-      stereo 0c0h
-            sample 0
-      stereo 080h
-            sampleL 4, 12
-      stereo 0c0h
-            sample 0
-            sampleL 0, 6
-            sample 1
-      stereo 080h
-            sample 4
-            sampleL 4, 12
-            sample 4
-      stereo 040h
-            sampleL 3, 6
-      stereo 0c0h
-            sample 1
-            sample 1
-            sample 1
-      stereo 080h
-            sample 4
-      stereo 040h
-            sampleL 3, 12
-            sampleL 3, 18
-      stereo 0c0h
-            sampleL 1, 12
-            sampleL 1, 6
-            sample 1
-      stereo 080h
-            sampleL 4, 12
-      stereo 0c0h
-            sampleL 1, 6
-            sampleL 1, 12
-            sampleL 1, 6
-      stereo 0c0h
+    countedLoopEnd
             sample 0
       stereo 080h
             sampleL 4, 12

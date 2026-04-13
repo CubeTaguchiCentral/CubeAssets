@@ -93,23 +93,12 @@ Music_05_Channel_5:
             sample 9
             sampleL 10, 4
             sampleL 10, 3
+    countedLoopStart 3
             sampleL 10, 2
-            sample 10
-            sample 10
-            sample 10
-            sample 11
-            sample 11
-            sample 11
-            sample 11
-            sample 11
-            sample 11
-            sample 11
-            sample 11
-            sample 11
-            sample 11
-            sample 11
-            sample 11
-            sample 11
+    countedLoopEnd
+    countedLoopStart 12
+            sampleL 11, 2
+    countedLoopEnd
             sample 10
             sample 10
             sampleL 10, 3

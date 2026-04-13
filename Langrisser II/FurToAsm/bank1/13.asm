@@ -61,14 +61,12 @@ Music_13_Channel_1:
       noSlide
       setRelease 1
             waitL 32
+    countedLoopStart 1
             noteL F4, 6
             note Fs4
             note G4
             wait
-            note F4
-            note Fs4
-            note G4
-            wait
+    countedLoopEnd
             noteL As4, 12
             note G4
             note D4
@@ -99,14 +97,12 @@ Music_13_Channel_2:
       setRelease 1
             waitL 20
       stereo 0c0h
+    countedLoopStart 1
             noteL F5, 6
             note Fs5
             note G5
             wait
-            note F5
-            note Fs5
-            note G5
-            wait
+    countedLoopEnd
             noteL As5, 12
             note G5
             note D5
@@ -138,14 +134,12 @@ Music_13_Channel_3:
             waitL 12
       shifting 32
       vol 8
+    countedLoopStart 1
             noteL F4, 6
             note Fs4
             note G4
             wait
-            note F4
-            note Fs4
-            note G4
-            wait
+    countedLoopEnd
             noteL As4, 12
             note G4
       sustain
@@ -178,14 +172,12 @@ Music_13_Channel_4:
       inst 8
       vol 10
       setRelease 1
+    countedLoopStart 1
             noteL Gs4, 6
             note A4
             note As4
             wait
-            note Gs4
-            note A4
-            note As4
-            wait
+    countedLoopEnd
             noteL D5, 12
             note As4
             note A4
@@ -197,6 +189,7 @@ Music_13_Channel_4:
             noteL D5, 33
     channel_end
 Music_13_Channel_5:
+    repeatStart
       stereo 080h
             sampleL 2, 8
             sample 2
@@ -208,19 +201,11 @@ Music_13_Channel_5:
             sample 4
       stereo 0c0h
             sampleL 0, 84
+    repeatSection1Start
             sampleL 0, 12
             sampleL 0, 48
-      stereo 080h
-            sampleL 2, 8
-            sample 2
-      stereo 0c0h
-            sample 3
-            sample 3
-      stereo 040h
-            sample 4
-            sample 4
-      stereo 0c0h
-            sampleL 0, 84
+    repeatEnd
+    repeatSection2Start
             sampleL 0, 24
             sampleL 0, 12
             sample 1
@@ -271,14 +256,12 @@ Music_13_Channel_6:
             wait
             waitL 96
       psgInst 0ch
+    countedLoopStart 1
             psgNoteL F2, 6
             psgNote Fs2
             psgNote G2
             wait
-            psgNote F2
-            psgNote Fs2
-            psgNote G2
-            wait
+    countedLoopEnd
             psgNoteL As2, 12
             psgNote G2
             psgNote D2
@@ -299,14 +282,12 @@ Music_13_Channel_7:
             wait
             waitL 96
       psgInst 0ch
+    countedLoopStart 1
             psgNoteL Gs2, 6
             psgNote A2
             psgNote As2
             wait
-            psgNote Gs2
-            psgNote A2
-            psgNote As2
-            wait
+    countedLoopEnd
             psgNoteL D3, 12
             psgNote As2
             psgNote A2

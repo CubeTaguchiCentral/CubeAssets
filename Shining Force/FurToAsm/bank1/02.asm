@@ -25,6 +25,7 @@ Music_02_Channel_0:
       vol 9
       setRelease 1
       vibrato 05ch
+    repeatStart
             noteL D6, 12
             note D6
             noteL D6, 48
@@ -43,25 +44,10 @@ Music_02_Channel_0:
             noteL D6, 255
       setRelease 1
             waitL 57
+    repeatSection1Start
             waitL 96
-            noteL D6, 12
-            note D6
-            noteL D6, 48
-            note G6
-            noteL F6, 72
-            noteL E6, 24
-            note F6
-            note E6
-            note F6
-            note E6
-            noteL D6, 8
-            waitL 16
-            noteL D6, 12
-            note C6
-      sustain
-            noteL D6, 255
-      setRelease 1
-            waitL 57
+    repeatEnd
+    repeatSection2Start
             waitL 24
     mainLoopEnd
 Music_02_Channel_1:
@@ -152,16 +138,16 @@ Music_02_Channel_3:
       vol 9
       setRelease 1
       vibrato 05ch
+    repeatStart
             noteL A5, 12
             note A5
             noteL A5, 48
             note D6
             noteL C6, 72
+    countedLoopStart 4
             noteL C6, 24
-            note C6
-            note C6
-            note C6
-            note C6
+    countedLoopEnd
+    repeatSection1Start
             noteL A5, 8
             waitL 16
             noteL A5, 12
@@ -171,16 +157,8 @@ Music_02_Channel_3:
       setRelease 1
             waitL 57
             waitL 96
-            noteL A5, 12
-            note A5
-            noteL A5, 48
-            note D6
-            noteL C6, 72
-            noteL C6, 24
-            note C6
-            note C6
-            note C6
-            note C6
+    repeatEnd
+    repeatSection2Start
             noteL G5, 8
             waitL 16
             noteL G5, 12
@@ -203,16 +181,16 @@ Music_02_Channel_4:
       vol 9
       setRelease 1
       vibrato 05ch
+    repeatStart
             noteL G5, 12
             note G5
             noteL G5, 48
             note A5
             noteL G5, 72
+    countedLoopStart 4
             noteL G5, 24
-            note G5
-            note G5
-            note G5
-            note G5
+    countedLoopEnd
+    repeatSection1Start
             noteL G5, 8
             waitL 16
             noteL G5, 12
@@ -222,16 +200,8 @@ Music_02_Channel_4:
       setRelease 1
             waitL 57
             waitL 96
-            noteL G5, 12
-            note G5
-            noteL G5, 48
-            note A5
-            noteL G5, 72
-            noteL G5, 24
-            note G5
-            note G5
-            note G5
-            note G5
+    repeatEnd
+    repeatSection2Start
             noteL F5, 8
             waitL 16
             noteL F5, 12
@@ -245,6 +215,7 @@ Music_02_Channel_4:
 Music_02_Channel_5:
             waitL 12
     mainLoopStart
+    countedLoopStart 3
             sampleL 1, 36
             sampleL 1, 12
             sampleL 1, 3
@@ -306,189 +277,7 @@ Music_02_Channel_5:
             sample 1
             sampleL 1, 24
             sample 1
-            sampleL 1, 36
-            sampleL 1, 12
-            sampleL 1, 3
-            sample 2
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 2
-            sampleL 1, 12
-            sample 1
-            sampleL 1, 24
-            sample 1
-            sampleL 1, 12
-            sample 1
-            sampleL 1, 24
-            sampleL 1, 3
-            sample 2
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 2
-            sampleL 1, 12
-            sample 1
-            sampleL 1, 24
-            sample 1
-            sampleL 1, 36
-            sampleL 1, 12
-            sampleL 1, 3
-            sample 2
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 2
-            sampleL 1, 12
-            sample 1
-            sampleL 1, 24
-            sample 1
-            sampleL 1, 12
-            sample 1
-            sampleL 1, 24
-            sampleL 1, 3
-            sample 2
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 2
-            sampleL 1, 12
-            sample 1
-            sampleL 1, 24
-            sample 1
-            sampleL 1, 36
-            sampleL 1, 12
-            sampleL 1, 3
-            sample 2
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 2
-            sampleL 1, 12
-            sample 1
-            sampleL 1, 24
-            sample 1
-            sampleL 1, 12
-            sample 1
-            sampleL 1, 24
-            sampleL 1, 3
-            sample 2
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 2
-            sampleL 1, 12
-            sample 1
-            sampleL 1, 24
-            sample 1
+    countedLoopEnd
     mainLoopEnd
 Music_02_Channel_6:
       psgInst 00h

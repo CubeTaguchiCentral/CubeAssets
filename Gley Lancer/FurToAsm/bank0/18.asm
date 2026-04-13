@@ -19,6 +19,7 @@ Music_18_Channel_0:
       vol 9
       setRelease 1
       vibrato 05ah
+    countedLoopStart 7
             noteL C6, 7
             wait
             note B5
@@ -27,62 +28,7 @@ Music_18_Channel_0:
             wait
             note E6
             wait
-            note C6
-            wait
-            note B5
-            wait
-            note C6
-            wait
-            note E6
-            wait
-            note C6
-            wait
-            note B5
-            wait
-            note C6
-            wait
-            note E6
-            wait
-            note C6
-            wait
-            note B5
-            wait
-            note C6
-            wait
-            note E6
-            wait
-            note C6
-            wait
-            note B5
-            wait
-            note C6
-            wait
-            note E6
-            wait
-            note C6
-            wait
-            note B5
-            wait
-            note C6
-            wait
-            note E6
-            wait
-            note C6
-            wait
-            note B5
-            wait
-            note C6
-            wait
-            note E6
-            wait
-            note C6
-            wait
-            note B5
-            wait
-            note C6
-            wait
-            note E6
-            wait
+    countedLoopEnd
             note C6
             wait
             note B5
@@ -129,6 +75,7 @@ Music_18_Channel_1:
       vol 9
       setRelease 1
       vibrato 05ah
+    countedLoopStart 7
             noteL G5, 7
             wait
             note Fs5
@@ -137,62 +84,7 @@ Music_18_Channel_1:
             wait
             note B5
             wait
-            note G5
-            wait
-            note Fs5
-            wait
-            note G5
-            wait
-            note B5
-            wait
-            note G5
-            wait
-            note Fs5
-            wait
-            note G5
-            wait
-            note B5
-            wait
-            note G5
-            wait
-            note Fs5
-            wait
-            note G5
-            wait
-            note B5
-            wait
-            note G5
-            wait
-            note Fs5
-            wait
-            note G5
-            wait
-            note B5
-            wait
-            note G5
-            wait
-            note Fs5
-            wait
-            note G5
-            wait
-            note B5
-            wait
-            note G5
-            wait
-            note Fs5
-            wait
-            note G5
-            wait
-            note B5
-            wait
-            note G5
-            wait
-            note Fs5
-            wait
-            note G5
-            wait
-            note B5
-            wait
+    countedLoopEnd
             note G5
             wait
             note Fs5
@@ -239,6 +131,7 @@ Music_18_Channel_2:
       vol 11
       setRelease 1
       vibrato 05ah
+    countedLoopStart 1
             noteL E3, 12
             waitL 30
             noteL E3, 14
@@ -249,16 +142,7 @@ Music_18_Channel_2:
             noteL D3, 14
             noteL D3, 12
             waitL 44
-            noteL E3, 12
-            waitL 30
-            noteL E3, 14
-            noteL E3, 12
-            waitL 44
-            noteL D3, 12
-            waitL 30
-            noteL D3, 14
-            noteL D3, 12
-            waitL 44
+    countedLoopEnd
             noteL C3, 12
             waitL 30
             noteL C3, 14
@@ -276,6 +160,7 @@ Music_18_Channel_3:
       vol 9
       setRelease 1
       vibrato 05ah
+    countedLoopStart 7
             noteL F6, 7
             wait
             note E6
@@ -284,62 +169,7 @@ Music_18_Channel_3:
             wait
             note A6
             wait
-            note F6
-            wait
-            note E6
-            wait
-            note F6
-            wait
-            note A6
-            wait
-            note F6
-            wait
-            note E6
-            wait
-            note F6
-            wait
-            note A6
-            wait
-            note F6
-            wait
-            note E6
-            wait
-            note F6
-            wait
-            note A6
-            wait
-            note F6
-            wait
-            note E6
-            wait
-            note F6
-            wait
-            note A6
-            wait
-            note F6
-            wait
-            note E6
-            wait
-            note F6
-            wait
-            note A6
-            wait
-            note F6
-            wait
-            note E6
-            wait
-            note F6
-            wait
-            note A6
-            wait
-            note F6
-            wait
-            note E6
-            wait
-            note F6
-            wait
-            note A6
-            wait
+    countedLoopEnd
             note F6
             wait
             note E6
@@ -387,6 +217,7 @@ Music_18_Channel_4:
       vol 6
       setRelease 1
       vibrato 05ah
+    countedLoopStart 7
             noteL C6, 7
             wait
             note B5
@@ -395,62 +226,7 @@ Music_18_Channel_4:
             wait
             note E6
             wait
-            note C6
-            wait
-            note B5
-            wait
-            note C6
-            wait
-            note E6
-            wait
-            note C6
-            wait
-            note B5
-            wait
-            note C6
-            wait
-            note E6
-            wait
-            note C6
-            wait
-            note B5
-            wait
-            note C6
-            wait
-            note E6
-            wait
-            note C6
-            wait
-            note B5
-            wait
-            note C6
-            wait
-            note E6
-            wait
-            note C6
-            wait
-            note B5
-            wait
-            note C6
-            wait
-            note E6
-            wait
-            note C6
-            wait
-            note B5
-            wait
-            note C6
-            wait
-            note E6
-            wait
-            note C6
-            wait
-            note B5
-            wait
-            note C6
-            wait
-            note E6
-            wait
+    countedLoopEnd
             note C6
             wait
             note B5

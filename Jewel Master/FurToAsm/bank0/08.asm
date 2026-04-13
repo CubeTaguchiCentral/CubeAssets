@@ -20,6 +20,7 @@ Music_08_Channel_0:
       setRelease 1
             noteL Fs3, 24
       vibrato 05ah
+    countedLoopStart 1
             waitL 6
             noteL Fs3, 4
             waitL 14
@@ -30,16 +31,7 @@ Music_08_Channel_0:
             noteL Fs3, 4
             waitL 14
             noteL Fs3, 24
-            waitL 6
-            noteL Fs3, 4
-            waitL 14
-            noteL Fs3, 15
-            waitL 3
-            noteL Fs3, 4
-            waitL 8
-            noteL Fs3, 4
-            waitL 14
-            noteL Fs3, 24
+    countedLoopEnd
             waitL 6
             noteL Fs3, 4
             waitL 14
@@ -56,6 +48,7 @@ Music_08_Channel_0:
       shifting 0
       stereo 0c0h
       setRelease 1
+    countedLoopStart 1
             noteL A3, 24
             waitL 6
             noteL A3, 4
@@ -66,16 +59,7 @@ Music_08_Channel_0:
             waitL 8
             noteL A3, 4
             waitL 14
-            noteL A3, 24
-            waitL 6
-            noteL A3, 4
-            waitL 14
-            noteL A3, 15
-            waitL 3
-            noteL A3, 4
-            waitL 8
-            noteL A3, 4
-            waitL 14
+    countedLoopEnd
             noteL A3, 24
             waitL 6
             noteL A3, 4
@@ -121,6 +105,7 @@ Music_08_Channel_2:
       vol 9
       setRelease 2
       vibrato 00h
+    countedLoopStart 10
             noteL Cs5, 6
       vol 7
             note Cs5
@@ -128,76 +113,7 @@ Music_08_Channel_2:
             note Cs5
       stereo 0c0h
       vol 9
-            note Cs5
-      vol 7
-            note Cs5
-            note Cs5
-            note Cs5
-      stereo 0c0h
-      vol 9
-            note Cs5
-      vol 7
-            note Cs5
-            note Cs5
-            note Cs5
-      stereo 0c0h
-      vol 9
-            note Cs5
-      vol 7
-            note Cs5
-            note Cs5
-            note Cs5
-      stereo 0c0h
-      vol 9
-            note Cs5
-      vol 7
-            note Cs5
-            note Cs5
-            note Cs5
-      stereo 0c0h
-      vol 9
-            note Cs5
-      vol 7
-            note Cs5
-            note Cs5
-            note Cs5
-      stereo 0c0h
-      vol 9
-            note Cs5
-      vol 7
-            note Cs5
-            note Cs5
-            note Cs5
-      stereo 0c0h
-      vol 9
-            note Cs5
-      vol 7
-            note Cs5
-            note Cs5
-            note Cs5
-      stereo 0c0h
-      vol 9
-            note Cs5
-      vol 7
-            note Cs5
-            note Cs5
-            note Cs5
-      stereo 0c0h
-      vol 9
-            note Cs5
-      vol 7
-            note Cs5
-            note Cs5
-            note Cs5
-      stereo 0c0h
-      vol 9
-            note Cs5
-      vol 7
-            note Cs5
-            note Cs5
-            note Cs5
-      stereo 0c0h
-      vol 9
+    countedLoopEnd
             note Cs5
       vol 7
             note Cs5
@@ -211,6 +127,7 @@ Music_08_Channel_2:
       stereo 0c0h
       vol 9
       setRelease 2
+    countedLoopStart 10
             noteL Cs5, 6
       vol 7
             note Cs5
@@ -218,76 +135,7 @@ Music_08_Channel_2:
             note Cs5
       stereo 0c0h
       vol 9
-            note Cs5
-      vol 7
-            note Cs5
-            note Cs5
-            note Cs5
-      stereo 0c0h
-      vol 9
-            note Cs5
-      vol 7
-            note Cs5
-            note Cs5
-            note Cs5
-      stereo 0c0h
-      vol 9
-            note Cs5
-      vol 7
-            note Cs5
-            note Cs5
-            note Cs5
-      stereo 0c0h
-      vol 9
-            note Cs5
-      vol 7
-            note Cs5
-            note Cs5
-            note Cs5
-      stereo 0c0h
-      vol 9
-            note Cs5
-      vol 7
-            note Cs5
-            note Cs5
-            note Cs5
-      stereo 0c0h
-      vol 9
-            note Cs5
-      vol 7
-            note Cs5
-            note Cs5
-            note Cs5
-      stereo 0c0h
-      vol 9
-            note Cs5
-      vol 7
-            note Cs5
-            note Cs5
-            note Cs5
-      stereo 0c0h
-      vol 9
-            note Cs5
-      vol 7
-            note Cs5
-            note Cs5
-            note Cs5
-      stereo 0c0h
-      vol 9
-            note Cs5
-      vol 7
-            note Cs5
-            note Cs5
-            note Cs5
-      stereo 0c0h
-      vol 9
-            note Cs5
-      vol 7
-            note Cs5
-            note Cs5
-            note Cs5
-      stereo 0c0h
-      vol 9
+    countedLoopEnd
             note Cs5
       vol 7
             note Cs5
@@ -300,6 +148,7 @@ Music_08_Channel_3:
       vol 8
       setRelease 2
       vibrato 00h
+    countedLoopStart 10
             noteL C5, 6
       vol 6
             note C5
@@ -307,76 +156,7 @@ Music_08_Channel_3:
             note C5
       stereo 0c0h
       vol 8
-            note C5
-      vol 6
-            note C5
-            note C5
-            note C5
-      stereo 0c0h
-      vol 8
-            note C5
-      vol 6
-            note C5
-            note C5
-            note C5
-      stereo 0c0h
-      vol 8
-            note C5
-      vol 6
-            note C5
-            note C5
-            note C5
-      stereo 0c0h
-      vol 8
-            note C5
-      vol 6
-            note C5
-            note C5
-            note C5
-      stereo 0c0h
-      vol 8
-            note C5
-      vol 6
-            note C5
-            note C5
-            note C5
-      stereo 0c0h
-      vol 8
-            note C5
-      vol 6
-            note C5
-            note C5
-            note C5
-      stereo 0c0h
-      vol 8
-            note C5
-      vol 6
-            note C5
-            note C5
-            note C5
-      stereo 0c0h
-      vol 8
-            note C5
-      vol 6
-            note C5
-            note C5
-            note C5
-      stereo 0c0h
-      vol 8
-            note C5
-      vol 6
-            note C5
-            note C5
-            note C5
-      stereo 0c0h
-      vol 8
-            note C5
-      vol 6
-            note C5
-            note C5
-            note C5
-      stereo 0c0h
-      vol 8
+    countedLoopEnd
             note C5
       vol 6
             note C5
@@ -390,6 +170,7 @@ Music_08_Channel_3:
       stereo 0c0h
       vol 8
       setRelease 2
+    countedLoopStart 10
             noteL C5, 6
       vol 6
             note C5
@@ -397,76 +178,7 @@ Music_08_Channel_3:
             note C5
       stereo 0c0h
       vol 8
-            note C5
-      vol 6
-            note C5
-            note C5
-            note C5
-      stereo 0c0h
-      vol 8
-            note C5
-      vol 6
-            note C5
-            note C5
-            note C5
-      stereo 0c0h
-      vol 8
-            note C5
-      vol 6
-            note C5
-            note C5
-            note C5
-      stereo 0c0h
-      vol 8
-            note C5
-      vol 6
-            note C5
-            note C5
-            note C5
-      stereo 0c0h
-      vol 8
-            note C5
-      vol 6
-            note C5
-            note C5
-            note C5
-      stereo 0c0h
-      vol 8
-            note C5
-      vol 6
-            note C5
-            note C5
-            note C5
-      stereo 0c0h
-      vol 8
-            note C5
-      vol 6
-            note C5
-            note C5
-            note C5
-      stereo 0c0h
-      vol 8
-            note C5
-      vol 6
-            note C5
-            note C5
-            note C5
-      stereo 0c0h
-      vol 8
-            note C5
-      vol 6
-            note C5
-            note C5
-            note C5
-      stereo 0c0h
-      vol 8
-            note C5
-      vol 6
-            note C5
-            note C5
-            note C5
-      stereo 0c0h
-      vol 8
+    countedLoopEnd
             note C5
       vol 6
             note C5
@@ -480,31 +192,13 @@ Music_08_Channel_4:
       setRelease 1
             noteL C4, 24
       vibrato 05ah
+    countedLoopStart 4
       stereo 080h
-            note C4
+            noteL C4, 24
       stereo 040h
       vol 9
             note C4
-      stereo 080h
-            note C4
-      stereo 040h
-      vol 9
-            note C4
-      stereo 080h
-            note C4
-      stereo 040h
-      vol 9
-            note C4
-      stereo 080h
-            note C4
-      stereo 040h
-      vol 9
-            note C4
-      stereo 080h
-            note C4
-      stereo 040h
-      vol 9
-            note C4
+    countedLoopEnd
       stereo 080h
             note C4
     mainLoopStart
@@ -515,31 +209,13 @@ Music_08_Channel_4:
       stereo 040h
       vol 9
       setRelease 1
+    countedLoopStart 4
             noteL C4, 24
       stereo 080h
             note C4
       stereo 040h
       vol 9
-            note C4
-      stereo 080h
-            note C4
-      stereo 040h
-      vol 9
-            note C4
-      stereo 080h
-            note C4
-      stereo 040h
-      vol 9
-            note C4
-      stereo 080h
-            note C4
-      stereo 040h
-      vol 9
-            note C4
-      stereo 080h
-            note C4
-      stereo 040h
-      vol 9
+    countedLoopEnd
             note C4
       stereo 080h
             note C4

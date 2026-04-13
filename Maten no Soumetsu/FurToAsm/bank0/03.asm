@@ -24,6 +24,7 @@ Music_03_Channel_0:
       setRelease 1
             noteL A6, 84
       vibrato 05ch
+    repeatStart
             noteL Gs6, 6
             note A6
             noteL B6, 36
@@ -39,22 +40,10 @@ Music_03_Channel_0:
             noteL D6, 3
             note Ds6
             noteL E6, 72
+    repeatSection1Start
             noteL A6, 84
-            noteL Gs6, 6
-            note A6
-            noteL B6, 36
-            noteL A6, 24
-            note Gs6
-            noteL A6, 12
-            noteL E6, 192
-            noteL Fs6, 12
-            noteL Cs6, 132
-            noteL A5, 24
-            note Cs6
-            noteL B5, 114
-            noteL D6, 3
-            note Ds6
-            noteL E6, 72
+    repeatEnd
+    repeatSection2Start
       inst 10
       vol 10
             waitL 24
@@ -103,6 +92,7 @@ Music_03_Channel_1:
       vol 12
       setRelease 1
       vibrato 05ch
+    countedLoopStart 1
             noteL Fs3, 24
             note Fs3
             note Fs3
@@ -135,38 +125,7 @@ Music_03_Channel_1:
             note E3
             note E3
             note E3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Gs3
-            note Gs3
-            note Gs3
-            note Gs3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note Gs3
-            note Gs3
-            note Gs3
-            note Gs3
-            note E3
-            note E3
-            note E3
-            note E3
+    countedLoopEnd
       inst 17
       vol 11
             noteL Fs3, 108
@@ -185,21 +144,9 @@ Music_03_Channel_1:
             note E3
       inst 29
       vol 12
+    countedLoopStart 14
             noteL Fs3, 24
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
+    countedLoopEnd
             noteL Fs3, 12
             note Cs3
     mainLoopEnd
@@ -215,16 +162,14 @@ Music_03_Channel_2:
             waitL 12
       setRelease 1
       vibrato 05ch
+    repeatStart
+    countedLoopStart 1
             noteL E5, 24
             note E5
             note E5
             noteL E5, 12
             wait
-            noteL E5, 24
-            note E5
-            note E5
-            noteL E5, 12
-            wait
+    countedLoopEnd
             noteL D5, 24
             note D5
             note D5
@@ -235,69 +180,27 @@ Music_03_Channel_2:
             note D5
             noteL D5, 6
             note E5
+    countedLoopStart 1
             waitL 12
             noteL Fs5, 24
             note Fs5
             note Fs5
             noteL Fs5, 12
-            wait
-            noteL Fs5, 24
-            note Fs5
-            note Fs5
-            noteL Fs5, 12
-            wait
-            noteL D5, 24
-            note D5
-            note D5
-            noteL D5, 12
-            wait
-            noteL D5, 24
-            note D5
-            note D5
-            noteL D5, 12
-            wait
-            noteL E5, 24
-            note E5
-            note E5
-            noteL E5, 12
-            wait
-            noteL E5, 24
-            note E5
-            note E5
-            noteL E5, 12
-            wait
-            noteL D5, 24
-            note D5
-            note D5
-            noteL D5, 12
-            wait
-            noteL D5, 24
-            note D5
-            note D5
-            noteL D5, 6
-            note E5
+    countedLoopEnd
+    countedLoopStart 1
             waitL 12
-            noteL Fs5, 24
-            note Fs5
-            note Fs5
-            noteL Fs5, 12
-            wait
-            noteL Fs5, 24
-            note Fs5
-            note Fs5
-            noteL Fs5, 12
-            wait
             noteL D5, 24
             note D5
             note D5
             noteL D5, 12
+    countedLoopEnd
+    repeatSection1Start
             wait
-            noteL D5, 24
-            note D5
-            note D5
-            noteL D5, 12
+    repeatEnd
+    repeatSection2Start
       inst 19
       vol 10
+    repeatStart
             noteL Cs5, 6
             note Fs5
             note Gs5
@@ -306,35 +209,22 @@ Music_03_Channel_2:
             note Fs5
             note A5
             note Gs5
+    repeatSection1Start
             noteL Cs5, 84
-            noteL Cs5, 6
-            note Fs5
-            note Gs5
-            noteL A5, 42
-            noteL Gs5, 12
-            note Fs5
-            note A5
-            note Gs5
+    repeatEnd
+    repeatSection2Start
             noteL Cs6, 84
             noteL A5, 96
             note B5
       inst 20
       vol 10
+    countedLoopStart 2
             waitL 12
             noteL Cs5, 24
             note Cs5
             note Cs5
             noteL Cs5, 12
-            wait
-            noteL Cs5, 24
-            note Cs5
-            note Cs5
-            noteL Cs5, 12
-            wait
-            noteL Cs5, 24
-            note Cs5
-            note Cs5
-            noteL Cs5, 12
+    countedLoopEnd
             wait
             noteL Cs5, 24
             note Cs5
@@ -353,16 +243,14 @@ Music_03_Channel_3:
             waitL 12
       setRelease 1
       vibrato 05ch
+    repeatStart
+    countedLoopStart 1
             noteL Cs5, 24
             note Cs5
             note Cs5
             noteL Cs5, 12
             wait
-            noteL Cs5, 24
-            note Cs5
-            note Cs5
-            noteL Cs5, 12
-            wait
+    countedLoopEnd
             noteL A4, 24
             note A4
             note A4
@@ -372,58 +260,13 @@ Music_03_Channel_3:
             note B4
             note B4
             noteL B4, 12
-            wait
-            noteL Cs5, 24
-            note Cs5
-            note Cs5
-            noteL Cs5, 12
-            wait
-            noteL Cs5, 24
-            note Cs5
-            note Cs5
-            noteL Cs5, 12
-            wait
-            noteL B4, 24
-            note B4
-            note B4
-            noteL B4, 12
-            wait
-            noteL B4, 24
-            note B4
-            note B4
-            noteL B4, 4
-            note A4
-            note Gs4
+    countedLoopStart 1
             waitL 12
             noteL Cs5, 24
             note Cs5
             note Cs5
             noteL Cs5, 12
-            wait
-            noteL Cs5, 24
-            note Cs5
-            note Cs5
-            noteL Cs5, 12
-            wait
-            noteL A4, 24
-            note A4
-            note A4
-            noteL A4, 12
-            wait
-            noteL B4, 24
-            note B4
-            note B4
-            noteL B4, 12
-            wait
-            noteL Cs5, 24
-            note Cs5
-            note Cs5
-            noteL Cs5, 12
-            wait
-            noteL Cs5, 24
-            note Cs5
-            note Cs5
-            noteL Cs5, 12
+    countedLoopEnd
             wait
             noteL B4, 24
             note B4
@@ -436,6 +279,10 @@ Music_03_Channel_3:
             noteL B4, 4
             note A4
             note Gs4
+    repeatSection1Start
+            waitL 12
+    repeatEnd
+    repeatSection2Start
       inst 19
       vol 10
             noteL Fs4, 108
@@ -453,16 +300,13 @@ Music_03_Channel_3:
             note Gs4
       inst 20
       vol 10
+    countedLoopStart 1
             waitL 12
             noteL As4, 24
             note As4
             note As4
             noteL As4, 12
-            wait
-            noteL As4, 24
-            note As4
-            note As4
-            noteL As4, 12
+    countedLoopEnd
             wait
             noteL A4, 24
             note A4
@@ -484,6 +328,7 @@ Music_03_Channel_4:
       vol 11
       setRelease 1
       vibrato 00h
+    countedLoopStart 11
             noteL Fs3, 12
       vol 7
             noteL Fs3, 6
@@ -525,492 +370,14 @@ Music_03_Channel_4:
             note Fs3
             note Fs3
       vol 11
+    countedLoopEnd
+    countedLoopStart 6
             noteL Fs3, 12
       vol 7
             noteL Fs3, 6
             note Fs3
       vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            note Fs3
-      vol 7
-            note Fs3
-            note Fs3
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            note Fs3
-      vol 7
-            note Fs3
-            note Fs3
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            note Fs3
-      vol 7
-            note Fs3
-            note Fs3
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            note Fs3
-      vol 7
-            note Fs3
-            note Fs3
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            note Fs3
-      vol 7
-            note Fs3
-            note Fs3
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            note Fs3
-      vol 7
-            note Fs3
-            note Fs3
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            note Fs3
-      vol 7
-            note Fs3
-            note Fs3
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            note Fs3
-      vol 7
-            note Fs3
-            note Fs3
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            note Fs3
-      vol 7
-            note Fs3
-            note Fs3
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            note Fs3
-      vol 7
-            note Fs3
-            note Fs3
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            note Fs3
-      vol 7
-            note Fs3
-            note Fs3
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
-            noteL Fs3, 12
-      vol 7
-            noteL Fs3, 6
-            note Fs3
-      vol 11
+    countedLoopEnd
             note Fs3
       vol 7
             note Fs3
@@ -1019,18 +386,11 @@ Music_03_Channel_4:
     mainLoopEnd
 Music_03_Channel_5:
     mainLoopStart
+    countedLoopStart 3
             sampleL 0, 255
             waitL 117
             sampleL 0, 12
-            sampleL 0, 255
-            waitL 117
-            sampleL 0, 12
-            sampleL 0, 255
-            waitL 117
-            sampleL 0, 12
-            sampleL 0, 255
-            waitL 117
-            sampleL 0, 12
+    countedLoopEnd
             sampleL 0, 255
             wait
             waitL 66
@@ -1044,6 +404,7 @@ Music_03_Channel_6:
       setRelease 84
             psgNoteL A4, 84
       vibrato 04ch
+    repeatStart
       setRelease 6
             psgNoteL Gs4, 6
             psgNote A4
@@ -1070,34 +431,11 @@ Music_03_Channel_6:
             psgNote Ds4
       setRelease 72
             psgNoteL E4, 72
+    repeatSection1Start
       setRelease 84
             psgNoteL A4, 84
-      setRelease 6
-            psgNoteL Gs4, 6
-            psgNote A4
-      setRelease 36
-            psgNoteL B4, 36
-      setRelease 24
-            psgNoteL A4, 24
-            psgNote Gs4
-      setRelease 12
-            psgNoteL A4, 12
-      setRelease 192
-            psgNoteL E4, 192
-      setRelease 12
-            psgNoteL Fs4, 12
-      setRelease 132
-            psgNoteL Cs4, 132
-      setRelease 24
-            psgNoteL A3, 24
-            psgNote Cs4
-      setRelease 114
-            psgNoteL B3, 114
-      setRelease 3
-            psgNoteL D4, 3
-            psgNote Ds4
-      setRelease 72
-            psgNoteL E4, 72
+    repeatEnd
+    repeatSection2Start
       psgInst 00h
             waitL 24
       psgInst 098h

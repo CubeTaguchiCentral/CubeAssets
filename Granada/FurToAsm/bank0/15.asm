@@ -81,14 +81,10 @@ Music_15_Channel_2:
       vol 10
       vibrato 00h
       setRelease 1
+    countedLoopStart 3
             noteL E4, 6
             noteL E4, 12
-            noteL E4, 6
-            noteL E4, 12
-            noteL E4, 6
-            noteL E4, 12
-            noteL E4, 6
-            noteL E4, 12
+    countedLoopEnd
             note E4
             note G4
             note A4
@@ -167,15 +163,11 @@ Music_15_Channel_4:
             noteL A7, 6
     channel_end
 Music_15_Channel_5:
+    countedLoopStart 2
             sampleL 1, 6
             sample 0
             sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
+    countedLoopEnd
             sample 2
             sample 2
             sample 3

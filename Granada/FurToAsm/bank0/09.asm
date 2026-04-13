@@ -19,11 +19,13 @@ Music_09_Channel_0:
       vol 9
       setRelease 1
       vibrato 05ah
+    repeatStart
             noteL G3, 8
             noteL D4, 4
             noteL G4, 8
             noteL F4, 4
             noteL G4, 8
+    repeatSection1Start
             noteL As4, 12
             note C5
             noteL Cs5, 4
@@ -33,11 +35,8 @@ Music_09_Channel_0:
             noteL F4, 4
             noteL D4, 8
             noteL F4, 4
-            noteL G3, 8
-            noteL D4, 4
-            noteL G4, 8
-            noteL F4, 4
-            noteL G4, 8
+    repeatEnd
+    repeatSection2Start
             noteL As4, 16
             noteL D5, 4
             note Cs5
@@ -60,6 +59,7 @@ Music_09_Channel_0:
       inst 26
       vol 9
       setRelease 1
+    repeatStart
             noteL D6, 48
             noteL C6, 8
             noteL As5, 4
@@ -158,22 +158,10 @@ Music_09_Channel_0:
             note G5
             note F5
             note G5
+    countedLoopStart 7
             noteL D6, 3
             note G6
-            note D6
-            note G6
-            note D6
-            note G6
-            note D6
-            note G6
-            note D6
-            note G6
-            note D6
-            note G6
-            note D6
-            note G6
-            note D6
-            note G6
+    countedLoopEnd
             noteL G6, 4
             note D6
             note Gs5
@@ -233,181 +221,11 @@ Music_09_Channel_0:
             note C7
             note Cs7
       stereo 0c0h
+    repeatSection1Start
       inst 26
       vol 9
-            noteL D6, 48
-            noteL C6, 8
-            noteL As5, 4
-            noteL F5, 8
-            noteL G5, 16
-            noteL C6, 60
-            noteL As5, 8
-            noteL G5, 4
-            noteL F5, 8
-            noteL G5, 16
-            noteL D6, 60
-            noteL C6, 8
-            noteL As5, 4
-            noteL F5, 8
-            noteL G5, 16
-            noteL C6, 60
-            noteL As5, 8
-            noteL G5, 4
-            noteL F5, 8
-            noteL G5, 24
-            noteL Cs6, 4
-            noteL C6, 8
-            noteL Cs6, 4
-            noteL C6, 8
-            noteL As5, 4
-            noteL G5, 8
-            noteL F5, 4
-            noteL D5, 8
-            noteL F5, 4
-            noteL G5, 8
-            noteL F5, 4
-            noteL G5, 8
-            noteL As5, 12
-            note C6
-            noteL Cs6, 4
-            noteL C6, 8
-            noteL Cs6, 4
-            noteL C6, 8
-            noteL As5, 4
-            noteL G5, 8
-            noteL F5, 4
-            noteL D5, 8
-            noteL F5, 4
-            noteL G5, 8
-            noteL F5, 4
-            noteL G5, 8
-            noteL As5, 24
-            noteL Cs6, 4
-            noteL C6, 8
-            noteL Cs6, 4
-            noteL C6, 8
-            noteL As5, 4
-            noteL G5, 8
-            noteL F5, 4
-            noteL D5, 8
-            noteL F5, 4
-            noteL G5, 8
-            noteL F5, 4
-            noteL G5, 8
-            noteL As5, 12
-            note C6
-            noteL Cs6, 4
-            noteL C6, 8
-            noteL Cs6, 4
-            noteL C6, 8
-            noteL As5, 4
-            noteL G5, 8
-            noteL F5, 4
-            noteL D5, 8
-            noteL F5, 4
-            noteL G5, 48
-      stereo 080h
-      inst 25
-      vol 10
-            noteL D6, 4
-            note Cs6
-            note C6
-            note As5
-            note G5
-            note F5
-            note G5
-            note F5
-            note As5
-            note F5
-            note C6
-            note F5
-            note C6
-            note Cs6
-            note G6
-            note C6
-            note Cs6
-            note F6
-            note D6
-            note Cs6
-            note C6
-            note G5
-            note F5
-            note G5
-            noteL D6, 3
-            note G6
-            note D6
-            note G6
-            note D6
-            note G6
-            note D6
-            note G6
-            note D6
-            note G6
-            note D6
-            note G6
-            note D6
-            note G6
-            note D6
-            note G6
-            noteL G6, 4
-            note D6
-            note Gs5
-            note Fs6
-            note Cs6
-            note G5
-            note F6
-            note C6
-            note Fs5
-            note E6
-            note B5
-            note F5
-            noteL D6, 8
-            noteL Cs6, 4
-            note D6
-            note Cs6
-            note C6
-            note As5
-            note G5
-            note F5
-            note D5
-            note F5
-            note G5
-            noteL C6, 8
-            noteL As5, 4
-            note C6
-            note As5
-            note G5
-            note F5
-            note D5
-            note C5
-            note D5
-            note F5
-            note G5
-            note D5
-            note Ds5
-            note E5
-            note F5
-            note Fs5
-            note G5
-            note Gs5
-            note A5
-            note As5
-            note B5
-            note C6
-            note Cs6
-            note D6
-            note Ds6
-            note E6
-            note F6
-            note Fs6
-            note G6
-            note Gs6
-            note A6
-            note As6
-            note B6
-            note C7
-            note Cs7
-      stereo 0c0h
+    repeatEnd
+    repeatSection2Start
       inst 6
       vol 13
             note G5
@@ -485,54 +303,22 @@ Music_09_Channel_0:
             noteL As5, 12
             note A5
             noteL G5, 4
-            note D5
+    countedLoopStart 3
+            noteL D5, 4
             note G5
             note D5
             note A5
             note D5
             note As5
-            note D5
-            note G5
-            note D5
-            note A5
-            note D5
-            note As5
-            note D5
-            note G5
-            note D5
-            note A5
-            note D5
-            note As5
-            note D5
-            note G5
-            note D5
-            note A5
-            note D5
-            note As5
-            note C5
+    countedLoopEnd
+    countedLoopStart 3
+            noteL C5, 4
             note F5
             note C5
             note G5
             note C5
             note A5
-            note C5
-            note F5
-            note C5
-            note G5
-            note C5
-            note A5
-            note C5
-            note F5
-            note C5
-            note G5
-            note C5
-            note A5
-            note C5
-            note F5
-            note C5
-            note G5
-            note C5
-            note A5
+    countedLoopEnd
             note C5
             note D5
             note Ds5
@@ -589,11 +375,13 @@ Music_09_Channel_1:
       setRelease 1
             waitL 1
       vibrato 05ah
+    repeatStart
             noteL G3, 8
             noteL D4, 4
             noteL G4, 8
             noteL F4, 4
             noteL G4, 8
+    repeatSection1Start
             noteL As4, 12
             note C5
             noteL Cs5, 4
@@ -603,11 +391,8 @@ Music_09_Channel_1:
             noteL F4, 4
             noteL D4, 8
             noteL F4, 4
-            noteL G3, 8
-            noteL D4, 4
-            noteL G4, 8
-            noteL F4, 4
-            noteL G4, 8
+    repeatEnd
+    repeatSection2Start
             noteL As4, 16
             noteL D5, 4
             note Cs5
@@ -631,6 +416,7 @@ Music_09_Channel_1:
       inst 26
       vol 7
       setRelease 1
+    repeatStart
             noteL D6, 48
             noteL C6, 8
             noteL As5, 4
@@ -731,22 +517,10 @@ Music_09_Channel_1:
             note G5
             note F5
             note G5
+    countedLoopStart 7
             noteL D6, 3
             note G6
-            note D6
-            note G6
-            note D6
-            note G6
-            note D6
-            note G6
-            note D6
-            note G6
-            note D6
-            note G6
-            note D6
-            note G6
-            note D6
-            note G6
+    countedLoopEnd
             noteL G6, 4
             note D6
             note Gs5
@@ -804,183 +578,13 @@ Music_09_Channel_1:
             note As6
             note B6
             note C7
+    repeatSection1Start
             waitL 10
       stereo 0c0h
       inst 26
       vol 7
-            noteL D6, 48
-            noteL C6, 8
-            noteL As5, 4
-            noteL F5, 8
-            noteL G5, 16
-            noteL C6, 60
-            noteL As5, 8
-            noteL G5, 4
-            noteL F5, 8
-            noteL G5, 16
-            noteL D6, 60
-            noteL C6, 8
-            noteL As5, 4
-            noteL F5, 8
-            noteL G5, 16
-            noteL C6, 60
-            noteL As5, 8
-            noteL G5, 4
-            noteL F5, 8
-            noteL G5, 24
-            noteL Cs6, 4
-            noteL C6, 8
-            noteL Cs6, 4
-            noteL C6, 8
-            noteL As5, 4
-            noteL G5, 8
-            noteL F5, 4
-            noteL D5, 8
-            noteL F5, 4
-            noteL G5, 8
-            noteL F5, 4
-            noteL G5, 8
-            noteL As5, 12
-            note C6
-            noteL Cs6, 4
-            noteL C6, 8
-            noteL Cs6, 4
-            noteL C6, 8
-            noteL As5, 4
-            noteL G5, 8
-            noteL F5, 4
-            noteL D5, 8
-            noteL F5, 4
-            noteL G5, 8
-            noteL F5, 4
-            noteL G5, 8
-            noteL As5, 24
-            noteL Cs6, 4
-            noteL C6, 8
-            noteL Cs6, 4
-            noteL C6, 8
-            noteL As5, 4
-            noteL G5, 8
-            noteL F5, 4
-            noteL D5, 8
-            noteL F5, 4
-            noteL G5, 8
-            noteL F5, 4
-            noteL G5, 8
-            noteL As5, 12
-            note C6
-            noteL Cs6, 4
-            noteL C6, 8
-            noteL Cs6, 4
-            noteL C6, 8
-            noteL As5, 4
-            noteL G5, 8
-            noteL F5, 4
-            noteL D5, 8
-            noteL F5, 4
-            noteL G5, 38
-      stereo 040h
-            waitL 1
-      inst 25
-      vol 10
-            waitL 3
-            noteL D6, 4
-            note Cs6
-            note C6
-            note As5
-            note G5
-            note F5
-            note G5
-            note F5
-            note As5
-            note F5
-            note C6
-            note F5
-            note C6
-            note Cs6
-            note G6
-            note C6
-            note Cs6
-            note F6
-            note D6
-            note Cs6
-            note C6
-            note G5
-            note F5
-            note G5
-            noteL D6, 3
-            note G6
-            note D6
-            note G6
-            note D6
-            note G6
-            note D6
-            note G6
-            note D6
-            note G6
-            note D6
-            note G6
-            note D6
-            note G6
-            note D6
-            note G6
-            noteL G6, 4
-            note D6
-            note Gs5
-            note Fs6
-            note Cs6
-            note G5
-            note F6
-            note C6
-            note Fs5
-            note E6
-            note B5
-            note F5
-            noteL D6, 8
-            noteL Cs6, 4
-            note D6
-            note Cs6
-            note C6
-            note As5
-            note G5
-            note F5
-            note D5
-            note F5
-            note G5
-            noteL C6, 8
-            noteL As5, 4
-            note C6
-            note As5
-            note G5
-            note F5
-            note D5
-            note C5
-            note D5
-            note F5
-            note G5
-            note D5
-            note Ds5
-            note E5
-            note F5
-            note Fs5
-            note G5
-            note Gs5
-            note A5
-            note As5
-            note B5
-            note C6
-            note Cs6
-            note D6
-            note Ds6
-            note E6
-            note F6
-            note Fs6
-            note G6
-            note Gs6
-            note A6
-            note As6
-            note B6
-            note C7
+    repeatEnd
+    repeatSection2Start
       stereo 0c0h
       inst 6
       vol 9
@@ -1060,54 +664,22 @@ Music_09_Channel_1:
             noteL As5, 12
             note A5
             noteL G5, 4
-            note D5
+    countedLoopStart 3
+            noteL D5, 4
             note G5
             note D5
             note A5
             note D5
             note As5
-            note D5
-            note G5
-            note D5
-            note A5
-            note D5
-            note As5
-            note D5
-            note G5
-            note D5
-            note A5
-            note D5
-            note As5
-            note D5
-            note G5
-            note D5
-            note A5
-            note D5
-            note As5
-            note C5
+    countedLoopEnd
+    countedLoopStart 3
+            noteL C5, 4
             note F5
             note C5
             note G5
             note C5
             note A5
-            note C5
-            note F5
-            note C5
-            note G5
-            note C5
-            note A5
-            note C5
-            note F5
-            note C5
-            note G5
-            note C5
-            note A5
-            note C5
-            note F5
-            note C5
-            note G5
-            note C5
-            note A5
+    countedLoopEnd
             note C5
             note D5
             note Ds5
@@ -1162,11 +734,13 @@ Music_09_Channel_2:
       vol 10
       vibrato 00h
       setRelease 1
+    repeatStart
             noteL G2, 8
             noteL D3, 4
             noteL G3, 8
             noteL F3, 4
             noteL G3, 8
+    repeatSection1Start
             noteL As3, 12
             note C4
             noteL Cs4, 4
@@ -1176,11 +750,8 @@ Music_09_Channel_2:
             noteL F3, 4
             noteL D3, 8
             noteL F3, 4
-            noteL G2, 8
-            noteL D3, 4
-            noteL G3, 8
-            noteL F3, 4
-            noteL G3, 8
+    repeatEnd
+    repeatSection2Start
             noteL As3, 16
             noteL D4, 4
             note Cs4
@@ -1199,6 +770,7 @@ Music_09_Channel_2:
       vol 10
       shifting 0
       setRelease 1
+    countedLoopStart 1
             noteL G2, 8
             noteL D3, 4
             noteL G3, 8
@@ -1405,212 +977,8 @@ Music_09_Channel_2:
             note A3
             note D3
             note D3
-            noteL G2, 8
-            noteL D3, 4
-            noteL G3, 8
-            noteL F3, 4
-            noteL G3, 8
-            noteL As3, 12
-            note C4
-            noteL Cs4, 4
-            noteL C4, 8
-            noteL As3, 4
-            noteL G3, 8
-            noteL F3, 4
-            noteL D3, 8
-            noteL F3, 4
-            noteL G2, 8
-            noteL D3, 4
-            noteL G3, 8
-            noteL F3, 4
-            noteL G3, 8
-            noteL As3, 12
-            noteL C4, 4
-            note Cs4
-            note G3
-            note G3
-            note C4
-            note G3
-            note G3
-            note As3
-            note F3
-            note F3
-            note G3
-            note D3
-            note F3
-            noteL G2, 8
-            noteL D3, 4
-            noteL G3, 8
-            noteL F3, 4
-            noteL G3, 8
-            noteL As3, 12
-            note C4
-            noteL Cs4, 4
-            noteL C4, 8
-            noteL As3, 4
-            noteL G3, 8
-            noteL F3, 4
-            noteL D3, 8
-            noteL F3, 4
-            noteL G2, 8
-            noteL D3, 4
-            noteL G3, 8
-            noteL F3, 4
-            noteL G3, 8
-            noteL As3, 12
-            noteL C4, 4
-            note D4
-            note Cs4
-            note C4
-            note As3
-            note G3
-            note F3
-            note C4
-            note As3
-            note G3
-            note F3
-            note D3
-            note C3
-            noteL G2, 8
-            noteL D3, 4
-            noteL G3, 8
-            noteL F3, 4
-            noteL G3, 8
-            noteL As3, 12
-            note C4
-            noteL Cs4, 4
-            noteL C4, 8
-            noteL As3, 4
-            noteL G3, 8
-            noteL F3, 4
-            noteL D3, 8
-            noteL F3, 4
-            noteL G2, 8
-            noteL D3, 4
-            noteL G3, 8
-            noteL F3, 4
-            noteL G3, 8
-            noteL As3, 12
-            noteL C4, 4
-            note Cs4
-            note G3
-            note G3
-            note C4
-            note G3
-            note G3
-            note As3
-            note F3
-            note F3
-            note G3
-            note D3
-            note F3
-            noteL G2, 8
-            noteL D3, 4
-            noteL G3, 8
-            noteL F3, 4
-            noteL G3, 8
-            noteL As3, 12
-            note C4
-            noteL Cs4, 4
-            noteL C4, 8
-            noteL As3, 4
-            noteL G3, 8
-            noteL F3, 4
-            noteL D3, 8
-            noteL F3, 4
-            noteL G2, 8
-            noteL D3, 4
-            noteL G3, 8
-            noteL F3, 4
-            noteL G3, 8
-            noteL As3, 12
-            noteL C4, 4
-            note D4
-            note Cs4
-            note C4
-            note As3
-            note G3
-            note F3
-            note C4
-            note As3
-            note G3
-            note F3
-            note D3
-            note C3
-            noteL C3, 8
-            noteL C3, 4
-            noteL C4, 8
-            noteL C3, 4
-            noteL As2, 8
-            noteL As2, 4
-            noteL As3, 8
-            noteL As2, 4
-            noteL G2, 8
-            noteL G2, 4
-            noteL G3, 8
-            noteL G2, 4
-            noteL F2, 8
-            noteL G2, 12
-            noteL G2, 4
-            note G2
-            note G2
-            note G2
-            note G3
-            note G2
-            note G2
-            note G2
-            note G2
-            note G2
-            note G3
-            note G2
-            note G2
-            note G2
-            note G2
-            note G2
-            note G3
-            note G2
-            note G2
-            note G2
-            note D3
-            note G3
-            note As3
-            note C4
-            note D4
-            noteL C3, 8
-            noteL C3, 4
-            noteL C4, 8
-            noteL C3, 4
-            noteL As2, 8
-            noteL As2, 4
-            noteL As3, 8
-            noteL As2, 4
-            noteL G2, 8
-            noteL G2, 4
-            noteL G3, 8
-            noteL G2, 4
-            noteL F2, 8
-            noteL G2, 12
-            noteL G2, 4
-            noteL D3, 8
-            noteL D3, 4
-            noteL D4, 8
-            noteL D3, 4
-            noteL D3, 8
-            noteL D3, 4
-            noteL D4, 8
-            noteL D3, 4
-            note D3
-            note D3
-            note D3
-            note G3
-            note D3
-            note D3
-            note Gs3
-            note D3
-            note D3
-            note A3
-            note D3
-            note D3
+    countedLoopEnd
+    countedLoopStart 1
             noteL G2, 12
             note G2
             note G2
@@ -1652,47 +1020,7 @@ Music_09_Channel_2:
             noteL C3, 4
             noteL Ds3, 8
             noteL F3, 4
-            noteL G2, 12
-            note G2
-            note G2
-            note G2
-            noteL G2, 8
-            noteL F2, 4
-            noteL G2, 8
-            noteL As2, 16
-            noteL G2, 8
-            noteL F2, 4
-            noteL G2, 12
-            note G2
-            note G2
-            note G2
-            noteL G2, 8
-            noteL F2, 4
-            noteL G2, 8
-            noteL As2, 16
-            noteL G2, 8
-            noteL F2, 4
-            noteL C3, 12
-            note C3
-            note C3
-            note C3
-            noteL C3, 8
-            noteL As2, 4
-            noteL C3, 8
-            noteL Ds3, 16
-            noteL C3, 8
-            noteL As2, 4
-            noteL C3, 12
-            note C3
-            note C3
-            note C3
-            noteL C3, 8
-            noteL As2, 4
-            noteL C3, 8
-            noteL As2, 12
-            noteL C3, 4
-            noteL Ds3, 8
-            noteL F3, 4
+    countedLoopEnd
     mainLoopEnd
 Music_09_Channel_3:
       stereo 0c0h
@@ -1731,6 +1059,7 @@ Music_09_Channel_3:
       vol 8
       shifting 0
       setRelease 1
+    countedLoopStart 1
             noteL G5, 12
             note F5
             noteL G5, 8
@@ -1848,131 +1177,11 @@ Music_09_Channel_3:
             note Gs5
             note Gs5
             note Gs5
-            noteL G5, 12
-            note F5
-            noteL G5, 8
-            noteL F5, 4
-            noteL G5, 8
-            noteL C6, 16
-            noteL As5, 12
-            noteL G5, 8
-            noteL F5, 16
-            noteL G5, 12
-            note F5
-            noteL G5, 8
-            noteL F5, 4
-            noteL G5, 8
-            noteL C6, 16
-            noteL As5, 12
-            noteL C6, 8
-            noteL Cs6, 4
-            noteL C6, 8
-            noteL As5, 4
-            noteL G5, 12
-            note F5
-            noteL G5, 8
-            noteL F5, 4
-            noteL G5, 8
-            noteL C6, 16
-            noteL As5, 12
-            noteL G5, 8
-            noteL F5, 16
-            noteL G5, 12
-            note F5
-            noteL G5, 8
-            noteL F5, 4
-            noteL G5, 8
-            noteL C6, 16
-            noteL As5, 12
-            noteL C6, 8
-            noteL Cs6, 4
-            noteL C6, 8
-            noteL As5, 4
-            noteL G5, 12
-            note F5
-            noteL G5, 8
-            noteL F5, 4
-            noteL G5, 8
-            noteL C6, 16
-            noteL As5, 12
-            noteL G5, 8
-            noteL F5, 16
-            noteL G5, 12
-            note F5
-            noteL G5, 8
-            noteL F5, 4
-            noteL G5, 8
-            noteL C6, 16
-            noteL As5, 12
-            noteL C6, 8
-            noteL Cs6, 4
-            noteL C6, 8
-            noteL As5, 4
-            noteL G5, 12
-            note F5
-            noteL G5, 8
-            noteL F5, 4
-            noteL G5, 8
-            noteL C6, 16
-            noteL As5, 12
-            noteL G5, 8
-            noteL F5, 16
-            noteL G5, 12
-            note F5
-            noteL G5, 8
-            noteL F5, 4
-            noteL G5, 12
-            noteL D6, 4
-            note Cs6
-            note C6
-            note As5
-            note G5
-            note F5
-            note C6
-            note As5
-            note G5
-            note F5
-            note D5
-            note C5
-            noteL C6, 24
-            note As5
-            note G5
-            noteL F5, 8
-            noteL G5, 6
-            wait
-            noteL G5, 100
-            noteL C6, 24
-            note As5
-            note G5
-            noteL F5, 8
-            noteL G5, 12
-            noteL G5, 4
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            noteL Gs5, 8
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
+    countedLoopEnd
+    countedLoopStart 3
             noteL As5, 96
             note A5
-            note As5
-            note A5
-            note As5
-            note A5
-            note As5
-            note A5
+    countedLoopEnd
     mainLoopEnd
 Music_09_Channel_4:
       stereo 0c0h
@@ -2011,6 +1220,7 @@ Music_09_Channel_4:
       vol 8
       shifting 0
       setRelease 1
+    countedLoopStart 1
             noteL D5, 12
             note C5
             noteL D5, 8
@@ -2128,145 +1338,21 @@ Music_09_Channel_4:
             note D6
             note D6
             note D6
-            noteL D5, 12
-            note C5
-            noteL D5, 8
-            noteL C5, 4
-            noteL D5, 8
-            noteL G5, 16
-            noteL F5, 12
-            noteL D5, 8
-            noteL C5, 16
-            noteL D5, 12
-            note C5
-            noteL D5, 8
-            noteL C5, 4
-            noteL D5, 8
-            noteL G5, 16
-            noteL F5, 12
-            noteL G5, 8
-            noteL Gs5, 4
-            noteL G5, 8
-            noteL F5, 4
-            noteL D5, 12
-            note C5
-            noteL D5, 8
-            noteL C5, 4
-            noteL D5, 8
-            noteL G5, 16
-            noteL F5, 12
-            noteL D5, 8
-            noteL C5, 16
-            noteL D5, 12
-            note C5
-            noteL D5, 8
-            noteL C5, 4
-            noteL D5, 8
-            noteL G5, 16
-            noteL F5, 12
-            noteL G5, 8
-            noteL Gs5, 4
-            noteL G5, 8
-            noteL F5, 4
-            noteL D5, 12
-            note C5
-            noteL D5, 8
-            noteL C5, 4
-            noteL D5, 8
-            noteL G5, 16
-            noteL F5, 12
-            noteL D5, 8
-            noteL C5, 16
-            noteL D5, 12
-            note C5
-            noteL D5, 8
-            noteL C5, 4
-            noteL D5, 8
-            noteL G5, 16
-            noteL F5, 12
-            noteL G5, 8
-            noteL Gs5, 4
-            noteL G5, 8
-            noteL F5, 4
-            noteL D5, 12
-            note C5
-            noteL D5, 8
-            noteL C5, 4
-            noteL D5, 8
-            noteL G5, 16
-            noteL F5, 12
-            noteL D5, 8
-            noteL C5, 16
-            noteL D5, 12
-            note C5
-            noteL D5, 8
-            noteL C5, 4
-            noteL D5, 12
-            noteL D5, 4
-            note Cs5
-            note C5
-            note As4
-            note G4
-            note F4
-            note C5
-            note As4
-            note G4
-            note F4
-            note D4
-            note C4
-            noteL G5, 24
-            note F5
-            note D5
-            noteL C5, 8
-            noteL D5, 6
-            wait
-            noteL D5, 100
-            noteL G5, 24
-            note F5
-            note D5
-            noteL C5, 8
-            noteL D5, 12
-            noteL D5, 4
-            note D6
-            note D6
-            note D6
-            note D6
-            note D6
-            note D6
-            note D6
-            note D6
-            note D6
-            note D6
-            note D6
-            note D6
-            noteL D6, 8
-            note D6
-            note D6
-            note D6
-            note D6
-            note D6
+    countedLoopEnd
+    countedLoopStart 3
             noteL D6, 96
             note C6
-            note D6
-            note C6
-            note D6
-            note C6
-            note D6
-            note C6
+    countedLoopEnd
     mainLoopEnd
 Music_09_Channel_5:
             sampleL 0, 4
             sample 0
             sample 0
             sampleL 0, 84
+    countedLoopStart 3
             sampleL 1, 8
             sampleL 1, 4
-            sampleL 1, 8
-            sampleL 1, 4
-            sampleL 1, 8
-            sampleL 1, 4
-            sampleL 1, 8
-            sampleL 1, 4
+    countedLoopEnd
             sample 2
             sample 2
             sample 2
@@ -2280,6 +1366,7 @@ Music_09_Channel_5:
             sample 1
             sample 1
     mainLoopStart
+    countedLoopStart 1
             sampleL 0, 8
             sampleL 0, 16
             sampleL 1, 24
@@ -2397,123 +1484,8 @@ Music_09_Channel_5:
             sample 1
             sample 1
             sample 1
-            sampleL 0, 8
-            sampleL 0, 16
-            sampleL 1, 24
-            sampleL 0, 8
-            sampleL 0, 16
-            sampleL 1, 24
-            sampleL 0, 8
-            sampleL 0, 16
-            sampleL 1, 24
-            sampleL 0, 8
-            sampleL 0, 4
-            sampleL 1, 12
-            sampleL 0, 4
-            sample 0
-            sample 0
-            sample 1
-            sample 2
-            sample 3
-            sampleL 0, 8
-            sampleL 0, 16
-            sampleL 1, 24
-            sampleL 0, 8
-            sampleL 0, 16
-            sampleL 1, 24
-            sampleL 0, 8
-            sampleL 0, 16
-            sampleL 1, 24
-            sampleL 2, 4
-            sample 2
-            sample 3
-            sample 4
-            sample 4
-            sample 1
-            sample 2
-            sample 2
-            sample 3
-            sample 4
-            sample 4
-            sample 1
-            sampleL 0, 8
-            sampleL 0, 16
-            sampleL 1, 24
-            sampleL 0, 8
-            sampleL 0, 16
-            sampleL 1, 24
-            sampleL 0, 8
-            sampleL 0, 16
-            sampleL 1, 24
-            sampleL 0, 8
-            sampleL 0, 4
-            sampleL 1, 12
-            sampleL 0, 4
-            sample 0
-            sample 0
-            sample 1
-            sample 2
-            sample 3
-            sampleL 0, 8
-            sampleL 0, 16
-            sampleL 1, 24
-            sampleL 0, 8
-            sampleL 0, 16
-            sampleL 1, 24
-            sampleL 0, 8
-            sampleL 0, 16
-            sampleL 1, 24
-            sampleL 2, 4
-            sample 2
-            sample 3
-            sample 4
-            sample 4
-            sample 1
-            sample 2
-            sample 2
-            sample 3
-            sample 4
-            sample 4
-            sample 1
-            sampleL 0, 8
-            sampleL 0, 16
-            sampleL 1, 24
-            sampleL 0, 8
-            sampleL 0, 16
-            sampleL 1, 24
-            sampleL 0, 8
-            sampleL 0, 16
-            sampleL 1, 24
-            sampleL 0, 8
-            sampleL 0, 16
-            sampleL 1, 24
-            sampleL 0, 8
-            sampleL 0, 16
-            sampleL 1, 24
-            sampleL 0, 8
-            sampleL 0, 16
-            sampleL 1, 24
-            sampleL 0, 8
-            sampleL 0, 4
-            sampleL 1, 12
-            sampleL 0, 4
-            sample 0
-            sample 0
-            sample 1
-            sample 2
-            sample 3
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
+    countedLoopEnd
+    countedLoopStart 1
             sampleL 0, 24
             sample 1
             sample 0
@@ -2542,34 +1514,7 @@ Music_09_Channel_5:
             sampleL 1, 4
             sampleL 1, 8
             sampleL 1, 4
-            sampleL 0, 24
-            sample 1
-            sample 0
-            sampleL 1, 12
-            sampleL 5, 8
-            sampleL 5, 4
-            sampleL 0, 24
-            sample 1
-            sample 0
-            sampleL 1, 12
-            sampleL 5, 8
-            sampleL 5, 4
-            sampleL 0, 24
-            sample 1
-            sample 0
-            sampleL 1, 12
-            sampleL 5, 8
-            sampleL 5, 4
-            sampleL 0, 24
-            sample 1
-            sampleL 1, 8
-            sampleL 1, 4
-            sampleL 1, 8
-            sampleL 1, 4
-            sampleL 1, 8
-            sampleL 1, 4
-            sampleL 1, 8
-            sampleL 1, 4
+    countedLoopEnd
     mainLoopEnd
 Music_09_Channel_6:
     channel_end

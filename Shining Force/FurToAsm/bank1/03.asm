@@ -65,32 +65,18 @@ Music_03_Channel_1:
             noteL A4, 12
             waitL 36
             noteL B4, 12
+    countedLoopStart 14
             noteL B4, 6
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
+    countedLoopEnd
             wait
             noteL A4, 32
             note A4
             note A4
             waitL 36
             noteL B4, 12
+    countedLoopStart 4
             noteL B4, 6
-            note B4
-            note B4
-            note B4
-            note B4
+    countedLoopEnd
       vol 13
             note B4
             note B4
@@ -106,30 +92,9 @@ Music_03_Channel_1:
             note B4
             note B4
       vol 10
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
-            note B4
+    countedLoopStart 23
+            noteL B4, 6
+    countedLoopEnd
             waitL 12
     channel_end
 Music_03_Channel_2:
@@ -195,24 +160,9 @@ Music_03_Channel_4:
             waitL 12
     channel_end
 Music_03_Channel_5:
+    countedLoopStart 17
             sampleL 3, 2
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
+    countedLoopEnd
             sample 2
             sample 3
             sample 2
@@ -224,20 +174,10 @@ Music_03_Channel_5:
             sample 2
             sample 2
             sample 2
-            sample 2
+    countedLoopStart 6
+            sampleL 2, 2
             sample 1
-            sample 2
-            sample 1
-            sample 2
-            sample 1
-            sample 2
-            sample 1
-            sample 2
-            sample 1
-            sample 2
-            sample 1
-            sample 2
-            sample 1
+    countedLoopEnd
             sample 1
             sample 1
             sample 1
@@ -247,50 +187,10 @@ Music_03_Channel_5:
             sampleL 1, 2
             sample 2
             sample 2
+    countedLoopStart 21
+            sampleL 3, 2
             sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
+    countedLoopEnd
             sample 3
             sampleL 1, 32
             sample 1
@@ -299,122 +199,12 @@ Music_03_Channel_5:
             sampleL 1, 2
             sample 2
             sample 2
+    countedLoopStart 28
+            sampleL 3, 2
             sample 3
             sample 3
             sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
+    countedLoopEnd
             sample 3
     channel_end
 Music_03_Channel_6:
@@ -450,14 +240,12 @@ Music_03_Channel_6:
             psgNoteL Fs3, 84
       psgInst 00h
             waitL 12
+    countedLoopStart 1
       psgInst 0ch
             psgNoteL Cs3, 18
       psgInst 00h
             waitL 14
-      psgInst 0ch
-            psgNoteL Cs3, 18
-      psgInst 00h
-            waitL 14
+    countedLoopEnd
       psgInst 0ch
             psgNoteL Cs3, 18
       psgInst 00h
@@ -495,14 +283,12 @@ Music_03_Channel_7:
             psgNoteL B2, 84
       psgInst 00h
             waitL 12
+    countedLoopStart 1
       psgInst 0ch
             psgNoteL A2, 18
       psgInst 00h
             waitL 14
-      psgInst 0ch
-            psgNoteL A2, 18
-      psgInst 00h
-            waitL 14
+    countedLoopEnd
       psgInst 0ch
             psgNoteL A2, 18
       psgInst 00h

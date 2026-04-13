@@ -45,12 +45,9 @@ Music_15_Channel_0:
       setRelease 1
             waitL 78
             waitL 192
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
+    countedLoopStart 5
+            waitL 192
+    countedLoopEnd
             waitL 77
       sustain
             noteL E3, 22
@@ -68,22 +65,14 @@ Music_15_Channel_0:
             noteL E3, 82
             waitL 5
             noteL E3, 68
+    countedLoopStart 4
             waitL 5
             noteL E3, 59
+    countedLoopEnd
             waitL 5
-            noteL E3, 59
-            waitL 5
-            noteL E3, 59
-            waitL 5
-            noteL E3, 59
-            waitL 5
-            noteL E3, 59
-            waitL 5
+    countedLoopStart 4
             noteL E3, 32
-            note E3
-            note E3
-            note E3
-            note E3
+    countedLoopEnd
             noteL E3, 39
             noteL E3, 60
       sustain
@@ -217,6 +206,7 @@ Music_15_Channel_1:
             noteL Ds7, 8
             noteL As6, 6
             noteL A6, 5
+    repeatStart
             noteL As6, 4
             note Ds7
             note E7
@@ -225,18 +215,13 @@ Music_15_Channel_1:
             noteL As7, 4
             note Ds7
             noteL E7, 5
+    repeatSection1Start
             noteL E7, 35
             noteL Ds7, 6
             noteL As6, 5
             note A6
-            noteL As6, 4
-            note Ds7
-            note E7
-            note Ds7
-            noteL E7, 3
-            noteL As7, 4
-            note Ds7
-            noteL E7, 5
+    repeatEnd
+    repeatSection2Start
             noteL E7, 25
             noteL Ds7, 6
             noteL As6, 5
@@ -258,6 +243,7 @@ Music_15_Channel_1:
             note E7
             note Ds7
             noteL E7, 4
+    countedLoopStart 3
             noteL As7, 3
             note Ds7
             note E7
@@ -270,57 +256,16 @@ Music_15_Channel_1:
             note E7
             note Ds7
             note E7
+    countedLoopEnd
             note As7
             note Ds7
             note E7
-            note E7
-            note Ds7
-            note As6
-            note A6
-            note As6
-            note Ds7
-            note E7
-            note Ds7
-            note E7
-            note As7
-            note Ds7
-            note E7
-            note E7
-            note Ds7
-            note As6
-            note A6
-            note As6
-            note Ds7
-            note E7
-            note Ds7
-            note E7
-            note As7
-            note Ds7
-            note E7
-            note E7
-            note Ds7
-            note As6
-            note A6
-            note As6
-            note Ds7
-            note E7
-            note Ds7
-            note E7
-            note As7
-            note Ds7
-            note E7
+    countedLoopStart 2
             noteL E7, 2
             note Ds7
             note As6
             note A6
-            note E7
-            note Ds7
-            note As6
-            note A6
-            note E7
-            note Ds7
-            note As6
-            note A6
+    countedLoopEnd
             note E6
             note Ds6
             note As5
@@ -353,34 +298,10 @@ Music_15_Channel_1:
             note C6
             note B5
             note C6
+    countedLoopStart 13
             noteL B5, 3
             note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
+    countedLoopEnd
             noteL B5, 65
             noteL A5, 6
             noteL B5, 7
@@ -461,7 +382,8 @@ Music_15_Channel_1:
             note D7
             note E7
             note F7
-            note E7
+    countedLoopStart 1
+            noteL E7, 4
             note Ds7
             note E7
             note B7
@@ -477,22 +399,7 @@ Music_15_Channel_1:
             note Ds7
             note E7
             note Gs7
-            note E7
-            note Ds7
-            note E7
-            note B7
-            note E7
-            note Ds7
-            note E7
-            note As7
-            note E7
-            note Ds7
-            note E7
-            note A7
-            note E7
-            note Ds7
-            note E7
-            note Gs7
+    countedLoopEnd
             note F7
             note D7
             note Cs7
@@ -577,69 +484,22 @@ Music_15_Channel_1:
             noteL D6, 4
             note E6
             note F6
-            note Gs6
+    countedLoopStart 1
+            noteL Gs6, 4
             note A6
             note B6
             note C7
             note D7
-            note Gs6
-            note A6
-            note B6
-            note C7
-            note D7
+    countedLoopEnd
             note E7
             noteL F7, 5
             noteL G7, 6
             noteL F7, 10
             noteL G7, 4
+    countedLoopStart 23
             noteL F7, 3
             note G7
-            note F7
-            note G7
-            note F7
-            note G7
-            note F7
-            note G7
-            note F7
-            note G7
-            note F7
-            note G7
-            note F7
-            note G7
-            note F7
-            note G7
-            note F7
-            note G7
-            note F7
-            note G7
-            note F7
-            note G7
-            note F7
-            note G7
-            note F7
-            note G7
-            note F7
-            note G7
-            note F7
-            note G7
-            note F7
-            note G7
-            note F7
-            note G7
-            note F7
-            note G7
-            note F7
-            note G7
-            note F7
-            note G7
-            note F7
-            note G7
-            note F7
-            note G7
-            note F7
-            note G7
-            note F7
-            note G7
+    countedLoopEnd
             note F7
             noteL G7, 4
             noteL F7, 50
@@ -662,52 +522,14 @@ Music_15_Channel_1:
             noteL B5, 6
             noteL C6, 5
             note B5
+    countedLoopStart 4
             noteL C6, 4
             note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
+    countedLoopEnd
+    countedLoopStart 17
             noteL C6, 3
             note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
-            note C6
-            note B5
+    countedLoopEnd
             note C6
       sustain
             noteL B5, 78
@@ -858,6 +680,7 @@ Music_15_Channel_2:
             noteL Ds7, 8
             noteL As6, 6
             noteL A6, 5
+    repeatStart
             noteL As6, 4
             note Ds7
             note E7
@@ -866,18 +689,13 @@ Music_15_Channel_2:
             noteL As7, 4
             note Ds7
             noteL E7, 5
+    repeatSection1Start
             noteL E7, 35
             noteL Ds7, 6
             noteL As6, 5
             note A6
-            noteL As6, 4
-            note Ds7
-            note E7
-            note Ds7
-            noteL E7, 3
-            noteL As7, 4
-            note Ds7
-            noteL E7, 5
+    repeatEnd
+    repeatSection2Start
             noteL E7, 25
             noteL Ds7, 6
             noteL As6, 5
@@ -899,6 +717,7 @@ Music_15_Channel_2:
             note E7
             note Ds7
             noteL E7, 4
+    countedLoopStart 3
             noteL As7, 3
             note Ds7
             note E7
@@ -911,57 +730,16 @@ Music_15_Channel_2:
             note E7
             note Ds7
             note E7
+    countedLoopEnd
             note As7
             note Ds7
             note E7
-            note E7
-            note Ds7
-            note As6
-            note A6
-            note As6
-            note Ds7
-            note E7
-            note Ds7
-            note E7
-            note As7
-            note Ds7
-            note E7
-            note E7
-            note Ds7
-            note As6
-            note A6
-            note As6
-            note Ds7
-            note E7
-            note Ds7
-            note E7
-            note As7
-            note Ds7
-            note E7
-            note E7
-            note Ds7
-            note As6
-            note A6
-            note As6
-            note Ds7
-            note E7
-            note Ds7
-            note E7
-            note As7
-            note Ds7
-            note E7
+    countedLoopStart 2
             noteL E7, 2
             note Ds7
             note As6
             note A6
-            note E7
-            note Ds7
-            note As6
-            note A6
-            note E7
-            note Ds7
-            note As6
-            note A6
+    countedLoopEnd
             note E6
             note Ds6
             note As5
@@ -1165,6 +943,7 @@ Music_15_Channel_3:
             noteL Ds7, 8
             noteL As6, 6
             noteL A6, 5
+    repeatStart
             noteL As6, 4
             note Ds7
             note E7
@@ -1173,18 +952,13 @@ Music_15_Channel_3:
             noteL As7, 4
             note Ds7
             noteL E7, 5
+    repeatSection1Start
             noteL E7, 35
             noteL Ds7, 6
             noteL As6, 5
             note A6
-            noteL As6, 4
-            note Ds7
-            note E7
-            note Ds7
-            noteL E7, 3
-            noteL As7, 4
-            note Ds7
-            noteL E7, 5
+    repeatEnd
+    repeatSection2Start
             noteL E7, 25
             noteL Ds7, 6
             noteL As6, 5
@@ -1206,6 +980,7 @@ Music_15_Channel_3:
             note E7
             note Ds7
             noteL E7, 4
+    countedLoopStart 3
             noteL As7, 3
             note Ds7
             note E7
@@ -1218,57 +993,16 @@ Music_15_Channel_3:
             note E7
             note Ds7
             note E7
+    countedLoopEnd
             note As7
             note Ds7
             note E7
-            note E7
-            note Ds7
-            note As6
-            note A6
-            note As6
-            note Ds7
-            note E7
-            note Ds7
-            note E7
-            note As7
-            note Ds7
-            note E7
-            note E7
-            note Ds7
-            note As6
-            note A6
-            note As6
-            note Ds7
-            note E7
-            note Ds7
-            note E7
-            note As7
-            note Ds7
-            note E7
-            note E7
-            note Ds7
-            note As6
-            note A6
-            note As6
-            note Ds7
-            note E7
-            note Ds7
-            note E7
-            note As7
-            note Ds7
-            note E7
+    countedLoopStart 2
             noteL E7, 2
             note Ds7
             note As6
             note A6
-            note E7
-            note Ds7
-            note As6
-            note A6
-            note E7
-            note Ds7
-            note As6
-            note A6
+    countedLoopEnd
             note E6
             note Ds6
             note As5
@@ -1323,23 +1057,15 @@ Music_15_Channel_3:
             waitL 17
             noteL E4, 32
             noteL E4, 15
+    countedLoopStart 2
             waitL 17
             noteL E4, 47
+    countedLoopEnd
             waitL 17
-            noteL E4, 47
-            waitL 17
-            noteL E4, 47
-            waitL 17
+    countedLoopStart 4
             noteL E4, 16
             wait
-            note E4
-            wait
-            note E4
-            wait
-            note E4
-            wait
-            note E4
-            wait
+    countedLoopEnd
             noteL E4, 22
             waitL 26
       sustain

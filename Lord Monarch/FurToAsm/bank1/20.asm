@@ -26,6 +26,7 @@ Music_20_Channel_0:
       shifting 0
       stereo 0c0h
             waitL 103
+    countedLoopStart 1
             noteL D4, 112
             noteL Cs4, 224
             noteL C4, 112
@@ -33,13 +34,7 @@ Music_20_Channel_0:
             note As3
             note A3
             note D4
-            note D4
-            noteL Cs4, 224
-            noteL C4, 112
-            note C4
-            note As3
-            note A3
-            note D4
+    countedLoopEnd
             note D4
             noteL Cs4, 224
             noteL C4, 112
@@ -66,13 +61,9 @@ Music_20_Channel_1:
             waitL 19
             noteL A4, 56
       vibrato 051h
-            note A4
-            note A4
-            note A4
-            note A4
-            note A4
-            note A4
-            note A4
+    countedLoopStart 6
+            noteL A4, 56
+    countedLoopEnd
             note G4
             note G4
             note G4
@@ -81,6 +72,7 @@ Music_20_Channel_1:
             noteL D5, 28
             noteL Cs5, 56
       setRelease 28
+    countedLoopStart 1
             noteL E5, 84
             noteL A4, 56
             note A4
@@ -97,22 +89,7 @@ Music_20_Channel_1:
             note F4
             noteL D5, 28
             noteL Cs5, 56
-            noteL E5, 84
-            noteL A4, 56
-            note A4
-            note A4
-            note A4
-            note A4
-            note A4
-            note A4
-            note A4
-            note G4
-            note G4
-            note G4
-            note G4
-            note F4
-            noteL D5, 28
-            noteL Cs5, 56
+    countedLoopEnd
       setRelease 4
             noteL E5, 60
             noteL D5, 2
@@ -134,7 +111,8 @@ Music_20_Channel_2:
             waitL 47
             noteL F5, 112
       vibrato 051h
-            note F5
+    countedLoopStart 1
+            noteL F5, 112
             noteL E5, 56
             note G5
             noteL E5, 112
@@ -146,18 +124,7 @@ Music_20_Channel_2:
       setRelease 56
             noteL A4, 84
             noteL F5, 112
-            note F5
-            noteL E5, 56
-            note G5
-            noteL E5, 112
-            note E5
-            note E5
-      setRelease 28
-            noteL As4, 84
-            noteL A4, 56
-      setRelease 56
-            noteL A4, 84
-            noteL F5, 112
+    countedLoopEnd
             note F5
             noteL E5, 56
             note G5
@@ -188,20 +155,15 @@ Music_20_Channel_3:
       shifting 32
             noteL D4, 112
       vibrato 050h
-            note D4
+    countedLoopStart 1
+            noteL D4, 112
             noteL Cs4, 224
             noteL C4, 112
             note C4
             note As3
             note A3
             note D4
-            note D4
-            noteL Cs4, 224
-            noteL C4, 112
-            note C4
-            note As3
-            note A3
-            note D4
+    countedLoopEnd
             note D4
             noteL Cs4, 224
             noteL C4, 112
@@ -229,25 +191,22 @@ Music_20_Channel_4:
             waitL 25
             noteL A4, 28
       vibrato 050h
+    countedLoopStart 1
       stereo 040h
       vol 6
-            note F5
+            noteL F5, 28
       stereo 0c0h
       vol 5
             noteL A4, 56
             noteL A4, 28
-      stereo 040h
-      vol 6
-            note F5
-      stereo 0c0h
-      vol 5
-            noteL A4, 56
-            noteL A4, 28
+    countedLoopEnd
+    repeatStart
       stereo 040h
       vol 6
             note E5
       stereo 0c0h
       vol 5
+    repeatSection1Start
             note A4
       stereo 040h
       vol 6
@@ -255,12 +214,10 @@ Music_20_Channel_4:
       stereo 0c0h
       vol 5
             note A4
-      stereo 040h
-      vol 6
-            note E5
-      stereo 0c0h
-      vol 5
+    repeatEnd
+    repeatSection2Start
             noteL A4, 56
+    countedLoopStart 1
             noteL G4, 28
       stereo 040h
       vol 6
@@ -268,13 +225,7 @@ Music_20_Channel_4:
       stereo 0c0h
       vol 5
             noteL G4, 56
-            noteL G4, 28
-      stereo 040h
-      vol 6
-            note E5
-      stereo 0c0h
-      vol 5
-            noteL G4, 56
+    countedLoopEnd
             noteL F4, 28
       stereo 040h
       vol 6
@@ -290,6 +241,7 @@ Music_20_Channel_4:
       stereo 0c0h
       vol 5
       setRelease 28
+    countedLoopStart 1
             noteL A4, 56
             noteL A4, 28
       stereo 040h
@@ -352,68 +304,7 @@ Music_20_Channel_4:
             note E5
       stereo 0c0h
       vol 5
-            noteL A4, 56
-            noteL A4, 28
-      stereo 040h
-      vol 6
-            note F5
-      stereo 0c0h
-      vol 5
-            noteL A4, 56
-            noteL A4, 28
-      stereo 040h
-      vol 6
-            note F5
-      stereo 0c0h
-      vol 5
-            noteL A4, 56
-            noteL A4, 28
-      stereo 040h
-      vol 6
-            note E5
-      stereo 0c0h
-      vol 5
-            note A4
-      stereo 040h
-      vol 6
-            note G5
-      stereo 0c0h
-      vol 5
-            note A4
-      stereo 040h
-      vol 6
-            note E5
-      stereo 0c0h
-      vol 5
-            noteL A4, 56
-            noteL G4, 28
-      stereo 040h
-      vol 6
-            note E5
-      stereo 0c0h
-      vol 5
-            noteL G4, 56
-            noteL G4, 28
-      stereo 040h
-      vol 6
-            note E5
-      stereo 0c0h
-      vol 5
-            noteL G4, 56
-            noteL F4, 28
-      stereo 040h
-      vol 6
-            note As4
-            note D5
-            note Cs5
-      stereo 0c0h
-      vol 5
-            note A4
-      stereo 040h
-      vol 6
-            note E5
-      stereo 0c0h
-      vol 5
+    countedLoopEnd
             note A4
       shifting 0
       vol 9
@@ -439,6 +330,7 @@ Music_20_Channel_6:
             psgNoteL F5, 196
       vibrato 041h
       setRelease 1
+    repeatStart
             psgNoteL E5, 14
             psgNote F5
             psgNoteL G5, 224
@@ -446,16 +338,12 @@ Music_20_Channel_6:
             psgNoteL D5, 84
             psgNoteL E5, 14
             psgNote D5
+    repeatSection1Start
             psgNoteL Cs5, 56
             psgNote A4
             psgNoteL F5, 196
-            psgNoteL E5, 14
-            psgNote F5
-            psgNoteL G5, 224
-            psgNote E5
-            psgNoteL D5, 84
-            psgNoteL E5, 14
-            psgNote D5
+    repeatEnd
+    repeatSection2Start
             psgNoteL Cs5, 84
             psgNoteL B4, 14
             psgNote Cs5
@@ -475,6 +363,7 @@ Music_20_Channel_7:
       setRelease 1
             psgNoteL F5, 196
       vibrato 041h
+    repeatStart
             psgNoteL E5, 14
             psgNote F5
             psgNoteL G5, 224
@@ -482,16 +371,12 @@ Music_20_Channel_7:
             psgNoteL D5, 84
             psgNoteL E5, 14
             psgNote D5
+    repeatSection1Start
             psgNoteL Cs5, 56
             psgNote A4
             psgNoteL F5, 196
-            psgNoteL E5, 14
-            psgNote F5
-            psgNoteL G5, 224
-            psgNote E5
-            psgNoteL D5, 84
-            psgNoteL E5, 14
-            psgNote D5
+    repeatEnd
+    repeatSection2Start
             psgNoteL Cs5, 84
             psgNoteL B4, 14
             psgNote Cs5

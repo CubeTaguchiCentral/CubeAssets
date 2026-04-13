@@ -89,6 +89,7 @@ Music_20_Channel_0:
             note C6
             note D6
             noteL E6, 36
+    repeatStart
             noteL G5, 18
             noteL E6, 54
             noteL E6, 36
@@ -96,6 +97,7 @@ Music_20_Channel_0:
             noteL E6, 18
             note D6
             note C6
+    repeatSection1Start
             noteL A5, 90
             waitL 18
             note A5
@@ -105,13 +107,8 @@ Music_20_Channel_0:
             note A5
             note G5
             note E6
-            noteL G5, 18
-            noteL E6, 54
-            noteL E6, 36
-            noteL E6, 90
-            noteL E6, 18
-            note D6
-            note C6
+    repeatEnd
+    repeatSection2Start
             noteL A6, 108
             noteL C7, 36
             note C7
@@ -136,6 +133,7 @@ Music_20_Channel_0:
             noteL E7, 18
             note C7
             note G6
+    repeatStart
             noteL E6, 36
             noteL E6, 18
             note F6
@@ -143,6 +141,7 @@ Music_20_Channel_0:
             noteL E6, 72
             noteL D6, 54
             noteL C6, 18
+    repeatSection1Start
             noteL C6, 234
             noteL A6, 18
             note B6
@@ -150,13 +149,8 @@ Music_20_Channel_0:
             note C7
             note G6
             note F6
-            noteL E6, 36
-            noteL E6, 18
-            note F6
-            note E6
-            noteL E6, 72
-            noteL D6, 54
-            noteL C6, 18
+    repeatEnd
+    repeatSection2Start
       sustain
             noteL C6, 255
       setRelease 1
@@ -477,6 +471,7 @@ Music_20_Channel_3:
             note C6
             note D6
             noteL E6, 36
+    repeatStart
             noteL G5, 18
             noteL E6, 54
             noteL E6, 36
@@ -484,6 +479,7 @@ Music_20_Channel_3:
             noteL E6, 18
             note D6
             note C6
+    repeatSection1Start
             noteL A5, 90
             waitL 18
             note A5
@@ -493,13 +489,8 @@ Music_20_Channel_3:
             note A5
             note G5
             note E6
-            noteL G5, 18
-            noteL E6, 54
-            noteL E6, 36
-            noteL E6, 90
-            noteL E6, 18
-            note D6
-            note C6
+    repeatEnd
+    repeatSection2Start
             noteL A6, 108
             noteL C7, 36
             note C7
@@ -524,6 +515,7 @@ Music_20_Channel_3:
             noteL E7, 18
             note C7
             note G6
+    repeatStart
             noteL E6, 36
             noteL E6, 18
             note F6
@@ -531,6 +523,7 @@ Music_20_Channel_3:
             noteL E6, 72
             noteL D6, 54
             noteL C6, 18
+    repeatSection1Start
             noteL C6, 234
             noteL A6, 18
             note B6
@@ -538,13 +531,8 @@ Music_20_Channel_3:
             note C7
             note G6
             note F6
-            noteL E6, 36
-            noteL E6, 18
-            note F6
-            note E6
-            noteL E6, 72
-            noteL D6, 54
-            noteL C6, 18
+    repeatEnd
+    repeatSection2Start
       sustain
             noteL C6, 255
       setRelease 1
@@ -693,26 +681,9 @@ Music_20_Channel_4:
     mainLoopEnd
 Music_20_Channel_5:
             waitL 255
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
+    countedLoopStart 19
+            waitL 255
+    countedLoopEnd
             waitL 117
     mainLoopStart
             sampleL 13, 72
@@ -721,16 +692,10 @@ Music_20_Channel_5:
     mainLoopEnd
 Music_20_Channel_6:
       psgInst 00h
+    countedLoopStart 4
             waitL 255
             waitL 177
-            waitL 255
-            waitL 177
-            waitL 255
-            waitL 177
-            waitL 255
-            waitL 177
-            waitL 255
-            waitL 177
+    countedLoopEnd
             waitL 255
             waitL 33
       psgInst 098h
@@ -811,16 +776,10 @@ Music_20_Channel_6:
     mainLoopEnd
 Music_20_Channel_7:
       psgInst 00h
+    countedLoopStart 4
             waitL 255
             waitL 177
-            waitL 255
-            waitL 177
-            waitL 255
-            waitL 177
-            waitL 255
-            waitL 177
-            waitL 255
-            waitL 177
+    countedLoopEnd
             waitL 255
             waitL 33
       psgInst 098h

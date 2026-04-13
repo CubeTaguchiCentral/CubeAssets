@@ -30,6 +30,7 @@ Music_08_Channel_0:
       setRelease 1
             waitL 28
             note A4
+    countedLoopStart 2
             noteL G2, 14
             note G3
             noteL G4, 84
@@ -45,36 +46,7 @@ Music_08_Channel_0:
             note A3
             noteL A4, 56
             noteL A4, 28
-            noteL G2, 14
-            note G3
-            noteL G4, 84
-            noteL G2, 14
-            note G3
-            noteL G4, 56
-            noteL G4, 28
-            noteL A2, 14
-            note A3
-            noteL A4, 84
-      vol 13
-            noteL A2, 14
-            note A3
-            noteL A4, 56
-            noteL A4, 28
-            noteL G2, 14
-            note G3
-            noteL G4, 84
-            noteL G2, 14
-            note G3
-            noteL G4, 56
-            noteL G4, 28
-            noteL A2, 14
-            note A3
-            noteL A4, 84
-      vol 13
-            noteL A2, 14
-            note A3
-            noteL A4, 56
-            noteL A4, 28
+    countedLoopEnd
             noteL G2, 14
             note G3
             noteL G4, 84
@@ -108,6 +80,7 @@ Music_08_Channel_1:
       setRelease 1
             waitL 28
             note D5
+    countedLoopStart 2
             noteL G2, 14
             note G3
             noteL B4, 84
@@ -123,36 +96,7 @@ Music_08_Channel_1:
             note A3
             noteL C5, 56
             noteL D5, 28
-            noteL G2, 14
-            note G3
-            noteL B4, 84
-            noteL G2, 14
-            note G3
-            noteL B4, 56
-            noteL D5, 28
-            noteL A2, 14
-            note A3
-            noteL C5, 84
-      vol 12
-            noteL A2, 14
-            note A3
-            noteL C5, 56
-            noteL D5, 28
-            noteL G2, 14
-            note G3
-            noteL B4, 84
-            noteL G2, 14
-            note G3
-            noteL B4, 56
-            noteL D5, 28
-            noteL A2, 14
-            note A3
-            noteL C5, 84
-      vol 12
-            noteL A2, 14
-            note A3
-            noteL C5, 56
-            noteL D5, 28
+    countedLoopEnd
             noteL G2, 14
             note G3
             noteL B4, 84
@@ -188,6 +132,7 @@ Music_08_Channel_2:
       stereo 080h
       setRelease 1
             waitL 42
+    countedLoopStart 2
             noteL D5, 28
             noteL G2, 14
             note G3
@@ -202,34 +147,7 @@ Music_08_Channel_2:
             noteL A2, 14
             note A3
             noteL C5, 56
-            noteL D5, 28
-            noteL G2, 14
-            note G3
-            noteL B4, 84
-            noteL G2, 14
-            note G3
-            noteL B4, 56
-            noteL D5, 28
-            noteL A2, 14
-            note A3
-            noteL C5, 84
-            noteL A2, 14
-            note A3
-            noteL C5, 56
-            noteL D5, 28
-            noteL G2, 14
-            note G3
-            noteL B4, 84
-            noteL G2, 14
-            note G3
-            noteL B4, 56
-            noteL D5, 28
-            noteL A2, 14
-            note A3
-            noteL C5, 84
-            noteL A2, 14
-            note A3
-            noteL C5, 56
+    countedLoopEnd
             noteL D5, 28
             noteL G2, 14
             note G3
@@ -265,6 +183,7 @@ Music_08_Channel_3:
       stereo 040h
       setRelease 1
             waitL 42
+    countedLoopStart 2
             noteL A4, 28
             noteL G2, 14
             note G3
@@ -281,38 +200,7 @@ Music_08_Channel_3:
             noteL A2, 14
             note A3
             noteL A4, 56
-            noteL A4, 28
-            noteL G2, 14
-            note G3
-            noteL G4, 84
-            noteL G2, 14
-            note G3
-            noteL G4, 56
-            noteL G4, 28
-            noteL A2, 14
-            note A3
-            noteL A4, 84
-      shifting 32
-      vol 10
-            noteL A2, 14
-            note A3
-            noteL A4, 56
-            noteL A4, 28
-            noteL G2, 14
-            note G3
-            noteL G4, 84
-            noteL G2, 14
-            note G3
-            noteL G4, 56
-            noteL G4, 28
-            noteL A2, 14
-            note A3
-            noteL A4, 84
-      shifting 32
-      vol 10
-            noteL A2, 14
-            note A3
-            noteL A4, 56
+    countedLoopEnd
             noteL A4, 28
             noteL G2, 14
             note G3
@@ -343,6 +231,7 @@ Music_08_Channel_4:
       vol 7
       setRelease 1
       vibrato 05ah
+    repeatStart
             noteL A5, 7
             note C6
             note E6
@@ -383,48 +272,11 @@ Music_08_Channel_4:
             note E6
             note A6
             waitL 112
+    repeatSection1Start
       stereo 040h
       vol 7
-            noteL A5, 7
-            note C6
-            note E6
-            note A6
-      vol 6
-            waitL 14
-      stereo 080h
-            noteL A5, 7
-            note C6
-            note E6
-            note A6
-      vol 5
-            waitL 14
-      stereo 040h
-            noteL G5, 7
-            note B5
-            note D6
-            note G6
-            waitL 112
-      stereo 080h
-      vol 7
-            noteL G5, 7
-            note B5
-            note D6
-            note G6
-      vol 6
-            waitL 14
-      stereo 040h
-            noteL G5, 7
-            note B5
-            note D6
-            note G6
-      vol 5
-            waitL 14
-      stereo 080h
-            noteL A5, 7
-            note C6
-            note E6
-            note A6
-            waitL 112
+    repeatEnd
+    repeatSection2Start
       stereo 0c0h
       vol 10
             noteL A5, 84
@@ -462,6 +314,7 @@ Music_08_Channel_6:
     mainLoopStart
       setRelease 1
             psgNoteL E4, 7
+    repeatStart
             psgNote A4
       psgInst 08h
             waitL 14
@@ -491,6 +344,7 @@ Music_08_Channel_6:
       psgInst 00h
             waitL 112
       psgInst 0dh
+    repeatSection1Start
             psgNoteL A3, 7
             psgNote C4
             psgNote E4
@@ -500,35 +354,8 @@ Music_08_Channel_6:
             psgNoteL A3, 7
             psgNote C4
             psgNote E4
-            psgNote A4
-      psgInst 08h
-            waitL 14
-            psgNoteL A3, 7
-            psgNote C4
-            psgNote E4
-            psgNote A4
-      psgInst 00h
-            waitL 112
-      psgInst 0dh
-            psgNoteL G3, 7
-            psgNote B3
-            psgNote D4
-            psgNote G4
-      psgInst 0ah
-            waitL 14
-            psgNoteL G3, 7
-            psgNote B3
-            psgNote D4
-            psgNote G4
-      psgInst 08h
-            waitL 14
-            psgNoteL G3, 7
-            psgNote B3
-            psgNote D4
-            psgNote G4
-      psgInst 00h
-            waitL 112
-      psgInst 0dh
+    repeatEnd
+    repeatSection2Start
             psgNoteL A3, 84
             psgNoteL A3, 7
             psgNote B3
@@ -587,6 +414,7 @@ Music_08_Channel_7:
       sustain
             psgNoteL A3, 7
       setRelease 1
+    repeatStart
             psgNote C4
             psgNote E4
             psgNote A4
@@ -617,6 +445,7 @@ Music_08_Channel_7:
             psgNote G4
       psgInst 00h
             waitL 112
+    repeatSection1Start
       psgInst 0bh
             psgNoteL A3, 7
             psgNote C4
@@ -625,36 +454,8 @@ Music_08_Channel_7:
       psgInst 09h
             waitL 14
             psgNoteL A3, 7
-            psgNote C4
-            psgNote E4
-            psgNote A4
-      psgInst 07h
-            waitL 14
-            psgNoteL A3, 7
-            psgNote C4
-            psgNote E4
-            psgNote A4
-      psgInst 00h
-            waitL 112
-      psgInst 0bh
-            psgNoteL G3, 7
-            psgNote B3
-            psgNote D4
-            psgNote G4
-      psgInst 09h
-            waitL 14
-            psgNoteL G3, 7
-            psgNote B3
-            psgNote D4
-            psgNote G4
-      psgInst 07h
-            waitL 14
-            psgNoteL G3, 7
-            psgNote B3
-            psgNote D4
-            psgNote G4
-      psgInst 00h
-            waitL 112
+    repeatEnd
+    repeatSection2Start
       psgInst 0ah
             psgNoteL A3, 84
             psgNoteL A3, 7

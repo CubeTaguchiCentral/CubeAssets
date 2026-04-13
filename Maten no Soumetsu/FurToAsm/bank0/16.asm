@@ -56,6 +56,7 @@ Music_16_Channel_0:
             note B4
             wait
             note E5
+    repeatStart
             waitL 36
             noteL A4, 12
             wait
@@ -82,68 +83,21 @@ Music_16_Channel_0:
             waitL 8
             noteL B4, 4
             wait
+    repeatSection1Start
             noteL E4, 12
             wait
             note B4
             wait
             note E5
-            waitL 36
-            noteL A4, 12
-            wait
-            note E4
-            wait
-            note A3
-            waitL 28
-            noteL A4, 4
-            wait
-            noteL B4, 12
-            wait
-            note Fs4
-            wait
-            note B3
-            waitL 28
-            noteL B4, 4
-            wait
-            noteL E4, 12
-            wait
-            note B3
-            wait
-            note E3
-            waitL 20
-            waitL 8
-            noteL B4, 4
-            wait
+    repeatEnd
+    repeatSection2Start
             noteL Cs4, 12
             wait
             note Gs4
             wait
             note Cs5
-            waitL 36
-            noteL A4, 12
-            wait
-            note E4
-            wait
-            note A3
-            waitL 28
-            noteL A4, 4
-            wait
-            noteL B4, 12
-            wait
-            note Fs4
-            wait
-            note B3
-            waitL 28
-            noteL B4, 4
-            wait
-            noteL E4, 12
-            wait
-            note B3
-            wait
-            note E3
-            waitL 20
-            waitL 8
-            noteL B4, 4
-            wait
+    repeatEnd
+    repeatSection3Start
             noteL E4, 12
             wait
             note B4
@@ -151,6 +105,7 @@ Music_16_Channel_0:
             note E5
             wait
             noteL B4, 24
+    countedLoopStart 1
             noteL A4, 12
             wait
             note E4
@@ -186,41 +141,7 @@ Music_16_Channel_0:
             note As4
             note A4
             note Gs4
-            noteL A4, 12
-            wait
-            note E4
-            wait
-            note A3
-            wait
-            noteL A3, 8
-            note B3
-            note Cs4
-            noteL B3, 12
-            wait
-            note Fs4
-            wait
-            note B4
-            wait
-            note B3
-            wait
-            note E4
-            wait
-            note B3
-            wait
-            note E3
-            wait
-            note B3
-            wait
-            note E4
-            wait
-            note B4
-            wait
-            note E5
-            wait
-            noteL B4, 6
-            note As4
-            note A4
-            note Gs4
+    countedLoopEnd
             noteL A4, 12
             wait
             note E4
@@ -312,6 +233,7 @@ Music_16_Channel_1:
       shifting 0
       setRelease 1
             waitL 32
+    repeatStart
             waitL 24
             noteL Cs6, 4
             wait
@@ -398,96 +320,13 @@ Music_16_Channel_1:
             noteL B6, 48
             note Ds6
             noteL E6, 168
+    repeatSection1Start
             waitL 24
       inst 19
       vol 11
             noteL Cs6, 48
-            waitL 24
-            noteL Cs6, 4
-            wait
-            note Ds6
-            wait
-            note E6
-            wait
-            noteL Ds6, 18
-            waitL 6
-            noteL Cs6, 18
-            waitL 6
-            noteL B5, 18
-            waitL 6
-            noteL A5, 18
-            waitL 6
-            noteL A5, 48
-            waitL 18
-            noteL Fs5, 3
-            note Gs5
-            noteL A5, 4
-            wait
-            note Gs5
-            wait
-            note Fs5
-            wait
-            noteL Gs5, 72
-            waitL 24
-            noteL Cs6, 48
-            waitL 24
-            noteL Cs6, 4
-            wait
-            note Ds6
-            wait
-            note E6
-            wait
-            noteL Gs6, 18
-            waitL 6
-            noteL Fs6, 18
-            waitL 6
-            noteL E6, 18
-            waitL 6
-            noteL Fs6, 18
-            waitL 6
-            noteL A6, 96
-            noteL Gs6, 72
-      inst 15
-      vol 9
-            noteL B5, 24
-            noteL A5, 48
-            waitL 12
-            noteL A5, 6
-            wait
-            note Cs6
-            wait
-            note E6
-            wait
-            note Ds6
-            note E6
-            noteL Fs6, 48
-            waitL 12
-            noteL B5, 8
-            noteL Cs6, 4
-            note B5
-            note As5
-            note B5
-            noteL A6, 12
-            wait
-            note Gs6
-            wait
-            note Fs6
-            wait
-            note E6
-            wait
-            noteL Cs6, 48
-            waitL 24
-            noteL Cs6, 8
-            wait
-            note Gs6
-            noteL Fs6, 48
-            waitL 24
-            noteL Cs6, 8
-            wait
-            note Fs6
-            noteL B6, 48
-            note Ds6
-            noteL E6, 168
+    repeatEnd
+    repeatSection2Start
             noteL B5, 8
             wait
             note B5
@@ -521,14 +360,12 @@ Music_16_Channel_2:
       shifting 0
             waitL 176
             waitL 192
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
+    countedLoopStart 5
+            waitL 192
+    countedLoopEnd
       setRelease 1
       vibrato 05ch
+    repeatStart
             noteL A6, 4
             wait
             note E6
@@ -549,6 +386,7 @@ Music_16_Channel_2:
             wait
             note E7
             wait
+    repeatSection1Start
             note Cs7
             wait
             note A6
@@ -621,36 +459,20 @@ Music_16_Channel_2:
             note A6
             note B6
             note E7
-            noteL A6, 4
-            wait
-            note E6
-            wait
-            note A6
-            wait
-            note Cs7
-            wait
-            note A6
-            wait
-            noteL Cs7, 6
-            noteL Cs7, 2
-            note E7
-            noteL A7, 6
-            noteL E7, 4
-            wait
-            note Cs7
-            wait
-            note E7
-            wait
+    repeatEnd
+    repeatSection2Start
             note Ds7
             wait
             note Cs7
             wait
+    repeatStart
             noteL B6, 16
             waitL 8
             noteL A6, 16
             waitL 8
             noteL Gs6, 16
             waitL 8
+    repeatSection1Start
             noteL A6, 16
             waitL 8
             noteL Cs7, 96
@@ -668,12 +490,8 @@ Music_16_Channel_2:
             waitL 24
             noteL Cs7, 16
             waitL 8
-            noteL B6, 16
-            waitL 8
-            noteL A6, 16
-            waitL 8
-            noteL Gs6, 16
-            waitL 8
+    repeatEnd
+    repeatSection2Start
             note F6
             noteL Fs6, 4
             note F6
@@ -715,12 +533,10 @@ Music_16_Channel_2:
             waitL 6
             noteL Gs5, 12
             wait
+    countedLoopStart 2
             noteL B4, 4
             wait
-            note B4
-            wait
-            note B4
-            wait
+    countedLoopEnd
             noteL E4, 24
             wait
             waitL 16
@@ -754,6 +570,8 @@ Music_16_Channel_3:
       stereo 040h
       setRelease 1
             waitL 8
+    repeatStart
+    countedLoopStart 2
             noteL D3, 16
       vol 7
             noteL D3, 4
@@ -813,6 +631,8 @@ Music_16_Channel_3:
       vol 10
             noteL D3, 12
             note D3
+    countedLoopEnd
+    countedLoopStart 4
             noteL D3, 16
       vol 7
             noteL D3, 4
@@ -820,34 +640,7 @@ Music_16_Channel_3:
       vol 10
             noteL D3, 12
             note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
+    countedLoopEnd
             noteL D3, 16
       vol 7
             noteL D3, 4
@@ -863,124 +656,7 @@ Music_16_Channel_3:
             noteL D3, 4
             note D3
       vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 11
-            noteL D3, 6
-      vol 10
-            note D3
-            note D3
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 11
-            noteL D3, 6
-      vol 10
-            note D3
-            note D3
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
+    repeatSection1Start
             noteL D3, 12
             note D3
       vol 6
@@ -995,234 +671,10 @@ Music_16_Channel_3:
       vol 10
             noteL D3, 12
             note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 11
-            noteL D3, 6
-      vol 10
-            note D3
-            note D3
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 11
-            noteL D3, 6
-      vol 10
-            note D3
-            note D3
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 11
-            noteL D3, 6
-      vol 10
-            note D3
-            note D3
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 11
-            noteL D3, 6
-      vol 10
-            note D3
-            note D3
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
+    repeatEnd
+    repeatSection2Start
             noteL D3, 48
+    countedLoopStart 1
             noteL D3, 12
             note D3
             noteL D3, 16
@@ -1230,13 +682,7 @@ Music_16_Channel_3:
             noteL D3, 4
             note D3
       vol 10
-            noteL D3, 12
-            note D3
-            noteL D3, 16
-      vol 7
-            noteL D3, 4
-            note D3
-      vol 10
+    countedLoopEnd
             noteL D3, 24
       vol 11
             noteL D3, 8
@@ -1275,6 +721,7 @@ Music_16_Channel_4:
       setRelease 1
             noteL Cs6, 48
       vibrato 05ch
+    repeatStart
             waitL 24
             noteL Cs6, 4
             wait
@@ -1361,96 +808,13 @@ Music_16_Channel_4:
             noteL B6, 48
             note Ds6
             noteL E6, 168
+    repeatSection1Start
             waitL 24
       inst 19
       vol 8
             noteL Cs6, 48
-            waitL 24
-            noteL Cs6, 4
-            wait
-            note Ds6
-            wait
-            note E6
-            wait
-            noteL Ds6, 18
-            waitL 6
-            noteL Cs6, 18
-            waitL 6
-            noteL B5, 18
-            waitL 6
-            noteL A5, 18
-            waitL 6
-            noteL A5, 48
-            waitL 18
-            noteL Fs5, 3
-            note Gs5
-            noteL A5, 4
-            wait
-            note Gs5
-            wait
-            note Fs5
-            wait
-            noteL Gs5, 72
-            waitL 24
-            noteL Cs6, 48
-            waitL 24
-            noteL Cs6, 4
-            wait
-            note Ds6
-            wait
-            note E6
-            wait
-            noteL Gs6, 18
-            waitL 6
-            noteL Fs6, 18
-            waitL 6
-            noteL E6, 18
-            waitL 6
-            noteL Fs6, 18
-            waitL 6
-            noteL A6, 96
-            noteL Gs6, 72
-      inst 15
-      vol 6
-            noteL B5, 24
-            noteL A5, 48
-            waitL 12
-            noteL A5, 6
-            wait
-            note Cs6
-            wait
-            note E6
-            wait
-            note Ds6
-            note E6
-            noteL Fs6, 48
-            waitL 12
-            noteL B5, 8
-            noteL Cs6, 4
-            note B5
-            note As5
-            note B5
-            noteL A6, 12
-            wait
-            note Gs6
-            wait
-            note Fs6
-            wait
-            note E6
-            wait
-            noteL Cs6, 48
-            waitL 24
-            noteL Cs6, 8
-            wait
-            note Gs6
-            noteL Fs6, 48
-            waitL 24
-            noteL Cs6, 8
-            wait
-            note Fs6
-            noteL B6, 48
-            note Ds6
-            noteL E6, 168
+    repeatEnd
+    repeatSection2Start
             noteL B5, 8
             wait
             note B5
@@ -1472,6 +836,7 @@ Music_16_Channel_5:
             sampleL 13, 16
     mainLoopStart
             waitL 32
+    countedLoopStart 6
             sampleL 13, 48
             sampleL 13, 96
             sampleL 13, 48
@@ -1480,54 +845,7 @@ Music_16_Channel_5:
             sample 13
             sampleL 13, 48
             sample 13
-            sample 13
-            sampleL 13, 96
-            sampleL 13, 48
-            sample 13
-            sampleL 13, 24
-            sample 13
-            sampleL 13, 48
-            sample 13
-            sample 13
-            sampleL 13, 96
-            sampleL 13, 48
-            sample 13
-            sampleL 13, 24
-            sample 13
-            sampleL 13, 48
-            sample 13
-            sample 13
-            sampleL 13, 96
-            sampleL 13, 48
-            sample 13
-            sampleL 13, 24
-            sample 13
-            sampleL 13, 48
-            sample 13
-            sample 13
-            sampleL 13, 96
-            sampleL 13, 48
-            sample 13
-            sampleL 13, 24
-            sample 13
-            sampleL 13, 48
-            sample 13
-            sample 13
-            sampleL 13, 96
-            sampleL 13, 48
-            sample 13
-            sampleL 13, 24
-            sample 13
-            sampleL 13, 48
-            sample 13
-            sample 13
-            sampleL 13, 96
-            sampleL 13, 48
-            sample 13
-            sampleL 13, 24
-            sample 13
-            sampleL 13, 48
-            sample 13
+    countedLoopEnd
             sample 13
             sampleL 13, 96
             sampleL 13, 48
@@ -1551,6 +869,7 @@ Music_16_Channel_6:
     mainLoopStart
       psgInst 06h
       setRelease 1
+    countedLoopStart 6
             psgNoteL Cs3, 8
       psgInst 07h
             psgNote Cs3
@@ -1639,6 +958,7 @@ Music_16_Channel_6:
             wait
             psgNote Cs3
       psgInst 06h
+    countedLoopEnd
             psgNote Cs3
       psgInst 07h
             psgNote Cs3
@@ -1680,7 +1000,8 @@ Music_16_Channel_6:
             psgNote Fs3
       psgInst 05h
             psgNote Fs3
-            wait
+    countedLoopStart 1
+            waitL 8
             psgNote Gs3
       psgInst 06h
             psgNote Gs3
@@ -1702,556 +1023,7 @@ Music_16_Channel_6:
             psgNote Gs3
       psgInst 05h
             psgNote Gs3
-            wait
-            psgNote Gs3
-      psgInst 06h
-            psgNote Gs3
-      psgInst 07h
-            psgNote Gs3
-      psgInst 08h
-            psgNote Gs3
-      psgInst 09h
-            psgNote Gs3
-      psgInst 0bh
-            psgNote Gs3
-      psgInst 09h
-            psgNote Gs3
-      psgInst 08h
-            psgNote Gs3
-      psgInst 07h
-            psgNote Gs3
-      psgInst 06h
-            psgNote Gs3
-      psgInst 05h
-            psgNote Gs3
-            wait
-            psgNote Cs3
-      psgInst 06h
-            psgNote Cs3
-      psgInst 07h
-            psgNote Cs3
-      psgInst 08h
-            psgNote Cs3
-      psgInst 09h
-            psgNote Cs3
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 09h
-            psgNote Cs3
-      psgInst 08h
-            psgNote Cs3
-      psgInst 07h
-            psgNote Cs3
-      psgInst 06h
-            psgNote Cs3
-      psgInst 05h
-            psgNote Cs3
-            wait
-            psgNote Fs3
-      psgInst 06h
-            psgNote Fs3
-      psgInst 07h
-            psgNote Fs3
-      psgInst 08h
-            psgNote Fs3
-      psgInst 09h
-            psgNote Fs3
-      psgInst 0bh
-            psgNote Fs3
-      psgInst 09h
-            psgNote Fs3
-      psgInst 08h
-            psgNote Fs3
-      psgInst 07h
-            psgNote Fs3
-      psgInst 06h
-            psgNote Fs3
-      psgInst 05h
-            psgNote Fs3
-            wait
-            psgNote Gs3
-      psgInst 06h
-            psgNote Gs3
-      psgInst 07h
-            psgNote Gs3
-      psgInst 08h
-            psgNote Gs3
-      psgInst 09h
-            psgNote Gs3
-      psgInst 0bh
-            psgNote Gs3
-      psgInst 09h
-            psgNote Gs3
-      psgInst 08h
-            psgNote Gs3
-      psgInst 07h
-            psgNote Gs3
-      psgInst 06h
-            psgNote Gs3
-      psgInst 05h
-            psgNote Gs3
-            wait
-            psgNote Gs3
-      psgInst 06h
-            psgNote Gs3
-      psgInst 07h
-            psgNote Gs3
-      psgInst 08h
-            psgNote Gs3
-      psgInst 09h
-            psgNote Gs3
-      psgInst 0bh
-            psgNote Gs3
-      psgInst 09h
-            psgNote Gs3
-      psgInst 08h
-            psgNote Gs3
-      psgInst 07h
-            psgNote Gs3
-      psgInst 06h
-            psgNote Gs3
-      psgInst 05h
-            psgNote Gs3
-            wait
-            psgNote Cs3
-      psgInst 06h
-            psgNote Cs3
-      psgInst 07h
-            psgNote Cs3
-      psgInst 08h
-            psgNote Cs3
-      psgInst 09h
-            psgNote Cs3
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 09h
-            psgNote Cs3
-      psgInst 08h
-            psgNote Cs3
-      psgInst 07h
-            psgNote Cs3
-      psgInst 06h
-            psgNote Cs3
-      psgInst 05h
-            psgNote Cs3
-            wait
-            psgNote Fs3
-      psgInst 06h
-            psgNote Fs3
-      psgInst 07h
-            psgNote Fs3
-      psgInst 08h
-            psgNote Fs3
-      psgInst 09h
-            psgNote Fs3
-      psgInst 0bh
-            psgNote Fs3
-      psgInst 09h
-            psgNote Fs3
-      psgInst 08h
-            psgNote Fs3
-      psgInst 07h
-            psgNote Fs3
-      psgInst 06h
-            psgNote Fs3
-      psgInst 05h
-            psgNote Fs3
-            wait
-            psgNote Gs3
-      psgInst 06h
-            psgNote Gs3
-      psgInst 07h
-            psgNote Gs3
-      psgInst 08h
-            psgNote Gs3
-      psgInst 09h
-            psgNote Gs3
-      psgInst 0bh
-            psgNote Gs3
-      psgInst 09h
-            psgNote Gs3
-      psgInst 08h
-            psgNote Gs3
-      psgInst 07h
-            psgNote Gs3
-      psgInst 06h
-            psgNote Gs3
-      psgInst 05h
-            psgNote Gs3
-            wait
-            psgNote Gs3
-      psgInst 06h
-            psgNote Gs3
-      psgInst 07h
-            psgNote Gs3
-      psgInst 08h
-            psgNote Gs3
-      psgInst 09h
-            psgNote Gs3
-      psgInst 0bh
-            psgNote Gs3
-      psgInst 09h
-            psgNote Gs3
-      psgInst 08h
-            psgNote Gs3
-      psgInst 07h
-            psgNote Gs3
-      psgInst 06h
-            psgNote Gs3
-      psgInst 05h
-            psgNote Gs3
-            wait
-            psgNote Cs3
-      psgInst 06h
-            psgNote Cs3
-      psgInst 07h
-            psgNote Cs3
-      psgInst 08h
-            psgNote Cs3
-      psgInst 09h
-            psgNote Cs3
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 09h
-            psgNote Cs3
-      psgInst 08h
-            psgNote Cs3
-      psgInst 07h
-            psgNote Cs3
-      psgInst 06h
-            psgNote Cs3
-      psgInst 05h
-            psgNote Cs3
-            wait
-            psgNote Fs3
-      psgInst 06h
-            psgNote Fs3
-      psgInst 07h
-            psgNote Fs3
-      psgInst 08h
-            psgNote Fs3
-      psgInst 09h
-            psgNote Fs3
-      psgInst 0bh
-            psgNote Fs3
-      psgInst 09h
-            psgNote Fs3
-      psgInst 08h
-            psgNote Fs3
-      psgInst 07h
-            psgNote Fs3
-      psgInst 06h
-            psgNote Fs3
-      psgInst 05h
-            psgNote Fs3
-            wait
-            psgNote Gs3
-      psgInst 06h
-            psgNote Gs3
-      psgInst 07h
-            psgNote Gs3
-      psgInst 08h
-            psgNote Gs3
-      psgInst 09h
-            psgNote Gs3
-      psgInst 0bh
-            psgNote Gs3
-      psgInst 09h
-            psgNote Gs3
-      psgInst 08h
-            psgNote Gs3
-      psgInst 07h
-            psgNote Gs3
-      psgInst 06h
-            psgNote Gs3
-      psgInst 05h
-            psgNote Gs3
-            wait
-            psgNote Gs3
-      psgInst 06h
-            psgNote Gs3
-      psgInst 07h
-            psgNote Gs3
-      psgInst 08h
-            psgNote Gs3
-      psgInst 09h
-            psgNote Gs3
-      psgInst 0bh
-            psgNote Gs3
-      psgInst 09h
-            psgNote Gs3
-      psgInst 08h
-            psgNote Gs3
-      psgInst 07h
-            psgNote Gs3
-      psgInst 06h
-            psgNote Gs3
-      psgInst 05h
-            psgNote Gs3
-            wait
-            psgNote Cs3
-      psgInst 06h
-            psgNote Cs3
-      psgInst 07h
-            psgNote Cs3
-      psgInst 08h
-            psgNote Cs3
-      psgInst 09h
-            psgNote Cs3
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 09h
-            psgNote Cs3
-      psgInst 08h
-            psgNote Cs3
-      psgInst 07h
-            psgNote Cs3
-      psgInst 06h
-            psgNote Cs3
-      psgInst 05h
-            psgNote Cs3
-            wait
-            psgNote Fs3
-      psgInst 06h
-            psgNote Fs3
-      psgInst 07h
-            psgNote Fs3
-      psgInst 08h
-            psgNote Fs3
-      psgInst 09h
-            psgNote Fs3
-      psgInst 0bh
-            psgNote Fs3
-      psgInst 09h
-            psgNote Fs3
-      psgInst 08h
-            psgNote Fs3
-      psgInst 07h
-            psgNote Fs3
-      psgInst 06h
-            psgNote Fs3
-      psgInst 05h
-            psgNote Fs3
-            wait
-            psgNote Gs3
-      psgInst 06h
-            psgNote Gs3
-      psgInst 07h
-            psgNote Gs3
-      psgInst 08h
-            psgNote Gs3
-      psgInst 09h
-            psgNote Gs3
-      psgInst 0bh
-            psgNote Gs3
-      psgInst 09h
-            psgNote Gs3
-      psgInst 08h
-            psgNote Gs3
-      psgInst 07h
-            psgNote Gs3
-      psgInst 06h
-            psgNote Gs3
-      psgInst 05h
-            psgNote Gs3
-            wait
-            psgNote Gs3
-      psgInst 06h
-            psgNote Gs3
-      psgInst 07h
-            psgNote Gs3
-      psgInst 08h
-            psgNote Gs3
-      psgInst 09h
-            psgNote Gs3
-      psgInst 0bh
-            psgNote Gs3
-      psgInst 09h
-            psgNote Gs3
-      psgInst 08h
-            psgNote Gs3
-      psgInst 07h
-            psgNote Gs3
-      psgInst 06h
-            psgNote Gs3
-      psgInst 05h
-            psgNote Gs3
-            wait
-            psgNote Cs3
-      psgInst 06h
-            psgNote Cs3
-      psgInst 07h
-            psgNote Cs3
-      psgInst 08h
-            psgNote Cs3
-      psgInst 09h
-            psgNote Cs3
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 09h
-            psgNote Cs3
-      psgInst 08h
-            psgNote Cs3
-      psgInst 07h
-            psgNote Cs3
-      psgInst 06h
-            psgNote Cs3
-      psgInst 05h
-            psgNote Cs3
-            wait
-            psgNote Fs3
-      psgInst 06h
-            psgNote Fs3
-      psgInst 07h
-            psgNote Fs3
-      psgInst 08h
-            psgNote Fs3
-      psgInst 09h
-            psgNote Fs3
-      psgInst 0bh
-            psgNote Fs3
-      psgInst 09h
-            psgNote Fs3
-      psgInst 08h
-            psgNote Fs3
-      psgInst 07h
-            psgNote Fs3
-      psgInst 06h
-            psgNote Fs3
-      psgInst 05h
-            psgNote Fs3
-            wait
-            psgNote Gs3
-      psgInst 06h
-            psgNote Gs3
-      psgInst 07h
-            psgNote Gs3
-      psgInst 08h
-            psgNote Gs3
-      psgInst 09h
-            psgNote Gs3
-      psgInst 0bh
-            psgNote Gs3
-      psgInst 09h
-            psgNote Gs3
-      psgInst 08h
-            psgNote Gs3
-      psgInst 07h
-            psgNote Gs3
-      psgInst 06h
-            psgNote Gs3
-      psgInst 05h
-            psgNote Gs3
-            wait
-            psgNote Gs3
-      psgInst 06h
-            psgNote Gs3
-      psgInst 07h
-            psgNote Gs3
-      psgInst 08h
-            psgNote Gs3
-      psgInst 09h
-            psgNote Gs3
-      psgInst 0bh
-            psgNote Gs3
-      psgInst 09h
-            psgNote Gs3
-      psgInst 08h
-            psgNote Gs3
-      psgInst 07h
-            psgNote Gs3
-      psgInst 06h
-            psgNote Gs3
-      psgInst 05h
-            psgNote Gs3
-            wait
-            psgNote Cs3
-      psgInst 06h
-            psgNote Cs3
-      psgInst 07h
-            psgNote Cs3
-      psgInst 08h
-            psgNote Cs3
-      psgInst 09h
-            psgNote Cs3
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 09h
-            psgNote Cs3
-      psgInst 08h
-            psgNote Cs3
-      psgInst 07h
-            psgNote Cs3
-      psgInst 06h
-            psgNote Cs3
-      psgInst 05h
-            psgNote Cs3
-            wait
-            psgNote Fs3
-      psgInst 06h
-            psgNote Fs3
-      psgInst 07h
-            psgNote Fs3
-      psgInst 08h
-            psgNote Fs3
-      psgInst 09h
-            psgNote Fs3
-      psgInst 0bh
-            psgNote Fs3
-      psgInst 09h
-            psgNote Fs3
-      psgInst 08h
-            psgNote Fs3
-      psgInst 07h
-            psgNote Fs3
-      psgInst 06h
-            psgNote Fs3
-      psgInst 05h
-            psgNote Fs3
-            wait
-            psgNote Gs3
-      psgInst 06h
-            psgNote Gs3
-      psgInst 07h
-            psgNote Gs3
-      psgInst 08h
-            psgNote Gs3
-      psgInst 09h
-            psgNote Gs3
-      psgInst 0bh
-            psgNote Gs3
-      psgInst 09h
-            psgNote Gs3
-      psgInst 08h
-            psgNote Gs3
-      psgInst 07h
-            psgNote Gs3
-      psgInst 06h
-            psgNote Gs3
-      psgInst 05h
-            psgNote Gs3
-            wait
-            psgNote Gs3
-      psgInst 06h
-            psgNote Gs3
-      psgInst 07h
-            psgNote Gs3
-      psgInst 08h
-            psgNote Gs3
-      psgInst 09h
-            psgNote Gs3
-      psgInst 0bh
-            psgNote Gs3
-      psgInst 09h
-            psgNote Gs3
-      psgInst 08h
-            psgNote Gs3
-      psgInst 07h
-            psgNote Gs3
-      psgInst 06h
-            psgNote Gs3
-      psgInst 05h
-            psgNote Gs3
+    countedLoopEnd
       psgInst 00h
             waitL 192
             waitL 8
@@ -2268,6 +1040,7 @@ Music_16_Channel_7:
     mainLoopStart
       psgInst 06h
       setRelease 1
+    countedLoopStart 6
             psgNoteL E3, 8
       psgInst 07h
             psgNote E3
@@ -2356,6 +1129,8 @@ Music_16_Channel_7:
             wait
             psgNote E3
       psgInst 06h
+    countedLoopEnd
+    repeatStart
             psgNote E3
       psgInst 07h
             psgNote E3
@@ -2376,94 +1151,7 @@ Music_16_Channel_7:
       psgInst 05h
             psgNote E3
             wait
-            psgNote Ds3
-      psgInst 06h
-            psgNote Ds3
-      psgInst 07h
-            psgNote Ds3
-      psgInst 08h
-            psgNote Ds3
-      psgInst 09h
-            psgNote Ds3
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 09h
-            psgNote Ds3
-      psgInst 08h
-            psgNote Ds3
-      psgInst 07h
-            psgNote Ds3
-      psgInst 06h
-            psgNote Ds3
-      psgInst 05h
-            psgNote Ds3
-            wait
-            psgNote E3
-      psgInst 06h
-            psgNote E3
-      psgInst 07h
-            psgNote E3
-      psgInst 08h
-            psgNote E3
-      psgInst 09h
-            psgNote E3
-      psgInst 0bh
-            psgNote E3
-      psgInst 09h
-            psgNote E3
-      psgInst 08h
-            psgNote E3
-      psgInst 07h
-            psgNote E3
-      psgInst 06h
-            psgNote E3
-      psgInst 05h
-            psgNote E3
-            wait
-            psgNote B2
-      psgInst 06h
-            psgNote B2
-      psgInst 07h
-            psgNote B2
-      psgInst 08h
-            psgNote B2
-      psgInst 09h
-            psgNote B2
-      psgInst 0bh
-            psgNote B2
-      psgInst 09h
-            psgNote B2
-      psgInst 08h
-            psgNote B2
-      psgInst 07h
-            psgNote B2
-      psgInst 06h
-            psgNote B2
-      psgInst 05h
-            psgNote B2
-            wait
-            psgNote E3
-      psgInst 06h
-            psgNote E3
-      psgInst 07h
-            psgNote E3
-      psgInst 08h
-            psgNote E3
-      psgInst 09h
-            psgNote E3
-      psgInst 0bh
-            psgNote E3
-      psgInst 09h
-            psgNote E3
-      psgInst 08h
-            psgNote E3
-      psgInst 07h
-            psgNote E3
-      psgInst 06h
-            psgNote E3
-      psgInst 05h
-            psgNote E3
-            wait
+    repeatSection1Start
             psgNote Ds3
       psgInst 06h
             psgNote Ds3
@@ -2488,466 +1176,8 @@ Music_16_Channel_7:
             wait
             psgNote E3
       psgInst 06h
-            psgNote E3
-      psgInst 07h
-            psgNote E3
-      psgInst 08h
-            psgNote E3
-      psgInst 09h
-            psgNote E3
-      psgInst 0bh
-            psgNote E3
-      psgInst 09h
-            psgNote E3
-      psgInst 08h
-            psgNote E3
-      psgInst 07h
-            psgNote E3
-      psgInst 06h
-            psgNote E3
-      psgInst 05h
-            psgNote E3
-            wait
-            psgNote B2
-      psgInst 06h
-            psgNote B2
-      psgInst 07h
-            psgNote B2
-      psgInst 08h
-            psgNote B2
-      psgInst 09h
-            psgNote B2
-      psgInst 0bh
-            psgNote B2
-      psgInst 09h
-            psgNote B2
-      psgInst 08h
-            psgNote B2
-      psgInst 07h
-            psgNote B2
-      psgInst 06h
-            psgNote B2
-      psgInst 05h
-            psgNote B2
-            wait
-            psgNote E3
-      psgInst 06h
-            psgNote E3
-      psgInst 07h
-            psgNote E3
-      psgInst 08h
-            psgNote E3
-      psgInst 09h
-            psgNote E3
-      psgInst 0bh
-            psgNote E3
-      psgInst 09h
-            psgNote E3
-      psgInst 08h
-            psgNote E3
-      psgInst 07h
-            psgNote E3
-      psgInst 06h
-            psgNote E3
-      psgInst 05h
-            psgNote E3
-            wait
-            psgNote Ds3
-      psgInst 06h
-            psgNote Ds3
-      psgInst 07h
-            psgNote Ds3
-      psgInst 08h
-            psgNote Ds3
-      psgInst 09h
-            psgNote Ds3
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 09h
-            psgNote Ds3
-      psgInst 08h
-            psgNote Ds3
-      psgInst 07h
-            psgNote Ds3
-      psgInst 06h
-            psgNote Ds3
-      psgInst 05h
-            psgNote Ds3
-            wait
-            psgNote E3
-      psgInst 06h
-            psgNote E3
-      psgInst 07h
-            psgNote E3
-      psgInst 08h
-            psgNote E3
-      psgInst 09h
-            psgNote E3
-      psgInst 0bh
-            psgNote E3
-      psgInst 09h
-            psgNote E3
-      psgInst 08h
-            psgNote E3
-      psgInst 07h
-            psgNote E3
-      psgInst 06h
-            psgNote E3
-      psgInst 05h
-            psgNote E3
-            wait
-            psgNote B2
-      psgInst 06h
-            psgNote B2
-      psgInst 07h
-            psgNote B2
-      psgInst 08h
-            psgNote B2
-      psgInst 09h
-            psgNote B2
-      psgInst 0bh
-            psgNote B2
-      psgInst 09h
-            psgNote B2
-      psgInst 08h
-            psgNote B2
-      psgInst 07h
-            psgNote B2
-      psgInst 06h
-            psgNote B2
-      psgInst 05h
-            psgNote B2
-            wait
-            psgNote E3
-      psgInst 06h
-            psgNote E3
-      psgInst 07h
-            psgNote E3
-      psgInst 08h
-            psgNote E3
-      psgInst 09h
-            psgNote E3
-      psgInst 0bh
-            psgNote E3
-      psgInst 09h
-            psgNote E3
-      psgInst 08h
-            psgNote E3
-      psgInst 07h
-            psgNote E3
-      psgInst 06h
-            psgNote E3
-      psgInst 05h
-            psgNote E3
-            wait
-            psgNote Ds3
-      psgInst 06h
-            psgNote Ds3
-      psgInst 07h
-            psgNote Ds3
-      psgInst 08h
-            psgNote Ds3
-      psgInst 09h
-            psgNote Ds3
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 09h
-            psgNote Ds3
-      psgInst 08h
-            psgNote Ds3
-      psgInst 07h
-            psgNote Ds3
-      psgInst 06h
-            psgNote Ds3
-      psgInst 05h
-            psgNote Ds3
-            wait
-            psgNote E3
-      psgInst 06h
-            psgNote E3
-      psgInst 07h
-            psgNote E3
-      psgInst 08h
-            psgNote E3
-      psgInst 09h
-            psgNote E3
-      psgInst 0bh
-            psgNote E3
-      psgInst 09h
-            psgNote E3
-      psgInst 08h
-            psgNote E3
-      psgInst 07h
-            psgNote E3
-      psgInst 06h
-            psgNote E3
-      psgInst 05h
-            psgNote E3
-            wait
-            psgNote B2
-      psgInst 06h
-            psgNote B2
-      psgInst 07h
-            psgNote B2
-      psgInst 08h
-            psgNote B2
-      psgInst 09h
-            psgNote B2
-      psgInst 0bh
-            psgNote B2
-      psgInst 09h
-            psgNote B2
-      psgInst 08h
-            psgNote B2
-      psgInst 07h
-            psgNote B2
-      psgInst 06h
-            psgNote B2
-      psgInst 05h
-            psgNote B2
-            wait
-            psgNote E3
-      psgInst 06h
-            psgNote E3
-      psgInst 07h
-            psgNote E3
-      psgInst 08h
-            psgNote E3
-      psgInst 09h
-            psgNote E3
-      psgInst 0bh
-            psgNote E3
-      psgInst 09h
-            psgNote E3
-      psgInst 08h
-            psgNote E3
-      psgInst 07h
-            psgNote E3
-      psgInst 06h
-            psgNote E3
-      psgInst 05h
-            psgNote E3
-            wait
-            psgNote Ds3
-      psgInst 06h
-            psgNote Ds3
-      psgInst 07h
-            psgNote Ds3
-      psgInst 08h
-            psgNote Ds3
-      psgInst 09h
-            psgNote Ds3
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 09h
-            psgNote Ds3
-      psgInst 08h
-            psgNote Ds3
-      psgInst 07h
-            psgNote Ds3
-      psgInst 06h
-            psgNote Ds3
-      psgInst 05h
-            psgNote Ds3
-            wait
-            psgNote E3
-      psgInst 06h
-            psgNote E3
-      psgInst 07h
-            psgNote E3
-      psgInst 08h
-            psgNote E3
-      psgInst 09h
-            psgNote E3
-      psgInst 0bh
-            psgNote E3
-      psgInst 09h
-            psgNote E3
-      psgInst 08h
-            psgNote E3
-      psgInst 07h
-            psgNote E3
-      psgInst 06h
-            psgNote E3
-      psgInst 05h
-            psgNote E3
-            wait
-            psgNote B2
-      psgInst 06h
-            psgNote B2
-      psgInst 07h
-            psgNote B2
-      psgInst 08h
-            psgNote B2
-      psgInst 09h
-            psgNote B2
-      psgInst 0bh
-            psgNote B2
-      psgInst 09h
-            psgNote B2
-      psgInst 08h
-            psgNote B2
-      psgInst 07h
-            psgNote B2
-      psgInst 06h
-            psgNote B2
-      psgInst 05h
-            psgNote B2
-            wait
-            psgNote E3
-      psgInst 06h
-            psgNote E3
-      psgInst 07h
-            psgNote E3
-      psgInst 08h
-            psgNote E3
-      psgInst 09h
-            psgNote E3
-      psgInst 0bh
-            psgNote E3
-      psgInst 09h
-            psgNote E3
-      psgInst 08h
-            psgNote E3
-      psgInst 07h
-            psgNote E3
-      psgInst 06h
-            psgNote E3
-      psgInst 05h
-            psgNote E3
-            wait
-            psgNote Ds3
-      psgInst 06h
-            psgNote Ds3
-      psgInst 07h
-            psgNote Ds3
-      psgInst 08h
-            psgNote Ds3
-      psgInst 09h
-            psgNote Ds3
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 09h
-            psgNote Ds3
-      psgInst 08h
-            psgNote Ds3
-      psgInst 07h
-            psgNote Ds3
-      psgInst 06h
-            psgNote Ds3
-      psgInst 05h
-            psgNote Ds3
-            wait
-            psgNote E3
-      psgInst 06h
-            psgNote E3
-      psgInst 07h
-            psgNote E3
-      psgInst 08h
-            psgNote E3
-      psgInst 09h
-            psgNote E3
-      psgInst 0bh
-            psgNote E3
-      psgInst 09h
-            psgNote E3
-      psgInst 08h
-            psgNote E3
-      psgInst 07h
-            psgNote E3
-      psgInst 06h
-            psgNote E3
-      psgInst 05h
-            psgNote E3
-            wait
-            psgNote B2
-      psgInst 06h
-            psgNote B2
-      psgInst 07h
-            psgNote B2
-      psgInst 08h
-            psgNote B2
-      psgInst 09h
-            psgNote B2
-      psgInst 0bh
-            psgNote B2
-      psgInst 09h
-            psgNote B2
-      psgInst 08h
-            psgNote B2
-      psgInst 07h
-            psgNote B2
-      psgInst 06h
-            psgNote B2
-      psgInst 05h
-            psgNote B2
-            wait
-            psgNote E3
-      psgInst 06h
-            psgNote E3
-      psgInst 07h
-            psgNote E3
-      psgInst 08h
-            psgNote E3
-      psgInst 09h
-            psgNote E3
-      psgInst 0bh
-            psgNote E3
-      psgInst 09h
-            psgNote E3
-      psgInst 08h
-            psgNote E3
-      psgInst 07h
-            psgNote E3
-      psgInst 06h
-            psgNote E3
-      psgInst 05h
-            psgNote E3
-            wait
-            psgNote Ds3
-      psgInst 06h
-            psgNote Ds3
-      psgInst 07h
-            psgNote Ds3
-      psgInst 08h
-            psgNote Ds3
-      psgInst 09h
-            psgNote Ds3
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 09h
-            psgNote Ds3
-      psgInst 08h
-            psgNote Ds3
-      psgInst 07h
-            psgNote Ds3
-      psgInst 06h
-            psgNote Ds3
-      psgInst 05h
-            psgNote Ds3
-            wait
-            psgNote E3
-      psgInst 06h
-            psgNote E3
-      psgInst 07h
-            psgNote E3
-      psgInst 08h
-            psgNote E3
-      psgInst 09h
-            psgNote E3
-      psgInst 0bh
-            psgNote E3
-      psgInst 09h
-            psgNote E3
-      psgInst 08h
-            psgNote E3
-      psgInst 07h
-            psgNote E3
-      psgInst 06h
-            psgNote E3
-      psgInst 05h
-            psgNote E3
-            wait
+    repeatEnd
+    repeatSection2Start
             psgNote B2
       psgInst 06h
             psgNote B2

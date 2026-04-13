@@ -21,22 +21,14 @@ Music_21_Channel_0:
             noteL A3, 72
       vibrato 05ah
             note A3
-            note A3
+    countedLoopStart 3
+            noteL A3, 72
             note As3
-            note A3
-            note As3
-            note A3
-            note As3
-            note A3
-            note As3
+    countedLoopEnd
+    countedLoopStart 3
             noteL A3, 36
             noteL A3, 48
-            noteL A3, 36
-            noteL A3, 48
-            noteL A3, 36
-            noteL A3, 48
-            noteL A3, 36
-            noteL A3, 48
+    countedLoopEnd
             noteL A3, 52
             noteL A3, 48
     channel_end
@@ -47,20 +39,17 @@ Music_21_Channel_1:
             waitL 12
       setRelease 1
       vibrato 057h
-            note C5
+    countedLoopStart 1
+            noteL C5, 12
             note D5
             note E5
             note F5
             note E5
             wait
-            note C5
-            note D5
-            note E5
-            note F5
-            note E5
-            wait
+    countedLoopEnd
       inst 12
       vol 12
+    repeatStart
             note G5
             note D5
             note E5
@@ -76,22 +65,11 @@ Music_21_Channel_1:
             note E5
             noteL E5, 36
             note D5
+    repeatSection1Start
             waitL 12
-            note G5
-            note D5
-            note E5
-            note B4
-            note D5
-            noteL C5, 24
-            noteL G4, 12
-            noteL F4, 24
-            note F4
-            noteL E4, 12
-            noteL B4, 24
-            noteL A4, 12
-            note E5
-            noteL E5, 36
-            note D5
+    repeatEnd
+    repeatSection2Start
+    countedLoopStart 1
             waitL 6
             note B4
             note C5
@@ -101,15 +79,7 @@ Music_21_Channel_1:
             note C5
             noteL G5, 12
             noteL F5, 54
-            waitL 6
-            note B4
-            note C5
-            noteL G5, 66
-            waitL 6
-            note B4
-            note C5
-            noteL G5, 12
-            noteL F5, 54
+    countedLoopEnd
             waitL 8
             note B4
             note G4
@@ -124,6 +94,7 @@ Music_21_Channel_2:
       vol 9
       setRelease 1
       vibrato 05ah
+    countedLoopStart 1
             noteL A4, 12
             noteL A5, 6
             note E6
@@ -135,19 +106,10 @@ Music_21_Channel_2:
             note D6
             note E6
             note G5
-            noteL A4, 12
-            noteL A5, 6
-            note E6
-            note D6
-            note G6
-            note E6
-            note B6
-            note A6
-            note D6
-            note E6
-            note G5
+    countedLoopEnd
       vol 7
-            note B5
+    countedLoopStart 1
+            noteL B5, 6
             note C6
             note B5
             note D6
@@ -195,55 +157,9 @@ Music_21_Channel_2:
             note C6
             note D6
             note A5
-            note B5
-            note C6
-            note B5
-            note D6
-            note G5
-            note A5
-            note E5
-            note B5
-            note A5
-            note C6
-            note G5
-            note A5
-            note G5
-            note A5
-            note D5
-            note G5
-            note A5
-            note D5
-            note C6
-            note D6
-            note G5
-            note C6
-            note D6
-            note G5
-            note B5
-            note A5
-            note E5
-            note D6
-            note G5
-            note A5
-            note E5
-            note B5
-            note A5
-            note D6
-            note G5
-            note A5
-            note G5
-            note A5
-            note D5
-            note G5
-            note A5
-            note D5
-            note C6
-            note D6
-            note G5
-            note C6
-            note D6
-            note A5
+    countedLoopEnd
       vol 9
+    countedLoopStart 1
             waitL 42
             noteL D7, 6
             note G6
@@ -260,22 +176,7 @@ Music_21_Channel_2:
             note F6
             note C6
             note D6
-            waitL 42
-            noteL D7, 6
-            note G6
-            note B6
-            note E6
-            note G6
-            note D6
-            note E6
-            waitL 42
-            noteL D7, 6
-            note G6
-            note A6
-            note E6
-            note F6
-            note C6
-            note D6
+    countedLoopEnd
             noteL A4, 12
             note B4
             note C5
@@ -300,7 +201,8 @@ Music_21_Channel_3:
             note C5
             note D5
             note C5
-            wait
+    countedLoopStart 1
+            waitL 12
             note A4
             note B4
             note C5
@@ -324,30 +226,8 @@ Music_21_Channel_3:
             note D5
             note A5
             note G5
-            wait
-            note A4
-            note B4
-            note C5
-            note D5
-            note E5
-            wait
-            note A4
-            note As4
-            note C5
-            note E5
-            note D5
-            wait
-            note C5
-            note D5
-            note C5
-            note B4
-            note C5
-            note D5
-            note G4
-            note C5
-            note D5
-            note A5
-            note G5
+    countedLoopEnd
+    countedLoopStart 1
             waitL 6
             note E4
             note A4
@@ -364,22 +244,7 @@ Music_21_Channel_3:
             noteL C5, 6
             note B4
             note A4
-            wait
-            note E4
-            note A4
-            note B4
-            note C5
-            noteL E5, 54
-            waitL 6
-            note F4
-            note A4
-            note B4
-            note C5
-            note F5
-            noteL A5, 30
-            noteL C5, 6
-            note B4
-            note A4
+    countedLoopEnd
             noteL D5, 12
             noteL E5, 24
             noteL G5, 6
@@ -430,6 +295,7 @@ Music_21_Channel_6:
             psgNote E4
             psgNoteL E4, 36
             psgNote D4
+    countedLoopStart 1
       psgInst 00h
             waitL 6
       psgInst 088h
@@ -443,19 +309,7 @@ Music_21_Channel_6:
             psgNote C4
             psgNoteL G4, 12
             psgNoteL F4, 54
-      psgInst 00h
-            waitL 6
-      psgInst 088h
-            psgNote B3
-            psgNote C4
-            psgNoteL G4, 66
-      psgInst 00h
-            waitL 6
-      psgInst 088h
-            psgNote B3
-            psgNote C4
-            psgNoteL G4, 12
-            psgNoteL F4, 54
+    countedLoopEnd
       ymTimer 60
       psgInst 00h
             waitL 8

@@ -217,6 +217,7 @@ Music_21_Channel_3:
             note D6
             note As5
             note G5
+    repeatStart
             note D5
             note E5
             note G5
@@ -233,6 +234,7 @@ Music_21_Channel_3:
             note Cs7
             note E7
             note D7
+    repeatSection1Start
             note G7
             note Fs7
             note B7
@@ -249,22 +251,8 @@ Music_21_Channel_3:
             note As5
             note G5
             note E5
-            note D5
-            note E5
-            note G5
-            note As5
-            note D6
-            note E6
-            note G6
-            note As6
-            note A6
-            note Fs6
-            note B6
-            note A6
-            note D7
-            note Cs7
-            note E7
-            note D7
+    repeatEnd
+    repeatSection2Start
             note Fs7
             note D7
             note Cs7
@@ -443,6 +431,7 @@ Music_21_Channel_4:
             note D6
             note As5
             note G5
+    repeatStart
             note D5
             note E5
             note G5
@@ -459,6 +448,7 @@ Music_21_Channel_4:
             note Cs7
             note E7
             note D7
+    repeatSection1Start
             note G7
             note Fs7
             note B7
@@ -475,22 +465,8 @@ Music_21_Channel_4:
             note As5
             note G5
             note E5
-            note D5
-            note E5
-            note G5
-            note As5
-            note D6
-            note E6
-            note G6
-            note As6
-            note A6
-            note Fs6
-            note B6
-            note A6
-            note D7
-            note Cs7
-            note E7
-            note D7
+    repeatEnd
+    repeatSection2Start
             note Fs7
             note D7
             note Cs7
@@ -667,6 +643,7 @@ Music_21_Channel_6:
             psgNote D4
             psgNote As3
             psgNote G3
+    repeatStart
             psgNote D3
             psgNote E3
             psgNote G3
@@ -683,6 +660,7 @@ Music_21_Channel_6:
             psgNote Cs5
             psgNote E5
             psgNote D5
+    repeatSection1Start
             psgNote G5
             psgNote Fs5
             psgNote B5
@@ -699,22 +677,8 @@ Music_21_Channel_6:
             psgNote As3
             psgNote G3
             psgNote E3
-            psgNote D3
-            psgNote E3
-            psgNote G3
-            psgNote As3
-            psgNote D4
-            psgNote E4
-            psgNote G4
-            psgNote As4
-            psgNote A4
-            psgNote Fs4
-            psgNote B4
-            psgNote A4
-            psgNote D5
-            psgNote Cs5
-            psgNote E5
-            psgNote D5
+    repeatEnd
+    repeatSection2Start
             psgNote Fs5
             psgNote D5
             psgNote Cs5

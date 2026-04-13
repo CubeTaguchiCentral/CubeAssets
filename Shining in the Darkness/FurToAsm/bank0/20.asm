@@ -155,132 +155,22 @@ Music_20_Channel_6:
       psgInst 06bh
       setRelease 6
       vibrato 00h
+    countedLoopStart 11
             psgNoteL D3, 6
             psgNote A2
-            psgNote D3
+    countedLoopEnd
+    countedLoopStart 19
+            psgNoteL Cs3, 6
+            psgNote Gs2
+    countedLoopEnd
+    countedLoopStart 11
+            psgNoteL D3, 6
             psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote Cs3
+    countedLoopEnd
+    countedLoopStart 18
+            psgNoteL Cs3, 6
             psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
+    countedLoopEnd
             psgNote Cs3
       sustain
             psgNote Gs2
@@ -291,199 +181,35 @@ Music_20_Channel_7:
       setRelease 4
       vibrato 00h
             psgNoteL A2, 4
-            psgNote Fs2
+    repeatStart
+    countedLoopStart 16
+            psgNoteL Fs2, 4
             psgNote A2
+    countedLoopEnd
             psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote Gs2
+    countedLoopStart 17
+            psgNoteL Gs2, 4
             psgNote F2
+    countedLoopEnd
             psgNote Gs2
-            psgNote F2
+    repeatSection1Start
+    countedLoopStart 10
+            psgNoteL F2, 4
             psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
+    countedLoopEnd
             psgNote F2
             psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
+    repeatEnd
+    repeatSection2Start
       setRelease 1
             psgNoteL F2, 1
       setRelease 3
             psgNoteL Gs2, 3
       setRelease 4
+    countedLoopStart 9
             psgNoteL F2, 4
             psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
+    countedLoopEnd
             psgNote F2
       sustain
             psgNote Gs2

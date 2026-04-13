@@ -101,6 +101,7 @@ Music_06_Channel_2:
       vol 12
       vibrato 00h
       setRelease 1
+    countedLoopStart 6
             noteL D2, 16
             note D2
             note D2
@@ -108,48 +109,7 @@ Music_06_Channel_2:
             note D2
             note D2
       vol 12
-            note D2
-            note D2
-            note D2
-            note D2
-            note D2
-            note D2
-      vol 12
-            note D2
-            note D2
-            note D2
-            note D2
-            note D2
-            note D2
-      vol 12
-            note D2
-            note D2
-            note D2
-            note D2
-            note D2
-            note D2
-      vol 12
-            note D2
-            note D2
-            note D2
-            note D2
-            note D2
-            note D2
-      vol 12
-            note D2
-            note D2
-            note D2
-            note D2
-            note D2
-            note D2
-      vol 12
-            note D2
-            note D2
-            note D2
-            note D2
-            note D2
-            note D2
-      vol 12
+    countedLoopEnd
             note D2
             note D2
       sustain
@@ -175,6 +135,7 @@ Music_06_Channel_3:
       vol 12
       vibrato 00h
       setRelease 1
+    countedLoopStart 6
             noteL B2, 16
             note B2
             note B2
@@ -182,48 +143,7 @@ Music_06_Channel_3:
             note B2
             note B2
       vol 12
-            note B2
-            note B2
-            note B2
-            note B2
-            note B2
-            note B2
-      vol 12
-            note B2
-            note B2
-            note B2
-            note B2
-            note B2
-            note B2
-      vol 12
-            note B2
-            note B2
-            note B2
-            note B2
-            note B2
-            note B2
-      vol 12
-            note B2
-            note B2
-            note B2
-            note B2
-            note B2
-            note B2
-      vol 12
-            note B2
-            note B2
-            note B2
-            note B2
-            note B2
-            note B2
-      vol 12
-            note B2
-            note B2
-            note B2
-            note B2
-            note B2
-            note B2
-      vol 12
+    countedLoopEnd
             note B2
             note B2
       sustain
@@ -249,20 +169,10 @@ Music_06_Channel_4:
       vol 12
       setRelease 1
       vibrato 05ah
+    countedLoopStart 6
             noteL A2, 96
       vol 12
-            note A2
-      vol 12
-            note A2
-      vol 12
-            note A2
-      vol 12
-            note A2
-      vol 12
-            note A2
-      vol 12
-            note A2
-      vol 12
+    countedLoopEnd
       sustain
             noteL A2, 33
     mainLoopStart

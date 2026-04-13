@@ -23,6 +23,7 @@ Music_23_Channel_0:
             note B5
             noteL C6, 24
             note A5
+    repeatStart
             noteL A5, 120
             noteL D6, 12
             note Cs6
@@ -31,6 +32,7 @@ Music_23_Channel_0:
             noteL B5, 120
             noteL E6, 12
             note Ds6
+    repeatSection1Start
       sustain
       vol 9
             noteL E6, 255
@@ -53,14 +55,8 @@ Music_23_Channel_0:
             waitL 12
       setRelease 3
             noteL A5, 24
-            noteL A5, 120
-            noteL D6, 12
-            note Cs6
-            noteL D6, 24
-            note B5
-            noteL B5, 120
-            noteL E6, 12
-            note Ds6
+    repeatEnd
+    repeatSection2Start
             noteL E6, 24
             note C6
             noteL C6, 120
@@ -332,6 +328,7 @@ Music_23_Channel_6:
             psgNote A3
       vibrato 04ch
             psgNoteL A3, 48
+    repeatStart
       psgInst 00h
             waitL 72
       psgInst 03ah
@@ -343,22 +340,14 @@ Music_23_Channel_6:
       psgInst 00h
             waitL 72
       psgInst 03ah
+    repeatSection1Start
             psgNoteL E4, 12
             psgNote Ds4
             psgNoteL E4, 24
             psgNote C4
             psgNoteL C4, 48
-      psgInst 00h
-            waitL 72
-      psgInst 03ah
-            psgNoteL D4, 12
-            psgNote Cs4
-            psgNoteL D4, 24
-            psgNote B3
-            psgNoteL B3, 48
-      psgInst 00h
-            waitL 72
-      psgInst 03ah
+    repeatEnd
+    repeatSection2Start
             psgNoteL C5, 12
             psgNote B4
             psgNoteL C5, 24
@@ -442,6 +431,7 @@ Music_23_Channel_7:
             psgNote A3
       vibrato 04ch
             psgNoteL A3, 48
+    repeatStart
       psgInst 00h
             waitL 72
       psgInst 096h
@@ -453,22 +443,14 @@ Music_23_Channel_7:
       psgInst 00h
             waitL 72
       psgInst 096h
+    repeatSection1Start
             psgNoteL E4, 12
             psgNote Ds4
             psgNoteL E4, 24
             psgNote C4
             psgNoteL C4, 48
-      psgInst 00h
-            waitL 72
-      psgInst 096h
-            psgNoteL D4, 12
-            psgNote Cs4
-            psgNoteL D4, 24
-            psgNote B3
-            psgNoteL B3, 48
-      psgInst 00h
-            waitL 72
-      psgInst 096h
+    repeatEnd
+    repeatSection2Start
             psgNoteL C5, 12
             psgNote B4
             psgNoteL C5, 24

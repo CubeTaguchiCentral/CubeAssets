@@ -215,18 +215,14 @@ Music_11_Channel_4:
             noteL B4, 24
             note Gs4
             note F4
-            note As3
-            note F4
-            noteL Gs4, 48
-            noteL E4, 24
-            note Gs4
-            noteL D5, 48
+    countedLoopStart 1
             noteL As3, 24
             note F4
             noteL Gs4, 48
             noteL E4, 24
             note Gs4
             noteL D5, 48
+    countedLoopEnd
             noteL Gs3, 24
             note Ds4
             note Gs4

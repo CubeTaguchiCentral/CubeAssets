@@ -126,30 +126,27 @@ Music_07_Channel_1:
             noteL E5, 6
             waitL 25
             noteL E5, 84
+    repeatStart
             noteL F5, 53
             noteL F5, 6
             waitL 25
             noteL E5, 6
             waitL 25
             noteL E5, 53
-            note E5
-            noteL E5, 6
-            waitL 25
+    repeatSection1Start
+    countedLoopStart 1
             noteL E5, 53
             noteL E5, 6
             waitL 25
+    countedLoopEnd
             noteL A5, 84
             note G5
             noteL G5, 53
             noteL G5, 6
             waitL 25
             noteL G5, 84
-            noteL F5, 53
-            noteL F5, 6
-            waitL 25
-            noteL E5, 6
-            waitL 25
-            noteL E5, 53
+    repeatEnd
+    repeatSection2Start
             noteL E5, 42
             note Gs5
             noteL G5, 6
@@ -172,6 +169,7 @@ Music_07_Channel_2:
       vol 10
       setRelease 1
       vibrato 05ah
+    countedLoopStart 13
             noteL C5, 21
       inst 40
       vol 10
@@ -180,110 +178,7 @@ Music_07_Channel_2:
             noteL C5, 7
       inst 41
       vol 10
-            noteL C5, 21
-      inst 40
-      vol 10
-            noteL C5, 14
-      vol 7
-            noteL C5, 7
-      inst 41
-      vol 10
-            noteL C5, 21
-      inst 40
-      vol 10
-            noteL C5, 14
-      vol 7
-            noteL C5, 7
-      inst 41
-      vol 10
-            noteL C5, 21
-      inst 40
-      vol 10
-            noteL C5, 14
-      vol 7
-            noteL C5, 7
-      inst 41
-      vol 10
-            noteL C5, 21
-      inst 40
-      vol 10
-            noteL C5, 14
-      vol 7
-            noteL C5, 7
-      inst 41
-      vol 10
-            noteL C5, 21
-      inst 40
-      vol 10
-            noteL C5, 14
-      vol 7
-            noteL C5, 7
-      inst 41
-      vol 10
-            noteL C5, 21
-      inst 40
-      vol 10
-            noteL C5, 14
-      vol 7
-            noteL C5, 7
-      inst 41
-      vol 10
-            noteL C5, 21
-      inst 40
-      vol 10
-            noteL C5, 14
-      vol 7
-            noteL C5, 7
-      inst 41
-      vol 10
-            noteL C5, 21
-      inst 40
-      vol 10
-            noteL C5, 14
-      vol 7
-            noteL C5, 7
-      inst 41
-      vol 10
-            noteL C5, 21
-      inst 40
-      vol 10
-            noteL C5, 14
-      vol 7
-            noteL C5, 7
-      inst 41
-      vol 10
-            noteL C5, 21
-      inst 40
-      vol 10
-            noteL C5, 14
-      vol 7
-            noteL C5, 7
-      inst 41
-      vol 10
-            noteL C5, 21
-      inst 40
-      vol 10
-            noteL C5, 14
-      vol 7
-            noteL C5, 7
-      inst 41
-      vol 10
-            noteL C5, 21
-      inst 40
-      vol 10
-            noteL C5, 14
-      vol 7
-            noteL C5, 7
-      inst 41
-      vol 10
-            noteL C5, 21
-      inst 40
-      vol 10
-            noteL C5, 14
-      vol 7
-            noteL C5, 7
-      inst 41
-      vol 10
+    countedLoopEnd
             noteL As3, 21
       inst 40
       vol 10
@@ -302,6 +197,7 @@ Music_07_Channel_2:
             note A3
       stereo 040h
             note F3
+    repeatStart
       stereo 0c0h
       inst 41
       vol 10
@@ -309,6 +205,7 @@ Music_07_Channel_2:
       inst 40
       vol 10
             noteL Fs3, 14
+    repeatSection1Start
             noteL Fs3, 21
       inst 45
       vol 13
@@ -317,14 +214,11 @@ Music_07_Channel_2:
       inst 44
       vol 14
             noteL C4, 7
-      stereo 0c0h
-      inst 41
-      vol 10
-            noteL As3, 21
-      inst 40
-      vol 10
-            noteL Fs3, 14
+    repeatEnd
+    repeatSection2Start
       vol 7
+    repeatStart
+    countedLoopStart 2
             noteL Fs3, 7
       inst 41
       vol 10
@@ -333,6 +227,7 @@ Music_07_Channel_2:
       vol 10
             noteL Fs3, 14
       vol 7
+    countedLoopEnd
             noteL Fs3, 7
       inst 41
       vol 10
@@ -340,22 +235,7 @@ Music_07_Channel_2:
       inst 40
       vol 10
             noteL Fs3, 14
-      vol 7
-            noteL Fs3, 7
-      inst 41
-      vol 10
-            noteL As3, 21
-      inst 40
-      vol 10
-            noteL Fs3, 14
-      vol 7
-            noteL Fs3, 7
-      inst 41
-      vol 10
-            noteL As3, 21
-      inst 40
-      vol 10
-            noteL Fs3, 14
+    repeatSection1Start
       vol 7
             noteL Fs3, 7
       inst 45
@@ -369,6 +249,7 @@ Music_07_Channel_2:
             note E3
             note E3
             note E3
+    countedLoopStart 1
       inst 41
       vol 10
             noteL As3, 21
@@ -400,21 +281,7 @@ Music_07_Channel_2:
             noteL Fs3, 14
       vol 7
             noteL Fs3, 7
-      inst 41
-      vol 10
-            noteL As3, 21
-      inst 40
-      vol 10
-            noteL Fs3, 14
-            noteL Fs3, 21
-      inst 45
-      vol 13
-            note E3
-      stereo 080h
-      inst 44
-      vol 14
-            noteL A3, 7
-      stereo 0c0h
+    countedLoopEnd
       inst 41
       vol 10
             noteL As3, 21
@@ -422,53 +289,8 @@ Music_07_Channel_2:
       vol 10
             noteL Fs3, 14
       vol 7
-            noteL Fs3, 7
-      inst 41
-      vol 10
-            noteL As3, 21
-      inst 40
-      vol 10
-            noteL Fs3, 14
-      vol 7
-            noteL Fs3, 7
-      inst 41
-      vol 10
-            noteL As3, 21
-      inst 40
-      vol 10
-            noteL Fs3, 14
-      vol 7
-            noteL Fs3, 7
-      inst 41
-      vol 10
-            noteL As3, 21
-      inst 40
-      vol 10
-            noteL Fs3, 14
-      vol 7
-            noteL Fs3, 7
-      inst 41
-      vol 10
-            noteL As3, 21
-      inst 40
-      vol 10
-            noteL Fs3, 14
-      vol 7
-            noteL Fs3, 7
-      inst 41
-      vol 10
-            noteL As3, 21
-      inst 40
-      vol 10
-            noteL Fs3, 14
-      vol 7
-            noteL Fs3, 7
-      inst 41
-      vol 10
-            noteL As3, 21
-      inst 40
-      vol 10
-            noteL Fs3, 14
+    repeatEnd
+    repeatSection2Start
             noteL Fs3, 7
       inst 41
       vol 10
@@ -478,37 +300,8 @@ Music_07_Channel_2:
             noteL E3, 21
       inst 40
       vol 10
-            noteL Fs3, 7
-      inst 41
-      vol 10
-            noteL As3, 21
-      inst 40
-      vol 10
-            noteL Fs3, 14
-      vol 7
-            noteL Fs3, 7
-      inst 41
-      vol 10
-            noteL As3, 21
-      inst 40
-      vol 10
-            noteL Fs3, 14
-      vol 7
-            noteL Fs3, 7
-      inst 41
-      vol 10
-            noteL As3, 21
-      inst 40
-      vol 10
-            noteL Fs3, 14
-      vol 7
-            noteL Fs3, 7
-      inst 41
-      vol 10
-            noteL As3, 21
-      inst 40
-      vol 10
-            noteL Fs3, 14
+    repeatEnd
+    repeatSection3Start
       vol 7
             noteL Fs3, 7
       stereo 040h
@@ -580,30 +373,27 @@ Music_07_Channel_3:
             noteL G4, 6
             waitL 25
             noteL G4, 84
+    repeatStart
             noteL A4, 53
             noteL A4, 6
             waitL 25
             noteL Gs4, 6
             waitL 25
             noteL Gs4, 53
-            note G4
-            noteL G4, 6
-            waitL 25
+    repeatSection1Start
+    countedLoopStart 1
             noteL G4, 53
             noteL G4, 6
             waitL 25
+    countedLoopEnd
             noteL C5, 84
             note B4
             noteL B4, 53
             noteL B4, 6
             waitL 25
             noteL C5, 84
-            noteL A4, 53
-            noteL A4, 6
-            waitL 25
-            noteL Gs4, 6
-            waitL 25
-            noteL Gs4, 53
+    repeatEnd
+    repeatSection2Start
             noteL G4, 42
             wait
             noteL B4, 6
@@ -642,30 +432,27 @@ Music_07_Channel_4:
             noteL C5, 6
             waitL 25
             noteL C5, 84
+    repeatStart
             noteL D5, 53
             noteL D5, 6
             waitL 25
             noteL B4, 6
             waitL 25
             noteL B4, 53
-            note C5
-            noteL C5, 6
-            waitL 25
+    repeatSection1Start
+    countedLoopStart 1
             noteL C5, 53
             noteL C5, 6
             waitL 25
+    countedLoopEnd
             noteL F5, 84
             note D5
             noteL E5, 53
             noteL E5, 6
             waitL 25
             noteL D5, 84
-            noteL D5, 53
-            noteL D5, 6
-            waitL 25
-            noteL B4, 6
-            waitL 25
-            noteL B4, 53
+    repeatEnd
+    repeatSection2Start
             noteL C5, 42
             wait
             noteL D5, 6

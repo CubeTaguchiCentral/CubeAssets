@@ -22,11 +22,13 @@ Music_13_Channel_0:
             noteL B5, 14
             waitL 4
             noteL B5, 6
+    repeatStart
             noteL Cs6, 30
             waitL 6
             note Cs6
             note Cs6
             noteL Cs6, 24
+    repeatSection1Start
             noteL E6, 12
             waitL 6
             note E6
@@ -37,11 +39,8 @@ Music_13_Channel_0:
             note B5
             note B5
       setRelease 1
-            noteL Cs6, 30
-            waitL 6
-            note Cs6
-            note Cs6
-            noteL Cs6, 24
+    repeatEnd
+    repeatSection2Start
             note Gs6
     mainLoopStart
       inst 14
@@ -84,21 +83,17 @@ Music_13_Channel_0:
             noteL B5, 6
             note B5
       setRelease 8
+    countedLoopStart 3
             noteL B5, 12
-            note B5
-            note B5
-            note B5
+    countedLoopEnd
       stereo 0c0h
       vol 9
       setRelease 1
             noteL B5, 14
             waitL 4
             noteL B5, 6
-            noteL Cs6, 30
-            waitL 6
-            note Cs6
-            note Cs6
-            noteL Cs6, 24
+    repeatEnd
+    repeatSection3Start
             noteL E6, 12
             waitL 6
             note E6
@@ -125,11 +120,13 @@ Music_13_Channel_1:
             noteL Ds5, 14
             waitL 4
             noteL Ds5, 6
+    repeatStart
             noteL E5, 30
             waitL 6
             note E5
             note E5
             noteL E5, 24
+    repeatSection1Start
             noteL Gs5, 12
             waitL 6
             note Gs5
@@ -143,11 +140,8 @@ Music_13_Channel_1:
             note Ds5
             note Ds5
       setRelease 1
-            noteL E5, 30
-            waitL 6
-            note E5
-            note E5
-            noteL E5, 24
+    repeatEnd
+    repeatSection2Start
             note B5
     mainLoopStart
       inst 14
@@ -192,21 +186,17 @@ Music_13_Channel_1:
             noteL Ds5, 6
             note Ds5
       setRelease 8
+    countedLoopStart 3
             noteL Ds5, 12
-            note Ds5
-            note Ds5
-            note Ds5
+    countedLoopEnd
       stereo 0c0h
       vol 9
       setRelease 1
             noteL Ds5, 14
             waitL 4
             noteL Ds5, 6
-            noteL E5, 30
-            waitL 6
-            note E5
-            note E5
-            noteL E5, 24
+    repeatEnd
+    repeatSection3Start
             noteL Gs5, 12
             waitL 6
             note Gs5
@@ -312,11 +302,13 @@ Music_13_Channel_3:
             noteL B5, 14
             waitL 4
             noteL B5, 6
+    repeatStart
             noteL Cs6, 30
             waitL 6
             note Cs6
             note Cs6
             noteL Cs6, 24
+    repeatSection1Start
             noteL E6, 12
             waitL 6
             note E6
@@ -327,11 +319,8 @@ Music_13_Channel_3:
             note B5
             note B5
       setRelease 1
-            noteL Cs6, 30
-            waitL 6
-            note Cs6
-            note Cs6
-            noteL Cs6, 24
+    repeatEnd
+    repeatSection2Start
       sustain
             noteL Gs6, 16
     mainLoopStart
@@ -376,19 +365,15 @@ Music_13_Channel_3:
             noteL B5, 6
             note B5
       setRelease 8
+    countedLoopStart 3
             noteL B5, 12
-            note B5
-            note B5
-            note B5
+    countedLoopEnd
       setRelease 1
             noteL B5, 14
             waitL 4
             noteL B5, 6
-            noteL Cs6, 30
-            waitL 6
-            note Cs6
-            note Cs6
-            noteL Cs6, 24
+    repeatEnd
+    repeatSection3Start
             noteL E6, 12
             waitL 6
             note E6
@@ -418,11 +403,13 @@ Music_13_Channel_4:
             noteL Ds5, 14
             waitL 4
             noteL Ds5, 6
+    repeatStart
             noteL E5, 30
             waitL 6
             note E5
             note E5
             noteL E5, 24
+    repeatSection1Start
             noteL Gs5, 12
             waitL 6
             note Gs5
@@ -436,11 +423,8 @@ Music_13_Channel_4:
             note Ds5
             note Ds5
       setRelease 1
-            noteL E5, 30
-            waitL 6
-            note E5
-            note E5
-            noteL E5, 24
+    repeatEnd
+    repeatSection2Start
       sustain
             noteL B5, 16
     mainLoopStart
@@ -487,19 +471,15 @@ Music_13_Channel_4:
             noteL Ds5, 6
             note Ds5
       setRelease 8
+    countedLoopStart 3
             noteL Ds5, 12
-            note Ds5
-            note Ds5
-            note Ds5
+    countedLoopEnd
       setRelease 1
             noteL Ds5, 14
             waitL 4
             noteL Ds5, 6
-            noteL E5, 30
-            waitL 6
-            note E5
-            note E5
-            noteL E5, 24
+    repeatEnd
+    repeatSection3Start
             noteL Gs5, 12
             waitL 6
             note Gs5

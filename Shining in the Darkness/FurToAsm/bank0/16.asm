@@ -45,14 +45,12 @@ Music_16_Channel_1:
             noteL G5, 144
             noteL E5, 96
             noteL Cs5, 48
+    countedLoopStart 1
       sustain
             noteL Fs5, 255
       setRelease 1
             waitL 33
-      sustain
-            noteL Fs5, 255
-      setRelease 1
-            waitL 33
+    countedLoopEnd
     channel_end
 Music_16_Channel_2:
       stereo 0c0h
@@ -63,14 +61,12 @@ Music_16_Channel_2:
             noteL B4, 144
             noteL A4, 96
             noteL A4, 48
+    countedLoopStart 1
       sustain
             noteL B4, 255
       setRelease 1
             waitL 33
-      sustain
-            noteL B4, 255
-      setRelease 1
-            waitL 33
+    countedLoopEnd
     channel_end
 Music_16_Channel_3:
       stereo 0c0h
@@ -130,78 +126,18 @@ Music_16_Channel_7:
       psgInst 06ch
       setRelease 6
       vibrato 04ch
+    countedLoopStart 11
             psgNoteL E3, 6
             psgNote Fs3
-            psgNote E3
+    countedLoopEnd
+    countedLoopStart 11
+            psgNoteL Cs3, 6
+            psgNote D3
+    countedLoopEnd
+    countedLoopStart 11
+            psgNoteL D3, 6
             psgNote Fs3
-            psgNote E3
-            psgNote Fs3
-            psgNote E3
-            psgNote Fs3
-            psgNote E3
-            psgNote Fs3
-            psgNote E3
-            psgNote Fs3
-            psgNote E3
-            psgNote Fs3
-            psgNote E3
-            psgNote Fs3
-            psgNote E3
-            psgNote Fs3
-            psgNote E3
-            psgNote Fs3
-            psgNote E3
-            psgNote Fs3
-            psgNote E3
-            psgNote Fs3
-            psgNote Cs3
-            psgNote D3
-            psgNote Cs3
-            psgNote D3
-            psgNote Cs3
-            psgNote D3
-            psgNote Cs3
-            psgNote D3
-            psgNote Cs3
-            psgNote D3
-            psgNote Cs3
-            psgNote D3
-            psgNote Cs3
-            psgNote D3
-            psgNote Cs3
-            psgNote D3
-            psgNote Cs3
-            psgNote D3
-            psgNote Cs3
-            psgNote D3
-            psgNote Cs3
-            psgNote D3
-            psgNote Cs3
-            psgNote D3
-            psgNote D3
-            psgNote Fs3
-            psgNote D3
-            psgNote Fs3
-            psgNote D3
-            psgNote Fs3
-            psgNote D3
-            psgNote Fs3
-            psgNote D3
-            psgNote Fs3
-            psgNote D3
-            psgNote Fs3
-            psgNote D3
-            psgNote Fs3
-            psgNote D3
-            psgNote Fs3
-            psgNote D3
-            psgNote Fs3
-            psgNote D3
-            psgNote Fs3
-            psgNote D3
-            psgNote Fs3
-            psgNote D3
-            psgNote Fs3
+    countedLoopEnd
       setRelease 24
             psgNoteL B2, 24
             psgNote Cs3

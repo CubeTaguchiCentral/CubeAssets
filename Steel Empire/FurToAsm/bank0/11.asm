@@ -31,23 +31,9 @@ Music_11_Channel_0:
       setRelease 1
             waitL 2
             noteL Fs3, 6
-            note G3
-            note G3
-            note C3
-            note C3
-            note Fs3
-            note Fs3
-            note G3
-            note G3
-            note C3
-            note C3
-            note G3
-            note G3
-            note C3
-            note C3
-            note Fs3
-            note Fs3
-            note G3
+    repeatStart
+    countedLoopStart 2
+            noteL G3, 6
             note G3
             note C3
             note C3
@@ -63,6 +49,7 @@ Music_11_Channel_0:
             note C3
             note Fs3
             note Fs3
+    countedLoopEnd
             note G3
             note G3
             note C3
@@ -75,23 +62,8 @@ Music_11_Channel_0:
             note C3
             note G3
             note G3
-            note C3
-            note C3
-            note Fs3
-            note Fs3
-            note G3
-            note G3
-            note C3
-            note C3
-            note Fs3
-            note Fs3
-            note G3
-            note G3
-            note C3
-            note C3
-            note G3
-            note G3
-            note D3
+    countedLoopStart 3
+            noteL D3, 6
             note D3
             note Gs3
             note Gs3
@@ -107,55 +79,9 @@ Music_11_Channel_0:
             note D3
             note A3
             note A3
-            note D3
-            note D3
-            note Gs3
-            note Gs3
-            note A3
-            note A3
-            note D3
-            note D3
-            note Gs3
-            note Gs3
-            note A3
-            note A3
-            note D3
-            note D3
-            note A3
-            note A3
-            note D3
-            note D3
-            note Gs3
-            note Gs3
-            note A3
-            note A3
-            note D3
-            note D3
-            note Gs3
-            note Gs3
-            note A3
-            note A3
-            note D3
-            note D3
-            note A3
-            note A3
-            note D3
-            note D3
-            note Gs3
-            note Gs3
-            note A3
-            note A3
-            note D3
-            note D3
-            note Gs3
-            note Gs3
-            note A3
-            note A3
-            note D3
-            note D3
-            note A3
-            note A3
-            note E3
+    countedLoopEnd
+    countedLoopStart 3
+            noteL E3, 6
             note E3
             note As3
             note As3
@@ -171,55 +97,9 @@ Music_11_Channel_0:
             note E3
             note B3
             note B3
-            note E3
-            note E3
-            note As3
-            note As3
-            note B3
-            note B3
-            note E3
-            note E3
-            note As3
-            note As3
-            note B3
-            note B3
-            note E3
-            note E3
-            note B3
-            note B3
-            note E3
-            note E3
-            note As3
-            note As3
-            note B3
-            note B3
-            note E3
-            note E3
-            note As3
-            note As3
-            note B3
-            note B3
-            note E3
-            note E3
-            note B3
-            note B3
-            note E3
-            note E3
-            note As3
-            note As3
-            note B3
-            note B3
-            note E3
-            note E3
-            note As3
-            note As3
-            note B3
-            note B3
-            note E3
-            note E3
-            note B3
-            note B3
-            note Fs3
+    countedLoopEnd
+    countedLoopStart 3
+            noteL Fs3, 6
             note Fs3
             note C4
             note C4
@@ -235,310 +115,14 @@ Music_11_Channel_0:
             note Fs3
             note Cs4
             note Cs4
-            note Fs3
-            note Fs3
-            note C4
-            note C4
-            note Cs4
-            note Cs4
-            note Fs3
-            note Fs3
-            note C4
-            note C4
-            note Cs4
-            note Cs4
-            note Fs3
-            note Fs3
-            note Cs4
-            note Cs4
-            note Fs3
-            note Fs3
-            note C4
-            note C4
-            note Cs4
-            note Cs4
-            note Fs3
-            note Fs3
-            note C4
-            note C4
-            note Cs4
-            note Cs4
-            note Fs3
-            note Fs3
-            note Cs4
-            note Cs4
-            note Fs3
-            note Fs3
-            note C4
-            note C4
-            note Cs4
-            note Cs4
-            note Fs3
-            note Fs3
-            note C4
-            note C4
-            note Cs4
-            note Cs4
-            note Fs3
-            note Fs3
-            note Cs4
-            note Cs4
+    countedLoopEnd
+    repeatSection1Start
             note C3
             note C3
             note Fs3
             note Fs3
-            note G3
-            note G3
-            note C3
-            note C3
-            note Fs3
-            note Fs3
-            note G3
-            note G3
-            note C3
-            note C3
-            note G3
-            note G3
-            note C3
-            note C3
-            note Fs3
-            note Fs3
-            note G3
-            note G3
-            note C3
-            note C3
-            note Fs3
-            note Fs3
-            note G3
-            note G3
-            note C3
-            note C3
-            note G3
-            note G3
-            note C3
-            note C3
-            note Fs3
-            note Fs3
-            note G3
-            note G3
-            note C3
-            note C3
-            note Fs3
-            note Fs3
-            note G3
-            note G3
-            note C3
-            note C3
-            note G3
-            note G3
-            note C3
-            note C3
-            note Fs3
-            note Fs3
-            note G3
-            note G3
-            note C3
-            note C3
-            note Fs3
-            note Fs3
-            note G3
-            note G3
-            note C3
-            note C3
-            note G3
-            note G3
-            note D3
-            note D3
-            note Gs3
-            note Gs3
-            note A3
-            note A3
-            note D3
-            note D3
-            note Gs3
-            note Gs3
-            note A3
-            note A3
-            note D3
-            note D3
-            note A3
-            note A3
-            note D3
-            note D3
-            note Gs3
-            note Gs3
-            note A3
-            note A3
-            note D3
-            note D3
-            note Gs3
-            note Gs3
-            note A3
-            note A3
-            note D3
-            note D3
-            note A3
-            note A3
-            note D3
-            note D3
-            note Gs3
-            note Gs3
-            note A3
-            note A3
-            note D3
-            note D3
-            note Gs3
-            note Gs3
-            note A3
-            note A3
-            note D3
-            note D3
-            note A3
-            note A3
-            note D3
-            note D3
-            note Gs3
-            note Gs3
-            note A3
-            note A3
-            note D3
-            note D3
-            note Gs3
-            note Gs3
-            note A3
-            note A3
-            note D3
-            note D3
-            note A3
-            note A3
-            note E3
-            note E3
-            note As3
-            note As3
-            note B3
-            note B3
-            note E3
-            note E3
-            note As3
-            note As3
-            note B3
-            note B3
-            note E3
-            note E3
-            note B3
-            note B3
-            note E3
-            note E3
-            note As3
-            note As3
-            note B3
-            note B3
-            note E3
-            note E3
-            note As3
-            note As3
-            note B3
-            note B3
-            note E3
-            note E3
-            note B3
-            note B3
-            note E3
-            note E3
-            note As3
-            note As3
-            note B3
-            note B3
-            note E3
-            note E3
-            note As3
-            note As3
-            note B3
-            note B3
-            note E3
-            note E3
-            note B3
-            note B3
-            note E3
-            note E3
-            note As3
-            note As3
-            note B3
-            note B3
-            note E3
-            note E3
-            note As3
-            note As3
-            note B3
-            note B3
-            note E3
-            note E3
-            note B3
-            note B3
-            note Fs3
-            note Fs3
-            note C4
-            note C4
-            note Cs4
-            note Cs4
-            note Fs3
-            note Fs3
-            note C4
-            note C4
-            note Cs4
-            note Cs4
-            note Fs3
-            note Fs3
-            note Cs4
-            note Cs4
-            note Fs3
-            note Fs3
-            note C4
-            note C4
-            note Cs4
-            note Cs4
-            note Fs3
-            note Fs3
-            note C4
-            note C4
-            note Cs4
-            note Cs4
-            note Fs3
-            note Fs3
-            note Cs4
-            note Cs4
-            note Fs3
-            note Fs3
-            note C4
-            note C4
-            note Cs4
-            note Cs4
-            note Fs3
-            note Fs3
-            note C4
-            note C4
-            note Cs4
-            note Cs4
-            note Fs3
-            note Fs3
-            note Cs4
-            note Cs4
-            note Fs3
-            note Fs3
-            note C4
-            note C4
-            note Cs4
-            note Cs4
-            note Fs3
-            note Fs3
-            note C4
-            note C4
-            note Cs4
-            note Cs4
-            note Fs3
-            note Fs3
-            note Cs4
-            note Cs4
+    repeatEnd
+    repeatSection2Start
       stereo 0c0h
       vol 12
             note C3
@@ -669,515 +253,49 @@ Music_11_Channel_3:
       stereo 0c0h
       setRelease 1
             waitL 2
+    countedLoopStart 14
             noteL Ds6, 6
             note D6
             note Ds6
             note F6
+    countedLoopEnd
             note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note E6
+    countedLoopStart 15
+            noteL E6, 6
             note F6
             note G6
             note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note Fs6
+    countedLoopEnd
+    countedLoopStart 15
+            noteL Fs6, 6
             note G6
             note A6
             note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Gs6
+    countedLoopEnd
+    countedLoopStart 15
+            noteL Gs6, 6
             note A6
             note B6
             note A6
-            note Gs6
-            note A6
-            note B6
-            note A6
-            note Gs6
-            note A6
-            note B6
-            note A6
-            note Gs6
-            note A6
-            note B6
-            note A6
-            note Gs6
-            note A6
-            note B6
-            note A6
-            note Gs6
-            note A6
-            note B6
-            note A6
-            note Gs6
-            note A6
-            note B6
-            note A6
-            note Gs6
-            note A6
-            note B6
-            note A6
-            note Gs6
-            note A6
-            note B6
-            note A6
-            note Gs6
-            note A6
-            note B6
-            note A6
-            note Gs6
-            note A6
-            note B6
-            note A6
-            note Gs6
-            note A6
-            note B6
-            note A6
-            note Gs6
-            note A6
-            note B6
-            note A6
-            note Gs6
-            note A6
-            note B6
-            note A6
-            note Gs6
-            note A6
-            note B6
-            note A6
-            note Gs6
-            note A6
-            note B6
-            note A6
-            note D6
+    countedLoopEnd
+    countedLoopStart 15
+            noteL D6, 6
             note Ds6
             note F6
             note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note D6
-            note Ds6
-            note F6
-            note Ds6
-            note E6
+    countedLoopEnd
+    countedLoopStart 31
+            noteL E6, 6
             note F6
             note G6
             note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note E6
-            note F6
-            note G6
-            note F6
-            note Fs6
+    countedLoopEnd
+    countedLoopStart 15
+            noteL Fs6, 6
             note G6
             note A6
             note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
-            note Fs6
-            note G6
-            note A6
-            note G6
+    countedLoopEnd
       stereo 0c0h
       vol 8
             note D6
@@ -1246,7 +364,9 @@ Music_11_Channel_5:
             sample 0
             sampleL 1, 12
             sample 0
-            sample 1
+    repeatStart
+    countedLoopStart 5
+            sampleL 1, 12
             sample 0
             sample 1
             sample 0
@@ -1255,207 +375,46 @@ Music_11_Channel_5:
             sample 0
             sampleL 1, 12
             sample 0
+    countedLoopEnd
             sample 1
             sample 0
             sample 1
             sample 0
             sample 1
-            sampleL 0, 6
-            sample 0
-            sampleL 1, 12
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sampleL 0, 6
-            sample 0
-            sampleL 1, 12
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sampleL 0, 6
-            sample 0
-            sampleL 1, 12
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sampleL 0, 6
-            sample 0
-            sampleL 1, 12
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sampleL 0, 6
-            sample 0
-            sampleL 1, 12
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
+    repeatSection1Start
             sampleL 0, 6
             sample 1
             sample 1
             sample 1
+    countedLoopStart 2
             sampleL 0, 12
             sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
+    countedLoopEnd
             sampleL 0, 6
             sample 0
             sampleL 1, 12
             sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sampleL 0, 6
-            sample 0
-            sampleL 1, 12
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sampleL 0, 6
-            sample 0
-            sampleL 1, 12
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sampleL 0, 6
-            sample 0
-            sampleL 1, 12
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sampleL 0, 6
-            sample 0
-            sampleL 1, 12
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sampleL 0, 6
-            sample 0
-            sampleL 1, 12
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sampleL 0, 6
-            sample 0
-            sampleL 1, 12
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
+    repeatEnd
+    repeatSection2Start
+    countedLoopStart 3
             sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
+    countedLoopEnd
             sampleL 0, 12
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
+    repeatEnd
+    repeatSection3Start
             sampleL 0, 6
             sample 0
+    countedLoopStart 2
             sampleL 1, 12
             sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sampleL 0, 6
-            sample 0
-            sampleL 1, 12
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sampleL 0, 6
-            sample 0
-            sampleL 1, 12
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sampleL 0, 6
-            sample 0
-            sampleL 1, 12
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sampleL 0, 6
-            sample 0
-            sampleL 1, 12
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sampleL 0, 6
-            sample 0
-            sampleL 1, 12
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sampleL 0, 6
-            sample 0
-            sampleL 1, 12
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
+    countedLoopEnd
             sampleL 1, 6
             sample 1
             sample 0
             sample 1
             sample 1
             sample 1
+    countedLoopStart 6
             sampleL 0, 12
             sample 1
             sample 0
@@ -1465,69 +424,15 @@ Music_11_Channel_5:
             sampleL 0, 6
             sample 0
             sampleL 1, 12
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sampleL 0, 6
-            sample 0
-            sampleL 1, 12
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sampleL 0, 6
-            sample 0
-            sampleL 1, 12
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sampleL 0, 6
-            sample 0
-            sampleL 1, 12
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sampleL 0, 6
-            sample 0
-            sampleL 1, 12
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sampleL 0, 6
-            sample 0
-            sampleL 1, 12
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sampleL 0, 6
-            sample 0
-            sampleL 1, 12
+    countedLoopEnd
             sample 0
             sample 1
             sample 0
             sample 2
             sample 0
+    countedLoopStart 3
             sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
+    countedLoopEnd
             sample 0
             sample 1
       stereo 0c0h

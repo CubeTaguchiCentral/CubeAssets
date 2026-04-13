@@ -140,6 +140,7 @@ Music_03_Channel_0:
             noteL E7, 12
       stereo 080h
             note Cs7
+    repeatStart
             note Gs6
       stereo 0c0h
             note Ds6
@@ -150,21 +151,14 @@ Music_03_Channel_0:
       stereo 080h
             note Gs6
             note Ds6
+    repeatSection1Start
             waitL 60
       stereo 040h
             noteL E7, 12
       stereo 080h
             note Ds7
-            note Gs6
-      stereo 0c0h
-            note Ds6
-            note As5
-            waitL 36
-      stereo 040h
-            noteL Cs7, 12
-      stereo 080h
-            note Gs6
-            note Ds6
+    repeatEnd
+    repeatSection2Start
       stereo 0c0h
             note As5
             waitL 48
@@ -526,6 +520,7 @@ Music_03_Channel_1:
             waitL 18
             noteL Ds6, 6
             waitL 30
+    repeatStart
             noteL D6, 7
             waitL 29
             noteL Cs6, 7
@@ -534,18 +529,13 @@ Music_03_Channel_1:
             waitL 29
             noteL Cs6, 7
             waitL 17
+    repeatSection1Start
             noteL D6, 5
             waitL 19
             noteL Ds6, 7
             waitL 29
-            noteL D6, 7
-            waitL 29
-            noteL Cs6, 7
-            waitL 29
-            noteL C6, 7
-            waitL 29
-            noteL Cs6, 7
-            waitL 17
+    repeatEnd
+    repeatSection2Start
             noteL D6, 6
             waitL 18
             noteL Ds6, 7
@@ -647,14 +637,8 @@ Music_03_Channel_1:
             waitL 18
             noteL Ds6, 7
             waitL 29
-            noteL D6, 7
-            waitL 29
-            noteL Cs6, 7
-            waitL 29
-            noteL C6, 7
-            waitL 29
-            noteL Cs6, 7
-            waitL 17
+    repeatEnd
+    repeatSection3Start
             noteL D6, 5
             waitL 19
             noteL Ds6, 7
@@ -702,6 +686,7 @@ Music_03_Channel_2:
       vibrato 05ch
             noteL As5, 6
             waitL 30
+    repeatStart
             noteL A5, 6
             waitL 30
             noteL Gs5, 7
@@ -710,6 +695,7 @@ Music_03_Channel_2:
             waitL 30
             noteL Gs5, 7
             waitL 17
+    repeatSection1Start
             noteL A5, 6
             waitL 18
             noteL As5, 6
@@ -726,14 +712,8 @@ Music_03_Channel_2:
             waitL 19
             noteL As5, 5
             waitL 31
-            noteL A5, 6
-            waitL 30
-            noteL Gs5, 7
-            waitL 29
-            noteL G5, 6
-            waitL 30
-            noteL Gs5, 7
-            waitL 17
+    repeatEnd
+    repeatSection2Start
             noteL A5, 5
             waitL 19
             noteL As5, 6
@@ -824,14 +804,8 @@ Music_03_Channel_2:
       vol 12
             noteL As5, 6
             waitL 30
-            noteL A5, 6
-            waitL 30
-            noteL Gs5, 7
-            waitL 29
-            noteL G5, 6
-            waitL 30
-            noteL Gs5, 7
-            waitL 17
+    repeatEnd
+    repeatSection3Start
             noteL A5, 6
             waitL 18
             noteL As5, 6
@@ -1002,6 +976,7 @@ Music_03_Channel_3:
             noteL E7, 12
       stereo 080h
             note Cs7
+    repeatStart
             note Gs6
       stereo 0c0h
             note Ds6
@@ -1012,21 +987,14 @@ Music_03_Channel_3:
       stereo 080h
             note Gs6
             note Ds6
+    repeatSection1Start
             waitL 60
       stereo 040h
             noteL E7, 12
       stereo 080h
             note Ds7
-            note Gs6
-      stereo 0c0h
-            note Ds6
-            note As5
-            waitL 36
-      stereo 040h
-            noteL Cs7, 12
-      stereo 080h
-            note Gs6
-            note Ds6
+    repeatEnd
+    repeatSection2Start
       stereo 0c0h
             note As5
             waitL 48
@@ -1371,53 +1339,21 @@ Music_03_Channel_5:
       setRelease 1
             noteL As6, 48
       vibrato 05ch
+    countedLoopStart 6
             noteL As6, 24
             wait
             noteL As6, 48
-            noteL As6, 24
-            wait
-            noteL As6, 48
-            noteL As6, 24
-            wait
-            noteL As6, 48
-            noteL As6, 24
-            wait
-            noteL As6, 48
-            noteL As6, 24
-            wait
-            noteL As6, 48
-            noteL As6, 24
-            wait
-            noteL As6, 48
-            noteL As6, 24
-            wait
-            noteL As6, 48
+    countedLoopEnd
             noteL As6, 24
       inst 44
       vol 12
             wait
       vibrato 00h
+    countedLoopStart 6
             noteL A7, 48
             noteL A7, 24
             wait
-            noteL A7, 48
-            noteL A7, 24
-            wait
-            noteL A7, 48
-            noteL A7, 24
-            wait
-            noteL A7, 48
-            noteL A7, 24
-            wait
-            noteL A7, 48
-            noteL A7, 24
-            wait
-            noteL A7, 48
-            noteL A7, 24
-            wait
-            noteL A7, 48
-            noteL A7, 24
-            wait
+    countedLoopEnd
             note A7
       vibrato 070h
             note C7
@@ -1554,6 +1490,7 @@ Music_03_Channel_5:
             note Cs5
             note D5
             note Ds5
+    repeatStart
       inst 58
       vol 12
       vibrato 00h
@@ -1561,19 +1498,16 @@ Music_03_Channel_5:
       inst 33
       vol 8
       vibrato 062h
+    repeatSection1Start
             note E5
-      inst 58
-      vol 12
-      vibrato 00h
-            note Ds6
-      inst 33
-      vol 8
-      vibrato 062h
+    repeatEnd
+    repeatSection2Start
             note D5
             note Cs5
             note C5
             note C5
             note Cs5
+    repeatStart
       inst 58
       vol 12
       vibrato 00h
@@ -1582,15 +1516,10 @@ Music_03_Channel_5:
       vol 8
       vibrato 062h
             note Ds5
+    repeatSection1Start
             note E5
-      inst 58
-      vol 12
-      vibrato 00h
-            note Ds6
-      inst 33
-      vol 8
-      vibrato 062h
-            note Ds5
+    repeatEnd
+    repeatSection2Start
             note D5
             note Cs5
             note C5
@@ -1602,18 +1531,13 @@ Music_03_Channel_5:
       vol 8
       vibrato 062h
             note Cs5
-      inst 58
-      vol 12
-      vibrato 00h
-            note Ds6
-      inst 33
-      vol 8
-      vibrato 062h
-            note Ds5
+    repeatEnd
+    repeatSection3Start
             note E5
             note C5
             note Cs5
             note D5
+    repeatStart
       inst 58
       vol 12
       vibrato 00h
@@ -1621,19 +1545,16 @@ Music_03_Channel_5:
       inst 33
       vol 8
       vibrato 062h
+    repeatSection1Start
             note E5
             note C5
-      inst 58
-      vol 12
-      vibrato 00h
-            note Ds6
-      inst 33
-      vol 8
-      vibrato 062h
+    repeatEnd
+    repeatSection2Start
             note D5
             note Ds5
             note E5
             note C5
+    repeatStart
       inst 58
       vol 12
       vibrato 00h
@@ -1649,6 +1570,7 @@ Music_03_Channel_5:
       inst 33
       vol 8
       vibrato 062h
+    repeatSection1Start
             note Cs5
             note C5
             note E5
@@ -1668,27 +1590,15 @@ Music_03_Channel_5:
             note Cs5
             note Cs5
             note Cs5
-      inst 58
-      vol 12
-      vibrato 00h
-            note Ds6
-      inst 33
-      vol 8
-      vibrato 062h
-            note C5
-      inst 58
-      vol 12
-      vibrato 00h
-            note Ds6
-      inst 33
-      vol 8
-      vibrato 062h
+    repeatEnd
+    repeatSection2Start
             note E5
             note Ds5
             note D5
             note Cs5
             note C5
             note C5
+    repeatStart
       inst 58
       vol 12
       vibrato 00h
@@ -1696,15 +1606,11 @@ Music_03_Channel_5:
       inst 33
       vol 8
       vibrato 062h
+    repeatSection1Start
             note D5
             note Ds5
-      inst 58
-      vol 12
-      vibrato 00h
-            note Ds6
-      inst 33
-      vol 8
-      vibrato 062h
+    repeatEnd
+    repeatSection2Start
             note E5
             note D5
             note Ds5
@@ -1737,16 +1643,9 @@ Music_03_Channel_6:
     mainLoopStart
             waitL 180
             waitL 192
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
+    countedLoopStart 9
+            waitL 192
+    countedLoopEnd
             waitL 108
       psgInst 0bh
       sustain
@@ -1889,17 +1788,9 @@ Music_03_Channel_7:
             waitL 12
     mainLoopStart
             waitL 192
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
+    countedLoopStart 10
+            waitL 192
+    countedLoopEnd
             waitL 108
       psgInst 08h
       sustain

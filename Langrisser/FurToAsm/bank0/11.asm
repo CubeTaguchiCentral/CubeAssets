@@ -19,22 +19,12 @@ Music_11_Channel_0:
       vol 10
       setRelease 1
       vibrato 05ah
+    countedLoopStart 3
             noteL As3, 24
             waitL 12
             noteL As3, 6
             wait
-            noteL As3, 24
-            waitL 12
-            noteL As3, 6
-            wait
-            noteL As3, 24
-            waitL 12
-            noteL As3, 6
-            wait
-            noteL As3, 24
-            waitL 12
-            noteL As3, 6
-            wait
+    countedLoopEnd
             noteL Cs4, 72
             noteL Cs4, 8
             note C4
@@ -47,22 +37,18 @@ Music_11_Channel_1:
       vol 10
       setRelease 1
       vibrato 05ah
+    countedLoopStart 1
             noteL F4, 24
             waitL 12
             noteL F4, 6
             wait
-            noteL F4, 24
-            waitL 12
-            noteL F4, 6
-            wait
+    countedLoopEnd
+    countedLoopStart 1
             noteL As4, 24
             waitL 12
             noteL As4, 6
             wait
-            noteL As4, 24
-            waitL 12
-            noteL As4, 6
-            wait
+    countedLoopEnd
             noteL Cs5, 72
             noteL E5, 8
             note Ds5
@@ -82,14 +68,12 @@ Music_11_Channel_2:
             noteL As4, 24
             waitL 12
             noteL As4, 6
-            wait
+    countedLoopStart 1
+            waitL 6
             noteL Cs5, 24
             waitL 12
             noteL Cs5, 6
-            wait
-            noteL Cs5, 24
-            waitL 12
-            noteL Cs5, 6
+    countedLoopEnd
             wait
             noteL E5, 72
             noteL E5, 8
@@ -104,26 +88,13 @@ Music_11_Channel_3:
             waitL 6
       vibrato 05ah
       setRelease 1
-            note As2
-            note As2
-            note As2
-            noteL As2, 24
-            waitL 6
-            note As2
+    countedLoopStart 3
+            noteL As2, 6
             note As2
             note As2
             noteL As2, 24
             waitL 6
-            note As2
-            note As2
-            note As2
-            noteL As2, 24
-            waitL 6
-            note As2
-            note As2
-            note As2
-            noteL As2, 24
-            waitL 6
+    countedLoopEnd
       vol 9
             note Cs3
             note Cs3
@@ -158,14 +129,12 @@ Music_11_Channel_4:
             noteL As4, 24
             waitL 12
             noteL As4, 6
-            wait
+    countedLoopStart 1
+            waitL 6
             noteL Cs5, 24
             waitL 12
             noteL Cs5, 6
-            wait
-            noteL Cs5, 24
-            waitL 12
-            noteL Cs5, 6
+    countedLoopEnd
             wait
             noteL E5, 72
             noteL E5, 8
@@ -174,14 +143,10 @@ Music_11_Channel_4:
             noteL As4, 23
     channel_end
 Music_11_Channel_5:
+    countedLoopStart 3
             sampleL 0, 36
             sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 36
-            sampleL 0, 12
+    countedLoopEnd
             sampleL 0, 72
             sampleL 0, 8
             sample 0
@@ -192,6 +157,7 @@ Music_11_Channel_6:
       psgInst 0ah
       setRelease 1
       vibrato 04ah
+    countedLoopStart 1
             psgNoteL Cs4, 6
             psgNote Cs3
             psgNote F3
@@ -208,22 +174,7 @@ Music_11_Channel_6:
             psgNote Cs4
             psgNote F4
             psgNote As4
-            psgNote Cs4
-            psgNote Cs3
-            psgNote F3
-            psgNote As3
-            psgNote Cs4
-            psgNote F3
-            psgNote As3
-            psgNote Cs4
-            psgNote F4
-            psgNote As3
-            psgNote Cs4
-            psgNote F4
-            psgNote As4
-            psgNote Cs4
-            psgNote F4
-            psgNote As4
+    countedLoopEnd
       psgInst 08h
             psgNoteL E4, 4
             psgNote Cs4
@@ -258,6 +209,7 @@ Music_11_Channel_7:
       psgInst 0ah
       setRelease 1
       vibrato 00h
+    countedLoopStart 1
             psgNoteL As3, 6
             psgNote As2
             psgNote Cs3
@@ -274,22 +226,7 @@ Music_11_Channel_7:
             psgNote As3
             psgNote Cs4
             psgNote F4
-            psgNote As3
-            psgNote As2
-            psgNote Cs3
-            psgNote F3
-            psgNote As3
-            psgNote Cs3
-            psgNote F3
-            psgNote As3
-            psgNote Cs4
-            psgNote F3
-            psgNote As3
-            psgNote Cs4
-            psgNote F4
-            psgNote As3
-            psgNote Cs4
-            psgNote F4
+    countedLoopEnd
       psgInst 08h
             waitL 5
             psgNoteL E4, 4

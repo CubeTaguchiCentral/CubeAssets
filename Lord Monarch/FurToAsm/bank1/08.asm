@@ -81,13 +81,9 @@ Music_08_Channel_3:
       setRelease 7
             noteL C5, 10
       vibrato 051h
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
+    countedLoopStart 6
+            noteL C5, 10
+    countedLoopEnd
       stereo 0c0h
       vol 8
             note C5
@@ -103,6 +99,7 @@ Music_08_Channel_3:
       stereo 0c0h
             waitL 8
       setRelease 7
+    countedLoopStart 2
             noteL C5, 10
             note C5
             note C5
@@ -113,26 +110,7 @@ Music_08_Channel_3:
             note C5
             note C5
             note C5
-            note C5
-            note C5
-            note C5
-      stereo 0c0h
-      vol 8
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-      stereo 0c0h
-      vol 8
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
+    countedLoopEnd
             note C5
             note C5
             note C5
@@ -177,10 +155,9 @@ Music_08_Channel_4:
       shifting 32
       stereo 0c0h
       setRelease 7
+    countedLoopStart 3
             noteL C5, 10
-            note C5
-            note C5
-            note C5
+    countedLoopEnd
       stereo 080h
       vol 3
             note C5
@@ -205,14 +182,9 @@ Music_08_Channel_4:
             note C5
       stereo 0c0h
       vol 2
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
+    countedLoopStart 7
+            noteL C5, 10
+    countedLoopEnd
       stereo 040h
       vol 3
             note C5

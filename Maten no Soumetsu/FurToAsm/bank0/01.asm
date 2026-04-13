@@ -104,6 +104,7 @@ Music_01_Channel_0:
             waitL 36
       setRelease 7
             noteL A5, 12
+    repeatStart
             note B5
             note Cs6
             note D6
@@ -114,6 +115,7 @@ Music_01_Channel_0:
             note B6
             note Cs7
             note D7
+    repeatSection1Start
             waitL 48
       setRelease 1
             noteL E7, 24
@@ -126,16 +128,8 @@ Music_01_Channel_0:
       setRelease 7
             noteL G5, 12
             note A5
-            note B5
-            note Cs6
-            note D6
-            note E6
-            note Fs6
-            note G6
-            note A6
-            note B6
-            note Cs7
-            note D7
+    repeatEnd
+    repeatSection2Start
             note D6
             note E6
             note Fs6
@@ -214,6 +208,7 @@ Music_01_Channel_1:
             note D5
             note E5
             note D5
+    repeatStart
             note B4
             note Cs5
             note D5
@@ -221,14 +216,10 @@ Music_01_Channel_1:
             note Fs5
             note G5
             note A5
+    repeatSection1Start
             note B5
-            note B4
-            note Cs5
-            note D5
-            note E5
-            note Fs5
-            note G5
-            note A5
+    repeatEnd
+    repeatSection2Start
       setRelease 1
             noteL Fs6, 28
             waitL 8
@@ -293,13 +284,8 @@ Music_01_Channel_1:
       vol 11
       setRelease 7
             noteL A4, 12
-            note B4
-            note Cs5
-            note D5
-            note E5
-            note Fs5
-            note G5
-            note A5
+    repeatEnd
+    repeatSection3Start
             note B5
             note Cs6
             note Cs5
@@ -804,55 +790,14 @@ Music_01_Channel_4:
     mainLoopEnd
 Music_01_Channel_5:
             waitL 144
+    countedLoopStart 7
+            sampleL 1, 3
+    countedLoopEnd
+    mainLoopStart
+    countedLoopStart 19
             sampleL 1, 3
             sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-    mainLoopStart
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
+    countedLoopEnd
             sampleL 1, 255
             wait
             wait
@@ -865,14 +810,9 @@ Music_01_Channel_5:
             wait
             waitL 114
             sampleL 3, 24
+    countedLoopStart 7
             sampleL 1, 3
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
+    countedLoopEnd
     mainLoopEnd
 Music_01_Channel_6:
       psgInst 00h

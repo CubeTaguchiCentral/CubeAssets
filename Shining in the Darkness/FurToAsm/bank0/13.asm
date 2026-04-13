@@ -80,22 +80,10 @@ Music_13_Channel_6:
             psgNote B4
             psgNote As4
       setRelease 4
+    countedLoopStart 7
             psgNoteL Fs4, 4
             psgNote G4
-            psgNote Fs4
-            psgNote G4
-            psgNote Fs4
-            psgNote G4
-            psgNote Fs4
-            psgNote G4
-            psgNote Fs4
-            psgNote G4
-            psgNote Fs4
-            psgNote G4
-            psgNote Fs4
-            psgNote G4
-            psgNote Fs4
-            psgNote G4
+    countedLoopEnd
             psgNote Fs4
     channel_end
 Music_13_Channel_7:
@@ -108,28 +96,10 @@ Music_13_Channel_7:
             psgNote D4
             psgNote Cs4
       setRelease 3
+    countedLoopStart 10
             psgNoteL As3, 3
             psgNote B3
-            psgNote As3
-            psgNote B3
-            psgNote As3
-            psgNote B3
-            psgNote As3
-            psgNote B3
-            psgNote As3
-            psgNote B3
-            psgNote As3
-            psgNote B3
-            psgNote As3
-            psgNote B3
-            psgNote As3
-            psgNote B3
-            psgNote As3
-            psgNote B3
-            psgNote As3
-            psgNote B3
-            psgNote As3
-            psgNote B3
+    countedLoopEnd
     channel_end
 Music_13_Channel_8:
     channel_end

@@ -28,6 +28,7 @@ Music_09_Channel_0:
       shifting 0
             waitL 4
       setRelease 1
+    repeatStart
             note D6
             wait
             noteL E6, 72
@@ -48,31 +49,15 @@ Music_09_Channel_0:
             note D6
             wait
             noteL E6, 32
+    repeatSection1Start
             noteL B5, 4
             wait
             note A5
             wait
+    repeatEnd
+    repeatSection2Start
             note D6
-            wait
-            noteL E6, 72
-            noteL B5, 4
-            wait
-            note A5
-            wait
-            note B5
-            wait
-            note D6
-            wait
-            note E6
-            wait
-            note A6
-            wait
-            note B6
-            wait
-            note D6
-            wait
-            noteL E6, 32
-            note D6
+    countedLoopStart 2
             noteL E6, 4
             wait
             note D6
@@ -83,26 +68,7 @@ Music_09_Channel_0:
             waitL 8
             noteL Cs7, 96
             noteL D6, 32
-            noteL E6, 4
-            wait
-            note D6
-            wait
-            noteL A6, 16
-            waitL 8
-            noteL Gs6, 16
-            waitL 8
-            noteL Cs7, 96
-            noteL D6, 32
-            noteL E6, 4
-            wait
-            note D6
-            wait
-            noteL A6, 16
-            waitL 8
-            noteL Gs6, 16
-            waitL 8
-            noteL Cs7, 96
-            noteL D6, 32
+    countedLoopEnd
             noteL E6, 4
             wait
             note D6
@@ -126,6 +92,7 @@ Music_09_Channel_0:
       noSlide
       setSlide 65
             noteL Fs6, 16
+    repeatStart
       noSlide
       setSlide 65
             noteL E6, 80
@@ -146,6 +113,7 @@ Music_09_Channel_0:
             note B5
       noSlide
       setSlide 65
+    repeatSection1Start
             note A5
       noSlide
       setSlide 65
@@ -153,32 +121,16 @@ Music_09_Channel_0:
       noSlide
       setSlide 65
             note Fs6
-      noSlide
-      setSlide 65
-            noteL E6, 80
-      noSlide
-      setSlide 65
-            noteL Fs6, 16
-      noSlide
-      setSlide 65
+    repeatEnd
+    repeatSection2Start
             note E6
-      noSlide
-      setSlide 65
-            note D6
-      noSlide
-      setSlide 65
-            note Cs6
-      noSlide
-      setSlide 65
-            note B5
-      noSlide
-      setSlide 65
-            note E6
+    repeatStart
       noSlide
       setSlide 65
             note B6
       noSlide
       setSlide 65
+    repeatSection1Start
             noteL As6, 96
       noSlide
       setSlide 65
@@ -186,11 +138,8 @@ Music_09_Channel_0:
       noSlide
       setSlide 65
             note As6
-      noSlide
-      setSlide 65
-            note B6
-      noSlide
-      setSlide 65
+    repeatEnd
+    repeatSection2Start
             note A6
       noSlide
       setSlide 65
@@ -216,6 +165,7 @@ Music_09_Channel_0:
       noSlide
       setSlide 65
             noteL E7, 192
+    countedLoopStart 3
       noSlide
       setSlide 65
             noteL D6, 32
@@ -238,72 +188,7 @@ Music_09_Channel_0:
             waitL 8
       setSlide 65
             noteL Cs7, 96
-      noSlide
-      setSlide 65
-            noteL D6, 32
-      noSlide
-      setSlide 65
-            noteL E6, 4
-      noSlide
-            wait
-      setSlide 65
-            note D6
-      noSlide
-            wait
-      setSlide 65
-            noteL A6, 16
-      noSlide
-            waitL 8
-      setSlide 65
-            noteL Gs6, 16
-      noSlide
-            waitL 8
-      setSlide 65
-            noteL Cs7, 96
-      noSlide
-      setSlide 65
-            noteL D6, 32
-      noSlide
-      setSlide 65
-            noteL E6, 4
-      noSlide
-            wait
-      setSlide 65
-            note D6
-      noSlide
-            wait
-      setSlide 65
-            noteL A6, 16
-      noSlide
-            waitL 8
-      setSlide 65
-            noteL Gs6, 16
-      noSlide
-            waitL 8
-      setSlide 65
-            noteL Cs7, 96
-      noSlide
-      setSlide 65
-            noteL D6, 32
-      noSlide
-      setSlide 65
-            noteL E6, 4
-      noSlide
-            wait
-      setSlide 65
-            note D6
-      noSlide
-            wait
-      setSlide 65
-            noteL A6, 16
-      noSlide
-            waitL 8
-      setSlide 65
-            noteL Gs6, 16
-      noSlide
-            waitL 8
-      setSlide 65
-            noteL Cs7, 96
+    countedLoopEnd
       noSlide
       setSlide 65
             noteL Ds7, 32
@@ -347,15 +232,14 @@ Music_09_Channel_1:
       shifting 0
             waitL 4
       setRelease 1
+    repeatStart
             note A5
             wait
             noteL A5, 72
+    countedLoopStart 2
             noteL E5, 4
             wait
-            note E5
-            wait
-            note E5
-            wait
+    countedLoopEnd
             note A5
             wait
             note A5
@@ -367,30 +251,13 @@ Music_09_Channel_1:
             note A5
             wait
             noteL A5, 32
+    repeatSection1Start
             noteL E5, 4
             wait
             note E5
             wait
-            note A5
-            wait
-            noteL A5, 72
-            noteL E5, 4
-            wait
-            note E5
-            wait
-            note E5
-            wait
-            note A5
-            wait
-            note A5
-            wait
-            note E6
-            wait
-            note E6
-            wait
-            note A5
-            wait
-            noteL A5, 32
+    repeatEnd
+    repeatSection2Start
       inst 53
       vol 11
             noteL D4, 48
@@ -423,10 +290,9 @@ Music_09_Channel_1:
             noteL Fs7, 48
             note D4
             note E4
+    countedLoopStart 3
             noteL Cs7, 24
-            note Cs7
-            note Cs7
-            note Cs7
+    countedLoopEnd
             note B6
             note B6
             note Cs7
@@ -437,24 +303,20 @@ Music_09_Channel_1:
             note E6
             waitL 56
       vol 10
+    countedLoopStart 2
             noteL E5, 8
             note Fs5
-            note E5
-            note Fs5
-            note E5
-            note Fs5
+    countedLoopEnd
             noteL E5, 72
             noteL D7, 4
             note Cs7
             note A6
             note E6
             waitL 56
+    countedLoopStart 2
             noteL E5, 8
             note Fs5
-            note E5
-            note Fs5
-            note E5
-            note Fs5
+    countedLoopEnd
             noteL E5, 72
             noteL Fs7, 4
             note Cs7
@@ -487,30 +349,12 @@ Music_09_Channel_1:
             note E6
             wait
             note E7
-            wait
+    countedLoopStart 5
+            waitL 4
             note E7
             wait
             note E6
-            wait
-            note E7
-            wait
-            note E6
-            wait
-            note E7
-            wait
-            note E6
-            wait
-            note E7
-            wait
-            note E6
-            wait
-            note E7
-            wait
-            note E6
-            wait
-            note E7
-            wait
-            note E6
+    countedLoopEnd
             waitL 100
             waitL 24
             noteL Cs7, 8
@@ -548,10 +392,9 @@ Music_09_Channel_1:
             note F7
             noteL Fs7, 48
             waitL 96
+    countedLoopStart 3
             noteL Cs7, 24
-            note Cs7
-            note Cs7
-            note Cs7
+    countedLoopEnd
             note Ds7
             note Ds7
             note Ds7
@@ -590,286 +433,43 @@ Music_09_Channel_2:
       setRelease 1
             waitL 180
             noteL Cs4, 192
+    countedLoopStart 1
             noteL D4, 48
             note E4
             noteL A3, 96
-            noteL D4, 48
-            note E4
-            noteL A3, 96
+    countedLoopEnd
             noteL D4, 48
             note E4
             noteL Cs4, 96
             noteL D4, 48
             note E4
+    countedLoopStart 22
             noteL Fs3, 6
             waitL 2
+    countedLoopEnd
             noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
+    countedLoopStart 23
             waitL 2
             noteL A3, 6
             waitL 2
             noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
-            waitL 2
-            noteL A3, 6
+    countedLoopEnd
+    countedLoopStart 23
             waitL 2
             noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
-            waitL 2
-            noteL Fs3, 6
+    countedLoopEnd
+    countedLoopStart 11
             waitL 2
             noteL F4, 6
-            waitL 2
-            noteL F4, 6
-            waitL 2
-            noteL F4, 6
-            waitL 2
-            noteL F4, 6
-            waitL 2
-            noteL F4, 6
-            waitL 2
-            noteL F4, 6
-            waitL 2
-            noteL F4, 6
-            waitL 2
-            noteL F4, 6
-            waitL 2
-            noteL F4, 6
-            waitL 2
-            noteL F4, 6
-            waitL 2
-            noteL F4, 6
-            waitL 2
-            noteL F4, 6
+    countedLoopEnd
+    countedLoopStart 11
             waitL 2
             noteL B4, 6
-            waitL 2
-            noteL B4, 6
-            waitL 2
-            noteL B4, 6
-            waitL 2
-            noteL B4, 6
-            waitL 2
-            noteL B4, 6
-            waitL 2
-            noteL B4, 6
-            waitL 2
-            noteL B4, 6
-            waitL 2
-            noteL B4, 6
-            waitL 2
-            noteL B4, 6
-            waitL 2
-            noteL B4, 6
-            waitL 2
-            noteL B4, 6
-            waitL 2
-            noteL B4, 6
+    countedLoopEnd
+    countedLoopStart 14
             waitL 2
             noteL E4, 6
-            waitL 2
-            noteL E4, 6
-            waitL 2
-            noteL E4, 6
-            waitL 2
-            noteL E4, 6
-            waitL 2
-            noteL E4, 6
-            waitL 2
-            noteL E4, 6
-            waitL 2
-            noteL E4, 6
-            waitL 2
-            noteL E4, 6
-            waitL 2
-            noteL E4, 6
-            waitL 2
-            noteL E4, 6
-            waitL 2
-            noteL E4, 6
-            waitL 2
-            noteL E4, 6
-            waitL 2
-            noteL E4, 6
-            waitL 2
-            noteL E4, 6
-            waitL 2
-            noteL E4, 6
+    countedLoopEnd
             waitL 2
             noteL A4, 8
             note Gs4
@@ -881,7 +481,8 @@ Music_09_Channel_2:
             note Gs4
             note E4
             note D4
-            note E4
+    countedLoopStart 1
+            noteL E4, 8
             note Fs4
             note D4
             note A4
@@ -889,14 +490,7 @@ Music_09_Channel_2:
             noteL E4, 48
             noteL A3, 96
             noteL D4, 8
-            note E4
-            note Fs4
-            note D4
-            note A4
-            note Gs4
-            noteL E4, 48
-            noteL A3, 96
-            noteL D4, 8
+    countedLoopEnd
             note E4
             note Fs4
             note D4
@@ -950,143 +544,20 @@ Music_09_Channel_3:
             waitL 4
       stereo 040h
       setRelease 1
+    countedLoopStart 21
             noteL E6, 5
             waitL 3
       stereo 080h
             noteL E6, 5
             waitL 3
       stereo 040h
+    countedLoopEnd
             noteL E6, 5
             waitL 3
       stereo 080h
             noteL E6, 5
             waitL 3
-      stereo 040h
-            noteL E6, 5
-            waitL 3
-      stereo 080h
-            noteL E6, 5
-            waitL 3
-      stereo 040h
-            noteL E6, 5
-            waitL 3
-      stereo 080h
-            noteL E6, 5
-            waitL 3
-      stereo 040h
-            noteL E6, 5
-            waitL 3
-      stereo 080h
-            noteL E6, 5
-            waitL 3
-      stereo 040h
-            noteL E6, 5
-            waitL 3
-      stereo 080h
-            noteL E6, 5
-            waitL 3
-      stereo 040h
-            noteL E6, 5
-            waitL 3
-      stereo 080h
-            noteL E6, 5
-            waitL 3
-      stereo 040h
-            noteL E6, 5
-            waitL 3
-      stereo 080h
-            noteL E6, 5
-            waitL 3
-      stereo 040h
-            noteL E6, 5
-            waitL 3
-      stereo 080h
-            noteL E6, 5
-            waitL 3
-      stereo 040h
-            noteL E6, 5
-            waitL 3
-      stereo 080h
-            noteL E6, 5
-            waitL 3
-      stereo 040h
-            noteL E6, 5
-            waitL 3
-      stereo 080h
-            noteL E6, 5
-            waitL 3
-      stereo 040h
-            noteL E6, 5
-            waitL 3
-      stereo 080h
-            noteL E6, 5
-            waitL 3
-      stereo 040h
-            noteL E6, 5
-            waitL 3
-      stereo 080h
-            noteL E6, 5
-            waitL 3
-      stereo 040h
-            noteL E6, 5
-            waitL 3
-      stereo 080h
-            noteL E6, 5
-            waitL 3
-      stereo 040h
-            noteL E6, 5
-            waitL 3
-      stereo 080h
-            noteL E6, 5
-            waitL 3
-      stereo 040h
-            noteL E6, 5
-            waitL 3
-      stereo 080h
-            noteL E6, 5
-            waitL 3
-      stereo 040h
-            noteL E6, 5
-            waitL 3
-      stereo 080h
-            noteL E6, 5
-            waitL 3
-      stereo 040h
-            noteL E6, 5
-            waitL 3
-      stereo 080h
-            noteL E6, 5
-            waitL 3
-      stereo 040h
-            noteL E6, 5
-            waitL 3
-      stereo 080h
-            noteL E6, 5
-            waitL 3
-      stereo 040h
-            noteL E6, 5
-            waitL 3
-      stereo 080h
-            noteL E6, 5
-            waitL 3
-      stereo 040h
-            noteL E6, 5
-            waitL 3
-      stereo 080h
-            noteL E6, 5
-            waitL 3
-      stereo 040h
-            noteL E6, 5
-            waitL 3
-      stereo 080h
-            noteL E6, 5
-            waitL 3
-      stereo 040h
-            noteL E6, 5
-            waitL 3
-      stereo 080h
-            noteL E6, 5
-            waitL 3
+    countedLoopStart 1
       inst 62
       vol 10
             waitL 12
@@ -1139,6 +610,7 @@ Music_09_Channel_3:
       stereo 080h
             noteL E6, 3
             waitL 5
+    countedLoopEnd
       inst 62
       vol 10
             waitL 12
@@ -1156,88 +628,14 @@ Music_09_Channel_3:
       stereo 040h
       inst 51
       vol 8
-            noteL E6, 3
-            waitL 5
-      stereo 080h
-            noteL E6, 3
-            waitL 5
-      stereo 040h
-            noteL E6, 3
-            waitL 5
-      stereo 080h
-            noteL E6, 3
-            waitL 5
-      stereo 040h
-            noteL E6, 3
-            waitL 5
-      stereo 080h
-            noteL E6, 3
-            waitL 5
-      stereo 040h
-            noteL E6, 3
-            waitL 5
-      stereo 080h
-            noteL E6, 3
-            waitL 5
-      stereo 040h
-            noteL E6, 3
-            waitL 5
-      stereo 080h
-            noteL E6, 3
-            waitL 5
-      stereo 040h
-            noteL E6, 3
-            waitL 5
-      stereo 080h
-            noteL E6, 3
-            waitL 5
-      inst 62
-      vol 10
-            waitL 12
-      stereo 040h
-            noteL Fs3, 4
-            note A3
-            note D4
-            noteL Fs4, 24
-            waitL 12
-      stereo 080h
-            noteL Gs3, 4
-            note B3
-            note E4
-            noteL Gs4, 24
-      stereo 040h
-      inst 51
-      vol 8
+    countedLoopStart 4
             noteL Gs6, 3
             waitL 5
       stereo 080h
             noteL Gs6, 3
             waitL 5
       stereo 040h
-            noteL Gs6, 3
-            waitL 5
-      stereo 080h
-            noteL Gs6, 3
-            waitL 5
-      stereo 040h
-            noteL Gs6, 3
-            waitL 5
-      stereo 080h
-            noteL Gs6, 3
-            waitL 5
-      stereo 040h
-            noteL Gs6, 3
-            waitL 5
-      stereo 080h
-            noteL Gs6, 3
-            waitL 5
-      stereo 040h
-            noteL Gs6, 3
-            waitL 5
-      stereo 080h
-            noteL Gs6, 3
-            waitL 5
-      stereo 040h
+    countedLoopEnd
             noteL Gs6, 3
             waitL 5
       stereo 080h
@@ -1261,6 +659,7 @@ Music_09_Channel_3:
       inst 51
       vol 8
             noteL Cs7, 4
+    repeatStart
             wait
             note Gs6
             wait
@@ -1274,6 +673,7 @@ Music_09_Channel_3:
             note Fs5
             wait
       stereo 040h
+    repeatSection1Start
             note Cs5
             wait
             note Gs4
@@ -1289,19 +689,8 @@ Music_09_Channel_3:
             wait
       stereo 040h
             note Cs7
-            wait
-            note Gs6
-            wait
-            note Fs6
-            wait
-      stereo 080h
-            note Cs6
-            wait
-            note Gs5
-            wait
-            note Fs5
-            wait
-      stereo 040h
+    repeatEnd
+    repeatSection2Start
             note Gs5
             wait
             note Fs5
@@ -1317,133 +706,30 @@ Music_09_Channel_3:
             wait
       vol 9
             note E6
+    countedLoopStart 22
             waitL 12
             noteL E6, 4
-            waitL 12
-            noteL E6, 4
-            waitL 12
-            noteL E6, 4
-            waitL 12
-            noteL E6, 4
-            waitL 12
-            noteL E6, 4
-            waitL 12
-            noteL E6, 4
-            waitL 12
-            noteL E6, 4
-            waitL 12
-            noteL E6, 4
-            waitL 12
-            noteL E6, 4
-            waitL 12
-            noteL E6, 4
-            waitL 12
-            noteL E6, 4
-            waitL 12
-            noteL E6, 4
-            waitL 12
-            noteL E6, 4
-            waitL 12
-            noteL E6, 4
-            waitL 12
-            noteL E6, 4
-            waitL 12
-            noteL E6, 4
-            waitL 12
-            noteL E6, 4
-            waitL 12
-            noteL E6, 4
-            waitL 12
-            noteL E6, 4
-            waitL 12
-            noteL E6, 4
-            waitL 12
-            noteL E6, 4
-            waitL 12
-            noteL E6, 4
-            waitL 12
-            noteL E6, 4
+    countedLoopEnd
+    countedLoopStart 11
             waitL 12
             noteL Cs6, 4
-            waitL 12
-            noteL Cs6, 4
-            waitL 12
-            noteL Cs6, 4
-            waitL 12
-            noteL Cs6, 4
-            waitL 12
-            noteL Cs6, 4
-            waitL 12
-            noteL Cs6, 4
-            waitL 12
-            noteL Cs6, 4
-            waitL 12
-            noteL Cs6, 4
-            waitL 12
-            noteL Cs6, 4
-            waitL 12
-            noteL Cs6, 4
-            waitL 12
-            noteL Cs6, 4
-            waitL 12
-            noteL Cs6, 4
+    countedLoopEnd
+    countedLoopStart 5
             waitL 12
             noteL C6, 4
-            waitL 12
-            noteL C6, 4
-            waitL 12
-            noteL C6, 4
-            waitL 12
-            noteL C6, 4
-            waitL 12
-            noteL C6, 4
-            waitL 12
-            noteL C6, 4
+    countedLoopEnd
+    countedLoopStart 17
             waitL 12
             noteL B5, 4
-            waitL 12
-            noteL B5, 4
-            waitL 12
-            noteL B5, 4
-            waitL 12
-            noteL B5, 4
-            waitL 12
-            noteL B5, 4
-            waitL 12
-            noteL B5, 4
-            waitL 12
-            noteL B5, 4
-            waitL 12
-            noteL B5, 4
-            waitL 12
-            noteL B5, 4
-            waitL 12
-            noteL B5, 4
-            waitL 12
-            noteL B5, 4
-            waitL 12
-            noteL B5, 4
-            waitL 12
-            noteL B5, 4
-            waitL 12
-            noteL B5, 4
-            waitL 12
-            noteL B5, 4
-            waitL 12
-            noteL B5, 4
-            waitL 12
-            noteL B5, 4
-            waitL 12
-            noteL B5, 4
+    countedLoopEnd
             waitL 12
       inst 11
       vol 11
+    countedLoopStart 1
             noteL D4, 48
             note E4
             noteL A3, 96
-            noteL D4, 48
-            note E4
-            noteL A3, 96
+    countedLoopEnd
             noteL D4, 48
             note E4
             noteL Cs4, 96
@@ -1474,6 +760,7 @@ Music_09_Channel_4:
       vol 6
       setRelease 1
       vibrato 05ah
+    countedLoopStart 1
             noteL B5, 4
             wait
             note A5
@@ -1498,31 +785,9 @@ Music_09_Channel_4:
             note D6
             wait
             noteL E6, 32
-            noteL B5, 4
-            wait
-            note A5
-            wait
+    countedLoopEnd
             note D6
-            wait
-            noteL E6, 72
-            noteL B5, 4
-            wait
-            note A5
-            wait
-            note B5
-            wait
-            note D6
-            wait
-            note E6
-            wait
-            note A6
-            wait
-            note B6
-            wait
-            note D6
-            wait
-            noteL E6, 32
-            note D6
+    countedLoopStart 2
             noteL E6, 4
             wait
             note D6
@@ -1533,26 +798,7 @@ Music_09_Channel_4:
             waitL 8
             noteL Cs7, 96
             noteL D6, 32
-            noteL E6, 4
-            wait
-            note D6
-            wait
-            noteL A6, 16
-            waitL 8
-            noteL Gs6, 16
-            waitL 8
-            noteL Cs7, 96
-            noteL D6, 32
-            noteL E6, 4
-            wait
-            note D6
-            wait
-            noteL A6, 16
-            waitL 8
-            noteL Gs6, 16
-            waitL 8
-            noteL Cs7, 96
-            noteL D6, 32
+    countedLoopEnd
             noteL E6, 4
             wait
             note D6
@@ -1576,6 +822,7 @@ Music_09_Channel_4:
       noSlide
       setSlide 65
             noteL Fs6, 16
+    repeatStart
       noSlide
       setSlide 65
             noteL E6, 80
@@ -1596,6 +843,7 @@ Music_09_Channel_4:
             note B5
       noSlide
       setSlide 65
+    repeatSection1Start
             note A5
       noSlide
       setSlide 65
@@ -1603,32 +851,16 @@ Music_09_Channel_4:
       noSlide
       setSlide 65
             note Fs6
-      noSlide
-      setSlide 65
-            noteL E6, 80
-      noSlide
-      setSlide 65
-            noteL Fs6, 16
-      noSlide
-      setSlide 65
+    repeatEnd
+    repeatSection2Start
             note E6
-      noSlide
-      setSlide 65
-            note D6
-      noSlide
-      setSlide 65
-            note Cs6
-      noSlide
-      setSlide 65
-            note B5
-      noSlide
-      setSlide 65
-            note E6
+    repeatStart
       noSlide
       setSlide 65
             note B6
       noSlide
       setSlide 65
+    repeatSection1Start
             noteL As6, 96
       noSlide
       setSlide 65
@@ -1636,11 +868,8 @@ Music_09_Channel_4:
       noSlide
       setSlide 65
             note As6
-      noSlide
-      setSlide 65
-            note B6
-      noSlide
-      setSlide 65
+    repeatEnd
+    repeatSection2Start
             note A6
       noSlide
       setSlide 65
@@ -1666,6 +895,7 @@ Music_09_Channel_4:
       noSlide
       setSlide 65
             noteL E7, 192
+    countedLoopStart 3
       noSlide
       setSlide 65
             noteL D6, 32
@@ -1688,72 +918,7 @@ Music_09_Channel_4:
             waitL 8
       setSlide 65
             noteL Cs7, 96
-      noSlide
-      setSlide 65
-            noteL D6, 32
-      noSlide
-      setSlide 65
-            noteL E6, 4
-      noSlide
-            wait
-      setSlide 65
-            note D6
-      noSlide
-            wait
-      setSlide 65
-            noteL A6, 16
-      noSlide
-            waitL 8
-      setSlide 65
-            noteL Gs6, 16
-      noSlide
-            waitL 8
-      setSlide 65
-            noteL Cs7, 96
-      noSlide
-      setSlide 65
-            noteL D6, 32
-      noSlide
-      setSlide 65
-            noteL E6, 4
-      noSlide
-            wait
-      setSlide 65
-            note D6
-      noSlide
-            wait
-      setSlide 65
-            noteL A6, 16
-      noSlide
-            waitL 8
-      setSlide 65
-            noteL Gs6, 16
-      noSlide
-            waitL 8
-      setSlide 65
-            noteL Cs7, 96
-      noSlide
-      setSlide 65
-            noteL D6, 32
-      noSlide
-      setSlide 65
-            noteL E6, 4
-      noSlide
-            wait
-      setSlide 65
-            note D6
-      noSlide
-            wait
-      setSlide 65
-            noteL A6, 16
-      noSlide
-            waitL 8
-      setSlide 65
-            noteL Gs6, 16
-      noSlide
-            waitL 8
-      setSlide 65
-            noteL Cs7, 96
+    countedLoopEnd
       noSlide
       setSlide 65
             noteL Ds7, 32
@@ -1784,6 +949,7 @@ Music_09_Channel_5:
     mainLoopStart
             wait
       stereo 0c0h
+    countedLoopStart 2
             sampleL 3, 8
       stereo 040h
             sample 4
@@ -1801,50 +967,15 @@ Music_09_Channel_5:
             sample 2
             sample 2
       stereo 0c0h
-            sample 3
-      stereo 040h
-            sample 4
-            sample 4
-      stereo 0c0h
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-      stereo 040h
-            sample 4
-            sample 4
-            sample 4
-      stereo 080h
-            sample 2
-            sample 2
-      stereo 0c0h
-            sample 3
-      stereo 040h
-            sample 4
-            sample 4
-      stereo 0c0h
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-      stereo 040h
-            sample 4
-            sample 4
-            sample 4
-      stereo 080h
-            sample 2
-            sample 2
-      stereo 0c0h
+    countedLoopEnd
             sample 3
             sample 0
             sample 0
             sample 0
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
+    countedLoopStart 5
+            sampleL 1, 8
+    countedLoopEnd
+    repeatStart
             sampleL 1, 12
             sample 0
             sample 0
@@ -1858,6 +989,7 @@ Music_09_Channel_5:
             sampleL 0, 8
             sample 1
             sample 0
+    repeatSection1Start
             sample 0
             sample 1
             sample 0
@@ -1865,19 +997,8 @@ Music_09_Channel_5:
             sample 1
             sample 0
             sample 0
-            sampleL 1, 12
-            sample 0
-            sample 0
-            sampleL 0, 6
-            sample 0
-            sampleL 1, 12
-            sample 0
-            sample 1
-            sample 0
-            sampleL 1, 16
-            sampleL 0, 8
-            sample 1
-            sample 0
+    repeatEnd
+    repeatSection2Start
       stereo 040h
             sampleL 4, 6
       stereo 080h
@@ -1901,189 +1022,42 @@ Music_09_Channel_5:
             sample 0
             sample 0
             sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 0
-            sample 0
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sampleL 0, 16
+    countedLoopStart 7
             sampleL 0, 8
+    countedLoopEnd
             sample 1
-            sampleL 0, 16
             sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
             sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
+            sample 0
+    countedLoopStart 13
             sampleL 1, 8
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
+    countedLoopEnd
+    countedLoopStart 2
             sampleL 0, 16
             sampleL 0, 8
             sample 1
             sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
+    countedLoopEnd
+    countedLoopStart 5
             sampleL 1, 8
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
+    countedLoopEnd
+    countedLoopStart 18
             sampleL 0, 16
             sampleL 0, 8
             sample 1
             sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 8
-            sample 1
-            sampleL 0, 16
+    countedLoopEnd
+    countedLoopStart 5
             sampleL 1, 8
+    countedLoopEnd
+    countedLoopStart 13
+            sampleL 0, 16
+            sampleL 0, 8
+            sample 1
+            sampleL 0, 16
+    countedLoopEnd
+            sampleL 1, 8
+    repeatStart
             sample 1
             sampleL 1, 6
       stereo 080h
@@ -2099,35 +1073,19 @@ Music_09_Channel_5:
             sample 4
             sample 4
             sample 4
+    repeatSection1Start
       stereo 0c0h
             sample 0
-            sample 0
-            sample 0
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
+    countedLoopStart 1
+            sampleL 0, 8
             sample 0
             sample 0
             sample 0
             sample 0
             sample 1
-            sample 1
-            sampleL 1, 6
-      stereo 080h
-            sampleL 2, 2
-            sampleL 2, 8
-            sample 2
-            sample 2
-      stereo 0c0h
-            sample 3
-            sample 3
-            sample 3
-      stereo 040h
-            sample 4
-            sample 4
-            sample 4
+    countedLoopEnd
+    repeatEnd
+    repeatSection2Start
       stereo 080h
             sample 2
             sample 2
@@ -2171,15 +1129,14 @@ Music_09_Channel_6:
     mainLoopStart
             waitL 4
       setRelease 1
+    repeatStart
             psgNote A3
             wait
             psgNoteL A3, 72
+    countedLoopStart 2
             psgNoteL E3, 4
             wait
-            psgNote E3
-            wait
-            psgNote E3
-            wait
+    countedLoopEnd
             psgNote A3
             wait
             psgNote A3
@@ -2191,30 +1148,13 @@ Music_09_Channel_6:
             psgNote A3
             wait
             psgNoteL A3, 32
+    repeatSection1Start
             psgNoteL E3, 4
             wait
             psgNote E3
             wait
-            psgNote A3
-            wait
-            psgNoteL A3, 72
-            psgNoteL E3, 4
-            wait
-            psgNote E3
-            wait
-            psgNote E3
-            wait
-            psgNote A3
-            wait
-            psgNote A3
-            wait
-            psgNote E4
-            wait
-            psgNote E4
-            wait
-            psgNote A3
-            wait
-            psgNoteL A3, 32
+    repeatEnd
+    repeatSection2Start
             psgNoteL D2, 48
             psgNote E2
             psgNoteL A1, 24
@@ -2245,14 +1185,14 @@ Music_09_Channel_6:
             psgNoteL Fs5, 48
             psgNote D2
             psgNote E2
+    countedLoopStart 3
             psgNoteL Cs5, 24
-            psgNote Cs5
-            psgNote Cs5
-            psgNote Cs5
+    countedLoopEnd
             psgNote B4
             psgNote B4
             psgNote Cs5
             psgNote Cs5
+    countedLoopStart 1
             psgNoteL D5, 4
             psgNote Cs5
             psgNote A4
@@ -2265,18 +1205,7 @@ Music_09_Channel_6:
             psgNote E3
             psgNote Fs3
             psgNoteL E3, 72
-            psgNoteL D5, 4
-            psgNote Cs5
-            psgNote A4
-            psgNote E4
-            waitL 56
-            psgNoteL E3, 8
-            psgNote Fs3
-            psgNote E3
-            psgNote Fs3
-            psgNote E3
-            psgNote Fs3
-            psgNoteL E3, 72
+    countedLoopEnd
             psgNoteL Fs5, 4
             psgNote Cs5
             psgNote As4
@@ -2308,30 +1237,12 @@ Music_09_Channel_6:
             psgNote E4
             wait
             psgNote E5
-            wait
+    countedLoopStart 5
+            waitL 4
             psgNote E5
             wait
             psgNote E4
-            wait
-            psgNote E5
-            wait
-            psgNote E4
-            wait
-            psgNote E5
-            wait
-            psgNote E4
-            wait
-            psgNote E5
-            wait
-            psgNote E4
-            wait
-            psgNote E5
-            wait
-            psgNote E4
-            wait
-            psgNote E5
-            wait
-            psgNote E4
+    countedLoopEnd
             waitL 100
             waitL 24
             psgNoteL Cs5, 8
@@ -2369,10 +1280,9 @@ Music_09_Channel_6:
             psgNote F5
             psgNoteL Fs5, 48
             waitL 96
+    countedLoopStart 3
             psgNoteL Cs5, 24
-            psgNote Cs5
-            psgNote Cs5
-            psgNote Cs5
+    countedLoopEnd
             psgNote Ds5
             psgNote Ds5
             psgNote Ds5
@@ -2404,17 +1314,16 @@ Music_09_Channel_7:
             psgNoteL E3, 4
             wait
       setRelease 1
+    repeatStart
             psgNote E3
             wait
             psgNote A3
             wait
             psgNoteL A3, 72
+    countedLoopStart 2
             psgNoteL E3, 4
             wait
-            psgNote E3
-            wait
-            psgNote E3
-            wait
+    countedLoopEnd
             psgNote A3
             wait
             psgNote A3
@@ -2426,30 +1335,11 @@ Music_09_Channel_7:
             psgNote A3
             wait
             psgNoteL A3, 32
+    repeatSection1Start
             psgNoteL E3, 4
             wait
-            psgNote E3
-            wait
-            psgNote A3
-            wait
-            psgNoteL A3, 72
-            psgNoteL E3, 4
-            wait
-            psgNote E3
-            wait
-            psgNote E3
-            wait
-            psgNote A3
-            wait
-            psgNote A3
-            wait
-            psgNote E4
-            wait
-            psgNote E4
-            wait
-            psgNote A3
-            wait
-            psgNoteL A3, 32
+    repeatEnd
+    repeatSection2Start
             psgNoteL D2, 48
             psgNote E2
             psgNoteL A1, 24
@@ -2480,14 +1370,14 @@ Music_09_Channel_7:
             psgNoteL Fs5, 48
             psgNote D2
             psgNote E2
+    countedLoopStart 3
             psgNoteL Cs5, 24
-            psgNote Cs5
-            psgNote Cs5
-            psgNote Cs5
+    countedLoopEnd
             psgNote B4
             psgNote B4
             psgNote Cs5
             psgNote Cs5
+    countedLoopStart 1
             psgNoteL D5, 4
             psgNote Cs5
             psgNote A4
@@ -2500,18 +1390,7 @@ Music_09_Channel_7:
             psgNote E3
             psgNote Fs3
             psgNoteL E3, 72
-            psgNoteL D5, 4
-            psgNote Cs5
-            psgNote A4
-            psgNote E4
-            waitL 56
-            psgNoteL E3, 8
-            psgNote Fs3
-            psgNote E3
-            psgNote Fs3
-            psgNote E3
-            psgNote Fs3
-            psgNoteL E3, 72
+    countedLoopEnd
             psgNoteL Fs5, 4
             psgNote Cs5
             psgNote As4
@@ -2543,30 +1422,12 @@ Music_09_Channel_7:
             psgNote E4
             wait
             psgNote E5
-            wait
+    countedLoopStart 5
+            waitL 4
             psgNote E5
             wait
             psgNote E4
-            wait
-            psgNote E5
-            wait
-            psgNote E4
-            wait
-            psgNote E5
-            wait
-            psgNote E4
-            wait
-            psgNote E5
-            wait
-            psgNote E4
-            wait
-            psgNote E5
-            wait
-            psgNote E4
-            wait
-            psgNote E5
-            wait
-            psgNote E4
+    countedLoopEnd
             waitL 100
             waitL 24
             psgNoteL Cs5, 8
@@ -2604,10 +1465,9 @@ Music_09_Channel_7:
             psgNote F5
             psgNoteL Fs5, 48
             waitL 96
+    countedLoopStart 3
             psgNoteL Cs5, 24
-            psgNote Cs5
-            psgNote Cs5
-            psgNote Cs5
+    countedLoopEnd
             psgNote Ds5
             psgNote Ds5
             psgNote Ds5

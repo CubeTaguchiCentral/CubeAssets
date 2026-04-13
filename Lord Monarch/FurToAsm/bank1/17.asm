@@ -88,15 +88,9 @@ Music_17_Channel_3:
             note E3
             note E3
       vol 7
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
+    countedLoopStart 8
+            noteL E3, 2
+    countedLoopEnd
       vol 8
             note E3
             note E3

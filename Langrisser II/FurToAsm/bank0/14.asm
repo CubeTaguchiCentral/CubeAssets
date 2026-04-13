@@ -493,6 +493,7 @@ Music_14_Channel_4:
       stereo 0c0h
             waitL 60
       setRelease 1
+    countedLoopStart 14
             noteL D5, 18
       vol 7
             note D5
@@ -502,132 +503,7 @@ Music_14_Channel_4:
             note D5
       vol 13
             waitL 72
-            noteL D5, 18
-      vol 7
-            note D5
-      vol 6
-            note D5
-      vol 4
-            note D5
-      vol 13
-            waitL 72
-            noteL D5, 18
-      vol 7
-            note D5
-      vol 6
-            note D5
-      vol 4
-            note D5
-      vol 13
-            waitL 72
-            noteL D5, 18
-      vol 7
-            note D5
-      vol 6
-            note D5
-      vol 4
-            note D5
-      vol 13
-            waitL 72
-            noteL D5, 18
-      vol 7
-            note D5
-      vol 6
-            note D5
-      vol 4
-            note D5
-      vol 13
-            waitL 72
-            noteL D5, 18
-      vol 7
-            note D5
-      vol 6
-            note D5
-      vol 4
-            note D5
-      vol 13
-            waitL 72
-            noteL D5, 18
-      vol 7
-            note D5
-      vol 6
-            note D5
-      vol 4
-            note D5
-      vol 13
-            waitL 72
-            noteL D5, 18
-      vol 7
-            note D5
-      vol 6
-            note D5
-      vol 4
-            note D5
-      vol 13
-            waitL 72
-            noteL D5, 18
-      vol 7
-            note D5
-      vol 6
-            note D5
-      vol 4
-            note D5
-      vol 13
-            waitL 72
-            noteL D5, 18
-      vol 7
-            note D5
-      vol 6
-            note D5
-      vol 4
-            note D5
-      vol 13
-            waitL 72
-            noteL D5, 18
-      vol 7
-            note D5
-      vol 6
-            note D5
-      vol 4
-            note D5
-      vol 13
-            waitL 72
-            noteL D5, 18
-      vol 7
-            note D5
-      vol 6
-            note D5
-      vol 4
-            note D5
-      vol 13
-            waitL 72
-            noteL D5, 18
-      vol 7
-            note D5
-      vol 6
-            note D5
-      vol 4
-            note D5
-      vol 13
-            waitL 72
-            noteL D5, 18
-      vol 7
-            note D5
-      vol 6
-            note D5
-      vol 4
-            note D5
-      vol 13
-            waitL 72
-            noteL D5, 18
-      vol 7
-            note D5
-      vol 6
-            note D5
-      vol 4
-            note D5
-      vol 13
-            waitL 72
+    countedLoopEnd
             noteL D5, 18
       vol 7
             note D5
@@ -825,10 +701,9 @@ Music_14_Channel_7:
             psgNoteL B2, 54
             psgNoteL C3, 90
             psgNoteL Ds3, 72
+    countedLoopStart 3
             psgNoteL D3, 36
-            psgNote D3
-            psgNote D3
-            psgNote D3
+    countedLoopEnd
             psgNoteL C3, 72
             psgNote C3
             psgNoteL B2, 36

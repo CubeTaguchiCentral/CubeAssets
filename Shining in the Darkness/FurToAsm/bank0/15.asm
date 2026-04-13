@@ -20,6 +20,7 @@ Music_15_Channel_0:
       vol 13
       vibrato 05ah
       setRelease 1
+    repeatStart
             noteL C7, 18
             noteL G6, 6
             noteL G6, 5
@@ -29,19 +30,13 @@ Music_15_Channel_0:
             noteL C7, 18
             noteL A6, 6
             noteL A6, 24
+    repeatSection1Start
             note G7
             note D7
             note G7
             note D7
-            noteL C7, 18
-            noteL G6, 6
-            noteL G6, 5
-            waitL 7
-            noteL C7, 5
-            waitL 7
-            noteL C7, 18
-            noteL A6, 6
-            noteL A6, 24
+    repeatEnd
+    repeatSection2Start
             noteL G7, 6
             note G7
             noteL Fs7, 4
@@ -64,6 +59,7 @@ Music_15_Channel_1:
       vol 13
       vibrato 05ah
       setRelease 1
+    repeatStart
             noteL Fs6, 2
             noteL G6, 16
             noteL Ds6, 2
@@ -80,26 +76,13 @@ Music_15_Channel_1:
             noteL F6, 4
             noteL E6, 2
             noteL F6, 22
+    repeatSection1Start
             noteL Fs7, 24
             note Cs7
             note Fs7
             note Cs7
-            noteL Fs6, 2
-            noteL G6, 16
-            noteL Ds6, 2
-            noteL E6, 4
-            noteL Ds6, 2
-            note E6
-            waitL 8
-            noteL Fs6, 2
-            note G6
-            waitL 8
-            noteL Gs6, 2
-            noteL A6, 16
-            noteL E6, 2
-            noteL F6, 4
-            noteL E6, 2
-            noteL F6, 22
+    repeatEnd
+    repeatSection2Start
             noteL B6, 6
             note B6
             noteL As6, 4
@@ -124,6 +107,7 @@ Music_15_Channel_2:
       vol 13
       vibrato 05ah
       setRelease 1
+    repeatStart
             noteL B5, 2
             noteL C6, 4
             noteL G6, 6
@@ -154,39 +138,12 @@ Music_15_Channel_2:
             wait
             note D7
             wait
+    repeatSection1Start
             note E7
             wait
             noteL F7, 24
-            noteL B5, 2
-            noteL C6, 4
-            noteL G6, 6
-            note E7
-            note C7
-            noteL Ds6, 2
-            noteL E6, 4
-            noteL G6, 6
-            note E7
-            note C7
-            noteL E6, 2
-            noteL F6, 4
-            noteL A6, 6
-            note F7
-            note C7
-            noteL B5, 2
-            noteL C6, 4
-            noteL A6, 6
-            note F7
-            note C7
-            note G7
-            note G7
-            note Fs7
-            wait
-            note F7
-            wait
-            note E7
-            wait
-            note D7
-            wait
+    repeatEnd
+    repeatSection2Start
             note F7
             wait
             note E7
@@ -199,6 +156,7 @@ Music_15_Channel_3:
       vol 13
       vibrato 05ah
       setRelease 1
+    repeatStart
             noteL B6, 6
             note B6
             note As6
@@ -209,20 +167,13 @@ Music_15_Channel_3:
             wait
             note F6
             wait
+    repeatSection1Start
             note G6
             wait
             noteL A6, 24
             waitL 96
-            noteL B6, 6
-            note B6
-            note As6
-            wait
-            note A6
-            wait
-            note G6
-            wait
-            note F6
-            wait
+    repeatEnd
+    repeatSection2Start
             note B6
             wait
             note C7
@@ -234,6 +185,7 @@ Music_15_Channel_4:
       vol 13
       vibrato 05ah
       setRelease 1
+    countedLoopStart 1
             noteL G3, 6
             wait
             note A3
@@ -250,22 +202,7 @@ Music_15_Channel_4:
             waitL 18
             noteL G3, 54
             waitL 6
-            note G3
-            wait
-            note A3
-            wait
-            note B3
-            wait
-            note C4
-            waitL 18
-            noteL G3, 6
-            waitL 18
-            noteL F3, 6
-            waitL 18
-            noteL C4, 6
-            waitL 18
-            noteL G3, 54
-            waitL 6
+    countedLoopEnd
             note B3
             wait
             note C4
@@ -274,6 +211,7 @@ Music_15_Channel_4:
 Music_15_Channel_5:
             sampleL 1, 6
             sample 2
+    countedLoopStart 1
             sampleL 1, 12
             sample 1
             sample 0
@@ -302,34 +240,7 @@ Music_15_Channel_5:
             sample 3
             sampleL 3, 12
             sample 1
-            sample 1
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sampleL 1, 3
-            sample 2
-            sample 2
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sampleL 3, 12
-            sample 1
+    countedLoopEnd
             sampleL 1, 24
     channel_end
 Music_15_Channel_6:
@@ -338,12 +249,11 @@ Music_15_Channel_6:
       psgInst 06ch
       setRelease 1
       vibrato 00h
+    repeatStart
+    countedLoopStart 2
             psgNoteL C6, 4
             waitL 20
-            psgNoteL C6, 4
-            waitL 20
-            psgNoteL C6, 4
-            waitL 20
+    countedLoopEnd
             psgNoteL C6, 4
             waitL 8
             psgNoteL B5, 6
@@ -354,28 +264,15 @@ Music_15_Channel_6:
             wait
             psgNote G5
             wait
+    repeatSection1Start
             psgNote F5
             wait
             psgNote G5
             wait
             psgNoteL A5, 24
             waitL 12
-            psgNoteL C6, 4
-            waitL 20
-            psgNoteL C6, 4
-            waitL 20
-            psgNoteL C6, 4
-            waitL 20
-            psgNoteL C6, 4
-            waitL 8
-            psgNoteL B5, 6
-            psgNote B5
-            psgNote As5
-            wait
-            psgNote A5
-            wait
-            psgNote G5
-            wait
+    repeatEnd
+    repeatSection2Start
             psgNote G5
             wait
             psgNote B5
@@ -389,12 +286,12 @@ Music_15_Channel_7:
       psgInst 06ch
       setRelease 1
       vibrato 00h
+    repeatStart
+    countedLoopStart 1
             psgNoteL Fs5, 2
             psgNote G5
             waitL 20
-            psgNoteL Fs5, 2
-            psgNote G5
-            waitL 20
+    countedLoopEnd
             psgNoteL Gs5, 2
             psgNote A5
             waitL 20
@@ -411,32 +308,13 @@ Music_15_Channel_7:
             wait
             psgNote D5
             wait
+    repeatSection1Start
             psgNote E5
             wait
             psgNoteL F5, 24
             waitL 12
-            psgNoteL Fs5, 2
-            psgNote G5
-            waitL 20
-            psgNoteL Fs5, 2
-            psgNote G5
-            waitL 20
-            psgNoteL Gs5, 2
-            psgNote A5
-            waitL 20
-            psgNoteL Gs5, 2
-            psgNote A5
-            waitL 8
-            psgNoteL G5, 6
-            psgNote G5
-            psgNote Fs5
-            wait
-            psgNote F5
-            wait
-            psgNote E5
-            wait
-            psgNote D5
-            wait
+    repeatEnd
+    repeatSection2Start
             psgNote F5
             wait
             psgNoteL E5, 12

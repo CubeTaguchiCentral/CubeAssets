@@ -20,10 +20,9 @@ Music_11_Channel_0:
             waitL 24
       vibrato 05ah
       setRelease 1
+    countedLoopStart 3
             noteL C4, 6
-            note C4
-            note C4
-            note C4
+    countedLoopEnd
             noteL C4, 72
     channel_end
 Music_11_Channel_1:

@@ -24,14 +24,9 @@ Music_21_Channel_3:
 Music_21_Channel_4:
     channel_end
 Music_21_Channel_5:
+    countedLoopStart 7
             sampleL 12, 40
-            sample 12
-            sample 12
-            sample 12
-            sample 12
-            sample 12
-            sample 12
-            sample 12
+    countedLoopEnd
     channel_end
 Music_21_Channel_6:
     channel_end

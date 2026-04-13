@@ -86,14 +86,12 @@ Music_12_Channel_6:
       psgInst 0bh
       setRelease 2
       vibrato 04eh
+    countedLoopStart 1
             psgNoteL B4, 9
       psgInst 00h
             waitL 3
       psgInst 0bh
-            psgNoteL B4, 9
-      psgInst 00h
-            waitL 3
-      psgInst 0bh
+    countedLoopEnd
             psgNoteL B4, 9
       psgInst 00h
             waitL 3
@@ -107,14 +105,12 @@ Music_12_Channel_7:
       psgInst 0ah
       setRelease 2
       vibrato 04eh
+    countedLoopStart 1
             psgNoteL B4, 9
       psgInst 00h
             waitL 3
       psgInst 0ah
-            psgNoteL B4, 9
-      psgInst 00h
-            waitL 3
-      psgInst 0ah
+    countedLoopEnd
             psgNoteL B4, 7
       shifting 0
             psgNoteL Ds5, 100

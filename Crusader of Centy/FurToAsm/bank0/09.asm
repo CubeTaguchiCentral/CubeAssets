@@ -25,29 +25,9 @@ Music_09_Channel_0:
       stereo 0c0h
       setRelease 1
       vibrato 05ch
+    countedLoopStart 22
             noteL A3, 12
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
+    countedLoopEnd
             noteL A3, 24
             noteL G3, 12
             note A3
@@ -56,29 +36,9 @@ Music_09_Channel_0:
             note A3
             note C4
             note E4
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
+    countedLoopStart 22
+            noteL A3, 12
+    countedLoopEnd
             noteL E4, 24
             noteL D4, 12
             note C4
@@ -86,29 +46,9 @@ Music_09_Channel_0:
             note A3
             note C4
             noteL G3, 24
+    countedLoopStart 22
             noteL A3, 12
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
+    countedLoopEnd
             noteL A3, 24
             noteL G3, 12
             note A3
@@ -117,29 +57,11 @@ Music_09_Channel_0:
             note A3
             note C4
             note G3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
+    repeatStart
+    countedLoopStart 22
+            noteL A3, 12
+    countedLoopEnd
+    repeatSection1Start
             note A3
             note E4
             note D4
@@ -149,29 +71,8 @@ Music_09_Channel_0:
             note A3
             note G3
             note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
+    repeatEnd
+    repeatSection2Start
             noteL G3, 24
             noteL A3, 12
             note E3
@@ -179,29 +80,8 @@ Music_09_Channel_0:
             note A3
             note C4
             note G3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
+    repeatEnd
+    repeatSection3Start
             note A3
             noteL E4, 24
             noteL D4, 12
@@ -234,6 +114,7 @@ Music_09_Channel_0:
             noteL Gs4, 12
             note Fs3
             note Fs4
+    repeatStart
             noteL Gs3, 24
             noteL Gs4, 12
             noteL Fs4, 24
@@ -244,6 +125,7 @@ Music_09_Channel_0:
             noteL Gs4, 12
             noteL Fs4, 24
             noteL Gs4, 12
+    repeatSection1Start
             noteL Gs3, 24
             note Gs3
             noteL Gs4, 12
@@ -258,16 +140,8 @@ Music_09_Channel_0:
             note Fs4
             note G3
             note G4
-            noteL Gs3, 24
-            noteL Gs4, 12
-            noteL Fs4, 24
-            noteL Gs4, 12
-            note Ds4
-            note Gs4
-            noteL Gs3, 24
-            noteL Gs4, 12
-            noteL Fs4, 24
-            noteL Gs4, 12
+    repeatEnd
+    repeatSection2Start
             note Ds4
             note Gs4
             noteL Gs3, 24
@@ -282,16 +156,8 @@ Music_09_Channel_0:
             noteL Fs4, 12
             note Gs4
             note Gs3
-            noteL Gs3, 24
-            noteL Gs4, 12
-            noteL Fs4, 24
-            noteL Gs4, 12
-            note Ds4
-            note Gs4
-            noteL Gs3, 24
-            noteL Gs4, 12
-            noteL Fs4, 24
-            noteL Gs4, 12
+    repeatEnd
+    repeatSection3Start
             noteL Gs3, 24
             note Gs3
             noteL Gs4, 12
@@ -311,10 +177,9 @@ Music_09_Channel_0:
             noteL Ds4, 12
             note Ds4
             noteL E4, 24
+    countedLoopStart 3
             noteL E4, 12
-            note E4
-            note E4
-            note E4
+    countedLoopEnd
             note Cs4
             note As3
             note Cs4
@@ -336,29 +201,9 @@ Music_09_Channel_1:
       vol 10
       setRelease 10
       vibrato 05ch
+    countedLoopStart 22
             noteL A3, 12
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
+    countedLoopEnd
             waitL 6
       setRelease 1
             noteL E3, 24
@@ -368,29 +213,9 @@ Music_09_Channel_1:
             note C4
             noteL A3, 30
       setRelease 10
+    countedLoopStart 22
             noteL A3, 12
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
+    countedLoopEnd
             waitL 6
       setRelease 1
             noteL E4, 24
@@ -404,6 +229,7 @@ Music_09_Channel_1:
       stereo 0c0h
       inst 56
       vol 12
+    repeatStart
             noteL A4, 24
             noteL E5, 12
             noteL D5, 24
@@ -416,21 +242,12 @@ Music_09_Channel_1:
             noteL E6, 36
       noSlide
       setSlide 25
+    repeatSection1Start
             noteL D6, 180
       noSlide
             waitL 12
-            noteL A4, 24
-            noteL E5, 12
-            noteL D5, 24
-            note A5
-            noteL E5, 12
-            noteL G5, 24
-            noteL C6, 12
-            noteL A5, 24
-      setSlide 25
-            noteL E6, 36
-      noSlide
-      setSlide 25
+    repeatEnd
+    repeatSection2Start
             noteL D6, 84
       noSlide
             noteL G6, 0
@@ -446,6 +263,7 @@ Music_09_Channel_1:
             note E6
             noteL D6, 24
             note A5
+    repeatStart
             noteL E6, 12
             noteL D6, 24
             note A6
@@ -453,6 +271,7 @@ Music_09_Channel_1:
             noteL G6, 24
             noteL C7, 12
             noteL A6, 24
+    repeatSection1Start
       setSlide 25
             noteL E7, 36
       noSlide
@@ -473,13 +292,8 @@ Music_09_Channel_1:
             note D7
             note E7
             noteL A5, 24
-            noteL E6, 12
-            noteL D6, 24
-            note A6
-            noteL E6, 12
-            noteL G6, 24
-            noteL C7, 12
-            noteL A6, 24
+    repeatEnd
+    repeatSection2Start
             noteL D7, 0
       setSlide 9
       sustain
@@ -504,38 +318,9 @@ Music_09_Channel_1:
       noSlide
       inst 44
       vol 10
+    countedLoopStart 31
             noteL F5, 24
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
+    countedLoopEnd
       stereo 0c0h
       inst 37
       vol 13
@@ -583,6 +368,8 @@ Music_09_Channel_2:
       stereo 0c0h
       setRelease 1
       vibrato 05ch
+    repeatStart
+    countedLoopStart 1
             noteL E4, 12
       setRelease 10
             note E4
@@ -595,18 +382,7 @@ Music_09_Channel_2:
             note E4
             note E4
       setRelease 1
-            note E4
-      setRelease 10
-            note E4
-            note E4
-      setRelease 1
-            note E4
-      setRelease 10
-            note E4
-            note E4
-            note E4
-            note E4
-      setRelease 1
+    countedLoopEnd
             note E4
       setRelease 10
             note E4
@@ -618,47 +394,15 @@ Music_09_Channel_2:
             note E4
             note E4
       setRelease 1
+    repeatSection1Start
             noteL E3, 24
             noteL G3, 12
             note A3
             note G3
             note C4
             noteL A3, 36
-            noteL E4, 12
-      setRelease 10
-            note E4
-            note E4
-      setRelease 1
-            note E4
-      setRelease 10
-            note E4
-            note E4
-            note E4
-            note E4
-      setRelease 1
-            note E4
-      setRelease 10
-            note E4
-            note E4
-      setRelease 1
-            note E4
-      setRelease 10
-            note E4
-            note E4
-            note E4
-            note E4
-      setRelease 1
-            note E4
-      setRelease 10
-            note E4
-            note E4
-      setRelease 1
-            note E4
-      setRelease 10
-            note E4
-            note E4
-            note E4
-      setRelease 1
+    repeatEnd
+    repeatSection2Start
             noteL E4, 24
             noteL D4, 12
             note C4
@@ -666,6 +410,8 @@ Music_09_Channel_2:
             note A3
             note C4
             noteL G3, 24
+    repeatStart
+    countedLoopStart 1
             noteL E4, 12
       setRelease 10
             note E4
@@ -678,135 +424,33 @@ Music_09_Channel_2:
             note E4
             note E4
       setRelease 1
-            note E4
-      setRelease 10
-            note E4
-            note E4
-      setRelease 1
-            note E4
-      setRelease 10
-            note E4
-            note E4
-            note E4
-            note E4
-      setRelease 1
+    countedLoopEnd
             note F4
       setRelease 10
-            note F4
+    countedLoopStart 1
+            noteL F4, 12
             note F4
       setRelease 1
             note F4
       setRelease 10
             note F4
             note F4
-            note F4
-            note F4
-      setRelease 1
-            note F4
-      setRelease 10
-            note F4
-            note F4
+    countedLoopEnd
       setRelease 1
             note F4
       setRelease 10
             note F4
       setRelease 1
             note G4
+    repeatSection1Start
             noteL F4, 24
-            noteL E4, 12
-      setRelease 10
-            note E4
-            note E4
-      setRelease 1
-            note E4
-      setRelease 10
-            note E4
-            note E4
-            note E4
-            note E4
-      setRelease 1
-            note E4
-      setRelease 10
-            note E4
-            note E4
-      setRelease 1
-            note E4
-      setRelease 10
-            note E4
-            note E4
-            note E4
-            note E4
-      setRelease 1
-            note F4
-      setRelease 10
-            note F4
-            note F4
-      setRelease 1
-            note F4
-      setRelease 10
-            note F4
-            note F4
-            note F4
-            note F4
-      setRelease 1
-            note F4
-      setRelease 10
-            note F4
-            note F4
-      setRelease 1
-            note F4
-      setRelease 10
-            note F4
-      setRelease 1
-            note G4
+    repeatEnd
+    repeatSection2Start
             noteL A4, 24
-            noteL E4, 12
-      setRelease 10
-            note E4
-            note E4
-      setRelease 1
-            note E4
-      setRelease 10
-            note E4
-            note E4
-            note E4
-            note E4
-      setRelease 1
-            note E4
-      setRelease 10
-            note E4
-            note E4
-      setRelease 1
-            note E4
-      setRelease 10
-            note E4
-            note E4
-            note E4
-            note E4
-      setRelease 1
-            note F4
-      setRelease 10
-            note F4
-            note F4
-      setRelease 1
-            note F4
-      setRelease 10
-            note F4
-            note F4
-            note F4
-            note F4
-      setRelease 1
-            note F4
-      setRelease 10
-            note F4
-            note F4
-      setRelease 1
-            note F4
-      setRelease 10
-            note F4
-      setRelease 1
-            note G4
+    repeatEnd
+    repeatSection3Start
             noteL F4, 24
+    countedLoopStart 1
             noteL E4, 12
       setRelease 10
             note E4
@@ -819,18 +463,7 @@ Music_09_Channel_2:
             note E4
             note E4
       setRelease 1
-            note E4
-      setRelease 10
-            note E4
-            note E4
-      setRelease 1
-            note E4
-      setRelease 10
-            note E4
-            note E4
-            note E4
-            note E4
-      setRelease 1
+    countedLoopEnd
             note F4
       setRelease 10
             note F4
@@ -850,6 +483,7 @@ Music_09_Channel_2:
             note C4
             noteL G3, 24
       vol 11
+    countedLoopStart 2
             noteL Ds4, 12
             waitL 24
             noteL Cs4, 12
@@ -876,58 +510,7 @@ Music_09_Channel_2:
             note Fs4
             note Ds4
             note Cs4
-            note Ds4
-            waitL 24
-            noteL Cs4, 12
-            note Ds4
-            waitL 24
-            note As3
-            noteL Cs4, 12
-            note Ds4
-            note Cs4
-            note Fs4
-            note Ds4
-            note Cs4
-            note As3
-            note Ds4
-            waitL 24
-            noteL Cs4, 12
-            note Ds4
-            waitL 24
-            note As3
-            noteL Cs4, 12
-            note Ds4
-            note Cs4
-            note Gs4
-            note Fs4
-            note Ds4
-            note Cs4
-            note Ds4
-            waitL 24
-            noteL Cs4, 12
-            note Ds4
-            waitL 24
-            note As3
-            noteL Cs4, 12
-            note Ds4
-            note Cs4
-            note Fs4
-            note Ds4
-            note Cs4
-            note As3
-            note Ds4
-            waitL 24
-            noteL Cs4, 12
-            note Ds4
-            waitL 24
-            note As3
-            noteL Cs4, 12
-            note Ds4
-            note Cs4
-            note Gs4
-            note Fs4
-            note Ds4
-            note Cs4
+    countedLoopEnd
             note Ds4
             waitL 24
             noteL Cs4, 12
@@ -974,6 +557,8 @@ Music_09_Channel_3:
       vol 11
       setRelease 1
       vibrato 05ch
+    repeatStart
+    countedLoopStart 1
             noteL A4, 12
       setRelease 10
             note A4
@@ -986,6 +571,7 @@ Music_09_Channel_3:
             note A4
             note A4
       setRelease 1
+    countedLoopEnd
             note A4
       setRelease 10
             note A4
@@ -996,18 +582,7 @@ Music_09_Channel_3:
             note A4
             note A4
             note A4
-            note A4
-      setRelease 1
-            note A4
-      setRelease 10
-            note A4
-            note A4
-      setRelease 1
-            note A4
-      setRelease 10
-            note A4
-            note A4
-            note A4
+    repeatSection1Start
             noteL D4, 0
       setSlide 9
       setRelease 1
@@ -1018,40 +593,8 @@ Music_09_Channel_3:
             note G4
             note C5
             noteL A4, 36
-            noteL A4, 12
-      setRelease 10
-            note A4
-            note A4
-      setRelease 1
-            note A4
-      setRelease 10
-            note A4
-            note A4
-            note A4
-            note A4
-      setRelease 1
-            note A4
-      setRelease 10
-            note A4
-            note A4
-      setRelease 1
-            note A4
-      setRelease 10
-            note A4
-            note A4
-            note A4
-            note A4
-      setRelease 1
-            note A4
-      setRelease 10
-            note A4
-            note A4
-      setRelease 1
-            note A4
-      setRelease 10
-            note A4
-            note A4
-            note A4
+    repeatEnd
+    repeatSection2Start
             noteL D5, 0
       setSlide 9
       setRelease 1
@@ -1063,6 +606,8 @@ Music_09_Channel_3:
             note A4
             note C5
             noteL G4, 24
+    repeatStart
+    countedLoopStart 1
             noteL A4, 12
       setRelease 10
             note A4
@@ -1075,135 +620,33 @@ Music_09_Channel_3:
             note A4
             note A4
       setRelease 1
-            note A4
-      setRelease 10
-            note A4
-            note A4
-      setRelease 1
-            note A4
-      setRelease 10
-            note A4
-            note A4
-            note A4
-            note A4
-      setRelease 1
+    countedLoopEnd
             note As4
       setRelease 10
-            note As4
+    countedLoopStart 1
+            noteL As4, 12
             note As4
       setRelease 1
             note As4
       setRelease 10
             note As4
             note As4
-            note As4
-            note As4
-      setRelease 1
-            note As4
-      setRelease 10
-            note As4
-            note As4
+    countedLoopEnd
       setRelease 1
             note As4
       setRelease 10
             note As4
       setRelease 1
             note C5
+    repeatSection1Start
             noteL As4, 24
-            noteL A4, 12
-      setRelease 10
-            note A4
-            note A4
-      setRelease 1
-            note A4
-      setRelease 10
-            note A4
-            note A4
-            note A4
-            note A4
-      setRelease 1
-            note A4
-      setRelease 10
-            note A4
-            note A4
-      setRelease 1
-            note A4
-      setRelease 10
-            note A4
-            note A4
-            note A4
-            note A4
-      setRelease 1
-            note As4
-      setRelease 10
-            note As4
-            note As4
-      setRelease 1
-            note As4
-      setRelease 10
-            note As4
-            note As4
-            note As4
-            note As4
-      setRelease 1
-            note As4
-      setRelease 10
-            note As4
-            note As4
-      setRelease 1
-            note As4
-      setRelease 10
-            note As4
-      setRelease 1
-            note C5
+    repeatEnd
+    repeatSection2Start
             noteL D5, 24
-            noteL A4, 12
-      setRelease 10
-            note A4
-            note A4
-      setRelease 1
-            note A4
-      setRelease 10
-            note A4
-            note A4
-            note A4
-            note A4
-      setRelease 1
-            note A4
-      setRelease 10
-            note A4
-            note A4
-      setRelease 1
-            note A4
-      setRelease 10
-            note A4
-            note A4
-            note A4
-            note A4
-      setRelease 1
-            note As4
-      setRelease 10
-            note As4
-            note As4
-      setRelease 1
-            note As4
-      setRelease 10
-            note As4
-            note As4
-            note As4
-            note As4
-      setRelease 1
-            note As4
-      setRelease 10
-            note As4
-            note As4
-      setRelease 1
-            note As4
-      setRelease 10
-            note As4
-      setRelease 1
-            note C5
+    repeatEnd
+    repeatSection3Start
             noteL As4, 24
+    countedLoopStart 1
             noteL A4, 12
       setRelease 10
             note A4
@@ -1216,18 +659,7 @@ Music_09_Channel_3:
             note A4
             note A4
       setRelease 1
-            note A4
-      setRelease 10
-            note A4
-            note A4
-      setRelease 1
-            note A4
-      setRelease 10
-            note A4
-            note A4
-            note A4
-            note A4
-      setRelease 1
+    countedLoopEnd
             note As4
       setRelease 10
             note As4
@@ -1249,6 +681,7 @@ Music_09_Channel_3:
             note A4
             note C5
             noteL G4, 24
+    countedLoopStart 2
             noteL Gs4, 12
             waitL 24
             noteL Fs4, 12
@@ -1275,58 +708,7 @@ Music_09_Channel_3:
             note B4
             note Gs4
             note Fs4
-            note Gs4
-            waitL 24
-            noteL Fs4, 12
-            note Gs4
-            waitL 24
-            note Ds4
-            noteL Fs4, 12
-            note Gs4
-            note Fs4
-            note B4
-            note Gs4
-            note Fs4
-            note Ds4
-            note Gs4
-            waitL 24
-            noteL Fs4, 12
-            note Gs4
-            waitL 24
-            note Ds4
-            noteL Fs4, 12
-            note Gs4
-            note Fs4
-            note Cs5
-            note B4
-            note Gs4
-            note Fs4
-            note Gs4
-            waitL 24
-            noteL Fs4, 12
-            note Gs4
-            waitL 24
-            note Ds4
-            noteL Fs4, 12
-            note Gs4
-            note Fs4
-            note B4
-            note Gs4
-            note Fs4
-            note Ds4
-            note Gs4
-            waitL 24
-            noteL Fs4, 12
-            note Gs4
-            waitL 24
-            note Ds4
-            noteL Fs4, 12
-            note Gs4
-            note Fs4
-            note Cs5
-            note B4
-            note Gs4
-            note Fs4
+    countedLoopEnd
             note Gs4
             waitL 24
             noteL Fs4, 12
@@ -1374,29 +756,9 @@ Music_09_Channel_4:
       vol 10
       setRelease 10
       vibrato 05ch
+    countedLoopStart 22
             noteL E3, 12
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
+    countedLoopEnd
       setRelease 1
             noteL E3, 24
             noteL G3, 12
@@ -1405,29 +767,9 @@ Music_09_Channel_4:
             note C4
             noteL A3, 36
       setRelease 10
+    countedLoopStart 22
             noteL E3, 12
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
+    countedLoopEnd
       setRelease 1
             noteL E4, 24
             noteL D4, 12
@@ -1440,6 +782,7 @@ Music_09_Channel_4:
       stereo 0c0h
       inst 56
       vol 8
+    repeatStart
             noteL A4, 24
             noteL E5, 12
             noteL D5, 24
@@ -1452,21 +795,12 @@ Music_09_Channel_4:
             noteL E6, 36
       noSlide
       setSlide 25
+    repeatSection1Start
             noteL D6, 180
       noSlide
             waitL 12
-            noteL A4, 24
-            noteL E5, 12
-            noteL D5, 24
-            note A5
-            noteL E5, 12
-            noteL G5, 24
-            noteL C6, 12
-            noteL A5, 24
-      setSlide 25
-            noteL E6, 36
-      noSlide
-      setSlide 25
+    repeatEnd
+    repeatSection2Start
             noteL D6, 84
       noSlide
             noteL G6, 0
@@ -1482,6 +816,7 @@ Music_09_Channel_4:
             note E6
             noteL D6, 24
             note A5
+    repeatStart
             noteL E6, 12
             noteL D6, 24
             note A6
@@ -1489,6 +824,7 @@ Music_09_Channel_4:
             noteL G6, 24
             noteL C7, 12
             noteL A6, 24
+    repeatSection1Start
       setSlide 25
             noteL E7, 36
       noSlide
@@ -1509,13 +845,8 @@ Music_09_Channel_4:
             note D7
             note E7
             noteL A5, 24
-            noteL E6, 12
-            noteL D6, 24
-            note A6
-            noteL E6, 12
-            noteL G6, 24
-            noteL C7, 12
-            noteL A6, 24
+    repeatEnd
+    repeatSection2Start
             noteL D7, 0
       setSlide 9
             noteL E7, 36
@@ -1580,19 +911,7 @@ Music_09_Channel_5:
             sample 0
             sample 1
             sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sampleL 0, 12
-            sample 0
+    countedLoopStart 1
             sampleL 1, 24
             sample 0
             sample 1
@@ -1606,9 +925,11 @@ Music_09_Channel_5:
             sample 1
             sampleL 0, 12
             sample 0
+    countedLoopEnd
             sample 1
             sampleL 0, 24
             sampleL 0, 12
+    countedLoopStart 2
             sampleL 1, 24
             sampleL 0, 12
             sample 0
@@ -1626,55 +947,14 @@ Music_09_Channel_5:
             sample 0
             sample 1
             sample 0
+    countedLoopEnd
             sample 1
             sampleL 0, 12
             sample 0
+    countedLoopStart 5
             sampleL 1, 24
             sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sampleL 0, 12
-            sample 0
-            sampleL 1, 24
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sampleL 0, 12
-            sample 0
-            sampleL 1, 24
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
+    countedLoopEnd
             sample 1
             sampleL 0, 12
       stereo 080h
@@ -1689,70 +969,44 @@ Music_09_Channel_5:
       stereo 040h
             sampleL 4, 12
       stereo 0c0h
+    countedLoopStart 6
             sampleL 0, 24
             sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
+    countedLoopEnd
             sampleL 0, 12
             sampleL 0, 6
             sample 0
+    countedLoopStart 2
             sampleL 1, 24
             sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
+    countedLoopEnd
             sample 1
             sampleL 0, 12
             sample 0
+    countedLoopStart 2
             sampleL 1, 24
             sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
+    countedLoopEnd
             sample 1
             sampleL 0, 12
             sample 1
             sampleL 0, 6
             sample 0
             sampleL 1, 12
+    countedLoopStart 6
             sampleL 0, 24
             sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
+    countedLoopEnd
             sampleL 0, 12
             sample 0
             sample 1
       stereo 040h
             sample 4
       stereo 0c0h
+    countedLoopStart 2
             sampleL 0, 24
             sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 1
+    countedLoopEnd
             sampleL 0, 12
             sample 0
             sampleL 1, 24
@@ -1809,6 +1063,7 @@ Music_09_Channel_6:
             psgNoteL Fs3, 48
             psgNoteL A2, 60
       psgInst 01ch
+    countedLoopStart 1
             psgNoteL E4, 6
             psgNote C4
             psgNote G3
@@ -1937,251 +1192,60 @@ Music_09_Channel_6:
             psgNote D4
             psgNote As3
             psgNote D4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote D4
-            psgNote As3
-            psgNote F3
-            psgNote As3
-            psgNote D4
-            psgNote As3
-            psgNote F3
-            psgNote As3
-            psgNote D4
-            psgNote As3
-            psgNote F3
-            psgNote As3
-            psgNote D4
-            psgNote As3
-            psgNote F3
-            psgNote As3
-            psgNote D4
-            psgNote As3
-            psgNote F3
-            psgNote As3
-            psgNote D4
-            psgNote As3
-            psgNote F3
-            psgNote As3
-            psgNote D4
-            psgNote As3
-            psgNote F3
-            psgNote As3
-            psgNote D4
-            psgNote As3
-            psgNote F3
-            psgNote As3
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote F4
-            psgNote D4
-            psgNote As3
-            psgNote D4
-            psgNote F4
-            psgNote D4
-            psgNote As3
-            psgNote D4
-            psgNote F4
-            psgNote D4
-            psgNote As3
-            psgNote D4
-            psgNote F4
-            psgNote D4
-            psgNote As3
-            psgNote D4
-            psgNote F4
-            psgNote D4
-            psgNote As3
-            psgNote D4
-            psgNote F4
-            psgNote D4
-            psgNote As3
-            psgNote D4
-            psgNote F4
-            psgNote D4
-            psgNote As3
-            psgNote D4
-            psgNote F4
-            psgNote D4
-            psgNote As3
-            psgNote D4
+    countedLoopEnd
       psgInst 0ah
+    countedLoopStart 1
             psgNoteL Ds4, 96
             psgNote F4
             psgNote Fs4
             psgNote Gs4
-            psgNote Ds4
-            psgNote F4
-            psgNote Fs4
-            psgNote Gs4
+    countedLoopEnd
+    countedLoopStart 3
             psgNoteL Ds4, 6
             psgNote B3
             psgNote Fs3
             psgNote B3
-            psgNote Ds4
-            psgNote B3
-            psgNote Fs3
-            psgNote B3
-            psgNote Ds4
-            psgNote B3
-            psgNote Fs3
-            psgNote B3
-            psgNote Ds4
-            psgNote B3
-            psgNote Fs3
-            psgNote B3
-            psgNote F4
+    countedLoopEnd
+    countedLoopStart 3
+            psgNoteL F4, 6
             psgNote Cs4
             psgNote Gs3
             psgNote Cs4
-            psgNote F4
-            psgNote Cs4
-            psgNote Gs3
-            psgNote Cs4
-            psgNote F4
-            psgNote Cs4
-            psgNote Gs3
-            psgNote Cs4
-            psgNote F4
-            psgNote Cs4
-            psgNote Gs3
-            psgNote Cs4
-            psgNote Fs4
+    countedLoopEnd
+    countedLoopStart 3
+            psgNoteL Fs4, 6
             psgNote Ds4
             psgNote B3
             psgNote Ds4
-            psgNote Fs4
-            psgNote Ds4
-            psgNote B3
-            psgNote Ds4
-            psgNote Fs4
-            psgNote Ds4
-            psgNote B3
-            psgNote Ds4
-            psgNote Fs4
-            psgNote Ds4
-            psgNote B3
-            psgNote Ds4
-            psgNote Gs4
+    countedLoopEnd
+    countedLoopStart 2
+            psgNoteL Gs4, 6
             psgNote F4
             psgNote Cs4
             psgNote F4
-            psgNote Gs4
-            psgNote F4
-            psgNote Cs4
-            psgNote F4
-            psgNote Gs4
-            psgNote F4
-            psgNote Cs4
-            psgNote F4
+    countedLoopEnd
             psgNote Gs4
             psgNote F4
             psgNote Cs5
             psgNote Gs4
-            psgNote Ds4
+    countedLoopStart 3
+            psgNoteL Ds4, 6
             psgNote B3
             psgNote Fs3
             psgNote B3
-            psgNote Ds4
-            psgNote B3
-            psgNote Fs3
-            psgNote B3
-            psgNote Ds4
-            psgNote B3
-            psgNote Fs3
-            psgNote B3
-            psgNote Ds4
-            psgNote B3
-            psgNote Fs3
-            psgNote B3
-            psgNote F4
+    countedLoopEnd
+    countedLoopStart 3
+            psgNoteL F4, 6
             psgNote Cs4
             psgNote Gs3
             psgNote Cs4
-            psgNote F4
-            psgNote Cs4
-            psgNote Gs3
-            psgNote Cs4
-            psgNote F4
-            psgNote Cs4
-            psgNote Gs3
-            psgNote Cs4
-            psgNote F4
-            psgNote Cs4
-            psgNote Gs3
-            psgNote Cs4
-            psgNote Fs4
+    countedLoopEnd
+    countedLoopStart 2
+            psgNoteL Fs4, 6
             psgNote Ds4
             psgNote B3
             psgNote Ds4
-            psgNote Fs4
-            psgNote Ds4
-            psgNote B3
-            psgNote Ds4
-            psgNote Fs4
-            psgNote Ds4
-            psgNote B3
-            psgNote Ds4
+    countedLoopEnd
             psgNote Fs4
             psgNote Ds4
             psgNoteL Ds4, 48
@@ -2208,378 +1272,91 @@ Music_09_Channel_7:
             psgNoteL D3, 108
             waitL 6
       psgInst 019h
-            psgNote E4
+    repeatStart
+    countedLoopStart 7
+            psgNoteL E4, 6
             psgNote C4
             psgNote G3
             psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote D4
+    countedLoopEnd
+    countedLoopStart 7
+            psgNoteL D4, 6
             psgNote As3
             psgNote F3
             psgNote As3
+    countedLoopEnd
+    countedLoopStart 7
+            psgNoteL E4, 6
+            psgNote C4
+            psgNote G3
+            psgNote C4
+    countedLoopEnd
+    countedLoopStart 6
+            psgNoteL F4, 6
             psgNote D4
             psgNote As3
-            psgNote F3
-            psgNote As3
             psgNote D4
-            psgNote As3
-            psgNote F3
-            psgNote As3
-            psgNote D4
-            psgNote As3
-            psgNote F3
-            psgNote As3
-            psgNote D4
-            psgNote As3
-            psgNote F3
-            psgNote As3
-            psgNote D4
-            psgNote As3
-            psgNote F3
-            psgNote As3
-            psgNote D4
-            psgNote As3
-            psgNote F3
-            psgNote As3
-            psgNote D4
-            psgNote As3
-            psgNote F3
-            psgNote As3
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
+    countedLoopEnd
             psgNote F4
             psgNote D4
             psgNote As3
+    repeatSection1Start
             psgNote D4
-            psgNote F4
-            psgNote D4
-            psgNote As3
-            psgNote D4
-            psgNote F4
-            psgNote D4
-            psgNote As3
-            psgNote D4
-            psgNote F4
-            psgNote D4
-            psgNote As3
-            psgNote D4
-            psgNote F4
-            psgNote D4
-            psgNote As3
-            psgNote D4
-            psgNote F4
-            psgNote D4
-            psgNote As3
-            psgNote D4
-            psgNote F4
-            psgNote D4
-            psgNote As3
-            psgNote D4
-            psgNote F4
-            psgNote D4
-            psgNote As3
-            psgNote D4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote D4
-            psgNote As3
-            psgNote F3
-            psgNote As3
-            psgNote D4
-            psgNote As3
-            psgNote F3
-            psgNote As3
-            psgNote D4
-            psgNote As3
-            psgNote F3
-            psgNote As3
-            psgNote D4
-            psgNote As3
-            psgNote F3
-            psgNote As3
-            psgNote D4
-            psgNote As3
-            psgNote F3
-            psgNote As3
-            psgNote D4
-            psgNote As3
-            psgNote F3
-            psgNote As3
-            psgNote D4
-            psgNote As3
-            psgNote F3
-            psgNote As3
-            psgNote D4
-            psgNote As3
-            psgNote F3
-            psgNote As3
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote E4
-            psgNote C4
-            psgNote G3
-            psgNote C4
-            psgNote F4
-            psgNote D4
-            psgNote As3
-            psgNote D4
-            psgNote F4
-            psgNote D4
-            psgNote As3
-            psgNote D4
-            psgNote F4
-            psgNote D4
-            psgNote As3
-            psgNote D4
-            psgNote F4
-            psgNote D4
-            psgNote As3
-            psgNote D4
-            psgNote F4
-            psgNote D4
-            psgNote As3
-            psgNote D4
-            psgNote F4
-            psgNote D4
-            psgNote As3
-            psgNote D4
-            psgNote F4
-            psgNote D4
-            psgNote As3
-            psgNote D4
-            psgNote F4
-            psgNote D4
-            psgNote As3
+    repeatEnd
+    repeatSection2Start
       psgInst 0bh
+    countedLoopStart 1
             psgNoteL B3, 96
             psgNote Cs4
             psgNote Ds4
             psgNote F4
-            psgNote B3
-            psgNote Cs4
-            psgNote Ds4
-            psgNote F4
+    countedLoopEnd
+    countedLoopStart 3
             psgNoteL B3, 6
             psgNote Fs3
             psgNote Ds3
             psgNote Fs3
-            psgNote B3
-            psgNote Fs3
-            psgNote Ds3
-            psgNote Fs3
-            psgNote B3
-            psgNote Fs3
-            psgNote Ds3
-            psgNote Fs3
-            psgNote B3
-            psgNote Fs3
-            psgNote Ds3
-            psgNote Fs3
-            psgNote Cs4
+    countedLoopEnd
+    countedLoopStart 3
+            psgNoteL Cs4, 6
             psgNote Gs3
             psgNote F3
             psgNote Gs3
-            psgNote Cs4
-            psgNote Gs3
-            psgNote F3
-            psgNote Gs3
-            psgNote Cs4
-            psgNote Gs3
-            psgNote F3
-            psgNote Gs3
-            psgNote Cs4
-            psgNote Gs3
-            psgNote F3
-            psgNote Gs3
-            psgNote Ds4
+    countedLoopEnd
+    countedLoopStart 3
+            psgNoteL Ds4, 6
             psgNote B3
             psgNote Fs3
             psgNote B3
-            psgNote Ds4
-            psgNote B3
-            psgNote Fs3
-            psgNote B3
-            psgNote Ds4
-            psgNote B3
-            psgNote Fs3
-            psgNote B3
-            psgNote Ds4
-            psgNote B3
-            psgNote Fs3
-            psgNote B3
-            psgNote F4
+    countedLoopEnd
+    countedLoopStart 2
+            psgNoteL F4, 6
             psgNote Cs4
             psgNote Gs3
             psgNote Cs4
-            psgNote F4
-            psgNote Cs4
-            psgNote Gs3
-            psgNote Cs4
-            psgNote F4
-            psgNote Cs4
-            psgNote Gs3
-            psgNote Cs4
+    countedLoopEnd
             psgNote F4
             psgNote Cs4
             psgNote Gs4
             psgNote F4
-            psgNote B3
+    countedLoopStart 3
+            psgNoteL B3, 6
             psgNote Fs3
             psgNote Ds3
             psgNote Fs3
-            psgNote B3
-            psgNote Fs3
-            psgNote Ds3
-            psgNote Fs3
-            psgNote B3
-            psgNote Fs3
-            psgNote Ds3
-            psgNote Fs3
-            psgNote B3
-            psgNote Fs3
-            psgNote Ds3
-            psgNote Fs3
-            psgNote Cs4
+    countedLoopEnd
+    countedLoopStart 3
+            psgNoteL Cs4, 6
             psgNote Gs3
             psgNote F3
             psgNote Gs3
-            psgNote Cs4
-            psgNote Gs3
-            psgNote F3
-            psgNote Gs3
-            psgNote Cs4
-            psgNote Gs3
-            psgNote F3
-            psgNote Gs3
-            psgNote Cs4
-            psgNote Gs3
-            psgNote F3
-            psgNote Gs3
-            psgNote Ds4
+    countedLoopEnd
+    countedLoopStart 2
+            psgNoteL Ds4, 6
             psgNote B3
             psgNote Fs3
             psgNote B3
-            psgNote Ds4
-            psgNote B3
-            psgNote Fs3
-            psgNote B3
-            psgNote Ds4
-            psgNote B3
-            psgNote Fs3
-            psgNote B3
+    countedLoopEnd
             psgNote Ds4
             psgNote B3
             psgNoteL B3, 48

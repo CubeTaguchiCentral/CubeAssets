@@ -46,6 +46,7 @@ Music_19_Channel_0:
       stereo 080h
       setRelease 1
             waitL 24
+    repeatStart
             noteL A4, 8
             note B4
             note C5
@@ -56,6 +57,7 @@ Music_19_Channel_0:
             note D5
             note B4
             note C5
+    repeatSection1Start
             noteL G4, 32
             noteL G4, 8
             note B4
@@ -69,16 +71,8 @@ Music_19_Channel_0:
             note D5
             note B4
             noteL A4, 32
-            noteL A4, 8
-            note B4
-            note C5
-            noteL E5, 24
-            noteL D5, 8
-            note E5
-            note C5
-            note D5
-            note B4
-            note C5
+    repeatEnd
+    repeatSection2Start
             noteL D5, 16
             noteL E5, 8
             noteL F5, 16
@@ -119,7 +113,9 @@ Music_19_Channel_0:
       inst 36
       vol 12
             noteL C5, 8
-            note D5
+    repeatStart
+    countedLoopStart 1
+            noteL D5, 8
             noteL E5, 40
             noteL D5, 8
             note C5
@@ -128,15 +124,7 @@ Music_19_Channel_0:
             note A4
             note B4
             noteL C5, 8
-            note D5
-            noteL E5, 40
-            noteL D5, 8
-            note C5
-            note D5
-            noteL A4, 16
-            note A4
-            note B4
-            noteL C5, 8
+    countedLoopEnd
             note D5
             noteL E5, 40
             noteL D5, 8
@@ -146,39 +134,15 @@ Music_19_Channel_0:
             note A4
             note B4
             note G4
+    repeatSection1Start
             noteL D5, 56
             noteL C5, 4
             note B4
             noteL C5, 40
             noteL B4, 8
             note C5
-            note D5
-            noteL E5, 40
-            noteL D5, 8
-            note C5
-            note D5
-            noteL A4, 16
-            note A4
-            note B4
-            noteL C5, 8
-            note D5
-            noteL E5, 40
-            noteL D5, 8
-            note C5
-            note D5
-            noteL A4, 16
-            note A4
-            note B4
-            noteL C5, 8
-            note D5
-            noteL E5, 40
-            noteL D5, 8
-            note C5
-            note D5
-            noteL A4, 16
-            note A4
-            note B4
-            note G4
+    repeatEnd
+    repeatSection2Start
             noteL A4, 56
             noteL As4, 0
       setSlide 21
@@ -187,6 +151,7 @@ Music_19_Channel_0:
       noSlide
       inst 24
       vol 13
+    countedLoopStart 1
             noteL A5, 8
             note B5
             note C6
@@ -250,69 +215,7 @@ Music_19_Channel_0:
             note E5
             note Ds5
             note E5
-            note A5
-            note B5
-            note C6
-            noteL E6, 16
-            noteL D6, 8
-            note C6
-            note B5
-            note A5
-            note E5
-            note B5
-            note E5
-            note C6
-            note E5
-            note A5
-            note E5
-            note D6
-            note E5
-            note C6
-            note E5
-            note B5
-            note E5
-            note C6
-            note E5
-            note B5
-            note E5
-            note Ds5
-            note E5
-            note B5
-            note E5
-            note D6
-            note B5
-            note A5
-            note E5
-            note B5
-            note E5
-            note C6
-            note E5
-            note A5
-            note E5
-            note B5
-            note E5
-            note G5
-            note E5
-            note A5
-            note E5
-            note C6
-            note F5
-            note B5
-            note E5
-            note Ds5
-            note E5
-            note C6
-            note E5
-            note Ds5
-            note E5
-            note D6
-            note E5
-            note Ds5
-            note E5
-            note B5
-            note E5
-            note Ds5
-            note E5
+    countedLoopEnd
             noteL C6, 40
             noteL B5, 8
             note C6
@@ -350,6 +253,7 @@ Music_19_Channel_0:
             noteL D6, 32
             note B5
             noteL A5, 8
+    repeatStart
             note A5
             note A5
             note A5
@@ -360,36 +264,21 @@ Music_19_Channel_0:
             note A5
             wait
             note A5
+    repeatSection1Start
             note Gs5
             wait
             note Gs5
             wait
             note A5
-            note A5
-            note A5
-            note A5
-            wait
-            noteL A5, 16
-            noteL A5, 8
-            wait
-            note A5
-            wait
-            note A5
+    repeatEnd
+    repeatSection2Start
             note B5
             wait
             note B5
             wait
             note A5
-            note A5
-            note A5
-            note A5
-            wait
-            noteL A5, 16
-            noteL A5, 8
-            wait
-            note A5
-            wait
-            note A5
+    repeatEnd
+    repeatSection3Start
             note Gs5
             wait
             note Gs5
@@ -440,6 +329,7 @@ Music_19_Channel_1:
       stereo 040h
       setRelease 1
             waitL 24
+    repeatStart
             noteL A4, 8
             note B4
             note C5
@@ -450,6 +340,7 @@ Music_19_Channel_1:
             note D5
             note B4
             note C5
+    repeatSection1Start
             noteL G4, 32
             noteL G4, 8
             note B4
@@ -463,16 +354,8 @@ Music_19_Channel_1:
             note D5
             note B4
             noteL A4, 32
-            noteL A4, 8
-            note B4
-            note C5
-            noteL E5, 24
-            noteL D5, 8
-            note E5
-            note C5
-            note D5
-            note B4
-            note C5
+    repeatEnd
+    repeatSection2Start
             noteL D5, 16
             noteL E5, 8
             noteL F5, 16
@@ -515,15 +398,8 @@ Music_19_Channel_1:
       inst 36
       vol 9
             waitL 8
-            note C5
-            note D5
-            noteL E5, 40
-            noteL D5, 8
-            note C5
-            note D5
-            noteL A4, 16
-            note A4
-            note B4
+    repeatStart
+    countedLoopStart 2
             noteL C5, 8
             note D5
             noteL E5, 40
@@ -533,49 +409,16 @@ Music_19_Channel_1:
             noteL A4, 16
             note A4
             note B4
-            noteL C5, 8
-            note D5
-            noteL E5, 40
-            noteL D5, 8
-            note C5
-            note D5
-            noteL A4, 16
-            note A4
-            note B4
+    countedLoopEnd
             note G4
+    repeatSection1Start
             noteL D5, 56
             noteL C5, 4
             note B4
             noteL C5, 40
             noteL B4, 8
-            note C5
-            note D5
-            noteL E5, 40
-            noteL D5, 8
-            note C5
-            note D5
-            noteL A4, 16
-            note A4
-            note B4
-            noteL C5, 8
-            note D5
-            noteL E5, 40
-            noteL D5, 8
-            note C5
-            note D5
-            noteL A4, 16
-            note A4
-            note B4
-            noteL C5, 8
-            note D5
-            noteL E5, 40
-            noteL D5, 8
-            note C5
-            note D5
-            noteL A4, 16
-            note A4
-            note B4
-            note G4
+    repeatEnd
+    repeatSection2Start
             noteL A4, 56
             noteL As4, 0
       setSlide 21
@@ -590,6 +433,7 @@ Music_19_Channel_1:
             noteL E6, 16
             noteL D6, 8
             note C6
+    repeatStart
             note B5
             note A5
             note E5
@@ -599,6 +443,7 @@ Music_19_Channel_1:
             note E5
             note A5
             note E5
+    repeatSection1Start
             note D6
             note E5
             note C6
@@ -614,15 +459,8 @@ Music_19_Channel_1:
             note B5
             note E5
             note D6
-            note B5
-            note A5
-            note E5
-            note B5
-            note E5
-            note C6
-            note E5
-            note A5
-            note E5
+    repeatEnd
+    repeatSection2Start
             note B5
             note E5
             note G5
@@ -737,6 +575,7 @@ Music_19_Channel_1:
             noteL B4, 32
             note G4
             noteL C5, 8
+    repeatStart
             note C5
             note C5
             note C5
@@ -747,36 +586,21 @@ Music_19_Channel_1:
             note C5
             wait
             note C5
+    repeatSection1Start
             note B4
             wait
             note B4
             wait
             note C5
-            note C5
-            note C5
-            note C5
-            wait
-            noteL C5, 16
-            noteL C5, 8
-            wait
-            note C5
-            wait
-            note C5
+    repeatEnd
+    repeatSection2Start
             note D5
             wait
             note D5
             wait
             note C5
-            note C5
-            note C5
-            note C5
-            wait
-            noteL C5, 16
-            noteL C5, 8
-            wait
-            note C5
-            wait
-            note C5
+    repeatEnd
+    repeatSection3Start
             note B4
             wait
             note B4
@@ -838,53 +662,27 @@ Music_19_Channel_2:
       vol 13
       shifting 0
       setRelease 1
+    countedLoopStart 2
             noteL A3, 8
             note A4
             note A3
             note A3
+    countedLoopEnd
             note A3
             note A4
             note A3
-            note A3
-            note A3
-            note A4
-            note A3
-            note A3
-            note A3
-            note A4
-            note A3
-            note G3
+    countedLoopStart 3
+            noteL G3, 8
             note G3
             note G4
             note G3
-            note G3
-            note G3
-            note G4
-            note G3
-            note G3
-            note G3
-            note G4
-            note G3
-            note G3
-            note G3
-            note G4
-            note G3
-            note A3
+    countedLoopEnd
+    countedLoopStart 3
+            noteL A3, 8
             note A3
             note A4
             note A3
-            note A3
-            note A3
-            note A4
-            note A3
-            note A3
-            note A3
-            note A4
-            note A3
-            note A3
-            note A3
-            note A4
-            note A3
+    countedLoopEnd
             note D3
             note D3
             note D4
@@ -901,30 +699,15 @@ Music_19_Channel_2:
             note E3
             note D3
             note E3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
+    countedLoopStart 7
+            noteL F3, 8
+    countedLoopEnd
+    countedLoopStart 7
+            noteL G3, 8
+    countedLoopEnd
+    countedLoopStart 7
+            noteL E3, 8
+    countedLoopEnd
             note A3
             note A3
             note A3
@@ -942,29 +725,20 @@ Music_19_Channel_2:
             note D3
             noteL D3, 16
             noteL D4, 8
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
+    countedLoopStart 5
+            noteL D3, 8
+    countedLoopEnd
             note E3
             note E3
             note E4
             note E3
             note E3
             note E4
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note F3
+    countedLoopStart 9
+            noteL E3, 8
+    countedLoopEnd
+    countedLoopStart 1
+            noteL F3, 8
             note F3
             note F3
             note F3
@@ -1028,71 +802,9 @@ Music_19_Channel_2:
             note A3
             note A3
             note A3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note G3
-            note G3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note G3
-            note G3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note G3
-            note G4
-            note G3
-            note G3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
+    countedLoopEnd
+    countedLoopStart 1
+            noteL A3, 8
             note A3
             note A3
             note A3
@@ -1156,167 +868,24 @@ Music_19_Channel_2:
             note E3
             note E3
             note E3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note F3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note G3
-            note A3
+    countedLoopEnd
+    countedLoopStart 15
+            noteL F3, 8
+    countedLoopEnd
+    countedLoopStart 15
+            noteL G3, 8
+    countedLoopEnd
+    countedLoopStart 31
+            noteL A3, 8
+    countedLoopEnd
+    countedLoopStart 15
+            noteL F3, 8
+    countedLoopEnd
+    countedLoopStart 15
+            noteL G3, 8
+    countedLoopEnd
+    countedLoopStart 2
+            noteL A3, 8
             note A3
             note A3
             note G3
@@ -1332,38 +901,7 @@ Music_19_Channel_2:
             note E4
             note E3
             note E4
-            note A3
-            note A3
-            note A3
-            note G3
-            note G4
-            note G3
-            note G3
-            note G3
-            note F3
-            note F3
-            note F4
-            note E3
-            note E3
-            note E4
-            note E3
-            note E4
-            note A3
-            note A3
-            note A3
-            note G3
-            note G4
-            note G3
-            note G3
-            note G3
-            note F3
-            note F3
-            note F4
-            note E3
-            note E3
-            note E4
-            note E3
-            note E4
+    countedLoopEnd
             note A3
             note A3
             note A3
@@ -1467,7 +1005,9 @@ Music_19_Channel_3:
             note B6
       stereo 040h
       vol 12
-            note A5
+    repeatStart
+    countedLoopStart 4
+            noteL A5, 8
             note E5
             note C5
             note E5
@@ -1477,46 +1017,7 @@ Music_19_Channel_3:
             note C5
             note E5
       stereo 040h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 080h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 040h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 080h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 040h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 080h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 040h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 080h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 040h
+    countedLoopEnd
             note A5
             note E5
             note C5
@@ -1546,86 +1047,10 @@ Music_19_Channel_3:
             note E4
             note A4
             note C5
+    repeatSection1Start
       stereo 040h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 080h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 040h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 080h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 040h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 080h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 040h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 080h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 040h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 080h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 040h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 080h
-            note B5
-            note G5
-            note D5
-            note G5
-      stereo 040h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 080h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 040h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 080h
-            note A4
-            note E4
-            note A4
-            note C5
+    repeatEnd
+    repeatSection2Start
       stereo 0c0h
       vol 10
             noteL C5, 128
@@ -1669,6 +1094,7 @@ Music_19_Channel_3:
             note B3
             note D4
             note G4
+    countedLoopStart 2
             noteL E5, 8
             note E5
             note E5
@@ -1685,38 +1111,7 @@ Music_19_Channel_3:
             wait
             note E5
             wait
-            note E5
-            note E5
-            note E5
-            note E5
-            wait
-            note E5
-            wait
-            note E5
-            wait
-            note E5
-            wait
-            note E5
-            note E5
-            wait
-            note E5
-            wait
-            note E5
-            note E5
-            note E5
-            note E5
-            wait
-            note E5
-            wait
-            note E5
-            wait
-            note E5
-            wait
-            note E5
-            note E5
-            wait
-            note E5
-            wait
+    countedLoopEnd
             note E5
             note E5
             note E5
@@ -1815,12 +1210,27 @@ Music_19_Channel_4:
             note A6
       stereo 040h
       vol 10
+    repeatStart
             note A5
             note E5
             note C5
             note E5
       stereo 080h
             note A5
+            note E5
+            note C5
+            note E5
+    repeatSection1Start
+      stereo 040h
+    repeatEnd
+    repeatSection2Start
+            note A5
+            note E5
+            note C5
+            note E5
+    repeatStart
+    countedLoopStart 2
+            noteL A5, 8
             note E5
             note C5
             note E5
@@ -1830,44 +1240,7 @@ Music_19_Channel_4:
             note C5
             note E5
       stereo 080h
-            note A5
-            note E5
-            note C5
-            note E5
-            note A5
-            note E5
-            note C5
-            note E5
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 040h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 080h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 040h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 080h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 040h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 080h
+    countedLoopEnd
             note B5
             note G5
             note D5
@@ -1892,8 +1265,10 @@ Music_19_Channel_4:
             note E4
             note A4
             note C5
+    repeatSection1Start
+    countedLoopStart 1
       stereo 040h
-            note A5
+            noteL A5, 8
             note E5
             note C5
             note E5
@@ -1902,76 +1277,15 @@ Music_19_Channel_4:
             note E5
             note C5
             note E5
+    countedLoopEnd
       stereo 040h
             note A5
             note E5
             note C5
             note E5
       stereo 080h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 040h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 080h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 040h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 080h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 040h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 080h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 040h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 080h
-            note B5
-            note G5
-            note D5
-            note G5
-      stereo 040h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 080h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 040h
-            note A5
-            note E5
-            note C5
-            note E5
-      stereo 080h
-            note A4
-            note E4
-            note A4
-            note C5
+    repeatEnd
+    repeatSection2Start
       stereo 0c0h
       vol 7
             noteL E4, 128
@@ -2015,6 +1329,7 @@ Music_19_Channel_4:
             note B3
             note D4
             note G4
+    countedLoopStart 2
             noteL C5, 8
             note C5
             note C5
@@ -2031,38 +1346,7 @@ Music_19_Channel_4:
             wait
             note B4
             wait
-            note C5
-            note C5
-            note C5
-            note C5
-            wait
-            note C5
-            wait
-            note C5
-            wait
-            note C5
-            wait
-            note C5
-            note B4
-            wait
-            note B4
-            wait
-            note C5
-            note C5
-            note C5
-            note C5
-            wait
-            note C5
-            wait
-            note C5
-            wait
-            note C5
-            wait
-            note C5
-            note B4
-            wait
-            note B4
-            wait
+    countedLoopEnd
             note C5
             note C5
             note C5
@@ -2077,6 +1361,7 @@ Music_19_Channel_4:
     mainLoopEnd
 Music_19_Channel_5:
       stereo 0c0h
+    countedLoopStart 1
             sampleL 0, 8
             sample 0
             sample 1
@@ -2093,22 +1378,7 @@ Music_19_Channel_5:
             sample 0
             sample 1
             sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 1
-            sample 0
+    countedLoopEnd
             sample 0
     mainLoopStart
             sample 0
@@ -2118,23 +1388,9 @@ Music_19_Channel_5:
             sample 0
             sample 1
             sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 1
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
+    repeatStart
+    countedLoopStart 2
+            sampleL 0, 8
             sample 0
             sample 1
             sample 0
@@ -2150,25 +1406,11 @@ Music_19_Channel_5:
             sample 0
             sample 1
             sample 0
+    countedLoopEnd
             sample 0
             sample 0
             sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 1
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
+    repeatSection1Start
             sample 0
       stereo 040h
             sample 2
@@ -2186,57 +1428,8 @@ Music_19_Channel_5:
             sample 0
             sample 1
             sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 1
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 1
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 1
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
+    repeatEnd
+    repeatSection2Start
       stereo 040h
             sample 2
             sample 2
@@ -2244,7 +1437,8 @@ Music_19_Channel_5:
             sample 3
       stereo 080h
             sample 4
-            sample 4
+    countedLoopStart 1
+            sampleL 4, 8
       stereo 0c0h
             sample 0
             sample 0
@@ -2319,134 +1513,11 @@ Music_19_Channel_5:
       stereo 0c0h
             sampleL 3, 8
       stereo 080h
+    countedLoopEnd
             sample 4
       stereo 0c0h
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-      stereo 080h
-            sample 4
-      stereo 0c0h
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-      stereo 080h
-            sample 4
-      stereo 0c0h
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-      stereo 080h
-            sample 4
-      stereo 0c0h
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-      stereo 040h
-            sampleL 2, 4
-            sample 2
-      stereo 0c0h
-            sampleL 3, 8
-      stereo 080h
-            sample 4
-      stereo 0c0h
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 1
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 1
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 1
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
+    repeatEnd
+    repeatSection3Start
             sample 0
             sample 0
             sample 0
@@ -2464,23 +1535,8 @@ Music_19_Channel_5:
             sample 4
             sample 4
       stereo 0c0h
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 1
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
+    countedLoopStart 2
+            sampleL 0, 8
             sample 0
             sample 1
             sample 0
@@ -2496,6 +1552,7 @@ Music_19_Channel_5:
             sample 0
             sample 1
             sample 0
+    countedLoopEnd
             sample 0
             sample 0
             sample 1
@@ -2508,33 +1565,15 @@ Music_19_Channel_5:
             sample 0
             sample 1
             sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 1
-            sample 0
-            sample 0
-            sample 1
-            sample 0
+    countedLoopStart 1
             sampleL 0, 4
             sample 0
       stereo 080h
             sampleL 4, 8
       stereo 0c0h
-            sampleL 0, 4
-            sample 0
-      stereo 080h
-            sampleL 4, 8
-      stereo 0c0h
-            sample 0
+    countedLoopEnd
+    countedLoopStart 1
+            sampleL 0, 8
             sample 0
             sample 1
             sample 0
@@ -2582,55 +1621,9 @@ Music_19_Channel_5:
             sample 0
             sample 1
             sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
+    countedLoopEnd
+    countedLoopStart 2
+            sampleL 0, 8
             sample 0
             sample 1
             sample 0
@@ -2650,46 +1643,7 @@ Music_19_Channel_5:
             sample 4
       stereo 0c0h
             sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 0
-      stereo 040h
-            sample 2
-      stereo 0c0h
-            sample 0
-            sample 3
-            sample 0
-      stereo 080h
-            sample 4
-      stereo 0c0h
-            sample 0
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 1
-            sample 0
-            sample 0
-            sample 0
-            sample 0
-      stereo 040h
-            sample 2
-      stereo 0c0h
-            sample 0
-            sample 3
-            sample 0
-      stereo 080h
-            sample 4
-      stereo 0c0h
-            sample 0
+    countedLoopEnd
             sample 0
             sample 0
             sample 1

@@ -39,18 +39,14 @@ Music_12_Channel_0:
             note E6
             note D6
             note Cs6
-            note A5
+    countedLoopStart 1
+            noteL A5, 12
             note D6
             note Fs6
             note G6
             note Fs6
             note D6
-            note A5
-            note D6
-            note Fs6
-            note G6
-            note Fs6
-            note D6
+    countedLoopEnd
       stereo 0c0h
       vol 11
             note Cs6
@@ -135,30 +131,22 @@ Music_12_Channel_4:
       vol 6
       setRelease 1
       vibrato 00h
+    countedLoopStart 1
             noteL Cs6, 12
             note D6
             note E6
             note E6
             note D6
             note Cs6
-            note Cs6
-            note D6
-            note E6
-            note E6
-            note D6
-            note Cs6
-            note A5
+    countedLoopEnd
+    countedLoopStart 1
+            noteL A5, 12
             note D6
             note Fs6
             note G6
             note Fs6
             note D6
-            note A5
-            note D6
-            note Fs6
-            note G6
-            note Fs6
-            note D6
+    countedLoopEnd
     mainLoopEnd
 Music_12_Channel_5:
     channel_end

@@ -58,14 +58,12 @@ Music_11_Channel_1:
             noteL F6, 24
             noteL G6, 12
             noteL F6, 60
+    countedLoopStart 1
             waitL 12
             note Gs6
             wait
             note As6
-            wait
-            note Gs6
-            wait
-            note As6
+    countedLoopEnd
             noteL C7, 96
     channel_end
 Music_11_Channel_2:
@@ -81,14 +79,12 @@ Music_11_Channel_2:
             noteL Cs6, 24
             noteL Ds6, 12
             noteL Cs6, 60
+    countedLoopStart 1
             waitL 12
             note Ds6
             wait
             note F6
-            wait
-            note Ds6
-            wait
-            note F6
+    countedLoopEnd
             noteL Gs6, 96
     channel_end
 Music_11_Channel_3:
@@ -104,14 +100,12 @@ Music_11_Channel_3:
             noteL Gs5, 24
             noteL As5, 12
             noteL Gs5, 60
+    countedLoopStart 1
             waitL 12
             note As5
             wait
             note C6
-            wait
-            note As5
-            wait
-            note C6
+    countedLoopEnd
             noteL Ds6, 96
     channel_end
 Music_11_Channel_4:
@@ -122,6 +116,7 @@ Music_11_Channel_4:
       vibrato 00h
             noteL C4, 6
       vol 10
+    repeatStart
             note C4
             note C4
             note C4
@@ -143,32 +138,15 @@ Music_11_Channel_4:
             note C4
             note C4
             note C4
+    repeatSection1Start
             note C4
-            note C4
-            note C4
-            note C4
+    repeatEnd
+    repeatSection2Start
       vol 12
             note C4
       vol 10
-            note C4
-      inst 39
-      vol 10
-            noteL C4, 24
-      inst 38
-      vol 12
+    countedLoopStart 2
             noteL C4, 6
-      vol 10
-            note C4
-      vol 12
-            note C4
-      vol 10
-            note C4
-            note C4
-            note C4
-      vol 12
-            note C4
-      vol 10
-            note C4
       inst 39
       vol 10
             note C4
@@ -176,22 +154,7 @@ Music_11_Channel_4:
       vol 10
             note C4
             wait
-            note C4
-      inst 39
-      vol 10
-            note C4
-      inst 38
-      vol 10
-            note C4
-            wait
-            note C4
-      inst 39
-      vol 10
-            note C4
-      inst 38
-      vol 10
-            note C4
-            wait
+    countedLoopEnd
             note C4
       inst 39
       vol 10
@@ -214,10 +177,9 @@ Music_11_Channel_5:
             sample 0
             sample 1
             sampleL 0, 24
+    countedLoopStart 3
             sampleL 1, 12
-            sample 1
-            sample 1
-            sample 1
+    countedLoopEnd
             sampleL 0, 24
             sample 0
             sampleL 1, 12
@@ -261,22 +223,10 @@ Music_11_Channel_6:
             psgNote Ds5
             psgNote Cs5
             psgNote Gs4
-            psgNote Ds4
+    countedLoopStart 7
+            psgNoteL Ds4, 6
             psgNote F4
-            psgNote Ds4
-            psgNote F4
-            psgNote Ds4
-            psgNote F4
-            psgNote Ds4
-            psgNote F4
-            psgNote Ds4
-            psgNote F4
-            psgNote Ds4
-            psgNote F4
-            psgNote Ds4
-            psgNote F4
-            psgNote Ds4
-            psgNote F4
+    countedLoopEnd
       psgInst 0ah
             psgNoteL G4, 96
     channel_end
@@ -318,22 +268,10 @@ Music_11_Channel_7:
             psgNote Ds5
             psgNote Cs5
             psgNote Gs4
-            psgNote Ds4
+    countedLoopStart 7
+            psgNoteL Ds4, 6
             psgNote F4
-            psgNote Ds4
-            psgNote F4
-            psgNote Ds4
-            psgNote F4
-            psgNote Ds4
-            psgNote F4
-            psgNote Ds4
-            psgNote F4
-            psgNote Ds4
-            psgNote F4
-            psgNote Ds4
-            psgNote F4
-            psgNote Ds4
-            psgNote F4
+    countedLoopEnd
       psgInst 08h
             psgNoteL G4, 96
     channel_end

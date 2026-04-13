@@ -129,16 +129,13 @@ Music_08_Channel_2:
             noteL F3, 2
             waitL 4
             noteL F4, 12
+    countedLoopStart 1
             noteL E3, 3
             wait
             noteL E3, 2
             waitL 4
             noteL E4, 12
-            noteL E3, 3
-            wait
-            noteL E3, 2
-            waitL 4
-            noteL E4, 12
+    countedLoopEnd
             noteL B3, 3
             wait
             noteL B3, 2
@@ -223,6 +220,7 @@ Music_08_Channel_5:
             sampleL 0, 4
             sample 0
             sample 0
+    countedLoopStart 1
             sampleL 1, 24
             sampleL 0, 12
             sampleL 1, 6
@@ -231,14 +229,7 @@ Music_08_Channel_5:
             sampleL 0, 6
             sampleL 0, 12
             sample 0
-            sampleL 1, 24
-            sampleL 0, 12
-            sampleL 1, 6
-            sampleL 0, 12
-            sample 0
-            sampleL 0, 6
-            sampleL 0, 12
-            sample 0
+    countedLoopEnd
             sampleL 1, 6
             sample 1
             sample 3

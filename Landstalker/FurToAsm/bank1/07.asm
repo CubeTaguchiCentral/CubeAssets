@@ -64,6 +64,7 @@ Music_07_Channel_0:
             noteL As5, 255
       setRelease 1
             waitL 33
+    repeatStart
             noteL Gs5, 48
             note Ds5
             noteL Cs6, 156
@@ -79,6 +80,7 @@ Music_07_Channel_0:
             note Gs5
             noteL As5, 72
             noteL Ds6, 24
+    repeatSection1Start
       sustain
             noteL Ds6, 255
       setRelease 1
@@ -99,21 +101,8 @@ Music_07_Channel_0:
             noteL Cs6, 32
             noteL As5, 30
       vol 11
-            noteL Gs5, 48
-            note Ds5
-            noteL Cs6, 156
-            noteL B5, 12
-            note As5
-            note B5
-            note Gs5
-            note As5
-            note Fs5
-            note Gs5
-            noteL E5, 16
-            note Fs5
-            note Gs5
-            noteL As5, 72
-            noteL Ds6, 24
+    repeatEnd
+    repeatSection2Start
             noteL Ds6, 96
             note Ds6
             note Cs6
@@ -699,20 +688,18 @@ Music_07_Channel_3:
             waitL 16
             note A3
             note Gs3
+    repeatStart
             noteL G3, 48
             waitL 16
             note G3
             note Fs3
             noteL F3, 48
             waitL 16
+    repeatSection1Start
             note As2
             note F3
-            noteL G3, 48
-            waitL 16
-            note G3
-            note Fs3
-            noteL F3, 48
-            waitL 16
+    repeatEnd
+    repeatSection2Start
             note F3
             note E3
             noteL Ds3, 48
@@ -789,6 +776,7 @@ Music_07_Channel_4:
             noteL As5, 255
       setRelease 1
             waitL 33
+    repeatStart
             noteL Gs5, 48
             note Ds5
             noteL Cs6, 156
@@ -804,6 +792,7 @@ Music_07_Channel_4:
             note Gs5
             noteL As5, 72
             noteL Ds6, 24
+    repeatSection1Start
       sustain
             noteL Ds6, 255
       setRelease 1
@@ -824,21 +813,8 @@ Music_07_Channel_4:
             noteL Cs6, 32
             noteL As5, 30
       vol 9
-            noteL Gs5, 48
-            note Ds5
-            noteL Cs6, 156
-            noteL B5, 12
-            note As5
-            note B5
-            note Gs5
-            note As5
-            note Fs5
-            note Gs5
-            noteL E5, 16
-            note Fs5
-            note Gs5
-            noteL As5, 72
-            noteL Ds6, 24
+    repeatEnd
+    repeatSection2Start
             noteL Ds6, 96
             note Ds6
             note Cs6
@@ -929,41 +905,21 @@ Music_07_Channel_5:
             waitL 199
     mainLoopStart
             waitL 255
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
+    countedLoopStart 10
+            waitL 255
+    countedLoopEnd
             waitL 100
             sampleL 10, 6
+    countedLoopStart 9
             sampleL 11, 4
-            sample 11
-            sample 11
-            sample 11
-            sample 11
-            sample 11
-            sample 11
-            sample 11
-            sample 11
-            sample 11
-            sample 10
-            sample 10
-            sample 10
-            sample 10
-            sample 10
-            sample 10
-            sample 10
-            sample 10
-            sample 10
+    countedLoopEnd
+    countedLoopStart 8
+            sampleL 10, 4
+    countedLoopEnd
             sample 9
             sample 9
             sampleL 9, 6
+    repeatStart
             sampleL 9, 24
             sampleL 10, 8
             sample 10
@@ -977,38 +933,18 @@ Music_07_Channel_5:
             sampleL 9, 72
             sampleL 9, 24
             sampleL 9, 6
+    countedLoopStart 3
             sampleL 10, 4
-            sample 10
-            sample 10
-            sample 10
+    countedLoopEnd
             sample 11
             sample 11
             sample 11
             sample 11
             sample 11
+    repeatSection1Start
             sampleL 11, 6
-            sampleL 9, 24
-            sampleL 10, 8
-            sample 10
-            sample 10
-            sampleL 9, 72
-            sampleL 9, 48
-            sample 9
-            sampleL 10, 8
-            sample 10
-            sample 10
-            sampleL 9, 72
-            sampleL 9, 24
-            sampleL 9, 6
-            sampleL 10, 4
-            sample 10
-            sample 10
-            sample 10
-            sample 11
-            sample 11
-            sample 11
-            sample 11
-            sample 11
+    repeatEnd
+    repeatSection2Start
             sampleL 11, 255
             wait
             wait
@@ -1032,7 +968,9 @@ Music_07_Channel_6:
     mainLoopStart
       setRelease 1
             psgNoteL Gs3, 8
-            psgNote B3
+    repeatStart
+    countedLoopStart 2
+            psgNoteL B3, 8
             psgNote Ds4
             psgNote E4
             psgNote Gs4
@@ -1044,6 +982,7 @@ Music_07_Channel_6:
             psgNote Gs3
             psgNote E3
             psgNote Gs3
+    countedLoopEnd
             psgNote B3
             psgNote Ds4
             psgNote E4
@@ -1053,31 +992,8 @@ Music_07_Channel_6:
             psgNote E4
             psgNote Ds4
             psgNote B3
-            psgNote Gs3
-            psgNote E3
-            psgNote Gs3
-            psgNote B3
-            psgNote Ds4
-            psgNote E4
-            psgNote Gs4
-            psgNote B4
-            psgNote Gs4
-            psgNote E4
-            psgNote Ds4
-            psgNote B3
-            psgNote Gs3
-            psgNote E3
-            psgNote Gs3
-            psgNote B3
-            psgNote Ds4
-            psgNote E4
-            psgNote Gs4
-            psgNote B4
-            psgNote Gs4
-            psgNote E4
-            psgNote Ds4
-            psgNote B3
-            psgNote Gs3
+    countedLoopStart 2
+            psgNoteL Gs3, 8
             psgNote Ds3
             psgNote Gs3
             psgNote As3
@@ -1089,30 +1005,7 @@ Music_07_Channel_6:
             psgNote Ds4
             psgNote B3
             psgNote As3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Gs3
-            psgNote As3
-            psgNote B3
-            psgNote Ds4
-            psgNote Gs4
-            psgNote As4
-            psgNote Gs4
-            psgNote Ds4
-            psgNote B3
-            psgNote As3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Gs3
-            psgNote As3
-            psgNote B3
-            psgNote Ds4
-            psgNote Gs4
-            psgNote As4
-            psgNote Gs4
-            psgNote Ds4
-            psgNote B3
-            psgNote As3
+    countedLoopEnd
             psgNote Gs3
             psgNote Ds3
             psgNote Gs3
@@ -1126,7 +1019,8 @@ Music_07_Channel_6:
             psgNote B3
             psgNote Gs3
             psgNote Ds3
-            psgNote A2
+    countedLoopStart 3
+            psgNoteL A2, 8
             psgNote Cs3
             psgNote Ds3
             psgNote Gs3
@@ -1138,42 +1032,7 @@ Music_07_Channel_6:
             psgNote Gs3
             psgNote Ds3
             psgNote Cs3
-            psgNote A2
-            psgNote Cs3
-            psgNote Ds3
-            psgNote Gs3
-            psgNote A3
-            psgNote Cs4
-            psgNote Ds4
-            psgNote Cs4
-            psgNote A3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Cs3
-            psgNote A2
-            psgNote Cs3
-            psgNote Ds3
-            psgNote Gs3
-            psgNote A3
-            psgNote Cs4
-            psgNote Ds4
-            psgNote Cs4
-            psgNote A3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Cs3
-            psgNote A2
-            psgNote Cs3
-            psgNote Ds3
-            psgNote Gs3
-            psgNote A3
-            psgNote Cs4
-            psgNote Ds4
-            psgNote Cs4
-            psgNote A3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Cs3
+    countedLoopEnd
             psgNote B2
             psgNote Ds3
             psgNote Fs3
@@ -1186,7 +1045,9 @@ Music_07_Channel_6:
             psgNote As3
             psgNote Fs3
             psgNote Ds3
-            psgNote B2
+    repeatSection1Start
+    countedLoopStart 2
+            psgNoteL B2, 8
             psgNote Ds3
             psgNote Fs3
             psgNote As3
@@ -1198,30 +1059,11 @@ Music_07_Channel_6:
             psgNote As3
             psgNote Fs3
             psgNote Ds3
-            psgNote B2
-            psgNote Ds3
-            psgNote Fs3
-            psgNote As3
-            psgNote B3
-            psgNote Ds4
-            psgNote Fs4
-            psgNote Ds4
-            psgNote B3
-            psgNote As3
-            psgNote Fs3
-            psgNote Ds3
-            psgNote B2
-            psgNote Ds3
-            psgNote Fs3
-            psgNote As3
-            psgNote B3
-            psgNote Ds4
-            psgNote Fs4
-            psgNote Ds4
-            psgNote B3
-            psgNote As3
-            psgNote Fs3
-            psgNote Ds3
+    countedLoopEnd
+            psgNote E3
+            psgNote Gs3
+    repeatEnd
+    repeatSection2Start
             psgNote E3
             psgNote Gs3
             psgNote B3
@@ -1233,163 +1075,8 @@ Music_07_Channel_6:
             psgNote E4
             psgNote Ds4
             psgNote B3
-            psgNote Gs3
-            psgNote E3
-            psgNote Gs3
-            psgNote B3
-            psgNote Ds4
-            psgNote E4
-            psgNote Gs4
-            psgNote B4
-            psgNote Gs4
-            psgNote E4
-            psgNote Ds4
-            psgNote B3
-            psgNote Gs3
-            psgNote E3
-            psgNote Gs3
-            psgNote B3
-            psgNote Ds4
-            psgNote E4
-            psgNote Gs4
-            psgNote B4
-            psgNote Gs4
-            psgNote E4
-            psgNote Ds4
-            psgNote B3
-            psgNote Gs3
-            psgNote E3
-            psgNote Gs3
-            psgNote B3
-            psgNote Ds4
-            psgNote E4
-            psgNote Gs4
-            psgNote B4
-            psgNote Gs4
-            psgNote E4
-            psgNote Ds4
-            psgNote B3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Gs3
-            psgNote As3
-            psgNote B3
-            psgNote Ds4
-            psgNote Gs4
-            psgNote As4
-            psgNote Gs4
-            psgNote Ds4
-            psgNote B3
-            psgNote As3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Gs3
-            psgNote As3
-            psgNote B3
-            psgNote Ds4
-            psgNote Gs4
-            psgNote As4
-            psgNote Gs4
-            psgNote Ds4
-            psgNote B3
-            psgNote As3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Gs3
-            psgNote As3
-            psgNote B3
-            psgNote Ds4
-            psgNote Gs4
-            psgNote As4
-            psgNote Gs4
-            psgNote Ds4
-            psgNote B3
-            psgNote As3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Gs3
-            psgNote As3
-            psgNote B3
-            psgNote Ds4
-            psgNote Gs4
-            psgNote As4
-            psgNote Gs4
-            psgNote Ds4
-            psgNote B3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote A2
-            psgNote Cs3
-            psgNote Ds3
-            psgNote Gs3
-            psgNote A3
-            psgNote Cs4
-            psgNote Ds4
-            psgNote Cs4
-            psgNote A3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Cs3
-            psgNote A2
-            psgNote Cs3
-            psgNote Ds3
-            psgNote Gs3
-            psgNote A3
-            psgNote Cs4
-            psgNote Ds4
-            psgNote Cs4
-            psgNote A3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Cs3
-            psgNote A2
-            psgNote Cs3
-            psgNote Ds3
-            psgNote Gs3
-            psgNote A3
-            psgNote Cs4
-            psgNote Ds4
-            psgNote Cs4
-            psgNote A3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Cs3
-            psgNote A2
-            psgNote Cs3
-            psgNote Ds3
-            psgNote Gs3
-            psgNote A3
-            psgNote Cs4
-            psgNote Ds4
-            psgNote Cs4
-            psgNote A3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Cs3
-            psgNote B2
-            psgNote Ds3
-            psgNote Fs3
-            psgNote As3
-            psgNote B3
-            psgNote Ds4
-            psgNote Fs4
-            psgNote Ds4
-            psgNote B3
-            psgNote As3
-            psgNote Fs3
-            psgNote Ds3
-            psgNote E3
-            psgNote Gs3
-            psgNote B3
-            psgNote Ds4
-            psgNote E4
-            psgNote Gs4
-            psgNote B4
-            psgNote Gs4
-            psgNote E4
-            psgNote Ds4
-            psgNote B3
-            psgNote Gs3
+    countedLoopStart 1
+            psgNoteL Gs3, 8
             psgNote E3
             psgNote Gs3
             psgNote A3
@@ -1401,30 +1088,16 @@ Music_07_Channel_6:
             psgNote E4
             psgNote Cs4
             psgNote A3
-            psgNote Gs3
-            psgNote E3
-            psgNote Gs3
-            psgNote A3
-            psgNote Cs4
-            psgNote E4
-            psgNote Gs4
-            psgNote A4
-            psgNote Gs4
-            psgNote E4
-            psgNote Cs4
-            psgNote A3
+    countedLoopEnd
             psgNote E3
             psgNote A2
-            psgNote Cs3
+    countedLoopStart 1
+            psgNoteL Cs3, 8
             psgNote Ds3
             psgNote E3
             psgNote Gs3
             psgNote A3
-            psgNote Cs3
-            psgNote Ds3
-            psgNote E3
-            psgNote Gs3
-            psgNote A3
+    countedLoopEnd
             psgNote Cs4
             psgNote E3
             psgNote Gs3
@@ -1444,18 +1117,14 @@ Music_07_Channel_6:
             psgNote Cs4
             psgNote Ds4
             psgNoteL Gs4, 48
+    countedLoopStart 1
             psgNoteL Fs3, 8
             psgNote Ds3
             psgNote Cs3
             psgNote Gs2
             psgNote Cs3
             psgNote Ds3
-            psgNote Fs3
-            psgNote Ds3
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Ds3
+    countedLoopEnd
             psgNote Gs3
             psgNote Ds3
             psgNote Gs3
@@ -1485,18 +1154,14 @@ Music_07_Channel_6:
             psgNote Gs4
             psgNote As4
             psgNoteL Ds5, 48
+    countedLoopStart 1
             psgNoteL Gs3, 8
             psgNote Ds3
             psgNote Cs3
             psgNote Gs2
             psgNote Cs3
             psgNote Ds3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Ds3
+    countedLoopEnd
             psgNote Fs3
             psgNote Cs3
             psgNote Fs3
@@ -1593,7 +1258,9 @@ Music_07_Channel_7:
       psgInst 028h
       setRelease 1
             psgNoteL E3, 8
-            psgNote Gs3
+    repeatStart
+    countedLoopStart 2
+            psgNoteL Gs3, 8
             psgNote B3
             psgNote Ds4
             psgNote E4
@@ -1605,6 +1272,7 @@ Music_07_Channel_7:
             psgNote B3
             psgNote Gs3
             psgNote E3
+    countedLoopEnd
             psgNote Gs3
             psgNote B3
             psgNote Ds4
@@ -1615,31 +1283,8 @@ Music_07_Channel_7:
             psgNote E4
             psgNote Ds4
             psgNote B3
-            psgNote Gs3
-            psgNote E3
-            psgNote Gs3
-            psgNote B3
-            psgNote Ds4
-            psgNote E4
-            psgNote Gs4
-            psgNote B4
-            psgNote Gs4
-            psgNote E4
-            psgNote Ds4
-            psgNote B3
-            psgNote Gs3
-            psgNote E3
-            psgNote Gs3
-            psgNote B3
-            psgNote Ds4
-            psgNote E4
-            psgNote Gs4
-            psgNote B4
-            psgNote Gs4
-            psgNote E4
-            psgNote Ds4
-            psgNote B3
-            psgNote Gs3
+    countedLoopStart 2
+            psgNoteL Gs3, 8
             psgNote Ds3
             psgNote Gs3
             psgNote As3
@@ -1651,30 +1296,7 @@ Music_07_Channel_7:
             psgNote Ds4
             psgNote B3
             psgNote As3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Gs3
-            psgNote As3
-            psgNote B3
-            psgNote Ds4
-            psgNote Gs4
-            psgNote As4
-            psgNote Gs4
-            psgNote Ds4
-            psgNote B3
-            psgNote As3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Gs3
-            psgNote As3
-            psgNote B3
-            psgNote Ds4
-            psgNote Gs4
-            psgNote As4
-            psgNote Gs4
-            psgNote Ds4
-            psgNote B3
-            psgNote As3
+    countedLoopEnd
             psgNote Gs3
             psgNote Ds3
             psgNote Gs3
@@ -1688,7 +1310,8 @@ Music_07_Channel_7:
             psgNote B3
             psgNote Gs3
             psgNote Ds3
-            psgNote A2
+    countedLoopStart 3
+            psgNoteL A2, 8
             psgNote Cs3
             psgNote Ds3
             psgNote Gs3
@@ -1700,42 +1323,7 @@ Music_07_Channel_7:
             psgNote Gs3
             psgNote Ds3
             psgNote Cs3
-            psgNote A2
-            psgNote Cs3
-            psgNote Ds3
-            psgNote Gs3
-            psgNote A3
-            psgNote Cs4
-            psgNote Ds4
-            psgNote Cs4
-            psgNote A3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Cs3
-            psgNote A2
-            psgNote Cs3
-            psgNote Ds3
-            psgNote Gs3
-            psgNote A3
-            psgNote Cs4
-            psgNote Ds4
-            psgNote Cs4
-            psgNote A3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Cs3
-            psgNote A2
-            psgNote Cs3
-            psgNote Ds3
-            psgNote Gs3
-            psgNote A3
-            psgNote Cs4
-            psgNote Ds4
-            psgNote Cs4
-            psgNote A3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Cs3
+    countedLoopEnd
             psgNote B2
             psgNote Ds3
             psgNote Fs3
@@ -1748,7 +1336,9 @@ Music_07_Channel_7:
             psgNote As3
             psgNote Fs3
             psgNote Ds3
-            psgNote B2
+    repeatSection1Start
+    countedLoopStart 2
+            psgNoteL B2, 8
             psgNote Ds3
             psgNote Fs3
             psgNote As3
@@ -1760,30 +1350,10 @@ Music_07_Channel_7:
             psgNote As3
             psgNote Fs3
             psgNote Ds3
-            psgNote B2
-            psgNote Ds3
-            psgNote Fs3
-            psgNote As3
-            psgNote B3
-            psgNote Ds4
-            psgNote Fs4
-            psgNote Ds4
-            psgNote B3
-            psgNote As3
-            psgNote Fs3
-            psgNote Ds3
-            psgNote B2
-            psgNote Ds3
-            psgNote Fs3
-            psgNote As3
-            psgNote B3
-            psgNote Ds4
-            psgNote Fs4
-            psgNote Ds4
-            psgNote B3
-            psgNote As3
-            psgNote Fs3
-            psgNote Ds3
+    countedLoopEnd
+            psgNote E3
+    repeatEnd
+    repeatSection2Start
             psgNote E3
             psgNote Gs3
             psgNote B3
@@ -1795,163 +1365,8 @@ Music_07_Channel_7:
             psgNote E4
             psgNote Ds4
             psgNote B3
-            psgNote Gs3
-            psgNote E3
-            psgNote Gs3
-            psgNote B3
-            psgNote Ds4
-            psgNote E4
-            psgNote Gs4
-            psgNote B4
-            psgNote Gs4
-            psgNote E4
-            psgNote Ds4
-            psgNote B3
-            psgNote Gs3
-            psgNote E3
-            psgNote Gs3
-            psgNote B3
-            psgNote Ds4
-            psgNote E4
-            psgNote Gs4
-            psgNote B4
-            psgNote Gs4
-            psgNote E4
-            psgNote Ds4
-            psgNote B3
-            psgNote Gs3
-            psgNote E3
-            psgNote Gs3
-            psgNote B3
-            psgNote Ds4
-            psgNote E4
-            psgNote Gs4
-            psgNote B4
-            psgNote Gs4
-            psgNote E4
-            psgNote Ds4
-            psgNote B3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Gs3
-            psgNote As3
-            psgNote B3
-            psgNote Ds4
-            psgNote Gs4
-            psgNote As4
-            psgNote Gs4
-            psgNote Ds4
-            psgNote B3
-            psgNote As3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Gs3
-            psgNote As3
-            psgNote B3
-            psgNote Ds4
-            psgNote Gs4
-            psgNote As4
-            psgNote Gs4
-            psgNote Ds4
-            psgNote B3
-            psgNote As3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Gs3
-            psgNote As3
-            psgNote B3
-            psgNote Ds4
-            psgNote Gs4
-            psgNote As4
-            psgNote Gs4
-            psgNote Ds4
-            psgNote B3
-            psgNote As3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Gs3
-            psgNote As3
-            psgNote B3
-            psgNote Ds4
-            psgNote Gs4
-            psgNote As4
-            psgNote Gs4
-            psgNote Ds4
-            psgNote B3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote A2
-            psgNote Cs3
-            psgNote Ds3
-            psgNote Gs3
-            psgNote A3
-            psgNote Cs4
-            psgNote Ds4
-            psgNote Cs4
-            psgNote A3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Cs3
-            psgNote A2
-            psgNote Cs3
-            psgNote Ds3
-            psgNote Gs3
-            psgNote A3
-            psgNote Cs4
-            psgNote Ds4
-            psgNote Cs4
-            psgNote A3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Cs3
-            psgNote A2
-            psgNote Cs3
-            psgNote Ds3
-            psgNote Gs3
-            psgNote A3
-            psgNote Cs4
-            psgNote Ds4
-            psgNote Cs4
-            psgNote A3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Cs3
-            psgNote A2
-            psgNote Cs3
-            psgNote Ds3
-            psgNote Gs3
-            psgNote A3
-            psgNote Cs4
-            psgNote Ds4
-            psgNote Cs4
-            psgNote A3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Cs3
-            psgNote B2
-            psgNote Ds3
-            psgNote Fs3
-            psgNote As3
-            psgNote B3
-            psgNote Ds4
-            psgNote Fs4
-            psgNote Ds4
-            psgNote B3
-            psgNote As3
-            psgNote Fs3
-            psgNote Ds3
-            psgNote E3
-            psgNote Gs3
-            psgNote B3
-            psgNote Ds4
-            psgNote E4
-            psgNote Gs4
-            psgNote B4
-            psgNote Gs4
-            psgNote E4
-            psgNote Ds4
-            psgNote B3
-            psgNote Gs3
+    countedLoopStart 1
+            psgNoteL Gs3, 8
             psgNote E3
             psgNote Gs3
             psgNote A3
@@ -1963,30 +1378,16 @@ Music_07_Channel_7:
             psgNote E4
             psgNote Cs4
             psgNote A3
-            psgNote Gs3
-            psgNote E3
-            psgNote Gs3
-            psgNote A3
-            psgNote Cs4
-            psgNote E4
-            psgNote Gs4
-            psgNote A4
-            psgNote Gs4
-            psgNote E4
-            psgNote Cs4
-            psgNote A3
+    countedLoopEnd
             psgNote E3
             psgNote A2
-            psgNote Cs3
+    countedLoopStart 1
+            psgNoteL Cs3, 8
             psgNote Ds3
             psgNote E3
             psgNote Gs3
             psgNote A3
-            psgNote Cs3
-            psgNote Ds3
-            psgNote E3
-            psgNote Gs3
-            psgNote A3
+    countedLoopEnd
             psgNote Cs4
             psgNote E3
             psgNote Gs3
@@ -2006,18 +1407,14 @@ Music_07_Channel_7:
             psgNote Cs4
             psgNote Ds4
             psgNoteL Gs4, 48
+    countedLoopStart 1
             psgNoteL Fs3, 8
             psgNote Ds3
             psgNote Cs3
             psgNote Gs2
             psgNote Cs3
             psgNote Ds3
-            psgNote Fs3
-            psgNote Ds3
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Ds3
+    countedLoopEnd
             psgNote Gs3
             psgNote Ds3
             psgNote Gs3
@@ -2047,18 +1444,14 @@ Music_07_Channel_7:
             psgNote Gs4
             psgNote As4
             psgNoteL Ds5, 48
+    countedLoopStart 1
             psgNoteL Gs3, 8
             psgNote Ds3
             psgNote Cs3
             psgNote Gs2
             psgNote Cs3
             psgNote Ds3
-            psgNote Gs3
-            psgNote Ds3
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Ds3
+    countedLoopEnd
             psgNote Fs3
             psgNote Cs3
             psgNote Fs3

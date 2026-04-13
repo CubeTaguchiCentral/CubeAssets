@@ -172,6 +172,7 @@ Music_08_Channel_4:
       inst 40
       vol 12
             note Fs3
+    repeatStart
             note Fs3
       inst 41
       vol 12
@@ -180,41 +181,20 @@ Music_08_Channel_4:
       vol 12
             note Fs3
             note Fs3
+    repeatSection1Start
             note Fs3
-            note Fs3
+    repeatEnd
+    repeatSection2Start
       inst 41
       vol 12
             note As3
       inst 40
       vol 12
-            note Fs3
-            note Fs3
-      inst 41
-      vol 12
-            note As3
-      inst 40
-      vol 12
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-      inst 41
-      vol 12
-            note As3
-      inst 40
-      vol 12
-            note Fs3
-            note Fs3
+    countedLoopStart 12
+            noteL Fs3, 6
+    countedLoopEnd
+    repeatEnd
+    repeatSection3Start
             note Fs3
       inst 41
       vol 12
@@ -231,11 +211,9 @@ Music_08_Channel_5:
       stereo 0c0h
             sampleL 1, 3
             sample 1
+    countedLoopStart 4
             sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sample 1
+    countedLoopEnd
             sample 0
             sample 0
             sampleL 0, 12

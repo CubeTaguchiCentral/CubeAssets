@@ -21,6 +21,7 @@ Music_08_Channel_0:
       setRelease 1
             noteL E6, 9
             waitL 15
+    repeatStart
             noteL E6, 16
             noteL D6, 4
             wait
@@ -30,6 +31,7 @@ Music_08_Channel_0:
             waitL 19
             noteL C6, 8
             waitL 16
+    repeatSection1Start
             noteL F5, 29
             waitL 3
             noteL A5, 8
@@ -50,15 +52,8 @@ Music_08_Channel_0:
             waitL 24
             noteL E6, 12
             wait
-            noteL E6, 16
-            noteL D6, 4
-            wait
-            noteL E6, 11
-            waitL 5
-            note D6
-            waitL 19
-            noteL C6, 8
-            waitL 16
+    repeatEnd
+    repeatSection2Start
             noteL F5, 27
             waitL 5
             noteL A5, 9
@@ -477,6 +472,7 @@ Music_08_Channel_0:
       vol 0
       shifting 0
             waitL 36
+    countedLoopStart 31
             waitL 48
             wait
             wait
@@ -487,324 +483,10 @@ Music_08_Channel_0:
             wait
             wait
             wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
+    countedLoopEnd
+    countedLoopStart 7
+            waitL 48
+    countedLoopEnd
             waitL 34
     mainLoopEnd
 Music_08_Channel_1:
@@ -958,6 +640,7 @@ Music_08_Channel_1:
             note As3
             note A3
             note G3
+    repeatStart
       setRelease 8
             note F3
       setRelease 9
@@ -966,6 +649,7 @@ Music_08_Channel_1:
             note F3
             noteL C4, 16
             noteL F4, 8
+    repeatSection1Start
       setRelease 10
             noteL F3, 24
             note F3
@@ -973,14 +657,8 @@ Music_08_Channel_1:
             note F3
       setRelease 6
             note C4
-      setRelease 8
-            note F3
-      setRelease 9
-            note F3
-      setRelease 7
-            note F3
-            noteL C4, 16
-            noteL F4, 8
+    repeatEnd
+    repeatSection2Start
       setRelease 9
             noteL F3, 24
       setRelease 8
@@ -1154,6 +832,7 @@ Music_08_Channel_1:
             note G4
             note A4
             note C5
+    repeatStart
             note E4
             note G4
             note B4
@@ -1172,6 +851,7 @@ Music_08_Channel_1:
             note E4
             noteL G4, 16
             noteL E4, 8
+    repeatSection1Start
       setRelease 11
             noteL C4, 24
             noteL C4, 16
@@ -1203,24 +883,8 @@ Music_08_Channel_1:
             note A4
             note G4
             note F4
-            note E4
-            note G4
-            note B4
-            noteL G4, 16
-            noteL E4, 8
-            noteL D4, 24
-            note E4
-            note F4
-            note G4
-            note Cs4
-            note Ds4
-            note F4
-            note Gs4
-            note C4
-            note D4
-            note E4
-            noteL G4, 16
-            noteL E4, 8
+    repeatEnd
+    repeatSection2Start
       setRelease 83
             noteL C4, 96
             wait
@@ -1241,6 +905,7 @@ Music_08_Channel_1:
       vol 0
       shifting 0
             waitL 36
+    countedLoopStart 31
             waitL 48
             wait
             wait
@@ -1251,324 +916,10 @@ Music_08_Channel_1:
             wait
             wait
             wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
+    countedLoopEnd
+    countedLoopStart 7
+            waitL 48
+    countedLoopEnd
             waitL 34
     mainLoopEnd
 Music_08_Channel_2:
@@ -1580,12 +931,10 @@ Music_08_Channel_2:
       setRelease 2
             noteL A4, 9
             waitL 39
+    countedLoopStart 2
             noteL A4, 8
             waitL 40
-            noteL A4, 8
-            waitL 40
-            noteL A4, 8
-            waitL 40
+    countedLoopEnd
             noteL G4, 6
             waitL 42
             noteL G4, 6
@@ -1726,6 +1075,7 @@ Music_08_Channel_2:
             wait
             noteL D6, 8
             waitL 16
+    countedLoopStart 1
             noteL A5, 33
             waitL 7
             noteL F5, 50
@@ -1785,65 +1135,7 @@ Music_08_Channel_2:
             waitL 5
             note Ds5
             waitL 3
-            noteL A5, 33
-            waitL 7
-            noteL F5, 50
-            waitL 6
-            noteL G5, 31
-            waitL 9
-            noteL E5, 47
-            waitL 9
-            noteL F5, 32
-            waitL 8
-            noteL D5, 4
-            waitL 20
-            noteL D5, 8
-            noteL F5, 17
-            waitL 7
-            noteL C5, 17
-            waitL 7
-            noteL D5, 17
-            waitL 7
-            noteL Ds5, 18
-            waitL 6
-            noteL E5, 18
-            waitL 6
-            noteL A5, 35
-            waitL 5
-            noteL F5, 50
-            waitL 6
-            noteL G5, 40
-            waitL 8
-            noteL B5, 41
-            waitL 7
-            noteL F5, 31
-            waitL 9
-            noteL D5, 6
-            waitL 18
-            noteL D5, 8
-            noteL F5, 18
-            waitL 6
-            noteL F5, 44
-            waitL 4
-            noteL Cs5, 42
-            waitL 6
-            noteL E5, 96
-            noteL E5, 6
-            waitL 18
-            noteL C5, 12
-            waitL 4
-            noteL C5, 5
-            waitL 3
-            noteL D5, 11
-            waitL 5
-      setRelease 1
-            noteL D5, 2
-            waitL 6
-      setRelease 2
-            noteL Ds5, 11
-            waitL 5
-            note Ds5
-            waitL 3
+    countedLoopEnd
             noteL E5, 8
             waitL 16
             noteL E5, 8
@@ -1861,6 +1153,7 @@ Music_08_Channel_2:
       vol 0
       shifting 0
             waitL 36
+    countedLoopStart 31
             waitL 48
             wait
             wait
@@ -1871,324 +1164,10 @@ Music_08_Channel_2:
             wait
             wait
             wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
+    countedLoopEnd
+    countedLoopStart 7
+            waitL 48
+    countedLoopEnd
             waitL 34
     mainLoopEnd
 Music_08_Channel_3:
@@ -2351,6 +1330,7 @@ Music_08_Channel_3:
             wait
             noteL G6, 9
             waitL 15
+    repeatStart
             noteL E6, 31
             waitL 9
             noteL C6, 49
@@ -2376,6 +1356,7 @@ Music_08_Channel_3:
             waitL 4
             noteL E6, 34
             waitL 6
+    repeatSection1Start
             noteL C6, 49
             waitL 7
             noteL D6, 42
@@ -2407,31 +1388,8 @@ Music_08_Channel_3:
             noteL Fs5, 11
             waitL 5
             noteL Fs5, 8
-            noteL E6, 31
-            waitL 9
-            noteL C6, 49
-            waitL 7
-            noteL D6, 30
-            waitL 10
-            noteL B5, 47
-            waitL 9
-            noteL C6, 31
-            waitL 9
-            noteL A5, 4
-            waitL 20
-            noteL A5, 8
-            noteL C6, 15
-            waitL 9
-            noteL E5, 17
-            waitL 7
-            noteL F5, 18
-            waitL 6
-            noteL Fs5, 18
-            waitL 6
-            noteL G5, 20
-            waitL 4
-            noteL E6, 34
-            waitL 6
+    repeatEnd
+    repeatSection2Start
             noteL C6, 48
             waitL 8
             noteL D6, 42
@@ -2492,6 +1450,7 @@ Music_08_Channel_3:
       setRelease 3
             noteL E6, 12
             wait
+    repeatStart
             noteL E6, 16
       setRelease 4
             noteL D6, 8
@@ -2501,6 +1460,7 @@ Music_08_Channel_3:
             noteL D6, 24
       setRelease 16
             note C6
+    repeatSection1Start
       setRelease 3
             noteL F5, 32
       setRelease 16
@@ -2520,15 +1480,8 @@ Music_08_Channel_3:
             noteL As5, 104
       setRelease 12
             noteL E6, 24
-            noteL E6, 16
-      setRelease 4
-            noteL D6, 8
-      setRelease 5
-            noteL E6, 16
-      setRelease 19
-            noteL D6, 24
-      setRelease 16
-            note C6
+    repeatEnd
+    repeatSection2Start
       setRelease 5
             noteL F5, 32
       setRelease 15
@@ -2858,6 +1811,7 @@ Music_08_Channel_3:
             noteL A4, 255
             note C2
             note C2
+    countedLoopStart 6
       stereo 0c0h
             noteL C2, 24
       stereo 080h
@@ -2868,66 +1822,7 @@ Music_08_Channel_3:
       stereo 040h
             noteL G2, 16
             noteL G2, 8
-      stereo 0c0h
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 16
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL F2, 24
-      stereo 040h
-            noteL G2, 16
-            noteL G2, 8
-      stereo 0c0h
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 16
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL F2, 24
-      stereo 040h
-            noteL G2, 16
-            noteL G2, 8
-      stereo 0c0h
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 16
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL F2, 24
-      stereo 040h
-            noteL G2, 16
-            noteL G2, 8
-      stereo 0c0h
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 16
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL F2, 24
-      stereo 040h
-            noteL G2, 16
-            noteL G2, 8
-      stereo 0c0h
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 16
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL F2, 24
-      stereo 040h
-            noteL G2, 16
-            noteL G2, 8
-      stereo 0c0h
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 16
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL F2, 24
-      stereo 040h
-            noteL G2, 16
-            noteL G2, 8
+    countedLoopEnd
       stereo 0c0h
             noteL C2, 16
             noteL F2, 32
@@ -2935,6 +1830,8 @@ Music_08_Channel_3:
             noteL Ds2, 16
       stereo 040h
             noteL E2, 8
+    repeatStart
+    countedLoopStart 2
       stereo 0c0h
             noteL C2, 16
       stereo 040h
@@ -2948,6 +1845,7 @@ Music_08_Channel_3:
             noteL F2, 16
       stereo 080h
             noteL Fs2, 8
+    countedLoopEnd
       stereo 0c0h
             noteL C2, 16
       stereo 040h
@@ -2959,84 +1857,11 @@ Music_08_Channel_3:
             noteL G2, 8
       stereo 0c0h
             noteL F2, 16
+    repeatSection1Start
       stereo 080h
             noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
+    repeatEnd
+    repeatSection2Start
       stereo 040h
             noteL E2, 24
             noteL G2, 8
@@ -3049,56 +1874,8 @@ Music_08_Channel_3:
             noteL F2, 16
       stereo 080h
             noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
+    repeatEnd
+    repeatSection3Start
       stereo 080h
             noteL Fs2, 8
       stereo 0c0h
@@ -3113,6 +1890,7 @@ Music_08_Channel_3:
       stereo 040h
             noteL E2, 16
       stereo 0c0h
+    countedLoopStart 2
             noteL C2, 24
       stereo 080h
             noteL Fs2, 8
@@ -3123,26 +1901,7 @@ Music_08_Channel_3:
             noteL Fs2, 8
       stereo 0c0h
             noteL Cs2, 16
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL Cs2, 16
+    countedLoopEnd
             noteL C2, 24
       stereo 080h
             noteL Fs2, 8
@@ -3156,21 +1915,13 @@ Music_08_Channel_3:
             noteL Cs2, 16
             noteL C2, 24
             noteL C2, 8
+    countedLoopStart 2
             noteL Cs2, 24
             noteL C2, 16
       stereo 080h
             noteL Fs2, 8
       stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
+    countedLoopEnd
             noteL Cs2, 16
       setRelease 6
             noteL C2, 24
@@ -3193,9 +1944,11 @@ Music_08_Channel_3:
       stereo 080h
             noteL D2, 8
       stereo 0c0h
+    repeatStart
             note Ds2
       stereo 040h
             note E2
+    countedLoopStart 6
       stereo 0c0h
             noteL C2, 16
       stereo 040h
@@ -3209,194 +1962,21 @@ Music_08_Channel_3:
             noteL Cs2, 16
       stereo 080h
             noteL Fs2, 8
+    countedLoopEnd
       stereo 0c0h
             noteL C2, 16
       stereo 040h
             noteL G2, 8
       stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
+    repeatSection1Start
             noteL Cs2, 24
             noteL C2, 16
       stereo 040h
             noteL G2, 8
       stereo 0c0h
             note Ds2
-            note Ds2
-      stereo 040h
-            note E2
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
+    repeatEnd
+    repeatSection2Start
             noteL Cs2, 16
             noteL Cs2, 8
       stereo 040h
@@ -3406,6 +1986,7 @@ Music_08_Channel_3:
             note Cs2
             note Cs2
             note Ds2
+    countedLoopStart 8
             noteL C2, 16
       stereo 040h
             noteL G2, 8
@@ -3419,110 +2000,7 @@ Music_08_Channel_3:
       stereo 080h
             noteL Fs2, 8
       stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
+    countedLoopEnd
             noteL C2, 24
             noteL Cs2, 16
             noteL Cs2, 8
@@ -3531,14 +2009,9 @@ Music_08_Channel_3:
       stereo 080h
             note D2
       stereo 0c0h
-            note Ds2
-      stereo 040h
-            note E2
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
+    repeatEnd
+    repeatSection3Start
+    repeatStart
             noteL Cs2, 24
             noteL C2, 16
       stereo 040h
@@ -3548,110 +2021,13 @@ Music_08_Channel_3:
       stereo 080h
             noteL Fs2, 8
       stereo 0c0h
+    repeatSection1Start
             noteL C2, 16
       stereo 040h
             noteL G2, 8
       stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
+    repeatEnd
+    repeatSection2Start
       setRelease 96
             noteL C2, 192
             note C2
@@ -3668,6 +2044,7 @@ Music_08_Channel_4:
       setRelease 3
             noteL E6, 12
             wait
+    repeatStart
             noteL E6, 16
       setRelease 4
             noteL D6, 8
@@ -3677,6 +2054,7 @@ Music_08_Channel_4:
             noteL D6, 24
       setRelease 16
             note C6
+    repeatSection1Start
       setRelease 3
             noteL F5, 32
       setRelease 16
@@ -3696,15 +2074,8 @@ Music_08_Channel_4:
             noteL As5, 104
       setRelease 12
             noteL E6, 24
-            noteL E6, 16
-      setRelease 4
-            noteL D6, 8
-      setRelease 5
-            noteL E6, 16
-      setRelease 19
-            noteL D6, 24
-      setRelease 16
-            note C6
+    repeatEnd
+    repeatSection2Start
       setRelease 5
             noteL F5, 32
       setRelease 15
@@ -4034,11 +2405,13 @@ Music_08_Channel_4:
       shifting 32
       stereo 080h
       vol 0
+    repeatStart
       setRelease 1
             noteL Gs3, 248
             noteL A4, 255
             note C2
             note C2
+    countedLoopStart 6
       stereo 0c0h
             noteL C2, 24
       stereo 080h
@@ -4049,66 +2422,7 @@ Music_08_Channel_4:
       stereo 040h
             noteL G2, 16
             noteL G2, 8
-      stereo 0c0h
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 16
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL F2, 24
-      stereo 040h
-            noteL G2, 16
-            noteL G2, 8
-      stereo 0c0h
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 16
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL F2, 24
-      stereo 040h
-            noteL G2, 16
-            noteL G2, 8
-      stereo 0c0h
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 16
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL F2, 24
-      stereo 040h
-            noteL G2, 16
-            noteL G2, 8
-      stereo 0c0h
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 16
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL F2, 24
-      stereo 040h
-            noteL G2, 16
-            noteL G2, 8
-      stereo 0c0h
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 16
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL F2, 24
-      stereo 040h
-            noteL G2, 16
-            noteL G2, 8
-      stereo 0c0h
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 16
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL F2, 24
-      stereo 040h
-            noteL G2, 16
-            noteL G2, 8
+    countedLoopEnd
       stereo 0c0h
             noteL C2, 16
             noteL F2, 32
@@ -4116,6 +2430,7 @@ Music_08_Channel_4:
             noteL Ds2, 16
       stereo 040h
             noteL E2, 8
+    countedLoopStart 6
       stereo 0c0h
             noteL C2, 16
       stereo 040h
@@ -4129,84 +2444,7 @@ Music_08_Channel_4:
             noteL F2, 16
       stereo 080h
             noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
+    countedLoopEnd
       stereo 0c0h
             noteL C2, 16
       stereo 040h
@@ -4220,6 +2458,7 @@ Music_08_Channel_4:
             noteL F2, 16
       stereo 040h
             noteL E2, 24
+    countedLoopStart 3
             noteL G2, 8
       stereo 0c0h
             noteL F2, 24
@@ -4233,45 +2472,7 @@ Music_08_Channel_4:
       stereo 0c0h
             noteL C2, 16
       stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
+    countedLoopEnd
             noteL G2, 8
       stereo 0c0h
             noteL F2, 24
@@ -4294,6 +2495,7 @@ Music_08_Channel_4:
       stereo 040h
             noteL E2, 16
       stereo 0c0h
+    countedLoopStart 2
             noteL C2, 24
       stereo 080h
             noteL Fs2, 8
@@ -4304,26 +2506,7 @@ Music_08_Channel_4:
             noteL Fs2, 8
       stereo 0c0h
             noteL Cs2, 16
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL Cs2, 16
+    countedLoopEnd
             noteL C2, 24
       stereo 080h
             noteL Fs2, 8
@@ -4337,21 +2520,13 @@ Music_08_Channel_4:
             noteL Cs2, 16
             noteL C2, 24
             noteL C2, 8
+    countedLoopStart 2
             noteL Cs2, 24
             noteL C2, 16
       stereo 080h
             noteL Fs2, 8
       stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
+    countedLoopEnd
             noteL Cs2, 16
       setRelease 6
             noteL C2, 24
@@ -4377,6 +2552,7 @@ Music_08_Channel_4:
             note Ds2
       stereo 040h
             note E2
+    countedLoopStart 6
       stereo 0c0h
             noteL C2, 16
       stereo 040h
@@ -4390,84 +2566,7 @@ Music_08_Channel_4:
             noteL Cs2, 16
       stereo 080h
             noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
+    countedLoopEnd
       stereo 0c0h
             noteL C2, 16
       stereo 040h
@@ -4482,6 +2581,7 @@ Music_08_Channel_4:
             note Ds2
       stereo 040h
             note E2
+    countedLoopStart 6
       stereo 0c0h
             noteL C2, 16
       stereo 040h
@@ -4495,84 +2595,7 @@ Music_08_Channel_4:
             noteL Cs2, 16
       stereo 080h
             noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
+    countedLoopEnd
       stereo 0c0h
             noteL C2, 16
       stereo 040h
@@ -4587,6 +2610,7 @@ Music_08_Channel_4:
             note Cs2
             note Cs2
             note Ds2
+    countedLoopStart 8
             noteL C2, 16
       stereo 040h
             noteL G2, 8
@@ -4600,110 +2624,7 @@ Music_08_Channel_4:
       stereo 080h
             noteL Fs2, 8
       stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
+    countedLoopEnd
             noteL C2, 24
             noteL Cs2, 16
             noteL Cs2, 8
@@ -4715,6 +2636,7 @@ Music_08_Channel_4:
             note Ds2
       stereo 040h
             note E2
+    countedLoopStart 8
       stereo 0c0h
             noteL C2, 16
       stereo 040h
@@ -4728,920 +2650,19 @@ Music_08_Channel_4:
             noteL Cs2, 16
       stereo 080h
             noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
+    countedLoopEnd
       stereo 0c0h
       setRelease 96
             noteL C2, 192
             note C2
+    repeatSection1Start
             wait
-      setRelease 1
-            noteL Gs3, 248
-            noteL A4, 255
-            note C2
-            note C2
-      stereo 0c0h
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 16
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL F2, 24
-      stereo 040h
-            noteL G2, 16
-            noteL G2, 8
-      stereo 0c0h
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 16
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL F2, 24
-      stereo 040h
-            noteL G2, 16
-            noteL G2, 8
-      stereo 0c0h
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 16
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL F2, 24
-      stereo 040h
-            noteL G2, 16
-            noteL G2, 8
-      stereo 0c0h
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 16
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL F2, 24
-      stereo 040h
-            noteL G2, 16
-            noteL G2, 8
-      stereo 0c0h
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 16
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL F2, 24
-      stereo 040h
-            noteL G2, 16
-            noteL G2, 8
-      stereo 0c0h
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 16
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL F2, 24
-      stereo 040h
-            noteL G2, 16
-            noteL G2, 8
-      stereo 0c0h
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 16
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL F2, 24
-      stereo 040h
-            noteL G2, 16
-            noteL G2, 8
-      stereo 0c0h
-            noteL C2, 16
-            noteL F2, 32
-            noteL F2, 24
-            noteL Ds2, 16
-      stereo 040h
-            noteL E2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 040h
-            noteL E2, 24
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL F2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 080h
-            noteL D2, 8
-      stereo 0c0h
-            noteL F2, 16
-            noteL Ds2, 8
-            noteL C2, 16
-            noteL Ds2, 8
-      stereo 040h
-            noteL E2, 16
-      stereo 0c0h
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 8
-      stereo 080h
-            note D2
-      stereo 0c0h
-            note Ds2
-            noteL Cs2, 16
-            noteL C2, 24
-            noteL C2, 8
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      setRelease 6
-            noteL C2, 24
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-            noteL C2, 32
-            noteL C2, 24
-            note C2
-            noteL Cs2, 8
-            note Cs2
-            note Cs2
-            noteL Cs2, 72
-      stereo 080h
-            noteL D2, 8
-      stereo 0c0h
-            note Ds2
-      stereo 040h
-            note E2
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            note Ds2
-            note Ds2
-      stereo 040h
-            note E2
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-            noteL Cs2, 8
-      stereo 040h
-            noteL G2, 16
-      stereo 0c0h
-            noteL Cs2, 8
-            note Cs2
-            note Cs2
-            note Ds2
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 24
-            noteL Cs2, 16
-            noteL Cs2, 8
-            noteL Cs2, 16
-            noteL Cs2, 8
-      stereo 080h
-            note D2
-      stereo 0c0h
-            note Ds2
-      stereo 040h
-            note E2
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 24
-            noteL C2, 16
-      stereo 040h
-            noteL G2, 8
-      stereo 0c0h
-            noteL Cs2, 16
-      stereo 080h
-            noteL Fs2, 8
-      stereo 0c0h
-      setRelease 96
-            noteL C2, 192
-            note C2
+    repeatEnd
+    repeatSection2Start
             waitL 156
     mainLoopEnd
 Music_08_Channel_5:
+    countedLoopStart 6
       stereo 0c0h
             sampleL 0, 24
       stereo 080h
@@ -5652,66 +2673,7 @@ Music_08_Channel_5:
       stereo 040h
             sampleL 7, 16
             sampleL 7, 8
-      stereo 0c0h
-            sampleL 0, 24
-      stereo 080h
-            sampleL 6, 16
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 5, 24
-      stereo 040h
-            sampleL 7, 16
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 0, 24
-      stereo 080h
-            sampleL 6, 16
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 5, 24
-      stereo 040h
-            sampleL 7, 16
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 0, 24
-      stereo 080h
-            sampleL 6, 16
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 5, 24
-      stereo 040h
-            sampleL 7, 16
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 0, 24
-      stereo 080h
-            sampleL 6, 16
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 5, 24
-      stereo 040h
-            sampleL 7, 16
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 0, 24
-      stereo 080h
-            sampleL 6, 16
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 5, 24
-      stereo 040h
-            sampleL 7, 16
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 0, 24
-      stereo 080h
-            sampleL 6, 16
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 5, 24
-      stereo 040h
-            sampleL 7, 16
-            sampleL 7, 8
+    countedLoopEnd
       stereo 0c0h
             sampleL 0, 16
             sampleL 5, 32
@@ -5719,6 +2681,8 @@ Music_08_Channel_5:
             sampleL 3, 16
       stereo 040h
             sampleL 4, 8
+    repeatStart
+    countedLoopStart 2
       stereo 0c0h
             sampleL 0, 16
       stereo 040h
@@ -5732,6 +2696,7 @@ Music_08_Channel_5:
             sampleL 5, 16
       stereo 080h
             sampleL 6, 8
+    countedLoopEnd
       stereo 0c0h
             sampleL 0, 16
       stereo 040h
@@ -5743,84 +2708,11 @@ Music_08_Channel_5:
             sampleL 7, 8
       stereo 0c0h
             sampleL 5, 16
+    repeatSection1Start
       stereo 080h
             sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 5, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 5, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 5, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 5, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 5, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 5, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 5, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 5, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 5, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 5, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 5, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 5, 16
+    repeatEnd
+    repeatSection2Start
       stereo 040h
             sampleL 4, 24
             sampleL 7, 8
@@ -5833,56 +2725,8 @@ Music_08_Channel_5:
             sampleL 5, 16
       stereo 080h
             sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 5, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 5, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 5, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 5, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 5, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 5, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 5, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 5, 16
+    repeatEnd
+    repeatSection3Start
       stereo 080h
             sampleL 6, 8
       stereo 0c0h
@@ -5898,6 +2742,7 @@ Music_08_Channel_5:
             sampleL 4, 16
       stereo 0c0h
             sampleL 0, 24
+    repeatStart
       stereo 080h
             sampleL 6, 8
       stereo 0c0h
@@ -5912,26 +2757,15 @@ Music_08_Channel_5:
             sampleL 6, 8
       stereo 0c0h
             sampleL 1, 24
+    repeatSection1Start
             sampleL 0, 16
       stereo 080h
             sampleL 6, 8
       stereo 0c0h
             sampleL 1, 16
             sampleL 0, 24
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 1, 16
-            sampleL 0, 24
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 1, 24
+    repeatEnd
+    repeatSection2Start
             sampleL 0, 8
       stereo 080h
             sample 2
@@ -5947,20 +2781,8 @@ Music_08_Channel_5:
       stereo 0c0h
             sampleL 1, 24
             sampleL 0, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 1, 16
-            sampleL 0, 24
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 1, 24
+    repeatEnd
+    repeatSection3Start
             sampleL 0, 16
       stereo 080h
             sampleL 6, 8
@@ -5976,9 +2798,11 @@ Music_08_Channel_5:
       stereo 080h
             sampleL 2, 8
       stereo 0c0h
+    repeatStart
             sample 3
       stereo 040h
             sample 4
+    countedLoopStart 6
       stereo 0c0h
             sampleL 0, 16
       stereo 040h
@@ -5992,194 +2816,21 @@ Music_08_Channel_5:
             sampleL 1, 16
       stereo 080h
             sampleL 6, 8
+    countedLoopEnd
       stereo 0c0h
             sampleL 0, 16
       stereo 040h
             sampleL 7, 8
       stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
+    repeatSection1Start
             sampleL 1, 24
             sampleL 0, 16
       stereo 040h
             sampleL 7, 8
       stereo 0c0h
             sample 3
-            sample 3
-      stereo 040h
-            sample 4
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
+    repeatEnd
+    repeatSection2Start
             sampleL 1, 16
             sampleL 1, 8
       stereo 040h
@@ -6189,6 +2840,7 @@ Music_08_Channel_5:
             sample 1
             sample 1
             sample 3
+    countedLoopStart 8
             sampleL 0, 16
       stereo 040h
             sampleL 7, 8
@@ -6202,110 +2854,7 @@ Music_08_Channel_5:
       stereo 080h
             sampleL 6, 8
       stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
+    countedLoopEnd
             sampleL 0, 24
             sampleL 1, 16
             sampleL 1, 8
@@ -6314,14 +2863,9 @@ Music_08_Channel_5:
       stereo 080h
             sample 2
       stereo 0c0h
-            sample 3
-      stereo 040h
-            sample 4
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
+    repeatEnd
+    repeatSection3Start
+    repeatStart
             sampleL 1, 24
             sampleL 0, 16
       stereo 040h
@@ -6331,175 +2875,22 @@ Music_08_Channel_5:
       stereo 080h
             sampleL 6, 8
       stereo 0c0h
+    repeatSection1Start
             sampleL 0, 16
       stereo 040h
             sampleL 7, 8
       stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 24
-            sampleL 0, 16
-      stereo 040h
-            sampleL 7, 8
-      stereo 0c0h
-            sampleL 1, 16
-      stereo 080h
-            sampleL 6, 8
-      stereo 0c0h
+    repeatEnd
+    repeatSection2Start
             sampleL 0, 192
             sampleL 0, 255
             waitL 93
     mainLoopStart
             waitL 255
+    countedLoopStart 29
+            waitL 255
             wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
+    countedLoopEnd
             wait
             waitL 4
     mainLoopEnd
@@ -6622,6 +3013,7 @@ Music_08_Channel_6:
             psgNoteL G3, 4
       psgInst 00h
             waitL 28
+    repeatStart
       psgInst 0bh
             psgNoteL G3, 12
             waitL 4
@@ -6630,6 +3022,7 @@ Music_08_Channel_6:
       psgInst 00h
             waitL 24
       psgInst 0bh
+    repeatSection1Start
             psgNoteL A3, 12
             waitL 4
             psgNoteL A3, 3
@@ -6648,14 +3041,8 @@ Music_08_Channel_6:
             psgNote G3
       psgInst 00h
             waitL 29
-      psgInst 0bh
-            psgNoteL G3, 12
-            waitL 4
-            psgNoteL G3, 3
-            waitL 5
-      psgInst 00h
-            waitL 24
-      psgInst 0bh
+    repeatEnd
+    repeatSection2Start
             psgNoteL E3, 15
             waitL 9
             psgNoteL D3, 13
@@ -6671,11 +3058,13 @@ Music_08_Channel_6:
             waitL 29
             psgNoteL G3, 12
             waitL 4
+    repeatStart
             psgNoteL G3, 3
             waitL 5
       psgInst 00h
             waitL 24
       psgInst 0bh
+    repeatSection1Start
             psgNoteL A3, 10
             waitL 6
             psgNoteL A3, 3
@@ -6693,11 +3082,8 @@ Music_08_Channel_6:
             waitL 29
             psgNoteL G3, 10
             waitL 6
-            psgNoteL G3, 3
-            waitL 5
-      psgInst 00h
-            waitL 24
-      psgInst 0bh
+    repeatEnd
+    repeatSection2Start
             psgNoteL A3, 13
             waitL 3
             psgNoteL A3, 4
@@ -6847,6 +3233,7 @@ Music_08_Channel_6:
       psgInst 0bh
             psgNoteL F3, 11
             waitL 5
+    repeatStart
             psgNoteL F3, 4
             wait
       psgInst 00h
@@ -6860,6 +3247,7 @@ Music_08_Channel_6:
       psgInst 0bh
             psgNoteL G3, 10
             waitL 6
+    repeatSection1Start
             psgNoteL G3, 5
             waitL 3
       psgInst 00h
@@ -6886,19 +3274,8 @@ Music_08_Channel_6:
       psgInst 0bh
             psgNoteL F3, 9
             waitL 7
-            psgNoteL F3, 4
-            wait
-      psgInst 00h
-            waitL 24
-      psgInst 0bh
-            psgNoteL G3, 12
-            waitL 4
-            psgNote G3
-      psgInst 00h
-            waitL 28
-      psgInst 0bh
-            psgNoteL G3, 10
-            waitL 6
+    repeatEnd
+    repeatSection2Start
             psgNoteL G3, 4
             wait
             psgNoteL G3, 7
@@ -6922,6 +3299,7 @@ Music_08_Channel_6:
             waitL 5
             psgNoteL G3, 13
             waitL 3
+    repeatStart
             psgNoteL B3, 4
       psgInst 00h
             waitL 44
@@ -6930,6 +3308,7 @@ Music_08_Channel_6:
             psgNoteL F3, 13
             waitL 3
             psgNoteL D3, 8
+    repeatSection1Start
             psgNoteL F3, 11
             waitL 5
             psgNoteL A3, 4
@@ -6960,14 +3339,8 @@ Music_08_Channel_6:
             psgNoteL E3, 8
             psgNoteL G3, 10
             waitL 6
-            psgNoteL B3, 4
-      psgInst 00h
-            waitL 44
-      psgInst 0bh
-            psgNoteL A3, 8
-            psgNoteL F3, 13
-            waitL 3
-            psgNoteL D3, 8
+    repeatEnd
+    repeatSection2Start
             psgNoteL F3, 13
             waitL 3
             psgNoteL A3, 4
@@ -6996,86 +3369,12 @@ Music_08_Channel_6:
     mainLoopStart
             waitL 132
             waitL 192
+    countedLoopStart 19
+            waitL 192
             wait
             wait
             wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
+    countedLoopEnd
             waitL 130
     mainLoopEnd
 Music_08_Channel_7:
@@ -7197,12 +3496,14 @@ Music_08_Channel_7:
       psgInst 0bh
             psgNoteL B3, 10
             waitL 6
+    repeatStart
             psgNoteL B3, 3
       psgInst 00h
             waitL 29
       psgInst 0bh
             psgNoteL B3, 11
             waitL 5
+    repeatSection1Start
             psgNoteL B3, 3
             waitL 5
       psgInst 00h
@@ -7223,12 +3524,8 @@ Music_08_Channel_7:
       psgInst 0bh
             psgNoteL B3, 12
             waitL 4
-            psgNoteL B3, 3
-      psgInst 00h
-            waitL 29
-      psgInst 0bh
-            psgNoteL B3, 11
-            waitL 5
+    repeatEnd
+    repeatSection2Start
             psgNoteL B3, 2
             waitL 6
       psgInst 00h
@@ -7240,6 +3537,7 @@ Music_08_Channel_7:
             waitL 11
             psgNoteL A3, 17
             waitL 7
+    repeatStart
       psgInst 00h
             waitL 24
       psgInst 0bh
@@ -7249,6 +3547,7 @@ Music_08_Channel_7:
       psgInst 00h
             waitL 28
       psgInst 0bh
+    repeatSection1Start
             psgNoteL B3, 11
             waitL 5
             psgNoteL B3, 4
@@ -7266,15 +3565,8 @@ Music_08_Channel_7:
             waitL 7
             psgNoteL C4, 4
             wait
-      psgInst 00h
-            waitL 24
-      psgInst 0bh
-            psgNoteL B3, 11
-            waitL 5
-            psgNoteL B3, 4
-      psgInst 00h
-            waitL 28
-      psgInst 0bh
+    repeatEnd
+    repeatSection2Start
             psgNoteL B3, 9
             waitL 7
             psgNoteL B3, 3
@@ -7378,6 +3670,7 @@ Music_08_Channel_7:
             psgNoteL G3, 9
             waitL 7
       shifting 0
+    repeatStart
       psgInst 00h
             waitL 24
       psgInst 0bh
@@ -7387,6 +3680,7 @@ Music_08_Channel_7:
       psgInst 00h
             waitL 27
       psgInst 0bh
+    repeatSection1Start
             psgNoteL A3, 12
             waitL 4
             psgNoteL A3, 5
@@ -7425,15 +3719,8 @@ Music_08_Channel_7:
             waitL 9
             psgNoteL G3, 18
             waitL 6
-      psgInst 00h
-            waitL 24
-      psgInst 0bh
-            psgNoteL A3, 12
-            waitL 4
-            psgNoteL A3, 5
-      psgInst 00h
-            waitL 27
-      psgInst 0bh
+    repeatEnd
+    repeatSection2Start
             psgNoteL A3, 13
             waitL 3
             psgNoteL A3, 5
@@ -7557,86 +3844,12 @@ Music_08_Channel_7:
     mainLoopStart
             waitL 132
             waitL 192
+    countedLoopStart 19
+            waitL 192
             wait
             wait
             wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
+    countedLoopEnd
             waitL 130
     mainLoopEnd
 Music_08_Channel_8:

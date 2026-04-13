@@ -19,6 +19,7 @@ Music_09_Channel_0:
       vol 12
       vibrato 00h
       setRelease 1
+    countedLoopStart 1
             noteL Gs5, 3
             note Cs6
             note D6
@@ -33,20 +34,7 @@ Music_09_Channel_0:
             note Ds7
             note G7
             note F7
-            note Gs5
-            note Cs6
-            note D6
-            note E6
-            note Gs6
-            note As6
-            note D7
-            note Cs6
-            note Gs6
-            note A6
-            note B6
-            note Ds7
-            note G7
-            note F7
+    countedLoopEnd
             note Cs7
             note C7
             waitL 5
@@ -58,6 +46,7 @@ Music_09_Channel_1:
             waitL 2
       setRelease 1
       vibrato 00h
+    countedLoopStart 1
             noteL Gs5, 3
             note Cs6
             note D6
@@ -72,20 +61,7 @@ Music_09_Channel_1:
             note Ds7
             note G7
             note F7
-            note Gs5
-            note Cs6
-            note D6
-            note E6
-            note Gs6
-            note As6
-            note D7
-            note Cs6
-            note Gs6
-            note A6
-            note B6
-            note Ds7
-            note G7
-            note F7
+    countedLoopEnd
             note Cs7
             note C7
             wait
@@ -97,6 +73,7 @@ Music_09_Channel_2:
             waitL 4
       setRelease 1
       vibrato 00h
+    countedLoopStart 1
             noteL Gs5, 3
             note Cs6
             note D6
@@ -111,20 +88,7 @@ Music_09_Channel_2:
             note Ds7
             note G7
             note F7
-            note Gs5
-            note Cs6
-            note D6
-            note E6
-            note Gs6
-            note As6
-            note D7
-            note Cs6
-            note Gs6
-            note A6
-            note B6
-            note Ds7
-            note G7
-            note F7
+    countedLoopEnd
             note Cs7
             note C7
             waitL 1

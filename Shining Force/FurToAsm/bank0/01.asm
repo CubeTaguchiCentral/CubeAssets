@@ -43,12 +43,10 @@ Music_01_Channel_1:
             waitL 24
       setRelease 1
       vibrato 05ch
+    countedLoopStart 2
             noteL C5, 4
             waitL 20
-            noteL C5, 4
-            waitL 20
-            noteL C5, 4
-            waitL 20
+    countedLoopEnd
             noteL C5, 4
             waitL 8
             noteL C5, 72
@@ -62,29 +60,27 @@ Music_01_Channel_2:
       setRelease 1
       vibrato 05ch
             noteL C3, 4
+    repeatStart
             waitL 8
       vol 11
             noteL G3, 4
             waitL 8
       vol 15
+    repeatSection1Start
             noteL G2, 4
-            waitL 8
-      vol 11
-            noteL G3, 4
-            waitL 8
-      vol 15
+    repeatEnd
+    repeatSection2Start
             noteL F2, 4
+    repeatStart
             waitL 8
       vol 11
             noteL A3, 4
             waitL 8
       vol 15
+    repeatSection1Start
             noteL A2, 4
-            waitL 8
-      vol 11
-            noteL A3, 4
-            waitL 8
-      vol 15
+    repeatEnd
+    repeatSection2Start
             noteL C3, 72
             waitL 24
     channel_end
@@ -149,14 +145,12 @@ Music_01_Channel_7:
             psgNoteL E5, 6
             psgNote Ds5
             psgNote E5
+    countedLoopStart 1
       psgInst 00h
-            wait
+            waitL 6
       psgInst 0ah
             psgNote G4
-      psgInst 00h
-            wait
-      psgInst 0ah
-            psgNote G4
+    countedLoopEnd
       psgInst 00h
             wait
       psgInst 0ah

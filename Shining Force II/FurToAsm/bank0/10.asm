@@ -570,6 +570,7 @@ Music_10_Channel_6:
       psgInst 07ah
       setRelease 4
             psgNoteL As4, 4
+    repeatStart
             psgNote B4
             psgNote As4
       psgInst 07bh
@@ -615,6 +616,7 @@ Music_10_Channel_6:
             psgNote B4
             psgNote As4
             psgNote B4
+    repeatSection1Start
             psgNote As4
             psgNote B4
             psgNote As4
@@ -632,55 +634,13 @@ Music_10_Channel_6:
             psgNote B4
       psgInst 07ah
             psgNote As4
-            psgNote B4
-            psgNote As4
-      psgInst 07bh
-            psgNote B4
-            psgNote As4
-            psgNote B4
-      psgInst 07ch
-            psgNote As4
-            psgNote B4
-            psgNote As4
-      psgInst 07dh
-            psgNote B4
-            psgNote As4
-            psgNote B4
-            psgNote As4
-            psgNote B4
-            psgNote As4
-      psgInst 07ch
-            psgNote B4
-            psgNote As4
-            psgNote B4
-      psgInst 07bh
-            psgNote As4
-            psgNote B4
-            psgNote As4
-      psgInst 07ah
-            psgNote B4
-            psgNote As4
-            psgNote B4
-      psgInst 079h
-            psgNote As4
-            psgNote B4
-            psgNote As4
-      psgInst 078h
-            psgNote B4
-            psgNote As4
-            psgNote B4
-      psgInst 077h
-            psgNote As4
-            psgNote B4
-            psgNote As4
-      psgInst 076h
-            psgNote B4
-            psgNote As4
-            psgNote B4
+    repeatEnd
+    repeatSection2Start
       psgInst 00h
             waitL 255
             waitL 129
       psgInst 076h
+    countedLoopStart 1
             psgNoteL G4, 4
             psgNote Gs4
             psgNote G4
@@ -743,68 +703,7 @@ Music_10_Channel_6:
             psgNote Gs4
             psgNote G4
             psgNote Gs4
-            psgNote G4
-            psgNote Gs4
-            psgNote G4
-      psgInst 077h
-            psgNote Gs4
-            psgNote G4
-            psgNote Gs4
-      psgInst 078h
-            psgNote G4
-            psgNote Gs4
-            psgNote G4
-      psgInst 079h
-            psgNote Gs4
-            psgNote G4
-            psgNote Gs4
-      psgInst 07ah
-            psgNote G4
-            psgNote Gs4
-            psgNote G4
-      psgInst 07bh
-            psgNote Gs4
-            psgNote G4
-            psgNote Gs4
-      psgInst 07ch
-            psgNote G4
-            psgNote Gs4
-            psgNote G4
-      psgInst 07dh
-            psgNote Gs4
-            psgNote G4
-            psgNote Gs4
-            psgNote G4
-            psgNote Gs4
-            psgNote G4
-      psgInst 07ch
-            psgNote Gs4
-            psgNote G4
-            psgNote Gs4
-      psgInst 07bh
-            psgNote G4
-            psgNote Gs4
-            psgNote G4
-      psgInst 07ah
-            psgNote Gs4
-            psgNote G4
-            psgNote Gs4
-      psgInst 079h
-            psgNote G4
-            psgNote Gs4
-            psgNote G4
-      psgInst 078h
-            psgNote Gs4
-            psgNote G4
-            psgNote Gs4
-      psgInst 077h
-            psgNote G4
-            psgNote Gs4
-            psgNote G4
-      psgInst 076h
-            psgNote Gs4
-            psgNote G4
-            psgNote Gs4
+    countedLoopEnd
       psgInst 00h
             waitL 255
             waitL 129
@@ -852,6 +751,7 @@ Music_10_Channel_7:
             waitL 2
       setRelease 4
             psgNoteL B4, 4
+    repeatStart
       psgInst 078h
             psgNote As4
             psgNote B4
@@ -899,6 +799,7 @@ Music_10_Channel_7:
             psgNote B4
             psgNote As4
             psgNote B4
+    repeatSection1Start
             psgNote As4
             psgNote B4
             psgNote As4
@@ -914,57 +815,13 @@ Music_10_Channel_7:
             psgNote B4
             psgNote As4
             psgNote B4
-      psgInst 078h
-            psgNote As4
-            psgNote B4
-            psgNote As4
-      psgInst 079h
-            psgNote B4
-            psgNote As4
-            psgNote B4
-      psgInst 07ah
-            psgNote As4
-            psgNote B4
-            psgNote As4
-      psgInst 07bh
-            psgNote B4
-            psgNote As4
-            psgNote B4
-            psgNote As4
-            psgNote B4
-            psgNote As4
-      psgInst 07ah
-            psgNote B4
-            psgNote As4
-            psgNote B4
-      psgInst 079h
-            psgNote As4
-            psgNote B4
-            psgNote As4
-      psgInst 078h
-            psgNote B4
-            psgNote As4
-            psgNote B4
-      psgInst 077h
-            psgNote As4
-            psgNote B4
-            psgNote As4
-      psgInst 076h
-            psgNote B4
-            psgNote As4
-            psgNote B4
-      psgInst 075h
-            psgNote As4
-            psgNote B4
-            psgNote As4
-      psgInst 074h
-            psgNote B4
-            psgNote As4
-            psgNote B4
+    repeatEnd
+    repeatSection2Start
       psgInst 00h
             waitL 255
             waitL 129
       psgInst 074h
+    countedLoopStart 1
             psgNoteL G4, 4
             psgNote Gs4
             psgNote G4
@@ -1027,68 +884,7 @@ Music_10_Channel_7:
             psgNote Gs4
             psgNote G4
             psgNote Gs4
-            psgNote G4
-            psgNote Gs4
-            psgNote G4
-      psgInst 075h
-            psgNote Gs4
-            psgNote G4
-            psgNote Gs4
-      psgInst 076h
-            psgNote G4
-            psgNote Gs4
-            psgNote G4
-      psgInst 077h
-            psgNote Gs4
-            psgNote G4
-            psgNote Gs4
-      psgInst 078h
-            psgNote G4
-            psgNote Gs4
-            psgNote G4
-      psgInst 079h
-            psgNote Gs4
-            psgNote G4
-            psgNote Gs4
-      psgInst 07ah
-            psgNote G4
-            psgNote Gs4
-            psgNote G4
-      psgInst 07bh
-            psgNote Gs4
-            psgNote G4
-            psgNote Gs4
-            psgNote G4
-            psgNote Gs4
-            psgNote G4
-      psgInst 07ah
-            psgNote Gs4
-            psgNote G4
-            psgNote Gs4
-      psgInst 079h
-            psgNote G4
-            psgNote Gs4
-            psgNote G4
-      psgInst 078h
-            psgNote Gs4
-            psgNote G4
-            psgNote Gs4
-      psgInst 077h
-            psgNote G4
-            psgNote Gs4
-            psgNote G4
-      psgInst 076h
-            psgNote Gs4
-            psgNote G4
-            psgNote Gs4
-      psgInst 075h
-            psgNote G4
-            psgNote Gs4
-            psgNote G4
-      psgInst 074h
-            psgNote Gs4
-            psgNote G4
-            psgNote Gs4
+    countedLoopEnd
       psgInst 00h
             waitL 255
             waitL 129

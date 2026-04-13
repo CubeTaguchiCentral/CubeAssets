@@ -32,110 +32,60 @@ Music_06_Channel_0:
             note G4
       inst 3
       vol 12
-            note E3
+    countedLoopStart 2
+            noteL E3, 6
       vol 8
             note E3
       vol 12
             note E3
             note E3
-            note E3
-      vol 8
-            note E3
-      vol 12
-            note E3
-            note E3
-            note E3
-      vol 8
-            note E3
-      vol 12
-            note E3
-            note E3
+    countedLoopEnd
             note E3
       vol 8
             note E3
       vol 12
             noteL A2, 18
       vol 8
+    countedLoopStart 2
             noteL A2, 6
       vol 12
             note A2
             note A2
             note A2
       vol 8
+    countedLoopEnd
             note A2
       vol 12
             note A2
             note A2
-            note A2
-      vol 8
-            note A2
-      vol 12
-            note A2
-            note A2
-            note A2
-      vol 8
-            note A2
-      vol 12
-            note A2
-            note A2
-            note Fs3
+    countedLoopStart 2
+            noteL Fs3, 6
       vol 8
             note Fs3
       vol 12
             note Fs3
             note Fs3
-            note Fs3
-      vol 8
-            note Fs3
-      vol 12
-            note Fs3
-            note Fs3
-            note Fs3
-      vol 8
-            note Fs3
-      vol 12
-            note Fs3
-            note Fs3
+    countedLoopEnd
             note Fs3
       vol 8
             note Fs3
       vol 12
             noteL B2, 18
       vol 8
+    countedLoopStart 2
             noteL B2, 6
       vol 12
             note B2
             note B2
             note B2
       vol 8
-            note B2
-      vol 12
-            note B2
-            note B2
-            note B2
-      vol 8
-            note B2
-      vol 12
-            note B2
-            note B2
-            note B2
-      vol 8
+    countedLoopEnd
             note B2
       vol 12
             note B2
             note B2
       sustain
-      vol 13
-            note F2
-            note Fs2
-            note G2
-      setRelease 1
-            note Gs2
-      inst 59
-      vol 12
-            noteL A2, 72
-      sustain
-      inst 3
+    countedLoopStart 1
       vol 13
             noteL F2, 6
             note Fs2
@@ -147,6 +97,7 @@ Music_06_Channel_0:
             noteL A2, 72
       sustain
       inst 3
+    countedLoopEnd
       vol 13
             noteL A2, 6
             note As2
@@ -169,6 +120,7 @@ Music_06_Channel_0:
             noteL Ds3, 72
       inst 3
       vol 13
+    countedLoopStart 1
             noteL Gs3, 6
             note Gs3
             note Gs3
@@ -196,33 +148,7 @@ Music_06_Channel_0:
       vol 8
             note E3
       vol 13
-            note Gs3
-            note Gs3
-            note Gs3
-      vol 9
-            note Gs3
-            waitL 12
-      vol 12
-            noteL F3, 15
-      vol 8
-            noteL F3, 9
-      vol 12
-            noteL F3, 15
-      vol 8
-            noteL F3, 9
-      vol 12
-            noteL F3, 6
-      vol 8
-            note F3
-      vol 12
-            note F3
-      vol 8
-            note F3
-      vol 12
-            note E3
-      vol 8
-            note E3
-      vol 13
+    countedLoopEnd
             note B3
       vol 9
             note B3
@@ -328,6 +254,7 @@ Music_06_Channel_1:
       inst 3
       vol 12
             noteL G6, 6
+    repeatStart
             note G6
             note G6
       vol 9
@@ -348,29 +275,12 @@ Music_06_Channel_1:
             wait
             note G4
             wait
+    repeatSection1Start
       inst 3
       vol 12
             note G6
-            note G6
-            note G6
-      vol 9
-            note G6
-      vol 7
-            note G6
-      vol 5
-            note G6
-      inst 56
-      vol 11
-            noteL Gs4, 15
-            waitL 9
-            noteL Gs4, 15
-            waitL 9
-            noteL Gs4, 6
-            wait
-            note Gs4
-            wait
-            note G4
-            wait
+    repeatEnd
+    repeatSection2Start
             note Ds4
             waitL 12
       inst 20
@@ -456,14 +366,13 @@ Music_06_Channel_2:
       inst 56
       vol 11
             noteL F5, 6
-            note F5
+    repeatStart
+    countedLoopStart 1
+            noteL F5, 6
       vol 8
             note F5
       vol 11
-            note F5
-      vol 8
-            note F5
-      vol 11
+    countedLoopEnd
             noteL F5, 12
             noteL E5, 6
       vol 8
@@ -472,6 +381,7 @@ Music_06_Channel_2:
             note E5
             waitL 24
       vol 11
+    repeatSection1Start
             noteL F5, 6
             note F5
       vol 8
@@ -500,22 +410,8 @@ Music_06_Channel_2:
             note F5
       vol 11
             note F5
-            note F5
-      vol 8
-            note F5
-      vol 11
-            note F5
-      vol 8
-            note F5
-      vol 11
-            noteL F5, 12
-            noteL E5, 6
-      vol 8
-            note E5
-      vol 6
-            note E5
-            waitL 24
-      vol 11
+    repeatEnd
+    repeatSection2Start
             noteL G5, 6
             note G5
       vol 8
@@ -539,9 +435,10 @@ Music_06_Channel_2:
       vol 11
             noteL Fs5, 12
             noteL G5, 6
+    countedLoopStart 1
       inst 3
       vol 11
-            note Ds6
+            noteL Ds6, 6
             note Ds6
             note Ds6
       vol 8
@@ -562,29 +459,7 @@ Music_06_Channel_2:
             wait
             note D4
             wait
-      inst 3
-      vol 11
-            note Ds6
-            note Ds6
-            note Ds6
-      vol 8
-            note Ds6
-      vol 6
-            note Ds6
-      vol 4
-            note Ds6
-      inst 56
-      vol 10
-            noteL Ds4, 15
-            waitL 9
-            noteL Ds4, 15
-            waitL 9
-            noteL Ds4, 6
-            wait
-            note Ds4
-            wait
-            note D4
-            wait
+    countedLoopEnd
             note As3
             waitL 30
       inst 20
@@ -655,14 +530,13 @@ Music_06_Channel_3:
       inst 56
       vol 11
             noteL A4, 6
-            note A4
+    repeatStart
+    countedLoopStart 1
+            noteL A4, 6
       vol 8
             note A4
       vol 11
-            note A4
-      vol 8
-            note A4
-      vol 11
+    countedLoopEnd
             noteL A4, 12
             noteL Gs4, 6
       vol 8
@@ -671,6 +545,7 @@ Music_06_Channel_3:
             note Gs4
             waitL 24
       vol 11
+    repeatSection1Start
             noteL A4, 6
             note A4
       vol 8
@@ -699,22 +574,8 @@ Music_06_Channel_3:
             note Cs5
       vol 11
             note A4
-            note A4
-      vol 8
-            note A4
-      vol 11
-            note A4
-      vol 8
-            note A4
-      vol 11
-            noteL A4, 12
-            noteL Gs4, 6
-      vol 8
-            note Gs4
-      vol 6
-            note Gs4
-            waitL 24
-      vol 11
+    repeatEnd
+    repeatSection2Start
             noteL B4, 6
             note B4
       vol 8
@@ -738,9 +599,10 @@ Music_06_Channel_3:
       vol 11
             noteL As4, 12
             noteL B4, 6
+    countedLoopStart 1
       inst 3
       vol 11
-            note B5
+            noteL B5, 6
             note B5
             note B5
       vol 8
@@ -761,29 +623,7 @@ Music_06_Channel_3:
             wait
             note Gs3
             wait
-      inst 3
-      vol 11
-            note B5
-            note B5
-            note B5
-      vol 8
-            note B5
-      vol 6
-            note B5
-      vol 4
-            note B5
-      inst 56
-      vol 10
-            noteL A3, 15
-            waitL 9
-            noteL A3, 15
-            waitL 9
-            noteL A3, 6
-            wait
-            note A3
-            wait
-            note Gs3
-            wait
+    countedLoopEnd
             note F3
             waitL 60
       inst 20
@@ -903,6 +743,7 @@ Music_06_Channel_4:
       inst 3
       vol 11
             noteL G6, 6
+    repeatStart
             note G6
             note G6
       vol 8
@@ -924,31 +765,13 @@ Music_06_Channel_4:
             wait
             note G4
             wait
+    repeatSection1Start
       stereo 080h
       inst 3
       vol 11
             note G6
-            note G6
-            note G6
-      vol 8
-            note G6
-      vol 6
-            note G6
-      vol 4
-            note G6
-      stereo 040h
-      inst 56
-      vol 10
-            noteL Gs4, 15
-            waitL 9
-            noteL Gs4, 15
-            waitL 9
-            noteL Gs4, 6
-            wait
-            note Gs4
-            wait
-            note G4
-            wait
+    repeatEnd
+    repeatSection2Start
             note Ds4
             waitL 12
       stereo 080h
@@ -985,18 +808,13 @@ Music_06_Channel_5:
     mainLoopStart
             wait
             sampleL 5, 12
+    repeatStart
+    countedLoopStart 2
             sampleL 5, 6
             sample 3
             sample 3
             sample 3
-            sample 5
-            sample 3
-            sample 3
-            sample 3
-            sample 5
-            sample 3
-            sample 3
-            sample 3
+    countedLoopEnd
             sampleL 2, 12
             sampleL 5, 6
             sample 3
@@ -1012,39 +830,16 @@ Music_06_Channel_5:
             sample 3
             sample 3
             sample 3
+    repeatSection1Start
             sampleL 5, 12
             sample 5
-            sampleL 5, 6
-            sample 3
-            sample 3
-            sample 3
+    repeatEnd
+    repeatSection2Start
             sample 5
             sample 3
             sample 3
             sample 3
-            sample 5
-            sample 3
-            sample 3
-            sample 3
-            sampleL 2, 12
-            sampleL 5, 6
-            sample 3
-            sample 2
-            sample 3
-            sample 3
-            sample 3
-            sample 5
-            sample 3
-            sample 3
-            sample 3
-            sample 5
-            sample 3
-            sample 3
-            sample 3
-            sample 5
-            sample 3
-            sample 3
-            sample 3
+    countedLoopStart 1
             sampleL 0, 12
             sampleL 2, 3
             sample 3
@@ -1077,38 +872,8 @@ Music_06_Channel_5:
             sampleL 3, 6
             sampleL 2, 12
             sample 1
-            sample 0
-            sampleL 2, 3
-            sample 3
-            sample 3
-            sample 4
-            sampleL 3, 6
-            sampleL 2, 12
-            sampleL 3, 6
-            sampleL 1, 12
-            sampleL 2, 3
-            sample 3
-            sample 3
-            sample 4
-            sampleL 1, 6
-            sampleL 2, 12
-            sampleL 3, 6
-            sampleL 0, 12
-            sampleL 2, 3
-            sample 3
-            sample 3
-            sample 4
-            sampleL 3, 6
-            sampleL 2, 12
-            sampleL 3, 6
-            sample 1
-            sampleL 2, 3
-            sample 3
-            sample 3
-            sample 4
-            sampleL 3, 6
-            sampleL 2, 12
-            sample 1
+    countedLoopEnd
+    countedLoopStart 1
             sampleL 5, 6
             sample 5
             sampleL 5, 24
@@ -1118,15 +883,7 @@ Music_06_Channel_5:
             sample 1
             sampleL 4, 6
             sample 3
-            sample 5
-            sample 5
-            sampleL 5, 24
-            sample 1
-            sample 1
-            sampleL 1, 12
-            sample 1
-            sampleL 4, 6
-            sample 3
+    countedLoopEnd
             sampleL 5, 191
             sampleL 3, 1
             sampleL 2, 17
@@ -1149,7 +906,8 @@ Music_06_Channel_6:
       vibrato 00h
             psgNoteL As4, 6
       setRelease 1
-            psgNote B4
+    countedLoopStart 1
+            psgNoteL B4, 6
             psgNote C5
             psgNote Cs5
             psgNote D5
@@ -1157,14 +915,7 @@ Music_06_Channel_6:
             psgNote C5
             psgNote B4
             psgNote As4
-            psgNote B4
-            psgNote C5
-            psgNote Cs5
-            psgNote D5
-            psgNote Cs5
-            psgNote C5
-            psgNote B4
-            psgNote As4
+    countedLoopEnd
             psgNote B4
             psgNote C5
             psgNote Cs5
@@ -1173,12 +924,10 @@ Music_06_Channel_6:
             psgNote E5
             psgNote F5
       psgInst 07ch
+    countedLoopStart 2
             psgNoteL E5, 4
             psgNote F5
-            psgNote E5
-            psgNote F5
-            psgNote E5
-            psgNote F5
+    countedLoopEnd
             psgNote E5
             psgNote Ds5
             psgNote D5
@@ -1186,6 +935,7 @@ Music_06_Channel_6:
             psgNote C5
             psgNote B4
       psgInst 07bh
+    countedLoopStart 1
             psgNoteL C5, 6
             psgNote Cs5
             psgNote D5
@@ -1194,14 +944,7 @@ Music_06_Channel_6:
             psgNote Ds5
             psgNote D5
             psgNote Cs5
-            psgNote C5
-            psgNote Cs5
-            psgNote D5
-            psgNote Ds5
-            psgNote E5
-            psgNote Ds5
-            psgNote D5
-            psgNote Cs5
+    countedLoopEnd
             psgNote C5
             psgNote Cs5
             psgNote D5
@@ -1211,82 +954,29 @@ Music_06_Channel_6:
             psgNote Fs5
             psgNote G5
       psgInst 07ch
+    countedLoopStart 2
             psgNoteL Fs5, 4
             psgNote G5
-            psgNote Fs5
-            psgNote G5
-            psgNote Fs5
-            psgNote G5
+    countedLoopEnd
             psgNote Fs5
             psgNote F5
             psgNote E5
             psgNote Ds5
             psgNote D5
             psgNote Cs5
+    countedLoopStart 15
             psgNoteL E3, 6
             psgNote F3
-            psgNote E3
-            psgNote F3
-            psgNote E3
-            psgNote F3
-            psgNote E3
-            psgNote F3
-            psgNote E3
-            psgNote F3
-            psgNote E3
-            psgNote F3
-            psgNote E3
-            psgNote F3
-            psgNote E3
-            psgNote F3
-            psgNote E3
-            psgNote F3
-            psgNote E3
-            psgNote F3
-            psgNote E3
-            psgNote F3
-            psgNote E3
-            psgNote F3
-            psgNote E3
-            psgNote F3
-            psgNote E3
-            psgNote F3
-            psgNote E3
-            psgNote F3
-            psgNote E3
-            psgNote F3
-            psgNote Gs3
+    countedLoopEnd
+    countedLoopStart 7
+            psgNoteL Gs3, 6
             psgNote A3
-            psgNote Gs3
-            psgNote A3
-            psgNote Gs3
-            psgNote A3
-            psgNote Gs3
-            psgNote A3
-            psgNote Gs3
-            psgNote A3
-            psgNote Gs3
-            psgNote A3
-            psgNote Gs3
-            psgNote A3
-            psgNote Gs3
-            psgNote A3
-            psgNote As3
+    countedLoopEnd
+    countedLoopStart 7
+            psgNoteL As3, 6
             psgNote B3
-            psgNote As3
-            psgNote B3
-            psgNote As3
-            psgNote B3
-            psgNote As3
-            psgNote B3
-            psgNote As3
-            psgNote B3
-            psgNote As3
-            psgNote B3
-            psgNote As3
-            psgNote B3
-            psgNote As3
-            psgNote B3
+    countedLoopEnd
+    countedLoopStart 1
       psgInst 00h
             waitL 36
       psgInst 07bh
@@ -1304,23 +994,7 @@ Music_06_Channel_6:
             psgNote A3
             psgNote Gs3
             wait
-      psgInst 00h
-            waitL 36
-      psgInst 07bh
-            psgNoteL Gs4, 6
-            psgNote G4
-            psgNote Fs4
-            psgNote F4
-            psgNote E4
-            psgNote Ds4
-            psgNote D4
-            psgNote Cs4
-            psgNote C4
-            psgNote B3
-            psgNote As3
-            psgNote A3
-            psgNote Gs3
-            wait
+    countedLoopEnd
       psgInst 00h
             waitL 120
       psgInst 07bh
@@ -1330,30 +1004,10 @@ Music_06_Channel_6:
             psgNote G4
             psgNote Gs4
             psgNote A4
-            psgNote As4
+    countedLoopStart 11
+            psgNoteL As4, 4
             psgNote B4
-            psgNote As4
-            psgNote B4
-            psgNote As4
-            psgNote B4
-            psgNote As4
-            psgNote B4
-            psgNote As4
-            psgNote B4
-            psgNote As4
-            psgNote B4
-            psgNote As4
-            psgNote B4
-            psgNote As4
-            psgNote B4
-            psgNote As4
-            psgNote B4
-            psgNote As4
-            psgNote B4
-            psgNote As4
-            psgNote B4
-            psgNote As4
-            psgNote B4
+    countedLoopEnd
             psgNoteL As4, 6
             waitL 18
       psgInst 00h
@@ -1369,7 +1023,8 @@ Music_06_Channel_7:
       vibrato 00h
             psgNoteL Gs4, 6
       setRelease 1
-            psgNote A4
+    countedLoopStart 1
+            psgNoteL A4, 6
             psgNote As4
             psgNote B4
             psgNote C5
@@ -1377,14 +1032,7 @@ Music_06_Channel_7:
             psgNote As4
             psgNote A4
             psgNote Gs4
-            psgNote A4
-            psgNote As4
-            psgNote B4
-            psgNote C5
-            psgNote B4
-            psgNote As4
-            psgNote A4
-            psgNote Gs4
+    countedLoopEnd
             psgNote A4
             psgNote As4
             psgNote B4
@@ -1393,12 +1041,10 @@ Music_06_Channel_7:
             psgNote D5
             psgNote Ds5
       psgInst 07ch
+    countedLoopStart 2
             psgNoteL D5, 4
             psgNote Ds5
-            psgNote D5
-            psgNote Ds5
-            psgNote D5
-            psgNote Ds5
+    countedLoopEnd
             psgNote D5
             psgNote Cs5
             psgNote C5
@@ -1406,6 +1052,7 @@ Music_06_Channel_7:
             psgNote As4
             psgNote A4
       psgInst 07bh
+    countedLoopStart 1
             psgNoteL As4, 6
             psgNote B4
             psgNote C5
@@ -1414,14 +1061,7 @@ Music_06_Channel_7:
             psgNote Cs5
             psgNote C5
             psgNote B4
-            psgNote As4
-            psgNote B4
-            psgNote C5
-            psgNote Cs5
-            psgNote D5
-            psgNote Cs5
-            psgNote C5
-            psgNote B4
+    countedLoopEnd
             psgNote As4
             psgNote B4
             psgNote C5
@@ -1431,82 +1071,29 @@ Music_06_Channel_7:
             psgNote E5
             psgNote F5
       psgInst 07ch
+    countedLoopStart 2
             psgNoteL E5, 4
             psgNote F5
-            psgNote E5
-            psgNote F5
-            psgNote E5
-            psgNote F5
+    countedLoopEnd
             psgNote E5
             psgNote Ds5
             psgNote D5
             psgNote Cs5
             psgNote C5
             psgNote B4
+    countedLoopStart 15
             psgNoteL C3, 6
             psgNote Cs3
-            psgNote C3
-            psgNote Cs3
-            psgNote C3
-            psgNote Cs3
-            psgNote C3
-            psgNote Cs3
-            psgNote C3
-            psgNote Cs3
-            psgNote C3
-            psgNote Cs3
-            psgNote C3
-            psgNote Cs3
-            psgNote C3
-            psgNote Cs3
-            psgNote C3
-            psgNote Cs3
-            psgNote C3
-            psgNote Cs3
-            psgNote C3
-            psgNote Cs3
-            psgNote C3
-            psgNote Cs3
-            psgNote C3
-            psgNote Cs3
-            psgNote C3
-            psgNote Cs3
-            psgNote C3
-            psgNote Cs3
-            psgNote C3
-            psgNote Cs3
-            psgNote E3
+    countedLoopEnd
+    countedLoopStart 7
+            psgNoteL E3, 6
             psgNote F3
-            psgNote E3
-            psgNote F3
-            psgNote E3
-            psgNote F3
-            psgNote E3
-            psgNote F3
-            psgNote E3
-            psgNote F3
-            psgNote E3
-            psgNote F3
-            psgNote E3
-            psgNote F3
-            psgNote E3
-            psgNote F3
-            psgNote Fs3
+    countedLoopEnd
+    countedLoopStart 7
+            psgNoteL Fs3, 6
             psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
+    countedLoopEnd
+    countedLoopStart 1
       psgInst 00h
             waitL 36
       psgInst 07bh
@@ -1524,23 +1111,7 @@ Music_06_Channel_7:
             psgNote G3
             psgNote Fs3
             wait
-      psgInst 00h
-            waitL 36
-      psgInst 07bh
-            psgNoteL Fs4, 6
-            psgNote F4
-            psgNote E4
-            psgNote Ds4
-            psgNote D4
-            psgNote Cs4
-            psgNote C4
-            psgNote B3
-            psgNote As3
-            psgNote A3
-            psgNote Gs3
-            psgNote G3
-            psgNote Fs3
-            wait
+    countedLoopEnd
       psgInst 00h
             waitL 120
       psgInst 07bh
@@ -1550,30 +1121,10 @@ Music_06_Channel_7:
             psgNote F4
             psgNote Fs4
             psgNote G4
-            psgNote Gs4
+    countedLoopStart 11
+            psgNoteL Gs4, 4
             psgNote A4
-            psgNote Gs4
-            psgNote A4
-            psgNote Gs4
-            psgNote A4
-            psgNote Gs4
-            psgNote A4
-            psgNote Gs4
-            psgNote A4
-            psgNote Gs4
-            psgNote A4
-            psgNote Gs4
-            psgNote A4
-            psgNote Gs4
-            psgNote A4
-            psgNote Gs4
-            psgNote A4
-            psgNote Gs4
-            psgNote A4
-            psgNote Gs4
-            psgNote A4
-            psgNote Gs4
-            psgNote A4
+    countedLoopEnd
             psgNoteL Gs4, 6
             waitL 18
       psgInst 00h

@@ -86,18 +86,9 @@ Music_08_Channel_2:
       vol 12
       vibrato 05ah
       setRelease 1
+    countedLoopStart 11
             noteL E2, 12
-            note E2
-            note E2
-            note E2
-            note E2
-            note E2
-            note E2
-            note E2
-            note E2
-            note E2
-            note E2
-            note E2
+    countedLoopEnd
       sustain
             noteL E2, 42
     mainLoopStart
@@ -106,31 +97,19 @@ Music_08_Channel_2:
       shifting 0
       setRelease 1
             waitL 30
+    countedLoopStart 3
             noteL E2, 12
-            note E2
-            note E2
-            note E2
+    countedLoopEnd
+    countedLoopStart 7
             noteL E2, 6
-            note E2
-            note E2
-            note E2
-            note E2
-            note E2
-            note E2
-            note E2
+    countedLoopEnd
+    countedLoopStart 3
             noteL E2, 12
-            note E2
-            note E2
-            note E2
+    countedLoopEnd
             noteL E2, 36
+    countedLoopStart 7
             noteL E2, 12
-            note E2
-            note E2
-            note E2
-            note E2
-            note E2
-            note E2
-            note E2
+    countedLoopEnd
     mainLoopEnd
 Music_08_Channel_3:
       stereo 0c0h
@@ -138,21 +117,9 @@ Music_08_Channel_3:
       vol 12
       vibrato 05ah
       setRelease 1
+    countedLoopStart 14
             noteL C2, 12
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
+    countedLoopEnd
       sustain
             noteL C2, 6
     mainLoopStart
@@ -161,34 +128,20 @@ Music_08_Channel_3:
       shifting 0
       setRelease 1
             waitL 6
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
+    countedLoopStart 7
+            noteL C2, 6
+    countedLoopEnd
+    countedLoopStart 3
             noteL C2, 12
-            note C2
-            note C2
-            note C2
+    countedLoopEnd
             noteL C2, 36
+    countedLoopStart 7
             noteL C2, 12
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
+    countedLoopEnd
       vol 12
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
+    countedLoopStart 5
+            noteL C2, 12
+    countedLoopEnd
     mainLoopEnd
 Music_08_Channel_4:
     channel_end
@@ -199,32 +152,17 @@ Music_08_Channel_6:
       setRelease 1
             psgNoteL C1, 6
       vibrato 040h
+    countedLoopStart 1
             psgNoteL F1, 3
             psgNote As1
             waitL 6
             psgNote C1
-            psgNoteL F1, 3
-            psgNote As1
-            waitL 6
-            psgNote C1
+    countedLoopEnd
+    countedLoopStart 5
             psgNoteL Ds2, 2
             psgNote Gs2
             psgNote Cs3
-            psgNote Ds2
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Ds2
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Ds2
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Ds2
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Ds2
-            psgNote Gs2
-            psgNote Cs3
+    countedLoopEnd
             psgNoteL Fs3, 36
             waitL 3
             psgNote As1
@@ -246,21 +184,7 @@ Music_08_Channel_6:
             psgNote Fs3
             psgNote Fs3
             psgNote Fs3
-            psgNote C1
-            psgNote As1
-            wait
-            psgNote Fs3
-            psgNote Fs3
-            wait
-            psgNote Gs2
-            wait
-            psgNote Fs3
-            psgNote Fs3
-            psgNoteL C1, 3
-            psgNoteL Gs2, 2
-            wait
-            psgNote Fs3
-            psgNoteL C1, 3
+    countedLoopStart 3
             psgNoteL C1, 2
             psgNote As1
             wait
@@ -276,63 +200,19 @@ Music_08_Channel_6:
             wait
             psgNote Fs3
             psgNoteL C1, 3
-            psgNoteL C1, 2
-            psgNote As1
-            wait
-            psgNote Fs3
-            psgNote Fs3
-            wait
-            psgNote Gs2
-            wait
-            psgNote Fs3
-            psgNote Fs3
-            psgNoteL C1, 3
-            psgNoteL Gs2, 2
-            wait
-            psgNote Fs3
-            psgNoteL C1, 3
-            psgNoteL C1, 2
-            psgNote As1
-            wait
-            psgNote Fs3
-            psgNote Fs3
-            wait
-            psgNote Gs2
-            wait
-            psgNote Fs3
-            psgNote Fs3
-            psgNoteL C1, 3
-            psgNoteL Gs2, 2
-            wait
-            psgNote Fs3
-            psgNoteL C1, 3
+    countedLoopEnd
+    countedLoopStart 1
             psgNoteL C1, 6
             psgNoteL F1, 3
             psgNote As1
             waitL 6
+    countedLoopEnd
             psgNote C1
-            psgNoteL F1, 3
-            psgNote As1
-            waitL 6
-            psgNote C1
+    countedLoopStart 5
             psgNoteL Ds2, 2
             psgNote Gs2
             psgNote Cs3
-            psgNote Ds2
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Ds2
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Ds2
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Ds2
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Ds2
-            psgNote Gs2
-            psgNote Cs3
+    countedLoopEnd
             psgNoteL Fs3, 36
             waitL 3
             psgNote As1
@@ -344,78 +224,33 @@ Music_08_Channel_7:
       psgInst 0ch
       setRelease 1
       vibrato 00h
+    repeatStart
             psgNoteL G1, 2
             psgNote As1
             psgNote D1
             psgNote B1
             psgNote G1
+    countedLoopStart 4
             psgNoteL C1, 3
             psgNote B1
             psgNote E1
             psgNote F1
             psgNote D1
-            psgNote C1
-            psgNote B1
-            psgNote E1
-            psgNote F1
-            psgNote D1
-            psgNote C1
-            psgNote B1
-            psgNote E1
-            psgNote F1
-            psgNote D1
-            psgNote C1
-            psgNote B1
-            psgNote E1
-            psgNote F1
-            psgNote D1
-            psgNote C1
-            psgNote B1
-            psgNote E1
-            psgNote F1
-            psgNote D1
+    countedLoopEnd
             psgNote G1
             psgNote As1
+    repeatSection1Start
             psgNote D1
-            psgNoteL G1, 2
-            psgNote As1
-            psgNote D1
-            psgNote B1
-            psgNote G1
-            psgNoteL C1, 3
-            psgNote B1
-            psgNote E1
-            psgNote F1
-            psgNote D1
-            psgNote C1
-            psgNote B1
-            psgNote E1
-            psgNote F1
-            psgNote D1
-            psgNote C1
-            psgNote B1
-            psgNote E1
-            psgNote F1
-            psgNote D1
-            psgNote C1
-            psgNote B1
-            psgNote E1
-            psgNote F1
-            psgNote D1
-            psgNote C1
-            psgNote B1
-            psgNote E1
-            psgNote F1
-            psgNote D1
-            psgNote G1
-            psgNote As1
+    repeatEnd
+    repeatSection2Start
       sustain
             psgNoteL D1, 1
     mainLoopStart
             waitL 2
       setRelease 1
             psgNote G1
-            psgNote As1
+    countedLoopStart 2
+            psgNoteL As1, 2
             psgNote D1
             psgNote B1
             psgNote G1
@@ -448,72 +283,7 @@ Music_08_Channel_7:
             psgNote As1
             psgNote D1
             psgNoteL G1, 2
-            psgNote As1
-            psgNote D1
-            psgNote B1
-            psgNote G1
-            psgNoteL C1, 3
-            psgNote B1
-            psgNote E1
-            psgNote F1
-            psgNote D1
-            psgNote C1
-            psgNote B1
-            psgNote E1
-            psgNote F1
-            psgNote D1
-            psgNote C1
-            psgNote B1
-            psgNote E1
-            psgNote F1
-            psgNote D1
-            psgNote C1
-            psgNote B1
-            psgNote E1
-            psgNote F1
-            psgNote D1
-            psgNote C1
-            psgNote B1
-            psgNote E1
-            psgNote F1
-            psgNote D1
-            psgNote G1
-            psgNote As1
-            psgNote D1
-            psgNoteL G1, 2
-            psgNote As1
-            psgNote D1
-            psgNote B1
-            psgNote G1
-            psgNoteL C1, 3
-            psgNote B1
-            psgNote E1
-            psgNote F1
-            psgNote D1
-            psgNote C1
-            psgNote B1
-            psgNote E1
-            psgNote F1
-            psgNote D1
-            psgNote C1
-            psgNote B1
-            psgNote E1
-            psgNote F1
-            psgNote D1
-            psgNote C1
-            psgNote B1
-            psgNote E1
-            psgNote F1
-            psgNote D1
-            psgNote C1
-            psgNote B1
-            psgNote E1
-            psgNote F1
-            psgNote D1
-            psgNote G1
-            psgNote As1
-            psgNote D1
-            psgNoteL G1, 2
+    countedLoopEnd
             psgNote As1
             psgNote D1
             psgNote B1

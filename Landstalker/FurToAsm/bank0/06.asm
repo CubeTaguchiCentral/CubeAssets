@@ -96,10 +96,9 @@ Music_06_Channel_4:
             noteL A5, 2
             note A5
             note A5
+    countedLoopStart 3
             noteL C6, 3
-            note C6
-            note C6
-            note C6
+    countedLoopEnd
             noteL F5, 4
             note F5
             noteL F5, 2

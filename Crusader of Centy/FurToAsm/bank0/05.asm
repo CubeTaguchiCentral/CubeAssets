@@ -96,7 +96,8 @@ Music_05_Channel_1:
             note C5
             note Gs4
             note F4
-            note As6
+    countedLoopStart 1
+            noteL As6, 8
             note Fs6
             note Cs6
             note As5
@@ -108,19 +109,9 @@ Music_05_Channel_1:
             note As4
             note Fs4
             note Ds4
-            note As6
-            note Fs6
-            note Cs6
-            note As5
-            note Fs5
-            note Ds5
-            note As5
-            note Fs5
-            note Cs5
-            note As4
-            note Fs4
-            note Ds4
-            note As6
+    countedLoopEnd
+    countedLoopStart 1
+            noteL As6, 8
             note G6
             note Ds6
             note C6
@@ -132,19 +123,9 @@ Music_05_Channel_1:
             note C5
             note Gs4
             note F4
-            note As6
-            note G6
-            note Ds6
-            note C6
-            note Gs5
-            note F5
-            note As5
-            note G5
-            note Ds5
-            note C5
-            note Gs4
-            note F4
-            note As6
+    countedLoopEnd
+    countedLoopStart 1
+            noteL As6, 8
             note Fs6
             note Cs6
             note As5
@@ -192,54 +173,7 @@ Music_05_Channel_1:
             note Ds5
             note Gs4
             note Cs4
-            note As6
-            note Fs6
-            note Cs6
-            note As5
-            note Fs5
-            note Ds5
-            note As5
-            note Fs5
-            note Cs5
-            note As4
-            note Fs4
-            note Ds4
-            note As6
-            note Fs6
-            note Cs6
-            note As5
-            note Fs5
-            note Ds5
-            note As5
-            note Fs5
-            note Cs5
-            note As4
-            note Fs4
-            note Ds4
-            note C7
-            note Gs6
-            note F6
-            note Ds6
-            note Gs5
-            note Cs5
-            note C6
-            note Gs5
-            note F5
-            note Ds5
-            note Gs4
-            note Cs4
-            note C7
-            note Gs6
-            note F6
-            note Ds6
-            note Gs5
-            note Cs5
-            note C6
-            note Gs5
-            note F5
-            note Ds5
-            note Gs4
-            note Cs4
+    countedLoopEnd
             note As6
             note Fs6
             note Cs6
@@ -267,7 +201,8 @@ Music_05_Channel_1:
             note C6
             note Gs5
             note F5
-            note Ds6
+    countedLoopStart 1
+            noteL Ds6, 8
             note Gs5
             note Cs5
             note C6
@@ -279,18 +214,7 @@ Music_05_Channel_1:
             note C7
             note Gs6
             note F6
-            note Ds6
-            note Gs5
-            note Cs5
-            note C6
-            note Gs5
-            note F5
-            note Ds5
-            note Gs4
-            note Cs4
-            note C7
-            note Gs6
-            note F6
+    countedLoopEnd
             note Ds6
             note Gs5
             note Cs5
@@ -300,6 +224,7 @@ Music_05_Channel_1:
             note Ds5
             note Gs4
             note F4
+    repeatStart
             note C7
             note Gs6
             note F6
@@ -312,7 +237,8 @@ Music_05_Channel_1:
             note Ds5
             note Gs4
             note Cs4
-            note Cs7
+    countedLoopStart 1
+            noteL Cs7, 8
             note As6
             note Fs6
             note Ds6
@@ -324,18 +250,8 @@ Music_05_Channel_1:
             note Ds5
             note Fs4
             note B3
-            note Cs7
-            note As6
-            note Fs6
-            note Ds6
-            note Fs5
-            note B4
-            note Cs6
-            note As5
-            note Fs5
-            note Ds5
-            note Fs4
-            note B3
+    countedLoopEnd
+    repeatSection1Start
             note C7
             note Gs6
             note F6
@@ -348,66 +264,27 @@ Music_05_Channel_1:
             note Ds5
             note Gs4
             note Cs4
+    repeatEnd
+    repeatSection2Start
+            note C6
+            note Gs5
+            note F5
+    repeatStart
+            note Ds6
+            note Gs5
+            note Cs5
+            note C6
+            note Gs5
+            note F5
+            note Ds5
+            note Gs4
+            note Cs4
+    repeatSection1Start
             note C7
             note Gs6
             note F6
-            note Ds6
-            note Gs5
-            note Cs5
-            note C6
-            note Gs5
-            note F5
-            note Ds5
-            note Gs4
-            note Cs4
-            note Cs7
-            note As6
-            note Fs6
-            note Ds6
-            note Fs5
-            note B4
-            note Cs6
-            note As5
-            note Fs5
-            note Ds5
-            note Fs4
-            note B3
-            note Cs7
-            note As6
-            note Fs6
-            note Ds6
-            note Fs5
-            note B4
-            note Cs6
-            note As5
-            note Fs5
-            note Ds5
-            note Fs4
-            note B3
-            note C6
-            note Gs5
-            note F5
-            note Ds6
-            note Gs5
-            note Cs5
-            note C6
-            note Gs5
-            note F5
-            note Ds5
-            note Gs4
-            note Cs4
-            note C7
-            note Gs6
-            note F6
-            note Ds6
-            note Gs5
-            note Cs5
-            note C6
-            note Gs5
-            note F5
-            note Ds5
-            note Gs4
-            note Cs4
+    repeatEnd
+    repeatSection2Start
             note Cs4
             note Gs4
             note B4
@@ -503,7 +380,8 @@ Music_05_Channel_2:
             note C5
             note Gs4
             note F4
-            note As6
+    countedLoopStart 1
+            noteL As6, 8
             note Fs6
             note Cs6
             note As5
@@ -515,19 +393,9 @@ Music_05_Channel_2:
             note As4
             note Fs4
             note Ds4
-            note As6
-            note Fs6
-            note Cs6
-            note As5
-            note Fs5
-            note Ds5
-            note As5
-            note Fs5
-            note Cs5
-            note As4
-            note Fs4
-            note Ds4
-            note As6
+    countedLoopEnd
+    countedLoopStart 1
+            noteL As6, 8
             note G6
             note Ds6
             note C6
@@ -539,19 +407,9 @@ Music_05_Channel_2:
             note C5
             note Gs4
             note F4
-            note As6
-            note G6
-            note Ds6
-            note C6
-            note Gs5
-            note F5
-            note As5
-            note G5
-            note Ds5
-            note C5
-            note Gs4
-            note F4
-            note As6
+    countedLoopEnd
+    countedLoopStart 1
+            noteL As6, 8
             note Fs6
             note Cs6
             note As5
@@ -599,54 +457,7 @@ Music_05_Channel_2:
             note Ds5
             note Gs4
             note Cs4
-            note As6
-            note Fs6
-            note Cs6
-            note As5
-            note Fs5
-            note Ds5
-            note As5
-            note Fs5
-            note Cs5
-            note As4
-            note Fs4
-            note Ds4
-            note As6
-            note Fs6
-            note Cs6
-            note As5
-            note Fs5
-            note Ds5
-            note As5
-            note Fs5
-            note Cs5
-            note As4
-            note Fs4
-            note Ds4
-            note C7
-            note Gs6
-            note F6
-            note Ds6
-            note Gs5
-            note Cs5
-            note C6
-            note Gs5
-            note F5
-            note Ds5
-            note Gs4
-            note Cs4
-            note C7
-            note Gs6
-            note F6
-            note Ds6
-            note Gs5
-            note Cs5
-            note C6
-            note Gs5
-            note F5
-            note Ds5
-            note Gs4
-            note Cs4
+    countedLoopEnd
             note As6
             note Fs6
             note Cs6
@@ -674,7 +485,8 @@ Music_05_Channel_2:
             note C6
             note Gs5
             note F5
-            note Ds6
+    countedLoopStart 1
+            noteL Ds6, 8
             note Gs5
             note Cs5
             note C6
@@ -686,18 +498,7 @@ Music_05_Channel_2:
             note C7
             note Gs6
             note F6
-            note Ds6
-            note Gs5
-            note Cs5
-            note C6
-            note Gs5
-            note F5
-            note Ds5
-            note Gs4
-            note Cs4
-            note C7
-            note Gs6
-            note F6
+    countedLoopEnd
             note Ds6
             note Gs5
             note Cs5
@@ -707,6 +508,7 @@ Music_05_Channel_2:
             note Ds5
             note Gs4
             note F4
+    repeatStart
             note C7
             note Gs6
             note F6
@@ -719,7 +521,8 @@ Music_05_Channel_2:
             note Ds5
             note Gs4
             note Cs4
-            note Cs7
+    countedLoopStart 1
+            noteL Cs7, 8
             note As6
             note Fs6
             note Ds6
@@ -731,18 +534,8 @@ Music_05_Channel_2:
             note Ds5
             note Fs4
             note B3
-            note Cs7
-            note As6
-            note Fs6
-            note Ds6
-            note Fs5
-            note B4
-            note Cs6
-            note As5
-            note Fs5
-            note Ds5
-            note Fs4
-            note B3
+    countedLoopEnd
+    repeatSection1Start
             note C7
             note Gs6
             note F6
@@ -755,66 +548,27 @@ Music_05_Channel_2:
             note Ds5
             note Gs4
             note Cs4
+    repeatEnd
+    repeatSection2Start
+            note C6
+            note Gs5
+            note F5
+    repeatStart
+            note Ds6
+            note Gs5
+            note Cs5
+            note C6
+            note Gs5
+            note F5
+            note Ds5
+            note Gs4
+            note Cs4
+    repeatSection1Start
             note C7
             note Gs6
             note F6
-            note Ds6
-            note Gs5
-            note Cs5
-            note C6
-            note Gs5
-            note F5
-            note Ds5
-            note Gs4
-            note Cs4
-            note Cs7
-            note As6
-            note Fs6
-            note Ds6
-            note Fs5
-            note B4
-            note Cs6
-            note As5
-            note Fs5
-            note Ds5
-            note Fs4
-            note B3
-            note Cs7
-            note As6
-            note Fs6
-            note Ds6
-            note Fs5
-            note B4
-            note Cs6
-            note As5
-            note Fs5
-            note Ds5
-            note Fs4
-            note B3
-            note C6
-            note Gs5
-            note F5
-            note Ds6
-            note Gs5
-            note Cs5
-            note C6
-            note Gs5
-            note F5
-            note Ds5
-            note Gs4
-            note Cs4
-            note C7
-            note Gs6
-            note F6
-            note Ds6
-            note Gs5
-            note Cs5
-            note C6
-            note Gs5
-            note F5
-            note Ds5
-            note Gs4
-            note Cs4
+    repeatEnd
+    repeatSection2Start
             note Cs4
             note Gs4
             note B4
@@ -913,18 +667,14 @@ Music_05_Channel_3:
             note Cs6
             note F6
             note Gs6
+    countedLoopStart 1
             noteL As6, 84
             noteL B6, 12
             noteL As6, 48
             noteL Gs6, 24
             note Fs6
             noteL Gs6, 192
-            noteL As6, 84
-            noteL B6, 12
-            noteL As6, 48
-            noteL Gs6, 24
-            note Fs6
-            noteL Gs6, 192
+    countedLoopEnd
       shifting 64
       inst 42
       vol 7
@@ -946,6 +696,7 @@ Music_05_Channel_4:
       vol 10
       setRelease 1
       vibrato 05ch
+    countedLoopStart 1
             noteL As6, 8
             note G6
             note Ds6
@@ -994,197 +745,92 @@ Music_05_Channel_4:
             note As4
             note Fs4
             note Ds4
-            note As6
-            note G6
+    countedLoopEnd
+    repeatStart
+    countedLoopStart 1
+            noteL C7, 8
+            note Gs6
+            note F6
             note Ds6
+            note Gs5
+            note Cs5
             note C6
             note Gs5
             note F5
-            note As5
-            note G5
             note Ds5
-            note C5
             note Gs4
+            note Cs4
+    countedLoopEnd
+            note As6
+            note Fs6
+            note Cs6
+            note As5
+            note Fs5
+            note Ds5
+            note As5
+            note Fs5
+            note Cs5
+            note As4
+            note Fs4
+            note Ds4
+    repeatSection1Start
+            note As6
+            note Fs6
+            note Cs6
+            note As5
+            note Fs5
+            note Ds5
+            note As5
+            note Fs5
+            note Cs5
+            note As4
+            note Fs4
+            note Ds4
+    repeatEnd
+    repeatSection2Start
+            note Ds4
+            note Fs4
+            note As4
+            note Gs4
+            note As4
+            note Cs5
+            note As4
+            note Cs5
+            note Fs5
+            note Cs5
+            note Fs5
+            note Cs6
+            note C6
+            note Gs5
+            note F5
+            note Ds6
+            note Gs5
+            note Cs5
+            note C6
+            note Gs5
+            note F5
+            note Ds5
+            note Gs4
+            note Cs4
+    repeatStart
+            note C7
+            note Gs6
+            note F6
+            note Ds6
+            note Gs5
+            note Cs5
+            note C6
+            note Gs5
+            note F5
+            note Ds5
+            note Gs4
+    repeatSection1Start
+            note Cs4
+    repeatEnd
+    repeatSection2Start
             note F4
-            note As6
-            note G6
-            note Ds6
-            note C6
-            note Gs5
-            note F5
-            note As5
-            note G5
-            note Ds5
-            note C5
-            note Gs4
-            note F4
-            note As6
-            note Fs6
-            note Cs6
-            note As5
-            note Fs5
-            note Ds5
-            note As5
-            note Fs5
-            note Cs5
-            note As4
-            note Fs4
-            note Ds4
-            note As6
-            note Fs6
-            note Cs6
-            note As5
-            note Fs5
-            note Ds5
-            note As5
-            note Fs5
-            note Cs5
-            note As4
-            note Fs4
-            note Ds4
-            note C7
-            note Gs6
-            note F6
-            note Ds6
-            note Gs5
-            note Cs5
-            note C6
-            note Gs5
-            note F5
-            note Ds5
-            note Gs4
-            note Cs4
-            note C7
-            note Gs6
-            note F6
-            note Ds6
-            note Gs5
-            note Cs5
-            note C6
-            note Gs5
-            note F5
-            note Ds5
-            note Gs4
-            note Cs4
-            note As6
-            note Fs6
-            note Cs6
-            note As5
-            note Fs5
-            note Ds5
-            note As5
-            note Fs5
-            note Cs5
-            note As4
-            note Fs4
-            note Ds4
-            note As6
-            note Fs6
-            note Cs6
-            note As5
-            note Fs5
-            note Ds5
-            note As5
-            note Fs5
-            note Cs5
-            note As4
-            note Fs4
-            note Ds4
-            note C7
-            note Gs6
-            note F6
-            note Ds6
-            note Gs5
-            note Cs5
-            note C6
-            note Gs5
-            note F5
-            note Ds5
-            note Gs4
-            note Cs4
-            note C7
-            note Gs6
-            note F6
-            note Ds6
-            note Gs5
-            note Cs5
-            note C6
-            note Gs5
-            note F5
-            note Ds5
-            note Gs4
-            note Cs4
-            note As6
-            note Fs6
-            note Cs6
-            note As5
-            note Fs5
-            note Ds5
-            note As5
-            note Fs5
-            note Cs5
-            note As4
-            note Fs4
-            note Ds4
-            note Ds4
-            note Fs4
-            note As4
-            note Gs4
-            note As4
-            note Cs5
-            note As4
-            note Cs5
-            note Fs5
-            note Cs5
-            note Fs5
-            note Cs6
-            note C6
-            note Gs5
-            note F5
-            note Ds6
-            note Gs5
-            note Cs5
-            note C6
-            note Gs5
-            note F5
-            note Ds5
-            note Gs4
-            note Cs4
-            note C7
-            note Gs6
-            note F6
-            note Ds6
-            note Gs5
-            note Cs5
-            note C6
-            note Gs5
-            note F5
-            note Ds5
-            note Gs4
-            note Cs4
-            note C7
-            note Gs6
-            note F6
-            note Ds6
-            note Gs5
-            note Cs5
-            note C6
-            note Gs5
-            note F5
-            note Ds5
-            note Gs4
-            note F4
-            note C7
-            note Gs6
-            note F6
-            note Ds6
-            note Gs5
-            note Cs5
-            note C6
-            note Gs5
-            note F5
-            note Ds5
-            note Gs4
+    repeatEnd
+    repeatSection3Start
             note Cs4
       shifting 32
       inst 19
@@ -1200,18 +846,14 @@ Music_05_Channel_4:
             note Cs6
             note F6
             note Gs6
+    countedLoopStart 1
             noteL As6, 84
             noteL B6, 12
             noteL As6, 48
             noteL Gs6, 24
             note Fs6
             noteL Gs6, 192
-            noteL As6, 84
-            noteL B6, 12
-            noteL As6, 48
-            noteL Gs6, 24
-            note Fs6
-            noteL Gs6, 192
+    countedLoopEnd
     mainLoopEnd
 Music_05_Channel_5:
       stereo 0c0h
@@ -1224,17 +866,13 @@ Music_05_Channel_5:
       shifting 0
             waitL 168
             waitL 192
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
+    countedLoopStart 7
+            waitL 192
+    countedLoopEnd
             waitL 48
       setRelease 1
       vibrato 00h
+    countedLoopStart 9
             noteL G4, 16
       vol 6
             note G4
@@ -1242,69 +880,7 @@ Music_05_Channel_5:
             note G4
             waitL 48
       vol 11
-            noteL G4, 16
-      vol 6
-            note G4
-      vol 5
-            note G4
-            waitL 48
-      vol 11
-            noteL G4, 16
-      vol 6
-            note G4
-      vol 5
-            note G4
-            waitL 48
-      vol 11
-            noteL G4, 16
-      vol 6
-            note G4
-      vol 5
-            note G4
-            waitL 48
-      vol 11
-            noteL G4, 16
-      vol 6
-            note G4
-      vol 5
-            note G4
-            waitL 48
-      vol 11
-            noteL G4, 16
-      vol 6
-            note G4
-      vol 5
-            note G4
-            waitL 48
-      vol 11
-            noteL G4, 16
-      vol 6
-            note G4
-      vol 5
-            note G4
-            waitL 48
-      vol 11
-            noteL G4, 16
-      vol 6
-            note G4
-      vol 5
-            note G4
-            waitL 48
-      vol 11
-            noteL G4, 16
-      vol 6
-            note G4
-      vol 5
-            note G4
-            waitL 48
-      vol 11
-            noteL G4, 16
-      vol 6
-            note G4
-      vol 5
-            note G4
-            waitL 48
-      vol 11
+    countedLoopEnd
             noteL G4, 16
       vol 6
             note G4

@@ -25,18 +25,14 @@ Music_18_Channel_0:
             note G4
       inst 3
       vol 13
-            note E3
+    countedLoopStart 1
+            noteL E3, 6
       vol 9
             note E3
       vol 13
             note E3
             note E3
-            note E3
-      vol 9
-            note E3
-      vol 13
-            note E3
-            note E3
+    countedLoopEnd
             noteL B3, 12
             noteL C4, 6
       vol 9
@@ -231,14 +227,12 @@ Music_18_Channel_5:
       stereo 0c0h
             sampleL 5, 12
             sample 5
+    countedLoopStart 1
             sampleL 2, 6
             sample 3
             sample 3
             sample 3
-            sample 2
-            sample 3
-            sample 3
-            sample 3
+    countedLoopEnd
             sampleL 5, 12
             sample 2
             sample 0

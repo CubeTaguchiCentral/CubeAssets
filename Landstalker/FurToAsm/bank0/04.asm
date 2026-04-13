@@ -29,20 +29,15 @@ Music_04_Channel_0:
             wait
       vol 10
             note F6
-            wait
+    countedLoopStart 1
+            waitL 6
             note F6
             wait
             note F6
             wait
             noteL F6, 12
             noteL F6, 6
-            wait
-            note F6
-            wait
-            note F6
-            wait
-            noteL F6, 12
-            noteL F6, 6
+    countedLoopEnd
             wait
             note F6
             wait
@@ -69,20 +64,15 @@ Music_04_Channel_1:
             noteL C7, 6
             wait
             note C6
-            wait
+    countedLoopStart 1
+            waitL 6
             note C6
             wait
             note C6
             wait
             noteL C6, 12
             noteL C6, 6
-            wait
-            note C6
-            wait
-            note C6
-            wait
-            noteL C6, 12
-            noteL C6, 6
+    countedLoopEnd
             wait
             note C6
             wait
@@ -106,7 +96,8 @@ Music_04_Channel_2:
             note As4
             wait
             note C5
-            wait
+    countedLoopStart 1
+            waitL 6
             noteL Ds5, 12
             noteL D5, 4
             note C5
@@ -114,14 +105,7 @@ Music_04_Channel_2:
             noteL C5, 6
             wait
             note F5
-            wait
-            noteL Ds5, 12
-            noteL D5, 4
-            note C5
-            note As4
-            noteL C5, 6
-            wait
-            note F5
+    countedLoopEnd
             wait
             noteL Gs5, 48
             noteL Fs5, 24
@@ -153,20 +137,15 @@ Music_04_Channel_4:
             noteL As6, 6
             wait
             note As5
-            wait
+    countedLoopStart 1
+            waitL 6
             note As5
             wait
             note As5
             wait
             noteL As5, 12
             noteL As5, 6
-            wait
-            note As5
-            wait
-            note As5
-            wait
-            noteL As5, 12
-            noteL As5, 6
+    countedLoopEnd
             wait
             note As5
             wait
@@ -184,6 +163,7 @@ Music_04_Channel_5:
             sample 9
             sample 9
             sample 9
+    countedLoopStart 1
             sampleL 9, 3
             sampleL 10, 2
             sample 10
@@ -194,48 +174,28 @@ Music_04_Channel_5:
             sample 10
             sampleL 9, 12
             sample 10
-            sampleL 9, 3
-            sampleL 10, 2
-            sample 10
-            sample 11
-            sampleL 11, 3
-            sampleL 9, 4
-            sample 10
-            sample 10
-            sampleL 9, 12
-            sample 10
+    countedLoopEnd
             sample 5
             sampleL 9, 4
             sample 10
             sample 10
             sampleL 9, 24
+    countedLoopStart 1
             sampleL 0, 11
             sampleL 10, 1
             sampleL 9, 12
-            sampleL 0, 11
-            sampleL 10, 1
-            sampleL 9, 12
+    countedLoopEnd
             sampleL 9, 4
             sampleL 10, 3
             sampleL 10, 2
             sample 10
             sample 10
-            sample 11
-            sample 11
-            sample 11
-            sample 11
-            sample 11
-            sample 11
-            sample 11
-            sample 10
-            sample 10
-            sample 10
-            sample 10
-            sample 10
-            sample 10
-            sample 10
-            sample 10
-            sample 10
+    countedLoopStart 6
+            sampleL 11, 2
+    countedLoopEnd
+    countedLoopStart 8
+            sampleL 10, 2
+    countedLoopEnd
             sampleL 10, 3
             sampleL 9, 6
     channel_end

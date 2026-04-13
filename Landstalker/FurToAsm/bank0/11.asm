@@ -77,16 +77,13 @@ Music_11_Channel_1:
       vol 10
       vibrato 05fh
       setRelease 1
+    countedLoopStart 1
             noteL D4, 30
             waitL 8
             noteL D4, 10
             noteL D5, 72
             waitL 24
-            noteL D4, 30
-            waitL 8
-            noteL D4, 10
-            noteL D5, 72
-            waitL 24
+    countedLoopEnd
             noteL As3, 30
             waitL 8
             noteL As3, 10
@@ -111,6 +108,7 @@ Music_11_Channel_2:
       vol 11
       vibrato 05fh
       setRelease 1
+    countedLoopStart 1
             noteL D4, 8
             note G4
             note A4
@@ -127,22 +125,8 @@ Music_11_Channel_2:
             note G5
             note A5
             waitL 24
-            noteL D4, 8
-            note G4
-            note A4
-            note C5
-            note G4
-            note A4
-            note C5
-            note D5
-            note A4
-            note C5
-            note D5
-            note G5
-            note D5
-            note G5
-            note A5
-            waitL 24
+    countedLoopEnd
+    repeatStart
             noteL F4, 8
             note As4
             note C5
@@ -158,22 +142,10 @@ Music_11_Channel_2:
             note F5
             note As5
             note C6
+    repeatSection1Start
             waitL 24
-            noteL F4, 8
-            note As4
-            note C5
-            note Ds5
-            note As4
-            note C5
-            note Ds5
-            note F5
-            note C5
-            note Ds5
-            note F5
-            note As5
-            note F5
-            note As5
-            note C6
+    repeatEnd
+    repeatSection2Start
             note A6
             note A6
             note A6
@@ -209,6 +181,7 @@ Music_11_Channel_3:
       vol 11
             waitL 48
       vibrato 05fh
+    countedLoopStart 1
       sustain
             noteL F2, 2
       setSlide 33
@@ -217,14 +190,7 @@ Music_11_Channel_3:
             noteL G2, 92
       noSlide
             waitL 48
-      sustain
-            noteL F2, 2
-      setSlide 33
-            note Fs2
-      setRelease 1
-            noteL G2, 92
-      noSlide
-            waitL 48
+    countedLoopEnd
       sustain
             noteL Gs2, 2
       setSlide 33
@@ -319,6 +285,7 @@ Music_11_Channel_4:
             waitL 1
     channel_end
 Music_11_Channel_5:
+    countedLoopStart 3
             sampleL 5, 48
             sampleL 0, 24
             sample 9
@@ -329,36 +296,7 @@ Music_11_Channel_5:
             sample 10
             sample 11
             sampleL 9, 24
-            sampleL 5, 48
-            sampleL 0, 24
-            sample 9
-            sampleL 9, 4
-            sample 10
-            sample 10
-            sample 10
-            sample 10
-            sample 11
-            sampleL 9, 24
-            sampleL 5, 48
-            sampleL 0, 24
-            sample 9
-            sampleL 9, 4
-            sample 10
-            sample 10
-            sample 10
-            sample 10
-            sample 11
-            sampleL 9, 24
-            sampleL 5, 48
-            sampleL 0, 24
-            sample 9
-            sampleL 9, 4
-            sample 10
-            sample 10
-            sample 10
-            sample 10
-            sample 11
-            sampleL 9, 24
+    countedLoopEnd
             sample 9
             sample 9
             sample 9

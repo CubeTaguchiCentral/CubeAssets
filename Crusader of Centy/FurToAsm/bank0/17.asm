@@ -27,35 +27,13 @@ Music_17_Channel_0:
       stereo 0c0h
       setRelease 1
             waitL 24
+    countedLoopStart 1
             noteL E4, 36
             noteL A3, 24
             noteL G3, 36
             noteL D4, 60
             noteL A3, 36
-            note E4
-            noteL A3, 24
-            noteL G3, 36
-            noteL D4, 60
-            noteL A3, 36
-            note E4
-            noteL A3, 24
-            noteL G3, 36
-            noteL D4, 60
-            noteL F3, 36
-            note C4
-            noteL F3, 24
-            noteL E3, 96
-            noteL A3, 36
-            note E4
-            noteL A3, 24
-            noteL G3, 36
-            noteL D4, 60
-            noteL A3, 36
-            note E4
-            noteL A3, 24
-            noteL G3, 36
-            noteL D4, 60
-            noteL A3, 36
+    countedLoopEnd
             note E4
             noteL A3, 24
             noteL G3, 36
@@ -64,6 +42,18 @@ Music_17_Channel_0:
             note C4
             noteL F3, 24
             noteL E3, 96
+    countedLoopStart 2
+            noteL A3, 36
+            note E4
+            noteL A3, 24
+            noteL G3, 36
+            noteL D4, 60
+    countedLoopEnd
+            noteL F3, 36
+            note C4
+            noteL F3, 24
+            noteL E3, 96
+    countedLoopStart 1
             noteL D3, 36
             note A3
             noteL D3, 24
@@ -83,25 +73,7 @@ Music_17_Channel_0:
             noteL A3, 12
             note B3
             noteL C4, 24
-            noteL D3, 36
-            note A3
-            noteL D3, 24
-            noteL E3, 36
-            note B3
-            noteL E3, 24
-            noteL A3, 30
-            waitL 6
-            noteL A3, 12
-            noteL E3, 30
-            waitL 6
-            noteL E3, 12
-            noteL A3, 24
-            waitL 12
-            noteL A3, 5
-            waitL 7
-            noteL A3, 12
-            note B3
-            noteL C4, 24
+    countedLoopEnd
             noteL D3, 36
             note A3
             noteL D3, 24
@@ -133,24 +105,11 @@ Music_17_Channel_1:
       setRelease 1
             noteL C3, 48
       vibrato 05ah
+    countedLoopStart 5
             noteL C3, 24
             wait
             noteL C3, 48
-            noteL C3, 24
-            wait
-            noteL C3, 48
-            noteL C3, 24
-            wait
-            noteL C3, 48
-            noteL C3, 24
-            wait
-            noteL C3, 48
-            noteL C3, 24
-            wait
-            noteL C3, 48
-            noteL C3, 24
-            wait
-            noteL C3, 48
+    countedLoopEnd
             noteL C3, 24
             waitL 60
       stereo 0c0h
@@ -158,6 +117,7 @@ Music_17_Channel_1:
       vol 12
             noteL E5, 4
             waitL 8
+    repeatStart
             noteL G5, 12
             noteL A5, 4
             waitL 8
@@ -172,6 +132,7 @@ Music_17_Channel_1:
             noteL C6, 12
             noteL A5, 4
             waitL 8
+    repeatSection1Start
       vol 2
             noteL C6, 12
             noteL A5, 4
@@ -203,20 +164,8 @@ Music_17_Channel_1:
             waitL 44
             noteL E5, 4
             waitL 9
-            noteL G5, 12
-            noteL A5, 4
-            waitL 8
-            noteL C6, 12
-            noteL A5, 4
-            waitL 8
-      vol 6
-            noteL C6, 12
-            noteL A5, 4
-            waitL 8
-      vol 4
-            noteL C6, 12
-            noteL A5, 4
-            waitL 8
+    repeatEnd
+    repeatSection2Start
       vol 3
             noteL C6, 12
             noteL A5, 4
@@ -676,6 +625,7 @@ Music_17_Channel_4:
             noteL A5, 4
             waitL 8
       vol 9
+    repeatStart
             noteL C6, 12
             noteL A5, 4
             waitL 8
@@ -692,6 +642,7 @@ Music_17_Channel_4:
             noteL A5, 4
             waitL 8
       vol 8
+    repeatSection1Start
             waitL 24
             noteL E5, 12
             noteL G5, 3
@@ -721,22 +672,8 @@ Music_17_Channel_4:
             noteL G5, 12
             noteL A5, 4
             waitL 8
-            noteL C6, 12
-            noteL A5, 4
-            waitL 8
-      vol 3
-            noteL C6, 12
-            noteL A5, 4
-            waitL 8
-      vol 2
-            noteL C6, 12
-            noteL A5, 4
-            waitL 8
-      vol 1
-            noteL C6, 12
-            noteL A5, 4
-            waitL 8
-      vol 8
+    repeatEnd
+    repeatSection2Start
             waitL 12
             noteL A5, 2
             waitL 10
@@ -893,114 +830,12 @@ Music_17_Channel_5:
       stereo 040h
       setRelease 1
             waitL 12
+    countedLoopStart 26
             noteL G5, 24
             note G5
             note G5
             note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
+    countedLoopEnd
             noteL G5, 72
       stereo 040h
       vol 10

@@ -121,6 +121,7 @@ Music_16_Channel_1:
             wait
       inst 26
       vol 13
+    repeatStart
             noteL A5, 24
             note As5
             note D6
@@ -137,28 +138,15 @@ Music_16_Channel_1:
             note A6
             noteL E7, 32
             note D7
+    repeatSection1Start
             note C7
             noteL B6, 78
             noteL As6, 6
             note A6
             note Gs6
             noteL G6, 96
-            noteL A5, 24
-            note As5
-            note D6
-            note F6
-            noteL A6, 96
-            noteL B5, 24
-            note C6
-            note E6
-            note G6
-            noteL B6, 96
-            noteL D6, 24
-            note E6
-            note F6
-            note A6
-            noteL E7, 32
-            note D7
+    repeatEnd
+    repeatSection2Start
       sustain
             noteL G7, 224
       vol 11
@@ -212,6 +200,7 @@ Music_16_Channel_2:
             waitL 48
             noteL A4, 50
             noteL Gs4, 94
+    repeatStart
             noteL D5, 96
             noteL F5, 32
             note E5
@@ -220,6 +209,7 @@ Music_16_Channel_2:
             noteL E5, 32
             note D5
             note C5
+    repeatSection1Start
             noteL As4, 96
             noteL D5, 48
             note G5
@@ -230,14 +220,8 @@ Music_16_Channel_2:
             note A4
       inst 25
       vol 11
-            noteL D5, 96
-            noteL F5, 32
-            note E5
-            note D5
-            noteL C5, 96
-            noteL E5, 32
-            note D5
-            note C5
+    repeatEnd
+    repeatSection2Start
             noteL A4, 98
             noteL D5, 94
             noteL D5, 64
@@ -269,11 +253,13 @@ Music_16_Channel_3:
       stereo 0c0h
       setRelease 1
             waitL 6
+    repeatStart
             noteL B4, 120
             waitL 24
             noteL B3, 48
             noteL Fs4, 120
             waitL 24
+    repeatSection1Start
             noteL A3, 48
             noteL E4, 120
             waitL 24
@@ -283,16 +269,14 @@ Music_16_Channel_3:
             note E4
             waitL 24
             noteL E4, 48
-            noteL B4, 120
-            waitL 24
-            noteL B3, 48
-            noteL Fs4, 120
-            waitL 24
+    repeatEnd
+    repeatSection2Start
             note F4
             noteL A4, 144
             waitL 24
             noteL B3, 48
             noteL B4, 120
+    repeatStart
             noteL F4, 96
             noteL D5, 32
             note C5
@@ -301,6 +285,7 @@ Music_16_Channel_3:
             noteL C5, 32
             note B4
             note A4
+    repeatSection1Start
             noteL D4, 96
             note As4
             noteL A4, 112
@@ -311,14 +296,8 @@ Music_16_Channel_3:
             noteL E4, 16
       inst 25
       vol 11
-            noteL F4, 96
-            noteL D5, 32
-            note C5
-            note As4
-            noteL E4, 96
-            noteL C5, 32
-            note B4
-            note A4
+    repeatEnd
+    repeatSection2Start
             noteL F4, 96
             noteL A4, 48
             noteL A5, 50
@@ -394,6 +373,7 @@ Music_16_Channel_4:
             noteL Gs4, 34
             noteL B3, 36
             noteL E3, 24
+    repeatStart
             noteL D5, 96
             noteL F5, 32
             note E5
@@ -402,6 +382,7 @@ Music_16_Channel_4:
             noteL E5, 32
             note D5
             note C5
+    repeatSection1Start
             noteL As4, 96
             noteL D5, 48
             note G5
@@ -415,14 +396,8 @@ Music_16_Channel_4:
             note E4
       inst 25
       vol 10
-            noteL D5, 96
-            noteL F5, 32
-            note E5
-            note D5
-            noteL C5, 96
-            noteL E5, 32
-            note D5
-            note C5
+    repeatEnd
+    repeatSection2Start
             noteL A4, 98
             noteL D5, 46
             noteL A5, 96
@@ -503,6 +478,7 @@ Music_16_Channel_5:
             wait
       inst 26
       vol 12
+    repeatStart
             noteL A5, 24
             note As5
             note D6
@@ -519,28 +495,15 @@ Music_16_Channel_5:
             note A6
             noteL E7, 32
             note D7
+    repeatSection1Start
             note C7
             noteL B6, 78
             noteL As6, 6
             note A6
             note Gs6
             noteL G6, 96
-            noteL A5, 24
-            note As5
-            note D6
-            note F6
-            noteL A6, 96
-            noteL B5, 24
-            note C6
-            note E6
-            note G6
-            noteL B6, 96
-            noteL D6, 24
-            note E6
-            note F6
-            note A6
-            noteL E7, 32
-            note D7
+    repeatEnd
+    repeatSection2Start
       sustain
             noteL G7, 224
       vol 10

@@ -197,6 +197,7 @@ Music_03_Channel_3:
       setRelease 1
             waitL 2
       vol 8
+    countedLoopStart 3
             noteL A5, 24
       vol 9
             noteL E6, 12
@@ -211,55 +212,16 @@ Music_03_Channel_3:
       vol 10
             note A6
       vol 8
+    countedLoopEnd
             note A5
+    repeatStart
       vol 9
             noteL E6, 12
             note E6
       vol 8
             noteL A5, 24
       vol 10
-            note A6
-      vol 8
-            noteL A5, 48
-            noteL A5, 24
-      vol 10
-            note A6
-      vol 8
-            note A5
-      vol 9
-            noteL E6, 12
-            note E6
-      vol 8
-            noteL A5, 24
-      vol 10
-            note A6
-      vol 8
-            noteL A5, 48
-            noteL A5, 24
-      vol 10
-            note A6
-      vol 8
-            note A5
-      vol 9
-            noteL E6, 12
-            note E6
-      vol 8
-            noteL A5, 24
-      vol 10
-            note A6
-      vol 8
-            noteL A5, 48
-            noteL A5, 24
-      vol 10
-            note A6
-      vol 8
-            note A5
-      vol 9
-            noteL E6, 12
-            note E6
-      vol 8
-            noteL A5, 24
-      vol 10
+    repeatSection1Start
             note B6
       vol 8
             noteL B5, 48
@@ -268,12 +230,8 @@ Music_03_Channel_3:
             note B6
       vol 8
             note B5
-      vol 9
-            noteL E6, 12
-            note E6
-      vol 8
-            noteL A5, 24
-      vol 10
+    repeatEnd
+    repeatSection2Start
             note A6
       vol 8
             noteL A5, 48
@@ -449,6 +407,7 @@ Music_03_Channel_5:
       setRelease 1
             waitL 10
       vol 7
+    countedLoopStart 3
             noteL A5, 24
       vol 8
             noteL E6, 12
@@ -463,55 +422,16 @@ Music_03_Channel_5:
       vol 9
             note A6
       vol 7
+    countedLoopEnd
             note A5
+    repeatStart
       vol 8
             noteL E6, 12
             note E6
       vol 7
             noteL A5, 24
       vol 9
-            note A6
-      vol 7
-            noteL A5, 48
-            noteL A5, 24
-      vol 9
-            note A6
-      vol 7
-            note A5
-      vol 8
-            noteL E6, 12
-            note E6
-      vol 7
-            noteL A5, 24
-      vol 9
-            note A6
-      vol 7
-            noteL A5, 48
-            noteL A5, 24
-      vol 9
-            note A6
-      vol 7
-            note A5
-      vol 8
-            noteL E6, 12
-            note E6
-      vol 7
-            noteL A5, 24
-      vol 9
-            note A6
-      vol 7
-            noteL A5, 48
-            noteL A5, 24
-      vol 9
-            note A6
-      vol 7
-            note A5
-      vol 8
-            noteL E6, 12
-            note E6
-      vol 7
-            noteL A5, 24
-      vol 9
+    repeatSection1Start
             note B6
       vol 7
             noteL B5, 48
@@ -520,12 +440,8 @@ Music_03_Channel_5:
             note B6
       vol 7
             note B5
-      vol 8
-            noteL E6, 12
-            note E6
-      vol 7
-            noteL A5, 24
-      vol 9
+    repeatEnd
+    repeatSection2Start
             note A6
       vol 7
             noteL A5, 48

@@ -20,170 +20,34 @@ Music_08_Channel_0:
       vol 12
       vibrato 05ah
       setRelease 1
+    countedLoopStart 23
             noteL C3, 12
             note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note Gs2
-            note Gs2
-            note Gs2
-            note Gs2
-            note Gs2
-            note Gs2
-            noteL As2, 24
-            noteL C3, 12
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note Gs2
-            note Gs2
-            note Gs2
-            note Gs2
-            note Gs2
-            note Gs2
-            noteL As2, 24
-            noteL C3, 12
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            note C3
-            noteL Gs2, 108
+    countedLoopEnd
+    countedLoopStart 7
+            noteL F2, 12
+    countedLoopEnd
+    countedLoopStart 5
             noteL Gs2, 12
-            note Gs2
-            note Gs2
-            note Gs2
-            note Gs2
+    countedLoopEnd
+            noteL As2, 24
+    countedLoopStart 31
+            noteL C3, 12
+    countedLoopEnd
+    countedLoopStart 23
+            noteL F2, 12
+    countedLoopEnd
+    countedLoopStart 5
+            noteL Gs2, 12
+    countedLoopEnd
+            noteL As2, 24
+    countedLoopStart 31
+            noteL C3, 12
+    countedLoopEnd
+            noteL Gs2, 108
+    countedLoopStart 4
+            noteL Gs2, 12
+    countedLoopEnd
       vol 13
             noteL Gs2, 8
             note Gs2
@@ -295,6 +159,7 @@ Music_08_Channel_3:
       setRelease 1
             noteL C4, 36
       vibrato 05ah
+    countedLoopStart 3
             noteL C5, 24
             noteL C6, 36
             waitL 96
@@ -305,36 +170,7 @@ Music_08_Channel_3:
             waitL 96
       stereo 080h
             noteL C4, 36
-            noteL C5, 24
-            noteL C6, 36
-            waitL 96
-      stereo 040h
-            noteL C4, 36
-            noteL C5, 24
-            noteL C6, 36
-            waitL 96
-      stereo 080h
-            noteL C4, 36
-            noteL C5, 24
-            noteL C6, 36
-            waitL 96
-      stereo 040h
-            noteL C4, 36
-            noteL C5, 24
-            noteL C6, 36
-            waitL 96
-      stereo 080h
-            noteL C4, 36
-            noteL C5, 24
-            noteL C6, 36
-            waitL 96
-      stereo 040h
-            noteL C4, 36
-            noteL C5, 24
-            noteL C6, 36
-            waitL 96
-      stereo 080h
-            noteL C4, 36
+    countedLoopEnd
             noteL C5, 24
             noteL C6, 36
             waitL 96
@@ -442,37 +278,17 @@ Music_08_Channel_4:
     channel_end
 Music_08_Channel_5:
             waitL 96
+    countedLoopStart 2
             sampleL 0, 36
             sampleL 4, 156
-            sampleL 0, 36
-            sampleL 4, 156
-            sampleL 0, 36
-            sampleL 4, 156
+    countedLoopEnd
+    countedLoopStart 4
             sampleL 0, 36
             sampleL 4, 60
             sampleL 0, 12
             sampleL 0, 60
             sampleL 1, 24
-            sampleL 0, 36
-            sampleL 4, 60
-            sampleL 0, 12
-            sampleL 0, 60
-            sampleL 1, 24
-            sampleL 0, 36
-            sampleL 4, 60
-            sampleL 0, 12
-            sampleL 0, 60
-            sampleL 1, 24
-            sampleL 0, 36
-            sampleL 4, 60
-            sampleL 0, 12
-            sampleL 0, 60
-            sampleL 1, 24
-            sampleL 0, 36
-            sampleL 4, 60
-            sampleL 0, 12
-            sampleL 0, 60
-            sampleL 1, 24
+    countedLoopEnd
             sampleL 0, 36
             sampleL 4, 48
             sampleL 0, 12

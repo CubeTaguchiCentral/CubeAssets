@@ -233,12 +233,10 @@ Music_06_Channel_1:
             noteL C5, 3
             note D5
             noteL C5, 24
+    countedLoopStart 2
             waitL 6
             note C5
-            wait
-            note C5
-            wait
-            note C5
+    countedLoopEnd
             note D5
             noteL C5, 3
             note D5
@@ -295,18 +293,10 @@ Music_06_Channel_1:
             note E5
             note D5
       setRelease 2
-            note A4
+    countedLoopStart 5
+            noteL A4, 6
             note E4
-            note A4
-            note E4
-            note A4
-            note E4
-            note A4
-            note E4
-            note A4
-            note E4
-            note A4
-            note E4
+    countedLoopEnd
             noteL A4, 7
             waitL 5
       setRelease 8
@@ -317,18 +307,10 @@ Music_06_Channel_1:
       setRelease 1
             note Cs5
       setRelease 2
+    countedLoopStart 5
             noteL D5, 6
             note A4
-            note D5
-            note A4
-            note D5
-            note A4
-            note D5
-            note A4
-            note D5
-            note A4
-            note D5
-            note A4
+    countedLoopEnd
             noteL D5, 7
             waitL 5
       setRelease 8
@@ -748,12 +730,10 @@ Music_06_Channel_4:
             noteL C5, 3
             note D5
             noteL C5, 24
+    countedLoopStart 2
             waitL 6
             note C5
-            wait
-            note C5
-            wait
-            note C5
+    countedLoopEnd
             note D5
             noteL C5, 3
             note D5
@@ -810,18 +790,10 @@ Music_06_Channel_4:
             note E5
             note D5
       setRelease 2
-            note A4
+    countedLoopStart 5
+            noteL A4, 6
             note E4
-            note A4
-            note E4
-            note A4
-            note E4
-            note A4
-            note E4
-            note A4
-            note E4
-            note A4
-            note E4
+    countedLoopEnd
             noteL A4, 7
             waitL 5
       setRelease 8
@@ -832,18 +804,10 @@ Music_06_Channel_4:
       setRelease 1
             note Cs5
       setRelease 2
+    countedLoopStart 5
             noteL D5, 6
             note A4
-            note D5
-            note A4
-            note D5
-            note A4
-            note D5
-            note A4
-            note D5
-            note A4
-            note D5
-            note A4
+    countedLoopEnd
             noteL D5, 7
             waitL 5
       setRelease 8

@@ -63,12 +63,10 @@ Music_15_Channel_2:
       setRelease 1
       vibrato 05ah
             noteL C6, 6
+    countedLoopStart 2
             waitL 18
             noteL D6, 6
-            waitL 18
-            noteL D6, 6
-            waitL 18
-            noteL D6, 6
+    countedLoopEnd
             waitL 12
             noteL E6, 6
             waitL 36
@@ -86,12 +84,10 @@ Music_15_Channel_3:
       vibrato 05ah
       setRelease 1
             noteL A5, 6
+    countedLoopStart 2
             waitL 18
             noteL B5, 6
-            waitL 18
-            noteL B5, 6
-            waitL 18
-            noteL B5, 6
+    countedLoopEnd
             waitL 12
             noteL C6, 6
             waitL 36
@@ -131,16 +127,13 @@ Music_15_Channel_5:
             sampleL 0, 12
             sample 1
             sample 0
+    countedLoopStart 1
             sampleL 1, 6
             sample 1
             sample 1
             sample 1
             sampleL 0, 12
-            sampleL 1, 6
-            sample 1
-            sample 1
-            sample 1
-            sampleL 0, 12
+    countedLoopEnd
             sampleL 1, 24
     channel_end
 Music_15_Channel_6:

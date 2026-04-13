@@ -19,14 +19,13 @@ Music_17_Channel_0:
       vol 10
       setRelease 1
       vibrato 05ch
+    repeatStart
+    countedLoopStart 1
             noteL G5, 57
             waitL 12
             noteL G5, 6
             waitL 18
-            noteL G5, 57
-            waitL 12
-            noteL G5, 6
-            waitL 18
+    countedLoopEnd
             noteL As5, 57
             waitL 12
             noteL As5, 6
@@ -36,6 +35,7 @@ Music_17_Channel_0:
             waitL 12
             noteL G5, 6
             waitL 18
+    repeatSection1Start
             noteL G5, 45
             noteL F5, 48
             noteL F5, 57
@@ -49,23 +49,8 @@ Music_17_Channel_0:
       vol 10
       shifting 0
       setRelease 1
-            noteL G5, 57
-            waitL 12
-            noteL G5, 6
-            waitL 18
-            noteL G5, 57
-            waitL 12
-            noteL G5, 6
-            waitL 18
-            noteL As5, 57
-            waitL 12
-            noteL As5, 6
-            waitL 18
-            noteL A5, 93
-            noteL G5, 57
-            waitL 12
-            noteL G5, 6
-            waitL 18
+    repeatEnd
+    repeatSection2Start
             noteL F5, 57
             waitL 12
             noteL F5, 6
@@ -79,23 +64,8 @@ Music_17_Channel_0:
             noteL As5, 6
             waitL 18
       vol 10
-            noteL G5, 57
-            waitL 12
-            noteL G5, 6
-            waitL 18
-            noteL G5, 57
-            waitL 12
-            noteL G5, 6
-            waitL 18
-            noteL As5, 57
-            waitL 12
-            noteL As5, 6
-            waitL 18
-            noteL A5, 93
-            noteL G5, 57
-            waitL 12
-            noteL G5, 6
-            waitL 18
+    repeatEnd
+    repeatSection3Start
             noteL G5, 45
             noteL F5, 48
             noteL F5, 57
@@ -265,6 +235,8 @@ Music_17_Channel_3:
       vol 11
       vibrato 00h
       setRelease 1
+    repeatStart
+    countedLoopStart 3
             noteL F4, 21
             noteL F4, 3
             wait
@@ -284,449 +256,90 @@ Music_17_Channel_3:
             wait
             note F4
             wait
-            noteL F4, 21
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            noteL F4, 12
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            noteL F4, 12
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            note F4
-            wait
-            note F4
-            wait
-            noteL F4, 21
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            noteL F4, 12
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            noteL F4, 12
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            note F4
-            wait
-            note F4
-            wait
-            noteL F4, 21
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            noteL F4, 12
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            noteL F4, 12
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            note F4
-            wait
-            note F4
-            wait
+    countedLoopEnd
             noteL Ds4, 21
+    countedLoopStart 1
             noteL Ds4, 3
             wait
             note Ds4
             wait
             noteL Ds4, 12
+    countedLoopEnd
+    countedLoopStart 3
             noteL Ds4, 3
             wait
-            note Ds4
-            wait
-            noteL Ds4, 12
-            noteL Ds4, 3
-            wait
-            note Ds4
-            wait
-            note Ds4
-            wait
-            note Ds4
-            wait
+    countedLoopEnd
             noteL D4, 21
+    countedLoopStart 1
             noteL D4, 3
             wait
             note D4
             wait
             noteL D4, 12
+    countedLoopEnd
+    countedLoopStart 3
             noteL D4, 3
             wait
-            note D4
-            wait
-            noteL D4, 12
-            noteL D4, 3
-            wait
-            note D4
-            wait
-            note D4
-            wait
-            note D4
-            wait
+    countedLoopEnd
             noteL Cs4, 21
+    countedLoopStart 1
             noteL Cs4, 3
             wait
             note Cs4
             wait
             noteL Cs4, 12
+    countedLoopEnd
+    countedLoopStart 3
             noteL Cs4, 3
             wait
-            note Cs4
-            wait
-            noteL Cs4, 12
-            noteL Cs4, 3
-            wait
-            note Cs4
-            wait
-            note Cs4
-            wait
-            note Cs4
-            wait
+    countedLoopEnd
+    repeatSection1Start
             noteL C4, 21
+    countedLoopStart 1
             noteL C4, 3
             wait
             note C4
             wait
             noteL C4, 12
+    countedLoopEnd
+    countedLoopStart 3
             noteL C4, 3
             wait
-            note C4
-            wait
-            noteL C4, 12
-            noteL C4, 3
-            wait
-            note C4
-            wait
-            note C4
-            wait
-            note C4
-            wait
+    countedLoopEnd
     mainLoopStart
       inst 32
       vol 11
       shifting 0
       setRelease 1
-            noteL F4, 21
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            noteL F4, 12
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            noteL F4, 12
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            note F4
-            wait
-            note F4
-            wait
-            noteL F4, 21
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            noteL F4, 12
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            noteL F4, 12
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            note F4
-            wait
-            note F4
-            wait
-            noteL F4, 21
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            noteL F4, 12
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            noteL F4, 12
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            note F4
-            wait
-            note F4
-            wait
-            noteL F4, 21
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            noteL F4, 12
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            noteL F4, 12
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            note F4
-            wait
-            note F4
-            wait
+    repeatEnd
+    repeatSection2Start
             noteL Ds4, 21
+    countedLoopStart 1
             noteL Ds4, 3
             wait
             note Ds4
             wait
             noteL Ds4, 12
+    countedLoopEnd
+    countedLoopStart 3
             noteL Ds4, 3
             wait
-            note Ds4
-            wait
-            noteL Ds4, 12
-            noteL Ds4, 3
-            wait
-            note Ds4
-            wait
-            note Ds4
-            wait
-            note Ds4
-            wait
-            noteL D4, 21
-            noteL D4, 3
-            wait
-            note D4
-            wait
-            noteL D4, 12
-            noteL D4, 3
-            wait
-            note D4
-            wait
-            noteL D4, 12
-            noteL D4, 3
-            wait
-            note D4
-            wait
-            note D4
-            wait
-            note D4
-            wait
-            noteL Cs4, 21
-            noteL Cs4, 3
-            wait
-            note Cs4
-            wait
-            noteL Cs4, 12
-            noteL Cs4, 3
-            wait
-            note Cs4
-            wait
-            noteL Cs4, 12
-            noteL Cs4, 3
-            wait
-            note Cs4
-            wait
-            note Cs4
-            wait
-            note Cs4
-            wait
-            noteL Ds4, 21
-            noteL Ds4, 3
-            wait
-            note Ds4
-            wait
-            noteL Ds4, 12
-            noteL Ds4, 3
-            wait
-            note Ds4
-            wait
-            noteL Ds4, 12
-            noteL Ds4, 3
-            wait
-            note Ds4
-            wait
-            note Ds4
-            wait
-            note Ds4
-            wait
+    countedLoopEnd
       vol 11
-            noteL F4, 21
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            noteL F4, 12
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            noteL F4, 12
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            note F4
-            wait
-            note F4
-            wait
-            noteL F4, 21
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            noteL F4, 12
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            noteL F4, 12
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            note F4
-            wait
-            note F4
-            wait
-            noteL F4, 21
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            noteL F4, 12
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            noteL F4, 12
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            note F4
-            wait
-            note F4
-            wait
-            noteL F4, 21
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            noteL F4, 12
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            noteL F4, 12
-            noteL F4, 3
-            wait
-            note F4
-            wait
-            note F4
-            wait
-            note F4
-            wait
-            noteL Ds4, 21
-            noteL Ds4, 3
-            wait
-            note Ds4
-            wait
-            noteL Ds4, 12
-            noteL Ds4, 3
-            wait
-            note Ds4
-            wait
-            noteL Ds4, 12
-            noteL Ds4, 3
-            wait
-            note Ds4
-            wait
-            note Ds4
-            wait
-            note Ds4
-            wait
-            noteL D4, 21
-            noteL D4, 3
-            wait
-            note D4
-            wait
-            noteL D4, 12
-            noteL D4, 3
-            wait
-            note D4
-            wait
-            noteL D4, 12
-            noteL D4, 3
-            wait
-            note D4
-            wait
-            note D4
-            wait
-            note D4
-            wait
-            noteL Cs4, 21
-            noteL Cs4, 3
-            wait
-            note Cs4
-            wait
-            noteL Cs4, 12
-            noteL Cs4, 3
-            wait
-            note Cs4
-            wait
-            noteL Cs4, 12
-            noteL Cs4, 3
-            wait
-            note Cs4
-            wait
-            note Cs4
-            wait
-            note Cs4
-            wait
+    repeatEnd
+    repeatSection3Start
             noteL C4, 21
+    countedLoopStart 1
             noteL C4, 3
             wait
             note C4
             wait
             noteL C4, 12
+    countedLoopEnd
+    countedLoopStart 3
             noteL C4, 3
             wait
-            note C4
-            wait
-            noteL C4, 12
-            noteL C4, 3
-            wait
-            note C4
-            wait
-            note C4
-            wait
-            note C4
-            wait
+    countedLoopEnd
     mainLoopEnd
 Music_17_Channel_4:
       stereo 0c0h
@@ -734,6 +347,7 @@ Music_17_Channel_4:
       vol 12
       vibrato 00h
       setRelease 1
+    countedLoopStart 6
             noteL As3, 21
       inst 61
       vol 13
@@ -760,7 +374,9 @@ Music_17_Channel_4:
             note Fs3
       inst 62
       vol 12
+    countedLoopEnd
             noteL As3, 21
+    countedLoopStart 1
       inst 61
       vol 13
             noteL Fs3, 6
@@ -769,170 +385,7 @@ Music_17_Channel_4:
       inst 62
       vol 10
             noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-            note Fs3
-            note Fs3
-      inst 62
-      vol 12
-            noteL As3, 21
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-            note Fs3
-            note Fs3
-      inst 62
-      vol 12
-            noteL As3, 21
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-            note Fs3
-            note Fs3
-      inst 62
-      vol 12
-            noteL As3, 21
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-            note Fs3
-            note Fs3
-      inst 62
-      vol 12
-            noteL As3, 21
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-            note Fs3
-            note Fs3
-      inst 62
-      vol 12
-            noteL As3, 21
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-            note Fs3
-            note Fs3
-      inst 62
-      vol 12
-            noteL As3, 21
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
+    countedLoopEnd
       inst 61
       vol 13
             noteL Fs3, 6
@@ -947,6 +400,7 @@ Music_17_Channel_4:
       inst 62
       vol 12
       setRelease 1
+    countedLoopStart 14
             noteL As3, 21
       inst 61
       vol 13
@@ -973,7 +427,9 @@ Music_17_Channel_4:
             note Fs3
       inst 62
       vol 12
+    countedLoopEnd
             noteL As3, 21
+    countedLoopStart 1
       inst 61
       vol 13
             noteL Fs3, 6
@@ -982,378 +438,7 @@ Music_17_Channel_4:
       inst 62
       vol 10
             noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-            note Fs3
-            note Fs3
-      inst 62
-      vol 12
-            noteL As3, 21
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-            note Fs3
-            note Fs3
-      inst 62
-      vol 12
-            noteL As3, 21
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-            note Fs3
-            note Fs3
-      inst 62
-      vol 12
-            noteL As3, 21
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-            note Fs3
-            note Fs3
-      inst 62
-      vol 12
-            noteL As3, 21
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-            note Fs3
-            note Fs3
-      inst 62
-      vol 12
-            noteL As3, 21
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-            note Fs3
-            note Fs3
-      inst 62
-      vol 12
-            noteL As3, 21
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-            note Fs3
-            note Fs3
-      inst 62
-      vol 12
-            noteL As3, 21
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-            note Fs3
-            note Fs3
-      inst 62
-      vol 12
-            noteL As3, 21
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-            note Fs3
-            note Fs3
-      inst 62
-      vol 12
-            noteL As3, 21
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-            note Fs3
-            note Fs3
-      inst 62
-      vol 12
-            noteL As3, 21
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-            note Fs3
-            note Fs3
-      inst 62
-      vol 12
-            noteL As3, 21
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-            note Fs3
-            note Fs3
-      inst 62
-      vol 12
-            noteL As3, 21
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-            note Fs3
-            note Fs3
-      inst 62
-      vol 12
-            noteL As3, 21
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-            note Fs3
-            note Fs3
-      inst 62
-      vol 12
-            noteL As3, 21
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
-      inst 61
-      vol 13
-            noteL Fs3, 6
-      vol 11
-            note Fs3
-      inst 62
-      vol 10
-            noteL As3, 12
+    countedLoopEnd
       inst 61
       vol 13
             noteL Fs3, 6
@@ -1363,16 +448,10 @@ Music_17_Channel_4:
             note Fs3
     mainLoopEnd
 Music_17_Channel_5:
+    countedLoopStart 4
             sampleL 0, 69
             sampleL 0, 24
-            sampleL 0, 69
-            sampleL 0, 24
-            sampleL 0, 69
-            sampleL 0, 24
-            sampleL 0, 69
-            sampleL 0, 24
-            sampleL 0, 69
-            sampleL 0, 24
+    countedLoopEnd
             sampleL 0, 45
             sampleL 0, 48
             sampleL 0, 69
@@ -1383,30 +462,12 @@ Music_17_Channel_5:
             sample 1
     mainLoopStart
             sampleL 5, 33
+    countedLoopStart 5
             sampleL 1, 24
             sample 0
             sampleL 1, 12
             sampleL 0, 33
-            sampleL 1, 24
-            sample 0
-            sampleL 1, 12
-            sampleL 0, 33
-            sampleL 1, 24
-            sample 0
-            sampleL 1, 12
-            sampleL 0, 33
-            sampleL 1, 24
-            sample 0
-            sampleL 1, 12
-            sampleL 0, 33
-            sampleL 1, 24
-            sample 0
-            sampleL 1, 12
-            sampleL 0, 33
-            sampleL 1, 24
-            sample 0
-            sampleL 1, 12
-            sampleL 0, 33
+    countedLoopEnd
             sampleL 1, 24
             sample 0
             sampleL 1, 12
@@ -1422,26 +483,12 @@ Music_17_Channel_5:
             sample 1
             sample 1
             sample 1
+    countedLoopStart 4
             sampleL 1, 12
             sampleL 0, 33
             sampleL 1, 24
             sample 0
-            sampleL 1, 12
-            sampleL 0, 33
-            sampleL 1, 24
-            sample 0
-            sampleL 1, 12
-            sampleL 0, 33
-            sampleL 1, 24
-            sample 0
-            sampleL 1, 12
-            sampleL 0, 33
-            sampleL 1, 24
-            sample 0
-            sampleL 1, 12
-            sampleL 0, 33
-            sampleL 1, 24
-            sample 0
+    countedLoopEnd
             sampleL 1, 12
             sampleL 0, 33
             sampleL 1, 12
@@ -1464,6 +511,7 @@ Music_17_Channel_6:
       setRelease 1
             psgNoteL E3, 57
       vibrato 04ch
+    repeatStart
       psgInst 00h
             waitL 12
       psgInst 0ah
@@ -1488,6 +536,7 @@ Music_17_Channel_6:
             waitL 18
       psgInst 0ah
             psgNoteL E3, 93
+    repeatSection1Start
             psgNoteL D3, 57
       psgInst 00h
             waitL 12
@@ -1511,30 +560,8 @@ Music_17_Channel_6:
     mainLoopStart
       setRelease 1
             psgNoteL E3, 57
-      psgInst 00h
-            waitL 12
-      psgInst 0ah
-            psgNoteL E3, 6
-      psgInst 00h
-            waitL 18
-      psgInst 0ah
-            psgNoteL D3, 57
-      psgInst 00h
-            waitL 12
-      psgInst 0ah
-            psgNoteL D3, 6
-      psgInst 00h
-            waitL 18
-      psgInst 0ah
-            psgNoteL F3, 57
-      psgInst 00h
-            waitL 12
-      psgInst 0ah
-            psgNoteL F3, 6
-      psgInst 00h
-            waitL 18
-      psgInst 0ah
-            psgNoteL E3, 93
+    repeatEnd
+    repeatSection2Start
             psgNoteL F3, 57
       psgInst 00h
             waitL 12
@@ -1568,30 +595,8 @@ Music_17_Channel_6:
             waitL 18
       psgInst 0ah
             psgNoteL E3, 57
-      psgInst 00h
-            waitL 12
-      psgInst 0ah
-            psgNoteL E3, 6
-      psgInst 00h
-            waitL 18
-      psgInst 0ah
-            psgNoteL D3, 57
-      psgInst 00h
-            waitL 12
-      psgInst 0ah
-            psgNoteL D3, 6
-      psgInst 00h
-            waitL 18
-      psgInst 0ah
-            psgNoteL F3, 57
-      psgInst 00h
-            waitL 12
-      psgInst 0ah
-            psgNoteL F3, 6
-      psgInst 00h
-            waitL 18
-      psgInst 0ah
-            psgNoteL E3, 93
+    repeatEnd
+    repeatSection3Start
             psgNoteL D3, 57
       psgInst 00h
             waitL 12
@@ -1618,6 +623,7 @@ Music_17_Channel_7:
       setRelease 1
             psgNoteL C3, 57
       vibrato 04ch
+    repeatStart
       psgInst 00h
             waitL 12
       psgInst 0ah
@@ -1650,6 +656,7 @@ Music_17_Channel_7:
       psgInst 00h
             waitL 18
       psgInst 0ah
+    repeatSection1Start
             psgNoteL C3, 45
             psgNoteL C3, 48
             psgNoteL As2, 57
@@ -1665,38 +672,8 @@ Music_17_Channel_7:
     mainLoopStart
       setRelease 1
             psgNoteL C3, 57
-      psgInst 00h
-            waitL 12
-      psgInst 0ah
-            psgNoteL C3, 6
-      psgInst 00h
-            waitL 18
-      psgInst 0ah
-            psgNoteL B2, 57
-      psgInst 00h
-            waitL 12
-      psgInst 0ah
-            psgNoteL B2, 6
-      psgInst 00h
-            waitL 18
-      psgInst 0ah
-            psgNoteL D3, 57
-      psgInst 00h
-            waitL 12
-      psgInst 0ah
-            psgNoteL D3, 6
-      psgInst 00h
-            waitL 18
-      psgInst 0ah
-            psgNoteL C3, 93
-            psgNoteL C3, 57
-      psgInst 00h
-            waitL 12
-      psgInst 0ah
-            psgNoteL C3, 6
-      psgInst 00h
-            waitL 18
-      psgInst 0ah
+    repeatEnd
+    repeatSection2Start
             psgNoteL C3, 57
       psgInst 00h
             waitL 12
@@ -1722,38 +699,8 @@ Music_17_Channel_7:
             waitL 18
       psgInst 0ah
             psgNoteL C3, 57
-      psgInst 00h
-            waitL 12
-      psgInst 0ah
-            psgNoteL C3, 6
-      psgInst 00h
-            waitL 18
-      psgInst 0ah
-            psgNoteL B2, 57
-      psgInst 00h
-            waitL 12
-      psgInst 0ah
-            psgNoteL B2, 6
-      psgInst 00h
-            waitL 18
-      psgInst 0ah
-            psgNoteL D3, 57
-      psgInst 00h
-            waitL 12
-      psgInst 0ah
-            psgNoteL D3, 6
-      psgInst 00h
-            waitL 18
-      psgInst 0ah
-            psgNoteL C3, 93
-            psgNoteL C3, 57
-      psgInst 00h
-            waitL 12
-      psgInst 0ah
-            psgNoteL C3, 6
-      psgInst 00h
-            waitL 18
-      psgInst 0ah
+    repeatEnd
+    repeatSection3Start
             psgNoteL C3, 45
             psgNoteL C3, 48
             psgNoteL As2, 57

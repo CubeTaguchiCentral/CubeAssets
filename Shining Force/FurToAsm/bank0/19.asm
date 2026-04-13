@@ -122,42 +122,10 @@ Music_19_Channel_7:
       psgInst 0bh
       setRelease 1
       vibrato 00h
+    countedLoopStart 17
             psgNoteL Fs3, 8
             psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
+    countedLoopEnd
     channel_end
 Music_19_Channel_8:
     channel_end

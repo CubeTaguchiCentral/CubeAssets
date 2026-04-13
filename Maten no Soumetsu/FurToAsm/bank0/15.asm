@@ -300,14 +300,12 @@ Music_15_Channel_2:
             noteL As4, 7
             wait
             noteL Fs4, 6
-            wait
+    countedLoopStart 1
+            waitL 6
             noteL As4, 7
             wait
             noteL Cs5, 6
-            wait
-            noteL As4, 7
-            wait
-            noteL Cs5, 6
+    countedLoopEnd
             wait
             noteL E5, 60
             noteL Ds5, 4
@@ -626,10 +624,9 @@ Music_15_Channel_5:
             sampleL 2, 80
             sample 2
             sampleL 2, 40
+    countedLoopStart 3
             sampleL 2, 7
-            sample 2
-            sample 2
-            sample 2
+    countedLoopEnd
             sampleL 2, 6
             sample 2
             sampleL 2, 255
@@ -638,15 +635,9 @@ Music_15_Channel_5:
             sampleL 2, 40
             sampleL 7, 160
             sampleL 7, 255
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
+    countedLoopStart 8
+            waitL 255
+    countedLoopEnd
             waitL 186
     mainLoopEnd
 Music_15_Channel_6:

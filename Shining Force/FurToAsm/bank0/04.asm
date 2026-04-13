@@ -29,12 +29,14 @@ Music_04_Channel_0:
       shifting 0
             waitL 11
       setRelease 8
+    repeatStart
             noteL As6, 15
             noteL As7, 21
             noteL D7, 12
             note Ds7
             note F7
             noteL As6, 15
+    repeatSection1Start
             noteL As7, 21
             noteL Ds7, 12
             note F7
@@ -73,12 +75,8 @@ Music_04_Channel_0:
             noteL Ds7, 12
             note F7
             note G7
-            noteL As6, 15
-            noteL As7, 21
-            noteL D7, 12
-            note Ds7
-            note F7
-            noteL As6, 15
+    repeatEnd
+    repeatSection2Start
             noteL As7, 20
             noteL Ds7, 12
             note F7
@@ -133,11 +131,13 @@ Music_04_Channel_1:
             waitL 23
       setRelease 15
       vibrato 00h
+    repeatStart
             noteL Ds7, 48
             waitL 24
             noteL D7, 48
             waitL 24
             note G7
+    repeatSection1Start
             noteL A7, 23
             waitL 2
             noteL Ds7, 25
@@ -152,11 +152,8 @@ Music_04_Channel_1:
             waitL 4
             noteL D7, 69
             waitL 24
-            noteL Ds7, 48
-            waitL 24
-            noteL D7, 48
-            waitL 24
-            note G7
+    repeatEnd
+    repeatSection2Start
             note A7
             waitL 2
             noteL Ds7, 24
@@ -241,11 +238,13 @@ Music_04_Channel_3:
             waitL 71
       setRelease 15
             noteL As5, 72
+    repeatStart
             noteL Ds6, 48
             noteL F6, 24
             note As6
             noteL As5, 48
             noteL F6, 72
+    repeatSection1Start
             note Ds6
             noteL F6, 48
             noteL F6, 24
@@ -253,11 +252,8 @@ Music_04_Channel_3:
             noteL As5, 48
             noteL Ds6, 72
             note As5
-            noteL Ds6, 48
-            noteL F6, 24
-            note As6
-            noteL As5, 48
-            noteL F6, 72
+    repeatEnd
+    repeatSection2Start
             noteL G6, 24
             noteL C6, 48
             noteL F6, 24
@@ -287,12 +283,14 @@ Music_04_Channel_4:
       stereo 080h
       setRelease 8
             noteL G7, 12
+    repeatStart
             noteL As6, 15
             noteL As7, 21
             noteL D7, 12
             note Ds7
             note F7
             noteL As6, 15
+    repeatSection1Start
             noteL As7, 21
             noteL Ds7, 12
             note F7
@@ -331,12 +329,8 @@ Music_04_Channel_4:
             noteL Ds7, 12
             note F7
             note G7
-            noteL As6, 15
-            noteL As7, 21
-            noteL D7, 12
-            note Ds7
-            note F7
-            noteL As6, 15
+    repeatEnd
+    repeatSection2Start
             noteL As7, 20
             noteL Ds7, 12
             note F7

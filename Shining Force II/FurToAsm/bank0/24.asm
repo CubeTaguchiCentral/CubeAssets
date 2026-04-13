@@ -123,22 +123,10 @@ Music_24_Channel_6:
             psgNoteL G5, 6
             psgNoteL F5, 5
             psgNote G5
+    countedLoopStart 7
             psgNoteL F5, 4
             psgNote G5
-            psgNote F5
-            psgNote G5
-            psgNote F5
-            psgNote G5
-            psgNote F5
-            psgNote G5
-            psgNote F5
-            psgNote G5
-            psgNote F5
-            psgNote G5
-            psgNote F5
-            psgNote G5
-            psgNote F5
-            psgNote G5
+    countedLoopEnd
             psgNoteL F5, 34
             waitL 6
       psgInst 0ah
@@ -169,22 +157,10 @@ Music_24_Channel_7:
             psgNoteL G5, 6
             psgNoteL F5, 5
             psgNote G5
+    countedLoopStart 7
             psgNoteL F5, 4
             psgNote G5
-            psgNote F5
-            psgNote G5
-            psgNote F5
-            psgNote G5
-            psgNote F5
-            psgNote G5
-            psgNote F5
-            psgNote G5
-            psgNote F5
-            psgNote G5
-            psgNote F5
-            psgNote G5
-            psgNote F5
-            psgNote G5
+    countedLoopEnd
             psgNoteL F5, 36
             waitL 6
       psgInst 06h

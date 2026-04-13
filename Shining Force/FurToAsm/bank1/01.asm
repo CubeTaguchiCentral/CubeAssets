@@ -109,6 +109,7 @@ Music_01_Channel_1:
       vol 14
       setRelease 1
       vibrato 00h
+    countedLoopStart 1
             noteL F3, 24
             waitL 168
             waitL 192
@@ -118,21 +119,13 @@ Music_01_Channel_1:
             note C4
             note C4
             note C4
-            noteL F3, 24
-            waitL 168
-            waitL 192
-            wait
-            waitL 168
-            noteL C4, 6
-            note C4
-            note C4
-            note C4
+    countedLoopEnd
             noteL As3, 24
             waitL 144
+    countedLoopStart 3
             noteL As3, 6
-            note As3
-            note As3
-            note As3
+    countedLoopEnd
+    countedLoopStart 4
             noteL F3, 24
             waitL 168
             wait
@@ -140,34 +133,7 @@ Music_01_Channel_1:
             note C4
             note C4
             note C4
-            noteL F3, 24
-            waitL 168
-            wait
-            noteL C4, 6
-            note C4
-            note C4
-            note C4
-            noteL F3, 24
-            waitL 168
-            wait
-            noteL C4, 6
-            note C4
-            note C4
-            note C4
-            noteL F3, 24
-            waitL 168
-            wait
-            noteL C4, 6
-            note C4
-            note C4
-            note C4
-            noteL F3, 24
-            waitL 168
-            wait
-            noteL C4, 6
-            note C4
-            note C4
-            note C4
+    countedLoopEnd
     mainLoopEnd
 Music_01_Channel_2:
       stereo 0c0h
@@ -200,6 +166,7 @@ Music_01_Channel_2:
             wait
             note F3
             waitL 60
+    repeatStart
             noteL F3, 12
             waitL 24
             noteL F3, 12
@@ -219,47 +186,14 @@ Music_01_Channel_2:
             noteL F3, 12
             wait
             note F3
+    repeatSection1Start
             waitL 36
             noteL C4, 24
-            noteL F3, 12
-            waitL 24
-            noteL F3, 12
-            waitL 36
-            noteL F3, 6
-            wait
-            noteL F3, 12
-            wait
-            note F3
+    repeatEnd
+    repeatSection2Start
             waitL 60
-            noteL F3, 12
-            waitL 24
-            noteL F3, 12
-            waitL 36
-            noteL F3, 6
-            wait
-            noteL F3, 12
-            wait
-            note F3
-            waitL 60
-            noteL F3, 12
-            waitL 24
-            noteL F3, 12
-            waitL 36
-            noteL F3, 6
-            wait
-            noteL F3, 12
-            wait
-            note F3
-            waitL 60
-            noteL F3, 12
-            waitL 24
-            noteL F3, 12
-            waitL 36
-            noteL F3, 6
-            wait
-            noteL F3, 12
-            wait
-            note F3
+    repeatEnd
+    repeatSection3Start
             waitL 36
             noteL C4, 24
             noteL As3, 12
@@ -273,6 +207,7 @@ Music_01_Channel_2:
             note As3
             waitL 36
             noteL As3, 24
+    countedLoopStart 2
             noteL F3, 12
             waitL 24
             noteL F3, 12
@@ -295,50 +230,8 @@ Music_01_Channel_2:
             note C4
             waitL 36
             noteL C4, 24
-            noteL F3, 12
-            waitL 24
-            noteL F3, 12
-            waitL 36
-            noteL F3, 6
-            wait
-            noteL F3, 12
-            wait
-            note F3
-            waitL 36
-            noteL F3, 24
-            noteL As3, 12
-            waitL 24
-            noteL As3, 12
-            waitL 36
-            noteL As3, 6
-            wait
-            noteL C4, 12
-            wait
-            note C4
-            waitL 36
-            noteL C4, 24
-            noteL F3, 12
-            waitL 24
-            noteL F3, 12
-            waitL 36
-            noteL F3, 6
-            wait
-            noteL F3, 12
-            wait
-            note F3
-            waitL 36
-            noteL F3, 24
-            noteL As3, 12
-            waitL 24
-            noteL As3, 12
-            waitL 36
-            noteL As3, 6
-            wait
-            noteL C4, 12
-            wait
-            note C4
-            waitL 36
-            noteL C4, 24
+    countedLoopEnd
+    countedLoopStart 1
             noteL F3, 12
             waitL 24
             noteL F3, 12
@@ -361,28 +254,7 @@ Music_01_Channel_2:
             note F3
             waitL 36
             noteL C4, 24
-            noteL F3, 12
-            waitL 24
-            noteL F3, 12
-            waitL 36
-            noteL F3, 6
-            wait
-            noteL F3, 12
-            wait
-            note F3
-            waitL 36
-            noteL F3, 24
-            noteL F3, 12
-            waitL 24
-            noteL F3, 12
-            waitL 36
-            noteL F3, 6
-            wait
-            noteL F3, 12
-            wait
-            note F3
-            waitL 36
-            noteL C4, 24
+    countedLoopEnd
     mainLoopEnd
 Music_01_Channel_3:
       stereo 0c0h
@@ -397,126 +269,55 @@ Music_01_Channel_3:
       setRelease 9
       vibrato 00h
             noteL C5, 12
+    repeatStart
+    countedLoopStart 14
+            noteL C5, 12
+    countedLoopEnd
+    countedLoopStart 15
+            noteL D5, 12
+    countedLoopEnd
+    countedLoopStart 15
+            noteL F5, 12
+    countedLoopEnd
+    repeatSection1Start
+    countedLoopStart 15
+            noteL E5, 12
+    countedLoopEnd
             note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note D5
-            note D5
-            note D5
-            note D5
-            note D5
-            note D5
-            note D5
-            note D5
-            note D5
-            note D5
-            note D5
-            note D5
-            note D5
-            note D5
-            note D5
-            note D5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note D5
-            note D5
-            note D5
-            note D5
-            note D5
-            note D5
-            note D5
-            note D5
-            note D5
-            note D5
-            note D5
-            note D5
-            note D5
-            note D5
-            note D5
-            note D5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
+    repeatEnd
+    repeatSection2Start
+    countedLoopStart 15
+            noteL G5, 12
+    countedLoopEnd
+    countedLoopStart 15
+            noteL F5, 12
+    countedLoopEnd
+    countedLoopStart 15
+            noteL E5, 12
+    countedLoopEnd
+    countedLoopStart 15
+            noteL F5, 12
+    countedLoopEnd
+    countedLoopStart 15
+            noteL Gs5, 12
+    countedLoopEnd
+    countedLoopStart 7
+            noteL F5, 12
+    countedLoopEnd
+    countedLoopStart 7
+            noteL E5, 12
+    countedLoopEnd
+    countedLoopStart 15
+            noteL Ds5, 12
+    countedLoopEnd
+    countedLoopStart 7
+            noteL F5, 12
+    countedLoopEnd
+    countedLoopStart 7
+            noteL Gs5, 12
+    countedLoopEnd
+    countedLoopStart 3
+            noteL G5, 12
             note G5
             note G5
             note G5
@@ -532,174 +333,7 @@ Music_01_Channel_3:
             note F5
             note F5
             note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note E5
-            note Ds5
-            note Ds5
-            note Ds5
-            note Ds5
-            note Ds5
-            note Ds5
-            note Ds5
-            note Ds5
-            note Ds5
-            note Ds5
-            note Ds5
-            note Ds5
-            note Ds5
-            note Ds5
-            note Ds5
-            note Ds5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            note Gs5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note G5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
-            note F5
+    countedLoopEnd
     mainLoopEnd
 Music_01_Channel_4:
       stereo 0c0h
@@ -714,246 +348,62 @@ Music_01_Channel_4:
       setRelease 9
       vibrato 00h
             noteL Ds4, 12
+    repeatStart
+    countedLoopStart 14
+            noteL Ds4, 12
+    countedLoopEnd
+    countedLoopStart 15
+            noteL F4, 12
+    countedLoopEnd
+    countedLoopStart 7
+            noteL Gs4, 12
+    countedLoopEnd
+    countedLoopStart 7
+            noteL As4, 12
+    countedLoopEnd
+    repeatSection1Start
+    countedLoopStart 15
+            noteL G4, 12
+    countedLoopEnd
             note Ds4
-            note Ds4
-            note Ds4
-            note Ds4
-            note Ds4
-            note Ds4
-            note Ds4
-            note Ds4
-            note Ds4
-            note Ds4
-            note Ds4
-            note Ds4
-            note Ds4
-            note Ds4
-            note Ds4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note Ds4
-            note Ds4
-            note Ds4
-            note Ds4
-            note Ds4
-            note Ds4
-            note Ds4
-            note Ds4
-            note Ds4
-            note Ds4
-            note Ds4
-            note Ds4
-            note Ds4
-            note Ds4
-            note Ds4
-            note Ds4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note G4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note F4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note Gs4
+    repeatEnd
+    repeatSection2Start
+    repeatStart
+    countedLoopStart 15
+            noteL C5, 12
+    countedLoopEnd
+    countedLoopStart 7
+            noteL Gs4, 12
+    countedLoopEnd
+    repeatSection1Start
+    countedLoopStart 7
+            noteL As4, 12
+    countedLoopEnd
+    countedLoopStart 15
+            noteL G4, 12
+    countedLoopEnd
+    countedLoopStart 7
+            noteL Gs4, 12
+    countedLoopEnd
+    countedLoopStart 7
+            noteL As4, 12
+    countedLoopEnd
+    repeatEnd
+    repeatSection2Start
+    countedLoopStart 7
+            noteL G4, 12
+    countedLoopEnd
+    countedLoopStart 15
+            noteL F4, 12
+    countedLoopEnd
+    countedLoopStart 7
+            noteL Gs4, 12
+    countedLoopEnd
+    countedLoopStart 7
+            noteL As4, 12
+    countedLoopEnd
+    countedLoopStart 1
+            noteL Gs4, 12
             note Gs4
             note Gs4
             note Gs4
@@ -985,43 +435,13 @@ Music_01_Channel_4:
             note Gs4
             note Gs4
             note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note As4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
+    countedLoopEnd
     mainLoopEnd
 Music_01_Channel_5:
             waitL 34
             sampleL 3, 2
     mainLoopStart
+    countedLoopStart 18
             sampleL 1, 12
             sample 3
             sampleL 3, 10
@@ -1047,456 +467,7 @@ Music_01_Channel_5:
             sample 3
             sampleL 3, 4
             sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 1
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sample 3
-            sampleL 1, 3
-            sample 2
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sampleL 3, 4
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 1
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sample 3
-            sampleL 1, 3
-            sample 2
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sampleL 3, 4
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 1
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sample 3
-            sampleL 1, 3
-            sample 2
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sampleL 3, 4
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 1
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sample 3
-            sampleL 1, 3
-            sample 2
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sampleL 3, 4
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 1
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sample 3
-            sampleL 1, 3
-            sample 2
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sampleL 3, 4
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 1
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sample 3
-            sampleL 1, 3
-            sample 2
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sampleL 3, 4
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 1
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sample 3
-            sampleL 1, 3
-            sample 2
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sampleL 3, 4
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 1
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sample 3
-            sampleL 1, 3
-            sample 2
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sampleL 3, 4
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 1
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sample 3
-            sampleL 1, 3
-            sample 2
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sampleL 3, 4
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 1
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sample 3
-            sampleL 1, 3
-            sample 2
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sampleL 3, 4
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 1
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sample 3
-            sampleL 1, 3
-            sample 2
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sampleL 3, 4
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 1
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sample 3
-            sampleL 1, 3
-            sample 2
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sampleL 3, 4
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 1
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sample 3
-            sampleL 1, 3
-            sample 2
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sampleL 3, 4
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 1
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sample 3
-            sampleL 1, 3
-            sample 2
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sampleL 3, 4
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 1
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sample 3
-            sampleL 1, 3
-            sample 2
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sampleL 3, 4
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 1
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sample 3
-            sampleL 1, 3
-            sample 2
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sampleL 3, 4
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 1
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sample 3
-            sampleL 1, 3
-            sample 2
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sampleL 3, 4
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 1
-            sampleL 3, 10
-            sampleL 3, 2
-            sampleL 1, 12
-            sample 3
-            sample 3
-            sample 3
-            sampleL 1, 3
-            sample 2
-            sample 3
-            sample 3
-            sample 3
-            sample 3
-            sampleL 3, 4
-            sampleL 3, 2
+    countedLoopEnd
     mainLoopEnd
 Music_01_Channel_6:
       psgInst 00h
@@ -1530,11 +501,13 @@ Music_01_Channel_6:
       vibrato 040h
             psgNoteL D4, 72
             psgNoteL D4, 12
+    repeatStart
             psgNote Ds4
       vibrato 04ch
             psgNoteL F4, 36
             psgNoteL Gs4, 60
             psgNoteL As4, 72
+    repeatSection1Start
             psgNoteL G4, 12
             psgNote Gs4
       sustain
@@ -1561,11 +534,8 @@ Music_01_Channel_6:
       vibrato 040h
             psgNoteL C4, 72
             psgNoteL Cs4, 12
-            psgNote Ds4
-      vibrato 04ch
-            psgNoteL F4, 36
-            psgNoteL Gs4, 60
-            psgNoteL As4, 72
+    repeatEnd
+    repeatSection2Start
             psgNoteL Gs4, 12
             psgNote As4
             psgNoteL C5, 36
@@ -1612,609 +582,115 @@ Music_01_Channel_7:
             wait
       psgInst 0bh
       setRelease 1
+    repeatStart
+    countedLoopStart 13
+            psgNoteL Gs2, 6
+      psgInst 00h
+            wait
+      psgInst 0bh
+    countedLoopEnd
             psgNote Gs2
+    countedLoopStart 15
       psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
+            waitL 6
       psgInst 0bh
             psgNote As2
+    countedLoopEnd
+    countedLoopStart 7
       psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
+            waitL 6
       psgInst 0bh
             psgNote Cs3
+    countedLoopEnd
+    countedLoopStart 7
+      psgInst 00h
+            waitL 6
+      psgInst 0bh
+            psgNote Ds3
+    countedLoopEnd
       psgInst 00h
             wait
+      psgInst 0bh
+    repeatSection1Start
+    countedLoopStart 15
+            psgNoteL C3, 6
+      psgInst 00h
+            wait
+      psgInst 0bh
+    countedLoopEnd
+            psgNote Gs2
+      psgInst 00h
+            wait
+      psgInst 0bh
+    repeatEnd
+    repeatSection2Start
+    countedLoopStart 14
+            psgNoteL E3, 6
+      psgInst 00h
+            wait
+      psgInst 0bh
+    countedLoopEnd
+            psgNote E3
+    repeatStart
+    countedLoopStart 7
+      psgInst 00h
+            waitL 6
       psgInst 0bh
             psgNote Cs3
+    countedLoopEnd
+    countedLoopStart 7
+      psgInst 00h
+            waitL 6
+      psgInst 0bh
+            psgNote Ds3
+    countedLoopEnd
       psgInst 00h
             wait
+      psgInst 0bh
+    repeatSection1Start
+    countedLoopStart 14
+            psgNoteL C3, 6
+      psgInst 00h
+            wait
+      psgInst 0bh
+    countedLoopEnd
+            psgNote C3
+    repeatEnd
+    repeatSection2Start
+    countedLoopStart 15
+            psgNoteL F3, 6
+      psgInst 00h
+            wait
+      psgInst 0bh
+    countedLoopEnd
+    countedLoopStart 6
+            psgNoteL Cs3, 6
+      psgInst 00h
+            wait
+      psgInst 0bh
+    countedLoopEnd
+            psgNote Cs3
+    countedLoopStart 23
+      psgInst 00h
+            waitL 6
+      psgInst 0bh
+            psgNote As2
+    countedLoopEnd
+    countedLoopStart 7
+      psgInst 00h
+            waitL 6
       psgInst 0bh
             psgNote Cs3
+    countedLoopEnd
+    countedLoopStart 7
       psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Gs2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
+            waitL 6
       psgInst 0bh
             psgNote E3
+    countedLoopEnd
+    countedLoopStart 1
       psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote E3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote E3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote E3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote E3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote E3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote E3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote E3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote E3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote E3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote E3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote E3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote E3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote E3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote E3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote E3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
+            waitL 6
       psgInst 0bh
             psgNote C3
       psgInst 00h
@@ -2312,70 +788,6 @@ Music_01_Channel_7:
       psgInst 00h
             wait
       psgInst 0bh
-            psgNote F3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote F3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote F3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote F3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote F3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote F3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote F3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote F3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote F3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote F3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote F3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote F3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote F3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote F3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote F3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote F3
-      psgInst 00h
-            wait
-      psgInst 0bh
             psgNote Cs3
       psgInst 00h
             wait
@@ -2405,422 +817,7 @@ Music_01_Channel_7:
             wait
       psgInst 0bh
             psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote As2
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote E3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote E3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote E3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote E3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote E3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote E3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote E3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote E3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote C3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Ds3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
-      psgInst 00h
-            wait
-      psgInst 0bh
-            psgNote Cs3
+    countedLoopEnd
       psgInst 00h
             wait
     mainLoopEnd

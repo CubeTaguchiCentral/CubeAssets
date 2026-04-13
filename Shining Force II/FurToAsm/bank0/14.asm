@@ -102,6 +102,7 @@ Music_14_Channel_2:
       stereo 0c0h
       setRelease 1
             noteL A5, 12
+    repeatStart
             note C5
             note E5
             note A5
@@ -153,6 +154,7 @@ Music_14_Channel_2:
             note D5
             note E5
             note A5
+    repeatSection1Start
             note G5
             note D5
             note E5
@@ -166,57 +168,8 @@ Music_14_Channel_2:
             note E5
             note B5
             note A5
-            note C5
-            note E5
-            note A5
-            note Gs5
-            note C5
-            note E5
-            note Gs5
-            note A5
-            note C5
-            note E5
-            note A5
-            note B5
-            note C5
-            note E5
-            note B5
-            note A5
-            note C5
-            note E5
-            note A5
-            note Gs5
-            note C5
-            note E5
-            note Gs5
-            note A5
-            note C5
-            note E5
-            note A5
-            note B5
-            note D5
-            note E5
-            note B5
-            note A5
-            note D5
-            note E5
-            note A5
-            note G5
-            note D5
-            note E5
-            note G5
-            note A5
-            note D5
-            note E5
-            note A5
-            note B5
-            note D5
-            note E5
-            note B5
-            note A5
-            note D5
-            note E5
-            note A5
+    repeatEnd
+    repeatSection2Start
             note B5
             note D5
             note C6
@@ -257,6 +210,7 @@ Music_14_Channel_2:
             note F5
             note Gs5
             note D6
+    repeatStart
             note D6
             note E5
             note G5
@@ -273,6 +227,7 @@ Music_14_Channel_2:
             note E5
             note G5
             note C6
+    repeatSection1Start
             note D6
             note F5
             note Gs5
@@ -289,22 +244,8 @@ Music_14_Channel_2:
             note F5
             note Gs5
             note C6
-            note D6
-            note E5
-            note G5
-            note D6
-            note C6
-            note E5
-            note G5
-            note C6
-            note B5
-            note E5
-            note G5
-            note B5
-            note C6
-            note E5
-            note G5
-            note C6
+    repeatEnd
+    repeatSection2Start
             note E6
             note E5
             note A5
@@ -380,6 +321,7 @@ Music_14_Channel_3:
       setRelease 1
             waitL 3
             noteL B5, 12
+    repeatStart
             note A5
             note C5
             note E5
@@ -432,6 +374,7 @@ Music_14_Channel_3:
             note D5
             note E5
             note A5
+    repeatSection1Start
             note G5
             note D5
             note E5
@@ -444,58 +387,8 @@ Music_14_Channel_3:
             note C5
             note E5
             note B5
-            note A5
-            note C5
-            note E5
-            note A5
-            note Gs5
-            note C5
-            note E5
-            note Gs5
-            note A5
-            note C5
-            note E5
-            note A5
-            note B5
-            note C5
-            note E5
-            note B5
-            note A5
-            note C5
-            note E5
-            note A5
-            note Gs5
-            note C5
-            note E5
-            note Gs5
-            note A5
-            note C5
-            note E5
-            note A5
-            note B5
-            note D5
-            note E5
-            note B5
-            note A5
-            note D5
-            note E5
-            note A5
-            note G5
-            note D5
-            note E5
-            note G5
-            note A5
-            note D5
-            note E5
-            note A5
-            note B5
-            note D5
-            note E5
-            note B5
-            note A5
-            note D5
-            note E5
-            note A5
+    repeatEnd
+    repeatSection2Start
             note B5
             note D5
             note C6
@@ -536,6 +429,7 @@ Music_14_Channel_3:
             note F5
             note Gs5
             note D6
+    repeatStart
             note D6
             note E5
             note G5
@@ -552,6 +446,7 @@ Music_14_Channel_3:
             note E5
             note G5
             note C6
+    repeatSection1Start
             note D6
             note F5
             note Gs5
@@ -568,22 +463,8 @@ Music_14_Channel_3:
             note F5
             note Gs5
             note C6
-            note D6
-            note E5
-            note G5
-            note D6
-            note C6
-            note E5
-            note G5
-            note C6
-            note B5
-            note E5
-            note G5
-            note B5
-            note C6
-            note E5
-            note G5
-            note C6
+    repeatEnd
+    repeatSection2Start
             note E6
             note E5
             note A5
@@ -657,6 +538,7 @@ Music_14_Channel_4:
       setRelease 1
             waitL 6
             noteL E5, 12
+    repeatStart
             note B5
             note A5
             note C5
@@ -707,6 +589,7 @@ Music_14_Channel_4:
             note E5
             note B5
             note A5
+    repeatSection1Start
             note D5
             note E5
             note A5
@@ -721,56 +604,8 @@ Music_14_Channel_4:
             note B5
             note C5
             note E5
-            note B5
-            note A5
-            note C5
-            note E5
-            note A5
-            note Gs5
-            note C5
-            note E5
-            note Gs5
-            note A5
-            note C5
-            note E5
-            note A5
-            note B5
-            note C5
-            note E5
-            note B5
-            note A5
-            note C5
-            note E5
-            note A5
-            note Gs5
-            note C5
-            note E5
-            note Gs5
-            note A5
-            note C5
-            note E5
-            note A5
-            note B5
-            note D5
-            note E5
-            note B5
-            note A5
-            note D5
-            note E5
-            note A5
-            note G5
-            note D5
-            note E5
-            note G5
-            note A5
-            note D5
-            note E5
-            note A5
-            note B5
-            note D5
-            note E5
-            note B5
-            note A5
+    repeatEnd
+    repeatSection2Start
             noteL D5, 6
       shifting 0
       stereo 0c0h
@@ -779,12 +614,14 @@ Music_14_Channel_4:
             note A5
             note B5
             note G5
+    repeatStart
             noteL C6, 30
       shifting 32
       stereo 040h
       vol 10
             noteL E6, 12
             note F5
+    repeatSection1Start
             note A5
             note E6
             note D6
@@ -800,12 +637,8 @@ Music_14_Channel_4:
       shifting 0
       stereo 0c0h
       vol 12
-            noteL C6, 30
-      shifting 32
-      stereo 040h
-      vol 10
-            noteL E6, 12
-            note F5
+    repeatEnd
+    repeatSection2Start
             note Gs5
             note E6
             note D6
@@ -826,6 +659,7 @@ Music_14_Channel_4:
       stereo 040h
       vol 10
             noteL D6, 12
+    repeatStart
             note E5
             note G5
             note D6
@@ -841,6 +675,7 @@ Music_14_Channel_4:
             note E5
             note G5
             note C6
+    repeatSection1Start
             note D6
             note F5
             note Gs5
@@ -858,21 +693,8 @@ Music_14_Channel_4:
             note Gs5
             note C6
             note D6
-            note E5
-            note G5
-            note D6
-            note C6
-            note E5
-            note G5
-            note C6
-            note B5
-            note E5
-            note G5
-            note B5
-            note C6
-            note E5
-            note G5
-            note C6
+    repeatEnd
+    repeatSection2Start
             note E6
             note E5
             note A5

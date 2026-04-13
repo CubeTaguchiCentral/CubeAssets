@@ -32,171 +32,75 @@ Music_14_Channel_0:
       vol 12
       shifting 0
       stereo 0c0h
+    countedLoopStart 3
             noteL A2, 12
             noteL A2, 6
             note A2
-            noteL A2, 12
-            noteL A2, 6
-            note A2
-            noteL A2, 12
-            noteL A2, 6
-            note A2
-            noteL A2, 12
-            noteL A2, 6
-            note A2
+    countedLoopEnd
+    countedLoopStart 3
             noteL D3, 12
             noteL D3, 6
             note D3
-            noteL D3, 12
-            noteL D3, 6
-            note D3
-            noteL D3, 12
-            noteL D3, 6
-            note D3
-            noteL D3, 12
-            noteL D3, 6
-            note D3
+    countedLoopEnd
+    countedLoopStart 1
             noteL F2, 12
             noteL F2, 6
             note F2
+    countedLoopEnd
+    countedLoopStart 1
+            noteL G2, 12
+            noteL G2, 6
+            note G2
+    countedLoopEnd
+    countedLoopStart 3
+            noteL A2, 12
+            noteL A2, 6
+            note A2
+    countedLoopEnd
+    countedLoopStart 3
+            noteL D3, 12
+            noteL D3, 6
+            note D3
+    countedLoopEnd
+    countedLoopStart 1
             noteL F2, 12
             noteL F2, 6
             note F2
+    countedLoopEnd
+    repeatStart
+    countedLoopStart 1
             noteL G2, 12
             noteL G2, 6
             note G2
-            noteL G2, 12
-            noteL G2, 6
-            note G2
-            noteL A2, 12
-            noteL A2, 6
-            note A2
-            noteL A2, 12
-            noteL A2, 6
-            note A2
-            noteL A2, 12
-            noteL A2, 6
-            note A2
-            noteL A2, 12
-            noteL A2, 6
-            note A2
-            noteL D3, 12
-            noteL D3, 6
-            note D3
-            noteL D3, 12
-            noteL D3, 6
-            note D3
-            noteL D3, 12
-            noteL D3, 6
-            note D3
-            noteL D3, 12
-            noteL D3, 6
-            note D3
-            noteL F2, 12
-            noteL F2, 6
-            note F2
-            noteL F2, 12
-            noteL F2, 6
-            note F2
-            noteL G2, 12
-            noteL G2, 6
-            note G2
-            noteL G2, 12
-            noteL G2, 6
-            note G2
+    countedLoopEnd
+    countedLoopStart 5
             noteL Gs2, 12
             noteL Gs2, 6
             note Gs2
-            noteL Gs2, 12
-            noteL Gs2, 6
-            note Gs2
-            noteL Gs2, 12
-            noteL Gs2, 6
-            note Gs2
-            noteL Gs2, 12
-            noteL Gs2, 6
-            note Gs2
-            noteL Gs2, 12
-            noteL Gs2, 6
-            note Gs2
-            noteL Gs2, 12
-            noteL Gs2, 6
-            note Gs2
+    countedLoopEnd
+    countedLoopStart 1
             noteL C3, 12
             noteL C3, 6
             note C3
-            noteL C3, 12
-            noteL C3, 6
-            note C3
+    countedLoopEnd
+    countedLoopStart 3
             noteL G2, 12
             noteL G2, 6
             note G2
+    countedLoopEnd
+    repeatSection1Start
+    countedLoopStart 1
             noteL G2, 12
             noteL G2, 6
             note G2
-            noteL G2, 12
-            noteL G2, 6
-            note G2
-            noteL G2, 12
-            noteL G2, 6
-            note G2
-            noteL G2, 12
-            noteL G2, 6
-            note G2
-            noteL G2, 12
-            noteL G2, 6
-            note G2
-            noteL G2, 12
-            noteL G2, 6
-            note G2
-            noteL G2, 12
-            noteL G2, 6
-            note G2
-            noteL Gs2, 12
-            noteL Gs2, 6
-            note Gs2
-            noteL Gs2, 12
-            noteL Gs2, 6
-            note Gs2
-            noteL Gs2, 12
-            noteL Gs2, 6
-            note Gs2
-            noteL Gs2, 12
-            noteL Gs2, 6
-            note Gs2
-            noteL Gs2, 12
-            noteL Gs2, 6
-            note Gs2
-            noteL Gs2, 12
-            noteL Gs2, 6
-            note Gs2
-            noteL C3, 12
-            noteL C3, 6
-            note C3
-            noteL C3, 12
-            noteL C3, 6
-            note C3
-            noteL G2, 12
-            noteL G2, 6
-            note G2
-            noteL G2, 12
-            noteL G2, 6
-            note G2
-            noteL G2, 12
-            noteL G2, 6
-            note G2
-            noteL G2, 12
-            noteL G2, 6
-            note G2
+    countedLoopEnd
+    repeatEnd
+    repeatSection2Start
+    countedLoopStart 2
             noteL D3, 12
             noteL D3, 6
             note D3
-            noteL D3, 12
-            noteL D3, 6
-            note D3
-            noteL D3, 12
-            noteL D3, 6
-            note D3
+    countedLoopEnd
             noteL D3, 12
             noteL D3, 6
       sustain
@@ -312,6 +216,7 @@ Music_14_Channel_2:
       inst 56
       vol 12
             waitL 24
+    repeatStart
             noteL G5, 4
             wait
             note D5
@@ -330,6 +235,7 @@ Music_14_Channel_2:
             wait
             note D6
             wait
+    repeatSection1Start
             note F6
             wait
             note E6
@@ -343,36 +249,16 @@ Music_14_Channel_2:
             waitL 24
       inst 56
       vol 11
-            noteL G5, 4
-            wait
-            note D5
-            wait
-            note G5
-            wait
-            note B5
-            wait
-            note G5
-            wait
-            note B5
-            wait
-            note D6
-            wait
-            note B5
-            wait
-            note D6
-            wait
-            note G6
+    repeatEnd
+    repeatSection2Start
+    countedLoopStart 1
+            noteL G6, 4
             wait
             note C6
             wait
             note D6
             wait
-            note G6
-            wait
-            note C6
-            wait
-            note D6
-            wait
+    countedLoopEnd
             noteL D6, 48
     mainLoopEnd
 Music_14_Channel_3:
@@ -476,18 +362,14 @@ Music_14_Channel_3:
             note G5
             wait
             note B5
-            wait
+    countedLoopStart 1
+            waitL 4
             note D6
             wait
             note G5
             wait
             note C6
-            wait
-            note D6
-            wait
-            note G5
-            wait
-            note C6
+    countedLoopEnd
             wait
             noteL D5, 48
     mainLoopEnd
@@ -566,18 +448,14 @@ Music_14_Channel_5:
       vol 11
       vibrato 00h
       setRelease 3
+    countedLoopStart 1
             noteL A2, 12
       vol 7
             noteL A2, 6
       vol 9
             note A2
       vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 11
+    countedLoopEnd
             noteL A2, 12
       vol 7
             noteL A2, 6
@@ -597,6 +475,7 @@ Music_14_Channel_5:
       shifting 0
       vol 11
       setRelease 3
+    countedLoopStart 12
             noteL A2, 12
       vol 7
             noteL A2, 6
@@ -623,330 +502,15 @@ Music_14_Channel_5:
       vol 10
             note A2
       vol 11
+    countedLoopEnd
+    countedLoopStart 1
             noteL A2, 12
       vol 7
             noteL A2, 6
       vol 9
             note A2
       vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 10
-            note A2
-      vol 7
-            note A2
-      vol 9
-            note A2
-      vol 10
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 10
-            note A2
-      vol 7
-            note A2
-      vol 9
-            note A2
-      vol 10
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 10
-            note A2
-      vol 7
-            note A2
-      vol 9
-            note A2
-      vol 10
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 10
-            note A2
-      vol 7
-            note A2
-      vol 9
-            note A2
-      vol 10
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 10
-            note A2
-      vol 7
-            note A2
-      vol 9
-            note A2
-      vol 10
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 10
-            note A2
-      vol 7
-            note A2
-      vol 9
-            note A2
-      vol 10
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 10
-            note A2
-      vol 7
-            note A2
-      vol 9
-            note A2
-      vol 10
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 10
-            note A2
-      vol 7
-            note A2
-      vol 9
-            note A2
-      vol 10
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 10
-            note A2
-      vol 7
-            note A2
-      vol 9
-            note A2
-      vol 10
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 10
-            note A2
-      vol 7
-            note A2
-      vol 9
-            note A2
-      vol 10
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 10
-            note A2
-      vol 7
-            note A2
-      vol 9
-            note A2
-      vol 10
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 10
-            note A2
-      vol 7
-            note A2
-      vol 9
-            note A2
-      vol 10
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 11
-            noteL A2, 12
-      vol 7
-            noteL A2, 6
-      vol 9
-            note A2
-      vol 11
+    countedLoopEnd
             noteL A2, 12
       vol 7
             noteL A2, 6

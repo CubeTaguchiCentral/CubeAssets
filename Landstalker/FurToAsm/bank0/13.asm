@@ -25,128 +25,62 @@ Music_13_Channel_0:
             noteL A8, 72
       vibrato 05ch
       setSlide 7
+    countedLoopStart 10
             noteL As8, 3
       noSlide
       setSlide 7
             note A8
       noSlide
       setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
+    countedLoopEnd
       vol 12
+    repeatStart
             note As8
       noSlide
       setSlide 7
             note A8
       noSlide
       setSlide 7
+    repeatSection1Start
       vol 11
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
+    repeatEnd
+    repeatSection2Start
       vol 10
+    repeatStart
             note As8
       noSlide
       setSlide 7
             note A8
       noSlide
       setSlide 7
+    repeatSection1Start
       vol 9
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
+    repeatEnd
+    repeatSection2Start
       vol 8
+    repeatStart
             note As8
       noSlide
       setSlide 7
             note A8
       noSlide
       setSlide 7
+    repeatSection1Start
       vol 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
+    repeatEnd
+    repeatSection2Start
       vol 6
+    repeatStart
             note As8
       noSlide
       setSlide 7
             note A8
       noSlide
       setSlide 7
+    repeatSection1Start
       vol 5
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
+    repeatEnd
+    repeatSection2Start
       vol 4
             note As8
       setRelease 1
@@ -170,72 +104,14 @@ Music_13_Channel_1:
             noteL A8, 72
       vibrato 05ch
       setSlide 7
+    countedLoopStart 10
             noteL As8, 3
       noSlide
       setSlide 7
             note A8
       noSlide
       setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
+    countedLoopEnd
       vol 10
             note As8
       noSlide
@@ -247,128 +123,62 @@ Music_13_Channel_1:
       vibrato 05ch
             noteL A8, 72
       setSlide 7
+    countedLoopStart 10
             noteL As8, 3
       noSlide
       setSlide 7
             note A8
       noSlide
       setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
+    countedLoopEnd
       vol 12
+    repeatStart
             note As8
       noSlide
       setSlide 7
             note A8
       noSlide
       setSlide 7
+    repeatSection1Start
       vol 11
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
+    repeatEnd
+    repeatSection2Start
       vol 10
+    repeatStart
             note As8
       noSlide
       setSlide 7
             note A8
       noSlide
       setSlide 7
+    repeatSection1Start
       vol 9
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
+    repeatEnd
+    repeatSection2Start
       vol 8
+    repeatStart
             note As8
       noSlide
       setSlide 7
             note A8
       noSlide
       setSlide 7
+    repeatSection1Start
       vol 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
+    repeatEnd
+    repeatSection2Start
       vol 6
+    repeatStart
             note As8
       noSlide
       setSlide 7
             note A8
       noSlide
       setSlide 7
+    repeatSection1Start
       vol 5
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
+    repeatEnd
+    repeatSection2Start
       vol 4
             note As8
       setRelease 1
@@ -399,72 +209,14 @@ Music_13_Channel_2:
             noteL A8, 72
       vibrato 05ch
       setSlide 7
+    countedLoopStart 10
             noteL As8, 3
       noSlide
       setSlide 7
             note A8
       noSlide
       setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
+    countedLoopEnd
       vol 10
             note As8
       noSlide
@@ -474,128 +226,62 @@ Music_13_Channel_2:
       vol 13
             noteL A8, 72
       setSlide 7
+    countedLoopStart 10
             noteL As8, 3
       noSlide
       setSlide 7
             note A8
       noSlide
       setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
+    countedLoopEnd
       vol 12
+    repeatStart
             note As8
       noSlide
       setSlide 7
             note A8
       noSlide
       setSlide 7
+    repeatSection1Start
       vol 11
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
+    repeatEnd
+    repeatSection2Start
       vol 10
+    repeatStart
             note As8
       noSlide
       setSlide 7
             note A8
       noSlide
       setSlide 7
+    repeatSection1Start
       vol 9
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
+    repeatEnd
+    repeatSection2Start
       vol 8
+    repeatStart
             note As8
       noSlide
       setSlide 7
             note A8
       noSlide
       setSlide 7
+    repeatSection1Start
       vol 7
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
+    repeatEnd
+    repeatSection2Start
       vol 6
+    repeatStart
             note As8
       noSlide
       setSlide 7
             note A8
       noSlide
       setSlide 7
+    repeatSection1Start
       vol 5
-            note As8
-      noSlide
-      setSlide 7
-            note A8
-      noSlide
-      setSlide 7
+    repeatEnd
+    repeatSection2Start
       vol 4
             note As8
       setRelease 1

@@ -27,6 +27,7 @@ Music_01_Channel_0:
             waitL 180
       setRelease 4
       vibrato 05ch
+    repeatStart
             noteL C6, 20
             note E6
             note C7
@@ -57,40 +58,13 @@ Music_01_Channel_0:
             note C7
             wait
             noteL As6, 45
+    repeatSection1Start
             noteL D7, 15
             noteL C7, 120
             waitL 60
       setRelease 4
-            noteL C6, 20
-            note E6
-            note C7
-      setRelease 3
-            noteL As6, 90
-            noteL A6, 15
-            note G6
-            note A6
-            wait
-            note G6
-            wait
-            noteL F6, 45
-            noteL F6, 15
-            note E6
-            note F6
-            noteL G6, 130
-            waitL 20
-      setRelease 4
-            note C6
-            note E6
-            note C7
-      setRelease 3
-            noteL As6, 90
-            noteL As6, 15
-            note C7
-            note D7
-            wait
-            note C7
-            wait
-            noteL As6, 45
+    repeatEnd
+    repeatSection2Start
             noteL F7, 15
       setRelease 1
             noteL E7, 240
@@ -133,24 +107,14 @@ Music_01_Channel_1:
       setRelease 1
             waitL 218
       vibrato 05fh
+    countedLoopStart 2
             noteL As3, 120
             noteL D4, 60
             note As3
             noteL C4, 120
             noteL E4, 60
             note G3
-            noteL As3, 120
-            noteL D4, 60
-            note As3
-            noteL C4, 120
-            noteL E4, 60
-            note G3
-            noteL As3, 120
-            noteL D4, 60
-            note As3
-            noteL C4, 120
-            noteL E4, 60
-            note G3
+    countedLoopEnd
             noteL As3, 120
             noteL D4, 60
             note As3
@@ -158,6 +122,7 @@ Music_01_Channel_1:
             note C4
             note G3
             note E3
+    countedLoopStart 2
             noteL As3, 120
             noteL D3, 60
             note As3
@@ -165,20 +130,7 @@ Music_01_Channel_1:
             note G3
             note E3
             note C3
-            noteL As3, 120
-            noteL D3, 60
-            note As3
-            note C4
-            note G3
-            note E3
-            note C3
-            noteL As3, 120
-            noteL D3, 60
-            note As3
-            note C4
-            note G3
-            note E3
-            note C3
+    countedLoopEnd
             noteL As3, 120
             noteL D3, 60
             note As3
@@ -206,6 +158,7 @@ Music_01_Channel_2:
       setRelease 1
             waitL 218
       vibrato 05fh
+    repeatStart
             noteL F4, 120
             noteL As4, 60
             note F4
@@ -213,23 +166,20 @@ Music_01_Channel_2:
             noteL G5, 60
             note C5
             noteL D5, 120
+    repeatSection1Start
             noteL F5, 60
             note D5
             noteL E5, 120
             noteL G5, 60
             note C5
-            noteL F4, 120
-            noteL As4, 60
-            note F4
-            noteL E5, 120
-            noteL G5, 60
-            note C5
-            noteL D5, 120
+    repeatEnd
+    repeatSection2Start
             noteL As4, 60
             note D5
             noteL G5, 240
       vol 13
             noteL F4, 60
+    repeatStart
             note As4
             note D5
             note F5
@@ -238,19 +188,14 @@ Music_01_Channel_2:
             note G4
             noteL F4, 120
             noteL D5, 60
+    repeatSection1Start
             note F5
             noteL G5, 120
             noteL C6, 60
             note E5
             note F4
-            note As4
-            note D5
-            note F5
-            noteL E5, 120
-            noteL C5, 60
-            note G4
-            noteL F4, 120
-            noteL D5, 60
+    repeatEnd
+    repeatSection2Start
             noteL F5, 30
             waitL 15
             note A5
@@ -280,6 +225,7 @@ Music_01_Channel_3:
       setRelease 1
             waitL 218
       vibrato 05fh
+    repeatStart
             noteL D5, 120
             noteL F5, 60
             noteL As5, 45
@@ -291,26 +237,19 @@ Music_01_Channel_3:
             noteL As5, 60
             noteL F5, 45
             noteL As5, 15
+    repeatSection1Start
             noteL G5, 120
             noteL C6, 60
             note E5
-            noteL D5, 120
-            noteL F5, 60
-            noteL As5, 45
-            noteL As5, 15
-            noteL G5, 120
-            noteL C6, 60
-            note E5
-            noteL F5, 120
-            noteL As5, 60
-            noteL F5, 45
-            noteL As5, 15
+    repeatEnd
+    repeatSection2Start
             noteL C6, 240
       stereo 0c0h
       inst 21
       vol 14
             waitL 60
       setRelease 2
+    repeatStart
             note D5
             note F5
             noteL As5, 30
@@ -324,22 +263,12 @@ Music_01_Channel_3:
             noteL As5, 30
             waitL 15
             note D6
+    repeatSection1Start
       setRelease 1
             noteL E6, 240
             waitL 60
-            note D5
-            note F5
-            noteL As5, 30
-            waitL 15
-            note D6
-            noteL C6, 120
-            note G5
-            waitL 60
-            note D5
-            note F5
-            noteL As5, 30
-            waitL 15
-            note D6
+    repeatEnd
+    repeatSection2Start
       sustain
             noteL E6, 255
       setRelease 1
@@ -366,6 +295,7 @@ Music_01_Channel_4:
             waitL 180
       setRelease 3
       vibrato 05fh
+    repeatStart
             noteL C6, 20
             note E6
             note C7
@@ -393,36 +323,12 @@ Music_01_Channel_4:
             note C7
             wait
             noteL As6, 45
+    repeatSection1Start
             noteL D7, 15
             noteL C7, 120
             waitL 60
-            noteL C6, 20
-            note E6
-            note C7
-            noteL As6, 90
-            noteL A6, 15
-            note G6
-            note A6
-            wait
-            note G6
-            wait
-            noteL F6, 45
-            noteL F6, 15
-            note E6
-            note F6
-            noteL G6, 130
-            waitL 20
-            note C6
-            note E6
-            note C7
-            noteL As6, 90
-            noteL As6, 15
-            note C7
-            note D7
-            wait
-            note C7
-            wait
-            noteL As6, 45
+    repeatEnd
+    repeatSection2Start
             noteL F7, 15
       setRelease 1
             noteL E7, 235
@@ -431,6 +337,7 @@ Music_01_Channel_4:
       vol 10
             waitL 60
       setRelease 2
+    repeatStart
             note D5
             note F5
             noteL As5, 30
@@ -444,22 +351,12 @@ Music_01_Channel_4:
             noteL As5, 30
             waitL 15
             note D6
+    repeatSection1Start
       setRelease 1
             noteL E6, 240
             waitL 60
-            note D5
-            note F5
-            noteL As5, 30
-            waitL 15
-            note D6
-            noteL C6, 120
-            note G5
-            waitL 60
-            note D5
-            note F5
-            noteL As5, 30
-            waitL 15
-            note D6
+    repeatEnd
+    repeatSection2Start
       sustain
             noteL E6, 255
       setRelease 1
@@ -477,6 +374,33 @@ Music_01_Channel_6:
     mainLoopStart
             waitL 3
       setRelease 1
+    countedLoopStart 2
+            psgNoteL E6, 5
+            psgNote F6
+    countedLoopEnd
+            psgNote E6
+      psgInst 0ch
+    countedLoopStart 3
+            psgNoteL F6, 5
+            psgNote E6
+    countedLoopEnd
+            psgNote F6
+      psgInst 0bh
+    countedLoopStart 4
+            psgNoteL E6, 5
+            psgNote F6
+    countedLoopEnd
+      psgInst 0ah
+    countedLoopStart 3
+            psgNoteL E6, 5
+            psgNote F6
+    countedLoopEnd
+      psgInst 09h
+    countedLoopStart 5
+            psgNoteL E6, 5
+            psgNote F6
+    countedLoopEnd
+    countedLoopStart 7
             psgNoteL E6, 5
             psgNote F6
             psgNote E6
@@ -484,7 +408,6 @@ Music_01_Channel_6:
             psgNote E6
             psgNote F6
             psgNote E6
-      psgInst 0ch
             psgNote F6
             psgNote E6
             psgNote F6
@@ -494,7 +417,6 @@ Music_01_Channel_6:
             psgNote F6
             psgNote E6
             psgNote F6
-      psgInst 0bh
             psgNote E6
             psgNote F6
             psgNote E6
@@ -505,7 +427,6 @@ Music_01_Channel_6:
             psgNote F6
             psgNote E6
             psgNote F6
-      psgInst 0ah
             psgNote E6
             psgNote F6
             psgNote E6
@@ -514,7 +435,6 @@ Music_01_Channel_6:
             psgNote F6
             psgNote E6
             psgNote F6
-      psgInst 09h
             psgNote E6
             psgNote F6
             psgNote E6
@@ -529,646 +449,6 @@ Music_01_Channel_6:
             psgNote F6
             psgNote E6
             psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
             psgNote F6
             psgNote G6
             psgNote F6
@@ -1199,70 +479,6 @@ Music_01_Channel_6:
             psgNote G6
             psgNote F6
             psgNote G6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
             psgNote F6
             psgNote G6
             psgNote F6
@@ -1281,72 +497,11 @@ Music_01_Channel_6:
             psgNote G6
             psgNote F6
             psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote F6
-            psgNote G6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
+    countedLoopEnd
+    countedLoopStart 25
+            psgNoteL E6, 5
             psgNote F6
+    countedLoopEnd
             psgNote E6
       psgInst 0dh
             psgNoteL E6, 8
@@ -1374,718 +529,23 @@ Music_01_Channel_7:
             psgNote A5
             psgNote G5
       psgInst 0bh
-            psgNote A5
+    countedLoopStart 5
+            psgNoteL A5, 5
             psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
+    countedLoopEnd
       psgInst 0ah
-            psgNote A5
+    countedLoopStart 3
+            psgNoteL A5, 5
             psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
+    countedLoopEnd
       psgInst 09h
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
+    countedLoopStart 7
+            psgNoteL A5, 5
             psgNote G5
+    countedLoopEnd
             psgNote A5
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote As5
-            psgNote C6
-            psgNote G5
+    countedLoopStart 7
+            psgNoteL G5, 5
             psgNote A5
             psgNote G5
             psgNote A5
@@ -2181,58 +641,11 @@ Music_01_Channel_7:
             psgNote C6
             psgNote As5
             psgNote C6
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
-            psgNote A5
-            psgNote G5
+    countedLoopEnd
+    countedLoopStart 25
+            psgNoteL G5, 5
             psgNote A5
+    countedLoopEnd
             psgNote G5
       psgInst 0dh
             psgNoteL G5, 8

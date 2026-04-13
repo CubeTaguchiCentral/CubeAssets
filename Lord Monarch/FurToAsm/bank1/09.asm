@@ -212,49 +212,20 @@ Music_09_Channel_4:
     channel_end
 Music_09_Channel_5:
       stereo 0c0h
+    countedLoopStart 3
             sampleL 19, 5
-            sample 19
-            sample 19
-            sample 19
+    countedLoopEnd
+    countedLoopStart 3
             sampleL 19, 4
-            sample 19
-            sample 19
-            sample 19
+    countedLoopEnd
             sampleL 14, 255
             waitL 33
             sampleL 19, 72
             sample 15
             sample 19
+    countedLoopStart 29
             sampleL 19, 5
-            sample 19
-            sample 19
-            sample 19
-            sample 19
-            sample 19
-            sample 19
-            sample 19
-            sample 19
-            sample 19
-            sample 19
-            sample 19
-            sample 19
-            sample 19
-            sample 19
-            sample 19
-            sample 19
-            sample 19
-            sample 19
-            sample 19
-            sample 19
-            sample 19
-            sample 19
-            sample 19
-            sample 19
-            sample 19
-            sample 19
-            sample 19
-            sample 19
-            sample 19
+    countedLoopEnd
             sampleL 24, 162
     channel_end
 Music_09_Channel_6:
@@ -266,6 +237,7 @@ Music_09_Channel_6:
       vibrato 040h
             waitL 21
       psgInst 09h
+    repeatStart
             psgNoteL C3, 15
             waitL 21
             psgNoteL B2, 15
@@ -276,17 +248,10 @@ Music_09_Channel_6:
             waitL 21
             psgNoteL Fs2, 15
             waitL 21
+    repeatSection1Start
             psgNoteL G2, 36
-            psgNoteL C3, 15
-            waitL 21
-            psgNoteL B2, 15
-            waitL 21
-            psgNoteL Gs2, 15
-            waitL 21
-            psgNoteL G2, 15
-            waitL 21
-            psgNoteL Fs2, 15
-            waitL 21
+    repeatEnd
+    repeatSection2Start
             psgNoteL G2, 72
       vibrato 041h
             psgNoteL G2, 156
@@ -301,6 +266,7 @@ Music_09_Channel_7:
             psgNoteL C3, 15
       vibrato 040h
             waitL 21
+    repeatStart
             psgNoteL C5, 15
             waitL 21
             psgNoteL B4, 15
@@ -311,18 +277,11 @@ Music_09_Channel_7:
             waitL 21
             psgNoteL Fs4, 15
             waitL 21
+    repeatSection1Start
             psgNoteL G4, 36
       psgInst 0ah
-            psgNoteL C5, 15
-            waitL 21
-            psgNoteL B4, 15
-            waitL 21
-            psgNoteL Gs4, 15
-            waitL 21
-            psgNoteL G4, 15
-            waitL 21
-            psgNoteL Fs4, 15
-            waitL 21
+    repeatEnd
+    repeatSection2Start
       sustain
             psgNoteL G4, 72
       setRelease 1

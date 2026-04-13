@@ -364,7 +364,8 @@ Music_08_Channel_3:
             note F4
             note E4
             note F4
-            note D4
+    countedLoopStart 1
+            noteL D4, 12
             note As4
             note Cs4
             note As4
@@ -380,22 +381,7 @@ Music_08_Channel_3:
             note F5
             note E5
             note F5
-            note D4
-            note As4
-            note Cs4
-            note As4
-            note D4
-            note As4
-            note E4
-            note As4
-            note F4
-            note F5
-            note E5
-            note F5
-            note C5
-            note F5
-            note E5
-            note F5
+    countedLoopEnd
             note B4
             note G4
             note D4
@@ -435,6 +421,7 @@ Music_08_Channel_3:
             note A3
             note F4
             note C4
+    repeatStart
             note F4
             note F3
             note F4
@@ -444,6 +431,7 @@ Music_08_Channel_3:
             note F4
             note Cs4
             note F4
+    repeatSection1Start
             note F3
             note F4
             note D4
@@ -451,16 +439,10 @@ Music_08_Channel_3:
             note B3
             note F4
             note D4
-            note F4
-            note F3
-            note F4
-            note Cs4
-            note F4
-            note As3
-            note F4
-            note Cs4
-            note F4
+    repeatEnd
+    repeatSection2Start
             note A3
+    repeatStart
             note F4
             note E4
             note F4
@@ -468,22 +450,13 @@ Music_08_Channel_3:
             note F4
             note E4
             note F4
+    repeatSection1Start
             note As3
-            note F4
-            note E4
-            note F4
-            note F3
-            note F4
-            note E4
-            note F4
+    repeatEnd
+    repeatSection2Start
             note B3
-            note F4
-            note E4
-            note F4
-            note F3
-            note F4
-            note E4
-            note F4
+    repeatEnd
+    repeatSection3Start
             note As3
             note G4
             note E4
@@ -549,6 +522,7 @@ Music_08_Channel_4:
             note G2
             noteL A2, 48
             note D2
+    countedLoopStart 1
             noteL As3, 36
             noteL D3, 12
             note D3
@@ -556,13 +530,7 @@ Music_08_Channel_4:
             note A3
             note G3
             noteL F3, 96
-            noteL As3, 36
-            noteL D3, 12
-            note D3
-            note As3
-            note A3
-            note G3
-            noteL F3, 96
+    countedLoopEnd
             note B2
             note As2
             noteL A2, 48

@@ -116,39 +116,29 @@ Music_10_Channel_3:
             noteL C6, 12
             noteL C6, 6
             note C6
+    countedLoopStart 5
             noteL C6, 12
-            note C6
-            note C6
-            note C6
-            note C6
-            note C6
+    countedLoopEnd
+    countedLoopStart 3
             noteL C6, 6
-            note C6
-            note C6
-            note C6
+    countedLoopEnd
+    countedLoopStart 6
             noteL C6, 12
-            note C6
-            note C6
-            note C6
-            note C6
-            note C6
-            note C6
+    countedLoopEnd
+    countedLoopStart 1
             noteL C6, 6
             note C6
             noteL C6, 12
-            noteL C6, 6
-            note C6
-            noteL C6, 12
+    countedLoopEnd
             noteL C6, 3
             wait
             note C6
             wait
             noteL C6, 12
             note C6
+    countedLoopStart 3
             noteL C6, 6
-            note C6
-            note C6
-            note C6
+    countedLoopEnd
             noteL C6, 12
             noteL C6, 24
             noteL C6, 12
@@ -167,22 +157,16 @@ Music_10_Channel_4:
       vibrato 05ah
             noteL C6, 6
             note C6
+    countedLoopStart 5
             noteL C6, 12
-            note C6
-            note C6
-            note C6
-            note C6
-            note C6
+    countedLoopEnd
             noteL C6, 6
             note C6
             wait
             note C6
+    countedLoopStart 5
             noteL C6, 12
-            note C6
-            note C6
-            note C6
-            note C6
-            note C6
+    countedLoopEnd
             wait
             noteL C6, 6
             note C6
@@ -206,6 +190,7 @@ Music_10_Channel_4:
     mainLoopEnd
 Music_10_Channel_5:
     mainLoopStart
+    countedLoopStart 1
             sampleL 0, 12
             sampleL 8, 6
             sample 8
@@ -225,25 +210,7 @@ Music_10_Channel_5:
             sample 0
             sample 1
             sample 8
-            sample 0
-            sampleL 8, 6
-            sample 8
-            sampleL 1, 12
-            sample 8
-            sample 0
-            sample 8
-            sample 1
-            sample 8
-            sampleL 0, 6
-            sample 8
-            sample 8
-            sample 8
-            sampleL 1, 12
-            sample 8
-            sample 0
-            sample 0
-            sample 1
-            sample 8
+    countedLoopEnd
     mainLoopEnd
 Music_10_Channel_6:
     channel_end

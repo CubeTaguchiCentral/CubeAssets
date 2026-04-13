@@ -26,6 +26,7 @@ Music_15_Channel_0:
             waitL 102
       setRelease 1
       vibrato 05ch
+    countedLoopStart 1
             noteL D4, 6
             note D4
             note D4
@@ -37,17 +38,7 @@ Music_15_Channel_0:
             noteL D4, 24
             waitL 144
             waitL 102
-            noteL D4, 6
-            note D4
-            note D4
-            noteL D4, 24
-            waitL 54
-            noteL D4, 6
-            note D4
-            note D4
-            noteL D4, 24
-            waitL 144
-            waitL 102
+    countedLoopEnd
             noteL D4, 6
             note D4
             note D4
@@ -110,6 +101,7 @@ Music_15_Channel_1:
       vol 12
       setRelease 1
       vibrato 05ch
+    repeatStart
             noteL D5, 6
             note E5
             noteL F5, 24
@@ -136,35 +128,12 @@ Music_15_Channel_1:
             note C6
             noteL A5, 24
             noteL D6, 180
+    repeatSection1Start
             waitL 12
       inst 39
       vol 12
-            noteL D5, 6
-            note E5
-            noteL F5, 24
-            note G5
-            note A5
-            noteL C6, 12
-            noteL B5, 48
-            noteL G5, 12
-            note F5
-            noteL E5, 24
-            noteL A5, 180
-            waitL 12
-            noteL D5, 6
-            note E5
-            noteL F5, 24
-            note G5
-            noteL A5, 12
-            note F5
-            note A5
-            noteL E6, 24
-            noteL F6, 12
-            note E6
-            note D6
-            note C6
-            noteL A5, 24
-            noteL D6, 180
+    repeatEnd
+    repeatSection2Start
             waitL 24
       inst 19
       vol 12
@@ -341,6 +310,7 @@ Music_15_Channel_3:
       setRelease 1
       vibrato 05ch
             note D5
+    repeatStart
             note E5
             noteL F5, 24
             note G5
@@ -365,35 +335,14 @@ Music_15_Channel_3:
             note D6
             note C6
             noteL A5, 24
+    repeatSection1Start
             noteL D6, 180
             waitL 12
       inst 39
       vol 10
             noteL D5, 6
-            note E5
-            noteL F5, 24
-            note G5
-            note A5
-            noteL C6, 12
-            noteL B5, 48
-            noteL G5, 12
-            note F5
-            noteL E5, 24
-            noteL A5, 180
-            waitL 12
-            noteL D5, 6
-            note E5
-            noteL F5, 24
-            note G5
-            noteL A5, 12
-            note F5
-            note A5
-            noteL E6, 24
-            noteL F6, 12
-            note E6
-            note D6
-            note C6
-            noteL A5, 24
+    repeatEnd
+    repeatSection2Start
             noteL D6, 12
             waitL 6
       inst 19
@@ -482,6 +431,7 @@ Music_15_Channel_4:
             waitL 12
       setRelease 1
       vibrato 05ch
+    repeatStart
             noteL D5, 6
             note E5
             noteL F5, 24
@@ -508,35 +458,12 @@ Music_15_Channel_4:
             note C6
             noteL A5, 24
             noteL D6, 180
+    repeatSection1Start
             waitL 12
       inst 39
       vol 9
-            noteL D5, 6
-            note E5
-            noteL F5, 24
-            note G5
-            note A5
-            noteL C6, 12
-            noteL B5, 48
-            noteL G5, 12
-            note F5
-            noteL E5, 24
-            noteL A5, 180
-            waitL 12
-            noteL D5, 6
-            note E5
-            noteL F5, 24
-            note G5
-            noteL A5, 12
-            note F5
-            note A5
-            noteL E6, 24
-            noteL F6, 12
-            note E6
-            note D6
-            note C6
-            noteL A5, 24
-            noteL D6, 180
+    repeatEnd
+    repeatSection2Start
             waitL 24
       inst 19
       vol 9
@@ -586,6 +513,7 @@ Music_15_Channel_5:
     mainLoopStart
       stereo 0c0h
             waitL 210
+    countedLoopStart 1
             sampleL 12, 6
             sample 12
             sample 12
@@ -595,15 +523,7 @@ Music_15_Channel_5:
             sample 12
             sampleL 12, 255
             waitL 15
-            sampleL 12, 6
-            sample 12
-            sample 12
-            sampleL 12, 78
-            sampleL 12, 6
-            sample 12
-            sample 12
-            sampleL 12, 255
-            waitL 15
+    countedLoopEnd
             sampleL 12, 6
             sample 12
             sample 12
@@ -636,12 +556,10 @@ Music_15_Channel_6:
             psgNote F3
             psgNoteL E3, 84
             psgNoteL F3, 108
+    countedLoopStart 2
             psgNoteL G3, 96
             psgNote F3
-            psgNote G3
-            psgNote F3
-            psgNote G3
-            psgNote F3
+    countedLoopEnd
             psgNoteL F3, 48
             psgNoteL E3, 24
             psgNote G3

@@ -545,6 +545,7 @@ Music_20_Channel_6:
             psgNote F4
       psgInst 00h
             wait
+    repeatStart
       psgInst 087h
             psgNote A3
             psgNote Cs4
@@ -553,6 +554,7 @@ Music_20_Channel_6:
             wait
       psgInst 087h
             psgNote A3
+    repeatSection1Start
             psgNote D4
             psgNote F4
             psgNote Gs4
@@ -578,14 +580,8 @@ Music_20_Channel_6:
             psgNote E4
       psgInst 00h
             waitL 12
-      psgInst 087h
-            psgNote A3
-            psgNote Cs4
-            psgNote E4
-      psgInst 00h
-            wait
-      psgInst 087h
-            psgNote A3
+    repeatEnd
+    repeatSection2Start
             psgNote Cs4
             psgNote G4
       psgInst 00h

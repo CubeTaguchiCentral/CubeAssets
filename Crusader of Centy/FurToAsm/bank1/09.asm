@@ -26,55 +26,9 @@ Music_09_Channel_0:
             wait
             wait
             note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
+    repeatStart
+    countedLoopStart 3
+            waitL 2
             wait
             wait
             wait
@@ -122,6 +76,7 @@ Music_09_Channel_0:
             wait
             wait
             note D5
+    countedLoopEnd
             wait
             wait
             wait
@@ -169,348 +124,20 @@ Music_09_Channel_0:
             wait
             wait
             wait
+    repeatSection1Start
             note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
-            wait
-            wait
-            wait
+    repeatEnd
+    repeatSection2Start
     mainLoopStart
       inst 46
       vol 10
       shifting 0
       stereo 0c0h
       setRelease 1
+            noteL D5, 2
+    repeatEnd
+    repeatSection3Start
+    countedLoopStart 2
             noteL D5, 2
             wait
             wait
@@ -559,6 +186,7 @@ Music_09_Channel_0:
             wait
             wait
             wait
+    countedLoopEnd
             note D5
             wait
             wait
@@ -566,6 +194,7 @@ Music_09_Channel_0:
             wait
             wait
             note E5
+    repeatStart
             wait
             wait
             wait
@@ -577,18 +206,10 @@ Music_09_Channel_0:
             wait
             wait
             wait
+    repeatSection1Start
             note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
+    repeatEnd
+    repeatSection2Start
             note E5
             wait
             wait
@@ -596,343 +217,8 @@ Music_09_Channel_0:
             wait
             wait
             note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
+    countedLoopStart 1
+            waitL 2
             wait
             wait
             wait
@@ -1316,390 +602,8 @@ Music_09_Channel_0:
             wait
             wait
             note D6
-            wait
-            wait
-            wait
-            wait
-            wait
-            note C6
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D6
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note C6
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note B5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note G5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note B5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note G5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note C6
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D6
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note C6
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note B5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note G5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note B5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note G5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note C6
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note C6
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note C6
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note Fs5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D6
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note C6
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note C6
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note G5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note B5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note G5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note Gs5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note B5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note Gs5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D6
-            wait
-            wait
-            wait
-            wait
-            wait
-            note B5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note F6
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D6
+    countedLoopEnd
+    repeatStart
             wait
             wait
             wait
@@ -1753,6 +657,7 @@ Music_09_Channel_0:
             wait
             wait
             wait
+    repeatSection1Start
             note G5
             wait
             wait
@@ -1796,59 +701,8 @@ Music_09_Channel_0:
             wait
             wait
             note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note F5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note F5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note C5
-            wait
-            wait
-            wait
-            wait
-            wait
+    repeatEnd
+    repeatSection2Start
             note E5
             wait
             wait
@@ -1892,59 +746,9 @@ Music_09_Channel_0:
             wait
             wait
             note C5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note F5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note F5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note C5
-            wait
-            wait
-            wait
-            wait
-            wait
+    repeatEnd
+    repeatSection3Start
+    repeatStart
             note G5
             wait
             wait
@@ -1957,24 +761,15 @@ Music_09_Channel_0:
             wait
             wait
             wait
+    repeatSection1Start
             note B5
             wait
             wait
             wait
             wait
             wait
-            note G5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
+    repeatEnd
+    repeatSection2Start
             note G5
             wait
             wait
@@ -1982,31 +777,8 @@ Music_09_Channel_0:
             wait
             wait
             note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note C6
-            wait
-            wait
-            wait
-            wait
-            wait
-            note F5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
+    countedLoopStart 1
+            waitL 2
             wait
             wait
             wait
@@ -2030,6 +802,7 @@ Music_09_Channel_0:
             wait
             wait
             note A5
+    countedLoopEnd
             wait
             wait
             wait
@@ -2042,6 +815,7 @@ Music_09_Channel_0:
             wait
             wait
             note C6
+    repeatStart
             wait
             wait
             wait
@@ -2053,18 +827,10 @@ Music_09_Channel_0:
             wait
             wait
             wait
+    repeatSection1Start
             note D6
-            wait
-            wait
-            wait
-            wait
-            wait
-            note G5
-            wait
-            wait
-            wait
-            wait
-            wait
+    repeatEnd
+    repeatSection2Start
             note B5
             wait
             wait
@@ -2084,6 +850,7 @@ Music_09_Channel_0:
             wait
             wait
             note B5
+    repeatStart
             wait
             wait
             wait
@@ -2137,6 +904,7 @@ Music_09_Channel_0:
             wait
             wait
             wait
+    repeatSection1Start
             note A5
             wait
             wait
@@ -2180,59 +948,8 @@ Music_09_Channel_0:
             wait
             wait
             note B5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note C6
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note C6
-            wait
-            wait
-            wait
-            wait
-            wait
-            note B5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note G5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note B5
-            wait
-            wait
-            wait
-            wait
-            wait
+    repeatEnd
+    repeatSection2Start
             note D6
             wait
             wait
@@ -2276,59 +993,8 @@ Music_09_Channel_0:
             wait
             wait
             note C6
-            wait
-            wait
-            wait
-            wait
-            wait
-            note C6
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note C6
-            wait
-            wait
-            wait
-            wait
-            wait
-            note B5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note G5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note B5
-            wait
-            wait
-            wait
-            wait
-            wait
+    repeatEnd
+    repeatSection3Start
             note A5
             wait
             wait
@@ -2342,6 +1008,7 @@ Music_09_Channel_0:
             wait
             wait
             note F5
+    repeatStart
             wait
             wait
             wait
@@ -2353,6 +1020,7 @@ Music_09_Channel_0:
             wait
             wait
             wait
+    repeatSection1Start
             note G5
             wait
             wait
@@ -2384,17 +1052,8 @@ Music_09_Channel_0:
             wait
             wait
             note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
+    repeatEnd
+    repeatSection2Start
             note C6
             wait
             wait
@@ -2420,55 +1079,8 @@ Music_09_Channel_0:
             wait
             wait
             note B5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D6
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D6
-            wait
-            wait
-            wait
-            wait
-            wait
-            note C6
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note C6
-            wait
+    countedLoopStart 1
+            waitL 2
             wait
             wait
             wait
@@ -2516,6 +1128,7 @@ Music_09_Channel_0:
             wait
             wait
             note C6
+    countedLoopEnd
             wait
             wait
             wait
@@ -2562,6 +1175,7 @@ Music_09_Channel_1:
             note F3
             noteL Fs3, 84
             noteL As3, 204
+    repeatStart
             noteL A3, 96
             note E3
             note A3
@@ -2570,15 +1184,10 @@ Music_09_Channel_1:
             note Fs3
             note G3
             noteL Gs3, 48
+    repeatSection1Start
             note B3
-            noteL A3, 96
-            note E3
-            note A3
-            note E3
-            note F3
-            note Fs3
-            note G3
-            noteL Gs3, 48
+    repeatEnd
+    repeatSection2Start
             note E3
             noteL D3, 96
             note E3
@@ -2593,6 +1202,7 @@ Music_09_Channel_1:
             noteL D4, 24
             note G3
             noteL F3, 48
+    repeatStart
             note E3
             note D3
             noteL C3, 24
@@ -2600,17 +1210,13 @@ Music_09_Channel_1:
             note E3
             noteL F3, 48
             note E3
+    repeatSection1Start
             noteL A3, 36
             noteL E3, 12
             noteL A2, 48
             note F3
-            note E3
-            note D3
-            noteL C3, 24
-            noteL D3, 12
-            note E3
-            noteL F3, 48
-            note E3
+    repeatEnd
+    repeatSection2Start
             noteL A3, 60
             noteL E3, 24
             noteL C3, 12
@@ -2631,38 +1237,7 @@ Music_09_Channel_2:
       vol 10
       setRelease 1
       vibrato 05ch
-            note A6
-            note D6
-            note E6
-            noteL A5, 48
-            waitL 12
-            note A6
-            note D6
-            note E6
-            note D6
-            note E6
-            note G6
-            note A6
-            wait
-            note A6
-            note D6
-            note E6
-            noteL A5, 48
-            waitL 12
-            note A6
-            note D6
-            note E6
-            note D6
-            note E6
-            note G6
-            note A6
-            wait
-    mainLoopStart
-      inst 20
-      vol 10
-      shifting 0
-      stereo 080h
-      setRelease 1
+    countedLoopStart 1
             noteL A6, 12
             note D6
             note E6
@@ -2676,7 +1251,15 @@ Music_09_Channel_2:
             note G6
             note A6
             wait
-            note A6
+    countedLoopEnd
+    mainLoopStart
+      inst 20
+      vol 10
+      shifting 0
+      stereo 080h
+      setRelease 1
+    countedLoopStart 2
+            noteL A6, 12
             note D6
             note E6
             noteL A5, 48
@@ -2689,19 +1272,7 @@ Music_09_Channel_2:
             note G6
             note A6
             wait
-            note A6
-            note D6
-            note E6
-            noteL A5, 48
-            waitL 12
-            note A6
-            note D6
-            note E6
-            note D6
-            note E6
-            note G6
-            note A6
-            wait
+    countedLoopEnd
             note A6
             note D6
             note E6
@@ -2720,14 +1291,9 @@ Music_09_Channel_2:
             note C7
             noteL D7, 48
             waitL 192
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
-            wait
+    countedLoopStart 7
+            waitL 192
+    countedLoopEnd
             waitL 168
       inst 12
       vol 12
@@ -2746,6 +1312,7 @@ Music_09_Channel_2:
             note F5
             note G5
             note F6
+    repeatStart
             note G6
             noteL A6, 24
             noteL G6, 12
@@ -2762,26 +1329,13 @@ Music_09_Channel_2:
             noteL A6, 24
             noteL G6, 12
             note F6
+    repeatSection1Start
             noteL E6, 24
             note G6
             noteL E6, 72
             noteL F6, 12
-            note G6
-            noteL A6, 24
-            noteL G6, 12
-            note F6
-            noteL E6, 24
-            note G6
-            noteL F6, 12
-            note E6
-            note D6
-            note F6
-            noteL E6, 24
-            noteL F6, 12
-            note G6
-            noteL A6, 24
-            noteL G6, 12
-            note F6
+    repeatEnd
+    repeatSection2Start
             note B6
             note A6
             note G6
@@ -2799,20 +1353,10 @@ Music_09_Channel_3:
       vol 12
       setRelease 1
       vibrato 05ch
+    countedLoopStart 6
             noteL A7, 72
             waitL 24
-            noteL A7, 72
-            waitL 24
-            noteL A7, 72
-            waitL 24
-            noteL A7, 72
-            waitL 24
-            noteL A7, 72
-            waitL 24
-            noteL A7, 72
-            waitL 24
-            noteL A7, 72
-            waitL 24
+    countedLoopEnd
             noteL A7, 72
             waitL 12
     mainLoopStart
@@ -2822,36 +1366,13 @@ Music_09_Channel_3:
       stereo 080h
             waitL 12
       setRelease 1
+    countedLoopStart 5
             noteL A7, 48
       stereo 040h
             noteL A4, 24
             wait
       stereo 080h
-            noteL A7, 48
-      stereo 040h
-            noteL A4, 24
-            wait
-      stereo 080h
-            noteL A7, 48
-      stereo 040h
-            noteL A4, 24
-            wait
-      stereo 080h
-            noteL A7, 48
-      stereo 040h
-            noteL A4, 24
-            wait
-      stereo 080h
-            noteL A7, 48
-      stereo 040h
-            noteL A4, 24
-            wait
-      stereo 080h
-            noteL A7, 48
-      stereo 040h
-            noteL A4, 24
-            wait
-      stereo 080h
+    countedLoopEnd
             noteL A7, 48
       stereo 040h
             noteL A4, 12
@@ -2862,6 +1383,7 @@ Music_09_Channel_3:
             waitL 72
       inst 12
       vol 12
+    countedLoopStart 1
             noteL D6, 24
             noteL C6, 72
             noteL A5, 12
@@ -2891,61 +1413,27 @@ Music_09_Channel_3:
             noteL Gs5, 24
             note A5
             note B5
-            note D6
-            noteL C6, 72
-            noteL A5, 12
-            note E5
-            noteL G5, 72
-            noteL D6, 24
-            noteL C6, 72
-            noteL A5, 12
-            note E5
-            noteL G5, 60
-            noteL E5, 12
-            note F5
-            note A5
-            noteL G5, 36
-            noteL F5, 12
-            noteL E5, 24
-            note C5
-            note D5
-            note Fs5
-            note A5
-            noteL D6, 12
-            note C6
-            noteL C6, 36
-            noteL B5, 6
-            note A5
-            noteL B5, 48
-            noteL Gs5, 24
-            note A5
-            note B5
+    countedLoopEnd
       inst 13
       vol 11
+    repeatStart
             noteL D6, 12
             note E6
             noteL F6, 36
             noteL E6, 12
             noteL D6, 24
             note A6
+    repeatSection1Start
             note G6
             note F6
             note E6
-            noteL D6, 12
-            note E6
-            noteL F6, 36
-            noteL E6, 12
-            noteL D6, 24
-            note A6
+    repeatEnd
+    repeatSection2Start
             note B6
             noteL C7, 12
             noteL A6, 36
-            noteL D6, 12
-            note E6
-            noteL F6, 36
-            noteL E6, 12
-            noteL D6, 24
-            note A6
+    repeatEnd
+    repeatSection3Start
             note G6
             note A6
             note B6
@@ -2960,6 +1448,7 @@ Music_09_Channel_3:
             noteL B6, 6
             note A6
             noteL B6, 24
+    repeatStart
             noteL A6, 12
             note B6
             noteL C7, 24
@@ -2977,26 +1466,12 @@ Music_09_Channel_3:
             noteL C7, 24
             noteL B6, 12
             note A6
+    repeatSection1Start
             noteL G6, 24
             note B6
             noteL A6, 72
-            noteL A6, 12
-            note B6
-            noteL C7, 24
-            noteL B6, 12
-            note A6
-            noteL G6, 24
-            note B6
-            noteL A6, 12
-            note G6
-            note F6
-            note A6
-            noteL G6, 24
-            noteL A6, 12
-            note B6
-            noteL C7, 24
-            noteL B6, 12
-            note A6
+    repeatEnd
+    repeatSection2Start
             note D7
             note C7
             note B6
@@ -3014,55 +1489,9 @@ Music_09_Channel_4:
       vibrato 05ch
             noteL A4, 2
             wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
+    repeatStart
+    countedLoopStart 3
+            waitL 2
             wait
             wait
             wait
@@ -3110,6 +1539,7 @@ Music_09_Channel_4:
             wait
             note A4
             wait
+    countedLoopEnd
             wait
             wait
             wait
@@ -3157,342 +1587,10 @@ Music_09_Channel_4:
             wait
             wait
             note A4
+    repeatSection1Start
             wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
+    repeatEnd
+    repeatSection2Start
             waitL 1
     mainLoopStart
       inst 46
@@ -3500,10 +1598,9 @@ Music_09_Channel_4:
       shifting 32
       stereo 040h
       setRelease 1
+    countedLoopStart 3
             waitL 2
-            wait
-            wait
-            wait
+    countedLoopEnd
             waitL 1
             noteL D5, 2
             wait
@@ -3549,6 +1646,10 @@ Music_09_Channel_4:
             wait
             note A4
             wait
+    repeatEnd
+    repeatSection3Start
+    countedLoopStart 1
+            waitL 2
             wait
             wait
             wait
@@ -3596,6 +1697,8 @@ Music_09_Channel_4:
             wait
             wait
             note A4
+    countedLoopEnd
+    repeatStart
             wait
             wait
             wait
@@ -3619,323 +1722,16 @@ Music_09_Channel_4:
             wait
             wait
             wait
+    repeatSection1Start
             note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A4
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note D5
-            wait
-            wait
-            wait
-            wait
-            wait
+    repeatEnd
+    repeatSection2Start
             waitL 9
       stereo 0c0h
       inst 12
       vol 9
       setRelease 12
+    repeatStart
             noteL C6, 72
       setRelease 1
             noteL A5, 2
@@ -4030,103 +1826,13 @@ Music_09_Channel_4:
             noteL Gs5, 24
             note A5
             note B5
+    repeatSection1Start
             note D6
-            noteL C6, 72
-      setRelease 1
-            noteL A5, 2
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-      setRelease 12
-            noteL G5, 72
-            noteL D6, 24
-            noteL C6, 72
-      setRelease 1
-            noteL A5, 2
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E5
-            wait
-            wait
-            wait
-            wait
-            wait
-      setRelease 12
-            noteL G5, 60
-      setRelease 1
-            noteL E5, 2
-            wait
-            wait
-            wait
-            wait
-            wait
-            note F5
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A5
-            wait
-            wait
-            wait
-            wait
-            wait
-      setRelease 12
-            noteL G5, 36
-      setRelease 1
-            noteL F5, 2
-            wait
-            wait
-            wait
-            wait
-            wait
-      setRelease 12
-            noteL E5, 24
-            note C5
-            note D5
-            note Fs5
-            note A5
-      setRelease 1
-            noteL D6, 2
-            wait
-            wait
-            wait
-            wait
-            wait
-            note C6
-            wait
-            wait
-            wait
-            wait
-            wait
-      setRelease 12
-            noteL C6, 36
-      setRelease 1
-            noteL B5, 2
-            wait
-            wait
-            note A5
-            wait
-            wait
-      setRelease 12
-            noteL B5, 48
-            noteL Gs5, 24
-            note A5
-            note B5
+    repeatEnd
+    repeatSection2Start
       inst 13
       vol 8
+    repeatStart
       setRelease 1
             noteL D6, 2
             wait
@@ -4152,34 +1858,12 @@ Music_09_Channel_4:
       setRelease 12
             noteL D6, 24
             note A6
+    repeatSection1Start
             note G6
             note F6
             note E6
-      setRelease 1
-            noteL D6, 2
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E6
-            wait
-            wait
-            wait
-            wait
-            wait
-      setRelease 12
-            noteL F6, 36
-      setRelease 1
-            noteL E6, 2
-            wait
-            wait
-            wait
-            wait
-            wait
-      setRelease 12
-            noteL D6, 24
-            note A6
+    repeatEnd
+    repeatSection2Start
             note B6
       setRelease 1
             noteL C7, 2
@@ -4190,31 +1874,8 @@ Music_09_Channel_4:
             wait
       setRelease 12
             noteL A6, 36
-      setRelease 1
-            noteL D6, 2
-            wait
-            wait
-            wait
-            wait
-            wait
-            note E6
-            wait
-            wait
-            wait
-            wait
-            wait
-      setRelease 12
-            noteL F6, 36
-      setRelease 1
-            noteL E6, 2
-            wait
-            wait
-            wait
-            wait
-            wait
-      setRelease 12
-            noteL D6, 24
-            note A6
+    repeatEnd
+    repeatSection3Start
             note G6
             note A6
             note B6
@@ -4226,6 +1887,7 @@ Music_09_Channel_4:
             wait
             wait
             note B6
+    repeatStart
             wait
             wait
             wait
@@ -4237,6 +1899,7 @@ Music_09_Channel_4:
             noteL B6, 2
             wait
             wait
+    repeatSection1Start
             wait
             wait
             wait
@@ -4250,22 +1913,14 @@ Music_09_Channel_4:
             wait
             wait
             note C7
-            wait
-            wait
-            wait
-            wait
-            wait
-      setRelease 12
-            noteL C7, 36
-      setRelease 1
-            noteL B6, 2
-            wait
-            wait
+    repeatEnd
+    repeatSection2Start
             note A6
             wait
             wait
       setRelease 12
             noteL B6, 24
+    repeatStart
       setRelease 1
             noteL A6, 2
             wait
@@ -4352,96 +2007,13 @@ Music_09_Channel_4:
             wait
             wait
             wait
+    repeatSection1Start
       setRelease 12
             noteL G6, 24
             note B6
             noteL A6, 72
-      setRelease 1
-            noteL A6, 2
-            wait
-            wait
-            wait
-            wait
-            wait
-            note B6
-            wait
-            wait
-            wait
-            wait
-            wait
-      setRelease 12
-            noteL C7, 24
-      setRelease 1
-            noteL B6, 2
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A6
-            wait
-            wait
-            wait
-            wait
-            wait
-      setRelease 12
-            noteL G6, 24
-            note B6
-      setRelease 1
-            noteL A6, 2
-            wait
-            wait
-            wait
-            wait
-            wait
-            note G6
-            wait
-            wait
-            wait
-            wait
-            wait
-            note F6
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A6
-            wait
-            wait
-            wait
-            wait
-            wait
-      setRelease 12
-            noteL G6, 24
-      setRelease 1
-            noteL A6, 2
-            wait
-            wait
-            wait
-            wait
-            wait
-            note B6
-            wait
-            wait
-            wait
-            wait
-            wait
-      setRelease 12
-            noteL C7, 24
-      setRelease 1
-            noteL B6, 2
-            wait
-            wait
-            wait
-            wait
-            wait
-            note A6
-            wait
-            wait
-            wait
-            wait
-            wait
+    repeatEnd
+    repeatSection2Start
             note D7
             wait
             wait
@@ -4485,24 +2057,11 @@ Music_09_Channel_5:
             sample 0
     mainLoopStart
             waitL 24
+    countedLoopStart 5
             sampleL 0, 12
             sampleL 0, 48
             sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 48
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 48
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 48
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 48
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 48
-            sampleL 0, 36
+    countedLoopEnd
             sampleL 0, 12
             sampleL 0, 36
             sampleL 0, 144
@@ -4513,32 +2072,16 @@ Music_09_Channel_5:
       stereo 080h
             sampleL 4, 24
       stereo 0c0h
+    repeatStart
+    countedLoopStart 5
             sampleL 0, 36
             sampleL 0, 12
             sampleL 0, 24
             sample 6
+    countedLoopEnd
             sampleL 0, 36
             sampleL 0, 12
-            sampleL 0, 24
-            sample 6
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 24
-            sample 6
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 24
-            sample 6
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 24
-            sample 6
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 24
-            sample 6
-            sampleL 0, 36
-            sampleL 0, 12
+    repeatSection1Start
             sampleL 0, 24
             sample 6
             sampleL 0, 36
@@ -4553,64 +2096,16 @@ Music_09_Channel_5:
             sampleL 0, 12
             sampleL 0, 24
             sample 6
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 24
-            sample 6
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 24
-            sample 6
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 24
-            sample 6
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 24
-            sample 6
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 24
-            sample 6
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 24
-            sample 6
-            sampleL 0, 36
-            sampleL 0, 12
+    repeatEnd
+    repeatSection2Start
             sample 0
             sample 6
             sample 3
       stereo 080h
             sample 4
       stereo 0c0h
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 24
-            sample 6
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 24
-            sample 6
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 24
-            sample 6
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 24
-            sample 6
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 24
-            sample 6
-            sampleL 0, 36
-            sampleL 0, 12
-            sampleL 0, 24
-            sample 6
-            sampleL 0, 36
-            sampleL 0, 12
+    repeatEnd
+    repeatSection3Start
             sampleL 0, 24
             sample 6
             sampleL 0, 36
@@ -4623,6 +2118,7 @@ Music_09_Channel_5:
       stereo 080h
             sample 4
       stereo 0c0h
+    countedLoopStart 7
             sampleL 0, 24
       stereo 040h
             sampleL 7, 12
@@ -4630,55 +2126,7 @@ Music_09_Channel_5:
             sample 0
             sampleL 0, 24
             sample 15
-            sample 0
-      stereo 040h
-            sampleL 7, 12
-      stereo 0c0h
-            sample 0
-            sampleL 0, 24
-            sample 15
-            sample 0
-      stereo 040h
-            sampleL 7, 12
-      stereo 0c0h
-            sample 0
-            sampleL 0, 24
-            sample 15
-            sample 0
-      stereo 040h
-            sampleL 7, 12
-      stereo 0c0h
-            sample 0
-            sampleL 0, 24
-            sample 15
-            sample 0
-      stereo 040h
-            sampleL 7, 12
-      stereo 0c0h
-            sample 0
-            sampleL 0, 24
-            sample 15
-            sample 0
-      stereo 040h
-            sampleL 7, 12
-      stereo 0c0h
-            sample 0
-            sampleL 0, 24
-            sample 15
-            sample 0
-      stereo 040h
-            sampleL 7, 12
-      stereo 0c0h
-            sample 0
-            sampleL 0, 24
-            sample 15
-            sample 0
-      stereo 040h
-            sampleL 7, 12
-      stereo 0c0h
-            sample 0
-            sampleL 0, 24
-            sample 15
+    countedLoopEnd
             sample 0
       stereo 040h
             sampleL 7, 12

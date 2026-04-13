@@ -29,6 +29,7 @@ Music_10_Channel_0:
       vol 14
       shifting 0
       setRelease 1
+    countedLoopStart 3
             noteL Gs4, 6
             note Gs3
             note Gs3
@@ -94,201 +95,7 @@ Music_10_Channel_0:
       vol 14
             note Gs3
             note Gs3
-            note Gs4
-            note Gs3
-            note Gs3
-            note Gs3
-            note Gs4
-            note Gs3
-            note B3
-            note B3
-            note B3
-            note B4
-            note B3
-            note B3
-            note B4
-            note B3
-            note As3
-            note As3
-            note As4
-            note As3
-            note As3
-            note As3
-            note As3
-            note As4
-            note A3
-            note A3
-            note A3
-            note A4
-            note A3
-            note A4
-            note A4
-            note A3
-            note Gs3
-            note Gs3
-            note Gs4
-            note Gs3
-            note Gs3
-            note Gs3
-            note Gs4
-            note Gs3
-            note B3
-            note B3
-            note B3
-            note B4
-            note B3
-            note B3
-            note B4
-            note B3
-            note As3
-            note As3
-            note As4
-            note As3
-            note As3
-            note As3
-            note As3
-            note As4
-            note A3
-            note A3
-            note A3
-            note A4
-            note A4
-            note As4
-            note B4
-            note G4
-      vol 14
-            note Gs3
-            note Gs3
-            note Gs4
-            note Gs3
-            note Gs3
-            note Gs3
-            note Gs4
-            note Gs3
-            note B3
-            note B3
-            note B3
-            note B4
-            note B3
-            note B3
-            note B4
-            note B3
-            note As3
-            note As3
-            note As4
-            note As3
-            note As3
-            note As3
-            note As3
-            note As4
-            note A3
-            note A3
-            note A3
-            note A4
-            note A3
-            note A4
-            note A4
-            note A3
-            note Gs3
-            note Gs3
-            note Gs4
-            note Gs3
-            note Gs3
-            note Gs3
-            note Gs4
-            note Gs3
-            note B3
-            note B3
-            note B3
-            note B4
-            note B3
-            note B3
-            note B4
-            note B3
-            note As3
-            note As3
-            note As4
-            note As3
-            note As3
-            note As3
-            note As3
-            note As4
-            note A3
-            note A3
-            note A3
-            note A4
-            note A4
-            note As4
-            note B4
-            note G4
-      vol 14
-            note Gs3
-            note Gs3
-            note Gs4
-            note Gs3
-            note Gs3
-            note Gs3
-            note Gs4
-            note Gs3
-            note B3
-            note B3
-            note B3
-            note B4
-            note B3
-            note B3
-            note B4
-            note B3
-            note As3
-            note As3
-            note As4
-            note As3
-            note As3
-            note As3
-            note As3
-            note As4
-            note A3
-            note A3
-            note A3
-            note A4
-            note A3
-            note A4
-            note A4
-            note A3
-            note Gs3
-            note Gs3
-            note Gs4
-            note Gs3
-            note Gs3
-            note Gs3
-            note Gs4
-            note Gs3
-            note B3
-            note B3
-            note B3
-            note B4
-            note B3
-            note B3
-            note B4
-            note B3
-            note As3
-            note As3
-            note As4
-            note As3
-            note As3
-            note As3
-            note As3
-            note As4
-            note A3
-            note A3
-            note A3
-            note A4
-            note A4
-            note As4
-            note B4
-            note G4
-      vol 14
-            note Gs3
-            note Gs3
+    countedLoopEnd
     mainLoopEnd
 Music_10_Channel_1:
       stereo 040h
@@ -323,6 +130,7 @@ Music_10_Channel_1:
       shifting 0
       stereo 040h
       setRelease 1
+    countedLoopStart 2
             noteL Gs4, 6
             note Ds4
             note Ds4
@@ -351,62 +159,7 @@ Music_10_Channel_1:
             note Ds4
             note Ds4
             noteL Ds4, 12
-            noteL Gs4, 6
-            note Ds4
-            note Ds4
-            note B4
-            note Ds4
-            note Ds4
-            noteL Ds4, 12
-            noteL B4, 6
-            note Ds4
-            note Ds4
-            note Ds5
-            note Ds4
-            note Ds4
-            noteL Ds4, 12
-            noteL As4, 6
-            note Ds4
-            note Ds4
-            note Cs5
-            note Ds4
-            note Ds4
-            noteL Ds4, 12
-            noteL A4, 6
-            note Ds4
-            note Ds4
-            note B4
-            note Ds4
-            note Ds4
-            noteL Ds4, 12
-            noteL Gs4, 6
-            note Ds4
-            note Ds4
-            note B4
-            note Ds4
-            note Ds4
-            noteL Ds4, 12
-            noteL B4, 6
-            note Ds4
-            note Ds4
-            note Ds5
-            note Ds4
-            note Ds4
-            noteL Ds4, 12
-            noteL As4, 6
-            note Ds4
-            note Ds4
-            note Cs5
-            note Ds4
-            note Ds4
-            noteL Ds4, 12
-            noteL A4, 6
-            note Ds4
-            note Ds4
-            note B4
-            note Ds4
-            note Ds4
-            noteL Ds4, 12
+    countedLoopEnd
             noteL Gs4, 6
             note Ds4
             note Ds4
@@ -438,6 +191,7 @@ Music_10_Channel_1:
       setSlide 11
       stereo 0c0h
       vol 12
+    repeatStart
             noteL Ds5, 12
       noSlide
             noteL Gs4, 120
@@ -445,16 +199,12 @@ Music_10_Channel_1:
             noteL Gs4, 18
             note As4
             noteL B4, 12
+    repeatSection1Start
             noteL Ds4, 192
             noteL Cs5, 0
       setSlide 11
-            noteL Ds5, 12
-      noSlide
-            noteL Gs4, 120
-            noteL G4, 12
-            noteL Gs4, 18
-            note As4
-            noteL B4, 12
+    repeatEnd
+    repeatSection2Start
             noteL Gs4, 192
       stereo 040h
       vol 13
@@ -467,10 +217,9 @@ Music_10_Channel_2:
             waitL 72
       vibrato 00h
       setRelease 1
+    countedLoopStart 3
             noteL G6, 6
-            note G6
-            note G6
-            note G6
+    countedLoopEnd
       vol 13
             note G6
             note G6
@@ -482,6 +231,7 @@ Music_10_Channel_2:
       stereo 040h
       vol 12
       setRelease 1
+    countedLoopStart 30
             noteL G6, 6
             note G6
       stereo 0c0h
@@ -498,486 +248,7 @@ Music_10_Channel_2:
             note G6
       stereo 040h
       vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 10
-            note G6
-            note G6
-      stereo 080h
-      vol 12
-            note G6
-            note G6
-      stereo 0c0h
-      vol 13
-            note G6
-            note G6
-      stereo 040h
-      vol 12
+    countedLoopEnd
             note G6
             note G6
       stereo 0c0h
@@ -1013,11 +284,13 @@ Music_10_Channel_3:
       stereo 0c0h
       setRelease 1
             waitL 120
+    repeatStart
             noteL Gs6, 12
             noteL As6, 18
             note B6
             noteL Cs7, 12
             noteL B6, 6
+    repeatSection1Start
             note As6
             noteL B6, 84
             noteL Ds7, 9
@@ -1035,16 +308,14 @@ Music_10_Channel_3:
             note Cs7
             note B6
             noteL As6, 144
-            noteL Gs6, 12
-            noteL As6, 18
-            note B6
-            noteL Cs7, 12
-            noteL B6, 6
+    repeatEnd
+    repeatSection2Start
             wait
             note As6
             noteL Gs6, 174
       stereo 040h
       vol 10
+    countedLoopStart 3
             noteL Gs5, 42
             noteL B5, 54
             noteL As5, 42
@@ -1053,30 +324,7 @@ Music_10_Channel_3:
             note Gs5
             note G5
             note Gs5
-            noteL Gs5, 42
-            noteL B5, 54
-            noteL As5, 42
-            noteL A5, 30
-            noteL G5, 6
-            note Gs5
-            note G5
-            note Gs5
-            noteL Gs5, 42
-            noteL B5, 54
-            noteL As5, 42
-            noteL A5, 30
-            noteL G5, 6
-            note Gs5
-            note G5
-            note Gs5
-            noteL Gs5, 42
-            noteL B5, 54
-            noteL As5, 42
-            noteL A5, 30
-            noteL G5, 6
-            note Gs5
-            note G5
-            note Gs5
+    countedLoopEnd
       stereo 0c0h
       sustain
             noteL As6, 12
@@ -1103,11 +351,13 @@ Music_10_Channel_4:
       stereo 080h
       setRelease 1
             waitL 124
+    repeatStart
             noteL Gs6, 12
             noteL As6, 18
             note B6
             noteL Cs7, 12
             noteL B6, 6
+    repeatSection1Start
             note As6
             noteL B6, 84
             noteL Ds7, 9
@@ -1125,14 +375,12 @@ Music_10_Channel_4:
             note Cs7
             note B6
             noteL As6, 144
-            noteL Gs6, 12
-            noteL As6, 18
-            note B6
-            noteL Cs7, 12
-            noteL B6, 6
+    repeatEnd
+    repeatSection2Start
             wait
             note As6
             noteL Gs6, 170
+    countedLoopStart 3
             noteL Ds5, 42
             noteL Gs5, 54
             noteL G5, 42
@@ -1141,30 +389,7 @@ Music_10_Channel_4:
             note Gs5
             note G5
             note Gs5
-            noteL Ds5, 42
-            noteL Gs5, 54
-            noteL G5, 42
-            noteL Fs5, 30
-            noteL G5, 6
-            note Gs5
-            note G5
-            note Gs5
-            noteL Ds5, 42
-            noteL Gs5, 54
-            noteL G5, 42
-            noteL Fs5, 30
-            noteL G5, 6
-            note Gs5
-            note G5
-            note Gs5
-            noteL Ds5, 42
-            noteL Gs5, 54
-            noteL G5, 42
-            noteL Fs5, 30
-            noteL G5, 6
-            note Gs5
-            note G5
-            note Gs5
+    countedLoopEnd
       stereo 080h
             waitL 4
       sustain
@@ -1177,7 +402,8 @@ Music_10_Channel_5:
             sample 1
             sampleL 0, 12
     mainLoopStart
-            sample 0
+    countedLoopStart 1
+            sampleL 0, 12
             sampleL 1, 24
             sampleL 0, 12
             sampleL 0, 6
@@ -1242,71 +468,7 @@ Music_10_Channel_5:
             sample 1
             sample 1
             sampleL 0, 12
-            sample 0
-            sampleL 1, 24
-            sampleL 0, 12
-            sampleL 0, 6
-            sampleL 1, 24
-            sampleL 0, 6
-            sampleL 0, 12
-            sample 0
-            sampleL 1, 24
-            sampleL 0, 12
-            sampleL 0, 6
-            sampleL 1, 24
-            sampleL 0, 6
-            sampleL 0, 12
-            sample 0
-            sampleL 1, 24
-            sampleL 0, 12
-            sampleL 0, 6
-            sampleL 1, 24
-            sampleL 0, 6
-            sampleL 0, 12
-            sample 0
-            sampleL 1, 24
-            sampleL 0, 12
-            sample 0
-            sample 1
-            sampleL 1, 6
-            sample 1
-            sampleL 0, 12
-            sample 0
-            sampleL 1, 24
-            sampleL 0, 12
-            sampleL 0, 6
-            sampleL 1, 24
-            sampleL 0, 6
-            sampleL 0, 12
-            sample 0
-            sampleL 1, 24
-            sampleL 0, 12
-            sampleL 0, 6
-            sampleL 1, 24
-            sampleL 0, 6
-            sampleL 0, 12
-            sample 0
-            sampleL 1, 24
-            sampleL 0, 12
-            sampleL 0, 6
-            sampleL 1, 24
-            sampleL 0, 6
-            sampleL 0, 12
-            sample 0
-            sampleL 1, 24
-      stereo 040h
-            sampleL 2, 6
-      stereo 0c0h
-            sample 3
-      stereo 080h
-            sample 4
-            sample 4
-      stereo 0c0h
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sampleL 0, 12
+    countedLoopEnd
     mainLoopEnd
 Music_10_Channel_6:
       psgInst 00h
@@ -1358,19 +520,17 @@ Music_10_Channel_6:
             psgNoteL Gs4, 72
             waitL 102
       psgInst 0ah
+    repeatStart
             psgNoteL Ds4, 12
             psgNoteL Gs3, 120
             psgNoteL G3, 12
             psgNoteL Gs3, 18
             psgNote As3
             psgNoteL B3, 12
+    repeatSection1Start
             psgNoteL Ds3, 192
-            psgNoteL Ds4, 12
-            psgNoteL Gs3, 120
-            psgNoteL G3, 12
-            psgNoteL Gs3, 18
-            psgNote As3
-            psgNoteL B3, 12
+    repeatEnd
+    repeatSection2Start
             psgNoteL Gs3, 192
     mainLoopEnd
 Music_10_Channel_7:

@@ -190,6 +190,7 @@ Music_25_Channel_4:
     channel_end
 Music_25_Channel_5:
       stereo 0c0h
+    repeatStart
             sampleL 0, 24
             sampleL 2, 3
             sample 2
@@ -202,24 +203,15 @@ Music_25_Channel_5:
             sampleL 2, 12
             sample 3
             sampleL 2, 24
+    repeatSection1Start
             sampleL 2, 12
             sampleL 2, 4
             sample 3
             sample 3
             sampleL 2, 12
             sample 3
-            sampleL 0, 24
-            sampleL 2, 3
-            sample 2
-            sample 3
-            sample 3
-            sample 4
-            sample 4
-            sample 4
-            sample 4
-            sampleL 2, 12
-            sample 3
-            sampleL 2, 24
+    repeatEnd
+    repeatSection2Start
             sampleL 2, 6
             sample 3
             sample 3
@@ -234,6 +226,7 @@ Music_25_Channel_6:
       psgInst 07dh
       setRelease 1
       vibrato 00h
+    repeatStart
             psgNoteL B3, 8
             psgNote E4
             psgNote A4
@@ -244,6 +237,7 @@ Music_25_Channel_6:
             psgNote B3
             psgNote A3
             psgNote Fs3
+    repeatSection1Start
             psgNote E3
             psgNote Fs3
             psgNote B3
@@ -252,60 +246,36 @@ Music_25_Channel_6:
       psgInst 00h
             waitL 24
       psgInst 07dh
-            psgNoteL B3, 8
-            psgNote E4
-            psgNote A4
-            psgNote B4
-            psgNote A4
-            psgNote Fs4
-            psgNote E4
-            psgNote B3
-            psgNote A3
-            psgNote Fs3
+    repeatEnd
+    repeatSection2Start
             psgNote Cs3
             psgNote Fs3
             psgNote As3
             psgNote Cs4
             psgNote Fs4
       psgInst 07ch
-            psgNote Gs4
+    repeatStart
+    countedLoopStart 1
+            psgNoteL Gs4, 8
             psgNote C5
             psgNote Gs4
             psgNote Ds5
             psgNote C5
             psgNote G4
-            psgNote Gs4
-            psgNote C5
-            psgNote Gs4
-            psgNote Ds5
-            psgNote C5
-            psgNote G4
+    countedLoopEnd
+    repeatSection1Start
       psgInst 07bh
-            psgNote Gs4
-            psgNote C5
-            psgNote Gs4
-            psgNote Ds5
-            psgNote C5
-            psgNote G4
-            psgNote Gs4
-            psgNote C5
-            psgNote Gs4
-            psgNote Ds5
-            psgNote C5
-            psgNote G4
+    repeatEnd
+    repeatSection2Start
       psgInst 07ah
-            psgNote Gs4
+    countedLoopStart 1
+            psgNoteL Gs4, 8
             psgNote C5
             psgNote Gs4
             psgNote Ds5
             psgNote C5
             psgNote G4
-            psgNote Gs4
-            psgNote C5
-            psgNote Gs4
-            psgNote Ds5
-            psgNote C5
-            psgNote G4
+    countedLoopEnd
       psgInst 079h
             psgNote Gs4
             psgNote C5
@@ -323,6 +293,7 @@ Music_25_Channel_7:
       psgInst 07bh
       setRelease 1
       vibrato 00h
+    repeatStart
             psgNoteL B3, 8
             psgNote E4
             psgNote A4
@@ -333,6 +304,7 @@ Music_25_Channel_7:
             psgNote B3
             psgNote A3
             psgNote Fs3
+    repeatSection1Start
             psgNote E3
             psgNote Fs3
             psgNote B3
@@ -341,60 +313,36 @@ Music_25_Channel_7:
       psgInst 00h
             waitL 24
       psgInst 07bh
-            psgNoteL B3, 8
-            psgNote E4
-            psgNote A4
-            psgNote B4
-            psgNote A4
-            psgNote Fs4
-            psgNote E4
-            psgNote B3
-            psgNote A3
-            psgNote Fs3
+    repeatEnd
+    repeatSection2Start
             psgNote Cs3
             psgNote Fs3
             psgNote As3
             psgNote Cs4
             psgNote Fs4
       psgInst 07ah
-            psgNote Gs4
+    repeatStart
+    countedLoopStart 1
+            psgNoteL Gs4, 8
             psgNote C5
             psgNote Gs4
             psgNote Ds5
             psgNote C5
             psgNote G4
-            psgNote Gs4
-            psgNote C5
-            psgNote Gs4
-            psgNote Ds5
-            psgNote C5
-            psgNote G4
+    countedLoopEnd
+    repeatSection1Start
       psgInst 079h
-            psgNote Gs4
-            psgNote C5
-            psgNote Gs4
-            psgNote Ds5
-            psgNote C5
-            psgNote G4
-            psgNote Gs4
-            psgNote C5
-            psgNote Gs4
-            psgNote Ds5
-            psgNote C5
-            psgNote G4
+    repeatEnd
+    repeatSection2Start
       psgInst 078h
-            psgNote Gs4
+    countedLoopStart 1
+            psgNoteL Gs4, 8
             psgNote C5
             psgNote Gs4
             psgNote Ds5
             psgNote C5
             psgNote G4
-            psgNote Gs4
-            psgNote C5
-            psgNote Gs4
-            psgNote Ds5
-            psgNote C5
-            psgNote G4
+    countedLoopEnd
       psgInst 077h
             psgNote Gs4
             psgNote C5

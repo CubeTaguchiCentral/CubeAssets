@@ -19,6 +19,7 @@ Music_19_Channel_0:
       vol 11
       vibrato 05ah
       setRelease 1
+    countedLoopStart 1
             noteL G2, 11
             note D3
             noteL C3, 10
@@ -26,63 +27,17 @@ Music_19_Channel_0:
             noteL F3, 8
             note E3
             noteL F3, 128
-            noteL G2, 11
-            note D3
-            noteL C3, 10
-            noteL Fs3, 80
-            noteL F3, 8
-            note E3
-            noteL F3, 128
+    countedLoopEnd
       inst 8
       vol 13
+    countedLoopStart 7
             noteL Ds3, 6
             waitL 10
             noteL Ds3, 6
             waitL 26
             noteL Ds3, 6
             waitL 10
-            noteL Ds3, 6
-            waitL 10
-            noteL Ds3, 6
-            waitL 26
-            noteL Ds3, 6
-            waitL 10
-            noteL Ds3, 6
-            waitL 10
-            noteL Ds3, 6
-            waitL 26
-            noteL Ds3, 6
-            waitL 10
-            noteL Ds3, 6
-            waitL 10
-            noteL Ds3, 6
-            waitL 26
-            noteL Ds3, 6
-            waitL 10
-            noteL Ds3, 6
-            waitL 10
-            noteL Ds3, 6
-            waitL 26
-            noteL Ds3, 6
-            waitL 10
-            noteL Ds3, 6
-            waitL 10
-            noteL Ds3, 6
-            waitL 26
-            noteL Ds3, 6
-            waitL 10
-            noteL Ds3, 6
-            waitL 10
-            noteL Ds3, 6
-            waitL 26
-            noteL Ds3, 6
-            waitL 10
-            noteL Ds3, 6
-            waitL 10
-            noteL Ds3, 6
-            waitL 26
-            noteL Ds3, 6
-            waitL 10
+    countedLoopEnd
       inst 6
       vol 13
             noteL G2, 11
@@ -99,6 +54,7 @@ Music_19_Channel_1:
       vol 14
       setRelease 1
       vibrato 05ah
+    countedLoopStart 1
             noteL G3, 11
             note D4
             noteL C4, 10
@@ -110,59 +66,15 @@ Music_19_Channel_1:
       setSlide 65
             noteL F5, 64
       noSlide
-            noteL G3, 11
-            note D4
-            noteL C4, 10
-            noteL Fs4, 80
-            noteL F4, 8
-            note E4
-            noteL F4, 32
-            note F4
-      setSlide 65
-            noteL F5, 64
-      noSlide
+    countedLoopEnd
+    countedLoopStart 6
             noteL A4, 6
             waitL 10
             noteL A4, 6
             waitL 26
             noteL A4, 6
             waitL 10
-            noteL A4, 6
-            waitL 10
-            noteL A4, 6
-            waitL 26
-            noteL A4, 6
-            waitL 10
-            noteL A4, 6
-            waitL 10
-            noteL A4, 6
-            waitL 26
-            noteL A4, 6
-            waitL 10
-            noteL A4, 6
-            waitL 10
-            noteL A4, 6
-            waitL 26
-            noteL A4, 6
-            waitL 10
-            noteL A4, 6
-            waitL 10
-            noteL A4, 6
-            waitL 26
-            noteL A4, 6
-            waitL 10
-            noteL A4, 6
-            waitL 10
-            noteL A4, 6
-            waitL 26
-            noteL A4, 6
-            waitL 10
-            noteL A4, 6
-            waitL 10
-            noteL A4, 6
-            waitL 26
-            noteL A4, 6
-            waitL 10
+    countedLoopEnd
             noteL A4, 6
             waitL 10
             noteL A4, 6
@@ -181,6 +93,7 @@ Music_19_Channel_2:
       vol 12
       setRelease 1
       vibrato 05ah
+    countedLoopStart 1
             noteL G3, 11
             note D4
             noteL C4, 10
@@ -192,17 +105,7 @@ Music_19_Channel_2:
       setSlide 65
             noteL F5, 64
       noSlide
-            noteL G3, 11
-            note D4
-            noteL C4, 10
-            noteL Fs4, 80
-            noteL F4, 8
-            note E4
-            noteL F4, 32
-            note F4
-      setSlide 65
-            noteL F5, 64
-      noSlide
+    countedLoopEnd
             waitL 28
       stereo 0c0h
       inst 6
@@ -303,48 +206,14 @@ Music_19_Channel_3:
             note C4
             noteL C5, 64
       setRelease 1
+    countedLoopStart 6
             noteL Fs4, 6
             waitL 10
             noteL Fs4, 6
             waitL 26
             noteL Fs4, 6
             waitL 10
-            noteL Fs4, 6
-            waitL 10
-            noteL Fs4, 6
-            waitL 26
-            noteL Fs4, 6
-            waitL 10
-            noteL Fs4, 6
-            waitL 10
-            noteL Fs4, 6
-            waitL 26
-            noteL Fs4, 6
-            waitL 10
-            noteL Fs4, 6
-            waitL 10
-            noteL Fs4, 6
-            waitL 26
-            noteL Fs4, 6
-            waitL 10
-            noteL Fs4, 6
-            waitL 10
-            noteL Fs4, 6
-            waitL 26
-            noteL Fs4, 6
-            waitL 10
-            noteL Fs4, 6
-            waitL 10
-            noteL Fs4, 6
-            waitL 26
-            noteL Fs4, 6
-            waitL 10
-            noteL Fs4, 6
-            waitL 10
-            noteL Fs4, 6
-            waitL 26
-            noteL Fs4, 6
-            waitL 10
+    countedLoopEnd
             noteL Fs4, 6
             waitL 10
             noteL Fs4, 6
@@ -363,6 +232,7 @@ Music_19_Channel_4:
       vol 12
       setRelease 1
       vibrato 05ah
+    countedLoopStart 1
             noteL G3, 11
             note D4
             noteL C4, 10
@@ -374,17 +244,7 @@ Music_19_Channel_4:
       setSlide 65
             noteL C5, 64
       noSlide
-            noteL G3, 11
-            note D4
-            noteL C4, 10
-            noteL Fs4, 80
-            noteL F4, 8
-            note E4
-            noteL F4, 32
-            note C4
-      setSlide 65
-            noteL C5, 64
-      noSlide
+    countedLoopEnd
             waitL 48
       stereo 0c0h
       inst 6
@@ -437,6 +297,7 @@ Music_19_Channel_4:
     channel_end
 Music_19_Channel_5:
       stereo 0c0h
+    countedLoopStart 1
             sampleL 1, 11
             sample 0
             sampleL 0, 10
@@ -454,41 +315,12 @@ Music_19_Channel_5:
             sampleL 4, 5
       stereo 0c0h
             sample 0
-            sampleL 1, 11
-            sample 0
-            sampleL 0, 10
-            sampleL 1, 80
-            sampleL 0, 8
-            sample 0
-            sampleL 0, 96
-            sampleL 1, 6
-            sampleL 1, 5
-      stereo 080h
-            sample 2
-      stereo 0c0h
-            sampleL 3, 6
-      stereo 040h
-            sampleL 4, 5
-      stereo 0c0h
-            sample 0
+    countedLoopEnd
+    countedLoopStart 5
             sampleL 0, 16
             sampleL 0, 32
             sampleL 0, 16
-            sample 0
-            sampleL 0, 32
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 32
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 32
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 32
-            sampleL 0, 16
-            sample 0
-            sampleL 0, 32
-            sampleL 0, 16
+    countedLoopEnd
             sample 1
             sampleL 0, 32
             sampleL 0, 16

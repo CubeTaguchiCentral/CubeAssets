@@ -185,12 +185,9 @@ Music_16_Channel_5:
       stereo 040h
             sampleL 4, 6
       stereo 0c0h
+    countedLoopStart 5
             sampleL 1, 4
-            sample 1
-            sample 1
-            sample 1
-            sample 1
-            sample 1
+    countedLoopEnd
             sampleL 0, 6
             sample 0
             sample 0
