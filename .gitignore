@@ -26,3 +26,5 @@ Zero Wing/Zero Wing.bin
 output.fur
 *.log
 bank*.bin
+Shining Force II/Furnace/bank2/*
+/.vscode
