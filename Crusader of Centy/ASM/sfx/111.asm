@@ -8,18 +8,18 @@ Sfx_111_Channel_0:
       vol 13
       setRelease 1
       vibrato 00h
-            noteL G3, 5
-            note Gs3
-            noteL A3, 6
+            noteL G2, 5
+            note Gs2
+            noteL A2, 6
     channel_end
 Sfx_111_Channel_1:
       inst 37
       vol 13
       setRelease 1
       vibrato 00h
-            noteL D3, 5
-            note Ds3
-            noteL E3, 6
+            noteL D2, 5
+            note Ds2
+            noteL E2, 6
     channel_end
 Sfx_111_Channel_2:
             sampleL 1, 5

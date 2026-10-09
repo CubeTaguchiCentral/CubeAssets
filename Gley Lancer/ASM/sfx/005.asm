@@ -10,12 +10,12 @@ Sfx_005_Channel_0:
       vibrato 02ah
       stereo 0c0h
       shifting 0
-            noteL Cs3, 2
+            noteL Cs2, 2
             wait
       vibrato 0d4h
       inst 79
       vol 10
-            noteL Cs3, 26
+            noteL Cs2, 26
     channel_end
 Sfx_005_Channel_1:
     channel_end

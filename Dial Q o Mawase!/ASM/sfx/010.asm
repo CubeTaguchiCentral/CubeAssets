@@ -8,11 +8,11 @@ Sfx_010_Channel_0:
       vol 15
       setRelease 0
       vibrato 04ah
-            noteL G5, 4
-            note C6
-            note F6
-            note As6
-            note Ds7
+            noteL G4, 4
+            note C5
+            note F5
+            note As5
+            note Ds6
     channel_end
 Sfx_010_Channel_1:
             waitL 6
@@ -20,11 +20,11 @@ Sfx_010_Channel_1:
       vol 10
       setRelease 0
       vibrato 04ah
-            noteL G5, 4
-            note C6
-            note F6
-            note As6
-            note Ds7
+            noteL G4, 4
+            note C5
+            note F5
+            note As5
+            note Ds6
     channel_end
 Sfx_010_Channel_2:
     channel_end

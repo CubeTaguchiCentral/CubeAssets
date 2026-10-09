@@ -18,91 +18,91 @@ Music_16_Channel_0:
       vol 11
       setRelease 1
       vibrato 02ah
-            noteL D7, 36
-            noteL B6, 12
-            noteL B6, 48
-            note D7
-            noteL E7, 36
-            noteL Cs7, 12
-            noteL Cs7, 48
-            note E7
-            noteL Fs7, 36
-            noteL D7, 12
+            noteL D6, 36
+            noteL B5, 12
+            noteL B5, 48
+            note D6
+            noteL E6, 36
+            noteL Cs6, 12
+            noteL Cs6, 48
+            note E6
+            noteL Fs6, 36
+            noteL D6, 12
       sustain
-            noteL D7, 240
+            noteL D6, 240
       vibrato 020h
       sustain
-            noteL D7, 144
+            noteL D6, 144
       setRelease 1
-            note D7
+            note D6
     channel_end
 Music_16_Channel_1:
       inst 25
       vol 11
       setRelease 1
       vibrato 02ch
-            noteL G5, 144
-            noteL E5, 96
-            noteL Cs5, 48
+            noteL G4, 144
+            noteL E4, 96
+            noteL Cs4, 48
       sustain
-            noteL Fs5, 144
+            noteL Fs4, 144
       setRelease 1
-            note Fs5
+            note Fs4
       sustain
-            note Fs5
+            note Fs4
       setRelease 1
-            note Fs5
+            note Fs4
     channel_end
 Music_16_Channel_2:
       inst 26
       vol 10
       setRelease 1
       vibrato 02ch
-            noteL B4, 144
-            noteL A4, 96
-            noteL A4, 48
+            noteL B3, 144
+            noteL A3, 96
+            noteL A3, 48
       sustain
-            noteL B4, 144
+            noteL B3, 144
       setRelease 1
-            note B4
+            note B3
       sustain
-            note B4
+            note B3
       setRelease 1
-            note B4
+            note B3
     channel_end
 Music_16_Channel_3:
       inst 26
       vol 10
       setRelease 1
       vibrato 02ch
-            noteL D4, 144
-            noteL D4, 96
-            noteL D4, 48
+            noteL D3, 144
+            noteL D3, 96
+            noteL D3, 48
       sustain
-            noteL E4, 144
+            noteL E3, 144
       setRelease 1
-            note E4
+            note E3
       sustain
-            note G4
+            note G3
       setRelease 1
-            note G4
+            note G3
     channel_end
 Music_16_Channel_4:
       inst 26
       vol 12
       setRelease 1
       vibrato 02ch
-            noteL E3, 144
-            noteL Fs3, 96
-            noteL Fs3, 48
+            noteL E2, 144
+            noteL Fs2, 96
+            noteL Fs2, 48
       sustain
-            noteL Gs3, 144
+            noteL Gs2, 144
       setRelease 1
-            note Gs3
+            note Gs2
       sustain
-            note A3
+            note A2
       setRelease 1
-            note A3
+            note A2
     channel_end
 Music_16_Channel_5:
     channel_end
@@ -110,99 +110,99 @@ Music_16_Channel_6:
       psgInst 06bh
       setRelease 1
       vibrato 04ch
-            psgNoteL D3, 144
-            psgNoteL A2, 48
-            psgNote Cs3
-            psgNote E3
-            psgNoteL Fs3, 144
-            psgNote Fs3
+            psgNoteL D4, 144
+            psgNoteL A3, 48
+            psgNote Cs4
+            psgNote E4
+            psgNoteL Fs4, 144
+            psgNote Fs4
       sustain
-            psgNote Fs3
+            psgNote Fs4
       setRelease 1
-            psgNote Fs3
+            psgNote Fs4
     channel_end
 Music_16_Channel_7:
       psgInst 06ch
       setRelease 0
       vibrato 04ch
-            psgNoteL E3, 6
-            psgNote Fs3
-            psgNote E3
-            psgNote Fs3
-            psgNote E3
-            psgNote Fs3
-            psgNote E3
-            psgNote Fs3
-            psgNote E3
-            psgNote Fs3
-            psgNote E3
-            psgNote Fs3
-            psgNote E3
-            psgNote Fs3
-            psgNote E3
-            psgNote Fs3
-            psgNote E3
-            psgNote Fs3
-            psgNote E3
-            psgNote Fs3
-            psgNote E3
-            psgNote Fs3
-            psgNote E3
-            psgNote Fs3
-            psgNote Cs3
-            psgNote D3
-            psgNote Cs3
-            psgNote D3
-            psgNote Cs3
-            psgNote D3
-            psgNote Cs3
-            psgNote D3
-            psgNote Cs3
-            psgNote D3
-            psgNote Cs3
-            psgNote D3
-            psgNote Cs3
-            psgNote D3
-            psgNote Cs3
-            psgNote D3
-            psgNote Cs3
-            psgNote D3
-            psgNote Cs3
-            psgNote D3
-            psgNote Cs3
-            psgNote D3
-            psgNote Cs3
-            psgNote D3
-            psgNote D3
-            psgNote Fs3
-            psgNote D3
-            psgNote Fs3
-            psgNote D3
-            psgNote Fs3
-            psgNote D3
-            psgNote Fs3
-            psgNote D3
-            psgNote Fs3
-            psgNote D3
-            psgNote Fs3
-            psgNote D3
-            psgNote Fs3
-            psgNote D3
-            psgNote Fs3
-            psgNote D3
-            psgNote Fs3
-            psgNote D3
-            psgNote Fs3
-            psgNote D3
-            psgNote Fs3
-            psgNote D3
-            psgNote Fs3
-            psgNoteL B2, 24
-            psgNote Cs3
-            psgNote D3
-            psgNote Fs3
-            psgNote B3
+            psgNoteL E4, 6
+            psgNote Fs4
+            psgNote E4
+            psgNote Fs4
+            psgNote E4
+            psgNote Fs4
+            psgNote E4
+            psgNote Fs4
+            psgNote E4
+            psgNote Fs4
+            psgNote E4
+            psgNote Fs4
+            psgNote E4
+            psgNote Fs4
+            psgNote E4
+            psgNote Fs4
+            psgNote E4
+            psgNote Fs4
+            psgNote E4
+            psgNote Fs4
+            psgNote E4
+            psgNote Fs4
+            psgNote E4
+            psgNote Fs4
             psgNote Cs4
-            psgNoteL D4, 48
-            psgNoteL B3, 240
+            psgNote D4
+            psgNote Cs4
+            psgNote D4
+            psgNote Cs4
+            psgNote D4
+            psgNote Cs4
+            psgNote D4
+            psgNote Cs4
+            psgNote D4
+            psgNote Cs4
+            psgNote D4
+            psgNote Cs4
+            psgNote D4
+            psgNote Cs4
+            psgNote D4
+            psgNote Cs4
+            psgNote D4
+            psgNote Cs4
+            psgNote D4
+            psgNote Cs4
+            psgNote D4
+            psgNote Cs4
+            psgNote D4
+            psgNote D4
+            psgNote Fs4
+            psgNote D4
+            psgNote Fs4
+            psgNote D4
+            psgNote Fs4
+            psgNote D4
+            psgNote Fs4
+            psgNote D4
+            psgNote Fs4
+            psgNote D4
+            psgNote Fs4
+            psgNote D4
+            psgNote Fs4
+            psgNote D4
+            psgNote Fs4
+            psgNote D4
+            psgNote Fs4
+            psgNote D4
+            psgNote Fs4
+            psgNote D4
+            psgNote Fs4
+            psgNote D4
+            psgNote Fs4
+            psgNoteL B3, 24
+            psgNote Cs4
+            psgNote D4
+            psgNote Fs4
+            psgNote B4
+            psgNote Cs5
+            psgNoteL D5, 48
+            psgNoteL B4, 240
     channel_end

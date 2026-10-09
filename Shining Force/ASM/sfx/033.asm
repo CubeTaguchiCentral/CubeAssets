@@ -10,5 +10,5 @@ Sfx_033_Channel_1:
       vol 13
       setRelease 0
       vibrato 0f0h
-            noteL A2, 6
+            noteL A1, 6
     channel_end

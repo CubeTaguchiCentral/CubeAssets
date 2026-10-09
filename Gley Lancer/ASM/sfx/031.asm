@@ -11,7 +11,7 @@ Sfx_031_Channel_0:
       vibrato 070h
       stereo 0c0h
       shifting 0
-            noteL Cs2, 7
+            noteL Cs1, 7
             waitL 1
     mainLoopEnd
 Sfx_031_Channel_1:

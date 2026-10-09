@@ -12,9 +12,9 @@ Sfx_014_Channel_1:
       setRelease 1
       stereo 0c0h
       vibrato 02ah
-            noteL A3, 7
+            noteL A2, 7
       vol 8
-            note A3
+            note A2
       vol 6
-            note A3
+            note A2
     channel_end

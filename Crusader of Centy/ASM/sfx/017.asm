@@ -10,13 +10,13 @@ Sfx_017_Channel_1:
       vol 14
       setRelease 3
       vibrato 00h
-            noteL C3, 5
+            noteL C2, 5
       setRelease 0
-            noteL Gs4, 3
+            noteL Gs3, 3
       vol 11
-            note Gs4
+            note Gs3
       vol 8
-            note Gs4
+            note Gs3
       vol 2
-            note Gs4
+            note Gs3
     channel_end

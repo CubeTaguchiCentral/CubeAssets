@@ -20,31 +20,31 @@ Music_04_Channel_0:
       vibrato 02ah
       stereo 0c0h
     mainLoopStart
-            noteL D4, 6
-            note D4
-            note C4
-            note C4
-            note A3
-            note A3
-            note Gs3
-            note Gs3
-            note G3
-            note G3
-            note F3
-            note F3
-            noteL D3, 24
-            noteL C3, 6
+            noteL D3, 6
+            note D3
             note C3
+            note C3
+            note A2
+            note A2
+            note Gs2
+            note Gs2
+            note G2
+            note G2
+            note F2
+            note F2
+            noteL D2, 24
+            noteL C2, 6
+            note C2
             wait
-            note C3
-            note C3
+            note C2
+            note C2
             wait
-            note C3
-            note C3
+            note C2
+            note C2
             wait
-            note C3
-            noteL C3, 12
-            noteL D3, 24
+            note C2
+            noteL C2, 12
+            noteL D2, 24
     mainLoopEnd
 Music_04_Channel_1:
       inst 43
@@ -52,22 +52,22 @@ Music_04_Channel_1:
       setRelease 1
       vibrato 02ah
     mainLoopStart
-            noteL G6, 24
-            noteL Fs6, 18
-            noteL F6, 54
-            noteL E6, 6
-            note E6
+            noteL G5, 24
+            noteL Fs5, 18
+            noteL F5, 54
+            noteL E5, 6
+            note E5
             wait
-            note E6
-            noteL E6, 12
-            noteL E6, 6
-            note E6
+            note E5
+            noteL E5, 12
+            noteL E5, 6
+            note E5
             wait
-            note E6
-            note D6
-            note C6
-            noteL D6, 12
-            note F6
+            note E5
+            note D5
+            note C5
+            noteL D5, 12
+            note F5
     mainLoopEnd
 Music_04_Channel_2:
       inst 43
@@ -76,22 +76,22 @@ Music_04_Channel_2:
       setRelease 1
       vibrato 02ah
     mainLoopStart
-            noteL D6, 24
-            noteL Cs6, 18
-            noteL C6, 54
-            noteL C6, 6
-            note C6
-            wait
-            note C6
-            noteL C6, 12
-            noteL C6, 6
-            note C6
-            wait
-            note E5
-            note D5
+            noteL D5, 24
+            noteL Cs5, 18
+            noteL C5, 54
+            noteL C5, 6
             note C5
-            noteL A5, 12
-            note D6
+            wait
+            note C5
+            noteL C5, 12
+            noteL C5, 6
+            note C5
+            wait
+            note E4
+            note D4
+            note C4
+            noteL A4, 12
+            note D5
     mainLoopEnd
 Music_04_Channel_3:
       inst 43
@@ -100,22 +100,22 @@ Music_04_Channel_3:
       setRelease 1
       vibrato 02ah
     mainLoopStart
-            noteL A5, 24
-            noteL Gs5, 18
-            noteL G5, 54
-            noteL G5, 6
-            note G5
+            noteL A4, 24
+            noteL Gs4, 18
+            noteL G4, 54
+            noteL G4, 6
+            note G4
             wait
-            note G5
-            noteL G5, 12
-            noteL G5, 6
-            note G5
+            note G4
+            noteL G4, 12
+            noteL G4, 6
+            note G4
             waitL 10
-            noteL E6, 6
-            note D6
-            noteL C6, 2
-            noteL D5, 12
-            note A5
+            noteL E5, 6
+            note D5
+            noteL C5, 2
+            noteL D4, 12
+            note A4
     mainLoopEnd
 Music_04_Channel_4:
     mainLoopStart
@@ -125,21 +125,21 @@ Music_04_Channel_4:
       setRelease 1
       vibrato 02ah
       stereo 040h
-            noteL C5, 6
-            note C5
+            noteL C4, 6
+            note C4
       inst 62
       vol 11
-            noteL C5, 12
+            noteL C4, 12
     countedLoopEnd
     countedLoopStart 7
       stereo 0c0h
       inst 60
       vol 10
-            noteL C6, 6
+            noteL C5, 6
       stereo 040h
       inst 61
       vol 9
-            note C5
+            note C4
     countedLoopEnd
     mainLoopEnd
 Music_04_Channel_5:

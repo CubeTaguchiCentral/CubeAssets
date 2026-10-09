@@ -11,11 +11,11 @@ Sfx_004_Channel_1:
       vibrato 00h
       setRelease 0
       noSlide
-            noteL D2, 1
+            noteL D1, 1
       vol 15
       setSlide 115
     repeatStart
-            noteL B3, 3
-            note Fs3
+            noteL B2, 3
+            note Fs2
     repeatEnd
     channel_end

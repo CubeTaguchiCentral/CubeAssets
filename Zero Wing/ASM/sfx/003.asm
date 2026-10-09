@@ -10,10 +10,10 @@ Sfx_003_Channel_1:
       vol 13
       sustain
       vibrato 0e0h
-            noteL C3, 6
+            noteL C2, 6
+            note C3
             note C4
             note C5
-            note C6
       setRelease 1
-            noteL C7, 20
+            noteL C6, 20
     channel_end

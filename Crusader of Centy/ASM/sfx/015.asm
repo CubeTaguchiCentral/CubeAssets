@@ -10,6 +10,6 @@ Sfx_015_Channel_1:
       vol 14
       setRelease 0
       vibrato 00h
-            noteL G7, 24
+            noteL G6, 24
             wait
     channel_end

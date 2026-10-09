@@ -19,7 +19,7 @@ Music_15_Channel_0:
       vol 11
       setRelease 1
       vibrato 05ch
-            noteL D7, 48
+            noteL D6, 48
             waitL 6
     channel_end
 Music_15_Channel_1:
@@ -28,7 +28,7 @@ Music_15_Channel_1:
       vol 10
       setRelease 1
       vibrato 05ch
-            noteL Cs7, 48
+            noteL Cs6, 48
             waitL 6
     channel_end
 Music_15_Channel_2:
@@ -37,7 +37,7 @@ Music_15_Channel_2:
       vol 10
       setRelease 1
       vibrato 05ch
-            noteL As6, 48
+            noteL As5, 48
             waitL 6
     channel_end
 Music_15_Channel_3:
@@ -46,7 +46,7 @@ Music_15_Channel_3:
       vol 11
       vibrato 00h
       setRelease 6
-            noteL Cs6, 54
+            noteL Cs5, 54
     channel_end
 Music_15_Channel_4:
       stereo 0c0h
@@ -54,7 +54,7 @@ Music_15_Channel_4:
       vol 12
       vibrato 00h
       setRelease 6
-            noteL D6, 54
+            noteL D5, 54
     channel_end
 Music_15_Channel_5:
             waitL 5

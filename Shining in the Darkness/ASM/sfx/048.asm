@@ -10,19 +10,19 @@ Sfx_048_Channel_1:
       vol 14
       setRelease 1
       vibrato 02ch
-            noteL C6, 8
+            noteL C5, 8
             waitL 16
-            noteL C6, 6
+            noteL C5, 6
             waitL 2
       sustain
-            noteL G6, 8
-            noteL Gs6, 6
-            noteL G6, 5
-            noteL Gs6, 4
+            noteL G5, 8
+            noteL Gs5, 6
+            noteL G5, 5
+            noteL Gs5, 4
     countedLoopStart 17
-            noteL G6, 3
-            note Gs6
+            noteL G5, 3
+            note Gs5
     countedLoopEnd
       setRelease 1
-            noteL G6, 2
+            noteL G5, 2
     channel_end

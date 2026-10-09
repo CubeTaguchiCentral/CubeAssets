@@ -10,5 +10,5 @@ Sfx_015_Channel_1:
       vol 14
       setRelease 1
       vibrato 02ah
-            noteL C4, 42
+            noteL C3, 42
     channel_end

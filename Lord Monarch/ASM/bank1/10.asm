@@ -20,38 +20,38 @@ Music_10_Channel_0:
       stereo 0c0h
       setRelease 4
             waitL 144
-            noteL As4, 16
-            note D5
-            note As5
+            noteL As3, 16
+            note D4
+            note As4
       setRelease 2
-            noteL Gs5, 72
-            noteL Gs5, 12
-            note As5
-            note C6
+            noteL Gs4, 72
+            noteL Gs4, 12
+            note As4
+            note C5
             wait
-            note As5
+            note As4
             wait
       setRelease 4
-            noteL Gs5, 16
-            note C6
-            note Ds6
+            noteL Gs4, 16
+            note C5
+            note Ds5
       setRelease 2
-            noteL As5, 72
-            noteL As5, 12
-            note C6
-            note D6
+            noteL As4, 72
+            noteL As4, 12
+            note C5
+            note D5
             wait
-            note C6
+            note C5
             wait
-            noteL As5, 34
+            noteL As4, 34
             waitL 2
-            noteL D6, 12
+            noteL D5, 12
       vol 14
       sustain
-            noteL C6, 192
+            noteL C5, 192
       setRelease 1
       vol 13
-            noteL C6, 138
+            noteL C5, 138
             waitL 54
     channel_end
 Music_10_Channel_1:
@@ -61,37 +61,37 @@ Music_10_Channel_1:
       vibrato 02ch
             waitL 144
       setRelease 4
-            noteL F5, 16
-            note As5
-            note F6
+            noteL F4, 16
+            note As4
+            note F5
       setRelease 2
-            noteL C6, 72
-            noteL C6, 12
-            note D6
-            note Ds6
+            noteL C5, 72
+            noteL C5, 12
+            note D5
+            note Ds5
             wait
-            note D6
+            note D5
             wait
       setRelease 4
-            noteL C6, 16
-            note Ds6
-            note Gs6
+            noteL C5, 16
+            note Ds5
+            note Gs5
       setRelease 2
-            noteL D6, 72
-            noteL D6, 12
-            note Ds6
-            note F6
+            noteL D5, 72
+            noteL D5, 12
+            note Ds5
+            note F5
             wait
-            note Ds6
+            note Ds5
             wait
-            noteL D6, 34
+            noteL D5, 34
             waitL 2
-            noteL F6, 12
+            noteL F5, 12
       inst 19
       vol 11
-            noteL E6, 192
+            noteL E5, 192
       vol 13
-            noteL C7, 138
+            noteL C6, 138
             waitL 54
     channel_end
 Music_10_Channel_2:
@@ -101,26 +101,26 @@ Music_10_Channel_2:
       vibrato 02ch
             waitL 144
       setRelease 4
-            noteL D5, 16
-            note F5
-            note D6
+            noteL D4, 16
+            note F4
+            note D5
       setRelease 2
-            noteL Ds5, 96
-            noteL C5, 48
+            noteL Ds4, 96
+            noteL C4, 48
       setRelease 4
-            noteL Ds5, 16
-            note Gs5
-            note C6
+            noteL Ds4, 16
+            note Gs4
+            note C5
       setRelease 2
-            noteL F5, 96
-            noteL D5, 48
-            note As5
+            noteL F4, 96
+            noteL D4, 48
+            note As4
       vol 11
       sustain
-            noteL E5, 192
+            noteL E4, 192
       vol 11
       setRelease 1
-            noteL E5, 138
+            noteL E4, 138
             waitL 54
     channel_end
 Music_10_Channel_3:
@@ -131,95 +131,95 @@ Music_10_Channel_3:
       vibrato 02ch
       shifting 32
             waitL 10
-            noteL As3, 2
+            noteL As2, 2
+            note D3
+            note F3
+            note As3
+            note D4
+            note F4
+            note As4
+            note D5
+      stereo 040h
+            note D3
+            note F3
+            note As3
+            note D4
+            note F4
+            note As4
+            note D5
+            note F5
+      stereo 080h
+            note F3
+            note As3
             note D4
             note F4
             note As4
             note D5
             note F5
             note As5
-            note D6
       stereo 040h
+            noteL As3, 4
             note D4
             note F4
             note As4
-            note D5
-            note F5
-            note As5
-            note D6
-            note F6
       stereo 080h
-            note F4
-            note As4
             note D5
             note F5
-            note As5
+            noteL As5, 6
             note D6
-            note F6
-            note As6
       stereo 040h
-            noteL As4, 4
-            note D5
-            note F5
-            note As5
-      stereo 080h
-            note D6
-            note F6
-            noteL As6, 6
-            note D7
-      stereo 040h
-            noteL F7, 7
+            noteL F6, 7
       vol 8
-            note As7
-      stereo 080h
             note As6
+      stereo 080h
+            note As5
       stereo 040h
       vol 7
-            note As7
-      stereo 080h
             note As6
+      stereo 080h
+            note As5
       stereo 040h
       vol 6
-            note As7
-      stereo 080h
             note As6
+      stereo 080h
+            note As5
       stereo 040h
-            noteL As7, 5
+            noteL As6, 5
       stereo 0c0h
       shifting 32
       setRelease 4
       inst 21
       vol 9
-            noteL F5, 16
-            noteL As5, 12
+            noteL F4, 16
+            noteL As4, 12
       vol 11
-            noteL D6, 16
+            noteL D5, 16
             waitL 4
       stereo 0c0h
       setRelease 2
       shifting 0
       inst 16
       vol 9
-            noteL Ds5, 96
-            noteL C5, 48
+            noteL Ds4, 96
+            noteL C4, 48
       setRelease 4
-            noteL Ds5, 16
-            note Gs5
-            note C6
+            noteL Ds4, 16
+            note Gs4
+            note C5
       setRelease 2
-            noteL F5, 96
-            noteL D5, 48
-            noteL As5, 44
+            noteL F4, 96
+            noteL D4, 48
+            noteL As4, 44
       stereo 0c0h
       inst 29
       vol 13
       setRelease 0
       shifting 0
-            noteL C4, 48
-            note G3
-            note C4
-            note G3
-            noteL C4, 138
+            noteL C3, 48
+            note G2
+            note C3
+            note G2
+            noteL C3, 138
             waitL 54
     channel_end
 Music_10_Channel_4:
@@ -230,37 +230,37 @@ Music_10_Channel_4:
       setRelease 4
             waitL 148
       shifting 32
-            noteL As4, 16
-            note D5
-            note As5
+            noteL As3, 16
+            note D4
+            note As4
       setRelease 2
-            noteL Gs5, 72
-            noteL Gs5, 12
-            note As5
-            note C6
+            noteL Gs4, 72
+            noteL Gs4, 12
+            note As4
+            note C5
             wait
-            note As5
+            note As4
             wait
       setRelease 4
-            noteL Gs5, 16
-            note C6
-            note Ds6
+            noteL Gs4, 16
+            note C5
+            note Ds5
       setRelease 2
-            noteL As5, 72
-            noteL As5, 12
-            note C6
-            note D6
+            noteL As4, 72
+            noteL As4, 12
+            note C5
+            note D5
             wait
-            note C6
+            note C5
             wait
-            noteL As5, 36
-            noteL D6, 12
-            noteL C6, 188
+            noteL As4, 36
+            noteL D5, 12
+            noteL C5, 188
       stereo 0c0h
       shifting 0
       inst 22
       vol 13
-            noteL C5, 138
+            noteL C4, 138
             waitL 54
     channel_end
 Music_10_Channel_5:
@@ -306,95 +306,95 @@ Music_10_Channel_6:
       setRelease 0
       vibrato 02ch
       psgInst 0dh
-            psgNoteL As1, 2
-            psgNote D2
-            psgNote F2
-            psgNote As2
-            psgNote D3
-            psgNote F3
-            psgNote As3
-            psgNote D4
-            psgNote D2
-            psgNote F2
-            psgNote As2
-            psgNote D3
-            psgNote F3
-            psgNote As3
-            psgNote D4
-            psgNote F4
-            psgNote F2
-            psgNote As2
+            psgNoteL As2, 2
             psgNote D3
             psgNote F3
             psgNote As3
             psgNote D4
             psgNote F4
             psgNote As4
-            psgNoteL As2, 4
+            psgNote D5
             psgNote D3
             psgNote F3
             psgNote As3
             psgNote D4
             psgNote F4
-            psgNoteL As4, 6
+            psgNote As4
+            psgNote D5
+            psgNote F5
+            psgNote F3
+            psgNote As3
+            psgNote D4
+            psgNote F4
+            psgNote As4
             psgNote D5
             psgNote F5
             psgNote As5
+            psgNoteL As3, 4
+            psgNote D4
+            psgNote F4
+            psgNote As4
+            psgNote D5
+            psgNote F5
+            psgNoteL As5, 6
             psgNote D6
             psgNote F6
-            psgNoteL As6, 7
-            psgNote As5
+            psgNote As6
+            psgNote D7
+            psgNote F7
+            psgNoteL As7, 7
+            psgNote As6
       psgInst 0ch
+            psgNote As7
             psgNote As6
-            psgNote As5
+            psgNote As7
             psgNote As6
-            psgNote As5
       psgInst 0ah
+            psgNote As7
             psgNote As6
-            psgNote As5
       psgInst 08h
+            psgNote As7
             psgNote As6
-            psgNote As5
       psgInst 06h
+            psgNote As7
             psgNote As6
-            psgNote As5
       psgInst 00h
             waitL 192
             wait
       psgInst 07h
-            psgNote C3
+            psgNote C4
       psgInst 0ah
-            psgNoteL C6, 4
-            psgNote D6
-            psgNote C6
-            psgNote D6
-            psgNote C6
-            psgNote D6
-            psgNote C6
-            psgNote D6
-            psgNote C6
-            psgNote D6
-            psgNote C6
-            psgNote D6
-            psgNote C6
-            psgNote D6
-            psgNote C6
-            psgNote D6
-            psgNote C6
-            psgNote D6
-            psgNote C6
-            psgNote D6
-            psgNote C6
-            psgNote D6
-            psgNote C6
-            psgNote D6
-            psgNote C6
-            psgNote D6
-            psgNote C6
-            psgNote D6
-            psgNote C6
-            psgNote D6
-            psgNoteL C6, 10
+            psgNoteL C7, 4
+            psgNote D7
+            psgNote C7
+            psgNote D7
+            psgNote C7
+            psgNote D7
+            psgNote C7
+            psgNote D7
+            psgNote C7
+            psgNote D7
+            psgNote C7
+            psgNote D7
+            psgNote C7
+            psgNote D7
+            psgNote C7
+            psgNote D7
+            psgNote C7
+            psgNote D7
+            psgNote C7
+            psgNote D7
+            psgNote C7
+            psgNote D7
+            psgNote C7
+            psgNote D7
+            psgNote C7
+            psgNote D7
+            psgNote C7
+            psgNote D7
+            psgNote C7
+            psgNote D7
+            psgNoteL C7, 10
       psgInst 07h
             waitL 8
       psgInst 00h
@@ -406,94 +406,94 @@ Music_10_Channel_7:
       vibrato 02ch
             waitL 4
       psgInst 0bh
-            psgNoteL As1, 2
-            psgNote D2
-            psgNote F2
-            psgNote As2
-            psgNote D3
-            psgNote F3
-            psgNote As3
-            psgNote D4
-            psgNote D2
-            psgNote F2
-            psgNote As2
-            psgNote D3
-            psgNote F3
-            psgNote As3
-            psgNote D4
-            psgNote F4
-            psgNote F2
-            psgNote As2
+            psgNoteL As2, 2
             psgNote D3
             psgNote F3
             psgNote As3
             psgNote D4
             psgNote F4
             psgNote As4
-            waitL 12
-      psgInst 09h
-            psgNoteL D3, 4
+            psgNote D5
+            psgNote D3
             psgNote F3
             psgNote As3
             psgNote D4
             psgNote F4
-            psgNoteL As4, 6
+            psgNote As4
+            psgNote D5
+            psgNote F5
+            psgNote F3
+            psgNote As3
+            psgNote D4
+            psgNote F4
+            psgNote As4
             psgNote D5
             psgNote F5
             psgNote As5
+            waitL 12
+      psgInst 09h
+            psgNoteL D4, 4
+            psgNote F4
+            psgNote As4
+            psgNote D5
+            psgNote F5
+            psgNoteL As5, 6
             psgNote D6
+            psgNote F6
             psgNote As6
+            psgNote D7
+            psgNote As7
       psgInst 08h
-            psgNoteL D6, 7
-            psgNote D5
+            psgNoteL D7, 7
             psgNote D6
-            psgNote D5
+            psgNote D7
+            psgNote D6
       psgInst 07h
+            psgNote D7
             psgNote D6
-            psgNote D5
+            psgNote D7
             psgNote D6
-            psgNote D5
       psgInst 06h
-            psgNote D6
-            psgNoteL D5, 9
+            psgNote D7
+            psgNoteL D6, 9
       psgInst 00h
             waitL 192
             wait
       shifting 0
       psgInst 0ah
-            psgNote E2
+            psgNote E3
       psgInst 0bh
-            psgNoteL E6, 4
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNote E6
-            psgNote F6
-            psgNoteL E6, 10
+            psgNoteL E7, 4
+            psgNote F7
+            psgNote E7
+            psgNote F7
+            psgNote E7
+            psgNote F7
+            psgNote E7
+            psgNote F7
+            psgNote E7
+            psgNote F7
+            psgNote E7
+            psgNote F7
+            psgNote E7
+            psgNote F7
+            psgNote E7
+            psgNote F7
+            psgNote E7
+            psgNote F7
+            psgNote E7
+            psgNote F7
+            psgNote E7
+            psgNote F7
+            psgNote E7
+            psgNote F7
+            psgNote E7
+            psgNote F7
+            psgNote E7
+            psgNote F7
+            psgNote E7
+            psgNote F7
+            psgNoteL E7, 10
       psgInst 08h
             waitL 8
       psgInst 00h

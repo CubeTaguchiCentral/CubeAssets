@@ -20,77 +20,77 @@ Music_18_Channel_0:
       vibrato 02ah
     mainLoopStart
       stereo 0c0h
-            noteL F4, 4
+            noteL F3, 4
             waitL 12
-            noteL F4, 4
+            noteL F3, 4
+            wait
+            note F3
+            waitL 12
+            noteL F3, 4
+            wait
+            note F3
+            waitL 12
+            noteL F3, 4
             wait
             note F4
-            waitL 12
-            noteL F4, 4
             wait
-            note F4
-            waitL 12
-            noteL F4, 4
+            note A4
             wait
-            note F5
+            note As4
+            wait
+            note C5
+            wait
+            note As4
+            wait
+            note D5
             wait
             note A5
-            wait
-            note As5
-            wait
-            note C6
-            wait
-            note As5
-            wait
-            note D6
-            wait
-            note A6
             waitL 12
-            noteL F4, 4
+            noteL F3, 4
+            wait
+            note F3
+            waitL 12
+            noteL F3, 4
+            wait
+            note F3
+            waitL 12
+            noteL F3, 4
+            wait
+            note F3
+            waitL 12
+            noteL F3, 4
+            wait
+            note F3
+            waitL 12
+            noteL F3, 4
+            wait
+            note F3
+            waitL 12
+            noteL F3, 4
+            wait
+            note F4
+            wait
+            note A4
+            wait
+            note As4
+            wait
+            note C5
+            wait
+            note As4
+            wait
+            note C5
             wait
             note F4
             waitL 12
-            noteL F4, 4
+            noteL F3, 4
             wait
-            note F4
+            note F3
             waitL 12
-            noteL F4, 4
+            noteL F3, 4
             wait
-            note F4
+            note F3
             waitL 12
-            noteL F4, 4
-            wait
-            note F4
-            waitL 12
-            noteL F4, 4
-            wait
-            note F4
-            waitL 12
-            noteL F4, 4
-            wait
-            note F5
-            wait
-            note A5
-            wait
-            note As5
-            wait
-            note C6
-            wait
-            note As5
-            wait
-            note C6
-            wait
-            note F5
-            waitL 12
-            noteL F4, 4
-            wait
-            note F4
-            waitL 12
-            noteL F4, 4
-            wait
-            note F4
-            waitL 12
-            noteL F4, 4
+            noteL F3, 4
             wait
     mainLoopEnd
 Music_18_Channel_1:
@@ -100,77 +100,77 @@ Music_18_Channel_1:
       vibrato 02ah
       stereo 0c0h
     mainLoopStart
-            noteL D4, 4
+            noteL D3, 4
             waitL 12
-            noteL D4, 4
+            noteL D3, 4
+            wait
+            note D3
+            waitL 12
+            noteL D3, 4
+            wait
+            note D3
+            waitL 12
+            noteL D3, 4
+            wait
+            note D4
+            wait
+            note F4
+            wait
+            note G4
+            wait
+            note A4
+            wait
+            note G4
+            wait
+            note As4
+            wait
+            note C5
+            waitL 12
+            noteL D3, 4
+            wait
+            note D3
+            waitL 12
+            noteL D3, 4
+            wait
+            note D3
+            waitL 12
+            noteL D3, 4
+            wait
+            note D3
+            waitL 12
+            noteL D3, 4
+            wait
+            note D3
+            waitL 12
+            noteL D3, 4
+            wait
+            note D3
+            waitL 12
+            noteL D3, 4
+            wait
+            note D4
+            wait
+            note Fs4
+            wait
+            note G4
+            wait
+            note A4
+            wait
+            note G4
+            wait
+            note A4
             wait
             note D4
             waitL 12
-            noteL D4, 4
+            noteL D3, 4
             wait
-            note D4
+            note D3
             waitL 12
-            noteL D4, 4
+            noteL D3, 4
             wait
-            note D5
-            wait
-            note F5
-            wait
-            note G5
-            wait
-            note A5
-            wait
-            note G5
-            wait
-            note As5
-            wait
-            note C6
+            note D3
             waitL 12
-            noteL D4, 4
-            wait
-            note D4
-            waitL 12
-            noteL D4, 4
-            wait
-            note D4
-            waitL 12
-            noteL D4, 4
-            wait
-            note D4
-            waitL 12
-            noteL D4, 4
-            wait
-            note D4
-            waitL 12
-            noteL D4, 4
-            wait
-            note D4
-            waitL 12
-            noteL D4, 4
-            wait
-            note D5
-            wait
-            note Fs5
-            wait
-            note G5
-            wait
-            note A5
-            wait
-            note G5
-            wait
-            note A5
-            wait
-            note D5
-            waitL 12
-            noteL D4, 4
-            wait
-            note D4
-            waitL 12
-            noteL D4, 4
-            wait
-            note D4
-            waitL 12
-            noteL D4, 4
+            noteL D3, 4
             wait
     mainLoopEnd
 Music_18_Channel_2:
@@ -180,21 +180,21 @@ Music_18_Channel_2:
       vibrato 02ah
       stereo 0c0h
     mainLoopStart
-            noteL D4, 4
+            noteL D3, 4
             waitL 12
-            noteL D4, 4
+            noteL D3, 4
             wait
-            note D4
+            note D3
             waitL 12
-            noteL D4, 4
+            noteL D3, 4
             wait
-            note D4
+            note D3
             waitL 12
-            noteL D4, 4
+            noteL D3, 4
             wait
-            note D4
+            note D3
             waitL 12
-            noteL D4, 4
+            noteL D3, 4
             wait
     mainLoopEnd
 Music_18_Channel_3:
@@ -205,77 +205,77 @@ Music_18_Channel_3:
       vibrato 02ah
     mainLoopStart
       stereo 0c0h
-            noteL F4, 4
+            noteL F3, 4
             waitL 12
-            noteL F4, 4
+            noteL F3, 4
+            wait
+            note F3
+            waitL 12
+            noteL F3, 4
+            wait
+            note F3
+            waitL 12
+            noteL F3, 4
             wait
             note F4
-            waitL 12
-            noteL F4, 4
             wait
-            note F4
-            waitL 12
-            noteL F4, 4
+            note A4
             wait
-            note F5
+            note As4
+            wait
+            note C5
+            wait
+            note As4
+            wait
+            note D5
             wait
             note A5
-            wait
-            note As5
-            wait
-            note C6
-            wait
-            note As5
-            wait
-            note D6
-            wait
-            note A6
             waitL 12
-            noteL F4, 4
+            noteL F3, 4
+            wait
+            note F3
+            waitL 12
+            noteL F3, 4
+            wait
+            note F3
+            waitL 12
+            noteL F3, 4
+            wait
+            note F3
+            waitL 12
+            noteL F3, 4
+            wait
+            note F3
+            waitL 12
+            noteL F3, 4
+            wait
+            note F3
+            waitL 12
+            noteL F3, 4
+            wait
+            note F4
+            wait
+            note A4
+            wait
+            note As4
+            wait
+            note C5
+            wait
+            note As4
+            wait
+            note C5
             wait
             note F4
             waitL 12
-            noteL F4, 4
+            noteL F3, 4
             wait
-            note F4
+            note F3
             waitL 12
-            noteL F4, 4
+            noteL F3, 4
             wait
-            note F4
+            note F3
             waitL 12
-            noteL F4, 4
-            wait
-            note F4
-            waitL 12
-            noteL F4, 4
-            wait
-            note F4
-            waitL 12
-            noteL F4, 4
-            wait
-            note F5
-            wait
-            note A5
-            wait
-            note As5
-            wait
-            note C6
-            wait
-            note As5
-            wait
-            note C6
-            wait
-            note F5
-            waitL 12
-            noteL F4, 4
-            wait
-            note F4
-            waitL 12
-            noteL F4, 4
-            wait
-            note F4
-            waitL 12
-            noteL F4, 4
+            noteL F3, 4
             wait
     mainLoopEnd
 Music_18_Channel_4:
@@ -286,77 +286,77 @@ Music_18_Channel_4:
       vibrato 02ah
       stereo 0c0h
     mainLoopStart
-            noteL D4, 4
+            noteL D3, 4
             waitL 12
-            noteL D4, 4
+            noteL D3, 4
+            wait
+            note D3
+            waitL 12
+            noteL D3, 4
+            wait
+            note D3
+            waitL 12
+            noteL D3, 4
+            wait
+            note D4
+            wait
+            note F4
+            wait
+            note G4
+            wait
+            note A4
+            wait
+            note G4
+            wait
+            note As4
+            wait
+            note C5
+            waitL 12
+            noteL D3, 4
+            wait
+            note D3
+            waitL 12
+            noteL D3, 4
+            wait
+            note D3
+            waitL 12
+            noteL D3, 4
+            wait
+            note D3
+            waitL 12
+            noteL D3, 4
+            wait
+            note D3
+            waitL 12
+            noteL D3, 4
+            wait
+            note D3
+            waitL 12
+            noteL D3, 4
+            wait
+            note D4
+            wait
+            note Fs4
+            wait
+            note G4
+            wait
+            note A4
+            wait
+            note G4
+            wait
+            note A4
             wait
             note D4
             waitL 12
-            noteL D4, 4
+            noteL D3, 4
             wait
-            note D4
+            note D3
             waitL 12
-            noteL D4, 4
+            noteL D3, 4
             wait
-            note D5
-            wait
-            note F5
-            wait
-            note G5
-            wait
-            note A5
-            wait
-            note G5
-            wait
-            note As5
-            wait
-            note C6
+            note D3
             waitL 12
-            noteL D4, 4
-            wait
-            note D4
-            waitL 12
-            noteL D4, 4
-            wait
-            note D4
-            waitL 12
-            noteL D4, 4
-            wait
-            note D4
-            waitL 12
-            noteL D4, 4
-            wait
-            note D4
-            waitL 12
-            noteL D4, 4
-            wait
-            note D4
-            waitL 12
-            noteL D4, 4
-            wait
-            note D5
-            wait
-            note Fs5
-            wait
-            note G5
-            wait
-            note A5
-            wait
-            note G5
-            wait
-            note A5
-            wait
-            note D5
-            waitL 12
-            noteL D4, 4
-            wait
-            note D4
-            waitL 12
-            noteL D4, 4
-            wait
-            note D4
-            waitL 12
-            noteL D4, 4
+            noteL D3, 4
             wait
     mainLoopEnd
 Music_18_Channel_5:

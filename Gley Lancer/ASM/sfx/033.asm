@@ -10,15 +10,15 @@ Sfx_033_Channel_0:
       vibrato 0e0h
       stereo 0c0h
       shifting 0
-            noteL Ds3, 3
+            noteL Ds2, 3
       vol 9
-            note Ds3
+            note Ds2
       vol 7
-            note Ds3
+            note Ds2
       vol 5
-            noteL Ds3, 4
+            noteL Ds2, 4
       vol 4
-            note Ds3
+            note Ds2
     channel_end
 Sfx_033_Channel_1:
     channel_end

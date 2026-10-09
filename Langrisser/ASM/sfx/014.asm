@@ -17,14 +17,14 @@ Sfx_014_Channel_8:
       psgInst 00h
       setRelease 0
       vibrato 00h
-            psgNoteL G1, 8
+            psgNoteL G2, 8
     mainLoopEnd
 Sfx_014_Channel_9:
     mainLoopStart
       psgInst 0feh
       setRelease 0
-            psgNoteL C0, 1
+            psgNoteL 07h, 1
             waitL 2
-            psgNoteL C0, 1
+            psgNoteL 07h, 1
             waitL 4
     mainLoopEnd

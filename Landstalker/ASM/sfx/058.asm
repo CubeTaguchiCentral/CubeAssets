@@ -9,23 +9,23 @@ Sfx_058_Channel_0:
       setRelease 1
       vibrato 02ch
     countedLoopStart 1
-            noteL Gs5, 3
-            note Cs6
+            noteL Gs4, 3
+            note Cs5
+            note D5
+            note E5
+            note Gs5
+            note As5
             note D6
-            note E6
-            note Gs6
-            note As6
-            note D7
-            note Cs6
-            note Gs6
-            note A6
-            note B6
-            note Ds7
-            note G7
-            note F7
+            note Cs5
+            note Gs5
+            note A5
+            note B5
+            note Ds6
+            note G6
+            note F6
     countedLoopEnd
-            noteL Cs7, 3
-            note C7
+            noteL Cs6, 3
+            note C6
             waitL 5
     channel_end
 Sfx_058_Channel_1:
@@ -36,23 +36,23 @@ Sfx_058_Channel_1:
       stereo 040h
             waitL 2
     countedLoopStart 1
-            noteL Gs5, 3
-            note Cs6
+            noteL Gs4, 3
+            note Cs5
+            note D5
+            note E5
+            note Gs5
+            note As5
             note D6
-            note E6
-            note Gs6
-            note As6
-            note D7
-            note Cs6
-            note Gs6
-            note A6
-            note B6
-            note Ds7
-            note G7
-            note F7
+            note Cs5
+            note Gs5
+            note A5
+            note B5
+            note Ds6
+            note G6
+            note F6
     countedLoopEnd
-            noteL Cs7, 3
-            note C7
+            noteL Cs6, 3
+            note C6
             wait
     channel_end
 Sfx_058_Channel_2:

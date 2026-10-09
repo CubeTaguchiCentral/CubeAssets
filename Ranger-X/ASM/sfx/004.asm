@@ -10,10 +10,10 @@ Sfx_004_Channel_1:
       vol 13
       setRelease 1
       vibrato 010h
-            noteL C8, 4
-            note C8
-            note C8
-            noteL C2, 84
+            noteL C7, 4
+            note C7
+            note C7
+            noteL C1, 84
     channel_end
 Sfx_004_Channel_2:
             sampleL 15, 96

@@ -10,9 +10,9 @@ Sfx_017_Channel_1:
       vol 13
       sustain
       vibrato 04ah
-            noteL Ds7, 2
-            note E7
+            noteL Ds6, 2
+            note E6
+            note Ds6
+            note F6
             note Ds7
-            note F7
-            note Ds8
     channel_end

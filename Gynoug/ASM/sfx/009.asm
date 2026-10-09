@@ -8,20 +8,20 @@ Sfx_009_Channel_0:
       vol 13
       setRelease 3
       vibrato 02ah
-            noteL D6, 6
-            note D6
-            note D6
-            noteL G5, 28
+            noteL D5, 6
+            note D5
+            note D5
+            noteL G4, 28
     channel_end
 Sfx_009_Channel_1:
       inst 69
       vol 13
       setRelease 3
       vibrato 02ah
-            noteL A6, 6
-            note B6
-            note A6
-            noteL G6, 28
+            noteL A5, 6
+            note B5
+            note A5
+            noteL G5, 28
     channel_end
 Sfx_009_Channel_2:
     channel_end

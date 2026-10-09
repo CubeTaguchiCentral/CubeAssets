@@ -18,30 +18,30 @@ Music_09_Channel_0:
       inst 7
       vol 13
       setRelease 1
-            noteL E5, 30
+            noteL E4, 30
       vibrato 05ah
-            noteL D5, 6
-            note E5
-            note Cs6
-            noteL B5, 18
-            note Cs6
-            noteL D6, 12
-            noteL E6, 48
+            noteL D4, 6
+            note E4
+            note Cs5
+            noteL B4, 18
+            note Cs5
+            noteL D5, 12
+            noteL E5, 48
     channel_end
 Music_09_Channel_1:
       stereo 040h
       inst 7
       vol 12
       setRelease 1
-            noteL Cs5, 30
+            noteL Cs4, 30
       vibrato 05ah
-            noteL B4, 6
-            note Cs5
-            note E5
-            noteL D5, 18
-            note E5
-            noteL Fs5, 12
-            noteL A5, 48
+            noteL B3, 6
+            note Cs4
+            note E4
+            noteL D4, 18
+            note E4
+            noteL Fs4, 12
+            noteL A4, 48
     channel_end
 Music_09_Channel_2:
       stereo 0c0h
@@ -49,26 +49,26 @@ Music_09_Channel_2:
       vol 13
       setRelease 1
       vibrato 05ah
-            noteL A2, 48
+            noteL A1, 48
       setRelease 5
-            noteL A2, 6
+            noteL A1, 6
       setRelease 1
-            noteL A2, 2
+            noteL A1, 2
             waitL 4
-            noteL G2, 24
-            noteL Gs2, 4
+            noteL G1, 24
+            noteL Gs1, 4
             waitL 8
-            noteL A2, 48
+            noteL A1, 48
     channel_end
 Music_09_Channel_3:
       stereo 080h
       inst 7
       vol 12
       setRelease 1
-            noteL Gs4, 48
+            noteL Gs3, 48
       vibrato 05ah
-            note B4
-            note Cs5
+            note B3
+            note Cs4
     channel_end
 Music_09_Channel_4:
       stereo 0c0h
@@ -76,15 +76,15 @@ Music_09_Channel_4:
       inst 7
       vol 9
       setRelease 1
-            noteL E5, 30
+            noteL E4, 30
       vibrato 05ah
-            noteL D5, 6
-            note E5
-            note Cs6
-            noteL B5, 18
-            note Cs6
-            noteL D6, 12
-            noteL E6, 48
+            noteL D4, 6
+            note E4
+            note Cs5
+            noteL B4, 18
+            note Cs5
+            noteL D5, 12
+            noteL E5, 48
     channel_end
 Music_09_Channel_5:
       stereo 0c0h

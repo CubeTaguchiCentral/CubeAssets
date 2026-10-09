@@ -8,10 +8,10 @@ Sfx_002_Channel_0:
       vol 15
       setRelease 2
       vibrato 00h
-            noteL F2, 4
+            noteL F1, 4
       inst 64
       vol 15
-            noteL D2, 8
+            noteL D1, 8
             wait
     channel_end
 Sfx_002_Channel_1:

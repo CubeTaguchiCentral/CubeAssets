@@ -10,5 +10,5 @@ Sfx_048_Channel_1:
       vol 12
       setRelease 1
       vibrato 013h
-            noteL G4, 18
+            noteL G3, 18
     channel_end

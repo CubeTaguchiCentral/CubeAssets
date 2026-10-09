@@ -20,58 +20,58 @@ Music_13_Channel_0:
       setRelease 0
       vibrato 04ch
       sustain
-            noteL A8, 72
+            noteL A7, 72
       setSlide 7
-            noteL As8, 3
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
+            noteL As7, 3
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
       vol 12
-            note As8
-            note A8
+            note As7
+            note A7
       vol 11
-            note As8
-            note A8
+            note As7
+            note A7
       vol 10
-            note As8
-            note A8
+            note As7
+            note A7
       vol 9
-            note As8
-            note A8
+            note As7
+            note A7
       vol 8
-            note As8
-            note A8
+            note As7
+            note A7
       vol 7
-            note As8
-            note A8
+            note As7
+            note A7
       vol 6
-            note As8
-            note A8
+            note As7
+            note A7
       vol 5
-            note As8
-            note A8
+            note As7
+            note A7
       vol 4
-            note As8
+            note As7
       setRelease 1
-            note A8
+            note A7
             waitL 96
             wait
             wait
@@ -86,88 +86,88 @@ Music_13_Channel_1:
       setRelease 0
       vibrato 04ch
       sustain
-            noteL A8, 72
+            noteL A7, 72
       setSlide 7
-            noteL As8, 3
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
+            noteL As7, 3
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
       vol 10
-            note As8
-            note A8
+            note As7
+            note A7
             waitL 48
       vol 13
       sustain
-            noteL A8, 72
+            noteL A7, 72
       setSlide 7
-            noteL As8, 3
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
+            noteL As7, 3
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
       vol 12
-            note As8
-            note A8
+            note As7
+            note A7
       vol 11
-            note As8
-            note A8
+            note As7
+            note A7
       vol 10
-            note As8
-            note A8
+            note As7
+            note A7
       vol 9
-            note As8
-            note A8
+            note As7
+            note A7
       vol 8
-            note As8
-            note A8
+            note As7
+            note A7
       vol 7
-            note As8
-            note A8
+            note As7
+            note A7
       vol 6
-            note As8
-            note A8
+            note As7
+            note A7
       vol 5
-            note As8
-            note A8
+            note As7
+            note A7
       vol 4
-            note As8
+            note As7
       setRelease 1
-            note A8
+            note A7
             waitL 46
     mainLoopEnd
 Music_13_Channel_2:
@@ -180,88 +180,88 @@ Music_13_Channel_2:
       setRelease 0
       vibrato 04ch
       sustain
-            noteL A8, 72
+            noteL A7, 72
       setSlide 7
-            noteL As8, 3
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
+            noteL As7, 3
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
       vol 10
-            note As8
-            note A8
+            note As7
+            note A7
             waitL 5
       vol 13
       sustain
-            noteL A8, 72
+            noteL A7, 72
       setSlide 7
-            noteL As8, 3
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
-            note As8
-            note A8
+            noteL As7, 3
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
+            note As7
+            note A7
       vol 12
-            note As8
-            note A8
+            note As7
+            note A7
       vol 11
-            note As8
-            note A8
+            note As7
+            note A7
       vol 10
-            note As8
-            note A8
+            note As7
+            note A7
       vol 9
-            note As8
-            note A8
+            note As7
+            note A7
       vol 8
-            note As8
-            note A8
+            note As7
+            note A7
       vol 7
-            note As8
-            note A8
+            note As7
+            note A7
       vol 6
-            note As8
-            note A8
+            note As7
+            note A7
       vol 5
-            note As8
-            note A8
+            note As7
+            note A7
       vol 4
-            note As8
+            note As7
       setRelease 1
-            note A8
+            note A7
             waitL 89
     mainLoopEnd
 Music_13_Channel_3:

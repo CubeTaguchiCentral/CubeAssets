@@ -18,30 +18,30 @@ Music_05_Channel_0:
       inst 1
       vol 11
       setRelease 1
-            noteL C4, 32
+            noteL C3, 32
       vibrato 05ch
-            note E6
-            note E6
-            note F4
-            note E6
-            note E6
-            note G4
-            note D6
-            note D6
-            note C4
-            note E6
-            note E6
-            note A3
-            note E6
-            note E6
-            note F4
-            note E6
-            note E6
-            note D6
-            note C6
-            note B5
-            note C4
-            noteL C6, 40
+            note E5
+            note E5
+            note F3
+            note E5
+            note E5
+            note G3
+            note D5
+            note D5
+            note C3
+            note E5
+            note E5
+            note A2
+            note E5
+            note E5
+            note F3
+            note E5
+            note E5
+            note D5
+            note C5
+            note B4
+            note C3
+            noteL C5, 40
     channel_end
 Music_05_Channel_1:
       stereo 080h
@@ -49,30 +49,30 @@ Music_05_Channel_1:
       vol 9
             waitL 5
       setRelease 1
-            noteL C4, 32
+            noteL C3, 32
       vibrato 05ah
-            note E6
-            note E6
-            note F4
-            note E6
-            note E6
-            note G4
-            note D6
-            note D6
-            note C4
-            note E6
-            note E6
-            note A3
-            note E6
-            note E6
-            note F4
-            note E6
-            note E6
-            note D6
-            note C6
-            note B5
-            note C4
-            noteL C6, 35
+            note E5
+            note E5
+            note F3
+            note E5
+            note E5
+            note G3
+            note D5
+            note D5
+            note C3
+            note E5
+            note E5
+            note A2
+            note E5
+            note E5
+            note F3
+            note E5
+            note E5
+            note D5
+            note C5
+            note B4
+            note C3
+            noteL C5, 35
     channel_end
 Music_05_Channel_2:
       stereo 0c0h
@@ -81,28 +81,28 @@ Music_05_Channel_2:
             waitL 32
       setRelease 1
       vibrato 05ch
-            note B6
-            note B6
+            note B5
+            note B5
             wait
-            note A6
-            note A6
+            note A5
+            note A5
             wait
-            note B6
-            note B6
+            note B5
+            note B5
             wait
-            note C7
-            note B6
+            note C6
+            note B5
             wait
-            note A6
-            note A6
+            note A5
+            note A5
             wait
-            note A6
-            note A6
-            note B6
-            note A6
-            note G6
-            note E6
-            noteL E7, 40
+            note A5
+            note A5
+            note B5
+            note A5
+            note G5
+            note E5
+            noteL E6, 40
     channel_end
 Music_05_Channel_3:
       stereo 0c0h
@@ -110,27 +110,27 @@ Music_05_Channel_3:
       vol 12
       setRelease 1
       vibrato 05ch
-            noteL E6, 64
-            noteL G6, 16
-            note F6
-            noteL E6, 32
-            note D6
-            note C6
-            note B5
-            note C6
-            note D6
-            note E6
+            noteL E5, 64
+            noteL G5, 16
+            note F5
+            noteL E5, 32
+            note D5
+            note C5
+            note B4
+            note C5
+            note D5
+            note E5
             wait
-            noteL E6, 64
-            noteL B5, 32
-            note C6
-            note A5
-            note D6
-            note C6
-            note B5
+            noteL E5, 64
+            noteL B4, 32
+            note C5
+            note A4
+            note D5
+            note C5
+            note B4
             wait
-            note G6
-            noteL C7, 72
+            note G5
+            noteL C6, 72
     channel_end
 Music_05_Channel_4:
       stereo 0c0h
@@ -138,28 +138,28 @@ Music_05_Channel_4:
       vol 12
       setRelease 1
       vibrato 05ch
-            noteL G6, 64
-            noteL B6, 16
-            note A6
-            noteL G6, 32
-            note F6
-            note E6
-            note D6
-            note E6
-            note F6
-            note G6
-            wait
-            note G6
-            note C6
-            note D6
-            note E6
-            note C6
+            noteL G5, 64
+            noteL B5, 16
             note A5
-            note E6
-            note G6
+            noteL G5, 32
+            note F5
+            note E5
+            note D5
+            note E5
+            note F5
+            note G5
             wait
-            note D6
-            noteL E6, 72
+            note G5
+            note C5
+            note D5
+            note E5
+            note C5
+            note A4
+            note E5
+            note G5
+            wait
+            note D5
+            noteL E5, 72
     channel_end
 Music_05_Channel_5:
     channel_end
@@ -167,64 +167,64 @@ Music_05_Channel_6:
             waitL 6
       psgInst 08h
       setRelease 1
-            psgNoteL E4, 64
+            psgNoteL E5, 64
       vibrato 04ah
-            psgNoteL G4, 16
-            psgNote F4
-            psgNoteL E4, 32
-            psgNote D4
-            psgNote C4
-            psgNote B3
-            psgNote C4
-            psgNote D4
-            psgNote E4
-      psgInst 00h
-            wait
-      psgInst 08h
-            psgNoteL E4, 64
-            psgNoteL B3, 32
-            psgNote C4
-            psgNote A3
-            psgNote D4
-            psgNote C4
+            psgNoteL G5, 16
+            psgNote F5
+            psgNoteL E5, 32
+            psgNote D5
+            psgNote C5
             psgNote B4
+            psgNote C5
+            psgNote D5
+            psgNote E5
       psgInst 00h
             wait
       psgInst 08h
-            psgNote G4
-            psgNoteL C5, 72
+            psgNoteL E5, 64
+            psgNoteL B4, 32
+            psgNote C5
+            psgNote A4
+            psgNote D5
+            psgNote C5
+            psgNote B5
+      psgInst 00h
+            wait
+      psgInst 08h
+            psgNote G5
+            psgNoteL C6, 72
     channel_end
 Music_05_Channel_7:
             waitL 6
       psgInst 08h
       setRelease 1
-            psgNoteL G4, 64
+            psgNoteL G5, 64
       vibrato 04ah
-            psgNoteL B4, 16
+            psgNoteL B5, 16
+            psgNote A5
+            psgNoteL G5, 32
+            psgNote F5
+            psgNote E5
+            psgNote D5
+            psgNote E5
+            psgNote F5
+            psgNote G5
+      psgInst 00h
+            wait
+      psgInst 08h
+            psgNote G5
+            psgNote C5
+            psgNote D5
+            psgNote E5
+            psgNote C5
             psgNote A4
-            psgNoteL G4, 32
-            psgNote F4
-            psgNote E4
-            psgNote D4
-            psgNote E4
-            psgNote F4
-            psgNote G4
+            psgNote E5
+            psgNote G5
       psgInst 00h
             wait
       psgInst 08h
-            psgNote G4
-            psgNote C4
-            psgNote D4
-            psgNote E4
-            psgNote C4
-            psgNote A3
-            psgNote E4
-            psgNote G4
-      psgInst 00h
-            wait
-      psgInst 08h
-            psgNote D4
-            psgNoteL E4, 72
+            psgNote D5
+            psgNoteL E5, 72
     channel_end
 Music_05_Channel_8:
     channel_end

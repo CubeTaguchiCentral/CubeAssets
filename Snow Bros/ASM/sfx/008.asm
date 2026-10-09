@@ -12,6 +12,6 @@ Sfx_008_Channel_1:
       noSlide
       vibrato 04ah
       stereo 0c0h
-            noteL Gs2, 4
-            note B3
+            noteL Gs1, 4
+            note B2
     channel_end

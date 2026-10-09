@@ -19,22 +19,22 @@ Music_16_Channel_0:
       vol 11
       setRelease 1
       vibrato 05ah
-            noteL D7, 36
-            noteL B6, 12
-            noteL B6, 48
-            note D7
-            noteL E7, 36
-            noteL Cs7, 12
-            noteL Cs7, 48
-            note E7
-            noteL Fs7, 36
-            noteL D7, 12
-            noteL D7, 255
+            noteL D6, 36
+            noteL B5, 12
+            noteL B5, 48
+            note D6
+            noteL E6, 36
+            noteL Cs6, 12
+            noteL Cs6, 48
+            note E6
+            noteL Fs6, 36
+            noteL D6, 12
+            noteL D6, 255
       sustain
       vibrato 00h
-            note D7
+            note D6
       setRelease 1
-            noteL D7, 18
+            noteL D6, 18
     channel_end
 Music_16_Channel_1:
       stereo 0c0h
@@ -42,12 +42,12 @@ Music_16_Channel_1:
       vol 11
       setRelease 1
       vibrato 05ch
-            noteL G5, 144
-            noteL E5, 96
-            noteL Cs5, 48
+            noteL G4, 144
+            noteL E4, 96
+            noteL Cs4, 48
     countedLoopStart 1
       sustain
-            noteL Fs5, 255
+            noteL Fs4, 255
       setRelease 1
             waitL 33
     countedLoopEnd
@@ -58,12 +58,12 @@ Music_16_Channel_2:
       vol 10
       setRelease 1
       vibrato 05ch
-            noteL B4, 144
-            noteL A4, 96
-            noteL A4, 48
+            noteL B3, 144
+            noteL A3, 96
+            noteL A3, 48
     countedLoopStart 1
       sustain
-            noteL B4, 255
+            noteL B3, 255
       setRelease 1
             waitL 33
     countedLoopEnd
@@ -74,15 +74,15 @@ Music_16_Channel_3:
       vol 10
       setRelease 1
       vibrato 05ch
-            noteL D4, 144
-            noteL D4, 96
-            noteL D4, 48
+            noteL D3, 144
+            noteL D3, 96
+            noteL D3, 48
       sustain
-            noteL E4, 255
+            noteL E3, 255
       setRelease 1
             waitL 33
       sustain
-            noteL G4, 255
+            noteL G3, 255
       setRelease 1
             waitL 33
     channel_end
@@ -92,15 +92,15 @@ Music_16_Channel_4:
       vol 12
       setRelease 1
       vibrato 05ch
-            noteL E3, 144
-            noteL Fs3, 96
-            noteL Fs3, 48
+            noteL E2, 144
+            noteL Fs2, 96
+            noteL Fs2, 48
       sustain
-            noteL Gs3, 255
+            noteL Gs2, 255
       setRelease 1
             waitL 33
       sustain
-            noteL A3, 255
+            noteL A2, 255
       setRelease 1
             waitL 33
     channel_end
@@ -109,46 +109,46 @@ Music_16_Channel_5:
 Music_16_Channel_6:
       psgInst 06bh
       setRelease 1
-            psgNoteL D3, 144
+            psgNoteL D4, 144
       vibrato 04ch
-            psgNoteL A2, 48
-            psgNote Cs3
-            psgNote E3
-            psgNoteL Fs3, 144
+            psgNoteL A3, 48
+            psgNote Cs4
+            psgNote E4
+            psgNoteL Fs4, 144
       setRelease 112
-            psgNoteL Fs3, 255
+            psgNoteL Fs4, 255
       sustain
             waitL 33
       vibrato 040h
-            psgNoteL Fs3, 144
+            psgNoteL Fs4, 144
     channel_end
 Music_16_Channel_7:
       psgInst 06ch
       setRelease 6
       vibrato 04ch
     countedLoopStart 11
-            psgNoteL E3, 6
-            psgNote Fs3
+            psgNoteL E4, 6
+            psgNote Fs4
     countedLoopEnd
     countedLoopStart 11
-            psgNoteL Cs3, 6
-            psgNote D3
+            psgNoteL Cs4, 6
+            psgNote D4
     countedLoopEnd
     countedLoopStart 11
-            psgNoteL D3, 6
-            psgNote Fs3
+            psgNoteL D4, 6
+            psgNote Fs4
     countedLoopEnd
       setRelease 24
-            psgNoteL B2, 24
-            psgNote Cs3
-            psgNote D3
-            psgNote Fs3
-            psgNote B3
+            psgNoteL B3, 24
             psgNote Cs4
+            psgNote D4
+            psgNote Fs4
+            psgNote B4
+            psgNote Cs5
       setRelease 48
-            psgNoteL D4, 48
+            psgNoteL D5, 48
       setRelease 240
-            psgNoteL B3, 240
+            psgNoteL B4, 240
     channel_end
 Music_16_Channel_8:
     channel_end

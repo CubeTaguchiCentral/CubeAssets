@@ -18,5 +18,5 @@ Sfx_040_Channel_8:
       psgInst 0fh
       setRelease 0
       vibrato 0d1h
-            psgNoteL As2, 4
+            psgNoteL As3, 4
     channel_end

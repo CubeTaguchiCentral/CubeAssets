@@ -9,8 +9,8 @@ Sfx_009_Channel_0:
       vol 12
       setRelease 1
       vibrato 00h
-            noteL C7, 10
-            noteL C6, 20
+            noteL C6, 10
+            noteL C5, 20
     countedLoopEnd
     channel_end
 Sfx_009_Channel_1:

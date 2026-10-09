@@ -10,16 +10,16 @@ Sfx_014_Channel_1:
       vol 10
       setRelease 1
       vibrato 00h
-            noteL C2, 2
+            noteL C1, 2
       inst 65
       vol 13
-            note Gs2
+            note Gs1
       vol 15
-            noteL Gs2, 4
+            noteL Gs1, 4
       vol 10
-            note Gs2
+            note Gs1
       vol 7
-            note Gs2
+            note Gs1
       vol 4
-            note Gs2
+            note Gs1
     channel_end

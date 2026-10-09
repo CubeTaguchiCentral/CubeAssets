@@ -11,17 +11,17 @@ Sfx_058_Channel_1:
       vibrato 00h
       vol 13
       sustain
-            noteL C3, 1
-            note Cs2
+            noteL C2, 1
+            note Cs1
       setSlide 64
       setRelease 0
-            noteL A3, 12
+            noteL A2, 12
       vol 8
-            noteL A3, 6
+            noteL A2, 6
       vol 6
-            note A3
+            note A2
       vol 4
-            note A3
+            note A2
       vol 2
-            note A3
+            note A2
     channel_end

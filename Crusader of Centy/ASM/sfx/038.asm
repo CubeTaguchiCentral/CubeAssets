@@ -11,22 +11,22 @@ Sfx_038_Channel_0:
       vol 13
       vibrato 010h
       sustain
-            noteL D2, 6
+            noteL D1, 6
       setSlide 16
-            note Ds2
-            note E2
-            note F2
-            noteL Fs2, 12
-            noteL G2, 48
-            noteL Fs2, 8
-            note F2
-            note E2
-            note Ds2
-            note D2
-            note Cs2
+            note Ds1
+            note E1
+            note F1
+            noteL Fs1, 12
+            noteL G1, 48
+            noteL Fs1, 8
+            note F1
+            note E1
+            note Ds1
+            note D1
+            note Cs1
       setRelease 1
       vibrato 090h
-            noteL C2, 18
+            noteL C1, 18
     channel_end
 Sfx_038_Channel_1:
       stereo 040h
@@ -35,22 +35,22 @@ Sfx_038_Channel_1:
       vol 13
       vibrato 010h
       sustain
-            noteL D2, 6
+            noteL D1, 6
       setSlide 16
-            note Ds2
-            note E2
-            note F2
-            noteL Fs2, 12
-            noteL G2, 48
-            noteL Fs2, 8
-            note F2
-            note E2
-            note Ds2
-            note D2
-            note Cs2
+            note Ds1
+            note E1
+            note F1
+            noteL Fs1, 12
+            noteL G1, 48
+            noteL Fs1, 8
+            note F1
+            note E1
+            note Ds1
+            note D1
+            note Cs1
       setRelease 1
       vibrato 090h
-            noteL C2, 24
+            noteL C1, 24
     channel_end
 Sfx_038_Channel_2:
     channel_end

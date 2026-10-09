@@ -19,71 +19,71 @@ Music_10_Channel_0:
       setRelease 1
       vibrato 02ch
     mainLoopStart
-            noteL B4, 18
-            note C5
-            noteL D5, 36
-            noteL C5, 18
-            note B4
-            noteL C5, 36
-            noteL E4, 63
+            noteL B3, 18
+            note C4
+            noteL D4, 36
+            noteL C4, 18
+            note B3
+            noteL C4, 36
+            noteL E3, 63
             waitL 9
-            noteL A4, 18
-            note B4
-            noteL C5, 36
-            noteL B4, 18
-            note A4
-            noteL B4, 36
-            noteL D5, 63
+            noteL A3, 18
+            note B3
+            noteL C4, 36
+            noteL B3, 18
+            note A3
+            noteL B3, 36
+            noteL D4, 63
             waitL 9
-            noteL E5, 18
-            note Fs5
-            noteL G5, 36
-            noteL Fs5, 18
-            note E5
-            noteL Fs5, 36
-            noteL D5, 63
-            waitL 9
-            noteL C5, 18
-            note E4
-            note E4
+            noteL E4, 18
             note Fs4
-            note G4
+            noteL G4, 36
+            noteL Fs4, 18
             note E4
             noteL Fs4, 36
-            noteL A4, 63
+            noteL D4, 63
             waitL 9
-            noteL B4, 18
-            note C5
-            noteL D5, 36
-            noteL C5, 18
-            note B4
-            noteL C5, 36
-            noteL E4, 63
+            noteL C4, 18
+            note E3
+            note E3
+            note Fs3
+            note G3
+            note E3
+            noteL Fs3, 36
+            noteL A3, 63
             waitL 9
-            noteL A4, 18
-            note B4
-            noteL C5, 36
-            noteL B4, 18
-            note A4
-            noteL B4, 36
-            noteL D5, 63
-            waitL 9
-            noteL E5, 18
-            note Fs5
-            noteL G5, 36
-            noteL Fs5, 18
-            note E5
-            noteL Fs5, 36
-            noteL D5, 63
-            waitL 9
-            noteL C5, 18
+            noteL B3, 18
             note C4
-            note D4
-            note E4
+            noteL D4, 36
+            noteL C4, 18
+            note B3
+            noteL C4, 36
+            noteL E3, 63
+            waitL 9
+            noteL A3, 18
+            note B3
+            noteL C4, 36
+            noteL B3, 18
+            note A3
+            noteL B3, 36
+            noteL D4, 63
+            waitL 9
+            noteL E4, 18
             note Fs4
-            note D4
-            noteL A4, 36
-            noteL G4, 63
+            noteL G4, 36
+            noteL Fs4, 18
+            note E4
+            noteL Fs4, 36
+            noteL D4, 63
+            waitL 9
+            noteL C4, 18
+            note C3
+            note D3
+            note E3
+            note Fs3
+            note D3
+            noteL A3, 36
+            noteL G3, 63
             waitL 9
     mainLoopEnd
 Music_10_Channel_1:
@@ -93,71 +93,71 @@ Music_10_Channel_1:
       setRelease 1
       vibrato 02ch
     mainLoopStart
-            noteL B6, 18
-            note C7
-            noteL D7, 36
-            noteL C7, 18
-            note B6
-            noteL C7, 36
-            noteL E6, 63
+            noteL B5, 18
+            note C6
+            noteL D6, 36
+            noteL C6, 18
+            note B5
+            noteL C6, 36
+            noteL E5, 63
             waitL 9
-            noteL A6, 18
-            note B6
-            noteL C7, 36
-            noteL B6, 18
-            note A6
-            noteL B6, 36
-            noteL D7, 63
+            noteL A5, 18
+            note B5
+            noteL C6, 36
+            noteL B5, 18
+            note A5
+            noteL B5, 36
+            noteL D6, 63
             waitL 9
-            noteL E7, 18
-            note Fs7
-            noteL G7, 36
-            noteL Fs7, 18
-            note E7
-            noteL Fs7, 36
-            noteL D7, 63
-            waitL 9
-            noteL C7, 18
-            note E6
-            note E6
+            noteL E6, 18
             note Fs6
-            note G6
+            noteL G6, 36
+            noteL Fs6, 18
             note E6
             noteL Fs6, 36
-            noteL A6, 63
+            noteL D6, 63
             waitL 9
-            noteL B6, 18
-            note C7
-            noteL D7, 36
-            noteL C7, 18
-            note B6
-            noteL C7, 36
-            noteL E6, 63
+            noteL C6, 18
+            note E5
+            note E5
+            note Fs5
+            note G5
+            note E5
+            noteL Fs5, 36
+            noteL A5, 63
             waitL 9
-            noteL A6, 18
-            note B6
-            noteL C7, 36
-            noteL B6, 18
-            note A6
-            noteL B6, 36
-            noteL D7, 63
-            waitL 9
-            noteL E7, 18
-            note Fs7
-            noteL G7, 36
-            noteL Fs7, 18
-            note E7
-            noteL Fs7, 36
-            noteL D7, 63
-            waitL 9
-            noteL C7, 18
+            noteL B5, 18
             note C6
-            note D6
-            note E6
+            noteL D6, 36
+            noteL C6, 18
+            note B5
+            noteL C6, 36
+            noteL E5, 63
+            waitL 9
+            noteL A5, 18
+            note B5
+            noteL C6, 36
+            noteL B5, 18
+            note A5
+            noteL B5, 36
+            noteL D6, 63
+            waitL 9
+            noteL E6, 18
             note Fs6
-            note D6
-            noteL A6, 36
-            noteL G6, 63
+            noteL G6, 36
+            noteL Fs6, 18
+            note E6
+            noteL Fs6, 36
+            noteL D6, 63
+            waitL 9
+            noteL C6, 18
+            note C5
+            note D5
+            note E5
+            note Fs5
+            note D5
+            noteL A5, 36
+            noteL G5, 63
             waitL 9
     mainLoopEnd
 Music_10_Channel_2:
@@ -167,97 +167,97 @@ Music_10_Channel_2:
       vol 10
       setRelease 1
       vibrato 02ah
-            note D5
-            note B5
-            note D5
-            note B5
-            note D5
-            note C6
-            note E5
-            note C6
-            note E5
-            note C6
-            note E5
-            note C6
-            note D5
-            note C6
-            note D5
-            note C6
-            note D5
-            note B5
-            note D5
-            note B5
-            note D5
-            note B5
-            note D5
-            note C6
-            note E5
-            note C6
-            note E5
-            note C6
-            note E5
-            note B5
-            note D5
-            note B5
-            note D5
-            note B5
-            note D5
-            note C6
-            note E5
-            note C6
-            note E5
-            note C6
-            note E5
-            note C6
-            note D5
-            note C6
-            note D5
-            note C6
-            note D5
-            note B5
-            note D5
-            note B5
-            note D5
-            note B5
-            note D5
-            note C6
-            note E5
-            note C6
-            note E5
-            note C6
-            note E5
-            note C6
-            note D5
-            note C6
-            note D5
-            note C6
-            note D5
-            note B5
-            note D5
-            note B5
-            note D5
-            note B5
-            note D5
-            note C6
-            note E5
-            note C6
-            note E5
-            note C6
-            note E5
-            note B5
-            note D5
-            note B5
-            note D5
-            note B5
-            note D5
-            note C6
-            note E5
-            note C6
-            note E5
-            note C6
-            note D5
-            noteL C6, 36
-            noteL B5, 54
+            note D4
+            note B4
+            note D4
+            note B4
+            note D4
+            note C5
+            note E4
+            note C5
+            note E4
+            note C5
+            note E4
+            note C5
+            note D4
+            note C5
+            note D4
+            note C5
+            note D4
+            note B4
+            note D4
+            note B4
+            note D4
+            note B4
+            note D4
+            note C5
+            note E4
+            note C5
+            note E4
+            note C5
+            note E4
+            note B4
+            note D4
+            note B4
+            note D4
+            note B4
+            note D4
+            note C5
+            note E4
+            note C5
+            note E4
+            note C5
+            note E4
+            note C5
+            note D4
+            note C5
+            note D4
+            note C5
+            note D4
+            note B4
+            note D4
+            note B4
+            note D4
+            note B4
+            note D4
+            note C5
+            note E4
+            note C5
+            note E4
+            note C5
+            note E4
+            note C5
+            note D4
+            note C5
+            note D4
+            note C5
+            note D4
+            note B4
+            note D4
+            note B4
+            note D4
+            note B4
+            note D4
+            note C5
+            note E4
+            note C5
+            note E4
+            note C5
+            note E4
+            note B4
+            note D4
+            note B4
+            note D4
+            note B4
+            note D4
+            note C5
+            note E4
+            note C5
+            note E4
+            note C5
+            note D4
+            noteL C5, 36
+            noteL B4, 54
             waitL 18
     mainLoopEnd
 Music_10_Channel_3:
@@ -266,98 +266,98 @@ Music_10_Channel_3:
       setRelease 1
       vibrato 02ch
     mainLoopStart
-            noteL G5, 18
-            note B4
-            note G5
-            note B4
-            note G5
-            note B4
-            note G5
-            note C5
-            note G5
-            note C5
-            note G5
-            note C5
-            note Fs5
-            note C5
-            note Fs5
-            note C5
-            note Fs5
-            note C5
-            note G5
-            note B4
-            note G5
-            note B4
-            note G5
-            note B4
-            note G5
-            note C5
-            note G5
-            note C5
-            note G5
-            note C5
-            note Fs5
-            note B4
-            note Fs5
-            note B4
-            note Fs5
-            note B4
-            note G5
-            note C5
-            note G5
-            note C5
-            note G5
-            note C5
-            note Fs5
-            note C5
-            note Fs5
-            note C5
-            note Fs5
-            note C5
-            note G5
-            note B4
-            note G5
-            note B4
-            note G5
-            note B4
-            note G5
-            note C5
-            note G5
-            note C5
-            note G5
-            note C5
-            note Fs5
-            note C5
-            note Fs5
-            note C5
-            note Fs5
-            note C5
-            note G5
-            note B4
-            note G5
-            note B4
-            note G5
-            note B4
-            note G5
-            note C5
-            note G5
-            note C5
-            note G5
-            note C5
-            note Fs5
-            note B4
-            note Fs5
-            note B4
-            note Fs5
-            note B4
-            note G5
-            note C5
-            note G5
-            note C5
-            note Fs5
-            note C5
-            noteL E5, 36
-            noteL D5, 54
+            noteL G4, 18
+            note B3
+            note G4
+            note B3
+            note G4
+            note B3
+            note G4
+            note C4
+            note G4
+            note C4
+            note G4
+            note C4
+            note Fs4
+            note C4
+            note Fs4
+            note C4
+            note Fs4
+            note C4
+            note G4
+            note B3
+            note G4
+            note B3
+            note G4
+            note B3
+            note G4
+            note C4
+            note G4
+            note C4
+            note G4
+            note C4
+            note Fs4
+            note B3
+            note Fs4
+            note B3
+            note Fs4
+            note B3
+            note G4
+            note C4
+            note G4
+            note C4
+            note G4
+            note C4
+            note Fs4
+            note C4
+            note Fs4
+            note C4
+            note Fs4
+            note C4
+            note G4
+            note B3
+            note G4
+            note B3
+            note G4
+            note B3
+            note G4
+            note C4
+            note G4
+            note C4
+            note G4
+            note C4
+            note Fs4
+            note C4
+            note Fs4
+            note C4
+            note Fs4
+            note C4
+            note G4
+            note B3
+            note G4
+            note B3
+            note G4
+            note B3
+            note G4
+            note C4
+            note G4
+            note C4
+            note G4
+            note C4
+            note Fs4
+            note B3
+            note Fs4
+            note B3
+            note Fs4
+            note B3
+            note G4
+            note C4
+            note G4
+            note C4
+            note Fs4
+            note C4
+            noteL E4, 36
+            noteL D4, 54
             waitL 18
     mainLoopEnd
 Music_10_Channel_4:
@@ -366,23 +366,23 @@ Music_10_Channel_4:
       setRelease 1
       vibrato 02ah
     mainLoopStart
-            noteL G4, 108
-            note A4
-            note D5
-            note G4
-            note C5
-            note B4
-            note A4
-            note D5
-            note G4
-            note A4
-            note D5
-            note G4
-            note C5
-            note B4
-            noteL A4, 72
-            noteL D5, 36
-            noteL G4, 108
+            noteL G3, 108
+            note A3
+            note D4
+            note G3
+            note C4
+            note B3
+            note A3
+            note D4
+            note G3
+            note A3
+            note D4
+            note G3
+            note C4
+            note B3
+            noteL A3, 72
+            noteL D4, 36
+            noteL G3, 108
     mainLoopEnd
 Music_10_Channel_5:
     channel_end
@@ -391,35 +391,35 @@ Music_10_Channel_6:
       psgInst 06bh
       setRelease 1
       vibrato 04ch
-            psgNoteL B2, 108
-            psgNoteL C3, 36
-            psgNote E2
-            psgNote C3
-            psgNoteL A2, 108
-            psgNoteL B2, 36
-            psgNote D2
+            psgNoteL B3, 108
+            psgNoteL C4, 36
+            psgNote E3
+            psgNote C4
+            psgNoteL A3, 108
+            psgNoteL B3, 36
             psgNote D3
-            psgNoteL E3, 108
-            psgNoteL D3, 36
-            psgNote Fs3
+            psgNote D4
+            psgNoteL E4, 108
+            psgNoteL D4, 36
+            psgNote Fs4
+            psgNote D4
+            psgNoteL C4, 144
+            psgNoteL Fs3, 36
+            psgNote C4
+            psgNoteL B3, 108
+            psgNoteL C4, 36
+            psgNote E3
+            psgNote C4
+            psgNoteL A3, 108
+            psgNoteL B3, 36
             psgNote D3
-            psgNoteL C3, 144
-            psgNoteL Fs2, 36
-            psgNote C3
-            psgNoteL B2, 108
-            psgNoteL C3, 36
-            psgNote E2
-            psgNote C3
-            psgNoteL A2, 108
-            psgNoteL B2, 36
-            psgNote D2
-            psgNote D3
-            psgNoteL E3, 108
-            psgNoteL D3, 36
-            psgNote Fs3
-            psgNote D3
-            psgNoteL C3, 144
-            psgNoteL B2, 72
+            psgNote D4
+            psgNoteL E4, 108
+            psgNoteL D4, 36
+            psgNote Fs4
+            psgNote D4
+            psgNoteL C4, 144
+            psgNoteL B3, 72
     mainLoopEnd
 Music_10_Channel_7:
     mainLoopStart
@@ -428,32 +428,32 @@ Music_10_Channel_7:
       vibrato 04ch
             waitL 108
       psgInst 06bh
-            psgNoteL A2, 36
-            psgNote C2
-            psgNote A2
-            psgNoteL Fs2, 108
-            psgNoteL G2, 36
-            psgNote B1
+            psgNoteL A3, 36
+            psgNote C3
+            psgNote A3
+            psgNoteL Fs3, 108
+            psgNoteL G3, 36
             psgNote B2
-            psgNoteL C3, 108
-            psgNoteL B2, 36
-            psgNote D3
+            psgNote B3
+            psgNoteL C4, 108
+            psgNoteL B3, 36
+            psgNote D4
+            psgNote B3
+            psgNoteL A3, 144
+            psgNoteL D3, 36
+            psgNote Fs3
+            psgNoteL G3, 108
+            psgNoteL A3, 36
+            psgNote C3
+            psgNote A3
+            psgNoteL Fs3, 108
+            psgNoteL G3, 36
             psgNote B2
-            psgNoteL A2, 144
-            psgNoteL D2, 36
-            psgNote Fs2
-            psgNoteL G2, 108
-            psgNoteL A2, 36
-            psgNote C2
-            psgNote A2
-            psgNoteL Fs2, 108
-            psgNoteL G2, 36
-            psgNote B1
-            psgNote B2
-            psgNoteL C3, 108
-            psgNoteL B2, 36
-            psgNote D3
-            psgNote B2
-            psgNoteL A2, 144
-            psgNoteL G2, 72
+            psgNote B3
+            psgNoteL C4, 108
+            psgNoteL B3, 36
+            psgNote D4
+            psgNote B3
+            psgNoteL A3, 144
+            psgNoteL G3, 72
     mainLoopEnd

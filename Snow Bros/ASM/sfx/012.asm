@@ -13,9 +13,9 @@ Sfx_012_Channel_1:
       vibrato 04ah
       stereo 0c0h
       sustain
-            noteL B3, 6
+            noteL B2, 6
       setSlide 40
       setRelease 1
-            noteL F2, 18
+            noteL F1, 18
       noSlide
     channel_end

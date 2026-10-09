@@ -10,6 +10,6 @@ Sfx_051_Channel_1:
       vibrato 00h
       inst 73
       vol 14
-            noteL G4, 4
-            noteL G4, 48
+            noteL G3, 4
+            noteL G3, 48
     channel_end

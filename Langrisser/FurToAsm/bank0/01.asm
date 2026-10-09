@@ -23,11 +23,11 @@ Music_01_Channel_0:
       inst 42
       vol 12
       setRelease 1
-            noteL C3, 24
+            noteL C2, 24
       vibrato 057h
-            noteL A2, 18
-            noteL A2, 6
-            noteL Cs3, 48
+            noteL A1, 18
+            noteL A1, 6
+            noteL Cs2, 48
     mainLoopEnd
 Music_01_Channel_1:
       stereo 0c0h
@@ -39,11 +39,11 @@ Music_01_Channel_1:
       inst 42
       vol 10
       setRelease 1
-            noteL E4, 24
+            noteL E3, 24
       vibrato 057h
-            noteL C4, 18
-            noteL C4, 6
-            noteL Gs3, 48
+            noteL C3, 18
+            noteL C3, 6
+            noteL Gs2, 48
     mainLoopEnd
 Music_01_Channel_2:
       stereo 0c0h
@@ -54,11 +54,11 @@ Music_01_Channel_2:
       inst 42
       vol 10
       setRelease 1
-            noteL A4, 24
+            noteL A3, 24
       vibrato 057h
-            noteL E4, 18
-            noteL E4, 6
-            noteL E4, 48
+            noteL E3, 18
+            noteL E3, 6
+            noteL E3, 48
     mainLoopEnd
 Music_01_Channel_3:
       stereo 0c0h
@@ -72,9 +72,9 @@ Music_01_Channel_3:
       vol 7
       setRelease 1
       vibrato 057h
-            noteL Cs6, 12
-            note Gs5
-            noteL Cs6, 24
+            noteL Cs5, 12
+            note Gs4
+            noteL Cs5, 24
     mainLoopEnd
 Music_01_Channel_4:
       stereo 0c0h
@@ -88,9 +88,9 @@ Music_01_Channel_4:
       vol 8
       setRelease 1
       vibrato 057h
-            noteL Gs5, 12
-            note E5
-            noteL Gs5, 24
+            noteL Gs4, 12
+            note E4
+            noteL Gs4, 24
     mainLoopEnd
 Music_01_Channel_5:
     channel_end

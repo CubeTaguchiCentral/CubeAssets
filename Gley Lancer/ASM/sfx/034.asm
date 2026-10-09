@@ -10,15 +10,15 @@ Sfx_034_Channel_0:
       stereo 0c0h
       shifting 0
       setRelease 1
-            noteL C2, 4
+            noteL C1, 4
       vol 12
-            note C2
+            note C1
       vol 8
-            note C2
+            note C1
       vol 7
-            note C2
+            note C1
       vol 3
-            note C2
+            note C1
     channel_end
 Sfx_034_Channel_1:
     channel_end

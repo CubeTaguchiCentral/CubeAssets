@@ -17,10 +17,10 @@ Sfx_016_Channel_4:
       vol 12
       setRelease 0
       vibrato 0e0h
-            noteL D6, 20
+            noteL D5, 20
     repeatStart
       vibrato 0c0h
-            noteL D7, 7
-            note E7
+            noteL D6, 7
+            note E6
     repeatEnd
     channel_end

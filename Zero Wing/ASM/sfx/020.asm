@@ -10,13 +10,13 @@ Sfx_020_Channel_1:
       vol 13
       setRelease 1
       vibrato 010h
-            noteL C2, 6
+            noteL C1, 6
       sustain
-            noteL C2, 0
+            noteL C1, 0
       setSlide 90
-            noteL C8, 14
+            noteL C7, 14
     mainLoopStart
       vol 13
-            noteL G7, 1
-            noteL C8, 3
+            noteL G6, 1
+            noteL C7, 3
     mainLoopEnd

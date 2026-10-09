@@ -20,37 +20,6 @@ Music_02_Channel_0:
             waitL 24
       vibrato 05ah
       setRelease 1
-            noteL B4, 4
-            wait
-            note As4
-            wait
-            note G4
-            wait
-            noteL Fs4, 48
-    channel_end
-Music_02_Channel_1:
-      stereo 0c0h
-      inst 31
-      vol 11
-      setRelease 1
-      vibrato 05ah
-            noteL B7, 96
-    channel_end
-Music_02_Channel_2:
-      stereo 0c0h
-      inst 31
-      vol 11
-      setRelease 1
-      vibrato 05ah
-            noteL E7, 96
-    channel_end
-Music_02_Channel_3:
-      stereo 0c0h
-      inst 8
-      vol 11
-            waitL 24
-      vibrato 05ah
-      setRelease 1
             noteL B3, 4
             wait
             note As3
@@ -59,13 +28,44 @@ Music_02_Channel_3:
             wait
             noteL Fs3, 48
     channel_end
+Music_02_Channel_1:
+      stereo 0c0h
+      inst 31
+      vol 11
+      setRelease 1
+      vibrato 05ah
+            noteL B6, 96
+    channel_end
+Music_02_Channel_2:
+      stereo 0c0h
+      inst 31
+      vol 11
+      setRelease 1
+      vibrato 05ah
+            noteL E6, 96
+    channel_end
+Music_02_Channel_3:
+      stereo 0c0h
+      inst 8
+      vol 11
+            waitL 24
+      vibrato 05ah
+      setRelease 1
+            noteL B2, 4
+            wait
+            note As2
+            wait
+            note G2
+            wait
+            noteL Fs2, 48
+    channel_end
 Music_02_Channel_4:
       stereo 0c0h
       inst 30
       vol 13
       setRelease 1
       vibrato 05ah
-            noteL E2, 96
+            noteL E1, 96
             waitL 17
     channel_end
 Music_02_Channel_5:
@@ -74,31 +74,31 @@ Music_02_Channel_6:
       psgInst 06ch
       setRelease 6
       vibrato 00h
-            psgNoteL G4, 6
-            psgNote Fs4
-            psgNote G4
-            psgNote B4
-            psgNote As4
+            psgNoteL G5, 6
+            psgNote Fs5
+            psgNote G5
+            psgNote B5
+            psgNote As5
       setRelease 4
     countedLoopStart 7
-            psgNoteL Fs4, 4
-            psgNote G4
+            psgNoteL Fs5, 4
+            psgNote G5
     countedLoopEnd
-            psgNote Fs4
+            psgNote Fs5
     channel_end
 Music_02_Channel_7:
       psgInst 06ch
       setRelease 6
       vibrato 00h
-            psgNoteL B3, 6
-            psgNote As3
-            psgNote B3
-            psgNote D4
-            psgNote Cs4
+            psgNoteL B4, 6
+            psgNote As4
+            psgNote B4
+            psgNote D5
+            psgNote Cs5
       setRelease 3
     countedLoopStart 10
-            psgNoteL As3, 3
-            psgNote B3
+            psgNoteL As4, 3
+            psgNote B4
     countedLoopEnd
     channel_end
 Music_02_Channel_8:

@@ -16,47 +16,47 @@ Sfx_044_Channel_7:
       psgInst 02fh
       setRelease 0
       vibrato 0f0h
-            psgNoteL A2, 2
-            psgNote C2
-            psgNoteL B4, 1
-            psgNote E4
-            psgNote A3
-            psgNote Ds3
-            psgNote F2
-            psgNote D2
+            psgNoteL A3, 2
+            psgNote C3
+            psgNoteL B5, 1
+            psgNote E5
+            psgNote A4
+            psgNote Ds4
+            psgNote F3
+            psgNote D3
       psgInst 0dh
-            psgNote B4
-            psgNote E4
-            psgNote A3
-            psgNote Ds3
-            psgNote F2
-            psgNote D2
+            psgNote B5
+            psgNote E5
+            psgNote A4
+            psgNote Ds4
+            psgNote F3
+            psgNote D3
       psgInst 0bh
-            psgNote B4
-            psgNote E4
-            psgNote A3
-            psgNote Ds3
-            psgNote F2
-            psgNote D2
+            psgNote B5
+            psgNote E5
+            psgNote A4
+            psgNote Ds4
+            psgNote F3
+            psgNote D3
       psgInst 09h
-            psgNote B4
-            psgNote E4
-            psgNote A3
-            psgNote Ds3
-            psgNote F2
-            psgNote D2
+            psgNote B5
+            psgNote E5
+            psgNote A4
+            psgNote Ds4
+            psgNote F3
+            psgNote D3
       psgInst 07h
-            psgNote B4
-            psgNote E4
-            psgNote A3
-            psgNote Ds3
-            psgNote F2
-            psgNote D2
+            psgNote B5
+            psgNote E5
+            psgNote A4
+            psgNote Ds4
+            psgNote F3
+            psgNote D3
       psgInst 05h
-            psgNote B4
-            psgNote E4
-            psgNote A3
-            psgNote Ds3
-            psgNote F2
-            psgNote D2
+            psgNote B5
+            psgNote E5
+            psgNote A4
+            psgNote Ds4
+            psgNote F3
+            psgNote D3
     channel_end

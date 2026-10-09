@@ -9,7 +9,7 @@ Sfx_030_Channel_1:
       vol 14
       setRelease 1
       vibrato 010h
-            noteL A3, 6
+            noteL A2, 6
             wait
-            noteL A3, 17
+            noteL A2, 17
     channel_end

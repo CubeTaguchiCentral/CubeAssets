@@ -20,26 +20,26 @@ Music_23_Channel_0:
       setRelease 1
       vibrato 02ah
       stereo 0c0h
-            noteL D3, 12
+            noteL D2, 12
             waitL 24
-            noteL C4, 6
-            note D4
+            noteL C3, 6
+            note D3
             wait
-            noteL F3, 18
-            noteL G3, 6
+            noteL F2, 18
+            noteL G2, 6
             wait
-            note F3
+            note F2
             wait
-            noteL G3, 18
-            noteL G3, 6
+            noteL G2, 18
+            noteL G2, 6
             waitL 12
-            noteL F4, 6
-            note G4
-            wait
-            noteL C4, 18
-            noteL B3, 6
-            wait
+            noteL F3, 6
             note G3
+            wait
+            noteL C3, 18
+            noteL B2, 6
+            wait
+            note G2
             wait
     mainLoopEnd
 Music_23_Channel_1:
@@ -50,45 +50,45 @@ Music_23_Channel_1:
       vibrato 02ah
       stereo 0c0h
             waitL 12
-            noteL D6, 4
+            noteL D5, 4
             waitL 8
-            noteL F6, 4
+            noteL F5, 4
             waitL 8
-            noteL F6, 4
+            noteL F5, 4
             waitL 8
-            noteL F6, 4
+            noteL F5, 4
             waitL 8
-            noteL F6, 4
+            noteL F5, 4
             waitL 8
-            noteL F6, 4
+            noteL F5, 4
             waitL 8
-            noteL F6, 4
+            noteL F5, 4
             waitL 8
-            noteL F6, 6
-            noteL Fs6, 3
-            note G6
+            noteL F5, 6
+            noteL Fs5, 3
+            note G5
             waitL 6
-            noteL G6, 78
+            noteL G5, 78
             waitL 12
-            noteL D6, 4
+            noteL D5, 4
             waitL 8
-            noteL F6, 4
+            noteL F5, 4
             waitL 8
-            noteL F6, 4
+            noteL F5, 4
             waitL 8
-            noteL F6, 4
+            noteL F5, 4
             waitL 8
-            noteL F6, 4
+            noteL F5, 4
             waitL 8
-            noteL F6, 4
+            noteL F5, 4
             waitL 8
-            noteL F6, 4
+            noteL F5, 4
             waitL 8
-            noteL F6, 6
-            noteL Fs6, 3
-            note G6
+            noteL F5, 6
+            noteL Fs5, 3
+            note G5
             waitL 6
-            noteL D6, 78
+            noteL D5, 78
     mainLoopEnd
 Music_23_Channel_2:
     mainLoopStart
@@ -97,22 +97,22 @@ Music_23_Channel_2:
       setRelease 1
       vibrato 02ah
       stereo 040h
-            noteL C6, 48
-            note D6
-            note G6
-            note F6
-            note D6
-            note C6
+            noteL C5, 48
+            note D5
+            note G5
+            note F5
+            note D5
+            note C5
+            note A4
+            note G4
+            note C5
+            note D5
+            note G5
+            note F5
+            note D5
+            note C5
             note A5
             note G5
-            note C6
-            note D6
-            note G6
-            note F6
-            note D6
-            note C6
-            note A6
-            note G6
     mainLoopEnd
 Music_23_Channel_3:
     mainLoopStart
@@ -121,37 +121,37 @@ Music_23_Channel_3:
       setRelease 1
       vibrato 02ah
       stereo 080h
-            noteL E5, 4
+            noteL E4, 4
             waitL 8
-            noteL B5, 6
-            noteL D5, 4
-            waitL 8
-            noteL A5, 6
-            note C5
-            noteL G5, 4
+            noteL B4, 6
+            noteL D4, 4
             waitL 8
             noteL A4, 6
-            noteL F5, 4
-            waitL 8
+            note C4
             noteL G4, 4
             waitL 8
-            noteL E5, 4
+            noteL A3, 6
+            noteL F4, 4
             waitL 8
-            noteL E5, 4
+            noteL G3, 4
             waitL 8
-            noteL B5, 6
-            noteL E5, 4
+            noteL E4, 4
             waitL 8
-            noteL A5, 4
+            noteL E4, 4
             waitL 8
-            noteL D5, 6
-            note G5
-            note C5
-            noteL G5, 4
+            noteL B4, 6
+            noteL E4, 4
             waitL 8
-            noteL F5, 4
+            noteL A4, 4
             waitL 8
-            noteL D6, 4
+            noteL D4, 6
+            note G4
+            note C4
+            noteL G4, 4
+            waitL 8
+            noteL F4, 4
+            waitL 8
+            noteL D5, 4
             waitL 8
     mainLoopEnd
 Music_23_Channel_4:
@@ -161,37 +161,37 @@ Music_23_Channel_4:
       setRelease 1
       vibrato 02ah
       stereo 0c0h
-            noteL D6, 4
-            waitL 8
-            noteL E5, 4
-            waitL 8
-            noteL B5, 6
             noteL D5, 4
             waitL 8
-            noteL A5, 6
-            note C5
-            noteL D5, 4
+            noteL E4, 4
+            waitL 8
+            noteL B4, 6
+            noteL D4, 4
             waitL 8
             noteL A4, 6
-            noteL D5, 4
+            note C4
+            noteL D4, 4
             waitL 8
+            noteL A3, 6
+            noteL D4, 4
+            waitL 8
+            noteL G3, 4
+            waitL 8
+            noteL E4, 4
+            waitL 8
+            noteL E4, 4
+            waitL 8
+            noteL B4, 6
+            noteL E4, 4
+            waitL 8
+            noteL A4, 4
+            waitL 8
+            noteL D4, 6
+            note G4
+            note C4
             noteL G4, 4
             waitL 8
-            noteL E5, 4
-            waitL 8
-            noteL E5, 4
-            waitL 8
-            noteL B5, 6
-            noteL E5, 4
-            waitL 8
-            noteL A5, 4
-            waitL 8
-            noteL D5, 6
-            note G5
-            note C5
-            noteL G5, 4
-            waitL 8
-            noteL F5, 4
+            noteL F4, 4
             waitL 8
     mainLoopEnd
 Music_23_Channel_5:
@@ -221,22 +221,22 @@ Music_23_Channel_6:
       vibrato 04ah
             waitL 12
             waitL 24
-            psgNoteL C4, 48
-            psgNote D4
-            psgNote G4
-            psgNote F4
-            psgNote D4
-            psgNote C4
-            psgNote A3
-            psgNote G3
-            psgNote C4
-            psgNote D4
-            psgNote G4
-            psgNote F4
-            psgNote D4
-            psgNote C4
+            psgNoteL C5, 48
+            psgNote D5
+            psgNote G5
+            psgNote F5
+            psgNote D5
+            psgNote C5
             psgNote A4
             psgNote G4
+            psgNote C5
+            psgNote D5
+            psgNote G5
+            psgNote F5
+            psgNote D5
+            psgNote C5
+            psgNote A5
+            psgNote G5
             waitL 60
     mainLoopEnd
 Music_23_Channel_7:
@@ -247,15 +247,15 @@ Music_23_Channel_9:
       setRelease 1
       psgInst 0fdh
             waitL 6
-            psgNoteL C0, 12
-            psgNoteL C0, 12
-            psgNoteL C0, 12
-            psgNoteL C0, 12
-            psgNoteL C0, 12
-            psgNoteL C0, 12
-            psgNoteL C0, 12
-            psgNoteL C0, 6
+            psgNoteL 07h, 12
+            psgNoteL 07h, 12
+            psgNoteL 07h, 12
+            psgNoteL 07h, 12
+            psgNoteL 07h, 12
+            psgNoteL 07h, 12
+            psgNoteL 07h, 12
+            psgNoteL 07h, 6
     countedLoopStart 7
-            psgNoteL C0, 12
+            psgNoteL 07h, 12
     countedLoopEnd
     mainLoopEnd

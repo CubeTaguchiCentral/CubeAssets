@@ -10,22 +10,22 @@ Sfx_029_Channel_0:
       vibrato 02ah
       stereo 0c0h
       shifting 0
-            noteL B3, 4
+            noteL B2, 4
             waitL 1
       sustain
-            noteL C5, 2
+            noteL C4, 2
       setSlide 126
       setRelease 1
-            noteL A6, 5
+            noteL A5, 5
       vol 11
-            note A6
+            note A5
       vol 9
-            note A6
+            note A5
       vol 6
-            note A6
+            note A5
       setRelease 0
       vol 3
-            note A6
+            note A5
       noSlide
     channel_end
 Sfx_029_Channel_1:

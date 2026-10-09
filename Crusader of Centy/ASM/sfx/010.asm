@@ -8,9 +8,9 @@ Sfx_010_Channel_0:
       vol 15
       setRelease 2
       vibrato 00h
-            noteL A2, 4
-            note A2
-            note A2
+            noteL A1, 4
+            note A1
+            note A1
             wait
     channel_end
 Sfx_010_Channel_1:

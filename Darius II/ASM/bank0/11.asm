@@ -19,77 +19,77 @@ Music_11_Channel_0:
             waitL 48
       inst 10
       vol 10
-            noteL B6, 12
-            note As6
-            note Fs6
-            note Cs6
+            noteL B5, 12
+            note As5
+            note Fs5
+            note Cs5
+            note Ds5
+            note As5
+            note Gs5
             note Ds6
-            note As6
-            note Gs6
-            note Ds7
-            note Cs7
-            note B7
-            note As7
-            note Fs7
+            note Cs6
             note B6
             note As6
             note Fs6
-            note Cs6
+            note B5
+            note As5
+            note Fs5
+            note Cs5
+            note Ds5
+            note As5
+            note Gs5
             note Ds6
-            note As6
-            note Gs6
-            note Ds7
-            note Cs7
-            note B7
-            note As7
-            note Fs7
+            note Cs6
             note B6
             note As6
             note Fs6
-            note Cs6
+            note B5
+            note As5
+            note Fs5
+            note Cs5
+            note Ds5
+            note As5
+            note Gs5
             note Ds6
-            note As6
-            note Gs6
-            note Ds7
-            note Cs7
-            note B7
-            note As7
-            note Fs7
+            note Cs6
             note B6
             note As6
             note Fs6
-            note Cs6
+            note B5
+            note As5
+            note Fs5
+            note Cs5
+            note Ds5
+            note As5
+            note Gs5
             note Ds6
-            note As6
-            note Gs6
-            note Ds7
-            note Cs7
-            note B7
-            note As7
-            note Fs7
+            note Cs6
             note B6
             note As6
             note Fs6
-            note Cs6
+            note B5
+            note As5
+            note Fs5
+            note Cs5
       vol 9
-            note Ds6
-            note As6
+            note Ds5
+            note As5
       vol 8
-            note Gs6
-            note Ds7
+            note Gs5
+            note Ds6
       vol 7
-            note Cs7
-            note Gs7
+            note Cs6
+            note Gs6
       vol 6
-            note As7
-            note Fs7
+            note As6
+            note Fs6
       stereo 0c0h
       vol 11
       inst 11
       sustain
-            noteL Ds6, 192
+            noteL Ds5, 192
       vibrato 00h
-            note Ds6
+            note Ds5
       setRelease 1
       vol 2
             waitL 2
@@ -100,78 +100,78 @@ Music_11_Channel_1:
             waitL 58
       inst 10
       vol 8
-            noteL B6, 12
-            note As6
-            note Fs6
-            note Cs6
+            noteL B5, 12
+            note As5
+            note Fs5
+            note Cs5
+            note Ds5
+            note As5
+            note Gs5
             note Ds6
-            note As6
-            note Gs6
-            note Ds7
-            note Cs7
-            note B7
-            note As7
-            note Fs7
+            note Cs6
             note B6
             note As6
             note Fs6
-            note Cs6
+            note B5
+            note As5
+            note Fs5
+            note Cs5
+            note Ds5
+            note As5
+            note Gs5
             note Ds6
-            note As6
-            note Gs6
-            note Ds7
-            note Cs7
-            note B7
-            note As7
-            note Fs7
+            note Cs6
             note B6
             note As6
             note Fs6
-            note Cs6
+            note B5
+            note As5
+            note Fs5
+            note Cs5
+            note Ds5
+            note As5
+            note Gs5
             note Ds6
-            note As6
-            note Gs6
-            note Ds7
-            note Cs7
-            note B7
-            note As7
-            note Fs7
+            note Cs6
             note B6
             note As6
             note Fs6
-            note Cs6
+            note B5
+            note As5
+            note Fs5
+            note Cs5
+            note Ds5
+            note As5
+            note Gs5
             note Ds6
-            note As6
-            note Gs6
-            note Ds7
-            note Cs7
-            note B7
-            note As7
-            note Fs7
+            note Cs6
             note B6
             note As6
+            note Fs6
+            note B5
+            note As5
       vol 9
-            note Fs6
-            note Cs6
+            note Fs5
+            note Cs5
       vol 8
-            note Ds6
-            note As6
+            note Ds5
+            note As5
       vol 7
-            note Gs6
-            note Ds7
+            note Gs5
+            note Ds6
       vol 6
-            note Cs7
-            note Gs7
+            note Cs6
+            note Gs6
       vol 5
-            note As7
-            note Fs7
+            note As6
+            note Fs6
       vibrato 023h
       vol 11
       stereo 080h
       inst 11
       sustain
-            noteL Ds6, 192
-            noteL Ds6, 182
+            noteL Ds5, 192
+            noteL Ds5, 182
       setRelease 1
       vol 2
             waitL 2
@@ -184,60 +184,60 @@ Music_11_Channel_2:
             waitL 48
       inst 12
       vol 9
-            noteL B4, 12
-            note Fs5
-            note B5
-            note As5
-            note Gs5
-            note Ds6
-            note Cs6
-            note As5
-            note Ds6
-            note Cs6
-            note As5
-            note Fs5
+            noteL B3, 12
+            note Fs4
             note B4
-            note Fs5
-            note B5
-            note As5
-            note Gs5
-            note Ds6
-            note Cs6
-            note As5
-            note Ds6
-            note Cs6
-            note As5
-            note Fs5
+            note As4
+            note Gs4
+            note Ds5
+            note Cs5
+            note As4
+            note Ds5
+            note Cs5
+            note As4
+            note Fs4
+            note B3
+            note Fs4
             note B4
-            note Fs5
-            note B5
-            note As5
-            note Gs5
-            note Ds6
-            note Cs6
-            note As5
-            note Ds6
-            note Cs6
-            note As5
-            note Fs5
+            note As4
+            note Gs4
+            note Ds5
+            note Cs5
+            note As4
+            note Ds5
+            note Cs5
+            note As4
+            note Fs4
+            note B3
+            note Fs4
+            note B4
+            note As4
+            note Gs4
+            note Ds5
+            note Cs5
+            note As4
+            note Ds5
+            note Cs5
+            note As4
+            note Fs4
       vol 9
-            note B4
-            note Fs5
+            note B3
+            note Fs4
       vol 8
-            note B5
-            note As5
+            note B4
+            note As4
       vol 7
-            note Gs5
-            note Ds6
+            note Gs4
+            note Ds5
       vol 6
-            note Cs6
-            note As5
+            note Cs5
+            note As4
             waitL 16
       vol 10
       inst 11
       sustain
-            noteL Ds6, 192
-            noteL Ds6, 176
+            noteL Ds5, 192
+            noteL Ds5, 176
       setRelease 1
       vol 2
             waitL 2
@@ -251,62 +251,62 @@ Music_11_Channel_3:
             waitL 58
       inst 12
       vol 7
-            noteL B4, 12
-            note Fs5
-            note B5
-            note As5
-            note Gs5
-            note Ds6
-            note Cs6
-            note As5
-            note Ds6
-            note Cs6
-            note As5
-            note Fs5
+            noteL B3, 12
+            note Fs4
             note B4
-            note Fs5
-            note B5
-            note As5
-            note Gs5
-            note Ds6
-            note Cs6
-            note As5
-            note Ds6
-            note Cs6
-            note As5
-            note Fs5
+            note As4
+            note Gs4
+            note Ds5
+            note Cs5
+            note As4
+            note Ds5
+            note Cs5
+            note As4
+            note Fs4
+            note B3
+            note Fs4
             note B4
-            note Fs5
-            note B5
-            note As5
-            note Gs5
-            note Ds6
-            note Cs6
-            note As5
-            note Ds6
-            note Cs6
+            note As4
+            note Gs4
+            note Ds5
+            note Cs5
+            note As4
+            note Ds5
+            note Cs5
+            note As4
+            note Fs4
+            note B3
+            note Fs4
+            note B4
+            note As4
+            note Gs4
+            note Ds5
+            note Cs5
+            note As4
+            note Ds5
+            note Cs5
       vol 9
-            note As5
-            note Fs5
+            note As4
+            note Fs4
       vol 8
-            note B4
-            note Fs5
+            note B3
+            note Fs4
       vol 7
-            note B5
-            note As5
+            note B4
+            note As4
       vol 6
-            note Gs5
-            note Ds6
+            note Gs4
+            note Ds5
       vol 5
-            note Cs6
-            note As5
+            note Cs5
+            note As4
       stereo 040h
       vibrato 023h
       inst 11
       vol 11
       sustain
-            noteL Ds6, 192
-            noteL Ds6, 182
+            noteL Ds5, 192
+            noteL Ds5, 182
       setRelease 1
       vol 2
             waitL 2
@@ -317,7 +317,7 @@ Music_11_Channel_4:
       vibrato 02ah
       vol 9
       inst 39
-            noteL C6, 96
+            noteL C5, 96
             waitL 48
             wait
       vol 2

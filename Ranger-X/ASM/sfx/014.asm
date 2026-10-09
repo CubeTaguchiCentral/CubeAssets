@@ -8,12 +8,12 @@ Sfx_014_Channel_0:
       vol 12
       vibrato 00h
       setRelease 0
-            noteL C2, 0
+            noteL C1, 0
       setSlide 4
       sustain
-            noteL C7, 192
+            noteL C6, 192
       setRelease 0
-            note C7
+            note C6
       noSlide
     channel_end
 Sfx_014_Channel_1:
@@ -21,12 +21,12 @@ Sfx_014_Channel_1:
       vol 12
       vibrato 00h
       setRelease 0
-            noteL C2, 0
+            noteL C1, 0
       setSlide 5
       sustain
-            noteL C7, 192
+            noteL C6, 192
       setRelease 0
-            note C7
+            note C6
       noSlide
     channel_end
 Sfx_014_Channel_2:

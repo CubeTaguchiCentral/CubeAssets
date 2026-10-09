@@ -10,16 +10,16 @@ Sfx_018_Channel_1:
       vol 13
       setRelease 0
       vibrato 00h
-            noteL C2, 6
-            note D4
+            noteL C1, 6
+            note D3
       vol 10
-            noteL D4, 3
+            noteL D3, 3
       vol 9
-            note D4
+            note D3
       vol 7
-            note D4
+            note D3
       vol 5
-            note D4
+            note D3
       vol 3
-            note D4
+            note D3
     channel_end

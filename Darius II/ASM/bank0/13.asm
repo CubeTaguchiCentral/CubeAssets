@@ -21,51 +21,51 @@ Music_13_Channel_0:
     repeatStart
       vol 12
       inst 9
-            noteL Ds6, 8
-            note Cs6
-            note B5
-            note As5
-            note Cs6
-            noteL B5, 32
-            noteL Gs5, 24
-            noteL As5, 16
-            noteL B5, 8
-            noteL Cs6, 48
-            noteL Fs5, 24
+            noteL Ds5, 8
+            note Cs5
+            note B4
+            note As4
+            note Cs5
+            noteL B4, 32
+            noteL Gs4, 24
+            noteL As4, 16
+            noteL B4, 8
+            noteL Cs5, 48
+            noteL Fs4, 24
     repeatSection1Start
-            noteL Gs5, 16
-            noteL Ds6, 8
-            noteL Ds6, 144
+            noteL Gs4, 16
+            noteL Ds5, 8
+            noteL Ds5, 144
             waitL 24
     repeatEnd
     repeatSection2Start
-            noteL Gs5, 16
-            noteL Fs6, 8
-            noteL Fs6, 144
+            noteL Gs4, 16
+            noteL Fs5, 8
+            noteL Fs5, 144
             waitL 24
     countedLoopStart 1
     repeatStart
-            noteL Ds6, 8
-            note Cs6
-            note B5
-            note As5
-            note Cs6
-            noteL B5, 32
-            noteL Gs5, 24
-            noteL As5, 8
-            note B5
-            noteL Cs6, 56
-            noteL Fs5, 24
+            noteL Ds5, 8
+            note Cs5
+            note B4
+            note As4
+            note Cs5
+            noteL B4, 32
+            noteL Gs4, 24
+            noteL As4, 8
+            note B4
+            noteL Cs5, 56
+            noteL Fs4, 24
     repeatSection1Start
-            noteL Gs5, 8
-            note Ds6
-            noteL Ds6, 152
+            noteL Gs4, 8
+            note Ds5
+            noteL Ds5, 152
             waitL 24
     repeatEnd
     repeatSection2Start
-            noteL Gs5, 8
-            note Fs6
-            noteL Fs6, 152
+            noteL Gs4, 8
+            note Fs5
+            noteL Fs5, 152
             waitL 24
     countedLoopEnd
     channel_end
@@ -77,85 +77,85 @@ Music_13_Channel_1:
             waitL 96
       vol 10
       inst 9
-            noteL As4, 8
-            note B4
-            note Cs5
-            noteL Fs5, 48
-            noteL As4, 24
-            noteL B4, 16
-            noteL Cs5, 8
-            noteL B4, 36
+            noteL As3, 8
+            note B3
+            note Cs4
+            noteL Fs4, 48
+            noteL As3, 24
+            noteL B3, 16
+            noteL Cs4, 8
+            noteL B3, 36
       inst 21
             waitL 12
-            noteL Gs6, 8
-            note As6
-            note B6
-            note Cs7
-            note Gs6
-            noteL As6, 80
+            noteL Gs5, 8
+            note As5
+            note B5
+            note Cs6
+            note Gs5
+            noteL As5, 80
             waitL 24
       inst 9
-            noteL B4, 8
-            note Cs5
-            note Ds5
-            note Fs5
-            note E5
-            note Cs5
-            noteL Gs4, 24
-            noteL Fs4, 16
-            noteL Gs4, 8
-            noteL As4, 48
-            noteL Cs5, 24
-            noteL B4, 16
-            noteL Cs5, 8
-            noteL Ds5, 36
+            noteL B3, 8
+            note Cs4
+            note Ds4
+            note Fs4
+            note E4
+            note Cs4
+            noteL Gs3, 24
+            noteL Fs3, 16
+            noteL Gs3, 8
+            noteL As3, 48
+            noteL Cs4, 24
+            noteL B3, 16
+            noteL Cs4, 8
+            noteL Ds4, 36
       inst 21
             waitL 12
-            noteL Gs6, 8
-            note As6
-            note B6
-            note Cs7
-            note As6
-            noteL B6, 80
+            noteL Gs5, 8
+            note As5
+            note B5
+            note Cs6
+            note As5
+            noteL B5, 80
     countedLoopStart 3
       inst 2
-            noteL Gs3, 6
-            note Fs4
+            noteL Gs2, 6
+            note Fs3
             wait
-            note Ds5
-            wait
-            note Gs3
-            note Fs4
-            wait
-            note Ds5
-            waitL 42
-            noteL E3, 6
-            note Cs4
-            wait
-            note B4
-            waitL 48
-            noteL E3, 6
-            note B4
-            waitL 12
-            noteL Gs3, 6
-            note Fs4
-            wait
-            note Ds5
-            wait
-            note Gs3
-            note Fs4
-            wait
-            note Ds5
-            waitL 42
-            noteL E3, 6
-            note Cs4
-            wait
-            note B4
-            waitL 24
-            noteL Fs3, 6
             note Ds4
             wait
-            note Cs5
+            note Gs2
+            note Fs3
+            wait
+            note Ds4
+            waitL 42
+            noteL E2, 6
+            note Cs3
+            wait
+            note B3
+            waitL 48
+            noteL E2, 6
+            note B3
+            waitL 12
+            noteL Gs2, 6
+            note Fs3
+            wait
+            note Ds4
+            wait
+            note Gs2
+            note Fs3
+            wait
+            note Ds4
+            waitL 42
+            noteL E2, 6
+            note Cs3
+            wait
+            note B3
+            waitL 24
+            noteL Fs2, 6
+            note Ds3
+            wait
+            note Cs4
             waitL 24
     countedLoopEnd
     channel_end
@@ -171,24 +171,24 @@ Music_13_Channel_2:
       vol 10
       inst 2
             waitL 18
-            noteL As4, 6
+            noteL As3, 6
             waitL 24
-            noteL As4, 6
+            noteL As3, 6
             waitL 42
             waitL 18
-            noteL Fs4, 6
+            noteL Fs3, 6
             waitL 54
-            noteL Fs4, 6
+            noteL Fs3, 6
             waitL 12
             waitL 18
-            noteL As4, 6
+            noteL As3, 6
             waitL 24
-            noteL As4, 6
+            noteL As3, 6
             waitL 42
             waitL 18
-            noteL Fs4, 6
+            noteL Fs3, 6
             waitL 42
-            noteL Gs4, 6
+            noteL Gs3, 6
             waitL 24
     countedLoopEnd
     channel_end
@@ -197,52 +197,52 @@ Music_13_Channel_3:
       vol 10
       setRelease 1
       vibrato 02ah
-            noteL Fs3, 18
-            noteL Fs3, 6
-            note Fs3
-            noteL Fs3, 12
-            noteL Fs3, 6
-            note Fs3
-            note Fs3
+            noteL Fs2, 18
+            noteL Fs2, 6
+            note Fs2
+            noteL Fs2, 12
+            noteL Fs2, 6
+            note Fs2
+            note Fs2
             waitL 36
     mainLoopStart
     countedLoopStart 7
-            noteL Fs3, 18
-            noteL Fs3, 6
-            note Fs3
-            noteL Fs3, 12
-            noteL Fs3, 6
-            note Fs3
+            noteL Fs2, 18
+            noteL Fs2, 6
+            note Fs2
+            noteL Fs2, 12
+            noteL Fs2, 6
+            note Fs2
             waitL 42
     countedLoopEnd
     repeatStart
     countedLoopStart 6
       inst 15
-            noteL Fs3, 18
-            noteL Fs3, 6
-            note Fs3
-            noteL Fs3, 12
-            noteL Fs3, 6
-            note Fs3
-            note Fs3
+            noteL Fs2, 18
+            noteL Fs2, 6
+            note Fs2
+            noteL Fs2, 12
+            noteL Fs2, 6
+            note Fs2
+            note Fs2
             waitL 36
     countedLoopEnd
     repeatSection1Start
-            noteL Fs3, 18
-            noteL Fs3, 6
-            note Fs3
-            noteL Fs3, 12
-            noteL Fs3, 6
+            noteL Fs2, 18
+            noteL Fs2, 6
+            note Fs2
+            noteL Fs2, 12
+            noteL Fs2, 6
             waitL 18
       inst 6
-            noteL Fs6, 30
+            noteL Fs5, 30
     repeatEnd
     repeatSection2Start
-            noteL Fs3, 18
-            noteL Fs3, 6
-            note Fs3
-            noteL Fs3, 12
-            noteL Fs3, 6
+            noteL Fs2, 18
+            noteL Fs2, 6
+            note Fs2
+            noteL Fs2, 12
+            noteL Fs2, 6
             waitL 48
     channel_end
 Music_13_Channel_4:
@@ -254,51 +254,51 @@ Music_13_Channel_4:
       vol 9
       shifting 32
       inst 9
-            noteL Ds6, 8
-            note Cs6
-            note B5
-            note As5
-            note Cs6
-            noteL B5, 32
-            noteL Gs5, 24
-            noteL As5, 16
-            noteL B5, 8
-            noteL Cs6, 48
-            noteL Fs5, 24
+            noteL Ds5, 8
+            note Cs5
+            note B4
+            note As4
+            note Cs5
+            noteL B4, 32
+            noteL Gs4, 24
+            noteL As4, 16
+            noteL B4, 8
+            noteL Cs5, 48
+            noteL Fs4, 24
     repeatSection1Start
-            noteL Gs5, 16
-            noteL Ds6, 8
-            noteL Ds6, 144
+            noteL Gs4, 16
+            noteL Ds5, 8
+            noteL Ds5, 144
             waitL 24
     repeatEnd
     repeatSection2Start
-            noteL Gs5, 16
-            noteL Fs6, 8
-            noteL Fs6, 144
+            noteL Gs4, 16
+            noteL Fs5, 8
+            noteL Fs5, 144
             waitL 24
     countedLoopStart 1
     repeatStart
-            noteL Ds6, 8
-            note Cs6
-            note B5
-            note As5
-            note Cs6
-            noteL B5, 32
-            noteL Gs5, 24
-            noteL As5, 8
-            note B5
-            noteL Cs6, 56
-            noteL Fs5, 24
+            noteL Ds5, 8
+            note Cs5
+            note B4
+            note As4
+            note Cs5
+            noteL B4, 32
+            noteL Gs4, 24
+            noteL As4, 8
+            note B4
+            noteL Cs5, 56
+            noteL Fs4, 24
     repeatSection1Start
-            noteL Gs5, 8
-            note Ds6
-            noteL Ds6, 152
+            noteL Gs4, 8
+            note Ds5
+            noteL Ds5, 152
             waitL 24
     repeatEnd
     repeatSection2Start
-            noteL Gs5, 8
-            note Fs6
-            noteL Fs6, 152
+            noteL Gs4, 8
+            note Fs5
+            noteL Fs5, 152
             waitL 24
     countedLoopEnd
     channel_end

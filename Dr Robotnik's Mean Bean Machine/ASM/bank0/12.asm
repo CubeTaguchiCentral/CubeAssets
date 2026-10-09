@@ -20,7 +20,14 @@ Music_12_Channel_0:
       vibrato 02ah
       stereo 0c0h
       shifting 0
-            noteL F4, 4
+            noteL F3, 4
+            note G3
+            note A3
+            note As3
+            note C4
+            note D4
+            note E4
+            note F4
             note G4
             note A4
             note As4
@@ -29,14 +36,7 @@ Music_12_Channel_0:
             note E5
             note F5
             note G5
-            note A5
-            note As5
-            note C6
-            note D6
-            note E6
-            note F6
-            note G6
-            noteL F6, 24
+            noteL F5, 24
     channel_end
 Music_12_Channel_1:
             waitL 18
@@ -46,7 +46,14 @@ Music_12_Channel_1:
       vibrato 02ah
       stereo 0c0h
       shifting 0
-            noteL F4, 4
+            noteL F3, 4
+            note G3
+            note A3
+            note As3
+            note C4
+            note D4
+            note E4
+            note F4
             note G4
             note A4
             note As4
@@ -55,14 +62,7 @@ Music_12_Channel_1:
             note E5
             note F5
             note G5
-            note A5
-            note As5
-            note C6
-            note D6
-            note E6
-            note F6
-            note G6
-            noteL F6, 24
+            noteL F5, 24
     channel_end
 Music_12_Channel_2:
       inst 7
@@ -71,7 +71,14 @@ Music_12_Channel_2:
       vibrato 02ah
       stereo 040h
       shifting 0
-            noteL As3, 4
+            noteL As2, 4
+            note C3
+            note D3
+            note Ds3
+            note F3
+            note G3
+            note A3
+            note As3
             note C4
             note D4
             note Ds4
@@ -80,14 +87,7 @@ Music_12_Channel_2:
             note A4
             note As4
             note C5
-            note D5
-            note Ds5
-            note F5
-            note G5
-            note A5
-            note As5
-            note C6
-            noteL As5, 22
+            noteL As4, 22
     channel_end
 Music_12_Channel_3:
             waitL 18
@@ -97,7 +97,14 @@ Music_12_Channel_3:
       vibrato 02ah
       stereo 040h
       shifting 0
-            noteL As3, 4
+            noteL As2, 4
+            note C3
+            note D3
+            note Ds3
+            note F3
+            note G3
+            note A3
+            note As3
             note C4
             note D4
             note Ds4
@@ -106,14 +113,7 @@ Music_12_Channel_3:
             note A4
             note As4
             note C5
-            note D5
-            note Ds5
-            note F5
-            note G5
-            note A5
-            note As5
-            note C6
-            noteL As5, 22
+            noteL As4, 22
     channel_end
 Music_12_Channel_4:
       inst 7
@@ -122,7 +122,14 @@ Music_12_Channel_4:
       vibrato 02ah
       stereo 080h
       shifting 0
-            noteL B3, 4
+            noteL B2, 4
+            note C3
+            note D3
+            note E3
+            note F3
+            note G3
+            note A3
+            note B3
             note C4
             note D4
             note E4
@@ -131,14 +138,7 @@ Music_12_Channel_4:
             note A4
             note B4
             note C5
-            note D5
-            note E5
-            note F5
-            note G5
-            note A5
-            note B5
-            note C6
-            noteL D6, 22
+            noteL D5, 22
     channel_end
 Music_12_Channel_5:
     channel_end

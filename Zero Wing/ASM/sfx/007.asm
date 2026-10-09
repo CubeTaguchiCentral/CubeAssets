@@ -10,8 +10,8 @@ Sfx_007_Channel_1:
       vol 13
       vibrato 00h
       setRelease 1
-            noteL C8, 0
+            noteL C7, 0
       setSlide 113
-            noteL C2, 32
+            noteL C1, 32
       noSlide
     channel_end

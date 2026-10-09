@@ -12,17 +12,17 @@ Sfx_011_Channel_1:
       vibrato 04fh
       stereo 0c0h
       shifting 0
-            noteL C2, 0
+            noteL C1, 0
       setSlide 126
-            noteL Fs2, 5
+            noteL Fs1, 5
       vol 10
-            note E2
+            note E1
       vol 8
-            note E2
+            note E1
       vol 6
-            note E2
+            note E1
       vol 5
-            note E2
+            note E1
       vol 3
-            note E2
+            note E1
     channel_end

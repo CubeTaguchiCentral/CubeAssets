@@ -11,10 +11,10 @@ Sfx_052_Channel_1:
       setRelease 1
       vibrato 010h
       noSlide
-            noteL E6, 3
+            noteL E5, 3
       sustain
-            noteL F6, 2
+            noteL F5, 2
       setSlide 32
       setRelease 1
-            noteL A7, 24
+            noteL A6, 24
     channel_end

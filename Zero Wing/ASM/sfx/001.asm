@@ -11,11 +11,11 @@ Sfx_001_Channel_1:
       setRelease 0
       vibrato 02ah
       shifting 96
-            noteL C6, 5
+            noteL C5, 5
+            note E5
+            note G5
+            note C6
             note E6
             note G6
-            note C7
-            note E7
-            note G7
-            noteL C8, 15
+            noteL C7, 15
     channel_end

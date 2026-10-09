@@ -16,19 +16,19 @@ Sfx_046_Channel_8:
       psgInst 0eh
       setRelease 0
       vibrato 00h
-            psgNoteL A6, 4
+            psgNoteL A7, 4
       psgInst 0bh
       sustain
-            psgNote E6
+            psgNote E7
       psgInst 09h
-            psgNote E6
+            psgNote E7
       psgInst 07h
-            psgNote E6
+            psgNote E7
       psgInst 05h
-            psgNote E6
+            psgNote E7
       psgInst 03h
-            psgNote E6
+            psgNote E7
       setRelease 1
       psgInst 01h
-            psgNote E6
+            psgNote E7
     channel_end

@@ -10,11 +10,11 @@ Sfx_013_Channel_1:
       vol 12
       setRelease 0
       vibrato 010h
-            noteL Gs8, 2
-            note Gs7
-            note G8
+            noteL Gs7, 2
+            note Gs6
             note G7
-            note Fs8
+            note G6
             note Fs7
-            noteL F7, 60
+            note Fs6
+            noteL F6, 60
     channel_end

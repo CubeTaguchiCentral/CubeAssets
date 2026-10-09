@@ -10,14 +10,14 @@ Sfx_007_Channel_1:
       vol 15
       setRelease 0
       vibrato 00h
-            noteL C2, 6
+            noteL C1, 6
             waitL 12
       vibrato 010h
       inst 59
       vol 13
-            noteL F7, 48
+            noteL F6, 48
             waitL 12
       inst 58
       vol 15
-            noteL A2, 6
+            noteL A1, 6
     channel_end

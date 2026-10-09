@@ -9,9 +9,9 @@ Sfx_019_Channel_0:
       vol 13
       setRelease 1
       vibrato 04ah
-            noteL F2, 0
+            noteL F1, 0
       setSlide 123
-            noteL A3, 57
+            noteL A2, 57
       noSlide
             waitL 34
     mainLoopEnd

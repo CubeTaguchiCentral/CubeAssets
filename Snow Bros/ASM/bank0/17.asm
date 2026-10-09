@@ -18,46 +18,46 @@ Music_17_Channel_0:
       vol 13
       setRelease 1
       vibrato 02ah
-            noteL G4, 20
-            noteL E5, 40
-            noteL D5, 7
+            noteL G3, 20
+            noteL E4, 40
+            noteL D4, 7
             waitL 3
-            noteL C5, 7
+            noteL C4, 7
             waitL 3
-            noteL D5, 40
-            noteL C5, 7
+            noteL D4, 40
+            noteL C4, 7
             waitL 3
-            noteL B4, 7
+            noteL B3, 7
             waitL 3
-            noteL C5, 20
-            noteL D5, 5
+            noteL C4, 20
+            noteL D4, 5
             waitL 15
-            noteL G4, 80
-            noteL E5, 40
-            noteL D5, 7
+            noteL G3, 80
+            noteL E4, 40
+            noteL D4, 7
             waitL 3
-            noteL C5, 7
+            noteL C4, 7
             waitL 3
-            noteL D5, 40
-            noteL C5, 7
+            noteL D4, 40
+            noteL C4, 7
             waitL 3
-            noteL B4, 7
+            noteL B3, 7
             waitL 3
-            noteL C5, 20
-            noteL D5, 7
+            noteL C4, 20
+            noteL D4, 7
             waitL 13
-            noteL G5, 30
-            noteL G4, 10
-            note As4
-            note C5
-            note D5
-            note E5
-            noteL F5, 40
-            noteL F5, 10
-            note A5
-            noteL F5, 40
-            noteL C6, 20
-            noteL Gs5, 180
+            noteL G4, 30
+            noteL G3, 10
+            note As3
+            note C4
+            note D4
+            note E4
+            noteL F4, 40
+            noteL F4, 10
+            note A4
+            noteL F4, 40
+            noteL C5, 20
+            noteL Gs4, 180
     channel_end
 Music_17_Channel_1:
       inst 4
@@ -67,55 +67,55 @@ Music_17_Channel_1:
       stereo 040h
             waitL 20
             wait
-            noteL G5, 8
+            noteL G4, 8
             waitL 12
-            noteL G5, 8
-            waitL 12
-            waitL 20
-            noteL A5, 8
-            waitL 12
-            noteL A5, 8
+            noteL G4, 8
             waitL 12
             waitL 20
-            noteL G5, 8
+            noteL A4, 8
             waitL 12
-            noteL G5, 8
+            noteL A4, 8
             waitL 12
             waitL 20
-            noteL G5, 10
-            note D6
-            noteL G5, 20
+            noteL G4, 8
+            waitL 12
+            noteL G4, 8
+            waitL 12
+            waitL 20
+            noteL G4, 10
+            note D5
+            noteL G4, 20
             wait
-            noteL G5, 8
+            noteL G4, 8
             waitL 12
-            noteL G5, 8
-            waitL 12
-            waitL 20
-            noteL A5, 8
-            waitL 12
-            noteL A5, 8
+            noteL G4, 8
             waitL 12
             waitL 20
-            noteL G5, 8
+            noteL A4, 8
             waitL 12
-            noteL G5, 8
-            waitL 12
-            waitL 20
-            noteL G5, 8
-            waitL 12
-            noteL G5, 8
+            noteL A4, 8
             waitL 12
             waitL 20
-            noteL F5, 8
+            noteL G4, 8
             waitL 12
-            noteL F5, 8
+            noteL G4, 8
             waitL 12
             waitL 20
-            noteL Gs5, 8
+            noteL G4, 8
             waitL 12
-            noteL Gs5, 8
+            noteL G4, 8
             waitL 12
-            noteL Gs5, 180
+            waitL 20
+            noteL F4, 8
+            waitL 12
+            noteL F4, 8
+            waitL 12
+            waitL 20
+            noteL Gs4, 8
+            waitL 12
+            noteL Gs4, 8
+            waitL 12
+            noteL Gs4, 180
     channel_end
 Music_17_Channel_2:
       inst 26
@@ -123,53 +123,53 @@ Music_17_Channel_2:
       setRelease 1
       vibrato 02ah
             waitL 20
-            note C4
-            noteL C4, 5
+            note C3
+            noteL C3, 5
             waitL 15
-            noteL G3, 10
-            note C4
-            noteL D4, 20
-            noteL A4, 7
+            noteL G2, 10
+            note C3
+            noteL D3, 20
+            noteL A3, 7
             waitL 13
-            noteL D5, 10
-            note D4
-            noteL G3, 30
+            noteL D4, 10
+            note D3
+            noteL G2, 30
             waitL 10
-            noteL G3, 20
-            note G3
-            noteL G3, 10
-            note D4
-            noteL G3, 20
-            note C4
-            noteL C4, 5
+            noteL G2, 20
+            note G2
+            noteL G2, 10
+            note D3
+            noteL G2, 20
+            note C3
+            noteL C3, 5
             waitL 15
-            noteL G3, 10
-            note C4
-            noteL D4, 20
-            noteL A4, 7
+            noteL G2, 10
+            note C3
+            noteL D3, 20
+            noteL A3, 7
             waitL 13
-            noteL D5, 10
-            note D4
-            noteL G3, 30
+            noteL D4, 10
+            note D3
+            noteL G2, 30
             waitL 10
-            noteL G3, 20
-            noteL C4, 10
-            note As3
-            note G3
-            note As3
-            note E3
-            note As3
-            noteL F3, 30
+            noteL G2, 20
+            noteL C3, 10
+            note As2
+            note G2
+            note As2
+            note E2
+            note As2
+            noteL F2, 30
             waitL 10
-            noteL F3, 20
-            noteL F3, 30
+            noteL F2, 20
+            noteL F2, 30
             waitL 10
-            noteL F3, 20
-            noteL F3, 33
-            noteL Gs3, 13
-            note B3
-            note D4
-            noteL F4, 107
+            noteL F2, 20
+            noteL F2, 33
+            noteL Gs2, 13
+            note B2
+            note D3
+            noteL F3, 107
     channel_end
 Music_17_Channel_3:
       inst 4
@@ -179,55 +179,55 @@ Music_17_Channel_3:
       stereo 080h
             waitL 20
             wait
-            noteL E5, 8
+            noteL E4, 8
             waitL 12
-            noteL E5, 8
-            waitL 12
-            waitL 20
-            noteL D5, 8
-            waitL 12
-            noteL D5, 8
+            noteL E4, 8
             waitL 12
             waitL 20
-            noteL D5, 8
+            noteL D4, 8
             waitL 12
-            noteL D5, 8
+            noteL D4, 8
             waitL 12
             waitL 20
-            noteL D5, 10
-            note G5
-            noteL D5, 20
+            noteL D4, 8
+            waitL 12
+            noteL D4, 8
+            waitL 12
+            waitL 20
+            noteL D4, 10
+            note G4
+            noteL D4, 20
             wait
-            noteL E5, 8
+            noteL E4, 8
             waitL 12
-            noteL E5, 8
-            waitL 12
-            waitL 20
-            noteL D5, 8
-            waitL 12
-            noteL D5, 8
+            noteL E4, 8
             waitL 12
             waitL 20
-            noteL D5, 8
+            noteL D4, 8
             waitL 12
-            noteL D5, 8
-            waitL 12
-            waitL 20
-            noteL As4, 8
-            waitL 12
-            noteL As4, 8
+            noteL D4, 8
             waitL 12
             waitL 20
-            noteL C5, 8
+            noteL D4, 8
             waitL 12
-            noteL C5, 8
+            noteL D4, 8
             waitL 12
             waitL 20
-            noteL F5, 8
+            noteL As3, 8
             waitL 12
-            noteL F5, 8
+            noteL As3, 8
             waitL 12
-            noteL F5, 180
+            waitL 20
+            noteL C4, 8
+            waitL 12
+            noteL C4, 8
+            waitL 12
+            waitL 20
+            noteL F4, 8
+            waitL 12
+            noteL F4, 8
+            waitL 12
+            noteL F4, 180
     channel_end
 Music_17_Channel_4:
             waitL 13
@@ -235,46 +235,46 @@ Music_17_Channel_4:
       vol 10
       setRelease 1
       vibrato 02ah
-            noteL G4, 20
-            noteL E5, 40
-            noteL D5, 7
+            noteL G3, 20
+            noteL E4, 40
+            noteL D4, 7
             waitL 3
-            noteL C5, 7
+            noteL C4, 7
             waitL 3
-            noteL D5, 40
-            noteL C5, 7
+            noteL D4, 40
+            noteL C4, 7
             waitL 3
-            noteL B4, 7
+            noteL B3, 7
             waitL 3
-            noteL C5, 20
-            noteL D5, 5
+            noteL C4, 20
+            noteL D4, 5
             waitL 15
-            noteL G4, 80
-            noteL E5, 40
-            noteL D5, 7
+            noteL G3, 80
+            noteL E4, 40
+            noteL D4, 7
             waitL 3
-            noteL C5, 7
+            noteL C4, 7
             waitL 3
-            noteL D5, 40
-            noteL C5, 7
+            noteL D4, 40
+            noteL C4, 7
             waitL 3
-            noteL B4, 7
+            noteL B3, 7
             waitL 3
-            noteL C5, 20
-            noteL D5, 7
+            noteL C4, 20
+            noteL D4, 7
             waitL 13
-            noteL G5, 30
-            noteL G4, 10
-            note As4
-            note C5
-            note D5
-            note E5
-            noteL F5, 40
-            noteL F5, 10
-            note A5
-            noteL F5, 40
-            noteL C6, 20
-            noteL Gs5, 180
+            noteL G4, 30
+            noteL G3, 10
+            note As3
+            note C4
+            note D4
+            note E4
+            noteL F4, 40
+            noteL F4, 10
+            note A4
+            noteL F4, 40
+            noteL C5, 20
+            noteL Gs4, 180
     channel_end
 Music_17_Channel_5:
             waitL 20
@@ -321,53 +321,57 @@ Music_17_Channel_6:
             waitL 20
             waitL 10
       psgInst 09h
-            psgNote E4
-            psgNote G4
-            psgNote B4
-            psgNoteL C5, 20
-            psgNoteL A5, 60
-            psgNoteL G5, 70
-            psgNoteL G4, 10
-            psgNote B4
-            psgNote D5
-            psgNoteL G5, 20
-            waitL 10
-            psgNote E4
-            psgNote G4
-            psgNote B4
-            psgNoteL C5, 20
-            psgNoteL Fs5, 60
+            psgNote E5
             psgNote G5
-            psgNoteL E5, 20
-            psgNote C5
-            psgNote G4
+            psgNote B5
+            psgNoteL C6, 20
+            psgNoteL A6, 60
+            psgNoteL G6, 70
+            psgNoteL G5, 10
+            psgNote B5
+            psgNote D6
+            psgNoteL G6, 20
             waitL 10
-            psgNoteL A4, 3
-            wait
-            psgNote C5
-            wait
-            psgNote F5
-            waitL 7
-            psgNoteL C5, 3
-            waitL 7
+            psgNote E5
+            psgNote G5
+            psgNote B5
+            psgNoteL C6, 20
+            psgNoteL Fs6, 60
+            psgNote G6
+            psgNoteL E6, 20
+            psgNote C6
+            psgNote G5
+            waitL 10
             psgNoteL A5, 3
+            wait
+            psgNote C6
+            wait
+            psgNote F6
             waitL 7
-            psgNoteL F5, 3
+            psgNoteL C6, 3
+            waitL 7
+            psgNoteL A6, 3
+            waitL 7
+            psgNoteL F6, 3
             waitL 7
             waitL 10
-            psgNoteL Gs4, 3
-            wait
-            psgNote C5
-            wait
-            psgNote F5
-            waitL 7
-            psgNoteL C5, 3
-            waitL 7
             psgNoteL Gs5, 3
+            wait
+            psgNote C6
+            wait
+            psgNote F6
             waitL 7
-            psgNoteL F5, 5
-            psgNote C5
-            psgNoteL B5, 3
+            psgNoteL C6, 3
+            waitL 7
+            psgNoteL Gs6, 3
+            waitL 7
+            psgNoteL F6, 5
+            psgNote C6
+            psgNoteL B6, 3
+            psgNote Gs6
+            psgNote F6
+            psgNote D6
+            psgNote B5
             psgNote Gs5
             psgNote F5
             psgNote D5
@@ -375,34 +379,30 @@ Music_17_Channel_6:
             psgNote Gs4
             psgNote F4
             psgNote D4
-            psgNote B3
-            psgNote Gs3
-            psgNote F3
-            psgNote D3
-            psgNote F3
-            psgNote Gs3
-            psgNote B3
-            psgNote D4
             psgNote F4
             psgNote Gs4
             psgNote B4
             psgNote D5
-            psgNote F5
-            psgNote Gs5
-            psgNoteL B5, 4
-            psgNoteL F5, 3
-            psgNote Gs5
-            psgNoteL B5, 2
-            waitL 3
-      psgInst 07h
-            psgNote F5
-            psgNote Gs5
-            psgNoteL B5, 2
-            waitL 3
-      psgInst 06h
             psgNote F5
             psgNote Gs5
             psgNote B5
+            psgNote D6
+            psgNote F6
+            psgNote Gs6
+            psgNoteL B6, 4
+            psgNoteL F6, 3
+            psgNote Gs6
+            psgNoteL B6, 2
+            waitL 3
+      psgInst 07h
+            psgNote F6
+            psgNote Gs6
+            psgNoteL B6, 2
+            waitL 3
+      psgInst 06h
+            psgNote F6
+            psgNote Gs6
+            psgNote B6
     channel_end
 Music_17_Channel_7:
       psgInst 00h
@@ -412,53 +412,57 @@ Music_17_Channel_7:
             waitL 20
             waitL 10
       psgInst 07h
-            psgNote E4
-            psgNote G4
-            psgNote B4
-            psgNoteL C5, 20
-            psgNoteL A5, 60
-            psgNoteL G5, 70
-            psgNoteL G4, 10
-            psgNote B4
-            psgNote D5
-            psgNoteL G5, 20
-            waitL 10
-            psgNote E4
-            psgNote G4
-            psgNote B4
-            psgNoteL C5, 20
-            psgNoteL Fs5, 60
+            psgNote E5
             psgNote G5
-            psgNoteL E5, 20
-            psgNote C5
-            psgNote G4
+            psgNote B5
+            psgNoteL C6, 20
+            psgNoteL A6, 60
+            psgNoteL G6, 70
+            psgNoteL G5, 10
+            psgNote B5
+            psgNote D6
+            psgNoteL G6, 20
             waitL 10
-            psgNoteL A4, 3
-            wait
-            psgNote C5
-            wait
-            psgNote F5
-            waitL 7
-            psgNoteL C5, 3
-            waitL 7
+            psgNote E5
+            psgNote G5
+            psgNote B5
+            psgNoteL C6, 20
+            psgNoteL Fs6, 60
+            psgNote G6
+            psgNoteL E6, 20
+            psgNote C6
+            psgNote G5
+            waitL 10
             psgNoteL A5, 3
+            wait
+            psgNote C6
+            wait
+            psgNote F6
             waitL 7
-            psgNoteL F5, 3
+            psgNoteL C6, 3
+            waitL 7
+            psgNoteL A6, 3
+            waitL 7
+            psgNoteL F6, 3
             waitL 7
             waitL 10
-            psgNoteL Gs4, 3
-            wait
-            psgNote C5
-            wait
-            psgNote F5
-            waitL 7
-            psgNoteL C5, 3
-            waitL 7
             psgNoteL Gs5, 3
+            wait
+            psgNote C6
+            wait
+            psgNote F6
             waitL 7
-            psgNoteL F5, 5
-            psgNote C5
-            psgNoteL B5, 3
+            psgNoteL C6, 3
+            waitL 7
+            psgNoteL Gs6, 3
+            waitL 7
+            psgNoteL F6, 5
+            psgNote C6
+            psgNoteL B6, 3
+            psgNote Gs6
+            psgNote F6
+            psgNote D6
+            psgNote B5
             psgNote Gs5
             psgNote F5
             psgNote D5
@@ -466,34 +470,30 @@ Music_17_Channel_7:
             psgNote Gs4
             psgNote F4
             psgNote D4
-            psgNote B3
-            psgNote Gs3
-            psgNote F3
-            psgNote D3
-            psgNote F3
-            psgNote Gs3
-            psgNote B3
-            psgNote D4
             psgNote F4
             psgNote Gs4
             psgNote B4
             psgNote D5
-            psgNote F5
-            psgNote Gs5
-            psgNoteL B5, 4
-            psgNoteL F5, 3
-            psgNote Gs5
-            psgNoteL B5, 2
-            waitL 3
-      psgInst 07h
-            psgNote F5
-            psgNote Gs5
-            psgNoteL B5, 2
-            waitL 3
-      psgInst 06h
             psgNote F5
             psgNote Gs5
             psgNote B5
+            psgNote D6
+            psgNote F6
+            psgNote Gs6
+            psgNoteL B6, 4
+            psgNoteL F6, 3
+            psgNote Gs6
+            psgNoteL B6, 2
+            waitL 3
+      psgInst 07h
+            psgNote F6
+            psgNote Gs6
+            psgNoteL B6, 2
+            waitL 3
+      psgInst 06h
+            psgNote F6
+            psgNote Gs6
+            psgNote B6
     channel_end
 Music_17_Channel_8:
     channel_end

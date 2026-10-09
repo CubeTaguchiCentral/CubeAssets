@@ -8,7 +8,7 @@ Sfx_093_Channel_0:
       vol 14
       setRelease 0
       vibrato 00h
-            noteL A7, 48
+            noteL A6, 48
             wait
     channel_end
 Sfx_093_Channel_1:
@@ -16,7 +16,7 @@ Sfx_093_Channel_1:
       vol 14
       setRelease 0
       vibrato 00h
-            noteL G7, 48
+            noteL G6, 48
             wait
     channel_end
 Sfx_093_Channel_2:

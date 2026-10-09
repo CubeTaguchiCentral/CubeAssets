@@ -12,11 +12,11 @@ Sfx_019_Channel_1:
       vibrato 04ah
       stereo 0c0h
       shifting 0
-            noteL C2, 17
+            noteL C1, 17
       vol 10
-            noteL C2, 5
+            noteL C1, 5
       vol 8
-            note C2
+            note C1
       vol 7
-            note C2
+            note C1
     channel_end

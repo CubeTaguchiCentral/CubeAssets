@@ -9,11 +9,11 @@ Sfx_009_Channel_0:
       setRelease 1
       vibrato 04ah
       sustain
-            noteL F4, 0
+            noteL F3, 0
       setSlide 1
       setRelease 0
     mainLoopStart
-            noteL As6, 59
+            noteL As5, 59
     mainLoopEnd
 Sfx_009_Channel_1:
     channel_end

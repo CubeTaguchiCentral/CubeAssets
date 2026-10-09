@@ -9,5 +9,5 @@ Sfx_001_Channel_1:
       inst 78
       vol 12
       vibrato 0d1h
-            noteL G3, 12
+            noteL G2, 12
     channel_end

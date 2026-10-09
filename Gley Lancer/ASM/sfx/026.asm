@@ -12,20 +12,20 @@ Sfx_026_Channel_1:
       vibrato 04ah
       stereo 0c0h
       shifting 0
-            noteL D6, 1
-            note F4
-            note C6
-            note C8
-            note D4
-            note C8
+            noteL D5, 1
+            note F3
+            note C5
+            note C7
+            note D3
+            note C7
       setRelease 1
-            noteL E6, 4
+            noteL E5, 4
       vol 8
-            noteL E6, 5
+            noteL E5, 5
             waitL 3
       vol 6
-            noteL E6, 5
+            noteL E5, 5
             waitL 3
       vol 3
-            noteL E6, 5
+            noteL E5, 5
     channel_end

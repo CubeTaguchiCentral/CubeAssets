@@ -19,17 +19,17 @@ Music_16_Channel_0:
       vol 12
       setRelease 1
       vibrato 05ah
-            noteL C6, 18
-            noteL B5, 3
+            noteL C5, 18
+            noteL B4, 3
             wait
-            noteL C6, 4
+            noteL C5, 4
             waitL 8
-            noteL D6, 4
+            noteL D5, 4
             waitL 8
-            noteL E6, 6
-            note G5
-            note C6
-            noteL E6, 30
+            noteL E5, 6
+            note G4
+            note C5
+            noteL E5, 30
     channel_end
 Music_16_Channel_1:
       stereo 080h
@@ -38,17 +38,17 @@ Music_16_Channel_1:
       vol 7
       setRelease 1
       vibrato 05ah
-            noteL C6, 18
-            noteL B5, 3
+            noteL C5, 18
+            noteL B4, 3
             wait
-            noteL C6, 4
+            noteL C5, 4
             waitL 8
-            noteL D6, 4
+            noteL D5, 4
             waitL 8
-            noteL E6, 6
-            note G5
-            note C6
-            noteL E6, 30
+            noteL E5, 6
+            note G4
+            note C5
+            noteL E5, 30
     channel_end
 Music_16_Channel_2:
       stereo 040h
@@ -57,17 +57,17 @@ Music_16_Channel_2:
       vol 4
       setRelease 1
       vibrato 05ah
-            noteL C6, 18
-            noteL B5, 3
+            noteL C5, 18
+            noteL B4, 3
             wait
-            noteL C6, 4
+            noteL C5, 4
             waitL 8
-            noteL D6, 4
+            noteL D5, 4
             waitL 8
-            noteL E6, 6
-            note G5
-            note C6
-            noteL E6, 30
+            noteL E5, 6
+            note G4
+            note C5
+            noteL E5, 30
     channel_end
 Music_16_Channel_3:
       stereo 0c0h
@@ -76,17 +76,17 @@ Music_16_Channel_3:
       vol 8
       setRelease 1
       vibrato 05ah
-            noteL C6, 18
-            noteL B5, 3
+            noteL C5, 18
+            noteL B4, 3
             wait
-            noteL C6, 4
+            noteL C5, 4
             waitL 8
-            noteL D6, 4
+            noteL D5, 4
             waitL 8
-            noteL E6, 6
-            note G5
-            note C6
-            noteL E6, 30
+            noteL E5, 6
+            note G4
+            note C5
+            noteL E5, 30
     channel_end
 Music_16_Channel_4:
     channel_end

@@ -8,20 +8,20 @@ Sfx_010_Channel_0:
       sustain
       inst 75
       vol 14
-            noteL C3, 0
+            noteL C2, 0
       setSlide 96
-            noteL E7, 12
+            noteL E6, 12
       noSlide
-            noteL C3, 0
+            noteL C2, 0
       setSlide 96
-            noteL E7, 4
+            noteL E6, 4
       noSlide
-            noteL C3, 0
+            noteL C2, 0
       setSlide 80
-            noteL E7, 24
+            noteL E6, 24
       setSlide 94
       setRelease 1
-            noteL C2, 10
+            noteL C1, 10
       vol 0
       noSlide
     channel_end
@@ -33,21 +33,21 @@ Sfx_010_Channel_1:
       sustain
       inst 75
       vol 9
-            noteL C3, 0
+            noteL C2, 0
       setSlide 96
-            noteL E7, 7
+            noteL E6, 7
       noSlide
-            noteL C3, 0
+            noteL C2, 0
       setSlide 96
-            noteL E7, 6
+            noteL E6, 6
       noSlide
       stereo 080h
-            noteL C3, 0
+            noteL C2, 0
       setSlide 80
-            noteL E7, 25
+            noteL E6, 25
       setSlide 94
       setRelease 1
-            noteL C2, 4
+            noteL C1, 4
       vol 0
       noSlide
     channel_end

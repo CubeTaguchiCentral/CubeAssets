@@ -11,15 +11,15 @@ Sfx_015_Channel_1:
       setRelease 0
       vibrato 00h
       sustain
-            noteL C2, 1
-            note C3
+            noteL C1, 1
+            note C2
+            note C4
             note C5
-            note C6
       setRelease 1
-            note C7
-            noteL C8, 0
+            note C6
+            noteL C7, 0
       setSlide 25
-            noteL C2, 90
+            noteL C1, 90
       noSlide
-            noteL C2, 1
+            noteL C1, 1
     channel_end

@@ -10,23 +10,23 @@ Sfx_023_Channel_1:
       vibrato 0d0h
       setRelease 8
       vol 13
-            noteL C3, 2
+            noteL C2, 2
       vol 14
-            note D3
-            note E3
+            note D2
+            note E2
       vol 15
       setRelease 1
-            noteL C3, 3
+            noteL C2, 3
       vibrato 0e0h
       inst 35
       sustain
       vol 15
-            noteL F8, 5
+            noteL F7, 5
       vol 14
-            note G8
+            note G7
       vol 13
-            noteL As8, 6
+            noteL As7, 6
       vol 12
       setRelease 1
-            noteL C0, 10
+            noteL C8, 10
     channel_end

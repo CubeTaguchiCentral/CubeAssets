@@ -19,16 +19,16 @@ Music_16_Channel_0:
       setRelease 1
       vibrato 02ah
       stereo 0c0h
-            noteL E4, 16
-            note As3
-            note B3
-            noteL G3, 144
-            noteL As3, 32
-            note B3
-            noteL C4, 16
-            note Gs3
-            note A3
-            noteL F3, 255
+            noteL E3, 16
+            note As2
+            note B2
+            noteL G2, 144
+            noteL As2, 32
+            note B2
+            noteL C3, 16
+            note Gs2
+            note A2
+            noteL F2, 255
     channel_end
 Music_16_Channel_1:
       inst 5
@@ -36,11 +36,11 @@ Music_16_Channel_1:
       setRelease 1
       vibrato 02ah
       stereo 040h
-            noteL G5, 255
+            noteL G4, 255
       sustain
-            note Fs5
+            note Fs4
       setRelease 1
-            noteL Fs5, 64
+            noteL Fs4, 64
             wait
     channel_end
 Music_16_Channel_2:
@@ -49,11 +49,11 @@ Music_16_Channel_2:
       setRelease 1
       vibrato 02ah
       stereo 080h
-            noteL As4, 255
+            noteL As3, 255
       sustain
-            note A4
+            note A3
       setRelease 1
-            noteL A4, 64
+            noteL A3, 64
             wait
     channel_end
 Music_16_Channel_3:
@@ -63,16 +63,16 @@ Music_16_Channel_3:
       setRelease 1
       vibrato 02ah
       stereo 0c0h
-            noteL E4, 16
-            note As3
-            note B3
-            noteL G3, 144
-            noteL As3, 32
-            note B3
-            noteL C4, 16
-            note Gs3
-            note A3
-            noteL F3, 255
+            noteL E3, 16
+            note As2
+            note B2
+            noteL G2, 144
+            noteL As2, 32
+            note B2
+            noteL C3, 16
+            note Gs2
+            note A2
+            noteL F2, 255
     channel_end
 Music_16_Channel_4:
             waitL 21
@@ -81,11 +81,11 @@ Music_16_Channel_4:
       setRelease 1
       vibrato 02ah
       stereo 0c0h
-            noteL G5, 255
+            noteL G4, 255
       sustain
-            note Fs5
+            note Fs4
       setRelease 1
-            noteL Fs5, 64
+            noteL Fs4, 64
             wait
     channel_end
 Music_16_Channel_5:

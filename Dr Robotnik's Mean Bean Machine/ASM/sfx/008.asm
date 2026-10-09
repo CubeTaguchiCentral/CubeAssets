@@ -9,7 +9,7 @@ Sfx_008_Channel_1:
       noSlide
       inst 59
       vol 0
-            noteL C2, 1
+            noteL C1, 1
       inst 117
       vol 14
       setRelease 1
@@ -19,19 +19,19 @@ Sfx_008_Channel_1:
     repeatStart
       sustain
       noSlide
-            noteL F2, 1
+            noteL F1, 1
       setSlide 126
-            note As5
+            note As4
       noSlide
-            note Cs5
-            note Fs4
             note Cs4
-            note As3
             note Fs3
+            note Cs3
             note As2
-            note Cs2
-      setRelease 1
             note Fs2
+            note As1
+            note Cs1
+      setRelease 1
+            note Fs1
     repeatSection1Start
       vol 13
     repeatEnd
@@ -42,17 +42,17 @@ Sfx_008_Channel_1:
       vol 9
       sustain
       noSlide
-            noteL F2, 1
+            noteL F1, 1
       setSlide 126
-            note As5
+            note As4
       noSlide
-            note Cs5
-            note Fs4
             note Cs4
-            note As3
             note Fs3
+            note Cs3
             note As2
-            note Cs2
-      setRelease 1
             note Fs2
+            note As1
+            note Cs1
+      setRelease 1
+            note Fs1
     channel_end

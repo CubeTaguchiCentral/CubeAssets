@@ -16,7 +16,7 @@ Sfx_037_Channel_9:
       psgInst 07dh
       setRelease 0
     repeatStart
-            psgNoteL C0, 2
-            psgNote Fs0
+            psgNoteL 05h, 2
+            psgNote 06h
     repeatEnd
     channel_end

@@ -23,264 +23,264 @@ Music_11_Channel_0:
       vol 10
       setRelease 1
       vibrato 05ah
-            noteL A5, 12
-            note A5
-            waitL 36
-      sustain
-            noteL A5, 6
-            note B5
-      setRelease 1
-            note A5
-            note G5
-            noteL E5, 12
-            note C6
-            note C6
-            waitL 36
-      sustain
-            noteL C6, 6
-            note D6
-      setRelease 1
-            note C6
-            note B5
-            noteL A5, 12
-            note D6
-            note D6
-            waitL 36
-      sustain
-            noteL D6, 6
-            note E6
-      setRelease 1
-            note D6
-            note C6
-            noteL B5, 12
-            note E6
-            note E6
-            waitL 36
-    repeatStart
-      sustain
-            noteL E6, 6
-            note F6
-      setRelease 1
-            note E6
-            note D6
-            noteL B5, 12
-            noteL E5, 18
-            note D5
-            noteL C5, 12
+            noteL A4, 12
             note A4
-      sustain
-            noteL A5, 6
-            note B5
-      setRelease 1
-            note A5
-            note G5
-            noteL E5, 12
-            noteL E5, 18
-            note D5
-            noteL C5, 12
-            note G5
-      sustain
-            noteL C6, 6
-            note D6
-      setRelease 1
-            note C6
-            note B5
-            noteL A5, 12
-            noteL E5, 18
-            note D5
-            noteL E5, 12
-            note Fs5
-      sustain
-            noteL D6, 6
-            note E6
-      setRelease 1
-            note D6
-            note C6
-            noteL B5, 12
-    repeatSection1Start
-            noteL E5, 18
-            note D5
-            noteL Fs5, 12
-            note Gs5
-    repeatEnd
-    repeatSection2Start
-            note E5
-      sustain
-            noteL E6, 6
-            note F6
-      setRelease 1
-            note E6
-            note D6
-            noteL B5, 12
-      sustain
-            noteL B5, 6
-            note C6
-      setRelease 1
-            note B5
-            note A5
-            noteL Gs5, 12
-            note E5
-    repeatStart
-            noteL A5, 6
-            noteL A6, 12
-            noteL G5, 6
-            waitL 12
-            noteL E5, 6
-            note G5
-            noteL A5, 12
-            noteL C6, 6
-            noteL A5, 12
-            noteL A5, 6
-            noteL D6, 0
-      setSlide 9
-            noteL E6, 60
-      noSlide
-            noteL D6, 12
-            noteL E6, 6
-            noteL C6, 12
-            noteL C6, 6
-            noteL B5, 12
-            noteL A5, 6
-            noteL A6, 12
-            noteL G5, 6
-            waitL 12
-            noteL E5, 6
-            note G5
-            noteL A5, 12
-            noteL C6, 6
-            noteL A5, 12
-            noteL A5, 6
-            noteL C6, 24
-    repeatSection1Start
-            noteL B5, 6
-            noteL D6, 12
-            noteL E6, 6
-            noteL B5, 12
-            note D6
-            note E6
-            note Fs6
-            note Gs6
-    repeatEnd
-    repeatSection2Start
-            noteL D6, 12
-            noteL C6, 6
-            noteL D6, 12
-            noteL E6, 6
-            noteL F6, 12
-            noteL E6, 6
-            note D6
-            noteL Gs6, 12
-            noteL E6, 6
-            note B5
-    repeatStart
-      sustain
-            noteL G5, 2
-            note Gs5
-      setRelease 1
-            noteL A5, 14
-            noteL A5, 18
-            noteL E5, 12
-            note G5
-            noteL A5, 6
-            note A5
             waitL 36
-            noteL A5, 6
-            wait
-            noteL G5, 12
-            noteL A5, 10
       sustain
-            noteL D6, 2
+            noteL A4, 6
+            note B4
       setRelease 1
-            noteL E6, 12
-            noteL D6, 6
-            noteL C6, 12
-            noteL B5, 18
+            note A4
+            note G4
+            noteL E4, 12
+            note C5
+            note C5
+            waitL 36
       sustain
-            noteL G5, 2
-            note Gs5
+            noteL C5, 6
+            note D5
       setRelease 1
-            noteL A5, 14
-            noteL A5, 18
-            noteL G5, 24
-            noteL G5, 6
-            note B5
-            waitL 24
-            noteL A5, 18
-            note G5
+            note C5
+            note B4
+            noteL A4, 12
+            note D5
+            note D5
+            waitL 36
+      sustain
+            noteL D5, 6
+            note E5
+      setRelease 1
+            note D5
+            note C5
+            noteL B4, 12
+            note E5
+            note E5
+            waitL 36
+    repeatStart
+      sustain
+            noteL E5, 6
+            note F5
+      setRelease 1
+            note E5
+            note D5
+            noteL B4, 12
+            noteL E4, 18
+            note D4
+            noteL C4, 12
+            note A3
+      sustain
+            noteL A4, 6
+            note B4
+      setRelease 1
+            note A4
+            note G4
+            noteL E4, 12
+            noteL E4, 18
+            note D4
+            noteL C4, 12
+            note G4
+      sustain
+            noteL C5, 6
+            note D5
+      setRelease 1
+            note C5
+            note B4
+            noteL A4, 12
+            noteL E4, 18
+            note D4
+            noteL E4, 12
+            note Fs4
+      sustain
+            noteL D5, 6
+            note E5
+      setRelease 1
+            note D5
+            note C5
+            noteL B4, 12
+    repeatSection1Start
+            noteL E4, 18
+            note D4
+            noteL Fs4, 12
+            note Gs4
+    repeatEnd
+    repeatSection2Start
+            note E4
+      sustain
+            noteL E5, 6
+            note F5
+      setRelease 1
+            note E5
+            note D5
+            noteL B4, 12
+      sustain
+            noteL B4, 6
+            note C5
+      setRelease 1
+            note B4
+            note A4
+            noteL Gs4, 12
+            note E4
+    repeatStart
+            noteL A4, 6
             noteL A5, 12
-            note B5
-            noteL B5, 6
-            note C6
+            noteL G4, 6
+            waitL 12
+            noteL E4, 6
+            note G4
+            noteL A4, 12
+            noteL C5, 6
+            noteL A4, 12
+            noteL A4, 6
+            noteL D5, 0
+      setSlide 9
+            noteL E5, 60
+      noSlide
+            noteL D5, 12
+            noteL E5, 6
+            noteL C5, 12
+            noteL C5, 6
+            noteL B4, 12
+            noteL A4, 6
+            noteL A5, 12
+            noteL G4, 6
+            waitL 12
+            noteL E4, 6
+            note G4
+            noteL A4, 12
+            noteL C5, 6
+            noteL A4, 12
+            noteL A4, 6
+            noteL C5, 24
+    repeatSection1Start
+            noteL B4, 6
+            noteL D5, 12
+            noteL E5, 6
+            noteL B4, 12
+            note D5
+            note E5
+            note Fs5
+            note Gs5
+    repeatEnd
+    repeatSection2Start
+            noteL D5, 12
+            noteL C5, 6
+            noteL D5, 12
+            noteL E5, 6
+            noteL F5, 12
+            noteL E5, 6
+            note D5
+            noteL Gs5, 12
+            noteL E5, 6
+            note B4
+    repeatStart
+      sustain
+            noteL G4, 2
+            note Gs4
+      setRelease 1
+            noteL A4, 14
+            noteL A4, 18
+            noteL E4, 12
+            note G4
+            noteL A4, 6
+            note A4
+            waitL 36
+            noteL A4, 6
             wait
-            noteL B5, 18
+            noteL G4, 12
+            noteL A4, 10
+      sustain
+            noteL D5, 2
+      setRelease 1
+            noteL E5, 12
+            noteL D5, 6
+            noteL C5, 12
+            noteL B4, 18
+      sustain
+            noteL G4, 2
+            note Gs4
+      setRelease 1
+            noteL A4, 14
+            noteL A4, 18
+            noteL G4, 24
+            noteL G4, 6
+            note B4
+            waitL 24
+            noteL A4, 18
+            note G4
+            noteL A4, 12
+            note B4
+            noteL B4, 6
+            note C5
+            wait
+            noteL B4, 18
     countedLoopStart 1
-            noteL B5, 6
-            note C6
-            noteL D6, 12
-            note C6
-            noteL B5, 24
-            noteL A5, 36
+            noteL B4, 6
+            note C5
+            noteL D5, 12
+            note C5
+            noteL B4, 24
+            noteL A4, 36
     countedLoopEnd
     repeatSection1Start
-            noteL G5, 6
-            noteL G5, 12
-            noteL G5, 6
+            noteL G4, 6
+            noteL G4, 12
+            noteL G4, 6
             waitL 12
-            note G5
-            note G5
-            noteL G5, 6
-            note A5
+            note G4
+            note G4
+            noteL G4, 6
+            note A4
             wait
-            noteL B5, 18
-            noteL A5, 6
-            noteL A5, 12
-            noteL A5, 6
+            noteL B4, 18
+            noteL A4, 6
+            noteL A4, 12
+            noteL A4, 6
             waitL 12
-            note A5
-            note A5
-            noteL A5, 6
-            note B5
+            note A4
+            note A4
+            noteL A4, 6
+            note B4
             wait
-            noteL D6, 18
+            noteL D5, 18
     repeatEnd
     repeatSection2Start
-            noteL A5, 6
-            noteL A5, 12
-            noteL A5, 6
+            noteL A4, 6
+            noteL A4, 12
+            noteL A4, 6
             waitL 12
-            note A5
-            note A5
-            noteL A5, 6
-            note B5
+            note A4
+            note A4
+            noteL A4, 6
+            note B4
             wait
-            noteL C6, 18
-            noteL B5, 6
-            noteL B5, 12
-            noteL B5, 6
+            noteL C5, 18
+            noteL B4, 6
+            noteL B4, 12
+            noteL B4, 6
             waitL 12
-            note B5
-            note B5
-            noteL B5, 6
-            note C6
+            note B4
+            note B4
+            noteL B4, 6
+            note C5
             wait
-            noteL D6, 18
+            noteL D5, 18
       inst 14
       vol 11
     countedLoopStart 3
-            noteL E5, 18
-            note E5
-            noteL D5, 12
+            noteL E4, 18
+            note E4
+            noteL D4, 12
             wait
-            noteL D5, 6
+            noteL D4, 6
             wait
-            noteL Fs5, 24
-            noteL D5, 2
+            noteL Fs4, 24
+            noteL D4, 2
             waitL 10
-            noteL G5, 12
-            note Fs5
-            note D5
-            noteL A5, 24
-            noteL D5, 12
+            noteL G4, 12
+            note Fs4
+            note D4
+            noteL A4, 24
+            noteL D4, 12
             wait
     countedLoopEnd
     mainLoopEnd
@@ -295,329 +295,329 @@ Music_11_Channel_1:
       vol 10
       setRelease 1
       vibrato 00h
-            noteL A4, 12
-            note A5
+            noteL A3, 12
+            note A4
             waitL 36
-            noteL E5, 6
-            note G5
-            noteL A4, 2
+            noteL E4, 6
+            note G4
+            noteL A3, 2
             waitL 4
-            noteL G5, 6
-            note A5
+            noteL G4, 6
+            note A4
             wait
-            noteL A4, 12
-            note A5
+            noteL A3, 12
+            note A4
             waitL 36
       sustain
-            noteL A5, 6
-            note B5
+            noteL A4, 6
+            note B4
       setRelease 1
-            note A5
-            note G5
-            note A5
-            note G5
-            noteL A4, 12
-            note A5
-            note G5
+            note A4
+            note G4
+            note A4
+            note G4
+            noteL A3, 12
+            note A4
+            note G4
             wait
-            note A5
-            note E5
+            note A4
+            note E4
             waitL 36
-            noteL A5, 12
-            note A5
-            note B5
-            note Gs5
-            noteL Gs5, 6
-            note A5
+            noteL A4, 12
+            note A4
+            note B4
+            note Gs4
+            noteL Gs4, 6
+            note A4
             wait
     countedLoopStart 1
-            noteL Gs5, 6
-            noteL E5, 12
+            noteL Gs4, 6
+            noteL E4, 12
             waitL 6
-            note A4
-            noteL A5, 5
+            note A3
+            noteL A4, 5
             waitL 7
-            noteL G5, 12
-            noteL A5, 6
+            noteL G4, 12
+            noteL A4, 6
             wait
-            noteL A5, 12
-            noteL E5, 6
-            noteL G5, 12
-            noteL G5, 6
-            noteL A5, 12
+            noteL A4, 12
+            noteL E4, 6
+            noteL G4, 12
+            noteL G4, 6
+            noteL A4, 12
             wait
-            noteL A5, 6
+            noteL A4, 6
             wait
-            noteL G5, 12
-            noteL A5, 6
+            noteL G4, 12
+            noteL A4, 6
             wait
-            noteL C6, 18
-            noteL D6, 3
+            noteL C5, 18
+            noteL D5, 3
             wait
-            noteL A5, 6
-            note B5
-            note A5
-            note G5
-            waitL 12
-            noteL A5, 6
-            wait
-            noteL G5, 12
-            noteL A5, 6
-            wait
-            noteL A5, 12
-            noteL E5, 6
-            note G5
-      setRelease 5
+            noteL A4, 6
+            note B4
             note A4
-      setRelease 1
-            note G5
-            noteL A5, 12
+            note G4
+            waitL 12
+            noteL A4, 6
             wait
-            noteL A5, 6
+            noteL G4, 12
+            noteL A4, 6
             wait
-            noteL A5, 12
-            noteL B5, 6
-            wait
-            note Gs5
-            wait
-            note Gs5
-            note A5
+            noteL A4, 12
+            noteL E4, 6
+            note G4
       setRelease 5
-            note E5
+            note A3
+      setRelease 1
+            note G4
+            noteL A4, 12
+            wait
+            noteL A4, 6
+            wait
+            noteL A4, 12
+            noteL B4, 6
+            wait
+            note Gs4
+            wait
+            note Gs4
+            note A4
+      setRelease 5
+            note E4
       setRelease 1
     countedLoopEnd
-            note Gs5
+            note Gs4
     countedLoopStart 1
-            noteL E5, 12
+            noteL E4, 12
             waitL 6
+            note A3
             note A4
-            note A5
             wait
-            noteL G5, 12
-            noteL A5, 6
+            noteL G4, 12
+            noteL A4, 6
             wait
-            noteL A5, 12
-            noteL E5, 6
-            noteL G5, 12
-            noteL G5, 6
-            noteL A5, 12
+            noteL A4, 12
+            noteL E4, 6
+            noteL G4, 12
+            noteL G4, 6
+            noteL A4, 12
             wait
-            noteL A5, 6
+            noteL A4, 6
             wait
-            noteL G5, 12
-            noteL A5, 6
+            noteL G4, 12
+            noteL A4, 6
             wait
-            noteL C6, 18
-            noteL D6, 3
+            noteL C5, 18
+            noteL D5, 3
             wait
-            noteL A5, 6
-            note B5
-            note A5
-            note G5
+            noteL A4, 6
+            note B4
+            note A4
+            note G4
             waitL 12
-            noteL A5, 6
+            noteL A4, 6
             wait
-            noteL G5, 12
-            noteL A5, 6
+            noteL G4, 12
+            noteL A4, 6
             wait
-            noteL A5, 12
-            noteL E5, 6
-            note G5
-            noteL A4, 2
+            noteL A4, 12
+            noteL E4, 6
+            note G4
+            noteL A3, 2
             waitL 4
-            noteL G5, 6
-            noteL A5, 12
+            noteL G4, 6
+            noteL A4, 12
             wait
-            noteL A5, 6
+            noteL A4, 6
             wait
-            noteL A5, 12
-            noteL B5, 6
+            noteL A4, 12
+            noteL B4, 6
             wait
-            note Gs5
+            note Gs4
             wait
-            note Gs5
-            note A5
-            noteL E5, 2
+            note Gs4
+            note A4
+            noteL E4, 2
             waitL 4
-            noteL Gs5, 6
+            noteL Gs4, 6
     countedLoopEnd
-            noteL E5, 12
+            noteL E4, 12
       inst 2
       vol 7
     countedLoopStart 1
-            noteL E6, 6
-            note E5
+            noteL E5, 6
+            note E4
+            note A2
             note A3
-            note A4
-            note E6
             note E5
+            note E4
+            note A2
             note A3
-            note A4
-            note E6
             note E5
+            note E4
+            note A2
             note A3
-            note A4
-            note E6
             note E5
+            note E4
+            note A2
             note A3
-            note A4
-            note E6
             note E5
+            note E4
+            note A2
             note A3
-            note A4
-            note E6
             note E5
+            note E4
+            note A2
             note A3
-            note A4
-            note E6
             note E5
+            note E4
+            note A2
             note A3
-            note A4
-            note E6
             note E5
+            note E4
+            note A2
             note A3
-            note A4
-            note D6
             note D5
+            note D4
+            note G2
             note G3
-            note G4
-            note D6
             note D5
+            note D4
+            note G2
             note G3
-            note G4
-            note D6
             note D5
+            note D4
+            note G2
             note G3
-            note G4
-            note D6
             note D5
+            note D4
+            note G2
             note G3
-            note G4
-            note D6
             note D5
+            note D4
+            note G2
             note G3
-            note G4
-            note D6
             note D5
+            note D4
+            note G2
             note G3
-            note G4
-            note D6
             note D5
+            note D4
+            note G2
             note G3
-            note G4
-            note D6
             note D5
+            note D4
+            note G2
             note G3
-            note G4
-            note A5
             note A4
+            note A3
+            note D2
             note D3
-            note D4
-            note A5
             note A4
+            note A3
+            note D2
             note D3
-            note D4
-            note A5
             note A4
+            note A3
+            note D2
             note D3
-            note D4
-            note A5
             note A4
+            note A3
+            note D2
             note D3
-            note D4
-            note A5
             note A4
+            note A3
+            note D2
             note D3
-            note D4
-            note A5
             note A4
+            note A3
+            note D2
             note D3
-            note D4
-            note A5
             note A4
+            note A3
+            note D2
             note D3
-            note D4
-            note A5
             note A4
+            note A3
+            note D2
             note D3
-            note D4
-            note C6
             note C5
+            note C4
+            note F2
             note F3
-            note F4
-            note C6
             note C5
+            note C4
+            note F2
             note F3
-            note F4
-            note C6
             note C5
+            note C4
+            note F2
             note F3
-            note F4
-            note C6
             note C5
+            note C4
+            note F2
             note F3
-            note F4
-            note D6
+            note D5
+            note D4
+            note G2
+            note G3
+            note D5
             note D5
             note G3
             note G4
-            note D6
-            note D6
+            note D5
+            note D5
             note G4
             note G5
-            note D6
-            note D6
+            note D5
+            note D5
             note G5
-            note G6
-            note D6
-            note D6
-            note G6
-            note G6
+            note G5
     countedLoopEnd
       stereo 040h
       inst 40
       vol 10
     countedLoopStart 6
-            noteL C4, 6
-            note C4
-            note C4
-            note C4
+            noteL C3, 6
+            note C3
+            note C3
+            note C3
       stereo 0c0h
-            note C4
-            note C4
-            note C4
-            note C4
+            note C3
+            note C3
+            note C3
+            note C3
       stereo 080h
-            note C4
-            note C4
-            note C4
-            note C4
+            note C3
+            note C3
+            note C3
+            note C3
       stereo 0c0h
-            note C4
-            note C4
-            note C4
-            note C4
+            note C3
+            note C3
+            note C3
+            note C3
       stereo 040h
     countedLoopEnd
-            note C4
-            note C4
-            note C4
-            note C4
+            note C3
+            note C3
+            note C3
+            note C3
       stereo 0c0h
-            note C4
-            note C4
-            note C4
-            note C4
+            note C3
+            note C3
+            note C3
+            note C3
       stereo 080h
-            note C4
-            note C4
-            note C4
-            note C4
+            note C3
+            note C3
+            note C3
+            note C3
       stereo 0c0h
-            note C4
-            note C4
-            note C4
-            note C4
+            note C3
+            note C3
+            note C3
+            note C3
     mainLoopEnd
 Music_11_Channel_2:
       stereo 0c0h
@@ -629,179 +629,179 @@ Music_11_Channel_2:
       vol 13
       setRelease 1
       vibrato 00h
-            noteL A3, 12
-            note A4
+            noteL A2, 12
+            note A3
             waitL 36
-            noteL A4, 6
-            note A4
-            noteL A3, 12
-            note A4
+            noteL A3, 6
+            note A3
+            noteL A2, 12
+            note A3
+            note C3
             note C4
-            note C5
             waitL 36
-            noteL C5, 6
-            note C5
-            noteL C4, 12
-            note C5
+            noteL C4, 6
+            note C4
+            noteL C3, 12
+            note C4
+            note D3
             note D4
-            note D5
             waitL 36
-            noteL D5, 6
-            note D5
-            noteL D4, 12
-            note D5
+            noteL D4, 6
+            note D4
+            noteL D3, 12
+            note D4
+            note E3
             note E4
-            note E5
             waitL 36
-            noteL E4, 6
-            note E5
-            note Fs4
-            note Gs4
-            noteL E4, 12
+            noteL E3, 6
+            note E4
+            note Fs3
+            note Gs3
+            noteL E3, 12
     countedLoopStart 3
-            noteL A3, 12
-            note A4
+            noteL A2, 12
             note A3
-            note A4
+            note A2
             note A3
-            noteL A4, 6
-            note A4
-            noteL A3, 12
-            note A4
+            note A2
+            noteL A3, 6
+            note A3
+            noteL A2, 12
+            note A3
+            note C3
             note C4
-            note C5
+            note C3
             note C4
-            note C5
+            note C3
+            noteL C4, 6
             note C4
-            noteL C5, 6
-            note C5
-            noteL C4, 12
-            note C5
+            noteL C3, 12
+            note C4
+            note D3
             note D4
-            note D5
+            note D3
             note D4
-            note D5
+            note D3
+            noteL D4, 6
             note D4
-            noteL D5, 6
-            note D5
-            noteL D4, 12
-            note D5
+            noteL D3, 12
+            note D4
+            note E3
             note E4
-            note E5
+            note E3
             note E4
-            note E5
+            note E3
+            noteL E4, 6
             note E4
-            noteL E5, 6
-            note E5
-            noteL E4, 12
-            note E5
+            noteL E3, 12
+            note E4
     countedLoopEnd
     countedLoopStart 1
-            noteL A3, 6
+            noteL A2, 6
+            note A2
+            noteL A3, 12
+            note A2
             note A3
-            noteL A4, 12
+            noteL A2, 6
+            note A2
+            noteL A3, 12
+            note A2
             note A3
-            note A4
-            noteL A3, 6
+            noteL A2, 6
+            note A2
+            noteL A3, 12
+            note A2
             note A3
-            noteL A4, 12
+            noteL A2, 6
+            note A2
+            noteL A3, 12
+            note A2
             note A3
-            note A4
-            noteL A3, 6
-            note A3
-            noteL A4, 12
-            note A3
-            note A4
-            noteL A3, 6
-            note A3
-            noteL A4, 12
-            note A3
-            note A4
-            noteL G3, 6
+            noteL G2, 6
+            note G2
+            noteL G3, 12
+            note G2
             note G3
-            noteL G4, 12
+            noteL G2, 6
+            note G2
+            noteL G3, 12
+            note G2
             note G3
-            note G4
-            noteL G3, 6
+            noteL G2, 6
+            note G2
+            noteL G3, 12
+            note G2
             note G3
-            noteL G4, 12
-            note G3
-            note G4
-            noteL G3, 6
-            note G3
-            noteL G4, 12
-            note G3
-            note G4
-            noteL G3, 6
-            note F4
-            note G4
-            note C4
-            note D4
-            note A3
-            note B3
-            note G3
-            note Fs3
-            note Fs3
-            noteL Fs4, 12
-            note Fs3
-            note Fs4
-            noteL Fs3, 6
-            note Fs3
-            noteL Fs4, 12
-            note Fs3
-            note Fs4
-            noteL Fs3, 6
-            note Fs3
-            noteL Fs4, 12
-            note Fs3
-            note Fs4
-            noteL Fs3, 6
-            note Fs3
-            noteL Fs4, 12
-            note Fs3
-            note Fs4
-            noteL F3, 6
+            noteL G2, 6
             note F3
-            noteL F4, 12
+            note G3
+            note C3
+            note D3
+            note A2
+            note B2
+            note G2
+            note Fs2
+            note Fs2
+            noteL Fs3, 12
+            note Fs2
+            note Fs3
+            noteL Fs2, 6
+            note Fs2
+            noteL Fs3, 12
+            note Fs2
+            note Fs3
+            noteL Fs2, 6
+            note Fs2
+            noteL Fs3, 12
+            note Fs2
+            note Fs3
+            noteL Fs2, 6
+            note Fs2
+            noteL Fs3, 12
+            note Fs2
+            note Fs3
+            noteL F2, 6
+            note F2
+            noteL F3, 12
+            note F2
             note F3
-            note F4
-            noteL F3, 6
+            noteL F2, 6
+            note F2
+            noteL F3, 12
+            note F2
             note F3
-            noteL F4, 12
-            note F3
-            note F4
-            noteL G3, 6
+            noteL G2, 6
+            note G2
+            noteL G3, 12
+            note G2
             note G3
-            noteL G4, 12
+            noteL G2, 6
+            note G2
+            noteL G3, 12
+            note G2
             note G3
-            note G4
-            noteL G3, 6
-            note G3
-            noteL G4, 12
-            note G3
-            note G4
     countedLoopEnd
     countedLoopStart 3
-            noteL A3, 12
-            note A4
+            noteL A2, 12
             note A3
-            noteL A4, 6
-            note A4
-            noteL A3, 12
-            note A4
+            note A2
+            noteL A3, 6
             note A3
-            noteL A4, 6
-            note A4
-            noteL A3, 12
-            note A4
+            noteL A2, 12
             note A3
-            noteL A4, 6
-            note A4
-            noteL C4, 12
-            note C5
+            note A2
+            noteL A3, 6
+            note A3
+            noteL A2, 12
+            note A3
+            note A2
+            noteL A3, 6
+            note A3
+            noteL C3, 12
+            note C4
+            note G2
+            noteL G3, 6
             note G3
-            noteL G4, 6
-            note G4
     countedLoopEnd
     mainLoopEnd
 Music_11_Channel_3:
@@ -815,8 +815,19 @@ Music_11_Channel_3:
       vol 8
       setRelease 1
       vibrato 05ah
-            noteL E5, 12
-            note E5
+            noteL E4, 12
+            note E4
+            waitL 36
+      sustain
+            noteL A3, 6
+            note B3
+      setRelease 1
+            note A3
+            note G3
+            noteL E3, 12
+    countedLoopStart 1
+            noteL A4, 12
+            note A4
             waitL 36
       sustain
             noteL A4, 6
@@ -825,265 +836,258 @@ Music_11_Channel_3:
             note A4
             note G4
             noteL E4, 12
-    countedLoopStart 1
-            noteL A5, 12
-            note A5
-            waitL 36
-      sustain
-            noteL A5, 6
-            note B5
-      setRelease 1
-            note A5
-            note G5
-            noteL E5, 12
     countedLoopEnd
-            note B5
-            note B5
+            note B4
+            note B4
             waitL 36
       sustain
-            noteL E5, 6
-            note F5
+            noteL E4, 6
+            note F4
       setRelease 1
-            note E5
-            note D5
-            noteL B4, 12
+            note E4
+            note D4
+            noteL B3, 12
       stereo 040h
       vol 7
             waitL 10
     repeatStart
-            noteL E5, 18
-            note D5
-            noteL C5, 12
+            noteL E4, 18
+            note D4
+            noteL C4, 12
+            note A3
+            noteL A4, 6
+            note B4
             note A4
-            noteL A5, 6
-            note B5
-            note A5
-            note G5
-            noteL E5, 12
-            noteL E5, 18
+            note G4
+            noteL E4, 12
+            noteL E4, 18
+            note D4
+            noteL C4, 12
+            note G4
+            noteL C5, 6
             note D5
-            noteL C5, 12
-            note G5
-            noteL C6, 6
-            note D6
-            note C6
-            note B5
-            noteL A5, 12
-            noteL E5, 18
+            note C5
+            note B4
+            noteL A4, 12
+            noteL E4, 18
+            note D4
+            noteL E4, 12
+            note Fs4
+            noteL D5, 6
+            note E5
             note D5
-            noteL E5, 12
-            note Fs5
-            noteL D6, 6
-            note E6
-            note D6
-            note C6
-            noteL B5, 12
+            note C5
+            noteL B4, 12
     repeatSection1Start
-            noteL E5, 18
+            noteL E4, 18
+            note D4
+            noteL Fs4, 12
+            note Gs4
+            noteL E5, 6
+            note F5
+            note E5
             note D5
-            noteL Fs5, 12
-            note Gs5
-            noteL E6, 6
-            note F6
-            note E6
-            note D6
-            noteL B5, 12
+            noteL B4, 12
     repeatEnd
     repeatSection2Start
-            note E5
-            noteL E6, 6
-            note F6
-            note E6
-            note D6
-            noteL B5, 12
-            noteL B5, 6
-            note C6
-            note B5
-            note A5
-            noteL Gs5, 12
-            note E5
-    repeatStart
-            noteL A5, 6
-            noteL A6, 12
-            noteL G5, 6
-            waitL 12
+            note E4
             noteL E5, 6
-            note G5
+            note F5
+            note E5
+            note D5
+            noteL B4, 12
+            noteL B4, 6
+            note C5
+            note B4
+            note A4
+            noteL Gs4, 12
+            note E4
+    repeatStart
+            noteL A4, 6
             noteL A5, 12
-            noteL C6, 6
-            noteL A5, 5
+            noteL G4, 6
+            waitL 12
+            noteL E4, 6
+            note G4
+            noteL A4, 12
+            noteL C5, 6
+            noteL A4, 5
             waitL 3
-            noteL F6, 0
+            noteL F5, 0
       setSlide 9
-            noteL G6, 60
+            noteL G5, 60
       noSlide
-            noteL F6, 12
-            noteL G6, 6
-            noteL E6, 12
+            noteL F5, 12
+            noteL G5, 6
+            noteL E5, 12
     repeatSection1Start
             waitL 10
-            noteL C6, 6
-            noteL B5, 12
-            noteL A5, 6
-            noteL A6, 12
-            noteL G5, 6
+            noteL C5, 6
+            noteL B4, 12
+            noteL A4, 6
+            noteL A5, 12
+            noteL G4, 6
             waitL 12
+            noteL E4, 6
+            note G4
+            noteL A4, 12
+            noteL C5, 6
+            noteL A4, 12
+            noteL A4, 6
+            noteL C5, 24
+            noteL B4, 6
+            noteL D5, 12
             noteL E5, 6
-            note G5
-            noteL A5, 12
-            noteL C6, 6
-            noteL A5, 12
-            noteL A5, 6
-            noteL C6, 24
-            noteL B5, 6
-            noteL D6, 12
-            noteL E6, 6
-            noteL B5, 12
-            note D6
-            note E6
-            note Fs6
-            note Gs6
+            noteL B4, 12
+            note D5
+            note E5
+            note Fs5
+            note Gs5
     repeatEnd
     repeatSection2Start
-            noteL E6, 6
-            noteL D6, 12
-            noteL C6, 6
-            noteL C7, 12
-            noteL B5, 6
+            noteL E5, 6
+            noteL D5, 12
+            noteL C5, 6
+            noteL C6, 12
+            noteL B4, 6
             waitL 12
-            noteL G5, 6
-            note B5
-            noteL C6, 12
-            noteL E6, 6
-            noteL C6, 12
-            noteL C6, 6
-            noteL E6, 24
-            noteL F6, 12
-            noteL E6, 6
-            noteL F6, 12
-            noteL Gs6, 6
-            noteL A6, 12
-            noteL Gs6, 6
-            note F6
-            noteL B6, 12
-            noteL Gs6, 6
-            note E6
+            noteL G4, 6
+            note B4
+            noteL C5, 12
+            noteL E5, 6
+            noteL C5, 12
+            noteL C5, 6
+            noteL E5, 24
+            noteL F5, 12
+            noteL E5, 6
+            noteL F5, 12
+            noteL Gs5, 6
+            noteL A5, 12
+            noteL Gs5, 6
+            note F5
+            noteL B5, 12
+            noteL Gs5, 6
+            note E5
       inst 2
       vol 7
             waitL 1
     countedLoopStart 1
-            noteL E6, 6
-            note E5
+            noteL E5, 6
+            note E4
+            note A2
             note A3
-            note A4
-            note E6
             note E5
+            note E4
+            note A2
             note A3
-            note A4
-            note E6
             note E5
+            note E4
+            note A2
             note A3
-            note A4
-            note E6
             note E5
+            note E4
+            note A2
             note A3
-            note A4
-            note E6
             note E5
+            note E4
+            note A2
             note A3
-            note A4
-            note E6
             note E5
+            note E4
+            note A2
             note A3
-            note A4
-            note E6
             note E5
+            note E4
+            note A2
             note A3
-            note A4
-            note E6
             note E5
+            note E4
+            note A2
             note A3
-            note A4
-            note D6
             note D5
+            note D4
+            note G2
             note G3
-            note G4
-            note D6
             note D5
+            note D4
+            note G2
             note G3
-            note G4
-            note D6
             note D5
+            note D4
+            note G2
             note G3
-            note G4
-            note D6
             note D5
+            note D4
+            note G2
             note G3
-            note G4
-            note D6
             note D5
+            note D4
+            note G2
             note G3
-            note G4
-            note D6
             note D5
+            note D4
+            note G2
             note G3
-            note G4
-            note D6
             note D5
+            note D4
+            note G2
             note G3
-            note G4
-            note D6
             note D5
+            note D4
+            note G2
             note G3
-            note G4
-            note A5
             note A4
+            note A3
+            note D2
             note D3
-            note D4
-            note A5
             note A4
+            note A3
+            note D2
             note D3
-            note D4
-            note A5
             note A4
+            note A3
+            note D2
             note D3
-            note D4
-            note A5
             note A4
+            note A3
+            note D2
             note D3
-            note D4
-            note A5
             note A4
+            note A3
+            note D2
             note D3
-            note D4
-            note A5
             note A4
+            note A3
+            note D2
             note D3
-            note D4
-            note A5
             note A4
+            note A3
+            note D2
             note D3
-            note D4
-            note A5
             note A4
+            note A3
+            note D2
             note D3
-            note D4
-            note C6
             note C5
+            note C4
+            note F2
             note F3
-            note F4
-            note C6
             note C5
+            note C4
+            note F2
             note F3
-            note F4
-            note C6
             note C5
+            note C4
+            note F2
             note F3
-            note F4
-            note C6
             note C5
+            note C4
+            note F2
             note F3
-            note F4
+            note D5
+            note D4
+            note G2
+            note G3
             note D6
             note D5
             note G3
@@ -1092,68 +1096,64 @@ Music_11_Channel_3:
             note D6
             note G4
             note G5
-            note D8
+            note D7
             note D7
             note G5
             note G6
-            note D8
-            note D8
-            note G6
-            note G7
     countedLoopEnd
       inst 14
       vol 9
             waitL 9
     repeatStart
-            noteL E5, 18
-            note E5
-            noteL D5, 12
+            noteL E4, 18
+            note E4
+            noteL D4, 12
             wait
-            noteL D5, 6
+            noteL D4, 6
             wait
-            noteL Fs5, 24
+            noteL Fs4, 24
       setRelease 11
-            noteL D5, 12
+            noteL D4, 12
       setRelease 1
-            note G5
-            note Fs5
-            note D5
-            noteL A5, 24
+            note G4
+            note Fs4
+            note D4
+            noteL A4, 24
     repeatSection1Start
-            noteL D5, 12
+            noteL D4, 12
             wait
     repeatEnd
     repeatSection2Start
-            noteL D5, 14
+            noteL D4, 14
       vol 11
     repeatStart
-            noteL G5, 18
-            note G5
-            noteL Fs5, 12
+            noteL G4, 18
+            note G4
+            noteL Fs4, 12
             wait
-            noteL Fs5, 6
+            noteL Fs4, 6
             wait
-            noteL A5, 24
+            noteL A4, 24
       setRelease 11
-            noteL F5, 12
+            noteL F4, 12
       setRelease 1
-            note B5
-            note A5
-            note Fs5
+            note B4
+            note A4
+            note Fs4
     repeatSection1Start
-            noteL C6, 24
-            noteL G5, 12
+            noteL C5, 24
+            noteL G4, 12
             wait
     repeatEnd
     repeatSection2Start
-            note C6
-            noteL A5, 4
-            note B5
-            note C6
-            noteL D6, 12
-            noteL E6, 4
-            note F6
-            note G6
+            note C5
+            noteL A4, 4
+            note B4
+            note C5
+            noteL D5, 12
+            noteL E5, 4
+            note F5
+            note G5
     mainLoopEnd
 Music_11_Channel_4:
       stereo 0c0h
@@ -1168,117 +1168,117 @@ Music_11_Channel_4:
       setRelease 1
       vibrato 058h
     countedLoopStart 18
-            noteL C4, 6
-            note C4
-            note C4
-            note C4
+            noteL C3, 6
+            note C3
+            note C3
+            note C3
       stereo 040h
-            note C4
-            note C4
-            note C4
-            note C4
+            note C3
+            note C3
+            note C3
+            note C3
       shifting 0
       stereo 0c0h
-            note C4
-            note C4
-            note C4
-            note C4
+            note C3
+            note C3
+            note C3
+            note C3
       stereo 080h
-            note C4
-            note C4
-            note C4
-            note C4
+            note C3
+            note C3
+            note C3
+            note C3
       shifting 32
       stereo 0c0h
     countedLoopEnd
-            note C4
-            note C4
-            note C4
-            note C4
+            note C3
+            note C3
+            note C3
+            note C3
       stereo 040h
-            note C4
-            note C4
-            note C4
-            note C4
+            note C3
+            note C3
+            note C3
+            note C3
       shifting 0
       stereo 0c0h
-            note C4
-            note C4
-            note C4
-            note C4
+            note C3
+            note C3
+            note C3
+            note C3
       stereo 080h
-            note C4
-            note C4
-            note C4
-            note C4
+            note C3
+            note C3
+            note C3
+            note C3
       vol 10
-            note C4
+            note C3
     countedLoopStart 30
-            noteL C4, 6
+            noteL C3, 6
       stereo 040h
       inst 42
       vol 11
-            noteL C5, 12
+            noteL C4, 12
       stereo 080h
       inst 40
       vol 10
-            noteL C4, 6
-            note C4
+            noteL C3, 6
+            note C3
       stereo 040h
       inst 42
       vol 11
-            noteL C5, 12
+            noteL C4, 12
       stereo 080h
       inst 40
       vol 10
-            noteL C4, 6
+            noteL C3, 6
     countedLoopEnd
     repeatStart
-            note C4
+            note C3
       stereo 040h
       inst 42
       vol 11
-            noteL C5, 12
+            noteL C4, 12
     repeatSection1Start
       stereo 080h
       inst 40
       vol 10
-            noteL C4, 6
+            noteL C3, 6
     repeatEnd
     repeatSection2Start
       sustain
       inst 8
       vol 9
-            noteL D6, 6
-            note Ds6
-            noteL E6, 140
+            noteL D5, 6
+            note Ds5
+            noteL E5, 140
       setSlide 9
       vol 10
       vibrato 00h
-            noteL E5, 19
-            noteL E6, 6
-            note E5
-            noteL E4, 3
+            noteL E4, 19
             noteL E5, 6
+            note E4
+            noteL E3, 3
+            noteL E4, 6
       setRelease 1
-            noteL E6, 192
+            noteL E5, 192
       sustain
       noSlide
       vol 9
-            noteL D6, 6
-            note Ds6
+            noteL D5, 6
+            note Ds5
       vibrato 058h
-            noteL E6, 140
+            noteL E5, 140
       setSlide 9
       vol 10
       vibrato 00h
-            noteL E5, 19
-            noteL E6, 6
-            note E5
-            noteL E4, 3
+            noteL E4, 19
             noteL E5, 6
+            note E4
+            noteL E3, 3
+            noteL E4, 6
       setRelease 1
-            noteL E6, 192
+            noteL E5, 192
     mainLoopEnd
 Music_11_Channel_5:
     mainLoopStart

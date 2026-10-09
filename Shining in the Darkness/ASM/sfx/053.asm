@@ -11,10 +11,10 @@ Sfx_053_Channel_1:
       vibrato 010h
       noSlide
       sustain
-            noteL E3, 0
+            noteL E2, 0
       setSlide 32
     repeatStart
-            noteL B3, 2
-            note D4
+            noteL B2, 2
+            note D3
     repeatEnd
     channel_end

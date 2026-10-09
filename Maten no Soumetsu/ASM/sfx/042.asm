@@ -10,12 +10,12 @@ Sfx_042_Channel_1:
       vol 15
       setRelease 1
       vibrato 02ah
-            noteL E5, 6
-            noteL Fs5, 4
-            note E5
-            note Fs5
-            note E5
-            note Ds5
-            note E5
-            noteL E6, 12
+            noteL E4, 6
+            noteL Fs4, 4
+            note E4
+            note Fs4
+            note E4
+            note Ds4
+            note E4
+            noteL E5, 12
     channel_end

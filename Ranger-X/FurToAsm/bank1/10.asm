@@ -18,7 +18,7 @@ Music_10_Channel_0:
       inst 93
       vibrato 00h
       vol 12
-            noteL C3, 30
+            noteL C2, 30
     channel_end
 Music_10_Channel_1:
       stereo 0c0h
@@ -26,7 +26,7 @@ Music_10_Channel_1:
       inst 93
       vibrato 00h
       vol 10
-            noteL C3, 30
+            noteL C2, 30
     channel_end
 Music_10_Channel_2:
       stereo 0c0h
@@ -34,7 +34,7 @@ Music_10_Channel_2:
       vol 9
             waitL 3
       vibrato 00h
-            noteL C3, 30
+            noteL C2, 30
     channel_end
 Music_10_Channel_3:
       stereo 080h
@@ -44,7 +44,7 @@ Music_10_Channel_3:
       setRelease 1
             waitL 1
       vibrato 00h
-            noteL C3, 29
+            noteL C2, 29
     channel_end
 Music_10_Channel_4:
       stereo 040h
@@ -53,7 +53,7 @@ Music_10_Channel_4:
       vol 9
             waitL 2
       vibrato 00h
-            noteL C3, 28
+            noteL C2, 28
     channel_end
 Music_10_Channel_5:
     channel_end

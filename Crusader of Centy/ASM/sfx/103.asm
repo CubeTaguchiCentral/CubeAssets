@@ -11,7 +11,7 @@ Sfx_103_Channel_1:
       vibrato 00h
       shifting 1
       setRelease 1
-            noteL B4, 4
+            noteL B3, 4
       vol 10
-            note G5
+            note G4
     channel_end

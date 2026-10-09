@@ -10,11 +10,11 @@ Sfx_073_Channel_1:
       vol 15
       vibrato 00h
       setRelease 1
-            noteL C2, 2
+            noteL C1, 2
       sustain
-            note D2
+            note D1
       setSlide 32
       setRelease 1
-            noteL A2, 8
+            noteL A1, 8
             waitL 24
     channel_end

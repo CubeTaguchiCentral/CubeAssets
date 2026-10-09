@@ -10,8 +10,8 @@ Sfx_033_Channel_1:
       vol 14
       setRelease 1
       vibrato 090h
-            noteL C3, 6
+            noteL C2, 6
       inst 45
       vibrato 080h
-            noteL B8, 24
+            noteL B7, 24
     channel_end

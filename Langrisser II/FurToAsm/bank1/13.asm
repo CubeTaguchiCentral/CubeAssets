@@ -19,24 +19,24 @@ Music_13_Channel_0:
       vol 13
             waitL 48
       vibrato 00h
-            noteL Ds4, 192
+            noteL Ds3, 192
       setRelease 63
-            noteL F4, 255
+            noteL F3, 255
             waitL 129
             waitL 96
-            noteL F4, 6
-            note Fs4
+            noteL F3, 6
+            note Fs3
       setRelease 6
-            noteL G4, 12
-            noteL F4, 6
-            note Fs4
-            noteL G4, 12
-            note As4
-            note G4
-            note D4
+            noteL G3, 12
+            noteL F3, 6
+            note Fs3
+            noteL G3, 12
+            note As3
+            note G3
+            note D3
       sustain
-            noteL G3, 204
-            noteL G3, 96
+            noteL G2, 204
+            noteL G2, 96
     channel_end
 Music_13_Channel_1:
       stereo 0c0h
@@ -44,23 +44,59 @@ Music_13_Channel_1:
       vol 14
             waitL 96
       setRelease 1
-            noteL As6, 48
+            noteL As5, 48
       vibrato 05ch
-            note A6
-            note F6
+            note A5
+            note F5
             wait
-            note As6
-            note A6
-            note F6
-            noteL G6, 0
+            note As5
+            note A5
+            note F5
+            noteL G5, 0
       setSlide 5
       sustain
       inst 8
       vol 12
-            noteL A6, 0
+            noteL A5, 0
       noSlide
       setRelease 1
             waitL 32
+    countedLoopStart 1
+            noteL F3, 6
+            note Fs3
+            note G3
+            wait
+    countedLoopEnd
+            noteL As3, 12
+            note G3
+            note D3
+      sustain
+            noteL G2, 255
+      setRelease 1
+      vibrato 00h
+            noteL G2, 45
+    channel_end
+Music_13_Channel_2:
+      stereo 0c0h
+      inst 8
+      vol 10
+            waitL 48
+      setRelease 1
+            noteL Ds3, 192
+      vibrato 05ch
+            note F3
+            waitL 12
+            noteL G5, 0
+      setSlide 5
+      sustain
+      shifting 32
+      stereo 080h
+      vol 12
+            noteL A5, 0
+      noSlide
+      setRelease 1
+            waitL 20
+      stereo 0c0h
     countedLoopStart 1
             noteL F4, 6
             note Fs4
@@ -76,58 +112,22 @@ Music_13_Channel_1:
       vibrato 00h
             noteL G3, 45
     channel_end
-Music_13_Channel_2:
-      stereo 0c0h
-      inst 8
-      vol 10
-            waitL 48
-      setRelease 1
-            noteL Ds4, 192
-      vibrato 05ch
-            note F4
-            waitL 12
-            noteL G6, 0
-      setSlide 5
-      sustain
-      shifting 32
-      stereo 080h
-      vol 12
-            noteL A6, 0
-      noSlide
-      setRelease 1
-            waitL 20
-      stereo 0c0h
-    countedLoopStart 1
-            noteL F5, 6
-            note Fs5
-            note G5
-            wait
-    countedLoopEnd
-            noteL As5, 12
-            note G5
-            note D5
-      sustain
-            noteL G4, 255
-      setRelease 1
-      vibrato 00h
-            noteL G4, 45
-    channel_end
 Music_13_Channel_3:
       stereo 0c0h
       inst 8
       vol 10
             waitL 48
       setRelease 1
-            noteL As3, 192
+            noteL As2, 192
       vibrato 05ch
-            note C4
+            note C3
             waitL 16
-            noteL G6, 0
+            noteL G5, 0
       setSlide 5
       sustain
       stereo 040h
       vol 12
-            noteL A6, 0
+            noteL A5, 0
       noSlide
       setRelease 1
             waitL 16
@@ -135,20 +135,20 @@ Music_13_Channel_3:
       shifting 32
       vol 8
     countedLoopStart 1
-            noteL F4, 6
-            note Fs4
-            note G4
+            noteL F3, 6
+            note Fs3
+            note G3
             wait
     countedLoopEnd
-            noteL As4, 12
-            note G4
+            noteL As3, 12
+            note G3
       sustain
       shifting 0
       vol 12
-            noteL D4, 255
+            noteL D3, 255
       setRelease 1
       vibrato 00h
-            noteL D4, 45
+            noteL D3, 45
     channel_end
 Music_13_Channel_4:
       stereo 0c0h
@@ -156,15 +156,15 @@ Music_13_Channel_4:
       inst 45
       vol 11
             waitL 108
-            noteL As6, 48
+            noteL As5, 48
       vibrato 05ch
-            note A6
+            note A5
       setRelease 48
-            noteL F6, 96
-            noteL As6, 48
-            note A6
+            noteL F5, 96
+            noteL As5, 48
+            note A5
       setRelease 12
-            note F6
+            note F5
             waitL 192
             waitL 84
       shifting 32
@@ -173,20 +173,20 @@ Music_13_Channel_4:
       vol 10
       setRelease 1
     countedLoopStart 1
-            noteL Gs4, 6
-            note A4
-            note As4
+            noteL Gs3, 6
+            note A3
+            note As3
             wait
     countedLoopEnd
-            noteL D5, 12
-            note As4
-            note A4
-            note G4
+            noteL D4, 12
+            note As3
+            note A3
+            note G3
       sustain
-            noteL D5, 255
+            noteL D4, 255
       setRelease 1
       vibrato 00h
-            noteL D5, 33
+            noteL D4, 33
     channel_end
 Music_13_Channel_5:
     repeatStart
@@ -249,52 +249,52 @@ Music_13_Channel_6:
             waitL 48
       psgInst 0ah
       setRelease 1
-            psgNoteL Ds3, 192
+            psgNoteL Ds4, 192
       vibrato 04ch
-            psgNote F3
+            psgNote F4
       psgInst 00h
             wait
             waitL 96
       psgInst 0ch
     countedLoopStart 1
-            psgNoteL F2, 6
-            psgNote Fs2
-            psgNote G2
+            psgNoteL F3, 6
+            psgNote Fs3
+            psgNote G3
             wait
     countedLoopEnd
-            psgNoteL As2, 12
-            psgNote G2
-            psgNote D2
+            psgNoteL As3, 12
+            psgNote G3
+            psgNote D3
       sustain
-            psgNoteL G2, 204
+            psgNoteL G3, 204
       vibrato 040h
-            psgNoteL G2, 96
+            psgNoteL G3, 96
     channel_end
 Music_13_Channel_7:
       psgInst 00h
             waitL 48
       psgInst 0ah
       setRelease 1
-            psgNoteL G3, 192
+            psgNoteL G4, 192
       vibrato 04ch
-            psgNote A3
+            psgNote A4
       psgInst 00h
             wait
             waitL 96
       psgInst 0ch
     countedLoopStart 1
-            psgNoteL Gs2, 6
-            psgNote A2
-            psgNote As2
+            psgNoteL Gs3, 6
+            psgNote A3
+            psgNote As3
             wait
     countedLoopEnd
-            psgNoteL D3, 12
-            psgNote As2
-            psgNote A2
+            psgNoteL D4, 12
+            psgNote As3
+            psgNote A3
       sustain
-            psgNoteL D2, 204
+            psgNoteL D3, 204
       vibrato 040h
-            psgNoteL D2, 96
+            psgNoteL D3, 96
     channel_end
 Music_13_Channel_8:
     channel_end

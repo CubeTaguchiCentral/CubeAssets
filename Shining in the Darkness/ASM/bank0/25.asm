@@ -19,10 +19,10 @@ Music_25_Channel_0:
       vol 11
       setRelease 1
       vibrato 02ch
-            noteL A5, 12
+            noteL A4, 12
             waitL 6
-            note E5
-            noteL E5, 66
+            note E4
+            noteL E4, 66
             waitL 6
     channel_end
 Music_25_Channel_1:
@@ -31,21 +31,21 @@ Music_25_Channel_1:
             waitL 12
       inst 38
       vol 11
-            note D5
-            note G5
-            note D5
-            note A5
-            note E5
-            note A5
-            note E5
-            note A5
-            note E5
-            note A5
-            note E5
-            note A5
-            note E5
-            note A5
-            note E5
+            note D4
+            note G4
+            note D4
+            note A4
+            note E4
+            note A4
+            note E4
+            note A4
+            note E4
+            note A4
+            note E4
+            note A4
+            note E4
+            note A4
+            note E4
     channel_end
 Music_25_Channel_2:
       setRelease 1
@@ -53,21 +53,21 @@ Music_25_Channel_2:
             waitL 12
       inst 38
       vol 11
-            note G4
-            note B4
-            note G4
-            note Cs5
-            note A4
-            note Cs5
-            note A4
-            note Cs5
-            note A4
-            note Cs5
-            note A4
-            note Cs5
-            note A4
-            note Cs5
-            note A4
+            note G3
+            note B3
+            note G3
+            note Cs4
+            note A3
+            note Cs4
+            note A3
+            note Cs4
+            note A3
+            note Cs4
+            note A3
+            note Cs4
+            note A3
+            note Cs4
+            note A3
     channel_end
 Music_25_Channel_3:
       setRelease 1
@@ -75,11 +75,11 @@ Music_25_Channel_3:
             waitL 12
       inst 38
       vol 11
-            note D4
-            note B4
-            note D4
-            noteL E4, 24
-            noteL A4, 114
+            note D3
+            note B3
+            note D3
+            noteL E3, 24
+            noteL A3, 114
             waitL 6
     channel_end
 Music_25_Channel_4:
@@ -87,7 +87,7 @@ Music_25_Channel_4:
       vol 13
       setRelease 1
       vibrato 02ch
-            noteL G3, 192
+            noteL G2, 192
     channel_end
 Music_25_Channel_5:
     channel_end
@@ -95,25 +95,25 @@ Music_25_Channel_6:
       psgInst 0bh
       setRelease 1
       vibrato 04ch
-            psgNoteL B3, 12
-            psgNote D4
-            psgNote D4
-            psgNote B3
-            psgNote E4
+            psgNoteL B4, 12
+            psgNote D5
+            psgNote D5
+            psgNote B4
+            psgNote E5
             wait
-            psgNoteL Cs4, 114
+            psgNoteL Cs5, 114
             waitL 6
     channel_end
 Music_25_Channel_7:
       psgInst 0bh
       setRelease 1
       vibrato 04ch
-            psgNoteL G3, 12
-            psgNote B2
-            psgNote B2
-            psgNote D3
-            psgNote Cs3
+            psgNoteL G4, 12
+            psgNote B3
+            psgNote B3
+            psgNote D4
+            psgNote Cs4
             wait
-            psgNoteL A3, 114
+            psgNoteL A4, 114
             waitL 6
     channel_end

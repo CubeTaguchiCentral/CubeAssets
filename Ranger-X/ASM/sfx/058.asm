@@ -11,14 +11,14 @@ Sfx_058_Channel_1:
       vibrato 02ah
       setRelease 1
       sustain
-            noteL C2, 12
+            noteL C1, 12
       vol 10
-            noteL C2, 6
+            noteL C1, 6
       vol 8
-            note C2
+            note C1
       vol 6
-            note C2
+            note C1
       setRelease 1
       vol 3
-            note C2
+            note C1
     channel_end

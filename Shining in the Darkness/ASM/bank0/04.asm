@@ -19,73 +19,73 @@ Music_04_Channel_0:
       vol 11
       setRelease 1
       vibrato 02ch
-            noteL F5, 36
+            noteL F4, 36
       vol 13
-            noteL As5, 12
-            noteL As5, 96
+            noteL As4, 12
+            noteL As4, 96
       vol 11
-            noteL A5, 48
-            noteL A5, 36
+            noteL A4, 48
+            noteL A4, 36
       vol 12
-            noteL Cs6, 12
+            noteL Cs5, 12
       vol 13
-            noteL C6, 96
+            noteL C5, 96
       vol 11
-            noteL As5, 48
-            noteL As5, 36
+            noteL As4, 48
+            noteL As4, 36
       vol 12
-            noteL Ds6, 12
+            noteL Ds5, 12
       vol 13
-            noteL Cs6, 96
+            noteL Cs5, 96
       vol 11
-            noteL C6, 48
-            noteL C6, 36
-            noteL A5, 12
+            noteL C5, 48
+            noteL C5, 36
+            noteL A4, 12
       vol 12
-            noteL C6, 96
-            noteL As5, 48
+            noteL C5, 96
+            noteL As4, 48
       vol 11
-            noteL F5, 36
+            noteL F4, 36
       vol 12
-            noteL As5, 12
+            noteL As4, 12
       vol 13
-            noteL As5, 96
+            noteL As4, 96
       vol 11
-            noteL A5, 48
-            noteL A5, 36
+            noteL A4, 48
+            noteL A4, 36
       vol 12
-            noteL Cs6, 12
+            noteL Cs5, 12
       vol 13
-            noteL C6, 96
+            noteL C5, 96
       vol 11
-            noteL As5, 48
-            noteL As5, 36
+            noteL As4, 48
+            noteL As4, 36
       vol 12
-            noteL Ds6, 12
+            noteL Ds5, 12
       vol 13
-            noteL Cs6, 96
+            noteL Cs5, 96
       vol 11
-            noteL C6, 48
+            noteL C5, 48
       vol 12
-            noteL C6, 36
-            noteL A5, 12
-            noteL C6, 96
+            noteL C5, 36
+            noteL A4, 12
+            noteL C5, 96
       vol 11
-            noteL As5, 48
-            noteL As5, 24
-            note C6
+            noteL As4, 48
+            noteL As4, 24
+            note C5
       vol 13
-            note Cs6
+            note Cs5
       vol 12
-            note C6
-            note C6
-            note As5
-            note As5
-            note Gs5
-            note Gs5
-            note Fs5
+            note C5
+            note C5
+            note As4
+            note As4
+            note Gs4
+            note Gs4
+            note Fs4
       vol 11
-            noteL F5, 144
+            noteL F4, 144
             waitL 32
     mainLoopEnd
 Music_04_Channel_1:
@@ -96,46 +96,46 @@ Music_04_Channel_1:
       vol 11
       setRelease 1
       vibrato 02ch
-            noteL Fs5, 92
+            noteL Fs4, 92
       vol 9
-            noteL F5, 96
+            noteL F4, 96
       vol 11
-            note Gs5
+            note Gs4
       vol 10
-            note Fs5
+            note Fs4
       vol 11
-            note Fs5
+            note Fs4
       vol 10
-            noteL Ds5, 98
+            noteL Ds4, 98
       vol 10
-            noteL F5, 46
+            noteL F4, 46
       vol 9
-            noteL D5, 48
-            noteL Ds5, 96
+            noteL D4, 48
+            noteL Ds4, 96
             waitL 3
       vol 11
-            noteL Fs5, 93
+            noteL Fs4, 93
       vol 10
-            noteL F5, 96
+            noteL F4, 96
       vol 11
-            note Gs5
+            note Gs4
       vol 10
-            note Fs5
+            note Fs4
       vol 11
-            note Fs5
+            note Fs4
       vol 10
-            note Ds5
+            note Ds4
       vol 10
-            noteL F5, 48
+            noteL F4, 48
       vol 9
-            note D5
-            noteL Ds5, 96
+            note D4
+            noteL Ds4, 96
       vol 11
-            noteL Fs5, 192
+            noteL Fs4, 192
       vol 10
-            noteL Cs5, 48
+            noteL Cs4, 48
       vol 9
-            noteL C5, 95
+            noteL C4, 95
             waitL 32
     mainLoopEnd
 Music_04_Channel_2:
@@ -146,40 +146,40 @@ Music_04_Channel_2:
       vol 11
       setRelease 1
       vibrato 02ch
-            noteL Cs5, 93
+            noteL Cs4, 93
       vol 9
-            noteL C5, 96
+            noteL C4, 96
       vol 11
-            note Ds5
+            note Ds4
       vol 10
-            note Cs5
+            note Cs4
       vol 11
-            note As4
+            note As3
       vol 10
-            noteL A4, 97
+            noteL A3, 97
       vol 10
-            noteL Cs5, 191
+            noteL Cs4, 191
             waitL 2
       vol 11
-            noteL Cs5, 94
+            noteL Cs4, 94
       vol 9
-            noteL C5, 96
+            noteL C4, 96
       vol 11
-            note Ds5
+            note Ds4
       vol 10
-            note Cs5
+            note Cs4
       vol 11
-            note As4
+            note As3
       vol 10
-            note A4
+            note A3
       vol 9
-            noteL Cs5, 192
+            noteL Cs4, 192
       vol 11
-            note Ds5
+            note Ds4
       vol 10
-            noteL As4, 48
+            noteL As3, 48
       vol 9
-            noteL A4, 95
+            noteL A3, 95
             waitL 32
     mainLoopEnd
 Music_04_Channel_3:
@@ -190,30 +190,30 @@ Music_04_Channel_3:
       vol 11
       setRelease 1
       vibrato 02ch
-            noteL Ds4, 94
+            noteL Ds3, 94
       vol 9
-            noteL F4, 96
-            noteL Fs4, 192
-            noteL Ds4, 96
+            noteL F3, 96
+            noteL Fs3, 192
+            noteL Ds3, 96
       vol 10
-            note F4
+            note F3
       vol 10
-            noteL Fs4, 192
-            noteL Ds4, 96
+            noteL Fs3, 192
+            noteL Ds3, 96
       vol 10
-            note F4
+            note F3
       vol 11
-            noteL Fs4, 192
-            noteL Ds4, 96
+            noteL Fs3, 192
+            noteL Ds3, 96
       vol 10
-            note F4
+            note F3
       vol 10
-            noteL Fs4, 192
-            note Ds4
+            noteL Fs3, 192
+            note Ds3
       vol 10
-            noteL F4, 48
+            noteL F3, 48
       vol 9
-            noteL F4, 96
+            noteL F3, 96
             waitL 32
     mainLoopEnd
 Music_04_Channel_4:
@@ -223,28 +223,28 @@ Music_04_Channel_4:
       vol 11
       setRelease 1
       vibrato 02ch
-            noteL Ds3, 96
+            noteL Ds2, 96
       vol 9
-            note F3
-            noteL Fs3, 192
-            noteL Ds3, 96
+            note F2
+            noteL Fs2, 192
+            noteL Ds2, 96
       vol 10
-            note F3
+            note F2
       vol 10
-            noteL Fs3, 192
-            noteL Ds3, 96
+            noteL Fs2, 192
+            noteL Ds2, 96
       vol 10
-            note F3
-            noteL Fs3, 192
-            noteL Ds3, 96
+            note F2
+            noteL Fs2, 192
+            noteL Ds2, 96
       vol 10
-            note F3
-            noteL Fs3, 192
-            note Ds3
+            note F2
+            noteL Fs2, 192
+            note Ds2
       vol 10
-            noteL F3, 48
+            noteL F2, 48
       vol 9
-            noteL F3, 96
+            noteL F2, 96
             waitL 32
     mainLoopEnd
 Music_04_Channel_5:

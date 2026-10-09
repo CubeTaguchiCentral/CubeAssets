@@ -19,11 +19,11 @@ Music_12_Channel_0:
       vol 8
       setRelease 4
       vibrato 05ch
-            noteL E6, 12
-            note E6
-            note E6
+            noteL E5, 12
+            note E5
+            note E5
       setRelease 1
-            noteL Ds6, 100
+            noteL Ds5, 100
     channel_end
 Music_12_Channel_1:
       stereo 080h
@@ -31,21 +31,21 @@ Music_12_Channel_1:
       vol 8
       setRelease 4
       vibrato 05ch
-            noteL G5, 12
-            note G5
-            note G5
+            noteL G4, 12
+            note G4
+            note G4
       setRelease 1
-            noteL Fs5, 100
+            noteL Fs4, 100
     channel_end
 Music_12_Channel_2:
       stereo 0c0h
       inst 29
       vol 14
       vibrato 05ch
-            noteL B3, 12
-            note B3
-            note B3
-            noteL Ds4, 100
+            noteL B2, 12
+            note B2
+            note B2
+            noteL Ds3, 100
     channel_end
 Music_12_Channel_3:
       stereo 040h
@@ -55,11 +55,11 @@ Music_12_Channel_3:
             waitL 4
       setRelease 4
       vibrato 05ch
-            noteL G5, 12
-            note G5
-            note G5
+            noteL G4, 12
+            note G4
+            note G4
       setRelease 1
-            noteL Fs5, 96
+            noteL Fs4, 96
     channel_end
 Music_12_Channel_4:
       stereo 080h
@@ -69,11 +69,11 @@ Music_12_Channel_4:
             waitL 5
       setRelease 4
       vibrato 05ch
-            noteL E6, 12
-            note E6
-            note E6
+            noteL E5, 12
+            note E5
+            note E5
       setRelease 1
-            noteL Ds6, 95
+            noteL Ds5, 95
     channel_end
 Music_12_Channel_5:
       stereo 0c0h
@@ -87,16 +87,16 @@ Music_12_Channel_6:
       setRelease 2
       vibrato 04eh
     countedLoopStart 1
-            psgNoteL B4, 9
+            psgNoteL B5, 9
       psgInst 00h
             waitL 3
       psgInst 0bh
     countedLoopEnd
-            psgNoteL B4, 9
+            psgNoteL B5, 9
       psgInst 00h
             waitL 3
       psgInst 09h
-            psgNoteL B4, 100
+            psgNoteL B5, 100
     channel_end
 Music_12_Channel_7:
       shifting 16
@@ -106,14 +106,14 @@ Music_12_Channel_7:
       setRelease 2
       vibrato 04eh
     countedLoopStart 1
-            psgNoteL B4, 9
+            psgNoteL B5, 9
       psgInst 00h
             waitL 3
       psgInst 0ah
     countedLoopEnd
-            psgNoteL B4, 7
+            psgNoteL B5, 7
       shifting 0
-            psgNoteL Ds5, 100
+            psgNoteL Ds6, 100
     channel_end
 Music_12_Channel_8:
     channel_end

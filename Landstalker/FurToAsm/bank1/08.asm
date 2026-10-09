@@ -24,49 +24,49 @@ Music_08_Channel_0:
       vol 11
       setRelease 1
       vibrato 00h
-            noteL A7, 96
-            noteL Gs7, 48
-            noteL A7, 96
-            noteL Gs7, 48
-            noteL A7, 96
-            noteL D8, 48
-            noteL F7, 96
+            noteL A6, 96
+            noteL Gs6, 48
+            noteL A6, 96
+            noteL Gs6, 48
+            noteL A6, 96
+            noteL D7, 48
+            noteL F6, 96
             waitL 48
-            note E7
-            note Fs7
-            note Gs7
-            note A7
-            note B7
-            note Cs8
-            note D8
-            note E8
-            note G8
-            noteL A7, 12
-            waitL 36
-            noteL A8, 12
-            wait
-            note A7
-            waitL 60
-            noteL A7, 96
-            noteL Gs7, 48
-            noteL A7, 96
-            noteL Gs7, 48
-            noteL A7, 96
-            noteL D8, 48
-            noteL F8, 96
-            wait
-            noteL Fs8, 48
-            note Cs8
-            note D8
-            note As7
-            note B7
-            note Gs7
-            note A7
-            note Cs7
-            noteL D7, 12
-            waitL 34
-            noteL B6, 48
+            note E6
+            note Fs6
+            note Gs6
             note A6
+            note B6
+            note Cs7
+            note D7
+            note E7
+            note G7
+            noteL A6, 12
+            waitL 36
+            noteL A7, 12
+            wait
+            note A6
+            waitL 60
+            noteL A6, 96
+            noteL Gs6, 48
+            noteL A6, 96
+            noteL Gs6, 48
+            noteL A6, 96
+            noteL D7, 48
+            noteL F7, 96
+            wait
+            noteL Fs7, 48
+            note Cs7
+            note D7
+            note As6
+            note B6
+            note Gs6
+            note A6
+            note Cs6
+            noteL D6, 12
+            waitL 34
+            noteL B5, 48
+            note A5
       vol 0
             waitL 2
     mainLoopEnd
@@ -76,7 +76,7 @@ Music_08_Channel_1:
       vol 10
       vibrato 00h
       sustain
-            noteL Fs7, 2
+            noteL Fs6, 2
     mainLoopStart
       inst 14
       vol 10
@@ -84,53 +84,53 @@ Music_08_Channel_1:
       setRelease 1
             waitL 94
     repeatStart
-            noteL F7, 48
-            noteL Fs7, 96
-            noteL F7, 48
-            noteL Fs7, 96
-            noteL Fs7, 48
+            noteL F6, 48
+            noteL Fs6, 96
+            noteL F6, 48
+            noteL Fs6, 96
+            noteL Fs6, 48
     repeatSection1Start
-            noteL D7, 96
+            noteL D6, 96
             waitL 48
-            note Gs6
-            note A6
-            note B6
-            note Cs7
-            note D7
-            note E7
-            noteL F7, 72
-            noteL E7, 24
-            noteL D7, 48
-            noteL Cs7, 12
+            note Gs5
+            note A5
+            note B5
+            note Cs6
+            note D6
+            note E6
+            noteL F6, 72
+            noteL E6, 24
+            noteL D6, 48
+            noteL Cs6, 12
             waitL 36
-            noteL Gs8, 4
-            waitL 20
             noteL Gs7, 4
+            waitL 20
+            noteL Gs6, 4
             waitL 68
-            noteL Fs7, 96
+            noteL Fs6, 96
     repeatEnd
     repeatSection2Start
-            note D7
-            noteL B6, 24
-            note Cs7
-            note D7
-            note F7
-            noteL Fs7, 48
-            note A7
-            note G7
-            note Fs7
-            noteL D7, 96
-            note Cs7
-            noteL G6, 48
-            noteL Fs6, 12
-            waitL 36
-            noteL G6, 24
             note D6
+            noteL B5, 24
             note Cs6
-            note E6
+            note D6
+            note F6
+            noteL Fs6, 48
+            note A6
+            note G6
+            note Fs6
+            noteL D6, 96
+            note Cs6
+            noteL G5, 48
+            noteL Fs5, 12
+            waitL 36
+            noteL G5, 24
+            note D5
+            note Cs5
+            note E5
       vol 10
       sustain
-            noteL Fs7, 2
+            noteL Fs6, 2
     mainLoopEnd
 Music_08_Channel_2:
       stereo 0c0h
@@ -138,60 +138,60 @@ Music_08_Channel_2:
       vol 10
       vibrato 00h
       sustain
-            noteL D6, 2
+            noteL D5, 2
     mainLoopStart
       inst 14
       vol 10
       shifting 0
       setRelease 1
             waitL 46
-            noteL A6, 48
-            note A5
-            note D6
-            note A6
-            note A5
-            note D6
-            note A6
-            note A5
-            note As5
-            noteL Gs6, 24
-            note G6
-            note F6
-            note D6
-            noteL E6, 96
-            noteL E6, 48
-            noteL A6, 96
             noteL A5, 48
-            noteL B5, 96
-            noteL As5, 48
-            noteL A5, 12
+            note A4
+            note D5
+            note A5
+            note A4
+            note D5
+            note A5
+            note A4
+            note As4
+            noteL Gs5, 24
+            note G5
+            note F5
+            note D5
+            noteL E5, 96
+            noteL E5, 48
+            noteL A5, 96
+            noteL A4, 48
+            noteL B4, 96
+            noteL As4, 48
+            noteL A4, 12
             waitL 84
-            noteL A6, 6
-            waitL 18
             noteL A5, 6
             waitL 18
+            noteL A4, 6
+            waitL 18
     countedLoopStart 2
-            noteL D6, 48
-            note A6
+            noteL D5, 48
             note A5
+            note A4
     countedLoopEnd
-            note B5
-            noteL D6, 24
-            note E6
-            note F6
-            note Gs6
-            noteL A6, 144
-            noteL B6, 96
-            noteL G6, 48
-            noteL A6, 96
-            noteL A5, 48
-            noteL D6, 12
+            note B4
+            noteL D5, 24
+            note E5
+            note F5
+            note Gs5
+            noteL A5, 144
+            noteL B5, 96
+            noteL G5, 48
+            noteL A5, 96
+            noteL A4, 48
+            noteL D5, 12
             waitL 36
-            noteL E5, 48
-            note A5
+            noteL E4, 48
+            note A4
       vol 10
       sustain
-            noteL D6, 2
+            noteL D5, 2
     mainLoopEnd
 Music_08_Channel_3:
       stereo 080h
@@ -207,50 +207,50 @@ Music_08_Channel_3:
       vol 8
       setRelease 1
       vibrato 00h
-            noteL A7, 96
-            noteL Gs7, 48
-            noteL A7, 96
-            noteL Gs7, 48
-            noteL A7, 96
-            noteL D8, 48
-            noteL F7, 96
+            noteL A6, 96
+            noteL Gs6, 48
+            noteL A6, 96
+            noteL Gs6, 48
+            noteL A6, 96
+            noteL D7, 48
+            noteL F6, 96
             waitL 48
+            note E6
+            note Fs6
+            note Gs6
+            note A6
+            note B6
+            note Cs7
+            note D7
             note E7
-            note Fs7
-            note Gs7
-            note A7
-            note B7
-            note Cs8
-            note D8
-            note E8
-            note G8
-            noteL A7, 12
+            note G7
+            noteL A6, 12
             waitL 36
-            noteL A8, 12
+            noteL A7, 12
             wait
-            note A7
+            note A6
             waitL 60
       stereo 040h
-            noteL A7, 96
-            noteL Gs7, 48
-            noteL A7, 96
-            noteL Gs7, 48
-            noteL A7, 96
-            noteL D8, 48
-            noteL F8, 96
+            noteL A6, 96
+            noteL Gs6, 48
+            noteL A6, 96
+            noteL Gs6, 48
+            noteL A6, 96
+            noteL D7, 48
+            noteL F7, 96
             wait
-            noteL Fs8, 48
-            note Cs8
-            note D8
-            note As7
-            note B7
-            note Gs7
-            note A7
+            noteL Fs7, 48
             note Cs7
-            noteL D7, 12
-            waitL 34
-            noteL B6, 48
+            note D7
+            note As6
+            note B6
+            note Gs6
             note A6
+            note Cs6
+            noteL D6, 12
+            waitL 34
+            noteL B5, 48
+            note A5
     mainLoopEnd
 Music_08_Channel_4:
     channel_end

@@ -8,11 +8,11 @@ Sfx_032_Channel_0:
       vol 10
       setRelease 1
       vibrato 00h
-            noteL B7, 2
-            note E5
+            noteL B6, 2
+            note E4
       inst 74
       vol 15
-            noteL C2, 70
+            noteL C1, 70
             waitL 48
     channel_end
 Sfx_032_Channel_1:
@@ -21,11 +21,11 @@ Sfx_032_Channel_1:
       setRelease 1
       vibrato 00h
       shifting 32
-            noteL C4, 2
-            note F5
+            noteL C3, 2
+            note F4
       inst 75
       vol 12
-            noteL C3, 70
+            noteL C2, 70
             waitL 48
     channel_end
 Sfx_032_Channel_2:

@@ -10,13 +10,13 @@ Sfx_014_Channel_1:
       vol 14
       vibrato 00h
       sustain
-            noteL E7, 2
-            noteL A7, 4
+            noteL E6, 2
+            noteL A6, 4
       vol 15
       setSlide 80
-            noteL D8, 8
+            noteL D7, 8
       setRelease 1
       vol 13
       setSlide 16
-            noteL G6, 4
+            noteL G5, 4
     channel_end

@@ -10,23 +10,23 @@ Sfx_007_Channel_1:
       vol 13
       setRelease 0
       vibrato 00h
-            noteL C6, 2
-            note F6
-            note As6
-            noteL C7, 5
+            noteL C5, 2
+            note F5
+            note As5
+            noteL C6, 5
       vol 9
-            noteL C6, 2
-            note F6
-            note As6
-            noteL C7, 5
+            noteL C5, 2
+            note F5
+            note As5
+            noteL C6, 5
       vol 5
-            noteL C6, 2
-            note F6
-            note As6
-            noteL C7, 5
+            noteL C5, 2
+            note F5
+            note As5
+            noteL C6, 5
       vol 2
-            noteL C6, 2
-            note F6
-            note As6
-            noteL C7, 6
+            noteL C5, 2
+            note F5
+            note As5
+            noteL C6, 6
     channel_end

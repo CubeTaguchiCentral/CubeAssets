@@ -10,14 +10,14 @@ Sfx_059_Channel_1:
       vibrato 099h
       sustain
       vol 3
-            noteL E8, 1
+            noteL E7, 1
       vol 5
-            note E8
+            note E7
       vol 7
-            note E8
+            note E7
       vol 8
-            note E8
+            note E7
       vol 10
       setRelease 1
-            noteL E8, 40
+            noteL E7, 40
     channel_end

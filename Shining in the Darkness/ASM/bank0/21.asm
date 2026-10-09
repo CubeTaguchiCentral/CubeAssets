@@ -18,58 +18,100 @@ Music_21_Channel_0:
       vol 11
       setRelease 1
       vibrato 02ch
-            noteL E5, 24
-            note Cs5
-            note E5
-            note Cs5
-            note E5
-            note Cs5
-            note E5
-            note Cs5
-            note E5
-            note Cs5
-            note E5
-            note Cs5
-            note E5
-            note Cs5
-            note E5
-            note Cs5
-            noteL E5, 96
+            noteL E4, 24
+            note Cs4
+            note E4
+            note Cs4
+            note E4
+            note Cs4
+            note E4
+            note Cs4
+            note E4
+            note Cs4
+            note E4
+            note Cs4
+            note E4
+            note Cs4
+            note E4
+            note Cs4
+            noteL E4, 96
     channel_end
 Music_21_Channel_1:
       inst 26
       vol 11
       setRelease 1
       vibrato 02ch
-            noteL C5, 24
-            note As4
-            note C5
-            note As4
-            note C5
-            note As4
-            note C5
-            note As4
-            note C5
-            note As4
-            note C5
-            note As4
-            note C5
-            note As4
-            note C5
-            note As4
-            noteL C5, 96
+            noteL C4, 24
+            note As3
+            note C4
+            note As3
+            note C4
+            note As3
+            note C4
+            note As3
+            note C4
+            note As3
+            note C4
+            note As3
+            note C4
+            note As3
+            note C4
+            note As3
+            noteL C4, 96
     channel_end
 Music_21_Channel_2:
       inst 26
       vol 11
       setRelease 1
       vibrato 02ch
-            noteL G4, 4
-            note A4
+            noteL G3, 4
+            note A3
+            note G3
+            note A3
+            note G3
+            note A3
+            note As3
+            note C4
+            note As3
+            note C4
+            note As3
+            note C4
+            note Cs4
+            note Ds4
+            note Cs4
+            note Ds4
+            note Cs4
+            note Ds4
+            note E4
+            note Fs4
+            note E4
+            note Fs4
+            note E4
+            note Fs4
             note G4
             note A4
             note G4
             note A4
+            note G4
+            note A4
+            note As4
+            note C5
+            note As4
+            note C5
+            note As4
+            note C5
+            note Cs5
+            note Ds5
+            note Cs5
+            note Ds5
+            note Cs5
+            note Ds5
+            note E5
+            note Fs5
+            note E5
+            note Fs5
+            note E5
+            note Fs5
             note As4
             note C5
             note As4
@@ -112,24 +154,6 @@ Music_21_Channel_2:
             note Fs6
             note E6
             note Fs6
-            note As5
-            note C6
-            note As5
-            note C6
-            note As5
-            note C6
-            note Cs6
-            note Ds6
-            note Cs6
-            note Ds6
-            note Cs6
-            note Ds6
-            note E6
-            note Fs6
-            note E6
-            note Fs6
-            note E6
-            note Fs6
             note G6
             note A6
             note G6
@@ -142,62 +166,70 @@ Music_21_Channel_2:
             note C7
             note As6
             note C7
-            note Cs7
-            note Ds7
-            note Cs7
-            note Ds7
-            note Cs7
-            note Ds7
-            note E7
-            note Fs7
-            note E7
-            note Fs7
-            note E7
-            note Fs7
-            note G7
-            note A7
-            note G7
-            note A7
-            note G7
-            note A7
-            note As7
-            note C8
-            note As7
-            note C8
-            note As7
-            note C8
-            note As7
-            note C8
-            note As7
-            note C8
-            note As7
-            note C8
-            note As7
-            note C8
-            note As7
-            note C8
-            note As7
-            note C8
-            note As7
-            note C8
-            note As7
-            note C8
-            note As7
-            note C8
+            note As6
+            note C7
+            note As6
+            note C7
+            note As6
+            note C7
+            note As6
+            note C7
+            note As6
+            note C7
+            note As6
+            note C7
+            note As6
+            note C7
+            note As6
+            note C7
+            note As6
+            note C7
     channel_end
 Music_21_Channel_3:
       inst 26
       vol 11
       setRelease 1
       vibrato 02ch
-            noteL Cs4, 3
-            note Ds4
+            noteL Cs3, 3
+            note Ds3
+            note Cs3
+            note Ds3
+            note Cs3
+            note Ds3
+            note Cs3
+            note Ds3
+            note E3
+            note Fs3
+            note E3
+            note Fs3
+            note E3
+            note Fs3
+            note E3
+            note Fs3
+            note G3
+            note A3
+            note G3
+            note A3
+            note G3
+            note A3
+            note G3
+            note A3
+            note As3
+            note C4
+            note As3
+            note C4
+            note As3
+            note C4
+            note As3
+            note C4
             note Cs4
             note Ds4
             note Cs4
             note Ds4
             note Cs4
             note Ds4
+            note Cs4
+            note Ds4
             note E4
             note Fs4
             note E4
@@ -206,6 +238,22 @@ Music_21_Channel_3:
             note Fs4
             note E4
             note Fs4
+            note G4
+            note A4
+            note G4
+            note A4
+            note G4
+            note A4
+            note G4
+            note A4
+            note As4
+            note C5
+            note As4
+            note C5
+            note As4
+            note C5
+            note As4
+            note C5
             note G4
             note A4
             note G4
@@ -254,22 +302,6 @@ Music_21_Channel_3:
             note C6
             note As5
             note C6
-            note G5
-            note A5
-            note G5
-            note A5
-            note G5
-            note A5
-            note G5
-            note A5
-            note As5
-            note C6
-            note As5
-            note C6
-            note As5
-            note C6
-            note As5
-            note C6
             note Cs6
             note Ds6
             note Cs6
@@ -294,71 +326,39 @@ Music_21_Channel_3:
             note A6
             note G6
             note A6
-            note As6
-            note C7
-            note As6
-            note C7
-            note As6
-            note C7
-            note As6
-            note C7
-            note Cs7
-            note Ds7
-            note Cs7
-            note Ds7
-            note Cs7
-            note Ds7
-            note Cs7
-            note Ds7
-            note E7
-            note Fs7
-            note E7
-            note Fs7
-            note E7
-            note Fs7
-            note E7
-            note Fs7
-            note G7
-            note A7
-            note G7
-            note A7
-            note G7
-            note A7
-            note G7
-            note A7
-            note G7
-            note A7
-            note G7
-            note A7
-            note G7
-            note A7
-            note G7
-            note A7
-            note G7
-            note A7
-            note G7
-            note A7
-            note G7
-            note A7
-            note G7
-            note A7
-            note G7
-            note A7
-            note G7
-            note A7
-            note G7
-            note A7
-            note G7
-            note A7
+            note G6
+            note A6
+            note G6
+            note A6
+            note G6
+            note A6
+            note G6
+            note A6
+            note G6
+            note A6
+            note G6
+            note A6
+            note G6
+            note A6
+            note G6
+            note A6
+            note G6
+            note A6
+            note G6
+            note A6
+            note G6
+            note A6
+            note G6
+            note A6
     channel_end
 Music_21_Channel_4:
       inst 30
       vol 13
       setRelease 1
       vibrato 02ch
-            noteL E2, 192
-            note E2
-            noteL E2, 96
+            noteL E1, 192
+            note E1
+            noteL E1, 96
     channel_end
 Music_21_Channel_5:
             waitL 96
@@ -371,72 +371,72 @@ Music_21_Channel_6:
       psgInst 06ch
       setRelease 0
       vibrato 04ch
-            psgNoteL E5, 2
-            psgNote Fs5
-            psgNote Gs5
-            psgNote As5
-            psgNote B5
-            psgNote Cs6
-            psgNote As5
-            psgNote B5
-            psgNote Cs6
-            psgNote Ds6
-            psgNote F6
-            psgNote G6
+            psgNoteL E6, 2
+            psgNote Fs6
+            psgNote Gs6
+            psgNote As6
+            psgNote B6
+            psgNote Cs7
+            psgNote As6
+            psgNote B6
+            psgNote Cs7
+            psgNote Ds7
+            psgNote F7
+            psgNote G7
             waitL 72
             waitL 60
-            psgNoteL As5, 2
-            psgNote B5
-            psgNote Cs6
-            psgNote Ds6
-            psgNote F6
-            psgNote G6
+            psgNoteL As6, 2
+            psgNote B6
+            psgNote Cs7
+            psgNote Ds7
+            psgNote F7
+            psgNote G7
             waitL 24
-            psgNoteL E5, 2
-            psgNote Fs5
-            psgNote Gs5
-            psgNote As5
-            psgNote B5
-            psgNote Cs6
-            psgNote As5
-            psgNote B5
-            psgNote Cs6
-            psgNote Ds6
-            psgNote F6
-            psgNote G6
+            psgNoteL E6, 2
+            psgNote Fs6
+            psgNote Gs6
+            psgNote As6
+            psgNote B6
+            psgNote Cs7
+            psgNote As6
+            psgNote B6
+            psgNote Cs7
+            psgNote Ds7
+            psgNote F7
+            psgNote G7
             waitL 72
             waitL 60
-            psgNoteL As5, 2
-            psgNote B5
-            psgNote Cs6
-            psgNote Ds6
-            psgNote F6
-            psgNote G6
-            psgNote E5
-            psgNote Fs5
-            psgNote Gs5
-            psgNote As5
-            psgNote B5
-            psgNote Cs6
-            psgNote As5
-            psgNote B5
-            psgNote Cs6
-            psgNote Ds6
-            psgNote F6
-            psgNote G6
+            psgNoteL As6, 2
+            psgNote B6
+            psgNote Cs7
+            psgNote Ds7
+            psgNote F7
+            psgNote G7
+            psgNote E6
+            psgNote Fs6
+            psgNote Gs6
+            psgNote As6
+            psgNote B6
+            psgNote Cs7
+            psgNote As6
+            psgNote B6
+            psgNote Cs7
+            psgNote Ds7
+            psgNote F7
+            psgNote G7
             waitL 12
-            psgNoteL E5, 2
-            psgNote Fs5
-            psgNote Gs5
-            psgNote As5
-            psgNote B5
-            psgNote Cs6
-            psgNote As5
-            psgNote B5
-            psgNote Cs6
-            psgNote Ds6
-            psgNote F6
-            psgNote G6
+            psgNoteL E6, 2
+            psgNote Fs6
+            psgNote Gs6
+            psgNote As6
+            psgNote B6
+            psgNote Cs7
+            psgNote As6
+            psgNote B6
+            psgNote Cs7
+            psgNote Ds7
+            psgNote F7
+            psgNote G7
             waitL 60
     channel_end
 Music_21_Channel_7:
@@ -445,84 +445,84 @@ Music_21_Channel_7:
       vibrato 04ch
             waitL 48
       psgInst 06ch
-            psgNoteL E5, 2
-            psgNote Fs5
-            psgNote Gs5
-            psgNote As5
-            psgNote B5
-            psgNote Cs6
-            psgNote As5
-            psgNote B5
-            psgNote Cs6
-            psgNote Ds6
-            psgNote F6
-            psgNote G6
+            psgNoteL E6, 2
+            psgNote Fs6
+            psgNote Gs6
+            psgNote As6
+            psgNote B6
+            psgNote Cs7
+            psgNote As6
+            psgNote B6
+            psgNote Cs7
+            psgNote Ds7
+            psgNote F7
+            psgNote G7
             waitL 24
             waitL 12
-            psgNoteL As5, 2
-            psgNote B5
-            psgNote Cs6
-            psgNote Ds6
-            psgNote F6
-            psgNote G6
+            psgNoteL As6, 2
+            psgNote B6
+            psgNote Cs7
+            psgNote Ds7
+            psgNote F7
+            psgNote G7
             waitL 36
-            psgNoteL E5, 2
-            psgNote Fs5
-            psgNote Gs5
-            psgNote As5
-            psgNote B5
-            psgNote Cs6
-            psgNote As5
-            psgNote B5
-            psgNote Cs6
-            psgNote Ds6
-            psgNote F6
-            psgNote G6
+            psgNoteL E6, 2
+            psgNote Fs6
+            psgNote Gs6
+            psgNote As6
+            psgNote B6
+            psgNote Cs7
+            psgNote As6
+            psgNote B6
+            psgNote Cs7
+            psgNote Ds7
+            psgNote F7
+            psgNote G7
             waitL 12
             waitL 48
-            psgNoteL E5, 2
-            psgNote Fs5
-            psgNote Gs5
-            psgNote As5
-            psgNote B5
-            psgNote Cs6
-            psgNote As5
-            psgNote B5
-            psgNote Cs6
-            psgNote Ds6
-            psgNote F6
-            psgNote G6
+            psgNoteL E6, 2
+            psgNote Fs6
+            psgNote Gs6
+            psgNote As6
+            psgNote B6
+            psgNote Cs7
+            psgNote As6
+            psgNote B6
+            psgNote Cs7
+            psgNote Ds7
+            psgNote F7
+            psgNote G7
             waitL 24
             waitL 12
-            psgNoteL As5, 2
-            psgNote B5
-            psgNote Cs6
-            psgNote Ds6
-            psgNote F6
-            psgNote G6
+            psgNoteL As6, 2
+            psgNote B6
+            psgNote Cs7
+            psgNote Ds7
+            psgNote F7
+            psgNote G7
             waitL 36
-            psgNoteL E5, 2
-            psgNote Fs5
-            psgNote Gs5
-            psgNote As5
-            psgNote B5
-            psgNote Cs6
-            psgNote As5
-            psgNote B5
-            psgNote Cs6
-            psgNote Ds6
-            psgNote F6
-            psgNote G6
+            psgNoteL E6, 2
+            psgNote Fs6
+            psgNote Gs6
+            psgNote As6
+            psgNote B6
+            psgNote Cs7
+            psgNote As6
+            psgNote B6
+            psgNote Cs7
+            psgNote Ds7
+            psgNote F7
+            psgNote G7
             waitL 12
       psgInst 0fh
             waitL 24
-            psgNoteL D2, 6
+            psgNoteL D3, 6
             wait
-            psgNote Cs2
+            psgNote Cs3
             wait
-            psgNote B1
+            psgNote B2
             wait
-            psgNoteL As1, 36
+            psgNoteL As2, 36
     channel_end
 Music_21_Channel_8:
     channel_end

@@ -12,29 +12,29 @@ Sfx_008_Channel_1:
       setRelease 1
       stereo 0c0h
       vibrato 045h
-            noteL C7, 3
+            noteL C6, 3
       vol 10
-            note Cs7
-            note D7
-            note E7
-            note Ds7
-            note F7
-            note Fs7
-            note G7
-            note Gs7
-            note A7
-            note As7
-            note B7
+            note Cs6
+            note D6
+            note E6
+            note Ds6
+            note F6
+            note Fs6
+            note G6
+            note Gs6
+            note A6
+            note As6
+            note B6
       vol 13
-            note C8
+            note C7
       vol 12
-            noteL C8, 9
+            noteL C7, 9
       vol 9
-            note C8
+            note C7
       vol 7
-            note C8
+            note C7
       vol 4
-            note C8
+            note C7
       vol 3
-            note C8
+            note C7
     channel_end

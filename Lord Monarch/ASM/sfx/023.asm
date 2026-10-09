@@ -8,7 +8,7 @@ Sfx_023_Channel_0:
       vol 14
       vibrato 02fh
       setRelease 1
-            noteL C2, 144
+            noteL C1, 144
             waitL 48
     channel_end
 Sfx_023_Channel_1:
@@ -19,7 +19,7 @@ Sfx_023_Channel_1:
             waitL 3
       inst 65
       vol 11
-            noteL C2, 141
+            noteL C1, 141
             waitL 48
     channel_end
 Sfx_023_Channel_2:

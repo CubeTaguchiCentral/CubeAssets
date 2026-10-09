@@ -8,7 +8,7 @@ Sfx_013_Channel_0:
       vol 15
       setRelease 0
       vibrato 090h
-            noteL Gs8, 24
+            noteL Gs7, 24
     channel_end
 Sfx_013_Channel_1:
     channel_end

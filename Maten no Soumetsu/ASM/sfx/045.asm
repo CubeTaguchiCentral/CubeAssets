@@ -11,18 +11,18 @@ Sfx_045_Channel_1:
       vol 15
       setRelease 0
       vibrato 02ah
-            noteL D3, 12
-            note D3
-            noteL D3, 4
+            noteL D2, 12
+            note D2
+            noteL D2, 4
       vol 9
-            note D3
+            note D2
       vol 10
-            note D3
+            note D2
       vol 11
-            note D3
+            note D2
       vol 12
-            note D3
+            note D2
       vol 15
-            noteL D3, 12
-            note D3
+            noteL D2, 12
+            note D2
     channel_end

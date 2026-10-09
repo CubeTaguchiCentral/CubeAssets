@@ -11,8 +11,8 @@ Sfx_022_Channel_1:
       setRelease 3
       vibrato 0b5h
     repeatStart
-            noteL Ds7, 20
-            note Ds7
+            noteL Ds6, 20
+            note Ds6
             wait
     repeatEnd
     channel_end

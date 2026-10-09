@@ -11,7 +11,7 @@ Sfx_030_Channel_0:
       vibrato 02ah
       stereo 0c0h
       shifting 0
-            noteL C3, 46
+            noteL C2, 46
     mainLoopEnd
 Sfx_030_Channel_1:
     channel_end

@@ -11,8 +11,8 @@ Sfx_004_Channel_1:
       vibrato 091h
       inst 35
       vibrato 0e0h
-            noteL C0, 5
+            noteL C8, 5
       vibrato 0f0h
-            noteL B7, 7
-            noteL G7, 12
+            noteL B6, 7
+            noteL G6, 12
     channel_end

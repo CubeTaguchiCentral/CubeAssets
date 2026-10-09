@@ -13,19 +13,19 @@ Sfx_005_Channel_1:
       vibrato 04ah
     countedLoopStart 3
       stereo 0c0h
-            noteL Ds5, 0
+            noteL Ds4, 0
       setSlide 61
-            noteL B5, 5
+            noteL B4, 5
       noSlide
     countedLoopEnd
       vol 10
-            noteL Ds5, 0
+            noteL Ds4, 0
       setSlide 61
-            noteL B5, 5
+            noteL B4, 5
       noSlide
       vol 8
-            noteL Ds5, 0
+            noteL Ds4, 0
       setSlide 61
-            noteL B5, 5
+            noteL B4, 5
       noSlide
     channel_end

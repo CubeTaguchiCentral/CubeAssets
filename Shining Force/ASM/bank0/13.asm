@@ -20,12 +20,12 @@ Music_13_Channel_0:
       vibrato 02ch
       stereo 0c0h
             waitL 48
-            noteL A6, 8
-            note Gs6
-            note E6
-            noteL B5, 3
-            note Ds6
-            noteL Fs6, 66
+            noteL A5, 8
+            note Gs5
+            note E5
+            noteL B4, 3
+            note Ds5
+            noteL Fs5, 66
     channel_end
 Music_13_Channel_1:
       inst 1
@@ -33,10 +33,10 @@ Music_13_Channel_1:
       setRelease 1
       vibrato 02ch
       stereo 0c0h
-            noteL Cs6, 4
+            noteL Cs5, 4
             waitL 12
-            noteL B3, 8
-            noteL B3, 120
+            noteL B2, 8
+            noteL B2, 120
             waitL 0
     channel_end
 Music_13_Channel_2:
@@ -45,10 +45,10 @@ Music_13_Channel_2:
       setRelease 1
       vibrato 02ch
       stereo 0c0h
-            noteL B5, 4
+            noteL B4, 4
             waitL 12
-            noteL B2, 8
-            noteL B2, 120
+            noteL B1, 8
+            noteL B1, 120
             waitL 0
     channel_end
 Music_13_Channel_3:
@@ -57,10 +57,10 @@ Music_13_Channel_3:
       setRelease 1
       vibrato 02ch
       stereo 0c0h
-            noteL B6, 4
+            noteL B5, 4
             waitL 12
-            noteL B4, 8
-            noteL B4, 120
+            noteL B3, 8
+            noteL B3, 120
             waitL 0
     channel_end
 Music_13_Channel_4:
@@ -69,10 +69,10 @@ Music_13_Channel_4:
       setRelease 1
       vibrato 02ch
       stereo 0c0h
-            noteL Fs6, 4
+            noteL Fs5, 4
             waitL 12
-            noteL Fs4, 8
-            noteL Fs4, 120
+            noteL Fs3, 8
+            noteL Fs3, 120
             waitL 0
     channel_end
 Music_13_Channel_5:

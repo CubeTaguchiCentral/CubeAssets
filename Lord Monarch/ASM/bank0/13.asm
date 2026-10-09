@@ -19,15 +19,15 @@ Music_13_Channel_0:
       stereo 0c0h
       inst 8
       vol 12
-            noteL A3, 6
-            note As3
-            note B3
+            noteL A2, 6
+            note As2
+            note B2
       sustain
-            noteL C4, 144
-            note C4
-            note C4
+            noteL C3, 144
+            note C3
+            note C3
       setRelease 1
-            noteL C4, 200
+            noteL C3, 200
     channel_end
 Music_13_Channel_1:
       setRelease 1
@@ -39,20 +39,20 @@ Music_13_Channel_1:
             waitL 126
       inst 15
       vol 10
-            noteL C6, 6
-            note B5
-            note As5
+            noteL C5, 6
+            note B4
+            note As4
       sustain
-            noteL A5, 144
+            noteL A4, 144
       setRelease 1
-            noteL A5, 126
+            noteL A4, 126
       inst 8
       vol 11
-            noteL C6, 6
-            note B5
-            note As5
+            noteL C5, 6
+            note B4
+            note As4
       setRelease 1
-            noteL A5, 200
+            noteL A4, 200
     channel_end
 Music_13_Channel_2:
       setRelease 0
@@ -63,13 +63,13 @@ Music_13_Channel_2:
             waitL 18
             waitL 144
             waitL 126
-            noteL A5, 6
-            note As5
-            note B5
+            noteL A4, 6
+            note As4
+            note B4
       sustain
-            noteL C6, 144
+            noteL C5, 144
       setRelease 1
-            noteL C6, 200
+            noteL C5, 200
     channel_end
 Music_13_Channel_3:
       setRelease 1
@@ -77,26 +77,26 @@ Music_13_Channel_3:
       stereo 0c0h
       inst 26
       vol 12
+            noteL A2, 6
+            note As2
+            note B2
+      inst 2
+      vol 12
+      sustain
+            noteL C2, 144
+      setRelease 1
+            noteL C2, 126
+      inst 26
+      vol 12
             noteL A3, 6
             note As3
             note B3
       inst 2
-      vol 12
+      vol 11
       sustain
             noteL C3, 144
       setRelease 1
-            noteL C3, 126
-      inst 26
-      vol 12
-            noteL A4, 6
-            note As4
-            note B4
-      inst 2
-      vol 11
-      sustain
-            noteL C4, 144
-      setRelease 1
-            noteL C4, 200
+            noteL C3, 200
     channel_end
 Music_13_Channel_4:
       setRelease 0
@@ -106,32 +106,32 @@ Music_13_Channel_4:
       vol 9
       shifting 32
             waitL 6
-            note A3
-            note As3
-            note B3
+            note A2
+            note As2
+            note B2
       stereo 040h
-            noteL C4, 126
+            noteL C3, 126
       inst 15
       vol 7
       stereo 080h
-            noteL C6, 6
-            note B5
-            note As5
-            noteL A5, 126
+            noteL C5, 6
+            note B4
+            note As4
+            noteL A4, 126
       inst 6
       vol 7
       stereo 040h
-            noteL A5, 6
-            note As5
-            note B5
-            noteL C6, 126
+            noteL A4, 6
+            note As4
+            note B4
+            noteL C5, 126
       inst 8
       vol 6
       stereo 080h
-            noteL C6, 6
-            note B5
-            note As5
-            noteL A5, 194
+            noteL C5, 6
+            note B4
+            note As4
+            noteL A4, 194
     channel_end
 Music_13_Channel_5:
     channel_end

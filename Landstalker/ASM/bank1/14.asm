@@ -21,87 +21,87 @@ Music_14_Channel_0:
             waitL 168
       inst 53
       vol 12
-            noteL C5, 12
+            noteL C4, 12
             wait
     mainLoopStart
-            noteL F5, 0
+            noteL F4, 0
       setSlide 2
-            noteL G5, 240
+            noteL G4, 240
       noSlide
             waitL 12
-            noteL C5, 6
+            noteL C4, 6
             wait
-            noteL F5, 12
-            noteL G5, 6
+            noteL F4, 12
+            noteL G4, 6
             wait
       sustain
-            noteL As5, 9
+            noteL As4, 9
       setSlide 8
       setRelease 1
-            note C6
+            note C5
             waitL 6
       noSlide
-            note A5
+            note A4
             wait
-            note As5
+            note As4
             wait
-            note G5
+            note G4
             waitL 10
-            noteL A5, 6
+            noteL A4, 6
             waitL 10
-            noteL F5, 6
+            noteL F4, 6
             waitL 10
       noSlide
-            noteL F5, 0
+            noteL F4, 0
       setSlide 2
       sustain
-            noteL G5, 192
+            noteL G4, 192
       vibrato 020h
       setRelease 1
-            noteL G5, 156
+            noteL G4, 156
       vibrato 02ch
       noSlide
             waitL 12
-            note C5
+            note C4
             wait
-            noteL Ds5, 0
+            noteL Ds4, 0
       setSlide 2
-            noteL F5, 240
+            noteL F4, 240
       noSlide
             waitL 12
-            noteL C5, 6
+            noteL C4, 6
             wait
-            noteL Ds5, 12
-            noteL F5, 6
+            noteL Ds4, 12
+            noteL F4, 6
             wait
       sustain
       setSlide 8
-            noteL Fs5, 2
-            noteL G5, 12
+            noteL Fs4, 2
+            noteL G4, 12
       setRelease 1
-            noteL Fs5, 10
+            noteL Fs4, 10
       noSlide
-            noteL F5, 6
+            noteL F4, 6
             wait
-            note Ds5
+            note Ds4
             wait
-            note C5
+            note C4
             waitL 10
-            noteL As4, 6
+            noteL As3, 6
             waitL 10
-            noteL Ds5, 6
+            noteL Ds4, 6
             waitL 10
-            noteL B4, 0
+            noteL B3, 0
       setSlide 1
       sustain
-            noteL C5, 192
+            noteL C4, 192
       vibrato 020h
       setRelease 1
-            noteL C5, 156
+            noteL C4, 156
       noSlide
       vibrato 02ch
             waitL 12
-            note C5
+            note C4
             wait
     mainLoopEnd
 Music_14_Channel_1:
@@ -113,87 +113,87 @@ Music_14_Channel_1:
             waitL 168
       inst 53
       vol 9
-            noteL C5, 12
+            noteL C4, 12
             wait
     mainLoopStart
-            noteL F5, 0
+            noteL F4, 0
       setSlide 2
-            noteL G5, 240
+            noteL G4, 240
       noSlide
             waitL 12
-            noteL C5, 6
+            noteL C4, 6
             wait
-            noteL F5, 12
-            noteL G5, 6
+            noteL F4, 12
+            noteL G4, 6
             wait
       sustain
-            noteL As5, 9
+            noteL As4, 9
       setSlide 8
       setRelease 1
-            note C6
+            note C5
             waitL 6
       noSlide
-            note A5
+            note A4
             wait
-            note As5
+            note As4
             wait
-            note G5
+            note G4
             waitL 10
-            noteL A5, 6
+            noteL A4, 6
             waitL 10
-            noteL F5, 6
+            noteL F4, 6
             waitL 10
       noSlide
-            noteL F5, 0
+            noteL F4, 0
       setSlide 2
       sustain
-            noteL G5, 192
+            noteL G4, 192
       vibrato 020h
       setRelease 1
-            noteL G5, 156
+            noteL G4, 156
       vibrato 02ch
       noSlide
             waitL 12
-            note C5
+            note C4
             wait
-            noteL Ds5, 0
+            noteL Ds4, 0
       setSlide 2
-            noteL F5, 240
+            noteL F4, 240
       noSlide
             waitL 12
-            noteL C5, 6
+            noteL C4, 6
             wait
-            noteL Ds5, 12
-            noteL F5, 6
+            noteL Ds4, 12
+            noteL F4, 6
             wait
       sustain
       setSlide 8
-            noteL Fs5, 2
-            noteL G5, 12
+            noteL Fs4, 2
+            noteL G4, 12
       setRelease 1
-            noteL Fs5, 10
+            noteL Fs4, 10
       noSlide
-            noteL F5, 6
+            noteL F4, 6
             wait
-            note Ds5
+            note Ds4
             wait
-            note C5
+            note C4
             waitL 10
-            noteL As4, 6
+            noteL As3, 6
             waitL 10
-            noteL Ds5, 6
+            noteL Ds4, 6
             waitL 10
-            noteL B4, 0
+            noteL B3, 0
       setSlide 1
       sustain
-            noteL C5, 192
+            noteL C4, 192
       vibrato 020h
       setRelease 1
-            noteL C5, 156
+            noteL C4, 156
       noSlide
       vibrato 02ch
             waitL 12
-            note C5
+            note C4
             wait
     mainLoopEnd
 Music_14_Channel_2:
@@ -205,34 +205,34 @@ Music_14_Channel_2:
       stereo 040h
       inst 31
       vol 10
-            noteL C6, 8
-            note G5
-            note F5
-            note C5
+            noteL C5, 8
+            note G4
+            note F4
+            note C4
             waitL 16
       stereo 080h
       vol 7
-            noteL C6, 8
-            note G5
-            note F5
-            note C5
+            noteL C5, 8
+            note G4
+            note F4
+            note C4
             waitL 88
     countedLoopEnd
     countedLoopStart 1
             waitL 24
       stereo 080h
       vol 10
-            noteL F6, 8
-            note C6
-            note As5
-            note F5
+            noteL F5, 8
+            note C5
+            note As4
+            note F4
             waitL 16
       stereo 080h
       vol 7
-            noteL F6, 8
-            note C6
-            note As5
-            note F5
+            noteL F5, 8
+            note C5
+            note As4
+            note F4
             waitL 88
     countedLoopEnd
     mainLoopEnd
@@ -245,36 +245,36 @@ Music_14_Channel_3:
     mainLoopStart
     countedLoopStart 5
       sustain
-            noteL As2, 1
+            noteL As1, 1
       setSlide 13
       setRelease 1
-            noteL C3, 59
+            noteL C2, 59
       noSlide
             waitL 12
-            noteL G2, 8
+            noteL G1, 8
             waitL 16
-            noteL As2, 8
+            noteL As1, 8
             waitL 16
-            noteL As2, 8
+            noteL As1, 8
             waitL 16
-            noteL C3, 10
+            noteL C2, 10
             waitL 38
     countedLoopEnd
     countedLoopStart 1
       sustain
-            noteL Ds3, 1
+            noteL Ds2, 1
       setSlide 8
       setRelease 1
-            noteL F3, 59
+            noteL F2, 59
       noSlide
             waitL 12
-            noteL C3, 8
+            noteL C2, 8
             waitL 16
-            noteL Ds3, 8
+            noteL Ds2, 8
             waitL 16
-            noteL Ds3, 8
+            noteL Ds2, 8
             waitL 16
-            noteL F3, 10
+            noteL F2, 10
             waitL 38
     countedLoopEnd
     mainLoopEnd
@@ -286,39 +286,39 @@ Music_14_Channel_4:
             waitL 24
       inst 61
       vol 9
-            noteL A3, 12
+            noteL A2, 12
       vol 7
-            noteL A3, 84
+            noteL A2, 84
       vol 9
-            noteL A3, 12
+            noteL A2, 12
       vol 7
-            noteL A3, 36
+            noteL A2, 36
       vol 9
-            noteL A3, 12
+            noteL A2, 12
       vol 7
-            note A3
+            note A2
     countedLoopEnd
     mainLoopStart
     countedLoopStart 14
             waitL 24
       vol 9
-            noteL A3, 12
+            noteL A2, 12
       vol 7
-            noteL A3, 84
+            noteL A2, 84
       vol 9
-            noteL A3, 12
+            noteL A2, 12
       vol 7
-            noteL A3, 36
+            noteL A2, 36
       vol 9
-            noteL A3, 12
+            noteL A2, 12
       vol 7
-            note A3
+            note A2
     countedLoopEnd
             waitL 168
       vol 9
-            noteL A3, 12
+            noteL A2, 12
       vol 7
-            note A3
+            note A2
     mainLoopEnd
 Music_14_Channel_5:
     mainLoopStart
@@ -412,17 +412,17 @@ Music_14_Channel_6:
       psgInst 00h
             waitL 24
       psgInst 01ah
-            psgNoteL C4, 8
-            psgNote G3
-            psgNote F3
-            psgNote C3
+            psgNoteL C5, 8
+            psgNote G4
+            psgNote F4
+            psgNote C4
       psgInst 00h
             waitL 16
       psgInst 018h
-            psgNoteL C4, 8
-            psgNote G3
-            psgNote F3
-            psgNote C3
+            psgNoteL C5, 8
+            psgNote G4
+            psgNote F4
+            psgNote C4
       psgInst 00h
             waitL 88
     countedLoopEnd
@@ -430,17 +430,17 @@ Music_14_Channel_6:
       psgInst 00h
             waitL 24
       psgInst 01ah
-            psgNoteL F4, 8
-            psgNote C4
-            psgNote As3
-            psgNote F3
+            psgNoteL F5, 8
+            psgNote C5
+            psgNote As4
+            psgNote F4
       psgInst 00h
             waitL 16
       psgInst 018h
-            psgNoteL F4, 8
-            psgNote C4
-            psgNote As3
-            psgNote F3
+            psgNoteL F5, 8
+            psgNote C5
+            psgNote As4
+            psgNote F4
       psgInst 00h
             waitL 88
     countedLoopEnd
@@ -455,17 +455,17 @@ Music_14_Channel_7:
       psgInst 00h
             waitL 24
       psgInst 015h
-            psgNoteL C4, 8
-            psgNote G3
-            psgNote F3
-            psgNote C3
+            psgNoteL C5, 8
+            psgNote G4
+            psgNote F4
+            psgNote C4
       psgInst 00h
             waitL 16
       psgInst 013h
-            psgNoteL C4, 8
-            psgNote G3
-            psgNote F3
-            psgNote C3
+            psgNoteL C5, 8
+            psgNote G4
+            psgNote F4
+            psgNote C4
       psgInst 00h
             waitL 88
     countedLoopEnd
@@ -473,17 +473,17 @@ Music_14_Channel_7:
       psgInst 00h
             waitL 24
       psgInst 015h
-            psgNoteL F4, 8
-            psgNote C4
-            psgNote As3
-            psgNote F3
+            psgNoteL F5, 8
+            psgNote C5
+            psgNote As4
+            psgNote F4
       psgInst 00h
             waitL 16
       psgInst 013h
-            psgNoteL F4, 8
-            psgNote C4
-            psgNote As3
-            psgNote F3
+            psgNoteL F5, 8
+            psgNote C5
+            psgNote As4
+            psgNote F4
       psgInst 00h
             waitL 88
     countedLoopEnd

@@ -13,20 +13,20 @@ Sfx_017_Channel_1:
       vibrato 02ah
       stereo 0c0h
       setRelease 6
-            noteL Fs5, 0
+            noteL Fs4, 0
+      setSlide 48
+            noteL A4, 9
+      noSlide
+            noteL G4, 0
+      setSlide 48
+            noteL Cs5, 9
+      noSlide
+            noteL As4, 0
+      setSlide 48
+            noteL E5, 9
+      noSlide
+            noteL E5, 0
       setSlide 48
             noteL A5, 9
-      noSlide
-            noteL G5, 0
-      setSlide 48
-            noteL Cs6, 9
-      noSlide
-            noteL As5, 0
-      setSlide 48
-            noteL E6, 9
-      noSlide
-            noteL E6, 0
-      setSlide 48
-            noteL A6, 9
       noSlide
     channel_end

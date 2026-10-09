@@ -9,20 +9,20 @@ Sfx_024_Channel_0:
       setRelease 1
       vibrato 00h
     countedLoopStart 5
-            noteL F2, 7
+            noteL F1, 7
     countedLoopEnd
       vol 14
-            noteL F2, 7
+            noteL F1, 7
       vol 13
-            note F2
+            note F1
       vol 12
-            note F2
+            note F1
       vol 11
-            note F2
+            note F1
       vol 10
-            note F2
+            note F1
       vol 9
-            note F2
+            note F1
     channel_end
 Sfx_024_Channel_1:
       inst 49
@@ -30,22 +30,22 @@ Sfx_024_Channel_1:
       setRelease 1
       vibrato 00h
     countedLoopStart 6
-            noteL E2, 6
+            noteL E1, 6
     countedLoopEnd
       vol 14
-            noteL E2, 6
+            noteL E1, 6
       vol 13
-            note E2
+            note E1
       vol 12
-            note E2
+            note E1
       vol 11
-            note E2
+            note E1
       vol 10
-            note E2
+            note E1
       vol 9
-            note E2
+            note E1
       vol 8
-            note E2
+            note E1
     channel_end
 Sfx_024_Channel_2:
     channel_end

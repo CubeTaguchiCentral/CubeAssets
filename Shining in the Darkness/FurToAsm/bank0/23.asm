@@ -20,9 +20,9 @@ Music_23_Channel_0:
       vibrato 00h
       setRelease 1
     countedLoopStart 2
-            noteL G6, 4
+            noteL G5, 4
             waitL 20
-            noteL E6, 4
+            noteL E5, 4
             waitL 20
     countedLoopEnd
     channel_end
@@ -33,9 +33,9 @@ Music_23_Channel_1:
       vibrato 00h
       setRelease 1
     countedLoopStart 2
-            noteL Ds6, 4
+            noteL Ds5, 4
             waitL 20
-            noteL Cs6, 4
+            noteL Cs5, 4
             waitL 20
     countedLoopEnd
     channel_end
@@ -46,9 +46,9 @@ Music_23_Channel_2:
       vibrato 00h
       setRelease 1
     countedLoopStart 2
-            noteL C6, 4
+            noteL C5, 4
             waitL 20
-            noteL A5, 4
+            noteL A4, 4
             waitL 20
     countedLoopEnd
     channel_end
@@ -59,9 +59,9 @@ Music_23_Channel_3:
       vibrato 00h
       setRelease 1
     countedLoopStart 2
-            noteL Gs5, 4
+            noteL Gs4, 4
             waitL 20
-            noteL F5, 4
+            noteL F4, 4
             waitL 20
     countedLoopEnd
     channel_end
@@ -71,7 +71,7 @@ Music_23_Channel_4:
       vol 13
       setRelease 1
       vibrato 05ah
-            noteL C3, 126
+            noteL C2, 126
             waitL 18
     channel_end
 Music_23_Channel_5:

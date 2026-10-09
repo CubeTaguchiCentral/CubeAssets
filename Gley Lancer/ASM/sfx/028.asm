@@ -10,18 +10,18 @@ Sfx_028_Channel_0:
       vibrato 04ah
       stereo 0c0h
       shifting 0
-            noteL A2, 4
+            noteL A1, 4
             waitL 1
-            noteL As3, 0
+            noteL As2, 0
       setSlide 125
-            noteL C2, 6
+            noteL C1, 6
       noSlide
       vol 11
-            noteL C2, 6
+            noteL C1, 6
       vol 9
-            noteL C2, 6
+            noteL C1, 6
       vol 7
-            noteL C2, 6
+            noteL C1, 6
     channel_end
 Sfx_028_Channel_1:
     channel_end

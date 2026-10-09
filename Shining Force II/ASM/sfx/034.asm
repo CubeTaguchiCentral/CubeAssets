@@ -10,6 +10,6 @@ Sfx_034_Channel_1:
       vol 15
       setRelease 0
       vibrato 00h
-            noteL A5, 4
-            noteL A5, 6
+            noteL A4, 4
+            noteL A4, 6
     channel_end

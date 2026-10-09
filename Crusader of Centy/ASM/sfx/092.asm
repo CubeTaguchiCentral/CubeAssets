@@ -9,10 +9,10 @@ Sfx_092_Channel_0:
       vol 15
       setRelease 0
       vibrato 00h
-            noteL D2, 2
+            noteL D1, 2
       inst 73
       vol 14
-            noteL D2, 36
+            noteL D1, 36
     channel_end
 Sfx_092_Channel_1:
       inst 70
@@ -20,10 +20,10 @@ Sfx_092_Channel_1:
       vol 15
       setRelease 0
       vibrato 00h
-            noteL C2, 2
+            noteL C1, 2
       inst 73
       vol 14
-            noteL C2, 36
+            noteL C1, 36
     channel_end
 Sfx_092_Channel_2:
     channel_end

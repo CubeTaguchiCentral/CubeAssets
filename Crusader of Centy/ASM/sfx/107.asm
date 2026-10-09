@@ -12,12 +12,12 @@ Sfx_107_Channel_0:
       vibrato 00h
       setRelease 1
             waitL 8
-            noteL C2, 2
+            noteL C1, 2
       sustain
-            note D2
+            note D1
       setSlide 32
       setRelease 1
-            noteL A2, 8
+            noteL A1, 8
             waitL 6
     mainLoopEnd
 Sfx_107_Channel_1:
@@ -28,12 +28,12 @@ Sfx_107_Channel_1:
       vibrato 00h
       setRelease 1
             waitL 6
-            noteL C2, 2
+            noteL C1, 2
       sustain
-            note D2
+            note D1
       setSlide 32
       setRelease 1
-            noteL A2, 8
+            noteL A1, 8
             waitL 6
     mainLoopEnd
 Sfx_107_Channel_2:

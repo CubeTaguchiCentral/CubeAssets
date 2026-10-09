@@ -11,8 +11,8 @@ Sfx_023_Channel_1:
       setRelease 1
       vibrato 00h
     mainLoopStart
-            noteL D3, 6
-            noteL D4, 15
-            noteL D5, 6
-            noteL D4, 15
+            noteL D2, 6
+            noteL D3, 15
+            noteL D4, 6
+            noteL D3, 15
     mainLoopEnd

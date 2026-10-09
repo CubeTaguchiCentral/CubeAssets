@@ -20,97 +20,97 @@ Music_01_Channel_0:
       setRelease 1
       vibrato 02ch
     mainLoopStart
-            noteL D6, 40
+            noteL D5, 40
             waitL 8
-            noteL D6, 48
-            noteL Cs6, 12
-            note B5
-            noteL Cs6, 36
-            noteL E6, 12
+            noteL D5, 48
+            noteL Cs5, 12
+            note B4
+            noteL Cs5, 36
+            noteL E5, 12
+            noteL A4, 24
+            note A5
+            noteL Fs5, 12
+            note G5
             noteL A5, 24
-            note A6
-            noteL Fs6, 12
-            note G6
-            noteL A6, 24
-            noteL G6, 12
-            note Fs6
-            note G6
-            note B5
-            noteL D6, 24
-            note Cs6
-            wait
-            noteL Fs6, 40
-            waitL 8
-            noteL Fs6, 48
-            noteL E6, 12
-            note D6
-            noteL E6, 36
-            noteL Cs6, 12
-            note D6
-            note Cs6
-            noteL D6, 36
-            noteL Cs6, 12
-            note B5
-            note A5
-            note G5
-            note A5
-            note G5
+            noteL G5, 12
             note Fs5
-            noteL E5, 24
-            wait
-            wait
-            noteL A6, 40
-            waitL 8
-            noteL A6, 48
-            noteL G6, 12
-            note Fs6
-            noteL G6, 36
-            noteL E6, 12
-            note Fs6
-            note F6
-            noteL Fs6, 36
-            noteL E6, 12
-            note D6
-            note Cs6
-            note B5
-            note Cs6
-            note B5
-            note A5
-            noteL G5, 24
-            wait
-            wait
-            note E5
-            note A5
-            note B5
-            noteL Cs6, 12
-            note D6
-            note B5
-            note Cs6
-            note A5
-            note B5
             note G5
-            note A5
+            note B4
             noteL D5, 24
-            note A5
-            note D6
-            note E6
-            noteL F6, 12
-            note G6
-            noteL E6, 14
-            note F6
-            noteL D6, 16
-            noteL E6, 18
-            noteL B5, 20
-            noteL D6, 28
+            note Cs5
+            wait
+            noteL Fs5, 40
+            waitL 8
+            noteL Fs5, 48
+            noteL E5, 12
+            note D5
+            noteL E5, 36
+            noteL Cs5, 12
+            note D5
+            note Cs5
+            noteL D5, 36
+            noteL Cs5, 12
+            note B4
+            note A4
+            note G4
+            note A4
+            note G4
+            note Fs4
+            noteL E4, 24
+            wait
+            wait
+            noteL A5, 40
+            waitL 8
+            noteL A5, 48
+            noteL G5, 12
+            note Fs5
+            noteL G5, 36
+            noteL E5, 12
+            note Fs5
+            note F5
+            noteL Fs5, 36
+            noteL E5, 12
+            note D5
+            note Cs5
+            note B4
+            note Cs5
+            note B4
+            note A4
+            noteL G4, 24
+            wait
+            wait
+            note E4
+            note A4
+            note B4
+            noteL Cs5, 12
+            note D5
+            note B4
+            note Cs5
+            note A4
+            note B4
+            note G4
+            note A4
+            noteL D4, 24
+            note A4
+            note D5
+            note E5
+            noteL F5, 12
+            note G5
+            noteL E5, 14
+            note F5
+            noteL D5, 16
+            noteL E5, 18
+            noteL B4, 20
+            noteL D5, 28
             waitL 2
-            noteL D6, 60
-            noteL Cs6, 30
-            noteL B5, 36
-            noteL Cs6, 6
-            noteL D6, 4
-            note Cs6
-            note D6
-            noteL Cs6, 148
+            noteL D5, 60
+            noteL Cs5, 30
+            noteL B4, 36
+            noteL Cs5, 6
+            noteL D5, 4
+            note Cs5
+            note D5
+            noteL Cs5, 148
             waitL 28
     mainLoopEnd
 Music_01_Channel_1:
@@ -118,97 +118,97 @@ Music_01_Channel_1:
       vol 9
       setRelease 1
       vibrato 02ch
-            noteL Fs5, 48
+            noteL Fs4, 48
     mainLoopStart
-            noteL G5, 48
-            noteL A5, 72
-            noteL E5, 48
-            noteL D5, 12
-            note Cs5
-            noteL B4, 24
-            noteL Fs5, 48
-            noteL E5, 40
+            noteL G4, 48
+            noteL A4, 72
+            noteL E4, 48
+            noteL D4, 12
+            note Cs4
+            noteL B3, 24
+            noteL Fs4, 48
+            noteL E4, 40
             waitL 8
-            noteL A5, 24
-            noteL As5, 48
-            note B5
-            noteL Cs6, 72
-            noteL As5, 24
-            noteL Fs5, 72
-            noteL D5, 24
-            note E5
+            noteL A4, 24
+            noteL As4, 48
             note B4
-            noteL G4, 12
-            note D5
-            note Cs5
-            note B4
-            noteL Cs5, 48
-            note D5
-            noteL E5, 72
-            noteL Cs5, 24
-            noteL D5, 144
-            noteL B4, 12
-            note Fs5
-            note E5
-            note D5
             noteL Cs5, 72
-            noteL D5, 24
-            note E5
-            note D5
-            noteL Cs5, 48
-            noteL Fs5, 72
-            noteL G5, 24
-            note A5
-            noteL G5, 28
-            noteL F5, 114
-            noteL E5, 60
-            noteL D5, 36
-            noteL E5, 84
-            noteL A5, 38
-            noteL G5, 44
-            noteL Fs5, 52
+            noteL As4, 24
+            noteL Fs4, 72
+            noteL D4, 24
+            note E4
+            note B3
+            noteL G3, 12
+            note D4
+            note Cs4
+            note B3
+            noteL Cs4, 48
+            note D4
+            noteL E4, 72
+            noteL Cs4, 24
+            noteL D4, 144
+            noteL B3, 12
+            note Fs4
+            note E4
+            note D4
+            noteL Cs4, 72
+            noteL D4, 24
+            note E4
+            note D4
+            noteL Cs4, 48
+            noteL Fs4, 72
+            noteL G4, 24
+            note A4
+            noteL G4, 28
+            noteL F4, 114
+            noteL E4, 60
+            noteL D4, 36
+            noteL E4, 84
+            noteL A4, 38
+            noteL G4, 44
+            noteL Fs4, 52
     mainLoopEnd
 Music_01_Channel_2:
       inst 11
       vol 11
       setRelease 1
       vibrato 02ch
-            noteL D4, 48
+            noteL D3, 48
     mainLoopStart
-            noteL E4, 48
-            note Fs4
-            note G4
-            note Fs4
-            note Ds4
-            note E4
-            noteL A4, 24
-            note G4
-            noteL Fs4, 48
-            note Gs4
-            note As4
-            note Fs4
-            note B4
-            note B3
-            note E4
-            waitL 12
-            note E3
+            noteL E3, 48
             note Fs3
             note G3
-            noteL A3, 48
-            note B3
-            note Cs4
-            note A3
-            note D4
-            note Fs4
-            note G4
+            note Fs3
+            note Ds3
+            note E3
+            noteL A3, 24
             note G3
+            noteL Fs3, 48
+            note Gs3
+            note As3
+            note Fs3
+            note B3
+            note B2
+            note E3
+            waitL 12
+            note E2
+            note Fs2
+            note G2
+            noteL A2, 48
+            note B2
+            note Cs3
+            note A2
+            note D3
+            note Fs3
+            note G3
+            note G2
       sustain
-            noteL A3, 192
-            noteL A3, 232
-            noteL A3, 200
+            noteL A2, 192
+            noteL A2, 232
+            noteL A2, 200
       setRelease 1
-            noteL A3, 92
-            noteL D4, 52
+            noteL A2, 92
+            noteL D3, 52
     mainLoopEnd
 Music_01_Channel_3:
       stereo 080h
@@ -219,97 +219,97 @@ Music_01_Channel_3:
       setRelease 1
       vibrato 02ch
     mainLoopStart
-            noteL D6, 40
+            noteL D5, 40
             waitL 8
-            noteL D6, 48
-            noteL Cs6, 12
-            note B5
-            noteL Cs6, 36
-            noteL E6, 12
+            noteL D5, 48
+            noteL Cs5, 12
+            note B4
+            noteL Cs5, 36
+            noteL E5, 12
+            noteL A4, 24
+            note A5
+            noteL Fs5, 12
+            note G5
             noteL A5, 24
-            note A6
-            noteL Fs6, 12
-            note G6
-            noteL A6, 24
-            noteL G6, 12
-            note Fs6
-            note G6
-            note B5
-            noteL D6, 24
-            note Cs6
-            wait
-            noteL Fs6, 40
-            waitL 8
-            noteL Fs6, 48
-            noteL E6, 12
-            note D6
-            noteL E6, 36
-            noteL Cs6, 12
-            note D6
-            note Cs6
-            noteL D6, 36
-            noteL Cs6, 12
-            note B5
-            note A5
-            note G5
-            note A5
-            note G5
+            noteL G5, 12
             note Fs5
-            noteL E5, 24
-            wait
-            wait
-            noteL A6, 40
-            waitL 8
-            noteL A6, 48
-            noteL G6, 12
-            note Fs6
-            noteL G6, 36
-            noteL E6, 12
-            note Fs6
-            note F6
-            noteL Fs6, 36
-            noteL E6, 12
-            note D6
-            note Cs6
-            note B5
-            note Cs6
-            note B5
-            note A5
-            noteL G5, 24
-            wait
-            wait
-            note E5
-            note A5
-            note B5
-            noteL Cs6, 12
-            note D6
-            note B5
-            note Cs6
-            note A5
-            note B5
             note G5
-            note A5
+            note B4
             noteL D5, 24
-            note A5
-            note D6
-            note E6
-            noteL F6, 12
-            note G6
-            noteL E6, 14
-            note F6
-            noteL D6, 16
-            noteL E6, 18
-            noteL B5, 20
-            noteL D6, 28
+            note Cs5
+            wait
+            noteL Fs5, 40
+            waitL 8
+            noteL Fs5, 48
+            noteL E5, 12
+            note D5
+            noteL E5, 36
+            noteL Cs5, 12
+            note D5
+            note Cs5
+            noteL D5, 36
+            noteL Cs5, 12
+            note B4
+            note A4
+            note G4
+            note A4
+            note G4
+            note Fs4
+            noteL E4, 24
+            wait
+            wait
+            noteL A5, 40
+            waitL 8
+            noteL A5, 48
+            noteL G5, 12
+            note Fs5
+            noteL G5, 36
+            noteL E5, 12
+            note Fs5
+            note F5
+            noteL Fs5, 36
+            noteL E5, 12
+            note D5
+            note Cs5
+            note B4
+            note Cs5
+            note B4
+            note A4
+            noteL G4, 24
+            wait
+            wait
+            note E4
+            note A4
+            note B4
+            noteL Cs5, 12
+            note D5
+            note B4
+            note Cs5
+            note A4
+            note B4
+            note G4
+            note A4
+            noteL D4, 24
+            note A4
+            note D5
+            note E5
+            noteL F5, 12
+            note G5
+            noteL E5, 14
+            note F5
+            noteL D5, 16
+            noteL E5, 18
+            noteL B4, 20
+            noteL D5, 28
             waitL 2
-            noteL D6, 60
-            noteL Cs6, 30
-            noteL B5, 36
-            noteL Cs6, 6
-            noteL D6, 4
-            note Cs6
-            note D6
-            noteL Cs6, 148
+            noteL D5, 60
+            noteL Cs5, 30
+            noteL B4, 36
+            noteL Cs5, 6
+            noteL D5, 4
+            note Cs5
+            note D5
+            noteL Cs5, 148
             waitL 28
     mainLoopEnd
 Music_01_Channel_4:
@@ -320,55 +320,55 @@ Music_01_Channel_4:
       vol 7
       setRelease 1
       vibrato 02ch
-            noteL Fs5, 48
+            noteL Fs4, 48
     mainLoopStart
-            noteL G5, 48
-            noteL A5, 72
-            noteL E5, 48
-            noteL D5, 12
-            note Cs5
-            noteL B4, 24
-            noteL Fs5, 48
-            noteL E5, 40
+            noteL G4, 48
+            noteL A4, 72
+            noteL E4, 48
+            noteL D4, 12
+            note Cs4
+            noteL B3, 24
+            noteL Fs4, 48
+            noteL E4, 40
             waitL 8
-            noteL A5, 24
-            noteL As5, 48
-            note B5
-            noteL Cs6, 72
-            noteL As5, 24
-            noteL Fs5, 72
-            noteL D5, 24
-            note E5
+            noteL A4, 24
+            noteL As4, 48
             note B4
-            noteL G4, 12
-            note D5
-            note Cs5
-            note B4
-            noteL Cs5, 48
-            note D5
-            noteL E5, 72
-            noteL Cs5, 24
-            noteL D5, 144
-            noteL B4, 12
-            note Fs5
-            note E5
-            note D5
             noteL Cs5, 72
-            noteL D5, 24
-            note E5
-            note D5
-            noteL Cs5, 48
-            noteL Fs5, 72
-            noteL G5, 24
-            note A5
-            noteL G5, 28
-            noteL F5, 114
-            noteL E5, 60
-            noteL D5, 36
-            noteL E5, 84
-            noteL A5, 38
-            noteL G5, 44
-            noteL Fs5, 52
+            noteL As4, 24
+            noteL Fs4, 72
+            noteL D4, 24
+            note E4
+            note B3
+            noteL G3, 12
+            note D4
+            note Cs4
+            note B3
+            noteL Cs4, 48
+            note D4
+            noteL E4, 72
+            noteL Cs4, 24
+            noteL D4, 144
+            noteL B3, 12
+            note Fs4
+            note E4
+            note D4
+            noteL Cs4, 72
+            noteL D4, 24
+            note E4
+            note D4
+            noteL Cs4, 48
+            noteL Fs4, 72
+            noteL G4, 24
+            note A4
+            noteL G4, 28
+            noteL F4, 114
+            noteL E4, 60
+            noteL D4, 36
+            noteL E4, 84
+            noteL A4, 38
+            noteL G4, 44
+            noteL Fs4, 52
     mainLoopEnd
 Music_01_Channel_5:
     channel_end

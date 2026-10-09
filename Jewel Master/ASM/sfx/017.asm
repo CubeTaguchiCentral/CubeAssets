@@ -10,12 +10,12 @@ Sfx_017_Channel_0:
       vibrato 00h
       sustain
       noSlide
-            noteL C2, 4
+            noteL C1, 4
       setSlide 32
       vol 14
-            noteL Gs2, 58
+            noteL Gs1, 58
       setRelease 1
-            noteL Ds2, 96
+            noteL Ds1, 96
     channel_end
 Sfx_017_Channel_1:
       inst 48
@@ -23,12 +23,12 @@ Sfx_017_Channel_1:
       vibrato 00h
       sustain
       noSlide
-            noteL Cs2, 4
+            noteL Cs1, 4
       setSlide 32
       vol 14
-            noteL G2, 58
+            noteL G1, 58
       setRelease 1
-            noteL E2, 96
+            noteL E1, 96
     channel_end
 Sfx_017_Channel_2:
     channel_end

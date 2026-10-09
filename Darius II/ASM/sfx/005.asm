@@ -9,11 +9,11 @@ Sfx_005_Channel_1:
       inst 36
       setRelease 1
       vol 12
-            noteL Cs4, 2
-            noteL Cs4, 3
+            noteL Cs3, 2
+            noteL Cs3, 3
       vibrato 091h
       inst 35
       vibrato 0d0h
-            noteL B7, 4
-            noteL D7, 24
+            noteL B6, 4
+            noteL D6, 24
     channel_end

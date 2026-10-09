@@ -16,7 +16,7 @@ Sfx_099_Channel_8:
       psgInst 0bh
       setRelease 0
       vibrato 010h
-            psgNoteL F3, 2
-            psgNote F4
+            psgNoteL F4, 2
             psgNote F5
+            psgNote F6
     channel_end

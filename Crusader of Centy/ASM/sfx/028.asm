@@ -10,10 +10,10 @@ Sfx_028_Channel_1:
       vol 14
       setRelease 0
       vibrato 070h
-            noteL A4, 0
+            noteL A3, 0
       setSlide 52
-            noteL A6, 7
-            note A8
-            noteL D3, 35
+            noteL A5, 7
+            note A7
+            noteL D2, 35
       noSlide
     channel_end

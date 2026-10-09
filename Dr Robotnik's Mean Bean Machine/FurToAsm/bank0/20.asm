@@ -18,25 +18,25 @@ Music_20_Channel_0:
       sustain
       inst 77
       vol 15
-            noteL As4, 50
+            noteL As3, 50
       vibrato 05fh
       setSlide 1
       vibrato 00h
-            noteL As3, 240
+            noteL As2, 240
     channel_end
 Music_20_Channel_1:
       stereo 0c0h
       sustain
       inst 78
       vol 15
-            noteL F3, 34
+            noteL F2, 34
       vibrato 052h
       setSlide 1
-            noteL F2, 112
+            noteL F1, 112
       noSlide
-            noteL F2, 48
+            noteL F1, 48
       vibrato 00h
-            noteL F2, 96
+            noteL F1, 96
     channel_end
 Music_20_Channel_2:
       stereo 0c0h
@@ -44,14 +44,14 @@ Music_20_Channel_2:
       sustain
       inst 78
       vol 15
-            noteL F3, 34
+            noteL F2, 34
       vibrato 052h
       setSlide 1
-            noteL F2, 112
+            noteL F1, 112
       noSlide
-            noteL F2, 48
+            noteL F1, 48
       vibrato 00h
-            noteL F2, 96
+            noteL F1, 96
     channel_end
 Music_20_Channel_3:
       stereo 0c0h
@@ -59,14 +59,14 @@ Music_20_Channel_3:
       sustain
       inst 78
       vol 15
-            noteL F3, 34
+            noteL F2, 34
       vibrato 052h
       setSlide 1
-            noteL F2, 112
+            noteL F1, 112
       noSlide
-            noteL F2, 48
+            noteL F1, 48
       vibrato 00h
-            noteL F2, 96
+            noteL F1, 96
     channel_end
 Music_20_Channel_4:
       stereo 0c0h
@@ -74,14 +74,14 @@ Music_20_Channel_4:
       sustain
       inst 78
       vol 15
-            noteL F3, 34
+            noteL F2, 34
       vibrato 052h
       setSlide 1
-            noteL F2, 112
+            noteL F1, 112
       noSlide
-            noteL F2, 48
+            noteL F1, 48
       vibrato 00h
-            noteL F2, 96
+            noteL F1, 96
     channel_end
 Music_20_Channel_5:
             waitL 15

@@ -9,21 +9,21 @@ Sfx_021_Channel_0:
       vibrato 010h
       vol 8
       sustain
-            noteL A2, 1
+            noteL A1, 1
       vol 9
-            note A2
+            note A1
       vol 10
-            note A2
+            note A1
       vol 11
-            note A2
+            note A1
       vol 12
-            note A2
+            note A1
       vol 13
-            note A2
+            note A1
       vol 14
-            note A2
+            note A1
       vol 15
-            noteL A2, 255
+            noteL A1, 255
     channel_end
 Sfx_021_Channel_1:
     channel_end

@@ -15,19 +15,19 @@ Sfx_014_Channel_0:
     countedLoopStart 31
       inst 83
       vol 9
-            noteL F2, 5
+            noteL F1, 5
     countedLoopEnd
     countedLoopStart 8
-            noteL F2, 5
+            noteL F1, 5
     countedLoopEnd
       vol 7
-            note F2
+            note F1
       vol 6
-            note F2
+            note F1
       vol 4
-            note F2
+            note F1
       vol 2
-            note F2
+            note F1
     channel_end
 Sfx_014_Channel_1:
       inst 103
@@ -37,28 +37,28 @@ Sfx_014_Channel_1:
       shifting 0
       noSlide
       setRelease 0
-            noteL C2, 5
-            note C2
-            note C2
-            noteL Gs3, 0
+            noteL C1, 5
+            note C1
+            note C1
+            noteL Gs2, 0
       setSlide 6
-            noteL Ds3, 48
-            noteL Gs3, 0
+            noteL Ds2, 48
+            noteL Gs2, 0
       setSlide 6
-            noteL Ds3, 24
-            noteL Gs3, 0
+            noteL Ds2, 24
+            noteL Gs2, 0
       setSlide 6
-            noteL Ds3, 22
-            noteL Gs3, 0
+            noteL Ds2, 22
+            noteL Gs2, 0
       setSlide 6
-            noteL Ds3, 13
-            noteL Gs3, 0
+            noteL Ds2, 13
+            noteL Gs2, 0
       setSlide 6
-            noteL Ds3, 30
+            noteL Ds2, 30
       vol 13
-            noteL Gs3, 0
+            noteL Gs2, 0
       setSlide 6
-            noteL Ds3, 48
+            noteL Ds2, 48
     channel_end
 Sfx_014_Channel_2:
             sampleL 6, 4

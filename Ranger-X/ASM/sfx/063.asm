@@ -11,8 +11,8 @@ Sfx_063_Channel_1:
       vol 12
       setRelease 0
       vibrato 02ah
-            noteL G4, 46
+            noteL G3, 46
       inst 0
       vol 11
-            noteL D7, 2
+            noteL D6, 2
     mainLoopEnd

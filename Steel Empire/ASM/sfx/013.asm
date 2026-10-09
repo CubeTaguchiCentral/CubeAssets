@@ -12,9 +12,9 @@ Sfx_013_Channel_1:
       setRelease 1
       stereo 0c0h
       vibrato 02ah
-            noteL A7, 7
+            noteL A6, 7
       vol 8
-            noteL A7, 6
+            noteL A6, 6
       vol 4
-            noteL A7, 7
+            noteL A6, 7
     channel_end

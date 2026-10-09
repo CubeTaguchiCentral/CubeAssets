@@ -11,26 +11,26 @@ Sfx_023_Channel_1:
       setRelease 0
       vibrato 02h
     countedLoopStart 0
-            noteL B3, 2
-            note Ds3
-            note G3
-            note D3
-            note F3
-            note C3
-            note Fs3
+            noteL B2, 2
+            note Ds2
+            note G2
+            note D2
+            note F2
+            note C2
+            note Fs2
     countedLoopEnd
       vol 14
-            noteL B3, 2
+            noteL B2, 2
       vol 13
-            note Ds3
+            note Ds2
       vol 12
-            note G3
+            note G2
       vol 11
-            note D3
+            note D2
       vol 10
-            note F3
+            note F2
       vol 9
-            note C3
+            note C2
       vol 8
-            note Fs3
+            note Fs2
     channel_end

@@ -10,21 +10,21 @@ Sfx_022_Channel_1:
       sustain
       vibrato 00h
       vol 8
-            noteL D3, 1
+            noteL D2, 1
       vol 9
-            note D3
+            note D2
       vol 10
-            note D3
+            note D2
       vol 11
-            note D3
+            note D2
       vol 12
-            note D3
+            note D2
       vol 13
-            note D3
+            note D2
       vol 14
-            note D3
+            note D2
       vol 15
       setSlide 8
       setRelease 1
-            noteL Ds3, 60
+            noteL Ds2, 60
     channel_end

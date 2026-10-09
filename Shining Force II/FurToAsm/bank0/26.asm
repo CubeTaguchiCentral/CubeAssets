@@ -19,25 +19,25 @@ Music_26_Channel_0:
       vol 11
       setRelease 1
       vibrato 00h
-            noteL Ds5, 6
+            noteL Ds4, 6
       vol 8
-            note Ds5
+            note Ds4
       vol 11
-            note A4
+            note A3
       vol 8
-            note A4
+            note A3
       vol 5
-            note A4
+            note A3
       vol 11
-            note Cs5
+            note Cs4
       vol 8
-            note Cs5
+            note Cs4
       vol 5
-            note Cs5
+            note Cs4
       vol 11
-            note Gs4
+            note Gs3
       vol 8
-            note Gs4
+            note Gs3
             waitL 24
     channel_end
 Music_26_Channel_1:
@@ -46,21 +46,21 @@ Music_26_Channel_1:
       vol 11
       setRelease 1
       vibrato 00h
-            noteL F5, 6
+            noteL F4, 6
       setRelease 2
-            note Fs5
-            note Fs5
-            note Fs5
-            note Fs5
+            note Fs4
+            note Fs4
+            note Fs4
+            note Fs4
       setRelease 1
-            note A5
-            note As5
+            note A4
+            note As4
       vol 8
-            note As5
+            note As4
       vol 11
-            note E6
+            note E5
       vol 8
-            note E6
+            note E5
             waitL 24
     channel_end
 Music_26_Channel_2:
@@ -69,20 +69,20 @@ Music_26_Channel_2:
       vol 11
       setRelease 1
       vibrato 00h
-            noteL E5, 6
+            noteL E4, 6
       vol 8
-            note E5
+            note E4
             waitL 18
       vol 11
-            noteL Ds5, 6
+            noteL Ds4, 6
       vol 8
-            note Ds5
+            note Ds4
       vol 5
-            note Ds5
+            note Ds4
       vol 11
-            note F5
+            note F4
       vol 8
-            note F5
+            note F4
             waitL 24
     channel_end
 Music_26_Channel_3:
@@ -93,21 +93,21 @@ Music_26_Channel_3:
       vol 9
       setRelease 1
       vibrato 00h
-            note F5
+            note F4
       setRelease 2
-            note Fs5
-            note Fs5
-            note Fs5
-            note Fs5
+            note Fs4
+            note Fs4
+            note Fs4
+            note Fs4
       setRelease 1
-            note A5
-            note As5
+            note A4
+            note As4
       vol 6
-            note As5
+            note As4
       vol 9
-            note E6
+            note E5
       vol 6
-            note E6
+            note E5
             waitL 18
     channel_end
 Music_26_Channel_4:
@@ -118,20 +118,20 @@ Music_26_Channel_4:
       vol 10
       setRelease 1
       vibrato 00h
-            note E5
+            note E4
       vol 7
-            note E5
+            note E4
             waitL 18
       vol 10
-            noteL Ds5, 6
+            noteL Ds4, 6
       vol 7
-            note Ds5
+            note Ds4
       vol 4
-            note Ds5
+            note Ds4
       vol 10
-            note F5
+            note F4
       vol 7
-            note F5
+            note F4
             waitL 18
     channel_end
 Music_26_Channel_5:
@@ -142,25 +142,25 @@ Music_26_Channel_5:
       vol 10
       setRelease 1
       vibrato 00h
-            note Ds5
+            note Ds4
       vol 7
-            note Ds5
+            note Ds4
       vol 10
-            note A4
+            note A3
       vol 7
-            note A4
+            note A3
       vol 4
-            note A4
+            note A3
       vol 10
-            note Cs5
+            note Cs4
       vol 7
-            note Cs5
+            note Cs4
       vol 4
-            note Cs5
+            note Cs4
       vol 10
-            note Gs4
+            note Gs3
       vol 7
-            note Gs4
+            note Gs3
             waitL 18
     channel_end
 Music_26_Channel_6:

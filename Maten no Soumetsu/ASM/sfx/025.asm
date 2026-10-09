@@ -10,6 +10,6 @@ Sfx_025_Channel_1:
       vol 15
       setRelease 1
       vibrato 00h
-            noteL E8, 2
-            note D8
+            noteL E7, 2
+            note D7
     channel_end

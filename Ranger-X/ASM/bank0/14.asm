@@ -18,46 +18,46 @@ Music_14_Channel_0:
       vol 10
       setRelease 1
       vibrato 02ch
-            noteL Ds7, 9
-            note G6
-            note Ds7
-            note D7
-            note F6
-            note D7
-            note C7
+            noteL Ds6, 9
+            note G5
             note Ds6
-            note C7
-            note B6
             note D6
-            note B6
-            noteL C7, 36
-            note Gs6
-            note G6
-            note F6
-            noteL Ds6, 72
+            note F5
+            note D6
+            note C6
+            note Ds5
+            note C6
+            note B5
+            note D5
+            note B5
+            noteL C6, 36
+            note Gs5
+            note G5
+            note F5
+            noteL Ds5, 72
     channel_end
 Music_14_Channel_1:
       inst 19
       vol 10
       setRelease 1
       vibrato 02ch
-            noteL C7, 9
-            note G6
-            note Ds7
-            note Gs6
-            note F6
-            note D7
-            note G6
+            noteL C6, 9
+            note G5
             note Ds6
-            note C7
-            note F6
+            note Gs5
+            note F5
             note D6
-            note B6
-            noteL Ds6, 36
-            note F6
-            note Ds6
-            note D6
-            noteL G5, 72
+            note G5
+            note Ds5
+            note C6
+            note F5
+            note D5
+            note B5
+            noteL Ds5, 36
+            note F5
+            note Ds5
+            note D5
+            noteL G4, 72
     channel_end
 Music_14_Channel_2:
       inst 19
@@ -67,27 +67,27 @@ Music_14_Channel_2:
       stereo 080h
       shifting 32
             waitL 12
-            noteL Ds7, 9
-            note G6
-            note Ds7
-            note D7
-            note F6
-            note D7
-            note C7
+            noteL Ds6, 9
+            note G5
             note Ds6
-            note C7
-            note B6
             note D6
-            note B6
-            noteL C7, 24
+            note F5
+            note D6
+            note C6
+            note Ds5
+            note C6
+            note B5
+            note D5
+            note B5
+            noteL C6, 24
       inst 18
       vol 10
       shifting 0
       stereo 080h
-            noteL F4, 36
-            note Ds4
-            note D4
-            noteL C4, 72
+            noteL F3, 36
+            note Ds3
+            note D3
+            noteL C3, 72
     channel_end
 Music_14_Channel_3:
       inst 52
@@ -97,27 +97,27 @@ Music_14_Channel_3:
       stereo 040h
       shifting 32
             waitL 12
-            noteL C7, 9
-            note G6
-            note Ds7
-            note Gs6
-            note F6
-            note D7
-            note G6
+            noteL C6, 9
+            note G5
             note Ds6
-            note C7
-            note F6
+            note Gs5
+            note F5
             note D6
-            note B6
-            noteL Ds6, 24
+            note G5
+            note Ds5
+            note C6
+            note F5
+            note D5
+            note B5
+            noteL Ds5, 24
       inst 18
       vol 10
       stereo 040h
             waitL 2
-            noteL F4, 36
-            note Ds4
-            note D4
-            noteL C4, 72
+            noteL F3, 36
+            note Ds3
+            note D3
+            noteL C3, 72
     channel_end
 Music_14_Channel_4:
       inst 9
@@ -125,26 +125,26 @@ Music_14_Channel_4:
       setRelease 1
       vibrato 02ch
             waitL 108
-            noteL C5, 9
+            noteL C4, 9
+            note C4
+            note D4
+            note Ds4
+            note F4
+            note Gs4
             note C5
-            note D5
-            note Ds5
             note F5
-            note Gs5
-            note C6
-            note F6
+            note G4
+            note C5
+            note Ds5
             note G5
-            note C6
-            note Ds6
-            note G6
-            note B6
-            note D6
+            note B5
+            note D5
       vol 8
-            note F6
+            note F5
       vol 7
-            note B6
+            note B5
       vol 6
-            noteL C7, 72
+            noteL C6, 72
     channel_end
 Music_14_Channel_5:
     channel_end

@@ -10,12 +10,12 @@ Sfx_062_Channel_1:
       vol 8
       vibrato 00h
       setRelease 1
-            noteL E6, 6
-            noteL E6, 3
+            noteL E5, 6
+            noteL E5, 3
             wait
-            noteL E6, 6
-            noteL E6, 3
+            noteL E5, 6
+            noteL E5, 3
             wait
-            noteL E6, 6
-            noteL E6, 3
+            noteL E5, 6
+            noteL E5, 3
     channel_end

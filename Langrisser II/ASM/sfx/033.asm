@@ -11,8 +11,8 @@ Sfx_033_Channel_1:
       vol 14
       setRelease 0
       vibrato 02ch
-            noteL C2, 96
+            noteL C1, 96
     countedLoopEnd
-            noteL C2, 48
+            noteL C1, 48
             wait
     channel_end

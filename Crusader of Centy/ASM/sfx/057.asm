@@ -10,7 +10,7 @@ Sfx_057_Channel_1:
       vol 15
       sustain
       vibrato 00h
-            noteL A5, 4
+            noteL A4, 4
       setRelease 1
-            noteL Gs5, 1
+            noteL Gs4, 1
     channel_end

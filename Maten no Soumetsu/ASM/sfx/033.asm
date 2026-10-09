@@ -15,5 +15,5 @@ Sfx_033_Channel_0:
 Sfx_033_Channel_8:
       psgInst 0dh
       vibrato 0b0h
-            psgNoteL B6, 60
+            psgNoteL B7, 60
     channel_end

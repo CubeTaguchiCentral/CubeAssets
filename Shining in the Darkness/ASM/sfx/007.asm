@@ -8,25 +8,25 @@ Sfx_007_Channel_0:
       setRelease 0
       vibrato 090h
       vol 10
-            noteL E6, 3
+            noteL E5, 3
       vol 11
-            note E6
+            note E5
       vol 12
-            note Ds6
+            note Ds5
       vol 13
-            note D6
+            note D5
       vol 14
-            note Cs6
+            note Cs5
       vibrato 010h
       vol 15
-            note C6
-            note B5
-            note As5
-            note A5
-            note Gs5
-            note Gs5
-            note Gs5
-            noteL G5, 48
+            note C5
+            note B4
+            note As4
+            note A4
+            note Gs4
+            note Gs4
+            note Gs4
+            noteL G4, 48
     channel_end
 Sfx_007_Channel_1:
     channel_end

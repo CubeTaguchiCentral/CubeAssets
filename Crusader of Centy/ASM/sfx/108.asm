@@ -16,6 +16,6 @@ Sfx_108_Channel_8:
       psgInst 01ch
       setRelease 1
       vibrato 060h
-            psgNoteL F4, 6
-            psgNoteL C5, 7
+            psgNoteL F5, 6
+            psgNoteL C6, 7
     channel_end

@@ -21,19 +21,19 @@ Music_17_Channel_0:
       noSlide
       vibrato 02ah
       stereo 0c0h
-            noteL E5, 84
+            noteL E4, 84
       setSlide 82
-            noteL Ds5, 14
-            note Fs5
-            noteL C6, 112
-            noteL B5, 7
-            note A5
-            note B5
-            note A5
-            noteL G5, 56
-            noteL Fs5, 14
-            note G5
-            noteL E5, 112
+            noteL Ds4, 14
+            note Fs4
+            noteL C5, 112
+            noteL B4, 7
+            note A4
+            note B4
+            note A4
+            noteL G4, 56
+            noteL Fs4, 14
+            note G4
+            noteL E4, 112
     mainLoopEnd
 Music_17_Channel_1:
     mainLoopStart
@@ -44,13 +44,13 @@ Music_17_Channel_1:
       vibrato 02ah
       stereo 040h
             waitL 14
-            noteL C6, 7
+            noteL C5, 7
             waitL 21
-            noteL C6, 7
+            noteL C5, 7
             waitL 21
-            noteL C6, 7
+            noteL C5, 7
             waitL 21
-            noteL C6, 7
+            noteL C5, 7
             wait
     mainLoopEnd
 Music_17_Channel_2:
@@ -61,16 +61,16 @@ Music_17_Channel_2:
       noSlide
       vibrato 02ah
       stereo 0c0h
-            noteL C4, 14
-            note C4
-            noteL C4, 7
-            note C4
-            note C4
-            note C4
-            noteL C4, 14
-            note C4
-            wait
+            noteL C3, 14
             note C3
+            noteL C3, 7
+            note C3
+            note C3
+            note C3
+            noteL C3, 14
+            note C3
+            wait
+            note C2
     mainLoopEnd
 Music_17_Channel_3:
     mainLoopStart
@@ -80,17 +80,17 @@ Music_17_Channel_3:
       noSlide
       vibrato 02ah
       stereo 080h
-            noteL C4, 7
-            note C4
+            noteL C3, 7
+            note C3
             waitL 14
-            noteL C4, 7
-            note C4
+            noteL C3, 7
+            note C3
             waitL 14
-            noteL C4, 7
-            note C4
+            noteL C3, 7
+            note C3
             waitL 14
-            noteL C4, 7
-            note C4
+            noteL C3, 7
+            note C3
             waitL 14
     mainLoopEnd
 Music_17_Channel_4:
@@ -102,19 +102,19 @@ Music_17_Channel_4:
       noSlide
       vibrato 02ah
       stereo 0c0h
-            noteL E5, 84
+            noteL E4, 84
       setSlide 82
-            noteL Ds5, 14
-            note Fs5
-            noteL C6, 112
-            noteL B5, 7
-            note A5
-            note B5
-            note A5
-            noteL G5, 56
-            noteL Fs5, 14
-            note G5
-            noteL E5, 112
+            noteL Ds4, 14
+            note Fs4
+            noteL C5, 112
+            noteL B4, 7
+            note A4
+            note B4
+            note A4
+            noteL G4, 56
+            noteL Fs4, 14
+            note G4
+            noteL E4, 112
     mainLoopEnd
 Music_17_Channel_5:
     mainLoopStart

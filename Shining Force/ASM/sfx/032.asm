@@ -9,7 +9,7 @@ Sfx_032_Channel_0:
       setRelease 1
       vibrato 00h
     countedLoopStart 14
-            noteL G3, 4
+            noteL G2, 4
     countedLoopEnd
       vol 0
     channel_end

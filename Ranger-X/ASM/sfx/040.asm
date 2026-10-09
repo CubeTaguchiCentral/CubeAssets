@@ -10,9 +10,9 @@ Sfx_040_Channel_1:
       vol 11
       setRelease 1
       vibrato 0c0h
-            noteL G8, 12
-            note Fs8
-            note F8
-            note E8
-            note Ds8
+            noteL G7, 12
+            note Fs7
+            note F7
+            note E7
+            note Ds7
     channel_end

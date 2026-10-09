@@ -12,10 +12,10 @@ Sfx_064_Channel_1:
       vibrato 00h
       noSlide
       sustain
-            noteL F6, 5
+            noteL F5, 5
       setSlide 2
-            noteL A6, 24
+            noteL A5, 24
       setRelease 1
-            noteL Cs6, 130
+            noteL Cs5, 130
             waitL 12
     mainLoopEnd

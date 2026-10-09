@@ -21,41 +21,11 @@ Music_11_Channel_0:
       vibrato 05ah
       setRelease 1
     countedLoopStart 3
-            noteL C4, 6
+            noteL C3, 6
     countedLoopEnd
-            noteL C4, 72
+            noteL C3, 72
     channel_end
 Music_11_Channel_1:
-      stereo 0c0h
-      inst 34
-      vol 12
-      vibrato 05ah
-      setRelease 1
-            noteL G5, 8
-            wait
-            note G5
-            noteL C6, 6
-            note D6
-            note E6
-            note F6
-            noteL G6, 72
-    channel_end
-Music_11_Channel_2:
-      stereo 0c0h
-      inst 34
-      vol 12
-      vibrato 05ah
-      setRelease 1
-            noteL G5, 8
-            wait
-            note G5
-            noteL E5, 6
-            note F5
-            note G5
-            note G5
-            noteL C6, 72
-    channel_end
-Music_11_Channel_3:
       stereo 0c0h
       inst 34
       vol 12
@@ -69,6 +39,36 @@ Music_11_Channel_3:
             note E5
             note F5
             noteL G5, 72
+    channel_end
+Music_11_Channel_2:
+      stereo 0c0h
+      inst 34
+      vol 12
+      vibrato 05ah
+      setRelease 1
+            noteL G4, 8
+            wait
+            note G4
+            noteL E4, 6
+            note F4
+            note G4
+            note G4
+            noteL C5, 72
+    channel_end
+Music_11_Channel_3:
+      stereo 0c0h
+      inst 34
+      vol 12
+      vibrato 05ah
+      setRelease 1
+            noteL G3, 8
+            wait
+            note G3
+            noteL C4, 6
+            note D4
+            note E4
+            note F4
+            noteL G4, 72
     channel_end
 Music_11_Channel_4:
     channel_end

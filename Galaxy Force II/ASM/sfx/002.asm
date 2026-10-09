@@ -11,5 +11,5 @@ Sfx_002_Channel_1:
       stereo 0c0h
       inst 49
       vol 14
-            noteL C2, 67
+            noteL C1, 67
     channel_end

@@ -14,11 +14,11 @@ Sfx_017_Channel_1:
       shifting 16
       setRelease 1
       stereo 0c0h
-            noteL D5, 18
+            noteL D4, 18
       vol 12
-            noteL D5, 4
+            noteL D4, 4
       vol 10
-            noteL D5, 4
+            noteL D4, 4
       vol 7
-            noteL D5, 4
+            noteL D4, 4
     channel_end

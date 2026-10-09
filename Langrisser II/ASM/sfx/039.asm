@@ -11,11 +11,11 @@ Sfx_039_Channel_1:
       vol 13
       vibrato 04h
       setRelease 1
-            noteL G2, 0
+            noteL G1, 0
       setSlide 16
-            noteL G7, 6
-            note G6
+            noteL G6, 6
             note G5
             note G4
             note G3
+            note G2
     mainLoopEnd

@@ -19,7 +19,7 @@ Music_18_Channel_0:
       vol 11
       setRelease 1
       vibrato 00h
-            noteL F4, 4
+            noteL F3, 4
             waitL 8
     mainLoopStart
       inst 4
@@ -28,61 +28,61 @@ Music_18_Channel_0:
       stereo 0c0h
             waitL 4
       setRelease 1
-            note F4
+            note F3
     countedLoopStart 1
             waitL 4
-            note F4
+            note F3
             waitL 12
-            noteL F4, 4
+            noteL F3, 4
     countedLoopEnd
             wait
-            note F5
+            note F4
+            wait
+            note A4
+            wait
+            note As4
+            wait
+            note C5
+            wait
+            note As4
+            wait
+            note D5
             wait
             note A5
-            wait
-            note As5
-            wait
-            note C6
-            wait
-            note As5
-            wait
-            note D6
-            wait
-            note A6
     countedLoopStart 4
             waitL 12
-            noteL F4, 4
+            noteL F3, 4
             wait
-            note F4
+            note F3
     countedLoopEnd
             waitL 12
-            noteL F4, 4
+            noteL F3, 4
             wait
-            note F5
+            note F4
             wait
-            note A5
+            note A4
             wait
-            note As5
+            note As4
             wait
-            note C6
+            note C5
             wait
-            note As5
+            note As4
             wait
-            note C6
+            note C5
             wait
-            note F5
+            note F4
     countedLoopStart 1
             waitL 12
-            noteL F4, 4
+            noteL F3, 4
             wait
-            note F4
+            note F3
     countedLoopEnd
             waitL 12
-            noteL F4, 4
+            noteL F3, 4
             wait
       stereo 0c0h
       vol 11
-            note F4
+            note F3
             waitL 8
     mainLoopEnd
 Music_18_Channel_1:
@@ -91,7 +91,7 @@ Music_18_Channel_1:
       vol 11
       setRelease 1
       vibrato 00h
-            noteL D4, 4
+            noteL D3, 4
             waitL 8
     mainLoopStart
       inst 4
@@ -100,61 +100,61 @@ Music_18_Channel_1:
       stereo 0c0h
             waitL 4
       setRelease 1
-            note D4
+            note D3
     countedLoopStart 1
             waitL 4
-            note D4
+            note D3
             waitL 12
-            noteL D4, 4
+            noteL D3, 4
     countedLoopEnd
             wait
-            note D5
+            note D4
             wait
-            note F5
+            note F4
             wait
-            note G5
+            note G4
             wait
-            note A5
+            note A4
             wait
-            note G5
+            note G4
             wait
-            note As5
+            note As4
             wait
-            note C6
+            note C5
     countedLoopStart 4
             waitL 12
-            noteL D4, 4
+            noteL D3, 4
             wait
-            note D4
+            note D3
     countedLoopEnd
             waitL 12
-            noteL D4, 4
+            noteL D3, 4
             wait
-            note D5
+            note D4
             wait
-            note Fs5
+            note Fs4
             wait
-            note G5
+            note G4
             wait
-            note A5
+            note A4
             wait
-            note G5
+            note G4
             wait
-            note A5
+            note A4
             wait
-            note D5
+            note D4
     countedLoopStart 1
             waitL 12
-            noteL D4, 4
+            noteL D3, 4
             wait
-            note D4
+            note D3
     countedLoopEnd
             waitL 12
-            noteL D4, 4
+            noteL D3, 4
             wait
       stereo 0c0h
       vol 11
-            note D4
+            note D3
             waitL 8
     mainLoopEnd
 Music_18_Channel_2:
@@ -163,7 +163,7 @@ Music_18_Channel_2:
       vol 11
       setRelease 1
       vibrato 00h
-            noteL D4, 4
+            noteL D3, 4
             waitL 8
     mainLoopStart
       inst 26
@@ -172,37 +172,37 @@ Music_18_Channel_2:
       stereo 0c0h
             waitL 4
       setRelease 1
-            note D4
+            note D3
     countedLoopStart 2
             waitL 4
-            note D4
+            note D3
             waitL 12
-            noteL D4, 4
+            noteL D3, 4
             wait
-            note D4
+            note D3
             waitL 12
-            noteL D4, 4
+            noteL D3, 4
             wait
-            note D4
+            note D3
             waitL 12
-            noteL D4, 4
+            noteL D3, 4
             wait
       stereo 0c0h
       vol 11
-            note D4
+            note D3
             waitL 12
-            noteL D4, 4
+            noteL D3, 4
     countedLoopEnd
     countedLoopStart 2
             waitL 4
-            note D4
+            note D3
             waitL 12
-            noteL D4, 4
+            noteL D3, 4
     countedLoopEnd
             wait
       stereo 0c0h
       vol 11
-            note D4
+            note D3
             waitL 8
     mainLoopEnd
 Music_18_Channel_3:
@@ -217,57 +217,57 @@ Music_18_Channel_3:
       vol 5
       setRelease 1
       vibrato 00h
-            noteL F4, 4
+            noteL F3, 4
     repeatStart
     countedLoopStart 1
             waitL 12
-            noteL F4, 4
+            noteL F3, 4
             wait
-            note F4
+            note F3
     countedLoopEnd
             waitL 12
-            noteL F4, 4
+            noteL F3, 4
             wait
     repeatSection1Start
-            note F5
+            note F4
+            wait
+            note A4
+            wait
+            note As4
+            wait
+            note C5
+            wait
+            note As4
+            wait
+            note D5
             wait
             note A5
-            wait
-            note As5
-            wait
-            note C6
-            wait
-            note As5
-            wait
-            note D6
-            wait
-            note A6
     repeatEnd
     repeatSection2Start
-            note F4
+            note F3
     repeatEnd
     repeatSection3Start
-            note F5
+            note F4
             wait
-            note A5
+            note A4
             wait
-            note As5
+            note As4
             wait
-            note C6
+            note C5
             wait
-            note As5
+            note As4
             wait
-            note C6
-            wait
-            note F5
-    countedLoopStart 1
-            waitL 12
-            noteL F4, 4
+            note C5
             wait
             note F4
+    countedLoopStart 1
+            waitL 12
+            noteL F3, 4
+            wait
+            note F3
     countedLoopEnd
             waitL 12
-            noteL F4, 4
+            noteL F3, 4
             wait
     mainLoopEnd
 Music_18_Channel_4:
@@ -282,57 +282,57 @@ Music_18_Channel_4:
       vol 5
       setRelease 1
       vibrato 00h
-            noteL D4, 4
+            noteL D3, 4
     repeatStart
     countedLoopStart 1
             waitL 12
-            noteL D4, 4
+            noteL D3, 4
             wait
-            note D4
+            note D3
     countedLoopEnd
             waitL 12
-            noteL D4, 4
+            noteL D3, 4
             wait
     repeatSection1Start
-            note D5
+            note D4
             wait
-            note F5
+            note F4
             wait
-            note G5
+            note G4
             wait
-            note A5
+            note A4
             wait
-            note G5
+            note G4
             wait
-            note As5
+            note As4
             wait
-            note C6
+            note C5
     repeatEnd
     repeatSection2Start
-            note D4
+            note D3
     repeatEnd
     repeatSection3Start
-            note D5
+            note D4
             wait
-            note Fs5
+            note Fs4
             wait
-            note G5
+            note G4
             wait
-            note A5
+            note A4
             wait
-            note G5
+            note G4
             wait
-            note A5
-            wait
-            note D5
-    countedLoopStart 1
-            waitL 12
-            noteL D4, 4
+            note A4
             wait
             note D4
+    countedLoopStart 1
+            waitL 12
+            noteL D3, 4
+            wait
+            note D3
     countedLoopEnd
             waitL 12
-            noteL D4, 4
+            noteL D3, 4
             wait
     mainLoopEnd
 Music_18_Channel_5:

@@ -10,23 +10,23 @@ Sfx_045_Channel_1:
       vol 15
       vibrato 00h
       setRelease 0
-            noteL Ds4, 1
+            noteL Ds3, 1
       sustain
       vibrato 010h
-            note E5
-            note G6
+            note E4
+            note G5
       setRelease 1
       vibrato 0f0h
-            note A8
+            note A7
       sustain
-            note Ds4
+            note Ds3
       setRelease 1
-            noteL A8, 6
+            noteL A7, 6
       sustain
-            noteL Ds4, 1
-            note F5
-            note A6
-            note As6
+            noteL Ds3, 1
+            note F4
+            note A5
+            note As5
       setRelease 1
-            noteL A8, 4
+            noteL A7, 4
     channel_end

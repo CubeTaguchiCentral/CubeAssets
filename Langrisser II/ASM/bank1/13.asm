@@ -19,26 +19,26 @@ Music_13_Channel_0:
       setRelease 0
       stereo 0c0h
             waitL 48
-            noteL Ds4, 192
-            note F4
+            noteL Ds3, 192
+            note F3
             waitL 96
             wait
             wait
-            noteL F4, 6
-            note Fs4
-            note G4
+            noteL F3, 6
+            note Fs3
+            note G3
             wait
-            note F4
-            note Fs4
-            note G4
+            note F3
+            note Fs3
+            note G3
             wait
-            noteL As4, 12
-            note G4
-            note D4
+            noteL As3, 12
+            note G3
+            note D3
       sustain
-            noteL G3, 204
+            noteL G2, 204
       setRelease 1
-            noteL G3, 96
+            noteL G2, 96
     channel_end
 Music_13_Channel_1:
       inst 45
@@ -49,23 +49,60 @@ Music_13_Channel_1:
       stereo 0c0h
             waitL 48
             waitL 48
-            note As7
-            note A7
-            note F7
+            note As6
+            note A6
+            note F6
             wait
-            note As7
-            note A7
-            note F7
+            note As6
+            note A6
+            note F6
       inst 8
       vol 12
       shifting 0
-            noteL G6, 0
+            noteL G5, 0
       setSlide 4
       sustain
-            noteL A6, 192
+            noteL A5, 192
       setRelease 1
-            noteL A6, 96
+            noteL A5, 96
       noSlide
+            noteL F3, 6
+            note Fs3
+            note G3
+            wait
+            note F3
+            note Fs3
+            note G3
+            wait
+            noteL As3, 12
+            note G3
+            note D3
+      sustain
+            noteL G2, 204
+      setRelease 1
+            noteL G2, 96
+    channel_end
+Music_13_Channel_2:
+      inst 8
+      vol 10
+      setRelease 1
+      vibrato 02ch
+      stereo 0c0h
+            waitL 48
+            noteL Ds3, 192
+            note F3
+            waitL 12
+      shifting 32
+      stereo 080h
+      vol 12
+            noteL G5, 0
+      setSlide 4
+      sustain
+            noteL A5, 180
+      setRelease 1
+            noteL A5, 96
+      noSlide
+      stereo 0c0h
             noteL F4, 6
             note Fs4
             note G4
@@ -82,43 +119,6 @@ Music_13_Channel_1:
       setRelease 1
             noteL G3, 96
     channel_end
-Music_13_Channel_2:
-      inst 8
-      vol 10
-      setRelease 1
-      vibrato 02ch
-      stereo 0c0h
-            waitL 48
-            noteL Ds4, 192
-            note F4
-            waitL 12
-      shifting 32
-      stereo 080h
-      vol 12
-            noteL G6, 0
-      setSlide 4
-      sustain
-            noteL A6, 180
-      setRelease 1
-            noteL A6, 96
-      noSlide
-      stereo 0c0h
-            noteL F5, 6
-            note Fs5
-            note G5
-            wait
-            note F5
-            note Fs5
-            note G5
-            wait
-            noteL As5, 12
-            note G5
-            note D5
-      sustain
-            noteL G4, 204
-      setRelease 1
-            noteL G4, 96
-    channel_end
 Music_13_Channel_3:
       inst 8
       vibrato 02ch
@@ -127,39 +127,39 @@ Music_13_Channel_3:
       setRelease 1
       stereo 0c0h
             waitL 48
-            noteL As3, 192
-            note C4
+            noteL As2, 192
+            note C3
             waitL 16
       inst 8
       vol 12
       stereo 040h
-            noteL G6, 0
+            noteL G5, 0
       setSlide 4
       sustain
-            noteL A6, 176
+            noteL A5, 176
       setRelease 1
-            noteL A6, 96
+            noteL A5, 96
       noSlide
             waitL 12
       vol 8
       shifting 32
       setRelease 1
-            noteL F4, 6
-            note Fs4
-            note G4
+            noteL F3, 6
+            note Fs3
+            note G3
             wait
-            note F4
-            note Fs4
-            note G4
+            note F3
+            note Fs3
+            note G3
             wait
-            noteL As4, 12
-            note G4
+            noteL As3, 12
+            note G3
       vol 12
       shifting 0
       sustain
-            noteL D4, 204
+            noteL D3, 204
       setRelease 1
-            noteL D4, 96
+            noteL D3, 96
     channel_end
 Music_13_Channel_4:
       inst 45
@@ -169,13 +169,13 @@ Music_13_Channel_4:
       stereo 0c0h
             waitL 48
             waitL 60
-            noteL As7, 48
-            note A7
-            note F7
+            noteL As6, 48
+            note A6
+            note F6
             wait
-            note As7
-            note A7
-            noteL F7, 36
+            note As6
+            note A6
+            noteL F6, 36
             waitL 12
             waitL 96
             wait
@@ -185,22 +185,22 @@ Music_13_Channel_4:
       shifting 32
       setRelease 1
       stereo 080h
-            noteL Gs4, 6
-            note A4
-            note As4
+            noteL Gs3, 6
+            note A3
+            note As3
             wait
-            note Gs4
-            note A4
-            note As4
+            note Gs3
+            note A3
+            note As3
             wait
-            noteL D5, 12
-            note As4
-            note A4
-            note G4
+            noteL D4, 12
+            note As3
+            note A3
+            note G3
       sustain
-            noteL D5, 192
+            noteL D4, 192
       setRelease 1
-            noteL D5, 96
+            noteL D4, 96
     channel_end
 Music_13_Channel_5:
       setRelease 0
@@ -274,28 +274,28 @@ Music_13_Channel_6:
       setRelease 1
             waitL 48
       psgInst 0ah
-            psgNoteL Ds3, 192
-            psgNote F3
+            psgNoteL Ds4, 192
+            psgNote F4
       psgInst 00h
             waitL 96
             wait
             wait
       psgInst 0ch
-            psgNoteL F2, 6
-            psgNote Fs2
-            psgNote G2
+            psgNoteL F3, 6
+            psgNote Fs3
+            psgNote G3
             wait
-            psgNote F2
-            psgNote Fs2
-            psgNote G2
+            psgNote F3
+            psgNote Fs3
+            psgNote G3
             wait
-            psgNoteL As2, 12
-            psgNote G2
-            psgNote D2
+            psgNoteL As3, 12
+            psgNote G3
+            psgNote D3
       sustain
-            psgNoteL G2, 204
+            psgNoteL G3, 204
       setRelease 1
-            psgNoteL G2, 96
+            psgNoteL G3, 96
     channel_end
 Music_13_Channel_7:
       vibrato 04ch
@@ -303,28 +303,28 @@ Music_13_Channel_7:
       setRelease 1
             waitL 48
       psgInst 0ah
-            psgNoteL G3, 192
-            psgNote A3
+            psgNoteL G4, 192
+            psgNote A4
       psgInst 00h
             waitL 96
             wait
             wait
       psgInst 0ch
-            psgNoteL Gs2, 6
-            psgNote A2
-            psgNote As2
+            psgNoteL Gs3, 6
+            psgNote A3
+            psgNote As3
             wait
-            psgNote Gs2
-            psgNote A2
-            psgNote As2
+            psgNote Gs3
+            psgNote A3
+            psgNote As3
             wait
-            psgNoteL D3, 12
-            psgNote As2
-            psgNote A2
+            psgNoteL D4, 12
+            psgNote As3
+            psgNote A3
       sustain
-            psgNoteL D2, 204
+            psgNoteL D3, 204
       setRelease 1
-            psgNoteL D2, 96
+            psgNoteL D3, 96
     channel_end
 Music_13_Channel_8:
     channel_end

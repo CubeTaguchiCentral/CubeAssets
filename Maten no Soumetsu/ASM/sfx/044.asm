@@ -10,14 +10,14 @@ Sfx_044_Channel_1:
       vol 15
       setRelease 1
       vibrato 02ah
-            noteL G5, 6
-            note D5
-            note G5
-            note B5
+            noteL G4, 6
+            note D4
+            note G4
+            note B4
             wait
-            note G5
-            note D6
-            note D6
-            note D6
-            noteL G6, 12
+            note G4
+            note D5
+            note D5
+            note D5
+            noteL G5, 12
     channel_end

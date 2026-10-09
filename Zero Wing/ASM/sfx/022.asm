@@ -16,17 +16,17 @@ Sfx_022_Channel_8:
       psgInst 07ah
       vibrato 03ch
       setRelease 1
-            psgNoteL G3, 1
+            psgNoteL G4, 1
       psgInst 0dh
-            psgNote D4
-            psgNote B3
+            psgNote D5
+            psgNote B4
       psgInst 0ch
-            psgNote G3
-            psgNote E3
+            psgNote G4
+            psgNote E4
       psgInst 0bh
-            psgNote C3
-            psgNote A2
+            psgNote C4
+            psgNote A3
       psgInst 09h
-            psgNote F2
-            psgNote D2
+            psgNote F3
+            psgNote D3
     channel_end

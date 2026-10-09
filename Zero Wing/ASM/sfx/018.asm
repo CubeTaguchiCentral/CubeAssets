@@ -10,9 +10,9 @@ Sfx_018_Channel_1:
       vol 13
       vibrato 00h
       sustain
-            noteL C3, 0
+            noteL C2, 0
       setSlide 24
-            noteL A3, 180
+            noteL A2, 180
       setRelease 1
             waitL 2
       noSlide

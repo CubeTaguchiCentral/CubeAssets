@@ -10,10 +10,10 @@ Sfx_026_Channel_1:
       vol 14
       setSlide 126
       vibrato 080h
-            noteL G2, 6
+            noteL G1, 6
       vibrato 090h
-            noteL G2, 48
-            noteL F2, 18
+            noteL G1, 48
+            noteL F1, 18
       setRelease 1
-            note F2
+            note F1
     channel_end

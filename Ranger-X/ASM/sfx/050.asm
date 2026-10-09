@@ -8,7 +8,7 @@ Sfx_050_Channel_0:
       vol 14
       setRelease 1
       vibrato 00h
-            noteL D2, 24
+            noteL D1, 24
     channel_end
 Sfx_050_Channel_1:
     channel_end

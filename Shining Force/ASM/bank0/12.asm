@@ -23,12 +23,12 @@ Music_12_Channel_0:
             wait
             wait
             waitL 96
-            noteL D5, 16
-            note Cs5
-            note A4
-            noteL B4, 32
-            noteL E4, 16
-            noteL E4, 240
+            noteL D4, 16
+            note Cs4
+            note A3
+            noteL B3, 32
+            noteL E3, 16
+            noteL E3, 240
     channel_end
 Music_12_Channel_1:
       inst 11
@@ -36,12 +36,12 @@ Music_12_Channel_1:
       vibrato 02ch
       stereo 0c0h
       sustain
-            noteL E5, 216
+            noteL E4, 216
       vibrato 020h
-            note E5
-            note E5
+            note E4
+            note E4
       setRelease 1
-            note E5
+            note E4
     channel_end
 Music_12_Channel_2:
       inst 22
@@ -49,12 +49,12 @@ Music_12_Channel_2:
       vibrato 02ch
       stereo 0c0h
       sustain
-            noteL D2, 216
+            noteL D1, 216
       vibrato 020h
-            note D2
-            note D2
+            note D1
+            note D1
       setRelease 1
-            note D2
+            note D1
     channel_end
 Music_12_Channel_3:
       inst 11
@@ -62,12 +62,12 @@ Music_12_Channel_3:
       vibrato 02ch
       stereo 0c0h
       sustain
-            noteL B5, 216
+            noteL B4, 216
       vibrato 020h
-            note B5
-            note B5
+            note B4
+            note B4
       setRelease 1
-            note B5
+            note B4
     channel_end
 Music_12_Channel_4:
       inst 11
@@ -76,12 +76,12 @@ Music_12_Channel_4:
       vibrato 02ch
       stereo 0c0h
       sustain
-            noteL Gs5, 216
+            noteL Gs4, 216
       vibrato 020h
-            note Gs5
-            note Gs5
+            note Gs4
+            note Gs4
       setRelease 1
-            note Gs5
+            note Gs4
     channel_end
 Music_12_Channel_5:
     channel_end
@@ -96,23 +96,23 @@ Music_12_Channel_6:
             waitL 48
       psgInst 0ah
       setRelease 1
-            psgNoteL D3, 6
-            psgNote E3
-            psgNote Gs3
-            psgNote B3
-            psgNote D4
+            psgNoteL D4, 6
             psgNote E4
             psgNote Gs4
-            psgNote B4
-            psgNote D4
-            psgNote E4
-            psgNote Gs4
-            psgNote A4
             psgNote B4
             psgNote D5
             psgNote E5
             psgNote Gs5
             psgNote B5
+            psgNote D5
+            psgNote E5
+            psgNote Gs5
+            psgNote A5
+            psgNote B5
+            psgNote D6
+            psgNote E6
+            psgNote Gs6
+            psgNote B6
       psgInst 00h
             waitL 138
     channel_end
@@ -124,20 +124,20 @@ Music_12_Channel_7:
       psgInst 00h
             waitL 96
       psgInst 0bh
-            psgNoteL B4, 16
+            psgNoteL B5, 16
       psgInst 00h
             wait
       psgInst 0bh
-            psgNote B4
-            psgNoteL B5, 96
-            psgNoteL A5, 16
-            psgNote Gs5
-            psgNote E5
-            psgNoteL Fs5, 32
-            psgNoteL B4, 16
+            psgNote B5
+            psgNoteL B6, 96
+            psgNoteL A6, 16
+            psgNote Gs6
+            psgNote E6
+            psgNoteL Fs6, 32
+            psgNoteL B5, 16
       sustain
-            psgNoteL B4, 240
+            psgNoteL B5, 240
       vibrato 040h
-            psgNoteL B4, 144
+            psgNoteL B5, 144
       psgInst 00h
     channel_end

@@ -19,20 +19,20 @@ Music_15_Channel_0:
       setRelease 1
       vibrato 02ah
       stereo 0c0h
-            noteL Fs5, 6
-            note G5
-            note A5
-            note D6
+            noteL Fs4, 6
+            note G4
+            note A4
+            note D5
             wait
-            note D6
+            note D5
             wait
-            note D6
-            noteL D6, 8
+            note D5
+            noteL D5, 8
             waitL 4
-            noteL Cs6, 8
+            noteL Cs5, 8
             waitL 4
-            noteL D6, 18
-            noteL E6, 102
+            noteL D5, 18
+            noteL E5, 102
     channel_end
 Music_15_Channel_1:
       inst 15
@@ -40,18 +40,18 @@ Music_15_Channel_1:
       setRelease 1
       vibrato 02ah
       stereo 040h
-            noteL A4, 18
-            noteL A4, 6
+            noteL A3, 18
+            noteL A3, 6
             wait
-            note A4
+            note A3
             wait
-            note A4
-            note A4
+            note A3
+            note A3
             wait
-            note Cs5
+            note Cs4
             wait
-            noteL A4, 18
-            noteL A4, 102
+            noteL A3, 18
+            noteL A3, 102
     channel_end
 Music_15_Channel_2:
       inst 27
@@ -59,19 +59,19 @@ Music_15_Channel_2:
       setRelease 1
       vibrato 02ah
       inst 38
-            noteL D4, 10
+            noteL D3, 10
             waitL 8
-            noteL D4, 6
+            noteL D3, 6
             wait
-            note D4
+            note D3
             wait
-            note D4
-            note D4
+            note D3
+            note D3
             wait
-            note D4
+            note D3
             wait
-            noteL D4, 18
-            noteL A3, 102
+            noteL D3, 18
+            noteL A2, 102
     channel_end
 Music_15_Channel_3:
       inst 15
@@ -79,18 +79,18 @@ Music_15_Channel_3:
       setRelease 1
       vibrato 02ah
       stereo 080h
-            noteL Fs4, 18
-            noteL Fs4, 6
+            noteL Fs3, 18
+            noteL Fs3, 6
             wait
-            note Fs4
+            note Fs3
             wait
-            note Fs4
-            note Fs4
+            note Fs3
+            note Fs3
             wait
-            note A4
+            note A3
             wait
-            noteL Fs4, 18
-            noteL E4, 102
+            noteL Fs3, 18
+            noteL E3, 102
     channel_end
 Music_15_Channel_4:
             waitL 16
@@ -99,20 +99,20 @@ Music_15_Channel_4:
       setRelease 1
       vibrato 02ah
       stereo 0c0h
-            noteL Fs5, 6
-            note G5
-            note A5
-            note D6
+            noteL Fs4, 6
+            note G4
+            note A4
+            note D5
             wait
-            note D6
+            note D5
             wait
-            note D6
-            noteL D6, 8
+            note D5
+            noteL D5, 8
             waitL 4
-            noteL Cs6, 8
+            noteL Cs5, 8
             waitL 4
-            noteL D6, 18
-            noteL E6, 102
+            noteL D5, 18
+            noteL E5, 102
     channel_end
 Music_15_Channel_5:
             sampleL 0, 12

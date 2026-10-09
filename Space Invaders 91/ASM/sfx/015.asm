@@ -16,23 +16,23 @@ Sfx_015_Channel_7:
       psgInst 01eh
       setRelease 0
       vibrato 00h
-            psgNoteL F4, 2
-            psgNoteL Gs4, 1
-            psgNote C5
-            psgNoteL F6, 6
+            psgNoteL F5, 2
+            psgNoteL Gs5, 1
+            psgNote C6
+            psgNoteL F7, 6
       psgInst 01ch
-            psgNoteL F4, 2
-            psgNoteL Gs4, 1
-            psgNote C5
-            psgNoteL F6, 6
+            psgNoteL F5, 2
+            psgNoteL Gs5, 1
+            psgNote C6
+            psgNoteL F7, 6
       psgInst 019h
-            psgNoteL F4, 2
-            psgNoteL Gs4, 1
-            psgNote C5
-            psgNoteL F6, 6
+            psgNoteL F5, 2
+            psgNoteL Gs5, 1
+            psgNote C6
+            psgNoteL F7, 6
       psgInst 016h
-            psgNoteL F4, 2
-            psgNoteL Gs4, 1
-            psgNote C5
-            psgNoteL F6, 6
+            psgNoteL F5, 2
+            psgNoteL Gs5, 1
+            psgNote C6
+            psgNoteL F7, 6
     channel_end

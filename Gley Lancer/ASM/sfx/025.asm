@@ -10,17 +10,17 @@ Sfx_025_Channel_0:
       vibrato 02ah
       stereo 0c0h
       shifting 0
-            noteL D2, 3
+            noteL D1, 3
             waitL 1
-            note As2
+            note As1
             wait
-            noteL Ds2, 5
+            noteL Ds1, 5
       vol 11
-            note Ds2
+            note Ds1
       vol 9
-            note Ds2
+            note Ds1
       vol 7
-            note Ds2
+            note Ds1
     channel_end
 Sfx_025_Channel_1:
     channel_end

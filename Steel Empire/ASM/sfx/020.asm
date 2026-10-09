@@ -7,7 +7,7 @@ Sfx_020_Channel_0:
       inst 80
       vol 13
     mainLoopStart
-            noteL Ds4, 5
+            noteL Ds3, 5
     mainLoopEnd
 Sfx_020_Channel_1:
     channel_end

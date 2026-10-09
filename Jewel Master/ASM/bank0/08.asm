@@ -21,51 +21,51 @@ Music_08_Channel_0:
       stereo 0c0h
     mainLoopStart
     countedLoopStart 1
-            noteL Fs3, 24
+            noteL Fs2, 24
             waitL 6
-            noteL Fs3, 4
+            noteL Fs2, 4
             waitL 14
-            noteL Fs3, 15
+            noteL Fs2, 15
             waitL 3
-            noteL Fs3, 4
+            noteL Fs2, 4
             waitL 8
-            noteL Fs3, 4
+            noteL Fs2, 4
             waitL 14
     countedLoopEnd
-            noteL Fs3, 24
+            noteL Fs2, 24
             waitL 6
-            noteL Fs3, 4
+            noteL Fs2, 4
             waitL 14
-            noteL Fs3, 15
+            noteL Fs2, 15
             waitL 3
-            noteL Fs3, 4
+            noteL Fs2, 4
             waitL 8
-            noteL Fs3, 6
-            note G3
-            note Gs3
+            noteL Fs2, 6
+            note G2
+            note Gs2
     countedLoopStart 1
-            noteL A3, 24
+            noteL A2, 24
             waitL 6
-            noteL A3, 4
+            noteL A2, 4
             waitL 14
-            noteL A3, 15
+            noteL A2, 15
             waitL 3
-            noteL A3, 4
+            noteL A2, 4
             waitL 8
-            noteL A3, 4
+            noteL A2, 4
             waitL 14
     countedLoopEnd
-            noteL A3, 24
+            noteL A2, 24
             waitL 6
-            noteL A3, 4
+            noteL A2, 4
             waitL 14
-            noteL A3, 15
+            noteL A2, 15
             waitL 3
-            noteL A3, 4
+            noteL A2, 4
             waitL 8
-            noteL A3, 6
-            note Gs3
-            note G3
+            noteL A2, 6
+            note Gs2
+            note G2
     mainLoopEnd
 Music_08_Channel_1:
       inst 13
@@ -76,11 +76,11 @@ Music_08_Channel_1:
     mainLoopStart
             waitL 96
             waitL 76
-            noteL A5, 10
-            note Ds6
-            note B5
-            note G5
-            noteL Ds5, 76
+            noteL A4, 10
+            note Ds5
+            note B4
+            note G4
+            noteL Ds4, 76
     mainLoopEnd
 Music_08_Channel_2:
       inst 11
@@ -89,11 +89,11 @@ Music_08_Channel_2:
       stereo 0c0h
     mainLoopStart
       vol 9
-            noteL Cs5, 6
+            noteL Cs4, 6
       vol 7
-            note Cs5
-            note Cs5
-            note Cs5
+            note Cs4
+            note Cs4
+            note Cs4
     mainLoopEnd
 Music_08_Channel_3:
       inst 11
@@ -102,11 +102,11 @@ Music_08_Channel_3:
       stereo 0c0h
     mainLoopStart
       vol 8
-            noteL C5, 6
+            noteL C4, 6
       vol 6
-            note C5
-            note C5
-            note C5
+            note C4
+            note C4
+            note C4
     mainLoopEnd
 Music_08_Channel_4:
       setRelease 1
@@ -115,9 +115,9 @@ Music_08_Channel_4:
       stereo 040h
       inst 39
       vol 9
-            noteL C4, 24
+            noteL C3, 24
       stereo 080h
-            note C4
+            note C3
     mainLoopEnd
 Music_08_Channel_5:
       stereo 0c0h
@@ -141,11 +141,11 @@ Music_08_Channel_6:
             waitL 96
             waitL 76
       psgInst 08ah
-            psgNoteL A3, 10
-            psgNote Ds4
-            psgNote B3
-            psgNote G3
-            psgNoteL Ds3, 76
+            psgNoteL A4, 10
+            psgNote Ds5
+            psgNote B4
+            psgNote G4
+            psgNoteL Ds4, 76
     mainLoopEnd
 Music_08_Channel_7:
       psgInst 00h
@@ -157,11 +157,11 @@ Music_08_Channel_7:
             waitL 96
             waitL 76
       psgInst 088h
-            psgNoteL A3, 10
-            psgNote Ds4
-            psgNote B3
-            psgNote G3
-            psgNoteL Ds3, 76
+            psgNoteL A4, 10
+            psgNote Ds5
+            psgNote B4
+            psgNote G4
+            psgNoteL Ds4, 76
     mainLoopEnd
 Music_08_Channel_8:
     channel_end

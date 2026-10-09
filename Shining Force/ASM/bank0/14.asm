@@ -20,16 +20,16 @@ Music_14_Channel_0:
       vibrato 02ch
       stereo 0c0h
             waitL 96
-            noteL As6, 16
-            note A6
-            note G6
-            note C7
-            note As6
-            note A6
-            noteL D7, 48
-            noteL As6, 32
-            noteL D7, 16
-            noteL E7, 144
+            noteL As5, 16
+            note A5
+            note G5
+            note C6
+            note As5
+            note A5
+            noteL D6, 48
+            noteL As5, 32
+            noteL D6, 16
+            noteL E6, 144
             waitL 24
     channel_end
 Music_14_Channel_1:
@@ -38,11 +38,11 @@ Music_14_Channel_1:
       sustain
       vibrato 04fh
       stereo 0c0h
-            noteL D5, 144
+            noteL D4, 144
       setRelease 1
       vibrato 020h
-            note D5
-            note E5
+            note D4
+            note E4
             waitL 24
     channel_end
 Music_14_Channel_2:
@@ -51,11 +51,11 @@ Music_14_Channel_2:
       sustain
       stereo 0c0h
       vibrato 04fh
-            noteL C3, 144
+            noteL C2, 144
       vibrato 020h
-            note C3
+            note C2
       setRelease 1
-            note C3
+            note C2
             waitL 24
     channel_end
 Music_14_Channel_3:
@@ -64,11 +64,11 @@ Music_14_Channel_3:
       sustain
       stereo 0c0h
       vibrato 04fh
-            noteL C6, 144
+            noteL C5, 144
       vibrato 020h
-            note C6
+            note C5
       setRelease 1
-            note C6
+            note C5
             waitL 24
     channel_end
 Music_14_Channel_4:
@@ -77,11 +77,11 @@ Music_14_Channel_4:
       sustain
       stereo 0c0h
       vibrato 04fh
-            noteL G5, 144
+            noteL G4, 144
       vibrato 020h
-            note G5
+            note G4
       setRelease 1
-            note G5
+            note G4
             waitL 24
     channel_end
 Music_14_Channel_5:
@@ -93,13 +93,13 @@ Music_14_Channel_6:
             waitL 144
             waitL 48
       psgInst 0ah
-            psgNoteL F5, 16
-            psgNote E5
-            psgNote D5
-            psgNote A5
-            psgNote G5
-            psgNote F5
-            psgNoteL E5, 144
+            psgNoteL F6, 16
+            psgNote E6
+            psgNote D6
+            psgNote A6
+            psgNote G6
+            psgNote F6
+            psgNoteL E6, 144
       psgInst 00h
     channel_end
 Music_14_Channel_7:
@@ -108,17 +108,17 @@ Music_14_Channel_7:
       vibrato 05ch
             waitL 144
       psgInst 0ah
-            psgNoteL F3, 16
-            psgNote E3
-            psgNote D3
-            psgNote G3
-            psgNote F3
-            psgNote E3
-            psgNote D3
+            psgNoteL F4, 16
+            psgNote E4
+            psgNote D4
+            psgNote G4
+            psgNote F4
+            psgNote E4
+            psgNote D4
       psgInst 00h
             wait
       psgInst 0ah
-            psgNote F3
-            psgNoteL G3, 144
+            psgNote F4
+            psgNoteL G4, 144
       psgInst 00h
     channel_end

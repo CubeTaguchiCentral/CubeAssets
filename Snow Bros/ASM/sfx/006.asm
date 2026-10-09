@@ -14,11 +14,11 @@ Sfx_006_Channel_1:
       stereo 0c0h
       setRelease 0
       sustain
-            noteL C2, 3
+            noteL C1, 3
       setSlide 84
-            noteL As2, 5
+            noteL As1, 5
       setSlide 32
       setRelease 1
-            noteL D2, 12
+            noteL D1, 12
       noSlide
     channel_end

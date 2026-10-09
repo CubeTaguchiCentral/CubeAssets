@@ -19,16 +19,16 @@ Music_15_Channel_0:
       inst 37
       vol 11
       setRelease 1
-            noteL D2, 48
+            noteL D1, 48
       vibrato 05ah
     countedLoopStart 3
       stereo 040h
-            noteL D2, 48
+            noteL D1, 48
       stereo 080h
-            note D2
+            note D1
     countedLoopEnd
       stereo 040h
-            note D2
+            note D1
     channel_end
 Music_15_Channel_1:
       stereo 0c0h
@@ -40,10 +40,10 @@ Music_15_Channel_1:
       vol 10
       setRelease 1
       vibrato 05ah
+            note E4
+            note A4
             note E5
-            note A5
-            note E6
-            noteL Ds6, 192
+            noteL Ds5, 192
     channel_end
 Music_15_Channel_2:
       stereo 0c0h
@@ -52,19 +52,19 @@ Music_15_Channel_2:
       vibrato 05ah
       vol 15
     countedLoopStart 1
-            noteL Cs3, 3
-            note D3
+            noteL Cs2, 3
+            note D2
       setRelease 1
-            note Ds3
-            noteL E3, 96
+            note Ds2
+            noteL E2, 96
             waitL 87
       sustain
     countedLoopEnd
-            noteL Cs3, 3
-            note D3
+            noteL Cs2, 3
+            note D2
       setRelease 1
-            note Ds3
-            noteL E3, 96
+            note Ds2
+            noteL E2, 96
     channel_end
 Music_15_Channel_3:
       stereo 0c0h
@@ -75,10 +75,10 @@ Music_15_Channel_3:
       vol 10
       setRelease 1
       vibrato 05ah
+            note E4
+            note A4
             note E5
-            note A5
-            note E6
-            noteL Ds6, 96
+            noteL Ds5, 96
     channel_end
 Music_15_Channel_4:
       stereo 0c0h
@@ -88,10 +88,10 @@ Music_15_Channel_4:
       vol 8
       setRelease 1
       vibrato 05ah
-            noteL E5, 24
-            note A5
-            note E6
-            noteL Ds6, 176
+            noteL E4, 24
+            note A4
+            note E5
+            noteL Ds5, 176
     channel_end
 Music_15_Channel_5:
     channel_end
@@ -100,10 +100,10 @@ Music_15_Channel_6:
             waitL 9
       psgInst 07h
       setRelease 1
-            psgNoteL E2, 48
+            psgNoteL E3, 48
       vibrato 049h
     countedLoopStart 8
-            psgNoteL E2, 48
+            psgNoteL E3, 48
     countedLoopEnd
     channel_end
 Music_15_Channel_7:
@@ -111,10 +111,10 @@ Music_15_Channel_7:
             waitL 9
       psgInst 07h
       setRelease 1
-            psgNoteL D2, 48
+            psgNoteL D3, 48
       vibrato 049h
     countedLoopStart 8
-            psgNoteL D2, 48
+            psgNoteL D3, 48
     countedLoopEnd
     channel_end
 Music_15_Channel_8:

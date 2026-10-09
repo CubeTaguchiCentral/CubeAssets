@@ -10,13 +10,13 @@ Sfx_028_Channel_1:
       vol 12
       vibrato 010h
       sustain
-            noteL Fs7, 2
+            noteL Fs6, 2
       vol 13
-            note G7
+            note G6
       vol 14
-            note Gs7
-            noteL A7, 5
+            note Gs6
+            noteL A6, 5
       setRelease 1
       vibrato 0f0h
-            noteL A7, 3
+            noteL A6, 3
     channel_end

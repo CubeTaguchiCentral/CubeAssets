@@ -11,9 +11,9 @@ Sfx_028_Channel_1:
       sustain
       noSlide
       vibrato 00h
-            noteL G6, 6
+            noteL G5, 6
       setSlide 9
       setRelease 1
-            noteL Gs6, 72
+            noteL Gs5, 72
             waitL 24
     channel_end

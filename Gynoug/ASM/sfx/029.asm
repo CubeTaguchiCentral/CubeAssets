@@ -8,34 +8,34 @@ Sfx_029_Channel_0:
       vibrato 00h
       inst 62
       vol 10
-            noteL B2, 8
-            note B2
+            noteL B1, 8
+            note B1
       vol 11
-            note B2
-            note B2
+            note B1
+            note B1
       vol 12
-            note B2
-            note B2
+            note B1
+            note B1
     repeatStart
       vol 13
-            note Ds3
+            note Ds2
     repeatEnd
-            note D2
-            noteL C0, 30
-            noteL C0, 30
-            noteL As7, 30
-            noteL Ds3, 20
+            note D1
+            noteL Gs8, 30
+            noteL Gs8, 30
+            noteL As6, 30
+            noteL Ds2, 20
     repeatStart
-            noteL E3, 9
-            noteL F3, 10
-            note E3
-            noteL E3, 9
-            note F3
-            noteL E3, 10
-            note F3
-            noteL F3, 9
-            noteL E3, 10
-            note F3
+            noteL E2, 9
+            noteL F2, 10
+            note E2
+            noteL E2, 9
+            note F2
+            noteL E2, 10
+            note F2
+            noteL F2, 9
+            noteL E2, 10
+            note F2
     repeatEnd
     channel_end
 Sfx_029_Channel_1:
@@ -43,50 +43,50 @@ Sfx_029_Channel_1:
       vibrato 00h
       inst 62
       vol 10
-            noteL As2, 7
-            note As2
+            noteL As1, 7
+            note As1
       vol 11
-            note As2
-            note As2
+            note As1
+            note As1
       vol 12
-            note As2
-            note As2
+            note As1
+            note As1
     repeatStart
       vol 13
-            note D3
+            note D2
     repeatEnd
       setRelease 1
       vibrato 00h
       inst 62
       vol 10
-            noteL B2, 8
-            note B2
+            noteL B1, 8
+            note B1
       vol 11
-            note B2
-            note B2
+            note B1
+            note B1
       vol 12
-            note B2
-            note B2
+            note B1
+            note B1
     repeatStart
       vol 13
-            note Ds3
+            note Ds2
     repeatEnd
-            note D2
-            noteL C0, 30
-            noteL C0, 30
-            noteL As7, 30
-            noteL Ds3, 20
+            note D1
+            noteL Gs8, 30
+            noteL Gs8, 30
+            noteL As6, 30
+            noteL Ds2, 20
     repeatStart
-            noteL E3, 9
-            noteL F3, 10
-            note E3
-            noteL E3, 9
-            note F3
-            noteL E3, 10
-            note F3
-            noteL F3, 9
-            noteL E3, 10
-            note F3
+            noteL E2, 9
+            noteL F2, 10
+            note E2
+            noteL E2, 9
+            note F2
+            noteL E2, 10
+            note F2
+            noteL F2, 9
+            noteL E2, 10
+            note F2
     repeatEnd
     channel_end
 Sfx_029_Channel_2:

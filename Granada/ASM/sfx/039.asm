@@ -11,5 +11,5 @@ Sfx_039_Channel_1:
       setRelease 1
       vibrato 0dah
       setRelease 0
-            noteL D8, 42
+            noteL D7, 42
     channel_end

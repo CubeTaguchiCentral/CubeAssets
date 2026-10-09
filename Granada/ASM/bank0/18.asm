@@ -19,8 +19,8 @@ Music_18_Channel_0:
       vol 10
       setRelease 1
       vibrato 02ah
-            noteL As3, 96
-            noteL F3, 192
+            noteL As2, 96
+            noteL F2, 192
     countedLoopEnd
     channel_end
 Music_18_Channel_1:
@@ -29,8 +29,8 @@ Music_18_Channel_1:
       vol 10
       setRelease 1
       vibrato 02ah
-            noteL Ds3, 96
-            noteL As2, 192
+            noteL Ds2, 96
+            noteL As1, 192
     countedLoopEnd
     channel_end
 Music_18_Channel_2:
@@ -40,8 +40,8 @@ Music_18_Channel_2:
       vol 7
       setRelease 1
       vibrato 02ah
-            noteL As3, 96
-            noteL F3, 192
+            noteL As2, 96
+            noteL F2, 192
     countedLoopEnd
     channel_end
 Music_18_Channel_3:
@@ -51,8 +51,8 @@ Music_18_Channel_3:
       vol 7
       setRelease 1
       vibrato 02ah
-            noteL Ds3, 96
-            noteL As2, 192
+            noteL Ds2, 96
+            noteL As1, 192
     countedLoopEnd
     channel_end
 Music_18_Channel_4:
@@ -63,8 +63,8 @@ Music_18_Channel_4:
     countedLoopEnd
       inst 11
       vol 9
-            noteL As3, 96
-            noteL F3, 192
+            noteL As2, 96
+            noteL F2, 192
     channel_end
 Music_18_Channel_5:
     channel_end

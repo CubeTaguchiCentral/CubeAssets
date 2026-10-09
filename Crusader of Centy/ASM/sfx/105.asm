@@ -16,6 +16,6 @@ Sfx_105_Channel_8:
       psgInst 0bh
       vibrato 0e0h
       setRelease 0
-            psgNoteL A1, 4
-            psgNoteL C3, 9
+            psgNoteL A2, 4
+            psgNoteL C4, 9
     channel_end

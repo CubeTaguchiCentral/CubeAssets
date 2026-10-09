@@ -15,15 +15,15 @@ Sfx_036_Channel_0:
 Sfx_036_Channel_9:
       setRelease 0
       psgInst 0fh
-            psgNoteL C0, 2
+            psgNoteL 04h, 2
       psgInst 0dh
-            psgNoteL C0, 2
+            psgNoteL 05h, 2
       psgInst 0ch
-            psgNoteL C0, 2
+            psgNoteL 06h, 2
       psgInst 08h
-            psgNoteL C0, 2
+            psgNoteL 04h, 2
       psgInst 06h
-            psgNoteL C0, 2
+            psgNoteL 05h, 2
       psgInst 04h
-            psgNoteL C0, 2
+            psgNoteL 06h, 2
     channel_end

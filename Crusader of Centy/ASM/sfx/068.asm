@@ -8,7 +8,7 @@ Sfx_068_Channel_0:
       vol 13
       vibrato 00h
       setRelease 0
-            noteL D5, 12
+            noteL D4, 12
     channel_end
 Sfx_068_Channel_1:
     channel_end

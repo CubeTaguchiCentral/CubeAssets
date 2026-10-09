@@ -13,10 +13,10 @@ Sfx_003_Channel_1:
       stereo 0c0h
       sustain
       vibrato 02ah
-            noteL E3, 0
+            noteL E2, 0
       setSlide 126
-            noteL G7, 12
+            noteL G6, 12
       setRelease 1
-            noteL D3, 13
+            noteL D2, 13
       noSlide
     channel_end

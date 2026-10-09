@@ -11,10 +11,10 @@ Sfx_016_Channel_1:
       vibrato 00h
       sustain
       noSlide
-            noteL G3, 12
+            noteL G2, 12
       setSlide 115
       vol 14
       setRelease 0
       vibrato 0bfh
-            noteL F4, 48
+            noteL F3, 48
     channel_end

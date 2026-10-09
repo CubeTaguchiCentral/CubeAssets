@@ -20,40 +20,40 @@ Music_16_Channel_0:
       vibrato 05ah
       setRelease 1
     countedLoopStart 1
-            noteL E5, 16
-            noteL E5, 8
-            note E5
-            note E5
-            note E5
+            noteL E4, 16
+            noteL E4, 8
+            note E4
+            note E4
+            note E4
     countedLoopEnd
-            noteL F5, 16
-            noteL F5, 8
-            note F5
-            wait
-            noteL D5, 32
+            noteL F4, 16
             noteL F4, 8
-            note As4
-            note D5
-            note F5
-            note D5
-            note A4
+            note F4
+            wait
+            noteL D4, 32
+            noteL F3, 8
+            note As3
+            note D4
+            note F4
+            note D4
+            note A3
       stereo 080h
-            note F5
-            note D5
-            note A4
+            note F4
+            note D4
+            note A3
       stereo 040h
-            note E5
-            note Cs5
-            note A4
+            note E4
+            note Cs4
+            note A3
       stereo 080h
-            note E5
-            note Cs5
-            note A4
+            note E4
+            note Cs4
+            note A3
       stereo 0c0h
-            note D5
+            note D4
             waitL 16
-            note G5
-            noteL Fs5, 56
+            note G4
+            noteL Fs4, 56
     channel_end
 Music_16_Channel_1:
       stereo 040h
@@ -61,36 +61,36 @@ Music_16_Channel_1:
       vol 11
       setRelease 1
       vibrato 05ah
-            noteL C5, 16
+            noteL C4, 16
     countedLoopStart 3
-            noteL C5, 8
+            noteL C4, 8
     countedLoopEnd
-            noteL Cs5, 16
+            noteL Cs4, 16
     countedLoopStart 3
-            noteL Cs5, 8
+            noteL Cs4, 8
     countedLoopEnd
-            noteL D5, 16
-            noteL D5, 8
-            note D5
+            noteL D4, 16
+            noteL D4, 8
+            note D4
             wait
-            noteL As4, 32
+            noteL As3, 32
             waitL 24
-            noteL D5, 8
-            note A4
-            note F4
-            note D5
-            note A4
-            note F4
-            note Cs5
-            note A4
-            note E4
-            note Cs5
-            note A4
-            note E4
-            note B4
+            noteL D4, 8
+            note A3
+            note F3
+            note D4
+            note A3
+            note F3
+            note Cs4
+            note A3
+            note E3
+            note Cs4
+            note A3
+            note E3
+            note B3
             waitL 16
-            note D5
-            noteL D5, 56
+            note D4
+            noteL D4, 56
     channel_end
 Music_16_Channel_2:
       stereo 080h
@@ -99,22 +99,22 @@ Music_16_Channel_2:
       setRelease 1
       vibrato 05ah
     countedLoopStart 1
-            noteL G5, 16
-            noteL G5, 8
-            note G5
-            note G5
-            note G5
+            noteL G4, 16
+            noteL G4, 8
+            note G4
+            note G4
+            note G4
     countedLoopEnd
-            noteL A5, 16
-            noteL A5, 8
-            note A5
+            noteL A4, 16
+            noteL A4, 8
+            note A4
             wait
-            noteL F5, 32
+            noteL F4, 32
             waitL 120
-            noteL G5, 8
+            noteL G4, 8
             waitL 16
-            note A5
-            noteL A5, 56
+            note A4
+            noteL A4, 56
     channel_end
 Music_16_Channel_3:
       stereo 0c0h
@@ -122,48 +122,48 @@ Music_16_Channel_3:
       vol 10
       vibrato 05ah
       setRelease 1
-            noteL C4, 8
+            noteL C3, 8
             wait
-            note C4
-            note C4
+            note C3
+            note C3
             wait
-            note C4
-            note Cs4
+            note C3
+            note Cs3
             wait
-            note Cs4
-            note Cs4
+            note Cs3
+            note Cs3
             wait
-            note Cs4
-            note D4
+            note Cs3
+            note D3
             wait
-            note D4
-            note D4
+            note D3
+            note D3
             wait
-            noteL As3, 16
+            noteL As2, 16
             waitL 8
-            note As3
-            note F3
-            note As3
-            note D4
-            note D4
+            note As2
+            note F2
+            note As2
+            note D3
+            note D3
             wait
-            note D4
-            note D4
+            note D3
+            note D3
             wait
-            note D4
-            note Cs4
+            note D3
+            note Cs3
             wait
-            note Cs4
-            note Cs4
+            note Cs3
+            note Cs3
             wait
-            note Cs4
-            note G3
+            note Cs3
+            note G2
             wait
-            noteL G4, 4
+            noteL G3, 4
             wait
-            noteL E3, 8
+            noteL E2, 8
             wait
-            noteL D3, 56
+            noteL D2, 56
     channel_end
 Music_16_Channel_4:
       stereo 0c0h
@@ -173,36 +173,36 @@ Music_16_Channel_4:
       vibrato 05ah
       setRelease 1
     countedLoopStart 1
-            noteL E5, 16
-            noteL E5, 8
-            note E5
-            note E5
-            note E5
+            noteL E4, 16
+            noteL E4, 8
+            note E4
+            note E4
+            note E4
     countedLoopEnd
-            noteL F5, 16
-            noteL F5, 8
-            note F5
-            wait
-            noteL D5, 32
+            noteL F4, 16
             noteL F4, 8
-            note As4
-            note D5
-            note F5
-            note D5
-            note A4
-            note F5
-            note D5
-            note A4
-            note E5
-            note Cs5
-            note A4
-            note E5
-            note Cs5
-            note A4
-            note D5
+            note F4
+            wait
+            noteL D4, 32
+            noteL F3, 8
+            note As3
+            note D4
+            note F4
+            note D4
+            note A3
+            note F4
+            note D4
+            note A3
+            note E4
+            note Cs4
+            note A3
+            note E4
+            note Cs4
+            note A3
+            note D4
             waitL 16
-            note G5
-            noteL Fs5, 49
+            note G4
+            noteL Fs4, 49
     channel_end
 Music_16_Channel_5:
             sampleL 0, 16

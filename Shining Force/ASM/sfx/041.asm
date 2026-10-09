@@ -10,19 +10,19 @@ Sfx_041_Channel_1:
       vol 15
       setRelease 1
       vibrato 0f0h
-            noteL Cs2, 3
+            noteL Cs1, 3
       sustain
       vol 14
-            note Cs2
+            note Cs1
       vol 13
-            note Cs2
+            note Cs1
       vol 12
-            note Cs2
+            note Cs1
     countedLoopStart 5
       vol 11
-            noteL Cs2, 2
+            noteL Cs1, 2
       vol 11
-            note Cs2
+            note Cs1
     countedLoopEnd
       setRelease 0
             waitL 6

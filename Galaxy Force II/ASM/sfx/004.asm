@@ -10,9 +10,9 @@ Sfx_004_Channel_1:
       sustain
       vibrato 04ah
       vol 14
-            noteL G6, 5
+            noteL G5, 5
       setSlide 25
       setRelease 1
-            noteL F2, 22
+            noteL F1, 22
       noSlide
     channel_end

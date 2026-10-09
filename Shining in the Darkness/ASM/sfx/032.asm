@@ -9,12 +9,12 @@ Sfx_032_Channel_1:
       inst 51
       vol 15
       setRelease 0
-            noteL F4, 1
+            noteL F3, 1
       sustain
       vibrato 010h
-            note Gs5
-            note A6
+            note Gs4
+            note A5
       setRelease 1
       vibrato 0f0h
-            noteL B8, 12
+            noteL B7, 12
     channel_end

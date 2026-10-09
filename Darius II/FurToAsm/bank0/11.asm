@@ -21,43 +21,43 @@ Music_11_Channel_0:
       vibrato 05ah
       setRelease 1
     countedLoopStart 3
-            noteL B6, 12
-            note As6
-            note Fs6
-            note Cs6
+            noteL B5, 12
+            note As5
+            note Fs5
+            note Cs5
+            note Ds5
+            note As5
+            note Gs5
             note Ds6
-            note As6
-            note Gs6
-            note Ds7
-            note Cs7
-            note B7
-            note As7
-            note Fs7
-    countedLoopEnd
+            note Cs6
             note B6
             note As6
             note Fs6
-            note Cs6
+    countedLoopEnd
+            note B5
+            note As5
+            note Fs5
+            note Cs5
       vol 9
-            note Ds6
-            note As6
+            note Ds5
+            note As5
       vol 8
-            note Gs6
-            note Ds7
+            note Gs5
+            note Ds6
       vol 7
-            note Cs7
-            note Gs7
+            note Cs6
+            note Gs6
       vol 6
-            note As7
-            note Fs7
+            note As6
+            note Fs6
       sustain
       inst 11
       vol 11
-            noteL Ds6, 255
+            noteL Ds5, 255
       vibrato 00h
-            noteL Ds6, 129
+            noteL Ds5, 129
       vol 2
-            noteL Ds6, 2
+            noteL Ds5, 2
     channel_end
 Music_11_Channel_1:
       stereo 080h
@@ -68,44 +68,44 @@ Music_11_Channel_1:
       vibrato 053h
       setRelease 1
     countedLoopStart 3
-            noteL B6, 12
-            note As6
-            note Fs6
-            note Cs6
+            noteL B5, 12
+            note As5
+            note Fs5
+            note Cs5
+            note Ds5
+            note As5
+            note Gs5
             note Ds6
-            note As6
-            note Gs6
-            note Ds7
-            note Cs7
-            note B7
-            note As7
-            note Fs7
-    countedLoopEnd
+            note Cs6
             note B6
             note As6
-      vol 9
             note Fs6
-            note Cs6
+    countedLoopEnd
+            note B5
+            note As5
+      vol 9
+            note Fs5
+            note Cs5
       vol 8
-            note Ds6
-            note As6
+            note Ds5
+            note As5
       vol 7
-            note Gs6
-            note Ds7
+            note Gs5
+            note Ds6
       vol 6
-            note Cs7
-            note Gs7
+            note Cs6
+            note Gs6
       vol 5
-            note As7
-            note Fs7
+            note As6
+            note Fs6
       sustain
       inst 11
       vol 11
-            noteL Ds6, 255
+            noteL Ds5, 255
       vibrato 00h
-            noteL Ds6, 119
+            noteL Ds5, 119
       vol 2
-            noteL Ds6, 2
+            noteL Ds5, 2
     channel_end
 Music_11_Channel_2:
       stereo 0c0h
@@ -116,39 +116,39 @@ Music_11_Channel_2:
       vibrato 05ah
       setRelease 1
     countedLoopStart 2
-            noteL B4, 12
-            note Fs5
-            note B5
-            note As5
-            note Gs5
-            note Ds6
-            note Cs6
-            note As5
-            note Ds6
-            note Cs6
-            note As5
-            note Fs5
-    countedLoopEnd
+            noteL B3, 12
+            note Fs4
             note B4
-            note Fs5
+            note As4
+            note Gs4
+            note Ds5
+            note Cs5
+            note As4
+            note Ds5
+            note Cs5
+            note As4
+            note Fs4
+    countedLoopEnd
+            note B3
+            note Fs4
       vol 8
-            note B5
-            note As5
+            note B4
+            note As4
       vol 7
-            note Gs5
-            note Ds6
+            note Gs4
+            note Ds5
       vol 6
-            note Cs6
-            note As5
+            note Cs5
+            note As4
             waitL 16
       sustain
       inst 11
       vol 10
-            noteL Ds6, 255
+            noteL Ds5, 255
       vibrato 00h
-            noteL Ds6, 113
+            noteL Ds5, 113
       vol 2
-            noteL Ds6, 2
+            noteL Ds5, 2
     channel_end
 Music_11_Channel_3:
       stereo 040h
@@ -160,52 +160,52 @@ Music_11_Channel_3:
       vibrato 053h
       setRelease 1
     countedLoopStart 1
-            noteL B4, 12
-            note Fs5
-            note B5
-            note As5
-            note Gs5
-            note Ds6
-            note Cs6
-            note As5
-            note Ds6
-            note Cs6
-            note As5
-            note Fs5
+            noteL B3, 12
+            note Fs4
+            note B4
+            note As4
+            note Gs4
+            note Ds5
+            note Cs5
+            note As4
+            note Ds5
+            note Cs5
+            note As4
+            note Fs4
     countedLoopEnd
+            note B3
+            note Fs4
             note B4
-            note Fs5
-            note B5
-            note As5
-            note Gs5
-            note Ds6
-            note Cs6
-            note As5
-            note Ds6
-            note Cs6
+            note As4
+            note Gs4
+            note Ds5
+            note Cs5
+            note As4
+            note Ds5
+            note Cs5
       vol 9
-            note As5
-            note Fs5
+            note As4
+            note Fs4
       vol 8
-            note B4
-            note Fs5
+            note B3
+            note Fs4
       vol 7
-            note B5
-            note As5
+            note B4
+            note As4
       vol 6
-            note Gs5
-            note Ds6
+            note Gs4
+            note Ds5
       vol 5
-            note Cs6
-            note As5
+            note Cs5
+            note As4
       sustain
       inst 11
       vol 11
-            noteL Ds6, 255
+            noteL Ds5, 255
       vibrato 00h
-            noteL Ds6, 119
+            noteL Ds5, 119
       vol 2
-            noteL Ds6, 2
+            noteL Ds5, 2
     channel_end
 Music_11_Channel_4:
       stereo 0c0h
@@ -214,13 +214,13 @@ Music_11_Channel_4:
       setRelease 1
       vibrato 05ah
     countedLoopStart 1
-            noteL C6, 96
+            noteL C5, 96
             wait
       vol 2
             waitL 192
       vol 9
     countedLoopEnd
-            noteL C6, 96
+            noteL C5, 96
             wait
       vol 2
             waitL 192

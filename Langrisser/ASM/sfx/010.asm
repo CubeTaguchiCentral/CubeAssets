@@ -10,14 +10,14 @@ Sfx_010_Channel_1:
       vibrato 0b3h
       inst 62
       vol 14
-            noteL G4, 5
-            note G3
+            noteL G3, 5
             note G2
+            note G1
       inst 65
       vol 15
-            noteL E2, 2
-            note E2
-            note E2
-            noteL B2, 36
+            noteL E1, 2
+            note E1
+            note E1
+            noteL B1, 36
             waitL 12
     channel_end

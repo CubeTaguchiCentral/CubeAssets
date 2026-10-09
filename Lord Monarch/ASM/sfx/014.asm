@@ -7,7 +7,7 @@ Sfx_014_Channel_0:
       inst 70
       vol 14
       vibrato 096h
-            noteL G7, 144
+            noteL G6, 144
     channel_end
 Sfx_014_Channel_1:
       vol 0
@@ -17,7 +17,7 @@ Sfx_014_Channel_1:
       inst 70
       vol 11
       vibrato 095h
-            noteL G7, 142
+            noteL G6, 142
     channel_end
 Sfx_014_Channel_2:
     channel_end

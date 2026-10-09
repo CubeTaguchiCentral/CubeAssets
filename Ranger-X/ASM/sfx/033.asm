@@ -10,5 +10,5 @@ Sfx_033_Channel_1:
       vol 11
       vibrato 00h
       setRelease 1
-            noteL Cs8, 24
+            noteL Cs7, 24
     channel_end

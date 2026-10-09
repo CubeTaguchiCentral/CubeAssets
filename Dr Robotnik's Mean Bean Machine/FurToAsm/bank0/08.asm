@@ -19,37 +19,37 @@ Music_08_Channel_0:
       vol 11
       setRelease 1
       vibrato 05ah
-            noteL C6, 15
+            noteL C5, 15
             waitL 3
-            noteL D6, 15
+            noteL D5, 15
             waitL 3
-            noteL E6, 10
+            noteL E5, 10
             waitL 2
-            noteL D6, 48
-            noteL C6, 15
+            noteL D5, 48
+            noteL C5, 15
             waitL 3
-            noteL B5, 15
+            noteL B4, 15
             waitL 3
-            noteL E5, 99
-            noteL E5, 6
+            noteL E4, 99
+            noteL E4, 6
             waitL 3
-            noteL C6, 15
+            noteL C5, 15
             waitL 3
-            noteL B5, 15
+            noteL B4, 15
             waitL 3
-            noteL E5, 12
-            noteL G5, 8
+            noteL E4, 12
+            noteL G4, 8
             waitL 4
-            noteL A5, 8
+            noteL A4, 8
             waitL 9
       vol 9
-            noteL A5, 13
+            noteL A4, 13
             waitL 4
       vol 6
-            noteL A5, 13
+            noteL A4, 13
             waitL 4
       vol 3
-            noteL A5, 13
+            noteL A4, 13
       vol 0
             waitL 2
     channel_end
@@ -59,37 +59,37 @@ Music_08_Channel_1:
       vol 11
       setRelease 1
       vibrato 05ah
-            noteL A5, 15
+            noteL A4, 15
             waitL 3
-            noteL B5, 15
+            noteL B4, 15
             waitL 3
-            noteL C6, 10
+            noteL C5, 10
             waitL 2
-            noteL B5, 48
-            noteL A5, 15
+            noteL B4, 48
+            noteL A4, 15
             waitL 3
-            noteL G5, 15
+            noteL G4, 15
             waitL 3
-            noteL C5, 99
-            noteL C5, 6
+            noteL C4, 99
+            noteL C4, 6
             waitL 3
-            noteL A5, 15
+            noteL A4, 15
             waitL 3
-            noteL G5, 15
+            noteL G4, 15
             waitL 3
-            noteL C5, 12
-            noteL E5, 8
+            noteL C4, 12
+            noteL E4, 8
             waitL 4
-            noteL E5, 8
+            noteL E4, 8
             waitL 9
       vol 9
-            noteL E5, 13
+            noteL E4, 13
             waitL 4
       vol 6
-            noteL E5, 13
+            noteL E4, 13
             waitL 4
       vol 3
-            noteL E5, 13
+            noteL E4, 13
             waitL 4
     channel_end
 Music_08_Channel_2:
@@ -98,52 +98,52 @@ Music_08_Channel_2:
       vol 12
       setRelease 1
       vibrato 05ah
-            noteL A3, 15
+            noteL A2, 15
             waitL 3
-            noteL B3, 15
+            noteL B2, 15
             waitL 3
-            noteL C4, 12
-            noteL B3, 48
-            noteL A3, 3
+            noteL C3, 12
+            noteL B2, 48
+            noteL A2, 3
             wait
-            noteL A3, 2
+            noteL A2, 2
             waitL 4
-            noteL A4, 12
-            noteL Gs3, 3
+            noteL A3, 12
+            noteL Gs2, 3
             wait
-            noteL Gs3, 2
+            noteL Gs2, 2
             waitL 4
-            noteL Gs4, 12
-            noteL G3, 3
+            noteL Gs3, 12
+            noteL G2, 3
             wait
-            noteL G3, 2
+            noteL G2, 2
             waitL 4
-            noteL G4, 12
-            noteL Fs3, 3
+            noteL G3, 12
+            noteL Fs2, 3
             wait
-            noteL Fs3, 2
+            noteL Fs2, 2
             waitL 4
-            noteL Fs4, 12
-            noteL F3, 3
+            noteL Fs3, 12
+            noteL F2, 3
             wait
-            noteL F3, 2
+            noteL F2, 2
             waitL 4
-            noteL F4, 12
+            noteL F3, 12
     countedLoopStart 1
-            noteL E3, 3
+            noteL E2, 3
             wait
-            noteL E3, 2
+            noteL E2, 2
             waitL 4
-            noteL E4, 12
+            noteL E3, 12
     countedLoopEnd
-            noteL B3, 3
+            noteL B2, 3
             wait
-            noteL B3, 2
+            noteL B2, 2
             waitL 4
-            noteL B4, 12
-            noteL G3, 8
+            noteL B3, 12
+            noteL G2, 8
             waitL 4
-            noteL A3, 8
+            noteL A2, 8
             waitL 4
     channel_end
 Music_08_Channel_3:
@@ -154,26 +154,26 @@ Music_08_Channel_3:
       vol 9
       setRelease 1
       vibrato 05ah
-            noteL C6, 15
+            noteL C5, 15
             waitL 3
-            noteL D6, 15
+            noteL D5, 15
             waitL 3
-            noteL E6, 10
+            noteL E5, 10
             waitL 2
-            noteL D6, 48
-            noteL C6, 15
+            noteL D5, 48
+            noteL C5, 15
             waitL 3
-            noteL B5, 15
+            noteL B4, 15
             waitL 3
-            noteL E5, 99
-            noteL E5, 6
+            noteL E4, 99
+            noteL E4, 6
             waitL 3
-            noteL C6, 15
+            noteL C5, 15
             waitL 3
-            noteL B5, 15
+            noteL B4, 15
             waitL 3
-            noteL E5, 12
-            noteL G5, 8
+            noteL E4, 12
+            noteL G4, 8
             waitL 4
     channel_end
 Music_08_Channel_4:
@@ -184,26 +184,26 @@ Music_08_Channel_4:
       vol 10
       setRelease 1
       vibrato 05ah
-            noteL A5, 15
+            noteL A4, 15
             waitL 3
-            noteL B5, 15
+            noteL B4, 15
             waitL 3
-            noteL C6, 10
+            noteL C5, 10
             waitL 2
-            noteL B5, 48
-            noteL A5, 15
+            noteL B4, 48
+            noteL A4, 15
             waitL 3
-            noteL G5, 15
+            noteL G4, 15
             waitL 3
-            noteL C5, 99
-            noteL C5, 6
+            noteL C4, 99
+            noteL C4, 6
             waitL 3
-            noteL A5, 15
+            noteL A4, 15
             waitL 3
-            noteL G5, 15
+            noteL G4, 15
             waitL 3
-            noteL C5, 12
-            noteL E5, 8
+            noteL C4, 12
+            noteL E4, 8
             waitL 4
     channel_end
 Music_08_Channel_5:

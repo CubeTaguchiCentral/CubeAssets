@@ -11,9 +11,9 @@ Sfx_001_Channel_1:
       vibrato 00h
       sustain
       noSlide
-            noteL G3, 1
+            noteL G2, 1
       setRelease 0
       setSlide 115
       vol 14
-            noteL D5, 8
+            noteL D4, 8
     channel_end

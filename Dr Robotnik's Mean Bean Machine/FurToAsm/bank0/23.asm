@@ -19,21 +19,21 @@ Music_23_Channel_0:
       vol 12
       setRelease 1
       vibrato 00h
-            noteL A3, 4
+            noteL A2, 4
+            waitL 8
+            noteL A2, 4
             waitL 8
             noteL A3, 4
-            waitL 8
-            noteL A4, 4
             waitL 16
-            noteL A4, 4
-            note A3
+            noteL A3, 4
+            note A2
             wait
-            note A4
             note A3
+            note A2
             waitL 8
-            noteL A4, 4
-            waitL 16
             noteL A3, 4
+            waitL 16
+            noteL A2, 4
     mainLoopStart
       inst 14
       vol 12
@@ -42,21 +42,21 @@ Music_23_Channel_0:
       stereo 0c0h
       vol 12
       setRelease 1
-            noteL A3, 4
+            noteL A2, 4
+            waitL 8
+            noteL A2, 4
             waitL 8
             noteL A3, 4
-            waitL 8
-            noteL A4, 4
             waitL 16
-            noteL A4, 4
-            note A3
+            noteL A3, 4
+            note A2
             wait
-            note A4
             note A3
+            note A2
             waitL 8
-            noteL A4, 4
-            waitL 16
             noteL A3, 4
+            waitL 16
+            noteL A2, 4
     mainLoopEnd
 Music_23_Channel_1:
       stereo 040h
@@ -65,19 +65,19 @@ Music_23_Channel_1:
             waitL 12
       setRelease 1
       vibrato 00h
-            noteL A3, 4
+            noteL A2, 4
+            waitL 8
+            noteL A2, 4
             waitL 8
             noteL A3, 4
-            waitL 8
-            noteL A4, 4
             waitL 16
-            noteL A4, 4
-            note A3
+            noteL A3, 4
+            note A2
             wait
-            note A4
             note A3
+            note A2
             waitL 8
-            noteL A4, 4
+            noteL A3, 4
             waitL 8
     mainLoopStart
       inst 14
@@ -86,20 +86,20 @@ Music_23_Channel_1:
       stereo 040h
             waitL 8
       setRelease 1
-            noteL A3, 4
-            note A3
+            noteL A2, 4
+            note A2
+            waitL 8
+            noteL A2, 4
             waitL 8
             noteL A3, 4
-            waitL 8
-            noteL A4, 4
             waitL 16
-            noteL A4, 4
-            note A3
+            noteL A3, 4
+            note A2
             wait
-            note A4
             note A3
+            note A2
             waitL 8
-            noteL A4, 4
+            noteL A3, 4
             waitL 8
     mainLoopEnd
 Music_23_Channel_2:
@@ -109,9 +109,9 @@ Music_23_Channel_2:
             waitL 72
       setRelease 1
       vibrato 00h
-            noteL A3, 4
+            noteL A2, 4
             waitL 8
-            noteL A3, 4
+            noteL A2, 4
             waitL 8
     mainLoopStart
       inst 14
@@ -119,20 +119,20 @@ Music_23_Channel_2:
       shifting 0
       stereo 080h
       setRelease 1
-            noteL A4, 4
+            noteL A3, 4
             waitL 16
-            noteL A4, 4
-            note A3
+            noteL A3, 4
+            note A2
             wait
-            note A4
             note A3
+            note A2
             waitL 8
-            noteL A4, 4
+            noteL A3, 4
             waitL 16
-            noteL A3, 4
-            note A3
+            noteL A2, 4
+            note A2
             waitL 8
-            noteL A3, 4
+            noteL A2, 4
             waitL 8
     mainLoopEnd
 Music_23_Channel_3:

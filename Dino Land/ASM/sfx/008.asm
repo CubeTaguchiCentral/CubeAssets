@@ -10,5 +10,5 @@ Sfx_008_Channel_1:
       vol 11
       setRelease 0
       vibrato 0b0h
-            noteL A8, 48
+            noteL A7, 48
     channel_end

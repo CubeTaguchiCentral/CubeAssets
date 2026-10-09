@@ -20,24 +20,24 @@ Music_07_Channel_0:
             waitL 12
       vibrato 00h
       setRelease 1
-            noteL C6, 6
+            noteL C5, 6
             wait
-            noteL F6, 18
-            noteL G6, 6
+            noteL F5, 18
+            noteL G5, 6
       setRelease 4
-            noteL G6, 10
+            noteL G5, 10
       vol 9
-            note G6
+            note G5
       vol 7
-            note G6
+            note G5
       vol 5
-            note G6
+            note G5
       vol 3
-            note G6
+            note G5
       vol 2
-            note G6
+            note G5
       vol 1
-            note G6
+            note G5
       setRelease 1
             waitL 1
     channel_end
@@ -47,23 +47,23 @@ Music_07_Channel_1:
       vol 10
       setRelease 1
       vibrato 05ch
-            noteL G5, 48
+            noteL G4, 48
       inst 40
       vol 12
       setRelease 4
-            noteL D6, 10
+            noteL D5, 10
       vol 10
-            note D6
+            note D5
       vol 8
-            note D6
+            note D5
       vol 6
-            note D6
+            note D5
       vol 4
-            note D6
+            note D5
       vol 3
-            note D6
+            note D5
       vol 2
-            note D6
+            note D5
       setRelease 1
             waitL 1
     channel_end
@@ -73,23 +73,23 @@ Music_07_Channel_2:
       vol 10
       setRelease 1
       vibrato 05ch
-            noteL F5, 48
+            noteL F4, 48
       inst 40
       vol 12
       setRelease 4
-            noteL C6, 10
+            noteL C5, 10
       vol 10
-            note C6
+            note C5
       vol 8
-            note C6
+            note C5
       vol 6
-            note C6
+            note C5
       vol 4
-            note C6
+            note C5
       vol 3
-            note C6
+            note C5
       vol 2
-            note C6
+            note C5
       setRelease 1
             waitL 1
     channel_end
@@ -99,23 +99,23 @@ Music_07_Channel_3:
       vol 12
       setRelease 1
       vibrato 05ch
-            noteL C2, 48
+            noteL C1, 48
       inst 40
       vol 12
       setRelease 4
-            noteL As5, 10
+            noteL As4, 10
       vol 10
-            note As5
+            note As4
       vol 8
-            note As5
+            note As4
       vol 6
-            note As5
+            note As4
       vol 4
-            note As5
+            note As4
       vol 3
-            note As5
+            note As4
       vol 2
-            note As5
+            note As4
       setRelease 1
             waitL 1
     channel_end
@@ -126,23 +126,23 @@ Music_07_Channel_4:
             waitL 12
       vibrato 00h
       setRelease 1
-            noteL C6, 6
+            noteL C5, 6
             wait
-            noteL F6, 18
-            noteL G6, 6
-            noteL G6, 10
+            noteL F5, 18
+            noteL G5, 6
+            noteL G5, 10
       vol 9
-            note G6
+            note G5
       vol 7
-            note G6
+            note G5
       vol 5
-            note G6
+            note G5
       vol 3
-            note G6
+            note G5
       vol 2
-            note G6
+            note G5
       vol 1
-            note G6
+            note G5
             waitL 1
     channel_end
 Music_07_Channel_5:

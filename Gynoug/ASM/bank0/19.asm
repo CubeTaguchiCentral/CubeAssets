@@ -18,6 +18,128 @@ Music_19_Channel_0:
       setRelease 1
       vibrato 02ah
       inst 19
+            noteL E2, 12
+            note E2
+            note E2
+            note E2
+      vol 8
+            note F2
+            note F2
+            note F2
+            note F2
+      vol 9
+            note Fs2
+            note Fs2
+            note Fs2
+            note Fs2
+      vol 10
+            note G2
+            note G2
+            note G2
+            note G2
+      vol 11
+            note Gs2
+            note Gs2
+            note Gs2
+            note Gs2
+      vol 12
+            note A2
+            note A2
+            note A2
+            note A2
+      vol 13
+            noteL As2, 6
+            note As2
+            note As2
+            note B2
+            note B2
+            note B2
+            noteL C3, 12
+            waitL 24
+      vol 10
+            noteL C3, 12
+            wait
+            waitL 24
+            noteL C3, 12
+            waitL 36
+            noteL C3, 12
+            wait
+      vol 11
+            waitL 24
+            noteL A2, 4
+            note Fs2
+            note Ds3
+            note C3
+            note As3
+            note Fs3
+      vol 13
+            noteL Cs2, 24
+    channel_end
+Music_19_Channel_1:
+      setRelease 1
+      vibrato 02ah
+      inst 3
+      vol 7
+            noteL Cs4, 48
+      vol 8
+            note D4
+      vol 9
+            note Ds4
+      vol 10
+            note E4
+            note F4
+            note Fs4
+            noteL G4, 18
+            note Gs4
+            noteL A4, 12
+            waitL 48
+            waitL 96
+            waitL 24
+      inst 31
+      vol 13
+            noteL A2, 4
+            note Fs2
+            note Ds3
+            note C3
+            note As3
+            note Fs3
+            noteL Cs2, 24
+    channel_end
+Music_19_Channel_2:
+      setRelease 1
+      vibrato 02ah
+      inst 3
+      vol 7
+            noteL G4, 48
+      vol 8
+            note Gs4
+      vol 9
+            note A4
+      vol 10
+            note As4
+            note B4
+            note C5
+            noteL Cs5, 18
+            note D5
+            noteL Ds5, 12
+            waitL 48
+            waitL 96
+            waitL 24
+      inst 29
+      vol 13
+            noteL A1, 4
+            note Fs1
+            note Ds2
+            note C2
+            note As2
+            note Fs2
+            noteL Cs1, 24
+    channel_end
+Music_19_Channel_3:
+      vol 7
+      setRelease 1
+      vibrato 02ah
+      inst 19
             noteL E3, 12
             note E3
             note E3
@@ -64,8 +186,8 @@ Music_19_Channel_0:
             waitL 36
             noteL C4, 12
             wait
-      vol 11
             waitL 24
+      vol 11
             noteL A3, 4
             note Fs3
             note Ds4
@@ -74,128 +196,6 @@ Music_19_Channel_0:
             note Fs4
       vol 13
             noteL Cs3, 24
-    channel_end
-Music_19_Channel_1:
-      setRelease 1
-      vibrato 02ah
-      inst 3
-      vol 7
-            noteL Cs5, 48
-      vol 8
-            note D5
-      vol 9
-            note Ds5
-      vol 10
-            note E5
-            note F5
-            note Fs5
-            noteL G5, 18
-            note Gs5
-            noteL A5, 12
-            waitL 48
-            waitL 96
-            waitL 24
-      inst 31
-      vol 13
-            noteL A3, 4
-            note Fs3
-            note Ds4
-            note C4
-            note As4
-            note Fs4
-            noteL Cs3, 24
-    channel_end
-Music_19_Channel_2:
-      setRelease 1
-      vibrato 02ah
-      inst 3
-      vol 7
-            noteL G5, 48
-      vol 8
-            note Gs5
-      vol 9
-            note A5
-      vol 10
-            note As5
-            note B5
-            note C6
-            noteL Cs6, 18
-            note D6
-            noteL Ds6, 12
-            waitL 48
-            waitL 96
-            waitL 24
-      inst 29
-      vol 13
-            noteL A2, 4
-            note Fs2
-            note Ds3
-            note C3
-            note As3
-            note Fs3
-            noteL Cs2, 24
-    channel_end
-Music_19_Channel_3:
-      vol 7
-      setRelease 1
-      vibrato 02ah
-      inst 19
-            noteL E4, 12
-            note E4
-            note E4
-            note E4
-      vol 8
-            note F4
-            note F4
-            note F4
-            note F4
-      vol 9
-            note Fs4
-            note Fs4
-            note Fs4
-            note Fs4
-      vol 10
-            note G4
-            note G4
-            note G4
-            note G4
-      vol 11
-            note Gs4
-            note Gs4
-            note Gs4
-            note Gs4
-      vol 12
-            note A4
-            note A4
-            note A4
-            note A4
-      vol 13
-            noteL As4, 6
-            note As4
-            note As4
-            note B4
-            note B4
-            note B4
-            noteL C5, 12
-            waitL 24
-      vol 10
-            noteL C5, 12
-            wait
-            waitL 24
-            noteL C5, 12
-            waitL 36
-            noteL C5, 12
-            wait
-            waitL 24
-      vol 11
-            noteL A4, 4
-            note Fs4
-            note Ds5
-            note C5
-            note As5
-            note Fs5
-      vol 13
-            noteL Cs4, 24
     channel_end
 Music_19_Channel_4:
     countedLoopStart 4
@@ -204,24 +204,24 @@ Music_19_Channel_4:
       vibrato 02ah
       inst 25
       stereo 080h
-            noteL C6, 12
+            noteL C5, 12
       stereo 040h
-            note C5
-            note C5
+            note C4
+            note C4
       stereo 080h
-            note C6
-            note C6
+            note C5
+            note C5
       stereo 040h
-            note C5
-            note C5
+            note C4
+            note C4
       stereo 080h
-            note C6
+            note C5
     countedLoopEnd
       stereo 0c0h
-            noteL C6, 6
+            noteL C5, 6
+            note C4
+            note C4
             note C5
-            note C5
-            note C6
     channel_end
 Music_19_Channel_5:
     countedLoopStart 4

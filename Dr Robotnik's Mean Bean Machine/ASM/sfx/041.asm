@@ -16,6 +16,6 @@ Sfx_041_Channel_6:
       psgInst 02ch
       setRelease 1
       vibrato 00h
-            psgNoteL B2, 1
             psgNoteL B3, 1
+            psgNoteL B4, 1
     channel_end

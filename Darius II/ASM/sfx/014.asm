@@ -8,16 +8,16 @@ Sfx_014_Channel_0:
       vol 10
       vibrato 020h
       sustain
-            noteL F7, 3
+            noteL F6, 3
       vol 13
-            note F7
+            note F6
       vol 14
-            noteL F7, 6
+            noteL F6, 6
       vol 15
       inst 35
       vibrato 0b8h
       setRelease 0
-            noteL As7, 40
+            noteL As6, 40
     channel_end
 Sfx_014_Channel_1:
     channel_end

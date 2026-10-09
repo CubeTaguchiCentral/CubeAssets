@@ -8,28 +8,28 @@ Sfx_046_Channel_0:
       vol 14
       setRelease 0
       vibrato 0e0h
-            noteL C6, 6
-            note A6
-            note A6
-            note C7
-            waitL 12
-            noteL B7, 6
-            note D7
-            note A6
+            noteL C5, 6
+            note A5
+            note A5
             note C6
+            waitL 12
+            noteL B6, 6
+            note D6
+            note A5
+            note C5
       vibrato 0f0h
-            noteL C6, 12
+            noteL C5, 12
             wait
-            note D8
-            noteL B8, 6
-            note A8
-            note B8
-            note B8
+            note D7
+            noteL B7, 6
+            note A7
+            note B7
+            note B7
             waitL 4
-            noteL A6, 6
-            note C0
-            note G8
-            noteL G5, 24
+            noteL A5, 6
+            note C8
+            note G7
+            noteL G4, 24
             wait
     channel_end
 Sfx_046_Channel_1:

@@ -10,7 +10,7 @@ Sfx_002_Channel_1:
       vol 13
       setRelease 1
       vibrato 02ah
-            noteL C2, 42
+            noteL C1, 42
     channel_end
 Sfx_002_Channel_2:
             sampleL 0, 4

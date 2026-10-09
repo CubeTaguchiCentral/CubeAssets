@@ -10,5 +10,5 @@ Sfx_059_Channel_1:
       vol 15
       vibrato 02ah
       setRelease 1
-            noteL C2, 255
+            noteL C1, 255
     channel_end

@@ -18,10 +18,10 @@ Sfx_009_Channel_4:
       setRelease 0
       vibrato 010h
     countedLoopStart 6
-            noteL C2, 2
-            note C3
+            noteL C1, 2
+            note C2
     countedLoopEnd
       inst 33
       vibrato 0b0h
-            noteL D2, 24
+            noteL D1, 24
     channel_end

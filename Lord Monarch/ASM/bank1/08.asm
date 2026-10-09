@@ -20,7 +20,7 @@ Music_08_Channel_0:
       setRelease 0
       vibrato 031h
     mainLoopStart
-            noteL C2, 160
+            noteL C1, 160
     mainLoopEnd
 Music_08_Channel_1:
       inst 3
@@ -31,9 +31,9 @@ Music_08_Channel_1:
             waitL 5
     mainLoopStart
       stereo 040h
-            noteL C2, 160
+            noteL C1, 160
       stereo 080h
-            note C2
+            note C1
     mainLoopEnd
 Music_08_Channel_2:
       inst 3
@@ -44,7 +44,7 @@ Music_08_Channel_2:
       vibrato 021h
             waitL 12
     mainLoopStart
-            noteL C2, 160
+            noteL C1, 160
     mainLoopEnd
 Music_08_Channel_3:
       inst 30
@@ -53,14 +53,14 @@ Music_08_Channel_3:
       setRelease 7
       vibrato 031h
     mainLoopStart
-            noteL C5, 10
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
+            noteL C4, 10
+            note C4
+            note C4
+            note C4
+            note C4
+            note C4
+            note C4
+            note C4
     mainLoopEnd
 Music_08_Channel_4:
       inst 30
@@ -72,69 +72,69 @@ Music_08_Channel_4:
             waitL 2
     mainLoopStart
       vol 6
-            noteL C5, 10
-            note C5
+            noteL C4, 10
+            note C4
       vol 5
-            note C5
-            note C5
+            note C4
+            note C4
       vol 4
-            note C5
-            note C5
+            note C4
+            note C4
       vol 3
-            note C5
-            note C5
+            note C4
+            note C4
       stereo 0c0h
       vol 2
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
+            note C4
+            note C4
+            note C4
+            note C4
+            note C4
+            note C4
+            note C4
+            note C4
       stereo 080h
       vol 3
-            note C5
-            note C5
+            note C4
+            note C4
       vol 4
-            note C5
-            note C5
+            note C4
+            note C4
       vol 5
-            note C5
-            note C5
+            note C4
+            note C4
       vol 6
-            note C5
-            note C5
+            note C4
+            note C4
       vol 5
-            note C5
-            note C5
+            note C4
+            note C4
       vol 4
-            note C5
-            note C5
+            note C4
+            note C4
       vol 3
-            note C5
-            note C5
+            note C4
+            note C4
       stereo 0c0h
       vol 2
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
-            note C5
+            note C4
+            note C4
+            note C4
+            note C4
+            note C4
+            note C4
+            note C4
+            note C4
       stereo 040h
       vol 3
-            note C5
-            note C5
+            note C4
+            note C4
       vol 4
-            note C5
-            note C5
+            note C4
+            note C4
       vol 5
-            note C5
-            note C5
+            note C4
+            note C4
     mainLoopEnd
 Music_08_Channel_5:
     channel_end

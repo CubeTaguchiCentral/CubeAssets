@@ -8,22 +8,22 @@ Sfx_005_Channel_0:
 Sfx_005_Channel_1:
       inst 40
       sustain
-            noteL G3, 2
+            noteL G2, 2
       vol 12
-            note G3
+            note G2
       vol 13
-            note G3
+            note G2
       vol 14
-            note G3
+            note G2
       vol 15
-            note G3
+            note G2
       vol 14
-            note G3
+            note G2
       vol 13
-            note G3
+            note G2
       vol 12
-            note G3
+            note G2
       vol 11
       setRelease 1
-            note G3
+            note G2
     channel_end

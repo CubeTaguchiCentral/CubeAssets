@@ -19,86 +19,86 @@ Music_19_Channel_0:
       vibrato 05ah
       setRelease 1
     countedLoopStart 1
-            noteL A3, 12
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note G3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note D4
-            note C4
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
-            noteL F3, 36
-            noteL F3, 12
-            note F3
-            note F3
-            noteL G3, 18
-            note A3
-            noteL G3, 12
-    countedLoopEnd
-            note Ds3
-            note Ds3
-            note Ds3
-            note Ds3
-            note Ds3
-            noteL Ds3, 6
-            note Ds3
-            noteL Ds3, 12
-            note Ds3
-    repeatStart
-            note Ds3
-            note Ds3
-            note Ds3
-            note Ds3
-            note Ds3
-            noteL Ds3, 6
-            note Ds3
-            noteL Ds3, 12
-            note Ds3
-    repeatSection1Start
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            noteL D3, 6
-            note D3
-            noteL D3, 12
-            note D3
+            noteL A2, 12
+            note A2
+            note A2
+            note A2
+            note A2
+            note A2
+            note G2
+            note A2
+            note A2
+            note A2
+            note A2
+            note A2
+            note A2
+            note A2
             note D3
             note C3
-            note D3
-            note E3
+            note A2
+            note A2
+            note A2
+            note A2
+            note A2
+            note A2
+            noteL F2, 36
+            noteL F2, 12
+            note F2
+            note F2
+            noteL G2, 18
+            note A2
+            noteL G2, 12
+    countedLoopEnd
+            note Ds2
+            note Ds2
+            note Ds2
+            note Ds2
+            note Ds2
+            noteL Ds2, 6
+            note Ds2
+            noteL Ds2, 12
+            note Ds2
+    repeatStart
+            note Ds2
+            note Ds2
+            note Ds2
+            note Ds2
+            note Ds2
+            noteL Ds2, 6
+            note Ds2
+            noteL Ds2, 12
+            note Ds2
+    repeatSection1Start
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            noteL D2, 6
+            note D2
+            noteL D2, 12
+            note D2
+            note D2
+            note C2
+            note D2
+            note E2
             wait
-            note F3
+            note F2
             wait
-            note A3
+            note A2
     repeatEnd
     repeatSection2Start
     repeatEnd
     repeatSection3Start
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            noteL D3, 6
-            note D3
-            noteL D3, 12
-            noteL E3, 204
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            noteL D2, 6
+            note D2
+            noteL D2, 12
+            noteL E2, 204
     channel_end
 Music_19_Channel_1:
       stereo 0c0h
@@ -107,61 +107,61 @@ Music_19_Channel_1:
       vibrato 05ah
       setRelease 1
     repeatStart
-            noteL E6, 12
+            noteL E5, 12
       inst 2
       vol 10
-            noteL A6, 6
+            noteL A5, 6
             wait
-            note B6
+            note B5
             wait
       inst 12
       vol 10
-            noteL F6, 12
+            noteL F5, 12
       inst 2
       vol 10
-            noteL C7, 6
+            noteL C6, 6
             wait
-            note D7
+            note D6
             waitL 30
       inst 12
       vol 10
-            noteL B6, 12
+            noteL B5, 12
       inst 2
       vol 10
-            noteL E7, 6
+            noteL E6, 6
             wait
-            note D7
+            note D6
             wait
       inst 12
       vol 10
-            noteL A6, 12
+            noteL A5, 12
       inst 2
       vol 10
-            noteL D7, 6
+            noteL D6, 6
             wait
-            note C7
+            note C6
             waitL 30
       inst 12
       vol 10
-            noteL E6, 12
+            noteL E5, 12
       inst 2
       vol 10
-            noteL A6, 6
+            noteL A5, 6
             wait
-            note B6
+            note B5
             wait
       inst 12
       vol 10
-            noteL F6, 12
+            noteL F5, 12
       inst 2
       vol 10
-            noteL A6, 6
-            note G6
-            note F6
+            noteL A5, 6
+            note G5
+            note F5
             wait
       inst 10
       vol 10
-            noteL D7, 120
+            noteL D6, 120
     repeatSection1Start
       inst 12
       vol 10
@@ -169,36 +169,36 @@ Music_19_Channel_1:
     repeatSection2Start
       inst 1
       vol 10
-            noteL A6, 2
-            noteL As6, 10
-            noteL A6, 12
-            note G6
-            noteL A6, 24
-            note F6
-            noteL C7, 2
-            noteL D7, 22
-            noteL C7, 12
-            note As6
-            noteL A6, 24
-            noteL F6, 36
-            noteL A6, 192
-            noteL A6, 2
-            noteL As6, 10
-            noteL A6, 12
-            note G6
-            noteL C7, 24
-            note F6
-            noteL C7, 2
-            noteL D7, 22
-            noteL C7, 12
-            note As6
-            noteL A6, 24
-            noteL F6, 36
+            noteL A5, 2
+            noteL As5, 10
+            noteL A5, 12
+            note G5
+            noteL A5, 24
+            note F5
+            noteL C6, 2
+            noteL D6, 22
+            noteL C6, 12
+            note As5
+            noteL A5, 24
+            noteL F5, 36
+            noteL A5, 192
+            noteL A5, 2
+            noteL As5, 10
+            noteL A5, 12
+            note G5
+            noteL C6, 24
+            note F5
+            noteL C6, 2
+            noteL D6, 22
+            noteL C6, 12
+            note As5
+            noteL A5, 24
+            noteL F5, 36
       inst 37
       vol 10
-            noteL A6, 84
-            noteL B6, 108
-            noteL B6, 96
+            noteL A5, 84
+            noteL B5, 108
+            noteL B5, 96
     channel_end
 Music_19_Channel_2:
       stereo 0c0h
@@ -208,64 +208,64 @@ Music_19_Channel_2:
       vibrato 05ah
       setRelease 1
     repeatStart
-            noteL B5, 12
+            noteL B4, 12
       inst 2
       vol 6
             waitL 6
-            note A6
+            note A5
             wait
-            note B6
+            note B5
       inst 12
       vol 10
-            noteL C6, 12
+            noteL C5, 12
       inst 2
       vol 6
             waitL 6
-            note C7
+            note C6
             wait
-            note D7
+            note D6
             waitL 24
       inst 12
       vol 10
-            noteL F6, 12
+            noteL F5, 12
       inst 2
       vol 6
             waitL 6
-            note E7
+            note E6
             wait
-            note D7
+            note D6
       inst 12
       vol 10
-            noteL F6, 12
+            noteL F5, 12
       inst 2
       vol 6
             waitL 6
-            note D7
+            note D6
             wait
-            note C7
+            note C6
             waitL 24
       inst 12
       vol 10
-            noteL B5, 12
+            noteL B4, 12
       inst 2
       vol 6
             waitL 6
-            note A6
+            note A5
             wait
-            note B6
+            note B5
       inst 12
       vol 10
-            noteL C6, 12
+            noteL C5, 12
       inst 2
       vol 6
             waitL 4
-            noteL A6, 6
-            note G6
-            note F6
+            noteL A5, 6
+            note G5
+            note F5
             waitL 2
       inst 10
       vol 6
-            noteL G5, 120
+            noteL G4, 120
     repeatSection1Start
       inst 12
       vol 6
@@ -274,35 +274,35 @@ Music_19_Channel_2:
             waitL 8
       inst 1
       vol 7
-            noteL A6, 2
-            noteL As6, 10
-            noteL A6, 12
-            note G6
-            noteL A6, 24
-            note F6
-            noteL C7, 2
-            noteL D7, 22
-            noteL C7, 12
-            note As6
-            noteL A6, 24
-            noteL F6, 36
-            noteL A6, 192
-            noteL A6, 2
-            noteL As6, 10
-            noteL A6, 12
-            note G6
-            noteL C7, 24
-            note F6
-            noteL C7, 2
-            noteL D7, 22
-            noteL C7, 12
-            note As6
-            noteL A6, 24
-            noteL F6, 28
+            noteL A5, 2
+            noteL As5, 10
+            noteL A5, 12
+            note G5
+            noteL A5, 24
+            note F5
+            noteL C6, 2
+            noteL D6, 22
+            noteL C6, 12
+            note As5
+            noteL A5, 24
+            noteL F5, 36
+            noteL A5, 192
+            noteL A5, 2
+            noteL As5, 10
+            noteL A5, 12
+            note G5
+            noteL C6, 24
+            note F5
+            noteL C6, 2
+            noteL D6, 22
+            noteL C6, 12
+            note As5
+            noteL A5, 24
+            noteL F5, 28
       inst 37
       vol 7
-            noteL A5, 84
-            noteL B5, 204
+            noteL A4, 84
+            noteL B4, 204
     channel_end
 Music_19_Channel_3:
       stereo 0c0h
@@ -311,100 +311,100 @@ Music_19_Channel_3:
       vibrato 05ah
       setRelease 1
     countedLoopStart 1
-            noteL Fs5, 12
+            noteL Fs4, 12
             waitL 24
-            noteL G5, 12
+            noteL G4, 12
             waitL 48
-            noteL C6, 12
+            noteL C5, 12
             waitL 24
-            noteL C6, 12
+            noteL C5, 12
             waitL 48
-            noteL Fs5, 12
+            noteL Fs4, 12
             waitL 24
-            noteL G5, 12
+            noteL G4, 12
             waitL 24
       inst 10
       vol 8
-            noteL C7, 120
+            noteL C6, 120
       inst 12
       vol 8
     countedLoopEnd
     countedLoopStart 1
-            noteL G5, 6
-            note As5
-            note D6
-            note G5
-            note As5
-            note Ds6
-            note F5
-            note A5
-            note C6
-            note F5
-            note A5
-            note C6
-            note F5
-            note A5
-            note C6
-            note F5
+            noteL G4, 6
+            note As4
+            note D5
+            note G4
+            note As4
+            note Ds5
+            note F4
+            note A4
+            note C5
+            note F4
+            note A4
+            note C5
+            note F4
+            note A4
+            note C5
+            note F4
     countedLoopEnd
     countedLoopStart 3
-            noteL E5, 6
-            note F5
-            note C6
+            noteL E4, 6
+            note F4
+            note C5
     countedLoopEnd
-            note E5
-            note F5
-            note A5
+            note E4
+            note F4
+            note A4
     countedLoopStart 4
-            noteL C6, 6
-            note D5
-            note F5
+            noteL C5, 6
+            note D4
+            note F4
     countedLoopEnd
-            note A5
-            note C6
+            note A4
+            note C5
     countedLoopStart 1
-            noteL G5, 6
-            note As5
-            note D6
-            note G5
-            note As5
-            note Ds6
-            note F5
-            note A5
-            note C6
-            note F5
-            note A5
-            note C6
-            note F5
-            note A5
-            noteL C6, 12
+            noteL G4, 6
+            note As4
+            note D5
+            note G4
+            note As4
+            note Ds5
+            note F4
+            note A4
+            note C5
+            note F4
+            note A4
+            note C5
+            note F4
+            note A4
+            noteL C5, 12
     countedLoopEnd
     countedLoopStart 1
-            noteL E5, 6
-            note F5
-            note C6
-            note E5
-            note F5
-            note A5
+            noteL E4, 6
+            note F4
+            note C5
+            note E4
+            note F4
+            note A4
     countedLoopEnd
-            note E5
-            note F5
-            noteL D5, 18
-            noteL Fs5, 6
-            note B5
-            note D5
-            note Fs5
-            note G5
-            note D5
-            note Fs5
-            note C6
-            note D5
-            note Fs5
-            note A5
-            note D5
-            note Fs5
-            note G5
-            note B5
+            note E4
+            note F4
+            noteL D4, 18
+            noteL Fs4, 6
+            note B4
+            note D4
+            note Fs4
+            note G4
+            note D4
+            note Fs4
+            note C5
+            note D4
+            note Fs4
+            note A4
+            note D4
+            note Fs4
+            note G4
+            note B4
             waitL 96
     channel_end
 Music_19_Channel_4:
@@ -414,17 +414,17 @@ Music_19_Channel_4:
       vibrato 05ah
       setRelease 1
     countedLoopStart 1
-            noteL A3, 12
+            noteL A2, 12
             waitL 24
-            noteL A3, 12
+            noteL A2, 12
             waitL 48
-            noteL A3, 12
+            noteL A2, 12
             waitL 24
-            noteL A3, 12
+            noteL A2, 12
             waitL 48
-            noteL A3, 12
+            noteL A2, 12
             waitL 24
-            noteL A3, 12
+            noteL A2, 12
             waitL 144
     countedLoopEnd
             waitL 192
@@ -432,8 +432,8 @@ Music_19_Channel_4:
             wait
       inst 37
       vol 10
-            noteL F5, 84
-            noteL G5, 108
+            noteL F4, 84
+            noteL G4, 108
             waitL 96
     channel_end
 Music_19_Channel_5:

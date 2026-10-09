@@ -10,9 +10,9 @@ Sfx_022_Channel_0:
       vibrato 0b0h
       stereo 0c0h
       shifting 0
-            noteL E2, 3
-            note E2
-            noteL As2, 24
+            noteL E1, 3
+            note E1
+            noteL As1, 24
     channel_end
 Sfx_022_Channel_1:
     channel_end

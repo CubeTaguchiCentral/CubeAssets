@@ -10,13 +10,13 @@ Sfx_002_Channel_0:
       vibrato 04ah
       stereo 0c0h
       shifting 0
-            noteL Gs4, 2
+            noteL Gs3, 2
       vol 10
-            noteL As5, 3
+            noteL As4, 3
       vol 5
-            note As5
+            note As4
       vol 3
-            note As5
+            note As4
     channel_end
 Sfx_002_Channel_1:
     channel_end

@@ -10,14 +10,14 @@ Sfx_016_Channel_1:
       vol 14
       sustain
       vibrato 04ah
-            noteL E5, 2
-            note D5
-            note A5
-            note F5
-            noteL B5, 10
+            noteL E4, 2
+            note D4
+            note A4
+            note F4
+            noteL B4, 10
       vol 10
-            note B5
+            note B4
       setRelease 1
       vol 6
-            note B5
+            note B4
     channel_end

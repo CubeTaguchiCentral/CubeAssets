@@ -11,8 +11,8 @@ Sfx_025_Channel_1:
       vol 13
       vibrato 033h
       setRelease 97
-            noteL C2, 4
+            noteL C1, 4
       setRelease 0
-            noteL Ds2, 68
+            noteL Ds1, 68
       noSlide
     channel_end

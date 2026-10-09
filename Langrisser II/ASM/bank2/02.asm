@@ -19,24 +19,24 @@ Music_02_Channel_0:
       setRelease 1
       vibrato 02ch
       stereo 0c0h
-            noteL A5, 6
-            note As5
-            noteL C6, 12
-            note F6
-            note A6
-            noteL C7, 24
-            noteL As6, 20
-            noteL F6, 8
-            note G6
-            noteL A6, 12
+            noteL A4, 6
+            note As4
+            noteL C5, 12
             note F5
             note A5
-            noteL Ds6, 24
-            noteL Cs6, 20
-            noteL C6, 8
-            note As5
-            noteL C6, 96
-            noteL A7, 255
+            noteL C6, 24
+            noteL As5, 20
+            noteL F5, 8
+            note G5
+            noteL A5, 12
+            note F4
+            note A4
+            noteL Ds5, 24
+            noteL Cs5, 20
+            noteL C5, 8
+            note As4
+            noteL C5, 96
+            noteL A6, 255
     channel_end
 Music_02_Channel_1:
       inst 19
@@ -45,14 +45,14 @@ Music_02_Channel_1:
       vibrato 02ch
       stereo 0c0h
             waitL 12
-            noteL A5, 36
-            noteL Gs5, 60
-            noteL A5, 12
-            note C5
-            note F5
-            noteL F5, 60
-            noteL F5, 96
-            noteL C7, 255
+            noteL A4, 36
+            noteL Gs4, 60
+            noteL A4, 12
+            note C4
+            note F4
+            noteL F4, 60
+            noteL F4, 96
+            noteL C6, 255
     channel_end
 Music_02_Channel_2:
       inst 19
@@ -61,12 +61,12 @@ Music_02_Channel_2:
       vibrato 02ch
       stereo 0c0h
             waitL 12
-            noteL C5, 36
-            noteL F5, 60
-            noteL C5, 36
-            noteL Cs5, 60
-            noteL C5, 96
-            noteL A6, 255
+            noteL C4, 36
+            noteL F4, 60
+            noteL C4, 36
+            noteL Cs4, 60
+            noteL C4, 96
+            noteL A5, 255
     channel_end
 Music_02_Channel_3:
       inst 19
@@ -75,16 +75,16 @@ Music_02_Channel_3:
       vibrato 02ch
       stereo 0c0h
             waitL 12
+            noteL F2, 12
+            note C3
+            note F3
+            noteL Cs3, 60
             noteL F3, 12
-            note C4
-            note F4
-            noteL Cs4, 60
-            noteL F4, 12
-            note C4
-            note A3
-            noteL As3, 60
-            noteL F3, 96
-            noteL F2, 255
+            note C3
+            note A2
+            noteL As2, 60
+            noteL F2, 96
+            noteL F1, 255
     channel_end
 Music_02_Channel_4:
       inst 19
@@ -94,24 +94,24 @@ Music_02_Channel_4:
       vibrato 02ch
       stereo 040h
             waitL 12
-            noteL A5, 6
-            note As5
-            noteL C6, 12
-            note F6
-            note A6
-            noteL C7, 24
-            noteL As6, 20
-            noteL F6, 8
-            note G6
-            noteL A6, 12
+            noteL A4, 6
+            note As4
+            noteL C5, 12
             note F5
             note A5
-            noteL Ds6, 24
-            noteL Cs6, 20
-            noteL C6, 8
-            note As5
-            noteL C6, 96
-            noteL A7, 243
+            noteL C6, 24
+            noteL As5, 20
+            noteL F5, 8
+            note G5
+            noteL A5, 12
+            note F4
+            note A4
+            noteL Ds5, 24
+            noteL Cs5, 20
+            noteL C5, 8
+            note As4
+            noteL C5, 96
+            noteL A6, 243
     channel_end
 Music_02_Channel_5:
       inst 19
@@ -121,24 +121,24 @@ Music_02_Channel_5:
       vibrato 02ch
       stereo 080h
             waitL 12
-            noteL A5, 6
-            note As5
-            noteL C6, 12
-            note F6
-            note A6
-            noteL C7, 24
-            noteL As6, 20
-            noteL F6, 8
-            note G6
-            noteL A6, 12
+            noteL A4, 6
+            note As4
+            noteL C5, 12
             note F5
             note A5
-            noteL Ds6, 24
-            noteL Cs6, 20
-            noteL C6, 8
-            note As5
-            noteL C6, 96
-            noteL A7, 243
+            noteL C6, 24
+            noteL As5, 20
+            noteL F5, 8
+            note G5
+            noteL A5, 12
+            note F4
+            note A4
+            noteL Ds5, 24
+            noteL Cs5, 20
+            noteL C5, 8
+            note As4
+            noteL C5, 96
+            noteL A6, 243
     channel_end
 Music_02_Channel_6:
       psgInst 01ch
@@ -148,24 +148,24 @@ Music_02_Channel_6:
             waitL 96
             wait
             waitL 24
-            psgNoteL A2, 5
-            psgNote C3
-            psgNote F3
-            psgNote A3
-            psgNote C4
-            psgNote C3
-            psgNote F3
-            psgNote A3
-            psgNoteL C4, 4
-            psgNote F4
-            psgNote A3
+            psgNoteL A3, 5
             psgNote C4
             psgNote F4
             psgNote A4
             psgNote C5
+            psgNote C4
+            psgNote F4
+            psgNote A4
+            psgNoteL C5, 4
             psgNote F5
+            psgNote A4
+            psgNote C5
+            psgNote F5
+            psgNote A5
+            psgNote C6
+            psgNote F6
       psgInst 05h
-            psgNoteL A5, 255
+            psgNoteL A6, 255
     channel_end
 Music_02_Channel_7:
       psgInst 01ch
@@ -175,24 +175,24 @@ Music_02_Channel_7:
             waitL 96
             wait
             waitL 24
-            psgNoteL F2, 5
-            psgNote A2
-            psgNote C3
-            psgNote F3
-            psgNote A3
-            psgNote A2
-            psgNote C3
-            psgNote F3
-            psgNoteL A3, 4
-            psgNote C4
-            psgNote F3
+            psgNoteL F3, 5
             psgNote A3
             psgNote C4
             psgNote F4
             psgNote A4
+            psgNote A3
+            psgNote C4
+            psgNote F4
+            psgNoteL A4, 4
             psgNote C5
+            psgNote F4
+            psgNote A4
+            psgNote C5
+            psgNote F5
+            psgNote A5
+            psgNote C6
       psgInst 05h
-            psgNoteL F5, 255
+            psgNoteL F6, 255
     channel_end
 Music_02_Channel_8:
     channel_end

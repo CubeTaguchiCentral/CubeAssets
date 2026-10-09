@@ -19,20 +19,20 @@ Music_15_Channel_0:
       vol 9
       vibrato 05ah
       setRelease 1
-            noteL E4, 12
-            note F4
-            note E4
-            noteL D4, 24
-            noteL G3, 12
-            note B3
-            note D4
-            note E4
-            note D4
-            note E4
-            note G4
-            note E4
-            note G4
-            noteL A4, 24
+            noteL E3, 12
+            note F3
+            note E3
+            noteL D3, 24
+            noteL G2, 12
+            note B2
+            note D3
+            note E3
+            note D3
+            note E3
+            note G3
+            note E3
+            note G3
+            noteL A3, 24
     channel_end
 Music_15_Channel_1:
       stereo 0c0h
@@ -40,20 +40,20 @@ Music_15_Channel_1:
       vol 8
       vibrato 05ah
       setRelease 1
-            noteL C6, 12
-            note D6
-            note C6
-            noteL B5, 24
-            noteL D5, 12
-            note G5
-            note B5
-            note C6
-            note B5
-            note C6
-            note E6
-            note C6
-            note E6
-            noteL C6, 24
+            noteL C5, 12
+            note D5
+            note C5
+            noteL B4, 24
+            noteL D4, 12
+            note G4
+            note B4
+            note C5
+            note B4
+            note C5
+            note E5
+            note C5
+            note E5
+            noteL C5, 24
     channel_end
 Music_15_Channel_2:
       stereo 040h
@@ -62,19 +62,19 @@ Music_15_Channel_2:
             waitL 12
       setRelease 1
       vibrato 05ah
-            noteL C6, 6
+            noteL C5, 6
     countedLoopStart 2
             waitL 18
-            noteL D6, 6
+            noteL D5, 6
     countedLoopEnd
             waitL 12
-            noteL E6, 6
+            noteL E5, 6
             waitL 36
-            noteL D6, 6
+            noteL D5, 6
             wait
-            note E6
+            note E5
             wait
-            noteL A6, 24
+            noteL A5, 24
     channel_end
 Music_15_Channel_3:
       stereo 0c0h
@@ -83,19 +83,19 @@ Music_15_Channel_3:
             waitL 12
       vibrato 05ah
       setRelease 1
-            noteL A5, 6
+            noteL A4, 6
     countedLoopStart 2
             waitL 18
-            noteL B5, 6
+            noteL B4, 6
     countedLoopEnd
             waitL 12
-            noteL C6, 6
+            noteL C5, 6
             waitL 36
-            noteL B5, 6
+            noteL B4, 6
             wait
-            note C6
+            note C5
             wait
-            noteL A5, 24
+            noteL A4, 24
     channel_end
 Music_15_Channel_4:
       stereo 0c0h
@@ -103,21 +103,21 @@ Music_15_Channel_4:
       vol 12
       vibrato 05ah
       setRelease 1
-            noteL F3, 12
-            note F4
+            noteL F2, 12
             note F3
-            noteL G3, 24
-            noteL G4, 12
+            note F2
+            noteL G2, 24
+            noteL G3, 12
+            note G2
             note G3
-            note G4
+            note A2
             note A3
-            note A4
-            note A3
+            note A2
+            note G2
             note G3
-            note G4
-            noteL G5, 6
+            noteL G4, 6
             wait
-            noteL A3, 24
+            noteL A2, 24
     channel_end
 Music_15_Channel_5:
             sampleL 0, 12

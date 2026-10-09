@@ -21,24 +21,24 @@ Music_09_Channel_0:
       vibrato 02ah
       stereo 0c0h
       shifting 0
-            noteL C6, 6
+            noteL C5, 6
             waitL 18
-            noteL C6, 36
-            noteL C6, 16
+            noteL C5, 36
+            noteL C5, 16
             waitL 8
-            note C6
+            note C5
             waitL 4
             waitL 12
-            noteL C6, 84
-            noteL B5, 6
+            noteL C5, 84
+            noteL B4, 6
             waitL 18
-            noteL B5, 36
-            noteL B5, 16
+            noteL B4, 36
+            noteL B4, 16
             waitL 8
-            note C6
+            note C5
             waitL 4
             waitL 12
-            noteL C6, 84
+            noteL C5, 84
     mainLoopEnd
 Music_09_Channel_1:
     mainLoopStart
@@ -48,25 +48,25 @@ Music_09_Channel_1:
       vibrato 02ah
       stereo 040h
       shifting 0
-            noteL A5, 6
+            noteL A4, 6
             waitL 18
-            noteL A5, 36
-            noteL A5, 16
+            noteL A4, 36
+            noteL A4, 16
             waitL 8
-            note G5
+            note G4
             waitL 4
             waitL 12
-            noteL G5, 84
-            noteL G5, 6
+            noteL G4, 84
+            noteL G4, 6
             waitL 18
-            noteL G5, 24
-            noteL G5, 3
+            noteL G4, 24
+            noteL G4, 3
             waitL 9
-            noteL G5, 17
+            noteL G4, 17
             waitL 7
-            noteL G5, 12
+            noteL G4, 12
             wait
-            noteL G5, 84
+            noteL G4, 84
     mainLoopEnd
 Music_09_Channel_2:
     mainLoopStart
@@ -74,31 +74,31 @@ Music_09_Channel_2:
       vol 12
       setRelease 1
       vibrato 02ah
-            noteL D4, 24
-            note E4
-            noteL A3, 12
+            noteL D3, 24
+            note E3
+            noteL A2, 12
+            note A2
+            note A2
+            noteL D3, 24
+            note E3
+            noteL A2, 12
             note A3
-            note A3
-            noteL D4, 24
-            note E4
-            noteL A3, 12
-            note A4
-            note G4
-            note E4
-            note C4
-            noteL D4, 24
-            note E4
-            noteL A3, 12
-            note A3
-            note A3
-            noteL D4, 24
-            note E4
-            noteL A3, 4
-            waitL 8
-            noteL G3, 12
             note G3
-            note C4
-            note C4
+            note E3
+            note C3
+            noteL D3, 24
+            note E3
+            noteL A2, 12
+            note A2
+            note A2
+            noteL D3, 24
+            note E3
+            noteL A2, 4
+            waitL 8
+            noteL G2, 12
+            note G2
+            note C3
+            note C3
     mainLoopEnd
 Music_09_Channel_3:
     mainLoopStart
@@ -111,10 +111,10 @@ Music_09_Channel_3:
       inst 30
       vol 10
     countedLoopStart 1
-            noteL A5, 6
-            note A6
+            noteL A4, 6
             note A5
-            note A6
+            note A4
+            note A5
     countedLoopEnd
     mainLoopEnd
 Music_09_Channel_4:
@@ -126,24 +126,24 @@ Music_09_Channel_4:
       vibrato 02ah
       stereo 0c0h
       shifting 0
-            noteL C6, 6
+            noteL C5, 6
             waitL 18
-            noteL C6, 36
-            noteL C6, 16
+            noteL C5, 36
+            noteL C5, 16
             waitL 8
-            note C6
+            note C5
             waitL 4
             waitL 12
-            noteL C6, 84
-            noteL B5, 6
+            noteL C5, 84
+            noteL B4, 6
             waitL 18
-            noteL B5, 36
-            noteL B5, 16
+            noteL B4, 36
+            noteL B4, 16
             waitL 8
-            note C6
+            note C5
             waitL 4
             waitL 12
-            noteL C6, 84
+            noteL C5, 84
     channel_end
 Music_09_Channel_5:
     mainLoopStart
@@ -194,14 +194,14 @@ Music_09_Channel_9:
     mainLoopStart
       psgInst 00h
             wait
-            psgNote C1
+            psgNote 0ch
       psgInst 0fdh
-            psgNoteL C0, 6
+            psgNoteL 07h, 6
       psgInst 00h
             wait
             wait
             wait
       psgInst 0fdh
-            psgNote G0
-            psgNote G0
+            psgNote 07h
+            psgNote 07h
     mainLoopEnd

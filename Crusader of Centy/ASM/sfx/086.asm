@@ -9,7 +9,7 @@ Sfx_086_Channel_0:
       vol 9
       setRelease 0
       vibrato 02ah
-            noteL C3, 3
+            noteL C2, 3
     mainLoopEnd
 Sfx_086_Channel_1:
     channel_end

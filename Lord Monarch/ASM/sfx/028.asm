@@ -10,10 +10,10 @@ Sfx_028_Channel_1:
       inst 86
       vol 14
       vibrato 0a0h
-            noteL F4, 10
-            noteL Fs3, 120
+            noteL F3, 10
+            noteL Fs2, 120
       inst 82
       vol 14
       vibrato 00h
-            noteL C2, 48
+            noteL C1, 48
     channel_end

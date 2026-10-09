@@ -19,36 +19,36 @@ Sfx_013_Channel_7:
       setRelease 0
       vibrato 03ah
     countedLoopStart 1
-            psgNoteL C5, 1
+            psgNoteL C6, 1
+            psgNote G5
+            psgNote C5
             psgNote G4
             psgNote C4
-            psgNote G3
             psgNote C3
-            psgNote C2
       psgInst 00h
             waitL 6
       psgInst 0eh
     countedLoopEnd
       psgInst 0dh
     countedLoopStart 1
-            psgNoteL C5, 1
+            psgNoteL C6, 1
+            psgNote G5
+            psgNote C5
             psgNote G4
             psgNote C4
-            psgNote G3
             psgNote C3
-            psgNote C2
       psgInst 00h
             waitL 6
       psgInst 0bh
     countedLoopEnd
       psgInst 0ah
     countedLoopStart 1
-            psgNoteL C5, 1
+            psgNoteL C6, 1
+            psgNote G5
+            psgNote C5
             psgNote G4
             psgNote C4
-            psgNote G3
             psgNote C3
-            psgNote C2
       psgInst 00h
             waitL 6
       psgInst 09h
@@ -59,36 +59,36 @@ Sfx_013_Channel_8:
       setRelease 0
       vibrato 03ah
     countedLoopStart 1
-            psgNoteL C6, 1
+            psgNoteL C7, 1
+            psgNote G6
+            psgNote C6
             psgNote G5
             psgNote C5
-            psgNote G4
             psgNote C4
-            psgNote C3
       psgInst 00h
             waitL 6
       psgInst 0eh
     countedLoopEnd
       psgInst 0dh
     countedLoopStart 1
-            psgNoteL C6, 1
+            psgNoteL C7, 1
+            psgNote G6
+            psgNote C6
             psgNote G5
             psgNote C5
-            psgNote G4
             psgNote C4
-            psgNote C3
       psgInst 00h
             waitL 6
       psgInst 0bh
     countedLoopEnd
       psgInst 0ah
     countedLoopStart 1
-            psgNoteL C6, 1
+            psgNoteL C7, 1
+            psgNote G6
+            psgNote C6
             psgNote G5
             psgNote C5
-            psgNote G4
             psgNote C4
-            psgNote C3
       psgInst 00h
             waitL 6
       psgInst 09h

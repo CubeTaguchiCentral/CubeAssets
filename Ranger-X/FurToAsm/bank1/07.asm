@@ -18,7 +18,7 @@ Music_07_Channel_0:
       inst 61
       vol 13
       sustain
-            noteL C3, 32
+            noteL C2, 32
       vibrato 05ah
     mainLoopStart
       inst 61
@@ -27,22 +27,22 @@ Music_07_Channel_0:
       stereo 080h
       setRelease 1
             waitL 223
-            noteL G3, 255
-            note Ds3
-            note As3
-            note A3
-            note Gs2
+            noteL G2, 255
+            note Ds2
+            note As2
+            note A2
+            note Gs1
       stereo 080h
       vol 13
       sustain
-            noteL C3, 32
+            noteL C2, 32
     mainLoopEnd
 Music_07_Channel_1:
       stereo 040h
       inst 61
       vol 13
       sustain
-            noteL D3, 32
+            noteL D2, 32
       vibrato 05ah
     mainLoopStart
       inst 61
@@ -51,15 +51,15 @@ Music_07_Channel_1:
       stereo 040h
       setRelease 1
             waitL 223
-            noteL A3, 255
-            note F3
-            note C4
-            note B3
-            note As2
+            noteL A2, 255
+            note F2
+            note C3
+            note B2
+            note As1
       stereo 040h
       vol 13
       sustain
-            noteL D3, 32
+            noteL D2, 32
     mainLoopEnd
 Music_07_Channel_2:
       stereo 040h
@@ -73,13 +73,13 @@ Music_07_Channel_2:
       shifting 32
       stereo 040h
       setRelease 1
-            noteL C3, 255
+            noteL C2, 255
       vibrato 05ah
-            note G3
-            note Ds3
-            note As3
-            note A3
-            note Gs2
+            note G2
+            note Ds2
+            note As2
+            note A2
+            note Gs1
     mainLoopEnd
 Music_07_Channel_3:
       stereo 080h
@@ -93,13 +93,13 @@ Music_07_Channel_3:
       shifting 32
       stereo 080h
       setRelease 1
-            noteL D3, 255
+            noteL D2, 255
       vibrato 05ah
-            note A3
-            note F3
-            note C4
-            note B3
-            note As2
+            note A2
+            note F2
+            note C3
+            note B2
+            note As1
     mainLoopEnd
 Music_07_Channel_4:
     channel_end

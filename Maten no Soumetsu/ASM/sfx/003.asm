@@ -11,17 +11,17 @@ Sfx_003_Channel_0:
       vibrato 02ah
     countedLoopStart 1
       stereo 040h
-            noteL A7, 4
-            note C8
+            noteL A6, 4
+            note C7
       stereo 0c0h
-            note As7
-            note B7
+            note As6
+            note B6
       stereo 080h
-            note A7
-            note C8
+            note A6
+            note C7
       stereo 0c0h
-            note As7
-            note B7
+            note As6
+            note B6
     countedLoopEnd
     channel_end
 Sfx_003_Channel_1:
@@ -31,17 +31,17 @@ Sfx_003_Channel_1:
       vibrato 02ah
     countedLoopStart 2
       stereo 0c0h
-            noteL A7, 3
-            note C8
+            noteL A6, 3
+            note C7
       stereo 040h
-            note As7
-            note B7
+            note As6
+            note B6
       stereo 0c0h
-            note A7
-            note C8
+            note A6
+            note C7
       stereo 080h
-            note As7
-            note B7
+            note As6
+            note B6
     countedLoopEnd
     channel_end
 Sfx_003_Channel_2:

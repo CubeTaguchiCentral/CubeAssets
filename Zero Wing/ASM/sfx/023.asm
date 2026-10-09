@@ -16,35 +16,35 @@ Sfx_023_Channel_8:
       psgInst 0ch
       vibrato 03ch
       setRelease 0
-            psgNoteL A1, 2
+            psgNoteL A2, 2
       psgInst 0ah
-            psgNote B1
+            psgNote B2
       psgInst 09h
-            psgNote A1
-            psgNote G1
+            psgNote A2
+            psgNote G2
       psgInst 08h
-            psgNote F1
+            psgNote F2
       psgInst 07h
-            psgNote E1
+            psgNote E2
       psgInst 06h
-            psgNote D1
+            psgNote D2
     channel_end
 Sfx_023_Channel_9:
       psgInst 0fh
-            psgNoteL C0, 58
+            psgNoteL 07bh, 58
       setRelease 1
-            psgNoteL C0, 1
-            psgNoteL C0, 2
-            psgNote F0
+            psgNoteL 06h, 1
+            psgNoteL 06h, 2
+            psgNote 05h
       setRelease 80
       psgInst 0dh
-            psgNoteL C0, 3
+            psgNoteL 06h, 3
       psgInst 0ah
-            psgNoteL C0, 3
+            psgNoteL 06h, 3
       psgInst 08h
-            psgNoteL C0, 2
+            psgNoteL 06h, 2
       psgInst 05h
-            psgNote Fs0
+            psgNote 06h
       psgInst 02h
-            psgNote Fs0
+            psgNote 06h
     channel_end

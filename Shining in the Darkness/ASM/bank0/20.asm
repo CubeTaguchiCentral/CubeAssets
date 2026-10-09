@@ -20,19 +20,19 @@ Music_20_Channel_0:
       setRelease 1
       vibrato 02ch
     repeatStart
-            noteL D7, 36
-            noteL B6, 12
-            noteL B6, 48
-            note D7
-            noteL Cs7, 36
-            noteL Gs6, 12
-            noteL Gs6, 192
-            noteL D7, 36
-            noteL B6, 12
-            noteL B6, 48
-            note D7
-            note Cs7
-            noteL F7, 192
+            noteL D6, 36
+            noteL B5, 12
+            noteL B5, 48
+            note D6
+            noteL Cs6, 36
+            noteL Gs5, 12
+            noteL Gs5, 192
+            noteL D6, 36
+            noteL B5, 12
+            noteL B5, 48
+            note D6
+            note Cs6
+            noteL F6, 192
     mainLoopEnd
 Music_20_Channel_1:
     mainLoopStart
@@ -40,19 +40,19 @@ Music_20_Channel_1:
       vol 11
       setRelease 1
       vibrato 02ch
-            noteL Fs6, 36
-            noteL D6, 12
-            noteL D6, 48
-            note Fs6
-            noteL F6, 36
-            noteL Cs6, 12
-            noteL Cs6, 192
-            noteL Fs6, 36
-            noteL D6, 12
-            noteL D6, 48
-            note Fs6
-            note F6
-            noteL Gs6, 192
+            noteL Fs5, 36
+            noteL D5, 12
+            noteL D5, 48
+            note Fs5
+            noteL F5, 36
+            noteL Cs5, 12
+            noteL Cs5, 192
+            noteL Fs5, 36
+            noteL D5, 12
+            noteL D5, 48
+            note Fs5
+            note F5
+            noteL Gs5, 192
     mainLoopEnd
 Music_20_Channel_2:
     mainLoopStart
@@ -64,37 +64,37 @@ Music_20_Channel_2:
       setRelease 1
       vibrato 02ch
       shifting 32
-            noteL D7, 36
-            noteL B6, 12
-            noteL B6, 48
-            note D7
-            noteL Cs7, 36
-            noteL Gs6, 12
-            noteL Gs6, 46
+            noteL D6, 36
+            noteL B5, 12
+            noteL B5, 48
+            note D6
+            noteL Cs6, 36
+            noteL Gs5, 12
+            noteL Gs5, 46
       vibrato 0c0h
       inst 26
       vol 11
       setRelease 1
       vibrato 02ch
-            noteL F5, 48
-            noteL Gs5, 72
-            noteL F5, 24
+            noteL F4, 48
+            noteL Gs4, 72
+            noteL F4, 24
       shifting 32
             waitL 2
       stereo 080h
       vol 11
-            noteL D7, 36
-            noteL B6, 12
-            noteL B6, 48
-            note D7
-            note Cs7
-            noteL F7, 46
+            noteL D6, 36
+            noteL B5, 12
+            noteL B5, 48
+            note D6
+            note Cs6
+            noteL F6, 46
       stereo 0c0h
       shifting 0
       vol 11
-            noteL Cs5, 48
-            noteL F5, 72
-            noteL Cs5, 24
+            noteL Cs4, 48
+            noteL F4, 72
+            noteL Cs4, 24
     mainLoopEnd
 Music_20_Channel_3:
     mainLoopStart
@@ -105,13 +105,13 @@ Music_20_Channel_3:
       vol 11
       setRelease 1
       vibrato 02ch
-            noteL Fs6, 36
-            noteL D6, 12
-            noteL D6, 48
-            note Fs6
-            noteL F6, 36
-            noteL Cs6, 12
-            noteL Cs6, 46
+            noteL Fs5, 36
+            noteL D5, 12
+            noteL D5, 48
+            note Fs5
+            noteL F5, 36
+            noteL Cs5, 12
+            noteL Cs5, 46
       vol 11
       stereo 0c0h
       shifting 0
@@ -119,25 +119,25 @@ Music_20_Channel_3:
       vol 11
       setRelease 1
       vibrato 02ch
-            noteL Cs5, 48
-            noteL F5, 72
-            noteL Cs5, 24
+            noteL Cs4, 48
+            noteL F4, 72
+            noteL Cs4, 24
             waitL 2
       vol 11
       stereo 040h
       shifting 32
-            noteL Fs6, 36
-            noteL D6, 12
-            noteL D6, 48
-            note Fs6
-            note F6
-            noteL Gs6, 46
+            noteL Fs5, 36
+            noteL D5, 12
+            noteL D5, 48
+            note Fs5
+            note F5
+            noteL Gs5, 46
       vol 11
       stereo 0c0h
       shifting 0
-            noteL Gs4, 48
-            noteL Cs5, 72
-            noteL Gs4, 24
+            noteL Gs3, 48
+            noteL Cs4, 72
+            noteL Gs3, 24
     mainLoopEnd
 Music_20_Channel_4:
     mainLoopStart
@@ -145,12 +145,12 @@ Music_20_Channel_4:
       vol 11
       setRelease 1
       vibrato 02ch
-            noteL B2, 144
+            noteL B1, 144
       sustain
-            note B2
+            note B1
       setRelease 1
       vibrato 020h
-            noteL B2, 96
+            noteL B1, 96
     mainLoopEnd
 Music_20_Channel_5:
     channel_end
@@ -159,134 +159,134 @@ Music_20_Channel_6:
       psgInst 06bh
       setRelease 0
       vibrato 04ch
-            psgNoteL D3, 6
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote D3
-            psgNote A2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Gs2
+            psgNoteL D4, 6
+            psgNote A3
+            psgNote D4
+            psgNote A3
+            psgNote D4
+            psgNote A3
+            psgNote D4
+            psgNote A3
+            psgNote D4
+            psgNote A3
+            psgNote D4
+            psgNote A3
+            psgNote D4
+            psgNote A3
+            psgNote D4
+            psgNote A3
+            psgNote D4
+            psgNote A3
+            psgNote D4
+            psgNote A3
+            psgNote D4
+            psgNote A3
+            psgNote D4
+            psgNote A3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote D4
+            psgNote A3
+            psgNote D4
+            psgNote A3
+            psgNote D4
+            psgNote A3
+            psgNote D4
+            psgNote A3
+            psgNote D4
+            psgNote A3
+            psgNote D4
+            psgNote A3
+            psgNote D4
+            psgNote A3
+            psgNote D4
+            psgNote A3
+            psgNote D4
+            psgNote A3
+            psgNote D4
+            psgNote A3
+            psgNote D4
+            psgNote A3
+            psgNote D4
+            psgNote A3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Gs3
     mainLoopEnd
 Music_20_Channel_7:
       shifting 32
@@ -294,197 +294,197 @@ Music_20_Channel_7:
       psgInst 06bh
       setRelease 0
       vibrato 04ch
-            psgNoteL A2, 4
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote A2
-            psgNote Fs2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNoteL F2, 0
-            psgNoteL Gs2, 4
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
-            psgNote F2
-            psgNote Gs2
+            psgNoteL A3, 4
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote A3
+            psgNote Fs3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNoteL F3, 0
+            psgNoteL Gs3, 4
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
+            psgNote F3
+            psgNote Gs3
     mainLoopEnd

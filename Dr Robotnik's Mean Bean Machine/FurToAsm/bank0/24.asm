@@ -18,17 +18,17 @@ Music_24_Channel_0:
       inst 14
       vol 13
       setRelease 1
-            noteL E3, 24
+            noteL E2, 24
       vibrato 05ah
-            noteL Fs3, 12
+            noteL Fs2, 12
             waitL 6
-            noteL G3, 21
-            noteL A3, 12
+            noteL G2, 21
+            noteL A2, 12
             wait
       vol 14
-            noteL B3, 6
+            noteL B2, 6
             wait
-            note B3
+            note B2
             waitL 87
     channel_end
 Music_24_Channel_1:
@@ -39,41 +39,11 @@ Music_24_Channel_1:
       vol 14
       setRelease 1
       vibrato 05ah
-            note E5
+            note E4
             waitL 6
-            noteL Fs5, 12
-            noteL A5, 21
-            noteL Fs5, 24
-      vol 13
-            noteL A7, 6
-            wait
-            note B7
-            waitL 18
-      vol 9
-            noteL B7, 6
-            waitL 18
-      vol 6
-            noteL B7, 6
-            waitL 18
-      vol 3
-            noteL B7, 6
-            waitL 18
-      vol 1
-            noteL B7, 6
-    channel_end
-Music_24_Channel_2:
-      stereo 080h
-      inst 15
-      vol 0
-            waitL 12
-      vol 14
-      setRelease 1
-      vibrato 05ah
-            note A5
-            waitL 6
-            noteL B5, 12
-            noteL D6, 21
-            noteL B5, 24
+            noteL Fs4, 12
+            noteL A4, 21
+            noteL Fs4, 24
       vol 13
             noteL A6, 6
             wait
@@ -90,6 +60,36 @@ Music_24_Channel_2:
             waitL 18
       vol 1
             noteL B6, 6
+    channel_end
+Music_24_Channel_2:
+      stereo 080h
+      inst 15
+      vol 0
+            waitL 12
+      vol 14
+      setRelease 1
+      vibrato 05ah
+            note A4
+            waitL 6
+            noteL B4, 12
+            noteL D5, 21
+            noteL B4, 24
+      vol 13
+            noteL A5, 6
+            wait
+            note B5
+            waitL 18
+      vol 9
+            noteL B5, 6
+            waitL 18
+      vol 6
+            noteL B5, 6
+            waitL 18
+      vol 3
+            noteL B5, 6
+            waitL 18
+      vol 1
+            noteL B5, 6
     channel_end
 Music_24_Channel_3:
     channel_end

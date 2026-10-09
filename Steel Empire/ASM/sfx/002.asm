@@ -12,19 +12,19 @@ Sfx_002_Channel_1:
       setRelease 1
       stereo 0c0h
       vibrato 02ah
-            noteL A3, 0
+            noteL A2, 0
       setSlide 33
-            noteL G2, 9
+            noteL G1, 9
       noSlide
       vol 7
-            noteL A3, 0
+            noteL A2, 0
       setSlide 33
-            noteL G2, 9
+            noteL G1, 9
       vol 4
       noSlide
-            noteL A3, 0
+            noteL A2, 0
       setSlide 33
-            noteL G2, 9
+            noteL G1, 9
       noSlide
             waitL 24
     channel_end
