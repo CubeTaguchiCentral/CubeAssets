@@ -11,11 +11,11 @@ Sfx_022_Channel_1:
       vibrato 00h
       setRelease 0
       noSlide
-            noteL D2, 1
+            noteL D1, 1
       vol 12
       setSlide 115
     countedLoopStart 1
-            noteL B2, 3
-            note Fs2
+            noteL B1, 3
+            note Fs1
     countedLoopEnd
     channel_end

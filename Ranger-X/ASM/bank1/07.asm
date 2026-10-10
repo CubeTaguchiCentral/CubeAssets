@@ -20,12 +20,12 @@ Music_07_Channel_0:
       setRelease 1
       vibrato 02ah
       stereo 080h
-            noteL C3, 255
-            note G3
-            note Ds3
-            note As3
-            note A3
-            note Gs2
+            noteL C2, 255
+            note G2
+            note Ds2
+            note As2
+            note A2
+            note Gs1
     mainLoopEnd
 Music_07_Channel_1:
     mainLoopStart
@@ -34,12 +34,12 @@ Music_07_Channel_1:
       setRelease 1
       vibrato 02ah
       stereo 040h
-            noteL D3, 255
-            note A3
-            note F3
-            note C4
-            note B3
-            note As2
+            noteL D2, 255
+            note A2
+            note F2
+            note C3
+            note B2
+            note As1
     mainLoopEnd
 Music_07_Channel_2:
       inst 61
@@ -50,12 +50,12 @@ Music_07_Channel_2:
       stereo 040h
             waitL 32
     mainLoopStart
-            noteL C3, 255
-            note G3
-            note Ds3
-            note As3
-            note A3
-            note Gs2
+            noteL C2, 255
+            note G2
+            note Ds2
+            note As2
+            note A2
+            note Gs1
     mainLoopEnd
 Music_07_Channel_3:
       inst 61
@@ -66,12 +66,12 @@ Music_07_Channel_3:
       shifting 32
             waitL 32
     mainLoopStart
-            noteL D3, 255
-            note A3
-            note F3
-            note C4
-            note B3
-            note As2
+            noteL D2, 255
+            note A2
+            note F2
+            note C3
+            note B2
+            note As1
     mainLoopEnd
 Music_07_Channel_4:
     channel_end

@@ -9,11 +9,11 @@ Sfx_006_Channel_1:
       inst 62
       vol 15
       sustain
-            noteL G3, 0
+            noteL G2, 0
       setSlide 1
       vibrato 04ah
       vol 15
-            noteL F4, 255
+            noteL F3, 255
       setRelease 1
-            note F4
+            note F3
     channel_end

@@ -11,9 +11,9 @@ Sfx_027_Channel_1:
       vol 14
       vibrato 02ah
       setRelease 1
-            noteL C6, 2
-            note C3
-      vol 12
+            noteL C5, 2
             note C2
-            note C4
+      vol 12
+            note C1
+            note C3
     mainLoopEnd

@@ -5,7 +5,7 @@ Sfx_043:
     dw Sfx_043_Channel_2
 Sfx_043_Channel_0:
       vol 0
-            noteL F7, 0
+            noteL F6, 0
     channel_end
 Sfx_043_Channel_2:
     channel_end

@@ -8,50 +8,50 @@ Sfx_012_Channel_0:
       vol 11
       vibrato 00h
       setRelease 0
-            noteL G3, 2
-            note C3
-            note G2
+            noteL G2, 2
             note C2
+            note G1
+            note C1
       vol 8
-            note G3
-            note C3
             note G2
             note C2
+            note G1
+            note C1
       vol 6
-            note G3
-            note C3
             note G2
             note C2
+            note G1
+            note C1
       vol 2
-            note G3
-            note C3
             note G2
             note C2
+            note G1
+            note C1
     channel_end
 Sfx_012_Channel_1:
       inst 63
       vol 14
       vibrato 00h
       setRelease 0
-            noteL G3, 2
-            note C3
-            note G2
+            noteL G2, 2
             note C2
+            note G1
+            note C1
       vol 11
-            note G3
-            note C3
             note G2
             note C2
+            note G1
+            note C1
       vol 9
-            note G3
-            note C3
             note G2
             note C2
+            note G1
+            note C1
       vol 5
-            note G3
-            note C3
             note G2
             note C2
+            note G1
+            note C1
     channel_end
 Sfx_012_Channel_2:
     channel_end

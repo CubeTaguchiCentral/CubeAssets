@@ -10,7 +10,7 @@ Sfx_019_Channel_1:
       vol 15
       vibrato 00h
       sustain
-            noteL C2, 12
+            noteL C1, 12
       setRelease 1
-            note Cs2
+            note Cs1
     channel_end

@@ -17,32 +17,32 @@ Sfx_013_Channel_8:
       psgInst 01eh
       vibrato 03ah
       setRelease 1
-            psgNoteL F4, 1
+            psgNoteL F5, 1
       psgInst 01ch
-            psgNote Cs4
+            psgNote Cs5
     countedLoopEnd
     countedLoopStart 2
       psgInst 01ch
-            psgNote F4
+            psgNote F5
       psgInst 01bh
-            psgNote Cs4
+            psgNote Cs5
     countedLoopEnd
     countedLoopStart 2
       psgInst 01ah
-            psgNote F4
+            psgNote F5
       psgInst 019h
-            psgNote Cs4
+            psgNote Cs5
     countedLoopEnd
     countedLoopStart 1
       psgInst 018h
-            psgNote F4
+            psgNote F5
       psgInst 017h
-            psgNote Cs4
+            psgNote Cs5
     countedLoopEnd
     countedLoopStart 1
       psgInst 016h
-            psgNote F4
+            psgNote F5
       psgInst 015h
-            psgNote Cs4
+            psgNote Cs5
     countedLoopEnd
     channel_end

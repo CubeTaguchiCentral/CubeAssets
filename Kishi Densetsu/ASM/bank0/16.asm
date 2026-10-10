@@ -19,22 +19,22 @@ Music_16_Channel_0:
       setRelease 7
       vibrato 02ch
       stereo 0c0h
-            noteL D6, 24
+            noteL D5, 24
       setRelease 1
-            noteL D6, 18
-            noteL Cs6, 6
+            noteL D5, 18
+            noteL Cs5, 6
       setRelease 4
-            noteL D6, 8
-            note A5
-            note D6
-            note Fs6
-            note D6
-            note Fs6
-            note D6
-            note A5
-            note D6
+            noteL D5, 8
+            note A4
+            note D5
+            note Fs5
+            note D5
+            note Fs5
+            note D5
+            note A4
+            note D5
       setRelease 1
-            noteL E6, 72
+            noteL E5, 72
     channel_end
 Music_16_Channel_1:
       inst 17
@@ -42,21 +42,21 @@ Music_16_Channel_1:
       setRelease 7
       vibrato 02ch
       stereo 0c0h
-            noteL D3, 24
+            noteL D2, 24
       setRelease 1
-            noteL D4, 22
-            noteL E5, 2
+            noteL D3, 22
+            noteL E4, 2
       setRelease 4
-            noteL Fs5, 8
-            note D5
-            note A4
-            note Fs4
+            noteL Fs4, 8
             note D4
             note A3
+            note Fs3
+            note D3
+            note A2
       setRelease 7
-            noteL D3, 24
+            noteL D2, 24
       setRelease 1
-            noteL E3, 72
+            noteL E2, 72
     channel_end
 Music_16_Channel_2:
       inst 19
@@ -64,20 +64,20 @@ Music_16_Channel_2:
       setRelease 1
       vibrato 02ch
       stereo 080h
-            noteL D5, 24
-            note Fs5
+            noteL D4, 24
+            note Fs4
       setRelease 4
-            noteL A5, 8
+            noteL A4, 8
+            note Fs4
+            note A4
+            note D5
+            note A4
+            note D5
             note Fs5
-            note A5
-            note D6
-            note A5
-            note D6
-            note Fs6
-            note D6
-            note Fs6
+            note D5
+            note Fs5
       setRelease 1
-            noteL Gs6, 72
+            noteL Gs5, 72
     channel_end
 Music_16_Channel_3:
       inst 32
@@ -86,19 +86,19 @@ Music_16_Channel_3:
       vibrato 02ch
       stereo 0c0h
       vol 4
-            noteL D3, 4
+            noteL D2, 4
       vol 5
-            note D3
+            note D2
       vol 6
-            note D3
+            note D2
       vol 7
-            note D3
+            note D2
       vol 8
-            note D3
+            note D2
       vol 9
-            note D3
+            note D2
       vol 11
-            noteL C3, 72
+            noteL C2, 72
     channel_end
 Music_16_Channel_4:
       inst 14
@@ -108,22 +108,22 @@ Music_16_Channel_4:
       stereo 040h
       shifting 32
             waitL 6
-            noteL D6, 24
+            noteL D5, 24
       setRelease 1
-            noteL D6, 18
-            noteL Cs6, 6
+            noteL D5, 18
+            noteL Cs5, 6
       setRelease 4
-            noteL D6, 8
-            note A5
-            note D6
-            note Fs6
-            note D6
-            note Fs6
-            note D6
-            note A5
-            note D6
+            noteL D5, 8
+            note A4
+            note D5
+            note Fs5
+            note D5
+            note Fs5
+            note D5
+            note A4
+            note D5
       setRelease 1
-            noteL E6, 66
+            noteL E5, 66
     channel_end
 Music_16_Channel_5:
             waitL 48
@@ -135,25 +135,25 @@ Music_16_Channel_6:
       psgInst 0bh
       setRelease 4
       vibrato 00h
-            psgNoteL Fs3, 24
-            psgNote A3
-            psgNote D4
-            psgNote Fs4
+            psgNoteL Fs4, 24
             psgNote A4
+            psgNote D5
+            psgNote Fs5
+            psgNote A5
       setRelease 1
-            psgNoteL B4, 72
+            psgNoteL B5, 72
     channel_end
 Music_16_Channel_7:
       psgInst 0bh
       setRelease 4
       vibrato 00h
-            psgNoteL A3, 24
-            psgNote D4
-            psgNote Fs4
-            psgNote A4
+            psgNoteL A4, 24
             psgNote D5
+            psgNote Fs5
+            psgNote A5
+            psgNote D6
       setRelease 1
-            psgNoteL E5, 72
+            psgNoteL E6, 72
     channel_end
 Music_16_Channel_8:
     channel_end

@@ -16,27 +16,27 @@ Music_29:
 Music_29_Channel_0:
       vibrato 00h
       stereo 0c0h
-            noteL Ds3, 100
+            noteL Ds2, 100
     channel_end
 Music_29_Channel_1:
       vibrato 00h
       stereo 0c0h
-            noteL Ds3, 100
+            noteL Ds2, 100
     channel_end
 Music_29_Channel_2:
       vibrato 00h
       stereo 0c0h
-            noteL Ds3, 100
+            noteL Ds2, 100
     channel_end
 Music_29_Channel_3:
       vibrato 00h
       stereo 0c0h
-            noteL Ds3, 100
+            noteL Ds2, 100
     channel_end
 Music_29_Channel_4:
       vibrato 00h
       stereo 0c0h
-            noteL Ds3, 100
+            noteL Ds2, 100
     channel_end
 Music_29_Channel_5:
             sampleL 15, 100

@@ -19,20 +19,20 @@ Music_05_Channel_0:
       setRelease 1
       vibrato 02ch
             waitL 18
-            noteL D5, 6
-            noteL D5, 56
-            noteL F5, 4
+            noteL D4, 6
+            noteL D4, 56
+            noteL F4, 4
             wait
-            note A5
+            note A4
             wait
-            noteL As5, 96
+            noteL As4, 96
       vol 9
       sustain
-            noteL B5, 72
+            noteL B4, 72
       vibrato 02ch
-            note B5
+            note B4
       setRelease 1
-            note B5
+            note B4
     channel_end
 Music_05_Channel_1:
       inst 4
@@ -40,142 +40,142 @@ Music_05_Channel_1:
       setRelease 0
       vibrato 02ch
       stereo 040h
-            noteL D3, 3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note D3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note As3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
-            note B3
+            noteL D2, 3
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            note D2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note As2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
+            note B2
     channel_end
 Music_05_Channel_2:
       inst 27
@@ -183,13 +183,13 @@ Music_05_Channel_2:
       setRelease 1
       vibrato 02ch
       stereo 080h
-            noteL D3, 96
-            note As3
+            noteL D2, 96
+            note As2
       sustain
-            noteL B3, 72
-            note B3
+            noteL B2, 72
+            note B2
       setRelease 1
-            note B3
+            note B2
     channel_end
 Music_05_Channel_3:
       inst 39
@@ -197,20 +197,20 @@ Music_05_Channel_3:
       setRelease 1
       vibrato 02ch
             waitL 18
-            noteL A4, 6
-            noteL A4, 56
-            noteL D5, 4
+            noteL A3, 6
+            noteL A3, 56
+            noteL D4, 4
             wait
-            note F5
+            note F4
             wait
-            noteL F5, 96
+            noteL F4, 96
       vol 9
       sustain
-            noteL G5, 72
+            noteL G4, 72
       vibrato 02ch
-            note G5
+            note G4
       setRelease 1
-            note G5
+            note G4
     channel_end
 Music_05_Channel_4:
       inst 39
@@ -218,20 +218,20 @@ Music_05_Channel_4:
       setRelease 1
       vibrato 02ch
             waitL 18
-            noteL F4, 6
-            noteL F4, 56
-            noteL A4, 4
+            noteL F3, 6
+            noteL F3, 56
+            noteL A3, 4
             wait
-            note D5
+            note D4
             wait
-            noteL Cs5, 96
+            noteL Cs4, 96
       vol 9
       sustain
-            noteL D5, 72
+            noteL D4, 72
       vibrato 02ch
-            note D5
+            note D4
       setRelease 1
-            note D5
+            note D4
     channel_end
 Music_05_Channel_5:
             sampleL 1, 2
@@ -443,33 +443,33 @@ Music_05_Channel_6:
       psgInst 0ah
       setRelease 1
       vibrato 04ch
-            psgNoteL A2, 96
-            psgNote Cs3
+            psgNoteL A3, 96
+            psgNote Cs4
       sustain
-            psgNoteL D3, 72
-            psgNote D3
+            psgNoteL D4, 72
+            psgNote D4
       setRelease 1
-            psgNote D3
+            psgNote D4
       psgInst 00h
     channel_end
 Music_05_Channel_7:
       psgInst 0ah
       setRelease 1
       vibrato 04ch
-            psgNoteL D2, 96
-            psgNote As2
-            psgNoteL B2, 48
+            psgNoteL D3, 96
+            psgNote As3
+            psgNoteL B3, 48
       psgInst 0ch
-            psgNoteL B3, 8
+            psgNoteL B4, 8
       psgInst 00h
             wait
       psgInst 0ch
-            psgNote B3
-            psgNoteL B4, 48
-            psgNoteL A4, 8
-            psgNote Gs4
-            psgNote E4
-            psgNoteL Fs4, 72
+            psgNote B4
+            psgNoteL B5, 48
+            psgNoteL A5, 8
+            psgNote Gs5
+            psgNote E5
+            psgNoteL Fs5, 72
       psgInst 00h
     channel_end
 Music_05_Channel_8:

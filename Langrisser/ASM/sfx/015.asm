@@ -12,11 +12,11 @@ Sfx_015_Channel_1:
       vibrato 00h
       inst 0
       setRelease 4
-            noteL A2, 5
+            noteL A1, 5
       setRelease 0
-            noteL A2, 1
+            noteL A1, 1
       setRelease 4
-            noteL A2, 5
-            note A2
+            noteL A1, 5
+            note A1
             waitL 10
     mainLoopEnd

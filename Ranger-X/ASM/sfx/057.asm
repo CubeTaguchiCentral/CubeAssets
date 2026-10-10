@@ -9,7 +9,7 @@ Sfx_057_Channel_0:
       vol 12
       setRelease 1
       vibrato 080h
-            noteL Ds3, 72
+            noteL Ds2, 72
     mainLoopEnd
 Sfx_057_Channel_1:
     channel_end

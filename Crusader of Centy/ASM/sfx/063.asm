@@ -11,6 +11,6 @@ Sfx_063_Channel_1:
       vibrato 00h
       setRelease 1
     countedLoopStart 31
-            noteL B6, 2
+            noteL B5, 2
     countedLoopEnd
     channel_end

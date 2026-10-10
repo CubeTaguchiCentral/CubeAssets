@@ -10,11 +10,11 @@ Sfx_013_Channel_1:
       vol 10
       setSlide 126
       vibrato 010h
-            noteL E6, 1
-            noteL F6, 6
+            noteL E5, 1
+            noteL F5, 6
       vol 11
-            note F6
+            note F5
       vol 12
       setRelease 0
-            noteL F6, 24
+            noteL F5, 24
     channel_end

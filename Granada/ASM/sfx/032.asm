@@ -10,6 +10,6 @@ Sfx_032_Channel_1:
       vol 14
       setRelease 2
       vibrato 090h
-            noteL C2, 6
-            noteL C2, 24
+            noteL C1, 6
+            noteL C1, 24
     channel_end

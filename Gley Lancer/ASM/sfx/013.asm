@@ -10,24 +10,24 @@ Sfx_013_Channel_0:
       vibrato 02ah
       noSlide
       setRelease 0
-            noteL C2, 3
-            noteL C3, 5
-            noteL C2, 3
-            noteL C3, 5
-            noteL C2, 3
-            noteL C3, 5
+            noteL C1, 3
+            noteL C2, 5
+            noteL C1, 3
+            noteL C2, 5
+            noteL C1, 3
+            noteL C2, 5
       vol 12
-            noteL C2, 3
-            noteL C3, 5
+            noteL C1, 3
+            noteL C2, 5
       vol 9
-            noteL C2, 3
-            noteL C3, 5
+            noteL C1, 3
+            noteL C2, 5
       vol 8
-            noteL C2, 3
-            noteL C3, 5
+            noteL C1, 3
+            noteL C2, 5
       vol 5
-            noteL C2, 3
-            noteL C3, 5
+            noteL C1, 3
+            noteL C2, 5
     channel_end
 Sfx_013_Channel_1:
     channel_end

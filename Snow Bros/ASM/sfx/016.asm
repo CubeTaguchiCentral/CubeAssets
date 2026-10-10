@@ -13,6 +13,6 @@ Sfx_016_Channel_1:
       vibrato 04ah
       stereo 0c0h
     countedLoopStart 5
-            noteL A4, 5
+            noteL A3, 5
     countedLoopEnd
     channel_end

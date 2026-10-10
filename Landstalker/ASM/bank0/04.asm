@@ -18,34 +18,34 @@ Music_04_Channel_0:
       vibrato 02ch
       inst 26
       vol 11
-            noteL F5, 4
+            noteL F4, 4
+            note As4
+            note C5
+            note F5
             note As5
             note C6
-            note F6
-            note As6
-            note C7
-            noteL F7, 6
-            wait
-      vol 10
-            note F6
-            wait
-            note F6
-            wait
-            note F6
-            wait
-    countedLoopStart 1
-            noteL F6, 12
             noteL F6, 6
             wait
-            note F6
+      vol 10
+            note F5
             wait
-            note F6
+            note F5
+            wait
+            note F5
+            wait
+    countedLoopStart 1
+            noteL F5, 12
+            noteL F5, 6
+            wait
+            note F5
+            wait
+            note F5
             wait
     countedLoopEnd
-            noteL F6, 48
-            noteL Fs6, 24
-            note Gs6
-            noteL As6, 54
+            noteL F5, 48
+            noteL Fs5, 24
+            note Gs5
+            noteL As5, 54
             waitL 6
     channel_end
 Music_04_Channel_1:
@@ -54,33 +54,33 @@ Music_04_Channel_1:
             waitL 4
       inst 26
       vol 9
+            note F4
+            note As4
+            note C5
             note F5
             note As5
-            note C6
-            note F6
-            note As6
-            noteL C7, 6
-            wait
-      vol 9
-            note C6
-            wait
-            note C6
-            wait
-            note C6
-            wait
-    countedLoopStart 1
-            noteL C6, 12
             noteL C6, 6
             wait
-            note C6
+      vol 9
+            note C5
             wait
-            note C6
+            note C5
+            wait
+            note C5
+            wait
+    countedLoopStart 1
+            noteL C5, 12
+            noteL C5, 6
+            wait
+            note C5
+            wait
+            note C5
             wait
     countedLoopEnd
-            noteL Cs6, 48
-            noteL Ds6, 24
-            note Ds6
-            noteL D6, 54
+            noteL Cs5, 48
+            noteL Ds5, 24
+            note Ds5
+            noteL D5, 54
             waitL 6
     channel_end
 Music_04_Channel_2:
@@ -90,26 +90,26 @@ Music_04_Channel_2:
             waitL 12
       inst 3
       vol 12
-            noteL F4, 6
+            noteL F3, 6
             wait
-            note As4
+            note As3
             wait
-            note C5
+            note C4
             wait
     countedLoopStart 1
-            noteL Ds5, 12
-            noteL D5, 4
-            note C5
-            note As4
-            noteL C5, 6
+            noteL Ds4, 12
+            noteL D4, 4
+            note C4
+            note As3
+            noteL C4, 6
             wait
-            note F5
+            note F4
             wait
     countedLoopEnd
-            noteL Gs5, 48
-            noteL Fs5, 24
-            note Gs5
-            noteL As5, 54
+            noteL Gs4, 48
+            noteL Fs4, 24
+            note Gs4
+            noteL As4, 54
             waitL 6
     channel_end
 Music_04_Channel_3:
@@ -118,11 +118,11 @@ Music_04_Channel_3:
             waitL 24
       inst 53
       vol 13
-            noteL F3, 144
-            noteL Fs3, 48
-            noteL B3, 24
-            note E3
-            noteL As2, 54
+            noteL F2, 144
+            noteL Fs2, 48
+            noteL B2, 24
+            note E2
+            noteL As1, 54
             waitL 6
     channel_end
 Music_04_Channel_4:
@@ -131,27 +131,27 @@ Music_04_Channel_4:
             waitL 24
       inst 26
       vol 9
-            noteL As6, 6
-            wait
-            note As5
-            wait
-            note As5
-            wait
-            note As5
-            wait
-    countedLoopStart 1
-            noteL As5, 12
             noteL As5, 6
             wait
-            note As5
+            note As4
             wait
-            note As5
+            note As4
+            wait
+            note As4
+            wait
+    countedLoopStart 1
+            noteL As4, 12
+            noteL As4, 6
+            wait
+            note As4
+            wait
+            note As4
             wait
     countedLoopEnd
-            noteL As5, 48
-            noteL As5, 24
-            note B5
-            noteL As5, 54
+            noteL As4, 48
+            noteL As4, 24
+            note B4
+            noteL As4, 54
             waitL 6
     channel_end
 Music_04_Channel_5:
@@ -200,48 +200,48 @@ Music_04_Channel_6:
       setRelease 1
       vibrato 04ch
       psgInst 0ch
-            psgNoteL F3, 4
-            psgNote As3
-            psgNote C4
-            psgNote F4
+            psgNoteL F4, 4
             psgNote As4
             psgNote C5
-            psgNoteL F5, 6
+            psgNote F5
+            psgNote As5
+            psgNote C6
+            psgNoteL F6, 6
             wait
       psgInst 00h
             waitL 132
       psgInst 0ch
-            psgNoteL As2, 4
-            psgNote Cs3
-            psgNote F3
-            psgNote Fs3
-            psgNote As3
+            psgNoteL As3, 4
             psgNote Cs4
             psgNote F4
+            psgNote Fs4
+            psgNote As4
+            psgNote Cs5
+            psgNote F5
+            psgNote Cs5
+            psgNote As4
+            psgNote Fs4
+            psgNote F4
             psgNote Cs4
-            psgNote As3
-            psgNote Fs3
-            psgNote F3
-            psgNote Cs3
-            psgNote Ds3
-            psgNote Fs3
-            psgNote As3
-            psgNote B3
             psgNote Ds4
             psgNote Fs4
-            psgNote E3
-            psgNote Gs3
-            psgNote B3
-            psgNote Ds4
+            psgNote As4
+            psgNote B4
+            psgNote Ds5
+            psgNote Fs5
             psgNote E4
             psgNote Gs4
-            psgNote As2
-            psgNote D3
-            psgNote F3
+            psgNote B4
+            psgNote Ds5
+            psgNote E5
+            psgNote Gs5
             psgNote As3
             psgNote D4
             psgNote F4
-            psgNoteL As4, 30
+            psgNote As4
+            psgNote D5
+            psgNote F5
+            psgNoteL As5, 30
       psgInst 00h
             waitL 6
     channel_end

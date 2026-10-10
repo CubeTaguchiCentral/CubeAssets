@@ -10,22 +10,22 @@ Sfx_060_Channel_1:
       vol 14
       vibrato 00h
       setRelease 0
-            noteL C2, 5
+            noteL C1, 5
       vol 13
       sustain
-            noteL A4, 1
-            note E4
-            note A4
+            noteL A3, 1
+            note E3
+            note A3
       vol 10
-            note E4
-            note A4
+            note E3
+            note A3
       vol 9
-            note D4
-            note A4
+            note D3
+            note A3
       vol 7
-            note D4
-            note A4
+            note D3
+            note A3
       vol 5
       setRelease 1
-            noteL A4, 2
+            noteL A3, 2
     channel_end

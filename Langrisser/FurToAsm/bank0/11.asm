@@ -20,16 +20,16 @@ Music_11_Channel_0:
       setRelease 1
       vibrato 05ah
     countedLoopStart 3
-            noteL As3, 24
+            noteL As2, 24
             waitL 12
-            noteL As3, 6
+            noteL As2, 6
             wait
     countedLoopEnd
-            noteL Cs4, 72
-            noteL Cs4, 8
-            note C4
-            note B3
-            noteL As3, 24
+            noteL Cs3, 72
+            noteL Cs3, 8
+            note C3
+            note B2
+            noteL As2, 24
     channel_end
 Music_11_Channel_1:
       stereo 0c0h
@@ -38,48 +38,48 @@ Music_11_Channel_1:
       setRelease 1
       vibrato 05ah
     countedLoopStart 1
-            noteL F4, 24
+            noteL F3, 24
             waitL 12
-            noteL F4, 6
+            noteL F3, 6
             wait
     countedLoopEnd
     countedLoopStart 1
-            noteL As4, 24
+            noteL As3, 24
             waitL 12
-            noteL As4, 6
+            noteL As3, 6
             wait
     countedLoopEnd
-            noteL Cs5, 72
-            noteL E5, 8
-            note Ds5
-            note B4
-            noteL As4, 24
+            noteL Cs4, 72
+            noteL E4, 8
+            note Ds4
+            note B3
+            noteL As3, 24
     channel_end
 Music_11_Channel_2:
       stereo 080h
       inst 51
       vol 10
       setRelease 1
-            noteL As4, 24
+            noteL As3, 24
       vibrato 05ah
             waitL 12
-            noteL As4, 6
+            noteL As3, 6
             wait
-            noteL As4, 24
+            noteL As3, 24
             waitL 12
-            noteL As4, 6
+            noteL As3, 6
     countedLoopStart 1
             waitL 6
-            noteL Cs5, 24
+            noteL Cs4, 24
             waitL 12
-            noteL Cs5, 6
+            noteL Cs4, 6
     countedLoopEnd
             wait
-            noteL E5, 72
-            noteL E5, 8
-            note Ds5
-            note B4
-            noteL As4, 24
+            noteL E4, 72
+            noteL E4, 8
+            note Ds4
+            note B3
+            noteL As3, 24
     channel_end
 Music_11_Channel_3:
       stereo 0c0h
@@ -89,31 +89,31 @@ Music_11_Channel_3:
       vibrato 05ah
       setRelease 1
     countedLoopStart 3
-            noteL As2, 6
-            note As2
-            note As2
-            noteL As2, 24
+            noteL As1, 6
+            note As1
+            note As1
+            noteL As1, 24
             waitL 6
     countedLoopEnd
       vol 9
-            note Cs3
-            note Cs3
-            note Cs3
+            note Cs2
+            note Cs2
+            note Cs2
       vol 10
-            note Cs3
-            note Cs3
-            note Cs3
-            note Cs3
+            note Cs2
+            note Cs2
+            note Cs2
+            note Cs2
       vol 11
-            note Cs3
-            note Cs3
-            note Cs3
-            note Cs3
+            note Cs2
+            note Cs2
+            note Cs2
+            note Cs2
       vol 12
-            noteL Cs3, 8
-            note Cs3
-            note Cs3
-            noteL As2, 24
+            noteL Cs2, 8
+            note Cs2
+            note Cs2
+            noteL As1, 24
     channel_end
 Music_11_Channel_4:
       stereo 040h
@@ -121,26 +121,26 @@ Music_11_Channel_4:
             waitL 1
       inst 51
       vol 10
-            noteL As4, 24
+            noteL As3, 24
       vibrato 05ah
             waitL 12
-            noteL As4, 6
+            noteL As3, 6
             wait
-            noteL As4, 24
+            noteL As3, 24
             waitL 12
-            noteL As4, 6
+            noteL As3, 6
     countedLoopStart 1
             waitL 6
-            noteL Cs5, 24
+            noteL Cs4, 24
             waitL 12
-            noteL Cs5, 6
+            noteL Cs4, 6
     countedLoopEnd
             wait
-            noteL E5, 72
-            noteL E5, 8
-            note Ds5
-            note B4
-            noteL As4, 23
+            noteL E4, 72
+            noteL E4, 8
+            note Ds4
+            note B3
+            noteL As3, 23
     channel_end
 Music_11_Channel_5:
     countedLoopStart 3
@@ -158,105 +158,105 @@ Music_11_Channel_6:
       setRelease 1
       vibrato 04ah
     countedLoopStart 1
-            psgNoteL Cs4, 6
-            psgNote Cs3
-            psgNote F3
-            psgNote As3
-            psgNote Cs4
-            psgNote F3
-            psgNote As3
-            psgNote Cs4
-            psgNote F4
-            psgNote As3
+            psgNoteL Cs5, 6
             psgNote Cs4
             psgNote F4
             psgNote As4
-            psgNote Cs4
+            psgNote Cs5
             psgNote F4
             psgNote As4
+            psgNote Cs5
+            psgNote F5
+            psgNote As4
+            psgNote Cs5
+            psgNote F5
+            psgNote As5
+            psgNote Cs5
+            psgNote F5
+            psgNote As5
     countedLoopEnd
       psgInst 08h
-            psgNoteL E4, 4
+            psgNoteL E5, 4
+            psgNote Cs5
+            psgNote As4
+            psgNote G4
+            psgNote E4
             psgNote Cs4
-            psgNote As3
-            psgNote G3
-            psgNote E3
-            psgNote Cs3
       psgInst 09h
+            psgNote E5
+            psgNote Cs5
+            psgNote As4
+            psgNote G4
             psgNote E4
             psgNote Cs4
-            psgNote As3
-            psgNote G3
-            psgNote E3
-            psgNote Cs3
       psgInst 0ah
+            psgNote E5
+            psgNote Cs5
+            psgNote As4
+            psgNote G4
             psgNote E4
             psgNote Cs4
-            psgNote As3
-            psgNote G3
-            psgNote E3
-            psgNote Cs3
       psgInst 0bh
+            psgNote E5
+            psgNote Cs5
+            psgNote As4
+            psgNote G4
             psgNote E4
             psgNote Cs4
-            psgNote As3
-            psgNote G3
-            psgNote E3
-            psgNote Cs3
-            psgNoteL As2, 24
+            psgNoteL As3, 24
     channel_end
 Music_11_Channel_7:
       psgInst 0ah
       setRelease 1
       vibrato 00h
     countedLoopStart 1
-            psgNoteL As3, 6
-            psgNote As2
-            psgNote Cs3
-            psgNote F3
-            psgNote As3
-            psgNote Cs3
-            psgNote F3
-            psgNote As3
-            psgNote Cs4
-            psgNote F3
+            psgNoteL As4, 6
             psgNote As3
             psgNote Cs4
             psgNote F4
-            psgNote As3
+            psgNote As4
             psgNote Cs4
             psgNote F4
+            psgNote As4
+            psgNote Cs5
+            psgNote F4
+            psgNote As4
+            psgNote Cs5
+            psgNote F5
+            psgNote As4
+            psgNote Cs5
+            psgNote F5
     countedLoopEnd
       psgInst 08h
             waitL 5
-            psgNoteL E4, 4
+            psgNoteL E5, 4
+            psgNote Cs5
+            psgNote As4
+            psgNote G4
+            psgNote E4
             psgNote Cs4
-            psgNote As3
-            psgNote G3
-            psgNote E3
-            psgNote Cs3
       psgInst 09h
+            psgNote E5
+            psgNote Cs5
+            psgNote As4
+            psgNote G4
             psgNote E4
             psgNote Cs4
-            psgNote As3
-            psgNote G3
-            psgNote E3
-            psgNote Cs3
       psgInst 0ah
+            psgNote E5
+            psgNote Cs5
+            psgNote As4
+            psgNote G4
             psgNote E4
             psgNote Cs4
-            psgNote As3
-            psgNote G3
-            psgNote E3
-            psgNote Cs3
       psgInst 0bh
+            psgNote E5
+            psgNote Cs5
+            psgNote As4
+            psgNote G4
             psgNote E4
             psgNote Cs4
-            psgNote As3
-            psgNote G3
-            psgNote E3
-            psgNote Cs3
-            psgNoteL As2, 19
+            psgNoteL As3, 19
     channel_end
 Music_11_Channel_8:
     channel_end

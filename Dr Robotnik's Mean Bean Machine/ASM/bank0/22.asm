@@ -20,10 +20,10 @@ Music_22_Channel_0:
       setRelease 1
       vibrato 02ah
       stereo 0c0h
-            noteL G5, 28
-            noteL Fs5, 196
-            noteL F5, 28
-            noteL E5, 196
+            noteL G4, 28
+            noteL Fs4, 196
+            noteL F4, 28
+            noteL E4, 196
     mainLoopEnd
 Music_22_Channel_1:
     mainLoopStart
@@ -33,9 +33,9 @@ Music_22_Channel_1:
       vibrato 02ah
       stereo 040h
             waitL 42
-            noteL G4, 182
+            noteL G3, 182
             waitL 42
-            noteL Fs4, 182
+            noteL Fs3, 182
     mainLoopEnd
 Music_22_Channel_2:
     mainLoopStart
@@ -43,50 +43,50 @@ Music_22_Channel_2:
       vol 12
       setRelease 1
       vibrato 02ah
-            noteL E3, 14
-            noteL G3, 5
+            noteL E2, 14
+            noteL G2, 5
             waitL 9
-            noteL A3, 14
-            noteL G3, 7
-            noteL E3, 21
-            noteL E3, 5
+            noteL A2, 14
+            noteL G2, 7
+            noteL E2, 21
+            noteL E2, 5
             waitL 9
-            noteL A3, 5
+            noteL A2, 5
             waitL 9
-            noteL D3, 7
-            noteL E3, 21
-            noteL G3, 5
+            noteL D2, 7
+            noteL E2, 21
+            noteL G2, 5
             waitL 9
-            noteL A3, 14
-            noteL G3, 7
-            noteL E3, 21
-            noteL E3, 5
+            noteL A2, 14
+            noteL G2, 7
+            noteL E2, 21
+            noteL E2, 5
             waitL 9
-            noteL A3, 5
+            noteL A2, 5
             waitL 9
-            noteL B3, 14
-            note E3
-            noteL G3, 5
+            noteL B2, 14
+            note E2
+            noteL G2, 5
             waitL 9
-            noteL A3, 14
-            noteL G3, 7
-            noteL E3, 21
-            noteL E3, 5
+            noteL A2, 14
+            noteL G2, 7
+            noteL E2, 21
+            noteL E2, 5
             waitL 9
-            noteL D3, 5
+            noteL D2, 5
             waitL 9
-            noteL Ds3, 7
-            noteL E3, 21
-            noteL G3, 5
+            noteL Ds2, 7
+            noteL E2, 21
+            noteL G2, 5
             waitL 9
-            noteL A3, 14
-            noteL G3, 7
-            noteL E3, 21
-            noteL E3, 5
+            noteL A2, 14
+            noteL G2, 7
+            noteL E2, 21
+            noteL E2, 5
             waitL 9
-            noteL A3, 7
-            note B3
-            noteL Gs3, 14
+            noteL A2, 7
+            note B2
+            noteL Gs2, 14
     mainLoopEnd
 Music_22_Channel_3:
     mainLoopStart
@@ -96,9 +96,9 @@ Music_22_Channel_3:
       vibrato 02ah
       stereo 080h
             waitL 49
-            noteL Cs5, 175
+            noteL Cs4, 175
             waitL 49
-            noteL C5, 175
+            noteL C4, 175
     mainLoopEnd
 Music_22_Channel_4:
             waitL 16
@@ -108,10 +108,10 @@ Music_22_Channel_4:
       setRelease 1
       vibrato 02ah
       shifting 64
-            noteL G5, 28
-            noteL Fs5, 196
-            noteL F5, 28
-            noteL E5, 196
+            noteL G4, 28
+            noteL Fs4, 196
+            noteL F4, 28
+            noteL E4, 196
     mainLoopEnd
 Music_22_Channel_5:
     mainLoopStart
@@ -126,37 +126,37 @@ Music_22_Channel_6:
       psgInst 09h
       setRelease 1
       vibrato 02ah
-            psgNoteL C2, 5
+            psgNoteL C3, 5
             waitL 9
-            psgNoteL E2, 5
+            psgNoteL E3, 5
             waitL 9
-            psgNoteL D2, 7
-            psgNote E2
-            psgNoteL D2, 5
+            psgNoteL D3, 7
+            psgNote E3
+            psgNoteL D3, 5
             waitL 9
-            psgNoteL G2, 5
+            psgNoteL G3, 5
             waitL 9
-            psgNoteL C2, 7
-            psgNote Fs2
-            psgNoteL D2, 5
+            psgNoteL C3, 7
+            psgNote Fs3
+            psgNoteL D3, 5
             waitL 9
-            psgNoteL Fs2, 7
-            psgNote G2
-            psgNoteL C2, 5
+            psgNoteL Fs3, 7
+            psgNote G3
+            psgNoteL C3, 5
             waitL 9
-            psgNoteL E2, 5
+            psgNoteL E3, 5
             waitL 9
-            psgNoteL D2, 7
-            psgNote Fs2
-            psgNoteL C2, 5
+            psgNoteL D3, 7
+            psgNote Fs3
+            psgNoteL C3, 5
             waitL 9
-            psgNoteL G2, 5
+            psgNoteL G3, 5
             waitL 9
-            psgNoteL D2, 7
-            psgNote Fs2
-            psgNoteL C2, 5
+            psgNoteL D3, 7
+            psgNote Fs3
+            psgNoteL C3, 5
             waitL 9
-            psgNoteL G2, 14
+            psgNoteL G3, 14
     mainLoopEnd
 Music_22_Channel_7:
     mainLoopStart
@@ -164,26 +164,26 @@ Music_22_Channel_7:
       setRelease 1
       vibrato 02ah
             waitL 14
-            psgNoteL C3, 6
+            psgNoteL C4, 6
             waitL 15
-            psgNoteL C3, 6
+            psgNoteL C4, 6
             waitL 15
-            psgNoteL C3, 6
+            psgNoteL C4, 6
             waitL 15
-            psgNoteL C3, 6
+            psgNoteL C4, 6
             waitL 15
-            psgNoteL C3, 7
-            psgNote C3
+            psgNoteL C4, 7
+            psgNote C4
             waitL 14
-            psgNoteL C3, 6
+            psgNoteL C4, 6
             waitL 15
-            psgNoteL C3, 6
+            psgNoteL C4, 6
             waitL 15
-            psgNoteL C3, 6
+            psgNoteL C4, 6
             waitL 15
-            psgNoteL C3, 6
+            psgNoteL C4, 6
             waitL 15
-            psgNoteL C3, 14
+            psgNoteL C4, 14
     mainLoopEnd
 Music_22_Channel_8:
       psgInst 00h
@@ -192,11 +192,11 @@ Music_22_Channel_9:
     mainLoopStart
       psgInst 0fdh
       setRelease 1
-            psgNoteL C0, 42
+            psgNoteL 07bh, 42
             waitL 28
-            psgNoteL C0, 28
-            psgNoteL C0, 28
-            psgNoteL C0, 28
-            psgNoteL C0, 7
-            psgNoteL C0, 105
+            psgNoteL 07h, 28
+            psgNoteL 07h, 28
+            psgNoteL 07h, 28
+            psgNoteL 07h, 7
+            psgNoteL 07h, 105
     mainLoopEnd

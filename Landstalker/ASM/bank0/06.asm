@@ -18,15 +18,15 @@ Music_06_Channel_0:
       vol 10
       setRelease 1
       vibrato 02ch
-            noteL Gs4, 25
-            noteL F4, 24
+            noteL Gs3, 25
+            noteL F3, 24
             waitL 9
       vol 11
-            noteL B5, 8
-            note Cs6
-            noteL F6, 18
-            noteL Ds6, 8
-            noteL D6, 100
+            noteL B4, 8
+            note Cs5
+            noteL F5, 18
+            noteL Ds5, 8
+            noteL D5, 100
             waitL 6
     channel_end
 Music_06_Channel_1:
@@ -35,13 +35,13 @@ Music_06_Channel_1:
       setRelease 1
       vibrato 02ch
             waitL 9
-            noteL E5, 8
-            note F5
-            noteL Gs5, 17
-            noteL G5, 7
-            noteL Gs5, 51
+            noteL E4, 8
+            note F4
+            noteL Gs4, 17
+            noteL G4, 7
+            noteL Gs4, 51
       vol 10
-            noteL G5, 100
+            noteL G4, 100
             waitL 6
     channel_end
 Music_06_Channel_2:
@@ -49,28 +49,28 @@ Music_06_Channel_2:
       vol 10
       setRelease 1
       vibrato 02ch
-            noteL D5, 49
-            noteL Ds5, 25
-            noteL B4, 26
+            noteL D4, 49
+            noteL Ds4, 25
+            noteL B3, 26
             waitL 24
       inst 63
       vol 7
       setRelease 1
-            noteL G5, 10
-            noteL C5, 3
-            note C5
-            noteL C5, 4
-            noteL C5, 3
-            noteL C5, 4
-            note C5
-            noteL G5, 8
-            noteL C4, 5
+            noteL G4, 10
+            noteL C4, 3
             note C4
-            noteL C4, 6
-            noteL C5, 9
-            noteL G4, 6
-            noteL G4, 5
-            noteL G4, 6
+            noteL C4, 4
+            noteL C4, 3
+            noteL C4, 4
+            note C4
+            noteL G4, 8
+            noteL C3, 5
+            note C3
+            noteL C3, 6
+            noteL C4, 9
+            noteL G3, 6
+            noteL G3, 5
+            noteL G3, 6
             waitL 1
     channel_end
 Music_06_Channel_3:
@@ -78,9 +78,9 @@ Music_06_Channel_3:
       vol 10
       setRelease 1
       vibrato 02ch
-            noteL As3, 49
-            noteL Cs4, 51
-            noteL Ds4, 100
+            noteL As2, 49
+            noteL Cs3, 51
+            noteL Ds3, 100
             waitL 6
     channel_end
 Music_06_Channel_4:
@@ -90,33 +90,33 @@ Music_06_Channel_4:
       vol 6
       setRelease 1
       vibrato 00h
-            noteL A5, 2
-            note A5
-            note A5
-            noteL C6, 3
-            note C6
-            note C6
-            note C6
-            noteL F5, 4
-            note F5
-            noteL F5, 2
-            note A5
-            note A5
-            note A5
-            note C6
-            noteL C6, 3
-            noteL C6, 2
-            noteL C6, 3
-            noteL C6, 4
-            noteL A5, 2
-            note A5
-            note F5
-            noteL F5, 3
-            noteL F5, 2
-            note D5
-            note A5
-            noteL A5, 3
-            noteL A5, 4
+            noteL A4, 2
+            note A4
+            note A4
+            noteL C5, 3
+            note C5
+            note C5
+            note C5
+            noteL F4, 4
+            note F4
+            noteL F4, 2
+            note A4
+            note A4
+            note A4
+            note C5
+            noteL C5, 3
+            noteL C5, 2
+            noteL C5, 3
+            noteL C5, 4
+            noteL A4, 2
+            note A4
+            note F4
+            noteL F4, 3
+            noteL F4, 2
+            note D4
+            note A4
+            noteL A4, 3
+            noteL A4, 4
             waitL 2
     channel_end
 Music_06_Channel_5:
@@ -127,20 +127,20 @@ Music_06_Channel_6:
       vibrato 04ch
             waitL 117
       psgInst 02ah
-            psgNoteL G5, 6
-            psgNoteL Ds5, 5
-            psgNoteL D5, 4
+            psgNoteL G6, 6
+            psgNoteL Ds6, 5
+            psgNoteL D6, 4
+            psgNote As5
+            psgNoteL G5, 3
+            psgNote Ds5
+            psgNote D5
             psgNote As4
-            psgNoteL G4, 3
+            psgNote G4
             psgNote Ds4
             psgNote D4
             psgNote As3
             psgNote G3
-            psgNote Ds3
-            psgNote D3
-            psgNote As2
-            psgNote G2
-            psgNoteL Ds2, 36
+            psgNoteL Ds3, 36
       psgInst 00h
             waitL 7
     channel_end
@@ -150,20 +150,20 @@ Music_06_Channel_7:
       vibrato 04ch
             waitL 120
       psgInst 028h
-            psgNoteL G5, 6
-            psgNoteL Ds5, 5
-            psgNoteL D5, 4
+            psgNoteL G6, 6
+            psgNoteL Ds6, 5
+            psgNoteL D6, 4
+            psgNote As5
+            psgNoteL G5, 3
+            psgNote Ds5
+            psgNote D5
             psgNote As4
-            psgNoteL G4, 3
+            psgNote G4
             psgNote Ds4
             psgNote D4
             psgNote As3
             psgNote G3
-            psgNote Ds3
-            psgNote D3
-            psgNote As2
-            psgNote G2
-            psgNoteL Ds2, 36
+            psgNoteL Ds3, 36
       psgInst 00h
             waitL 4
     channel_end

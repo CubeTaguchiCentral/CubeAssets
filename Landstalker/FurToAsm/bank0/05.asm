@@ -19,13 +19,13 @@ Music_05_Channel_0:
       vol 11
       vibrato 05ch
       setRelease 1
-            noteL G5, 5
+            noteL G4, 5
             waitL 3
-            noteL F5, 5
+            noteL F4, 5
             waitL 3
-            noteL G5, 5
+            noteL G4, 5
             waitL 3
-            noteL Gs5, 54
+            noteL Gs4, 54
             waitL 6
     channel_end
 Music_05_Channel_1:
@@ -34,13 +34,13 @@ Music_05_Channel_1:
       vol 10
       vibrato 05ch
       setRelease 1
-            noteL C5, 5
+            noteL C4, 5
             waitL 3
-            noteL As4, 5
+            noteL As3, 5
             waitL 3
-            noteL C5, 5
+            noteL C4, 5
             waitL 3
-            noteL Cs5, 54
+            noteL Cs4, 54
             waitL 6
     channel_end
 Music_05_Channel_2:
@@ -49,13 +49,13 @@ Music_05_Channel_2:
       vol 10
       vibrato 05ch
       setRelease 1
-            noteL As4, 5
+            noteL As3, 5
             waitL 3
-            noteL Gs4, 5
+            noteL Gs3, 5
             waitL 3
-            noteL As4, 5
+            noteL As3, 5
             waitL 3
-            noteL F4, 54
+            noteL F3, 54
             waitL 6
     channel_end
 Music_05_Channel_3:
@@ -64,10 +64,10 @@ Music_05_Channel_3:
       vol 12
       vibrato 05ch
       setRelease 1
-            noteL Gs3, 8
-            note Fs3
-            note F3
-            noteL Ds3, 54
+            noteL Gs2, 8
+            note Fs2
+            note F2
+            noteL Ds2, 54
             waitL 6
     channel_end
 Music_05_Channel_4:
@@ -78,13 +78,13 @@ Music_05_Channel_4:
       vol 9
       vibrato 05ch
       setRelease 1
-            noteL G5, 5
+            noteL G4, 5
             waitL 3
-            noteL F5, 5
+            noteL F4, 5
             waitL 3
-            noteL G5, 5
+            noteL G4, 5
             waitL 3
-            noteL Gs5, 54
+            noteL Gs4, 54
             waitL 3
     channel_end
 Music_05_Channel_5:

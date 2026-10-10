@@ -19,106 +19,106 @@ Music_20_Channel_0:
       vol 12
       setRelease 1
       vibrato 05ah
-            noteL C6, 19
+            noteL C5, 19
       setSlide 113
-            noteL Fs5, 13
+            noteL Fs4, 13
       noSlide
       setSlide 113
-            note A5
-      noSlide
-      setSlide 113
-            noteL Ds5, 12
-      noSlide
-      setSlide 113
-            note Fs5
-      noSlide
-      setSlide 113
-            noteL C5, 9
-      noSlide
-      setSlide 113
-            note Ds5
-      noSlide
-      setSlide 113
-            noteL A4, 8
-      noSlide
-      setSlide 113
-            note C5
-    repeatStart
-      noSlide
-      setSlide 113
-            noteL Fs4, 7
-      noSlide
-      setSlide 113
-    repeatSection1Start
             note A4
       noSlide
       setSlide 113
-            noteL Ds4, 6
+            noteL Ds4, 12
+      noSlide
+      setSlide 113
+            note Fs4
+      noSlide
+      setSlide 113
+            noteL C4, 9
+      noSlide
+      setSlide 113
+            note Ds4
+      noSlide
+      setSlide 113
+            noteL A3, 8
+      noSlide
+      setSlide 113
+            note C4
+    repeatStart
+      noSlide
+      setSlide 113
+            noteL Fs3, 7
+      noSlide
+      setSlide 113
+    repeatSection1Start
+            note A3
+      noSlide
+      setSlide 113
+            noteL Ds3, 6
     repeatEnd
     repeatSection2Start
-            noteL C4, 19
+            noteL C3, 19
       noSlide
       setSlide 113
-            noteL Fs4, 77
+            noteL Fs3, 77
       noSlide
       setSlide 113
-            noteL As4, 14
+            noteL As3, 14
       noSlide
       setSlide 113
-            note B4
+            note B3
       noSlide
       setSlide 113
-            noteL Cs5, 46
+            noteL Cs4, 46
       noSlide
       setSlide 113
-            noteL B4, 13
-      noSlide
-            waitL 12
-      setSlide 113
-            noteL As4, 13
+            noteL B3, 13
       noSlide
             waitL 12
       setSlide 113
-            noteL C5, 112
+            noteL As3, 13
+      noSlide
+            waitL 12
+      setSlide 113
+            noteL C4, 112
       noSlide
       setSlide 51
-            noteL C6, 132
+            noteL C5, 132
     channel_end
 Music_20_Channel_1:
       stereo 040h
       sustain
       inst 17
       vol 13
-            noteL C4, 255
-      vibrato 05ah
-      vibrato 00h
-            note C4
-      setRelease 1
-            noteL C4, 194
-    channel_end
-Music_20_Channel_2:
-      stereo 080h
-      sustain
-      inst 17
-      vol 13
-            noteL Fs4, 255
-      vibrato 05ah
-      vibrato 00h
-            note Fs4
-      setRelease 1
-            noteL Fs4, 194
-    channel_end
-Music_20_Channel_3:
-      stereo 0c0h
-      sustain
-      inst 16
-      vol 11
             noteL C3, 255
       vibrato 05ah
       vibrato 00h
             note C3
       setRelease 1
             noteL C3, 194
+    channel_end
+Music_20_Channel_2:
+      stereo 080h
+      sustain
+      inst 17
+      vol 13
+            noteL Fs3, 255
+      vibrato 05ah
+      vibrato 00h
+            note Fs3
+      setRelease 1
+            noteL Fs3, 194
+    channel_end
+Music_20_Channel_3:
+      stereo 0c0h
+      sustain
+      inst 16
+      vol 11
+            noteL C2, 255
+      vibrato 05ah
+      vibrato 00h
+            note C2
+      setRelease 1
+            noteL C2, 194
     channel_end
 Music_20_Channel_4:
       stereo 0c0h
@@ -127,70 +127,70 @@ Music_20_Channel_4:
             waitL 112
       setRelease 1
       vibrato 05ah
-            noteL C6, 19
+            noteL C5, 19
       setSlide 113
-            noteL Fs5, 13
+            noteL Fs4, 13
       noSlide
       setSlide 113
-            note A5
-      noSlide
-      setSlide 113
-            noteL Ds5, 12
-      noSlide
-      setSlide 113
-            note Fs5
-      noSlide
-      setSlide 113
-            noteL C5, 9
-      noSlide
-      setSlide 113
-            note Ds5
-      noSlide
-      setSlide 113
-            noteL A4, 8
-      noSlide
-      setSlide 113
-            note C5
-    repeatStart
-      noSlide
-      setSlide 113
-            noteL Fs4, 7
-      noSlide
-      setSlide 113
-    repeatSection1Start
             note A4
       noSlide
       setSlide 113
-            noteL Ds4, 6
+            noteL Ds4, 12
+      noSlide
+      setSlide 113
+            note Fs4
+      noSlide
+      setSlide 113
+            noteL C4, 9
+      noSlide
+      setSlide 113
+            note Ds4
+      noSlide
+      setSlide 113
+            noteL A3, 8
+      noSlide
+      setSlide 113
+            note C4
+    repeatStart
+      noSlide
+      setSlide 113
+            noteL Fs3, 7
+      noSlide
+      setSlide 113
+    repeatSection1Start
+            note A3
+      noSlide
+      setSlide 113
+            noteL Ds3, 6
     repeatEnd
     repeatSection2Start
-            noteL C4, 19
+            noteL C3, 19
       noSlide
       setSlide 113
-            noteL Fs4, 77
+            noteL Fs3, 77
       noSlide
       setSlide 113
-            noteL As4, 14
+            noteL As3, 14
       noSlide
       setSlide 113
-            note B4
+            note B3
       noSlide
       setSlide 113
-            noteL Cs5, 46
+            noteL Cs4, 46
       noSlide
       setSlide 113
-            noteL B4, 13
-      noSlide
-            waitL 12
-      setSlide 113
-            noteL As4, 13
+            noteL B3, 13
       noSlide
             waitL 12
       setSlide 113
-            noteL C5, 112
+            noteL As3, 13
+      noSlide
+            waitL 12
+      setSlide 113
+            noteL C4, 112
       noSlide
       setSlide 51
-            noteL C6, 132
+            noteL C5, 132
     channel_end
 Music_20_Channel_5:
     channel_end
@@ -200,30 +200,30 @@ Music_20_Channel_6:
       psgInst 0bh
       setRelease 1
       vibrato 04ah
-            psgNoteL G4, 19
+            psgNoteL G5, 19
       sustain
-            psgNoteL Cs4, 13
+            psgNoteL Cs5, 13
+            psgNote E5
+            psgNoteL As4, 12
+            psgNote Cs5
+            psgNoteL G4, 9
+            psgNote As4
+            psgNoteL E4, 8
+            psgNote G4
+            psgNoteL Cs4, 7
             psgNote E4
-            psgNoteL As3, 12
-            psgNote Cs4
-            psgNoteL G3, 9
-            psgNote As3
-            psgNoteL E3, 8
-            psgNote G3
-            psgNoteL Cs3, 7
-            psgNote E3
-            psgNoteL As2, 6
-            psgNoteL Cs3, 7
-            psgNoteL G2, 19
-            psgNoteL Cs3, 77
-            psgNoteL F3, 14
-            psgNote Fs3
+            psgNoteL As3, 6
+            psgNoteL Cs4, 7
+            psgNoteL G3, 19
+            psgNoteL Cs4, 77
+            psgNoteL F4, 14
+            psgNote Fs4
       vibrato 040h
-            psgNoteL Gs3, 46
-            psgNoteL Fs3, 25
-            psgNote F3
-            psgNoteL G3, 112
-            psgNoteL G4, 132
+            psgNoteL Gs4, 46
+            psgNoteL Fs4, 25
+            psgNote F4
+            psgNoteL G4, 112
+            psgNoteL G5, 132
     channel_end
 Music_20_Channel_7:
       psgInst 00h
@@ -231,30 +231,30 @@ Music_20_Channel_7:
       psgInst 08h
       setRelease 1
       vibrato 04ah
-            psgNoteL G4, 19
+            psgNoteL G5, 19
       sustain
-            psgNoteL Cs4, 13
+            psgNoteL Cs5, 13
+            psgNote E5
+            psgNoteL As4, 12
+            psgNote Cs5
+            psgNoteL G4, 9
+            psgNote As4
+            psgNoteL E4, 8
+            psgNote G4
+            psgNoteL Cs4, 7
             psgNote E4
-            psgNoteL As3, 12
-            psgNote Cs4
-            psgNoteL G3, 9
-            psgNote As3
-            psgNoteL E3, 8
-            psgNote G3
-            psgNoteL Cs3, 7
-            psgNote E3
-            psgNoteL As2, 6
-            psgNoteL Cs3, 7
-            psgNoteL G2, 19
-            psgNoteL Cs3, 77
-            psgNoteL F3, 14
-            psgNote Fs3
+            psgNoteL As3, 6
+            psgNoteL Cs4, 7
+            psgNoteL G3, 19
+            psgNoteL Cs4, 77
+            psgNoteL F4, 14
+            psgNote Fs4
       vibrato 040h
-            psgNoteL Gs3, 46
-            psgNoteL Fs3, 25
-            psgNote F3
-            psgNoteL G3, 112
-            psgNoteL G4, 132
+            psgNoteL Gs4, 46
+            psgNoteL Fs4, 25
+            psgNote F4
+            psgNoteL G4, 112
+            psgNoteL G5, 132
     channel_end
 Music_20_Channel_8:
     channel_end

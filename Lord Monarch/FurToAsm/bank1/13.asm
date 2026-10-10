@@ -18,31 +18,31 @@ Music_13_Channel_0:
       inst 19
       vol 12
       vibrato 05dh
-            noteL C6, 6
-            note B5
-            note Gs5
-            noteL G5, 96
+            noteL C5, 6
+            note B4
+            note Gs4
+            noteL G4, 96
     channel_end
 Music_13_Channel_1:
       stereo 080h
       inst 19
       vol 11
       vibrato 05dh
-            noteL Ds7, 6
-            note D7
-            note C7
-            noteL B6, 96
+            noteL Ds6, 6
+            note D6
+            note C6
+            noteL B5, 96
     channel_end
 Music_13_Channel_2:
       stereo 0c0h
       inst 28
       vol 13
       vibrato 05dh
-            noteL C4, 6
-            note B3
-            note Gs3
+            noteL C3, 6
+            note B2
+            note Gs2
       vol 12
-            noteL G3, 96
+            noteL G2, 96
     channel_end
 Music_13_Channel_3:
       stereo 040h
@@ -51,10 +51,10 @@ Music_13_Channel_3:
       vol 10
             waitL 6
       vibrato 05dh
-            note Ds7
-            note D7
-            note C7
-            noteL B6, 90
+            note Ds6
+            note D6
+            note C6
+            noteL B5, 90
     channel_end
 Music_13_Channel_4:
       stereo 080h
@@ -63,10 +63,10 @@ Music_13_Channel_4:
       vol 11
             waitL 6
       vibrato 05dh
-            note C6
-            note B5
-            note Gs5
-            noteL G5, 90
+            note C5
+            note B4
+            note Gs4
+            noteL G4, 90
     channel_end
 Music_13_Channel_5:
     channel_end
@@ -74,12 +74,12 @@ Music_13_Channel_6:
       psgInst 0dh
       setRelease 6
       vibrato 04dh
-            psgNoteL F3, 6
-            psgNote Ds3
-            psgNote C3
+            psgNoteL F4, 6
+            psgNote Ds4
+            psgNote C4
       psgInst 0ch
       setRelease 96
-            psgNoteL B2, 96
+            psgNoteL B3, 96
     channel_end
 Music_13_Channel_7:
       shifting 32
@@ -88,12 +88,12 @@ Music_13_Channel_7:
       psgInst 0ah
       setRelease 6
       vibrato 04dh
-            psgNoteL F3, 6
-            psgNote Ds3
-            psgNote C3
+            psgNoteL F4, 6
+            psgNote Ds4
+            psgNote C4
       psgInst 09h
       setRelease 93
-            psgNoteL B2, 93
+            psgNoteL B3, 93
     channel_end
 Music_13_Channel_8:
     channel_end

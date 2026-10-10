@@ -10,7 +10,7 @@ Sfx_034_Channel_0:
       stereo 040h
       setRelease 0
       vibrato 02ah
-            noteL C2, 10
+            noteL C1, 10
     mainLoopEnd
 Sfx_034_Channel_1:
     mainLoopStart
@@ -19,7 +19,7 @@ Sfx_034_Channel_1:
       stereo 080h
       setRelease 0
       vibrato 02ah
-            noteL C2, 12
+            noteL C1, 12
     mainLoopEnd
 Sfx_034_Channel_2:
     channel_end

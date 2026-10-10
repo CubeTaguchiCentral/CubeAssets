@@ -8,20 +8,20 @@ Sfx_018_Channel_0:
 Sfx_018_Channel_1:
       inst 79
       vol 15
-            noteL C2, 0
+            noteL C1, 0
       setSlide 2
     countedLoopStart 18
-            noteL C6, 4
+            noteL C5, 4
             waitL 1
     countedLoopEnd
     countedLoopStart 8
-            noteL Cs6, 4
+            noteL Cs5, 4
             waitL 1
     countedLoopEnd
       vol 14
     repeatStart
     countedLoopStart 0
-            noteL E6, 4
+            noteL E5, 4
             waitL 1
     countedLoopEnd
     repeatSection1Start
@@ -34,7 +34,7 @@ Sfx_018_Channel_1:
       vol 12
     countedLoopStart 18
       vol 11
-            noteL B6, 4
+            noteL B5, 4
             waitL 1
     countedLoopEnd
       noSlide

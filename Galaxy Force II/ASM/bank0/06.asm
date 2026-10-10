@@ -23,73 +23,73 @@ Music_06_Channel_0:
     mainLoopStart
     countedLoopStart 2
       setRelease 1
-            noteL D3, 0
+            noteL D2, 0
       setSlide 10
-            noteL E3, 18
+            noteL E2, 18
       noSlide
-            noteL D4, 6
+            noteL D3, 6
             wait
-            note D4
-            note E4
-            wait
-            noteL E3, 18
+            note D3
             note E3
+            wait
+            noteL E2, 18
+            note E2
       sustain
-            noteL D4, 6
+            noteL D3, 6
+      setRelease 1
+            note E3
+            note E2
+            note E2
+            noteL E2, 12
+            noteL E2, 6
+      sustain
+            note D3
+      setRelease 1
+            note E3
+            wait
+            noteL E2, 12
+      sustain
+            noteL D3, 6
       setRelease 1
             note E4
-            note E3
-            note E3
-            noteL E3, 12
-            noteL E3, 6
-      sustain
-            note D4
-      setRelease 1
-            note E4
-            wait
-            noteL E3, 12
-      sustain
-            noteL D4, 6
-      setRelease 1
-            note E5
             waitL 18
-            noteL E4, 6
-    countedLoopEnd
-            noteL D3, 0
-      setSlide 10
-            noteL E3, 18
-      noSlide
-            noteL D4, 6
-            wait
-            note D4
-            note E4
-            wait
-            noteL E3, 18
-            note E3
-      sustain
-            noteL D4, 6
-      setRelease 1
-            note E4
-            note E3
-            note E3
-            noteL E3, 12
             noteL E3, 6
-      sustain
-            note D4
-      setRelease 1
-            note E4
-            wait
-            noteL A3, 0
-      setSlide 8
-            noteL B3, 12
+    countedLoopEnd
+            noteL D2, 0
+      setSlide 10
+            noteL E2, 18
       noSlide
-            noteL D4, 6
-            note E4
+            noteL D3, 6
+            wait
+            note D3
+            note E3
+            wait
+            noteL E2, 18
+            note E2
+      sustain
+            noteL D3, 6
+      setRelease 1
+            note E3
+            note E2
+            note E2
+            noteL E2, 12
+            noteL E2, 6
+      sustain
+            note D3
+      setRelease 1
+            note E3
+            wait
+            noteL A2, 0
+      setSlide 8
+            noteL B2, 12
+      noSlide
+            noteL D3, 6
+            note E3
       setRelease 0
-            note A3
-            note D4
-            note G3
-            note D4
+            note A2
+            note D3
+            note G2
+            note D3
     mainLoopEnd
 Music_06_Channel_1:
       inst 19
@@ -99,8 +99,8 @@ Music_06_Channel_1:
       stereo 040h
             waitL 48
     mainLoopStart
-            noteL D3, 192
-            noteL Cs3, 192
+            noteL D2, 192
+            noteL Cs2, 192
     mainLoopEnd
 Music_06_Channel_2:
       inst 19
@@ -110,8 +110,8 @@ Music_06_Channel_2:
       stereo 080h
             waitL 48
     mainLoopStart
-            noteL A2, 192
-            noteL G2, 192
+            noteL A1, 192
+            noteL G1, 192
     mainLoopEnd
 Music_06_Channel_3:
       inst 19
@@ -121,7 +121,7 @@ Music_06_Channel_3:
       stereo 0c0h
             waitL 48
     mainLoopStart
-            noteL G3, 192
+            noteL G2, 192
     mainLoopEnd
 Music_06_Channel_4:
       vol 0
@@ -131,35 +131,35 @@ Music_06_Channel_4:
     mainLoopStart
       inst 41
       vol 12
-            noteL As3, 18
-            noteL As3, 12
-            noteL As3, 6
-            noteL As3, 12
+            noteL As2, 18
+            noteL As2, 12
+            noteL As2, 6
+            noteL As2, 12
       inst 40
       vol 12
-            noteL Fs3, 6
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
-            note Fs3
+            noteL Fs2, 6
+            note Fs2
+            note Fs2
+            note Fs2
+            note Fs2
+            note Fs2
+            note Fs2
+            note Fs2
+            note Fs2
+            note Fs2
+            note Fs2
+            note Fs2
+            note Fs2
+            note Fs2
+            note Fs2
+            note Fs2
+            note Fs2
+            note Fs2
+            note Fs2
       inst 41
       vol 12
-            noteL As3, 18
-            noteL As3, 12
+            noteL As2, 18
+            noteL As2, 12
     mainLoopEnd
 Music_06_Channel_5:
       stereo 0c0h

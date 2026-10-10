@@ -21,27 +21,27 @@ Music_15_Channel_0:
             waitL 95
     mainLoopStart
     countedLoopStart 8
-            noteL F3, 1
-            noteL F3, 5
+            noteL F2, 1
+            noteL F2, 5
             waitL 18
-            noteL F3, 1
-            noteL F3, 5
+            noteL F2, 1
+            noteL F2, 5
             waitL 18
-            noteL F3, 1
-            noteL F3, 5
+            noteL F2, 1
+            noteL F2, 5
             waitL 18
-            noteL F3, 1
-            noteL F3, 5
+            noteL F2, 1
+            noteL F2, 5
             waitL 18
     countedLoopEnd
-            noteL F3, 1
-            noteL F3, 5
+            noteL F2, 1
+            noteL F2, 5
             waitL 18
-            noteL F3, 1
-            noteL F3, 5
+            noteL F2, 1
+            noteL F2, 5
             waitL 18
-            noteL F3, 1
-            noteL F3, 5
+            noteL F2, 1
+            noteL F2, 5
             waitL 18
             waitL 6
             waitL 18
@@ -54,29 +54,29 @@ Music_15_Channel_1:
             waitL 95
     mainLoopStart
     countedLoopStart 8
-            noteL A2, 1
+            noteL A1, 1
       inst 44
       vol 11
-            noteL A2, 5
+            noteL A1, 5
             waitL 18
-            noteL A2, 1
-            noteL A2, 5
+            noteL A1, 1
+            noteL A1, 5
             waitL 18
-            noteL A2, 1
-            noteL A2, 5
+            noteL A1, 1
+            noteL A1, 5
             waitL 18
-            noteL A2, 1
-            noteL A2, 5
+            noteL A1, 1
+            noteL A1, 5
             waitL 18
     countedLoopEnd
-            noteL A2, 1
-            noteL A2, 5
+            noteL A1, 1
+            noteL A1, 5
             waitL 18
-            noteL A2, 1
-            noteL A2, 5
+            noteL A1, 1
+            noteL A1, 5
             waitL 18
-            noteL A2, 1
-            noteL A2, 5
+            noteL A1, 1
+            noteL A1, 5
             waitL 18
             waitL 24
     mainLoopEnd
@@ -85,246 +85,246 @@ Music_15_Channel_2:
       vibrato 02ah
       inst 46
       vol 13
-            noteL A3, 6
+            noteL A2, 6
       vol 8
-            note A3
-            noteL A3, 12
+            note A2
+            noteL A2, 12
       vol 13
-            note A3
+            note A2
       vol 8
-            note A3
+            note A2
       vol 13
-            note A3
+            note A2
       vol 8
-            note A3
-            noteL A3, 4
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
+            note A2
+            noteL A2, 4
+            note A2
+            note A2
+            note A2
+            note A2
+            note A2
     mainLoopStart
       vol 13
-            noteL A3, 6
+            noteL A2, 6
       vol 8
-            note A3
-            note A3
-            note A3
+            note A2
+            note A2
+            note A2
       vol 13
-            noteL A3, 12
-            noteL A3, 10
+            noteL A2, 12
+            noteL A2, 10
       vol 8
-            noteL A3, 1
-            note A3
+            noteL A2, 1
+            note A2
       vol 13
-            noteL A3, 22
+            noteL A2, 22
       vol 8
-            noteL A3, 1
-            note A3
+            noteL A2, 1
+            note A2
       vol 13
-            noteL A3, 4
+            noteL A2, 4
       vol 8
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
+            note A2
+            note A2
+            note A2
+            note A2
+            note A2
       vol 13
-            noteL A3, 22
+            noteL A2, 22
       vol 8
-            noteL A3, 1
-            note A3
+            noteL A2, 1
+            note A2
       vol 13
-            noteL A3, 22
+            noteL A2, 22
       vol 8
-            noteL A3, 1
-            note A3
+            noteL A2, 1
+            note A2
       vol 13
-            noteL A3, 12
+            noteL A2, 12
       vol 8
-            noteL A3, 4
-            note A3
-            note A3
+            noteL A2, 4
+            note A2
+            note A2
       vol 13
-            noteL A3, 12
+            noteL A2, 12
       vol 8
-            noteL A3, 4
-            note A3
-            note A3
+            noteL A2, 4
+            note A2
+            note A2
       vol 13
-            noteL A3, 6
+            noteL A2, 6
       vol 8
-            note A3
-            note A3
-            note A3
+            note A2
+            note A2
+            note A2
       vol 13
-            noteL A3, 12
-            noteL A3, 10
+            noteL A2, 12
+            noteL A2, 10
       vol 8
-            noteL A3, 1
-            note A3
+            noteL A2, 1
+            note A2
       vol 13
-            noteL A3, 22
+            noteL A2, 22
       vol 8
-            noteL A3, 1
-            note A3
+            noteL A2, 1
+            note A2
       vol 13
-            noteL A3, 4
+            noteL A2, 4
       vol 8
-            note A3
-            note A3
-            note A3
-            note A3
-            note A3
+            note A2
+            note A2
+            note A2
+            note A2
+            note A2
       vol 13
-            noteL A3, 22
+            noteL A2, 22
       vol 8
-            noteL A3, 1
-            note A3
+            noteL A2, 1
+            note A2
       vol 13
-            noteL A3, 22
+            noteL A2, 22
       vol 8
-            noteL A3, 1
-            note A3
+            noteL A2, 1
+            note A2
       vol 13
-            noteL A3, 12
+            noteL A2, 12
       vol 8
-            noteL A3, 4
-            note A3
-            note A3
+            noteL A2, 4
+            note A2
+            note A2
       vol 13
-            noteL A3, 12
+            noteL A2, 12
       vol 8
-            noteL A3, 4
-            note A3
-            note A3
+            noteL A2, 4
+            note A2
+            note A2
       vol 13
-            noteL A3, 6
+            noteL A2, 6
       vol 8
-            note A3
-            note A3
-            note A3
+            note A2
+            note A2
+            note A2
       vol 13
-            noteL A3, 12
+            noteL A2, 12
       vol 8
-            noteL A3, 10
-            noteL A3, 1
-            note A3
+            noteL A2, 10
+            noteL A2, 1
+            note A2
       vol 13
-            noteL E3, 22
+            noteL E2, 22
       vol 8
-            noteL E3, 1
-            note E3
+            noteL E2, 1
+            note E2
       vol 13
-            noteL E3, 4
+            noteL E2, 4
       vol 8
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
+            note E2
+            note E2
+            note E2
+            note E2
+            note E2
       vol 13
-            noteL E3, 22
+            noteL E2, 22
       vol 8
-            noteL E3, 1
-            note E3
+            noteL E2, 1
+            note E2
       vol 13
-            noteL E3, 22
+            noteL E2, 22
       vol 8
-            noteL E3, 1
-            note E3
+            noteL E2, 1
+            note E2
       vol 13
-            noteL E3, 12
+            noteL E2, 12
       vol 8
-            noteL E3, 4
-            note E3
-            note E3
+            noteL E2, 4
+            note E2
+            note E2
       vol 13
-            noteL E3, 12
+            noteL E2, 12
       vol 8
-            noteL E3, 4
-            note E3
-            note E3
+            noteL E2, 4
+            note E2
+            note E2
       vol 13
-            noteL E3, 6
+            noteL E2, 6
       vol 8
-            note E3
-            note E3
-            note E3
+            note E2
+            note E2
+            note E2
       vol 13
-            noteL E3, 12
+            noteL E2, 12
       vol 8
-            noteL E3, 10
-            noteL E3, 1
-            note E3
+            noteL E2, 10
+            noteL E2, 1
+            note E2
       vol 13
-            noteL E3, 22
+            noteL E2, 22
       vol 8
-            noteL E3, 1
-            note E3
+            noteL E2, 1
+            note E2
       vol 13
-            noteL E3, 4
+            noteL E2, 4
       vol 8
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
+            note E2
+            note E2
+            note E2
+            note E2
+            note E2
       vol 13
-            noteL E3, 22
+            noteL E2, 22
       vol 8
-            noteL E3, 1
-            note E3
+            noteL E2, 1
+            note E2
       vol 13
-            noteL E3, 4
+            noteL E2, 4
             waitL 18
       vol 8
-            noteL E3, 1
-            note E3
+            noteL E2, 1
+            note E2
       vol 13
-            noteL E3, 12
+            noteL E2, 12
       vol 8
-            noteL E3, 4
-            note E3
-            note E3
+            noteL E2, 4
+            note E2
+            note E2
       vol 13
-            noteL E3, 12
+            noteL E2, 12
       vol 8
-            noteL E3, 4
-            note E3
-            note E3
+            noteL E2, 4
+            note E2
+            note E2
       vol 13
-            noteL E3, 12
-            note E3
-            noteL E3, 4
+            noteL E2, 12
+            note E2
+            noteL E2, 4
       vol 8
-            note E3
-            note E3
-            note E3
-            note E3
-            noteL E3, 3
-            noteL E3, 1
+            note E2
+            note E2
+            note E2
+            note E2
+            noteL E2, 3
+            noteL E2, 1
       vol 13
-            noteL E3, 12
-            note E3
-            noteL E3, 4
+            noteL E2, 12
+            note E2
+            noteL E2, 4
       vol 8
-            note E3
-            note E3
-            note E3
-            note E3
-            note E3
+            note E2
+            note E2
+            note E2
+            note E2
+            note E2
       vol 13
-            noteL E3, 12
+            noteL E2, 12
       vol 8
-            noteL E3, 6
-            note E3
+            noteL E2, 6
+            note E2
       vol 13
-            noteL E3, 12
-            noteL E3, 24
+            noteL E2, 12
+            noteL E2, 24
       vol 13
-            noteL E3, 12
-            noteL E3, 24
+            noteL E2, 12
+            noteL E2, 24
     mainLoopEnd
 Music_15_Channel_4:
             waitL 2
@@ -335,27 +335,27 @@ Music_15_Channel_4:
             waitL 95
     mainLoopStart
     countedLoopStart 8
-            noteL F3, 1
-            noteL F3, 5
+            noteL F2, 1
+            noteL F2, 5
             waitL 18
-            noteL F3, 1
-            noteL F3, 5
+            noteL F2, 1
+            noteL F2, 5
             waitL 18
-            noteL F3, 1
-            noteL F3, 5
+            noteL F2, 1
+            noteL F2, 5
             waitL 18
-            noteL F3, 1
-            noteL F3, 5
+            noteL F2, 1
+            noteL F2, 5
             waitL 18
     countedLoopEnd
-            noteL F3, 1
-            noteL F3, 5
+            noteL F2, 1
+            noteL F2, 5
             waitL 18
-            noteL F3, 1
-            noteL F3, 5
+            noteL F2, 1
+            noteL F2, 5
             waitL 18
-            noteL F3, 1
-            noteL F3, 5
+            noteL F2, 1
+            noteL F2, 5
             waitL 18
             waitL 6
             waitL 18

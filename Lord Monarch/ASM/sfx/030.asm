@@ -11,8 +11,8 @@ Sfx_030_Channel_1:
       vibrato 00h
       stereo 0c0h
       setRelease 0
-            noteL C2, 4
-            note D2
-            noteL G2, 36
+            noteL C1, 4
+            note D1
+            noteL G1, 36
             waitL 16
     channel_end

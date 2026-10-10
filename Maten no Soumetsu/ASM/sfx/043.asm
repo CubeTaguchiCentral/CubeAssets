@@ -11,19 +11,19 @@ Sfx_043_Channel_1:
       vol 13
       setRelease 0
       vibrato 02ah
-            noteL B5, 6
-            note E5
-            note Fs5
-            note C5
-            note F5
+            noteL B4, 6
+            note E4
+            note Fs4
+            note C4
+            note F4
       vol 13
-            note F5
+            note F4
       vol 11
-            note F5
+            note F4
       vol 9
-            note F5
+            note F4
       vol 7
-            note F5
+            note F4
       vol 5
-            note F5
+            note F4
     channel_end

@@ -8,13 +8,13 @@ Sfx_089_Channel_0:
       vol 12
       setRelease 0
       vibrato 00h
-            noteL C2, 3
+            noteL C1, 3
       vol 11
-            note G3
+            note G2
       vol 10
-            note C3
+            note C2
       vol 13
-            noteL C2, 6
+            noteL C1, 6
     channel_end
 Sfx_089_Channel_1:
     channel_end

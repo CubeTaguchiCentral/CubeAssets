@@ -15,19 +15,19 @@ Sfx_046_Channel_0:
 Sfx_046_Channel_9:
       psgInst 01fh
       setRelease 0
-            psgNoteL C0, 3
-            psgNote F0
-            psgNote Fs0
+            psgNoteL 04h, 3
+            psgNote 05h
+            psgNote 06h
       psgInst 01bh
-            psgNote E0
-            psgNote F0
-            psgNote Fs0
+            psgNote 04h
+            psgNote 05h
+            psgNote 06h
       psgInst 019h
-            psgNote E0
-            psgNote F0
-            psgNote Fs0
+            psgNote 04h
+            psgNote 05h
+            psgNote 06h
       psgInst 015h
-            psgNote E0
-            psgNote F0
-            psgNote Fs0
+            psgNote 04h
+            psgNote 05h
+            psgNote 06h
     channel_end

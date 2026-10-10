@@ -10,16 +10,16 @@ Sfx_004_Channel_0:
       vibrato 04fh
       stereo 0c0h
       shifting 0
-            noteL Cs6, 5
+            noteL Cs5, 5
             waitL 1
       vol 9
-            noteL Cs6, 4
+            noteL Cs5, 4
             waitL 1
       vol 7
-            noteL Cs6, 3
+            noteL Cs5, 3
             waitL 1
       vol 6
-            noteL Cs6, 4
+            noteL Cs5, 4
             waitL 1
     channel_end
 Sfx_004_Channel_1:

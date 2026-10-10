@@ -19,7 +19,7 @@ Music_31_Channel_0:
       setRelease 2
       vibrato 00h
     mainLoopStart
-            noteL C2, 7
+            noteL C1, 7
     mainLoopEnd
 Music_31_Channel_1:
       inst 3
@@ -27,7 +27,7 @@ Music_31_Channel_1:
       setRelease 2
       vibrato 00h
     mainLoopStart
-            noteL Cs2, 8
+            noteL Cs1, 8
     mainLoopEnd
 Music_31_Channel_2:
       inst 3
@@ -35,7 +35,7 @@ Music_31_Channel_2:
       setRelease 2
       vibrato 00h
     mainLoopStart
-            noteL D2, 9
+            noteL D1, 9
     mainLoopEnd
 Music_31_Channel_3:
       stereo 080h
@@ -44,7 +44,7 @@ Music_31_Channel_3:
       setRelease 2
       vibrato 00h
     mainLoopStart
-            noteL D2, 7
+            noteL D1, 7
     mainLoopEnd
 Music_31_Channel_4:
       stereo 040h
@@ -53,7 +53,7 @@ Music_31_Channel_4:
       setRelease 2
       vibrato 00h
     mainLoopStart
-            noteL E2, 8
+            noteL E1, 8
     mainLoopEnd
 Music_31_Channel_5:
     channel_end

@@ -12,7 +12,7 @@ Sfx_004_Channel_1:
       setRelease 1
       vibrato 04ah
     countedLoopStart 22
-            noteL F5, 3
+            noteL F4, 3
     countedLoopEnd
             waitL 135
     mainLoopEnd

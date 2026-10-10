@@ -19,15 +19,15 @@ Music_19_Channel_0:
       setRelease 1
       vibrato 02ah
       stereo 0c0h
-            noteL G5, 24
+            noteL G4, 24
             waitL 12
-            note G5
-            noteL G5, 11
+            note G4
+            noteL G4, 11
             waitL 13
-            noteL E5, 24
+            noteL E4, 24
             waitL 12
-            noteL F5, 36
-            noteL Fs5, 144
+            noteL F4, 36
+            noteL Fs4, 144
     channel_end
 Music_19_Channel_1:
       inst 12
@@ -35,27 +35,27 @@ Music_19_Channel_1:
       setRelease 1
       vibrato 02ah
       stereo 080h
-            noteL E5, 48
+            noteL E4, 48
             waitL 24
-            note E5
+            note E4
             waitL 12
-            noteL Ds5, 36
-            noteL D5, 144
+            noteL Ds4, 36
+            noteL D4, 144
     channel_end
 Music_19_Channel_2:
       inst 29
       vol 11
       setRelease 1
       vibrato 02ah
-            noteL G3, 24
+            noteL G2, 24
             waitL 12
-            note G3
-            noteL G3, 11
+            note G2
+            noteL G2, 11
             waitL 13
-            noteL G3, 24
+            noteL G2, 24
             waitL 12
-            noteL A3, 36
-            noteL B3, 144
+            noteL A2, 36
+            noteL B2, 144
     channel_end
 Music_19_Channel_3:
       inst 12
@@ -63,12 +63,12 @@ Music_19_Channel_3:
       setRelease 1
       vibrato 02ah
       stereo 040h
-            noteL As4, 48
+            noteL As3, 48
             waitL 24
-            note As4
+            note As3
             waitL 12
-            noteL A4, 36
-            noteL A4, 144
+            noteL A3, 36
+            noteL A3, 144
     channel_end
 Music_19_Channel_4:
             waitL 15
@@ -77,15 +77,15 @@ Music_19_Channel_4:
       setRelease 1
       vibrato 02ah
       stereo 0c0h
-            noteL G5, 24
+            noteL G4, 24
             waitL 12
-            note G5
-            noteL G5, 11
+            note G4
+            noteL G4, 11
             waitL 13
-            noteL E5, 24
+            noteL E4, 24
             waitL 12
-            noteL F5, 36
-            noteL Fs5, 144
+            noteL F4, 36
+            noteL Fs4, 144
     channel_end
 Music_19_Channel_5:
             sampleL 0, 24

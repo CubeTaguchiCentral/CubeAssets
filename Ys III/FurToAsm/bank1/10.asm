@@ -18,25 +18,25 @@ Music_10_Channel_0:
       setSlide 21
       inst 16
       vol 15
-            noteL G4, 24
+            noteL G3, 24
       vibrato 011h
       noSlide
       vibrato 010h
     countedLoopStart 11
-            noteL G4, 6
+            noteL G3, 6
     countedLoopEnd
       sustain
-            note G4
-            note F4
-            note E4
-            note D4
-            note C4
-            note B3
-            note A3
-            noteL G3, 1
+            note G3
+            note F3
+            note E3
+            note D3
+            note C3
+            note B2
+            note A2
+            noteL G2, 1
       setRelease 1
       vibrato 00h
-            noteL G3, 47
+            noteL G2, 47
     channel_end
 Music_10_Channel_1:
       stereo 0c0h
@@ -45,25 +45,25 @@ Music_10_Channel_1:
             waitL 15
       setSlide 21
       vibrato 011h
-            noteL As4, 24
+            noteL As3, 24
       noSlide
       vibrato 010h
     countedLoopStart 11
-            noteL As4, 6
+            noteL As3, 6
     countedLoopEnd
       sustain
-            note As4
-            note Gs4
-            note G4
-            note F4
-            note Ds4
-            note D4
-            note C4
-            noteL As3, 0
+            note As3
+            note Gs3
+            note G3
+            note F3
+            note Ds3
+            note D3
+            note C3
+            noteL As2, 0
       setSlide 15
       setRelease 1
       vibrato 00h
-            noteL As2, 33
+            noteL As1, 33
     channel_end
 Music_10_Channel_2:
       stereo 0c0h
@@ -72,14 +72,14 @@ Music_10_Channel_2:
       vibrato 00h
       setRelease 1
     countedLoopStart 11
-            noteL C2, 12
+            noteL C1, 12
     countedLoopEnd
       vol 12
-            note C2
+            note C1
       vol 10
-            note C2
+            note C1
       vol 8
-            note C2
+            note C1
     channel_end
 Music_10_Channel_3:
       stereo 040h
@@ -88,26 +88,26 @@ Music_10_Channel_3:
       vol 15
             waitL 2
       setSlide 21
-            noteL G4, 24
+            noteL G3, 24
       vibrato 011h
       noSlide
       vibrato 010h
     countedLoopStart 11
-            noteL G4, 6
+            noteL G3, 6
     countedLoopEnd
       sustain
-            note G4
-            note F4
-            note E4
-            note D4
-            note C4
-            note B3
-            note A3
-            noteL G3, 0
+            note G3
+            note F3
+            note E3
+            note D3
+            note C3
+            note B2
+            note A2
+            noteL G2, 0
       setSlide 15
       setRelease 1
       vibrato 00h
-            noteL G2, 47
+            noteL G1, 47
     channel_end
 Music_10_Channel_4:
       stereo 0c0h
@@ -115,17 +115,17 @@ Music_10_Channel_4:
       vibrato 00h
       vol 10
     countedLoopStart 9
-            noteL C3, 12
+            noteL C2, 12
     countedLoopEnd
       vol 9
-            note C3
-            note C3
+            note C2
+            note C2
       vol 8
-            note C3
+            note C2
       vol 7
-            note C3
+            note C2
       vol 6
-            note C3
+            note C2
     channel_end
 Music_10_Channel_5:
     channel_end

@@ -12,7 +12,7 @@ Sfx_038_Channel_1:
       vibrato 0d0h
       setRelease 0
     repeatStart
-            noteL C2, 4
-            note E2
+            noteL C1, 4
+            note E1
     repeatEnd
     channel_end

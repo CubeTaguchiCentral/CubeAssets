@@ -16,7 +16,7 @@ Sfx_008_Channel_9:
       psgInst 0fh
       setRelease 0
     countedLoopStart 4
-            psgNoteL C0, 2
-            psgNoteL C0, 2
+            psgNoteL 04h, 2
+            psgNoteL 05h, 2
     countedLoopEnd
     channel_end

@@ -13,14 +13,14 @@ Sfx_016_Channel_1:
       vibrato 026h
       stereo 0c0h
       shifting 0
-            noteL Gs8, 5
+            noteL Gs7, 5
       vol 12
-            noteL Gs8, 5
+            noteL Gs7, 5
       vol 11
-            note Gs8
+            note Gs7
       vol 9
-            note Gs8
+            note Gs7
       vol 8
       setRelease 1
-            note Gs8
+            note Gs7
     channel_end

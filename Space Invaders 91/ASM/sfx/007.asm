@@ -17,10 +17,10 @@ Sfx_007_Channel_4:
       vibrato 010h
       setRelease 0
       vol 14
-            noteL Ds2, 4
+            noteL Ds1, 4
       inst 38
       vibrato 0d0h
-            note C4
-            note C4
-            noteL C4, 24
+            note C3
+            note C3
+            noteL C3, 24
     channel_end

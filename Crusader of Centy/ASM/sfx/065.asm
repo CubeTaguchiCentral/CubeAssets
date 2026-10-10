@@ -10,9 +10,9 @@ Sfx_065_Channel_1:
       vol 13
       vibrato 00h
       sustain
-            noteL D6, 1
+            noteL D5, 1
       setSlide 32
       setRelease 1
-            noteL A6, 6
+            noteL A5, 6
             waitL 24
     channel_end

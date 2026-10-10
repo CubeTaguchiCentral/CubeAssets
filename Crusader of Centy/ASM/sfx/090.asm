@@ -8,9 +8,9 @@ Sfx_090_Channel_0:
       vol 13
       setRelease 0
       vibrato 010h
-            noteL C2, 0
+            noteL C1, 0
       setSlide 9
-            noteL E2, 12
+            noteL E1, 12
       noSlide
             waitL 2
     channel_end

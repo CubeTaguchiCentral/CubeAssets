@@ -16,23 +16,23 @@ Sfx_056_Channel_8:
       psgInst 0dh
       vibrato 00h
       setRelease 0
-            psgNoteL C6, 2
-            psgNote A5
-            psgNote F5
+            psgNoteL C7, 2
+            psgNote A6
+            psgNote F6
       psgInst 0ah
-            psgNote C6
-            psgNote A5
-            psgNote F5
+            psgNote C7
+            psgNote A6
+            psgNote F6
       psgInst 08h
-            psgNote C6
-            psgNote A5
-            psgNote F5
+            psgNote C7
+            psgNote A6
+            psgNote F6
       psgInst 06h
-            psgNote C6
-            psgNote A5
-            psgNote F5
+            psgNote C7
+            psgNote A6
+            psgNote F6
       psgInst 03h
-            psgNote C6
-            psgNote A5
-            psgNote F5
+            psgNote C7
+            psgNote A6
+            psgNote F6
     channel_end

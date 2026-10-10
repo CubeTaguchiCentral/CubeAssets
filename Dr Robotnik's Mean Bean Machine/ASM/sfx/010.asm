@@ -9,14 +9,14 @@ Sfx_010_Channel_1:
       noSlide
       inst 59
       vol 0
-            noteL C2, 1
+            noteL C1, 1
       inst 51
       vol 13
       setRelease 1
       vibrato 04fh
       stereo 0c0h
       shifting 0
-            noteL B3, 0
+            noteL B2, 0
       setSlide 126
-            noteL C2, 4
+            noteL C1, 4
     channel_end

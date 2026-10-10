@@ -6,10 +6,10 @@ Sfx_046:
 Sfx_046_Channel_0:
       inst 67
       vol 12
-            note C2
+            note C1
       vibrato 0b0h
-            noteL Gs2, 6
-            noteL C3, 3
+            noteL Gs1, 6
+            noteL C2, 3
     channel_end
 Sfx_046_Channel_1:
     channel_end

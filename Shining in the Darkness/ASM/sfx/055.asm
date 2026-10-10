@@ -8,25 +8,25 @@ Sfx_055_Channel_0:
       vol 15
       setRelease 0
       vibrato 010h
-            noteL Fs2, 6
+            noteL Fs1, 6
       vol 13
-            noteL A2, 9
+            noteL A1, 9
       vol 11
-            noteL E2, 7
+            noteL E1, 7
       vol 10
-            noteL D2, 8
-            note A2
+            noteL D1, 8
+            note A1
       vol 9
-            noteL F2, 5
-            noteL E2, 7
+            noteL F1, 5
+            noteL E1, 7
       vol 8
-            noteL A2, 6
-            noteL Fs2, 5
-            noteL D2, 7
+            noteL A1, 6
+            noteL Fs1, 5
+            noteL D1, 7
       vol 6
     countedLoopStart 3
-            noteL D2, 2
-            noteL E2, 3
+            noteL D1, 2
+            noteL E1, 3
     countedLoopEnd
     channel_end
 Sfx_055_Channel_1:
@@ -34,25 +34,25 @@ Sfx_055_Channel_1:
       vol 15
       setRelease 0
       vibrato 010h
-            noteL E2, 9
+            noteL E1, 9
       vol 13
-            noteL G2, 8
+            noteL G1, 8
       vol 11
-            noteL D2, 9
+            noteL D1, 9
       vol 10
-            noteL C2, 7
-            noteL Fs2, 8
+            noteL C1, 7
+            noteL Fs1, 8
       vol 9
-            noteL D2, 6
-            noteL Cs2, 7
+            noteL D1, 6
+            noteL Cs1, 7
       vol 8
-            noteL F2, 5
-            noteL D2, 7
-            noteL Ds2, 6
+            noteL F1, 5
+            noteL D1, 7
+            noteL Ds1, 6
       vol 7
     countedLoopStart 2
-            noteL Ds2, 2
-            note F2
+            noteL Ds1, 2
+            note F1
     countedLoopEnd
     channel_end
 Sfx_055_Channel_2:

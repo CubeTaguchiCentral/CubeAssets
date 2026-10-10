@@ -8,25 +8,25 @@ Sfx_048_Channel_0:
       vol 15
       setRelease 0
       vibrato 00h
-            noteL F6, 2
+            noteL F5, 2
             wait
       sustain
-            noteL F6, 5
+            noteL F5, 5
       vol 14
-            noteL F6, 3
+            noteL F5, 3
       vol 13
-            note F6
+            note F5
       vol 12
-            note F6
+            note F5
       vol 11
-            note F6
+            note F5
       vol 10
-            note F6
+            note F5
       vol 9
-            note F6
+            note F5
       setRelease 0
       vol 8
-            noteL F6, 1
+            noteL F5, 1
     channel_end
 Sfx_048_Channel_1:
     channel_end

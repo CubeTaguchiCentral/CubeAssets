@@ -11,7 +11,7 @@ Sfx_022_Channel_1:
       setRelease 0
       vibrato 00h
       stereo 0c0h
-            noteL C2, 2
-            noteL C2, 4
-            noteL D2, 90
+            noteL C1, 2
+            noteL C1, 4
+            noteL D1, 90
     channel_end

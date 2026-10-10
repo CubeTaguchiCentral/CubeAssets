@@ -19,10 +19,10 @@ Music_18_Channel_0:
       vol 10
       setRelease 1
       vibrato 05ah
-            noteL As3, 96
-            noteL F3, 192
-            noteL As3, 96
-            noteL F3, 192
+            noteL As2, 96
+            noteL F2, 192
+            noteL As2, 96
+            noteL F2, 192
     channel_end
 Music_18_Channel_1:
       stereo 0c0h
@@ -30,10 +30,10 @@ Music_18_Channel_1:
       vol 10
       setRelease 1
       vibrato 05ah
-            noteL Ds3, 96
-            noteL As2, 192
-            noteL Ds3, 96
-            noteL As2, 192
+            noteL Ds2, 96
+            noteL As1, 192
+            noteL Ds2, 96
+            noteL As1, 192
     channel_end
 Music_18_Channel_2:
       stereo 0c0h
@@ -42,10 +42,10 @@ Music_18_Channel_2:
       vol 7
       setRelease 1
       vibrato 05ah
-            noteL As3, 96
-            noteL F3, 192
-            noteL As3, 96
-            noteL F3, 192
+            noteL As2, 96
+            noteL F2, 192
+            noteL As2, 96
+            noteL F2, 192
     channel_end
 Music_18_Channel_3:
       stereo 0c0h
@@ -54,10 +54,10 @@ Music_18_Channel_3:
       vol 7
       setRelease 1
       vibrato 05ah
-            noteL Ds3, 96
-            noteL As2, 192
-            noteL Ds3, 96
-            noteL As2, 192
+            noteL Ds2, 96
+            noteL As1, 192
+            noteL Ds2, 96
+            noteL As1, 192
     channel_end
 Music_18_Channel_4:
       stereo 0c0h
@@ -67,8 +67,8 @@ Music_18_Channel_4:
       vol 9
       setRelease 1
       vibrato 05ah
-            note As3
-            noteL F3, 192
+            note As2
+            noteL F2, 192
     channel_end
 Music_18_Channel_5:
     channel_end

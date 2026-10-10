@@ -12,13 +12,13 @@ Sfx_014_Channel_1:
       setRelease 1
       vibrato 02ah
       stereo 0c0h
-            noteL C8, 3
+            noteL C7, 3
       stereo 080h
-            note C8
+            note C7
       stereo 0c0h
-            note C8
+            note C7
       stereo 040h
-            note C8
+            note C7
       stereo 0c0h
-            noteL C8, 12
+            noteL C7, 12
     channel_end

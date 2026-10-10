@@ -7,28 +7,28 @@ Sfx_046_Channel_0:
       noSlide
       inst 59
       vol 0
-            noteL C2, 1
+            noteL C1, 1
       inst 123
       vol 15
-            noteL G2, 4
+            noteL G1, 4
       inst 132
       vol 15
       setRelease 1
       vibrato 04fh
       stereo 0c0h
       shifting 0
-            noteL C2, 0
+            noteL C1, 0
       setSlide 96
-            noteL E3, 8
+            noteL E2, 8
       setSlide 4
-            noteL C3, 52
+            noteL C2, 52
       noSlide
     channel_end
 Sfx_046_Channel_1:
       noSlide
       inst 59
       vol 0
-            noteL C2, 1
+            noteL C1, 1
             waitL 7
       shifting 112
       inst 122
@@ -37,9 +37,9 @@ Sfx_046_Channel_1:
       vibrato 04fh
       stereo 0c0h
       shifting 0
-            noteL E2, 0
+            noteL E1, 0
       setSlide 4
-            noteL C0, 60
+            noteL C8, 60
             waitL 15
       noSlide
     channel_end

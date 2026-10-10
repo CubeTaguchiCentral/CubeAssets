@@ -20,17 +20,17 @@ Music_16_Channel_0:
       noSlide
       vibrato 02ah
       stereo 0c0h
-            noteL C6, 18
-            noteL B5, 3
+            noteL C5, 18
+            noteL B4, 3
             wait
-            noteL C6, 4
+            noteL C5, 4
             waitL 8
-            noteL D6, 4
+            noteL D5, 4
             waitL 8
-            noteL E6, 6
-            note G5
-            note C6
-            noteL E6, 30
+            noteL E5, 6
+            note G4
+            note C5
+            noteL E5, 30
     channel_end
 Music_16_Channel_1:
             waitL 12
@@ -40,17 +40,17 @@ Music_16_Channel_1:
       noSlide
       vibrato 02ah
       stereo 080h
-            noteL C6, 18
-            noteL B5, 3
+            noteL C5, 18
+            noteL B4, 3
             wait
-            noteL C6, 4
+            noteL C5, 4
             waitL 8
-            noteL D6, 4
+            noteL D5, 4
             waitL 8
-            noteL E6, 6
-            note G5
-            note C6
-            noteL E6, 30
+            noteL E5, 6
+            note G4
+            note C5
+            noteL E5, 30
     channel_end
 Music_16_Channel_2:
             waitL 24
@@ -60,17 +60,17 @@ Music_16_Channel_2:
       noSlide
       vibrato 02ah
       stereo 040h
-            noteL C6, 18
-            noteL B5, 3
+            noteL C5, 18
+            noteL B4, 3
             wait
-            noteL C6, 4
+            noteL C5, 4
             waitL 8
-            noteL D6, 4
+            noteL D5, 4
             waitL 8
-            noteL E6, 6
-            note G5
-            note C6
-            noteL E6, 30
+            noteL E5, 6
+            note G4
+            note C5
+            noteL E5, 30
     channel_end
 Music_16_Channel_3:
             waitL 16
@@ -80,17 +80,17 @@ Music_16_Channel_3:
       noSlide
       vibrato 02ah
       stereo 0c0h
-            noteL C6, 18
-            noteL B5, 3
+            noteL C5, 18
+            noteL B4, 3
             wait
-            noteL C6, 4
+            noteL C5, 4
             waitL 8
-            noteL D6, 4
+            noteL D5, 4
             waitL 8
-            noteL E6, 6
-            note G5
-            note C6
-            noteL E6, 30
+            noteL E5, 6
+            note G4
+            note C5
+            noteL E5, 30
     channel_end
 Music_16_Channel_4:
     channel_end

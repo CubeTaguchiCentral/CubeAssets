@@ -11,5 +11,5 @@ Sfx_003_Channel_1:
       vol 12
       setRelease 0
       vibrato 02ah
-            noteL C2, 12
+            noteL C1, 12
     mainLoopEnd

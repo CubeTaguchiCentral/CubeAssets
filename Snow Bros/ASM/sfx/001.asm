@@ -13,18 +13,18 @@ Sfx_001_Channel_1:
       vibrato 04ah
       stereo 0c0h
     countedLoopStart 1
-            noteL F7, 5
-            note A7
-            note C8
+            noteL F6, 5
+            note A6
+            note C7
     countedLoopEnd
-            noteL F7, 5
-            note A7
-            noteL C8, 7
+            noteL F6, 5
+            note A6
+            noteL C7, 7
       setRelease 2
       vol 10
-            note C8
+            note C7
       vol 8
-            note C8
+            note C7
       vol 4
-            note C8
+            note C7
     channel_end

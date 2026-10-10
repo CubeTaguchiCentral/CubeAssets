@@ -10,18 +10,18 @@ Sfx_009_Channel_1:
       vol 15
       vibrato 0f0h
       sustain
-            noteL B2, 6
-            note As2
-            note A2
+            noteL B1, 6
+            note As1
+            note A1
       vol 13
-            noteL G2, 4
+            noteL G1, 4
       vol 12
-            note G2
+            note G1
       vol 11
-            note G2
+            note G1
       vol 10
-            note G2
+            note G1
       vol 9
       setRelease 1
-            note G2
+            note G1
     channel_end

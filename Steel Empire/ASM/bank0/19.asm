@@ -20,26 +20,26 @@ Music_19_Channel_0:
       noSlide
       vibrato 02ah
       stereo 0c0h
-            noteL E5, 6
-            note Fs5
-            note G5
-            note E5
-            note G5
-            note A5
-            note E5
-            note A5
-            note B5
-            note E5
-            note C6
-            note B5
-            note A5
-            note G5
-            note Fs5
-            note E5
-            note Fs5
-            note E5
-            note D5
-            noteL Cs5, 78
+            noteL E4, 6
+            note Fs4
+            note G4
+            note E4
+            note G4
+            note A4
+            note E4
+            note A4
+            note B4
+            note E4
+            note C5
+            note B4
+            note A4
+            note G4
+            note Fs4
+            note E4
+            note Fs4
+            note E4
+            note D4
+            noteL Cs4, 78
     channel_end
 Music_19_Channel_1:
       inst 39
@@ -48,18 +48,18 @@ Music_19_Channel_1:
       vibrato 02ah
     countedLoopStart 5
       stereo 040h
-            noteL Fs6, 3
+            noteL Fs5, 3
             waitL 5
       stereo 080h
-            noteL Fs6, 3
+            noteL Fs5, 3
             waitL 5
     countedLoopEnd
     countedLoopStart 5
       stereo 040h
-            noteL F6, 3
+            noteL F5, 3
             waitL 5
       stereo 080h
-            noteL F6, 3
+            noteL F5, 3
             waitL 5
     countedLoopEnd
     channel_end
@@ -70,11 +70,11 @@ Music_19_Channel_2:
       noSlide
       vibrato 02ah
       stereo 0c0h
-            noteL D3, 96
-            note Cs3
-            noteL Cs3, 6
+            noteL D2, 96
+            note Cs2
+            noteL Cs2, 6
             wait
-            note Cs3
+            note Cs2
             wait
     channel_end
 Music_19_Channel_3:
@@ -87,26 +87,26 @@ Music_19_Channel_4:
       noSlide
       vibrato 02ah
       stereo 0c0h
-            noteL E5, 6
-            note Fs5
-            note G5
-            note E5
-            note G5
-            note A5
-            note E5
-            note A5
-            note B5
-            note E5
-            note C6
-            note B5
-            note A5
-            note G5
-            note Fs5
-            note E5
-            note Fs5
-            note E5
-            note D5
-            noteL Cs5, 78
+            noteL E4, 6
+            note Fs4
+            note G4
+            note E4
+            note G4
+            note A4
+            note E4
+            note A4
+            note B4
+            note E4
+            note C5
+            note B4
+            note A4
+            note G4
+            note Fs4
+            note E4
+            note Fs4
+            note E4
+            note D4
+            noteL Cs4, 78
     channel_end
 Music_19_Channel_5:
       stereo 0c0h

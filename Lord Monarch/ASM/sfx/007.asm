@@ -8,17 +8,17 @@ Sfx_007_Channel_0:
       vol 15
       vibrato 010h
       setRelease 0
-            noteL C2, 10
+            noteL C1, 10
     mainLoopStart
-            noteL Cs2, 7
-            noteL Ds2, 8
-            noteL C2, 11
-            noteL Ds2, 7
-            noteL Cs2, 8
-            noteL Ds2, 6
-            noteL C2, 7
-            noteL D2, 8
-            noteL F2, 6
+            noteL Cs1, 7
+            noteL Ds1, 8
+            noteL C1, 11
+            noteL Ds1, 7
+            noteL Cs1, 8
+            noteL Ds1, 6
+            noteL C1, 7
+            noteL D1, 8
+            noteL F1, 6
     mainLoopEnd
 Sfx_007_Channel_1:
       inst 64
@@ -26,21 +26,21 @@ Sfx_007_Channel_1:
       shifting 32
       vibrato 010h
       setRelease 0
-            noteL Ds2, 11
+            noteL Ds1, 11
     mainLoopStart
       stereo 040h
-            noteL E2, 11
+            noteL E1, 11
       stereo 080h
-            noteL Cs2, 12
+            noteL Cs1, 12
       stereo 040h
-            noteL D2, 15
+            noteL D1, 15
       stereo 080h
-            noteL Ds2, 12
+            noteL Ds1, 12
       stereo 040h
-            noteL D2, 11
+            noteL D1, 11
       stereo 080h
-            noteL E2, 6
-            noteL Cs2, 10
+            noteL E1, 6
+            noteL Cs1, 10
     mainLoopEnd
 Sfx_007_Channel_2:
     channel_end

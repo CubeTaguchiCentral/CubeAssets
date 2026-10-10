@@ -18,15 +18,15 @@ Music_13_Channel_0:
       inst 8
       vol 12
       vibrato 05ah
-            noteL A3, 6
-            note As3
-            note B3
+            noteL A2, 6
+            note As2
+            note B2
       sustain
-            noteL C4, 144
-            note C4
-            note C4
+            noteL C3, 144
+            note C3
+            note C3
       vibrato 00h
-            noteL C4, 200
+            noteL C3, 200
     channel_end
 Music_13_Channel_1:
       stereo 040h
@@ -37,19 +37,19 @@ Music_13_Channel_1:
       vol 10
       setRelease 1
       vibrato 05ch
-            noteL C6, 6
-            note B5
-            note As5
+            noteL C5, 6
+            note B4
+            note As4
       sustain
-            noteL A5, 255
+            noteL A4, 255
       setRelease 1
             waitL 15
       inst 8
       vol 11
-            noteL C6, 6
-            note B5
-            note As5
-            noteL A5, 200
+            noteL C5, 6
+            note B4
+            note As4
+            noteL A4, 200
     channel_end
 Music_13_Channel_2:
       stereo 080h
@@ -58,13 +58,13 @@ Music_13_Channel_2:
             waitL 162
             waitL 126
       vibrato 05ch
-            noteL A5, 6
-            note As5
-            note B5
+            noteL A4, 6
+            note As4
+            note B4
       sustain
-            noteL C6, 144
+            noteL C5, 144
       vibrato 00h
-            noteL C6, 200
+            noteL C5, 200
     channel_end
 Music_13_Channel_3:
       stereo 0c0h
@@ -72,27 +72,27 @@ Music_13_Channel_3:
       vol 12
       setRelease 1
       vibrato 05ah
+            noteL A2, 6
+            note As2
+            note B2
+      sustain
+      inst 2
+      vol 12
+            noteL C2, 255
+      setRelease 1
+            waitL 15
+      inst 26
+      vol 12
             noteL A3, 6
             note As3
             note B3
       sustain
       inst 2
-      vol 12
+      vol 11
             noteL C3, 255
       setRelease 1
-            waitL 15
-      inst 26
-      vol 12
-            noteL A4, 6
-            note As4
-            note B4
-      sustain
-      inst 2
-      vol 11
-            noteL C4, 255
-      setRelease 1
       vibrato 00h
-            noteL C4, 89
+            noteL C3, 89
     channel_end
 Music_13_Channel_4:
       stereo 040h
@@ -101,31 +101,31 @@ Music_13_Channel_4:
       vol 9
             waitL 6
       vibrato 05ah
-            note A3
-            note As3
-            note B3
-            noteL C4, 126
+            note A2
+            note As2
+            note B2
+            noteL C3, 126
       stereo 080h
       inst 15
       vol 7
-            noteL C6, 6
-            note B5
-            note As5
-            noteL A5, 126
+            noteL C5, 6
+            note B4
+            note As4
+            noteL A4, 126
       stereo 040h
       inst 6
       vol 7
-            noteL A5, 6
-            note As5
-            note B5
-            noteL C6, 126
+            noteL A4, 6
+            note As4
+            note B4
+            noteL C5, 126
       stereo 080h
       inst 8
       vol 6
-            noteL C6, 6
-            note B5
-            note As5
-            noteL A5, 194
+            noteL C5, 6
+            note B4
+            note As4
+            noteL A4, 194
     channel_end
 Music_13_Channel_5:
     channel_end

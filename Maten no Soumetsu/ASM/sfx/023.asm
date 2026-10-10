@@ -10,8 +10,8 @@ Sfx_023_Channel_1:
       vol 15
       setRelease 0
       vibrato 02ah
-            noteL C2, 0
+            noteL C1, 0
       setSlide 25
-            noteL C4, 96
+            noteL C3, 96
       noSlide
     channel_end

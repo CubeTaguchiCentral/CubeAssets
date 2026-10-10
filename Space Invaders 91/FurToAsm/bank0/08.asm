@@ -21,38 +21,38 @@ Music_08_Channel_0:
       vibrato 05ah
       setRelease 1
     countedLoopStart 23
-            noteL C3, 12
-            note C3
+            noteL C2, 12
+            note C2
     countedLoopEnd
     countedLoopStart 7
-            noteL F2, 12
+            noteL F1, 12
     countedLoopEnd
     countedLoopStart 5
-            noteL Gs2, 12
+            noteL Gs1, 12
     countedLoopEnd
-            noteL As2, 24
+            noteL As1, 24
     countedLoopStart 31
-            noteL C3, 12
+            noteL C2, 12
     countedLoopEnd
     countedLoopStart 23
-            noteL F2, 12
+            noteL F1, 12
     countedLoopEnd
     countedLoopStart 5
-            noteL Gs2, 12
+            noteL Gs1, 12
     countedLoopEnd
-            noteL As2, 24
+            noteL As1, 24
     countedLoopStart 31
-            noteL C3, 12
+            noteL C2, 12
     countedLoopEnd
-            noteL Gs2, 108
+            noteL Gs1, 108
     countedLoopStart 4
-            noteL Gs2, 12
+            noteL Gs1, 12
     countedLoopEnd
       vol 13
-            noteL Gs2, 8
-            note Gs2
-            note Gs2
-            noteL C2, 48
+            noteL Gs1, 8
+            note Gs1
+            note Gs1
+            noteL C1, 48
     channel_end
 Music_08_Channel_1:
       stereo 0c0h
@@ -61,50 +61,50 @@ Music_08_Channel_1:
       vol 10
       setRelease 1
       vibrato 05ah
-            note C5
-            note C5
-            note C5
-            note As4
-            note A4
-            note As4
-            note A4
-            noteL C5, 72
-            noteL D5, 24
-            noteL E5, 60
-            noteL F5, 12
-            note E5
-            note C5
-            noteL D5, 96
-            noteL C5, 84
-            noteL As4, 6
-            note C5
-            noteL As4, 96
-            note A4
-            noteL As4, 84
-            noteL A4, 6
-            note G4
-            noteL A4, 72
-            noteL F4, 24
+            note C4
+            note C4
+            note C4
+            note As3
+            note A3
+            note As3
+            note A3
+            noteL C4, 72
+            noteL D4, 24
+            noteL E4, 60
+            noteL F4, 12
+            note E4
+            note C4
+            noteL D4, 96
+            noteL C4, 84
+            noteL As3, 6
+            note C4
+            noteL As3, 96
+            note A3
+            noteL As3, 84
+            noteL A3, 6
+            note G3
+            noteL A3, 72
+            noteL F3, 24
             waitL 12
-            note C5
-            note C5
-            noteL C5, 36
-            noteL D5, 24
-            noteL E5, 96
-            noteL As4, 60
-            noteL C5, 12
-            noteL D5, 24
-            noteL E5, 84
-            noteL C5, 12
-            noteL As4, 36
-            noteL C5, 24
-            noteL D5, 12
-            note E5
-            note F5
-            noteL G5, 176
-            noteL F5, 8
-            note Ds5
-            noteL C5, 48
+            note C4
+            note C4
+            noteL C4, 36
+            noteL D4, 24
+            noteL E4, 96
+            noteL As3, 60
+            noteL C4, 12
+            noteL D4, 24
+            noteL E4, 84
+            noteL C4, 12
+            noteL As3, 36
+            noteL C4, 24
+            noteL D4, 12
+            note E4
+            note F4
+            noteL G4, 176
+            noteL F4, 8
+            note Ds4
+            noteL C4, 48
     channel_end
 Music_08_Channel_2:
       stereo 0c0h
@@ -113,43 +113,43 @@ Music_08_Channel_2:
       vol 10
       setRelease 1
       vibrato 05ah
-            note E4
-            note F4
-            note E4
-            note D4
-            note C4
-            note D4
-            note C4
-            noteL Ds4, 72
-            noteL F4, 24
-            noteL G4, 96
-            note F4
-            note E4
-            note D4
-            note C4
-            note D4
-            noteL C4, 72
-            noteL C4, 24
+            note E3
+            note F3
+            note E3
+            note D3
+            note C3
+            note D3
+            note C3
+            noteL Ds3, 72
+            noteL F3, 24
+            noteL G3, 96
+            note F3
+            note E3
+            note D3
+            note C3
+            note D3
+            noteL C3, 72
+            noteL C3, 24
             waitL 12
-            note Ds4
-            note Ds4
-            noteL Ds4, 36
-            noteL F4, 24
-            noteL G4, 96
-            noteL D4, 60
-            noteL E4, 12
-            noteL F4, 24
-            noteL G4, 84
-            noteL E4, 12
-            noteL D4, 36
-            noteL E4, 24
-            noteL F4, 12
-            note G4
-            note A4
-            noteL Ds5, 176
-            noteL F4, 8
-            note Ds4
-            noteL C4, 48
+            note Ds3
+            note Ds3
+            noteL Ds3, 36
+            noteL F3, 24
+            noteL G3, 96
+            noteL D3, 60
+            noteL E3, 12
+            noteL F3, 24
+            noteL G3, 84
+            noteL E3, 12
+            noteL D3, 36
+            noteL E3, 24
+            noteL F3, 12
+            note G3
+            note A3
+            noteL Ds4, 176
+            noteL F3, 8
+            note Ds3
+            noteL C3, 48
     channel_end
 Music_08_Channel_3:
       stereo 080h
@@ -157,33 +157,33 @@ Music_08_Channel_3:
       inst 8
       vol 10
       setRelease 1
-            noteL C4, 36
+            noteL C3, 36
       vibrato 05ah
     countedLoopStart 3
-            noteL C5, 24
-            noteL C6, 36
+            noteL C4, 24
+            noteL C5, 36
             waitL 96
       stereo 040h
-            noteL C4, 36
-            noteL C5, 24
-            noteL C6, 36
+            noteL C3, 36
+            noteL C4, 24
+            noteL C5, 36
             waitL 96
       stereo 080h
-            noteL C4, 36
+            noteL C3, 36
     countedLoopEnd
-            noteL C5, 24
-            noteL C6, 36
+            noteL C4, 24
+            noteL C5, 36
             waitL 96
       stereo 040h
-            noteL C4, 36
-            noteL C5, 24
-            noteL C6, 36
+            noteL C3, 36
+            noteL C4, 24
+            noteL C5, 36
             waitL 96
       stereo 0c0h
-            noteL Gs4, 36
-            noteL C5, 24
-            note C6
-            noteL C7, 108
+            noteL Gs3, 36
+            noteL C4, 24
+            note C5
+            noteL C6, 108
             waitL 96
     channel_end
 Music_08_Channel_4:
@@ -196,85 +196,85 @@ Music_08_Channel_4:
       inst 18
       vol 12
       vibrato 05eh
-            note G4
+            note G3
+            noteL D4, 36
+            noteL C4, 60
+            noteL F4, 36
+            noteL E4, 60
             noteL D5, 36
-            noteL C5, 60
-            noteL F5, 36
-            noteL E5, 60
-            noteL D6, 36
-            note C6
-            noteL C6, 18
+            note C5
+            noteL C5, 18
       sustain
-            noteL D6, 2
-            note E6
-            note G6
-            noteL C7, 255
+            noteL D5, 2
+            note E5
+            note G5
+            noteL C6, 255
             waitL 129
             waitL 12
       vol 13
       setRelease 1
+            note G3
+            note C4
+            note D4
+            note F4
+            note E4
+            note C4
+            noteL D4, 10
+      sustain
+            noteL F4, 4
+            note Fs4
+      setRelease 2
+            noteL G4, 66
+      setRelease 1
+            noteL F4, 24
+            noteL E4, 12
             note G4
             note C5
             note D5
             note F5
             note E5
             note C5
-            noteL D5, 10
+            note D5
       sustain
             noteL F5, 4
             note Fs5
       setRelease 2
-            noteL G5, 66
+            noteL G5, 28
       setRelease 1
-            noteL F5, 24
-            noteL E5, 12
-            note G5
-            note C6
-            note D6
-            note F6
-            note E6
-            note C6
-            note D6
-      sustain
-            noteL F6, 4
-            note Fs6
-      setRelease 2
-            noteL G6, 28
-      setRelease 1
-            noteL F6, 12
-            note E6
-            noteL C6, 8
+            noteL F5, 12
+            note E5
+            noteL C5, 8
             waitL 4
       sustain
-            note C6
-            note D6
-            note E6
-            note F6
-            note G6
-            note A6
+            note C5
+            note D5
+            note E5
+            note F5
+            note G5
+            note A5
       setRelease 1
-            noteL As6, 96
-            noteL As4, 6
-            note Gs4
+            noteL As5, 96
+            noteL As3, 6
+            note Gs3
+            note As3
+            note C4
+            note Cs4
+            note C4
+            note F4
+            note G4
+            noteL Gs4, 4
             note As4
             note C5
             note Cs5
-            note C5
+            note Ds5
             note F5
             note G5
-            noteL Gs5, 4
+            note Gs5
             note As5
             note C6
-            note Cs6
             note Ds6
-            note F6
             note G6
-            note Gs6
-            note As6
-            note C7
-            note Ds7
-            note G7
-            noteL C8, 48
+            noteL C7, 48
     channel_end
 Music_08_Channel_5:
             waitL 96
@@ -317,19 +317,19 @@ Music_08_Channel_6:
             waitL 96
       psgInst 0bh
       setRelease 1
-            psgNote G2
+            psgNote G3
       vibrato 04eh
-            psgNoteL D3, 36
-            psgNoteL C3, 60
-            psgNoteL F3, 36
-            psgNoteL E3, 60
             psgNoteL D4, 36
-            psgNote C4
-            psgNoteL C4, 18
+            psgNoteL C4, 60
+            psgNoteL F4, 36
+            psgNoteL E4, 60
+            psgNoteL D5, 36
+            psgNote C5
+            psgNoteL C5, 18
       sustain
-            psgNoteL D4, 2
-            psgNote E4
-            psgNote G4
+            psgNoteL D5, 2
+            psgNote E5
+            psgNote G5
     channel_end
 Music_08_Channel_7:
     channel_end
@@ -337,7 +337,7 @@ Music_08_Channel_8:
       psgInst 00h
       setRelease 96
       vibrato 00h
-            psgNoteL C1, 96
+            psgNoteL Ds1, 96
     channel_end
 Music_08_Channel_9:
     channel_end

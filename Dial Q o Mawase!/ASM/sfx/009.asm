@@ -11,5 +11,5 @@ Sfx_009_Channel_1:
       vol 15
       setRelease 1
       vibrato 04ah
-            noteL G4, 4
+            noteL G3, 4
     mainLoopEnd

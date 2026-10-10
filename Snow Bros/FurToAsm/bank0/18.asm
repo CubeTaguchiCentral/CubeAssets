@@ -20,20 +20,20 @@ Music_18_Channel_0:
       setSlide 17
       inst 24
       vol 14
-            noteL B2, 48
+            noteL B1, 48
       vibrato 05ah
       noSlide
             waitL 24
-            noteL Gs3, 6
+            noteL Gs2, 6
             wait
-            noteL Gs3, 7
+            noteL Gs2, 7
             waitL 10
       sustain
-            noteL Gs3, 24
+            noteL Gs2, 24
       setSlide 81
       setRelease 1
       vibrato 00h
-            noteL B2, 68
+            noteL B1, 68
       noSlide
             wait
     channel_end
@@ -43,20 +43,20 @@ Music_18_Channel_1:
       inst 25
       vol 15
       setRelease 1
-            noteL A3, 48
+            noteL A2, 48
       vibrato 05ah
       noSlide
             waitL 24
-            noteL A5, 6
+            noteL A4, 6
             wait
-            noteL A5, 7
+            noteL A4, 7
             waitL 10
       sustain
-            noteL A5, 24
+            noteL A4, 24
       setSlide 81
       setRelease 1
       vibrato 00h
-            noteL C2, 68
+            noteL C1, 68
       noSlide
             wait
     channel_end
@@ -67,20 +67,20 @@ Music_18_Channel_2:
       inst 24
       vol 14
       setRelease 1
-            noteL A2, 48
+            noteL A1, 48
       vibrato 05ah
       noSlide
             waitL 24
-            noteL A3, 6
+            noteL A2, 6
             wait
-            noteL A3, 7
+            noteL A2, 7
             waitL 10
       sustain
-            noteL A3, 24
+            noteL A2, 24
       setSlide 81
       setRelease 1
       vibrato 00h
-            noteL C2, 68
+            noteL C1, 68
       noSlide
             wait
     channel_end
@@ -89,21 +89,21 @@ Music_18_Channel_3:
       inst 29
       vol 14
       vibrato 059h
-            noteL A2, 1
+            noteL A1, 1
       setRelease 1
-            noteL A2, 47
+            noteL A1, 47
             waitL 24
-            noteL A2, 6
+            noteL A1, 6
             wait
-            noteL A2, 7
+            noteL A1, 7
             waitL 10
       sustain
       vibrato 05ah
-            noteL A2, 24
+            noteL A1, 24
       setSlide 81
       setRelease 1
       vibrato 00h
-            noteL C2, 68
+            noteL C1, 68
       noSlide
             wait
     channel_end
@@ -114,20 +114,20 @@ Music_18_Channel_4:
       inst 24
       vol 11
       setRelease 1
-            noteL A2, 48
+            noteL A1, 48
       vibrato 05ah
       noSlide
             waitL 24
-            noteL A3, 6
+            noteL A2, 6
             wait
-            noteL A3, 7
+            noteL A2, 7
             waitL 10
       sustain
-            noteL A3, 24
+            noteL A2, 24
       setSlide 81
       setRelease 1
       vibrato 00h
-            noteL C2, 68
+            noteL C1, 68
       noSlide
             wait
     channel_end

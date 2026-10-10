@@ -17,19 +17,19 @@ Music_07_Channel_0:
       stereo 040h
       inst 33
       vol 13
-            noteL Ds3, 32
+            noteL Ds2, 32
       vibrato 07ch
-            note Ds3
-            note Ds3
-            note Ds3
-            note Ds3
-            noteL Ds3, 96
+            note Ds2
+            note Ds2
+            note Ds2
+            note Ds2
+            noteL Ds2, 96
     countedLoopStart 4
-            noteL Ds3, 32
+            noteL Ds2, 32
     countedLoopEnd
-            noteL Ds3, 96
+            noteL Ds2, 96
       sustain
-            noteL Ds3, 1
+            noteL Ds2, 1
     mainLoopStart
       inst 33
       vol 13
@@ -37,25 +37,25 @@ Music_07_Channel_0:
       stereo 040h
             waitL 127
       sustain
-            noteL Ds3, 1
+            noteL Ds2, 1
     mainLoopEnd
 Music_07_Channel_1:
       stereo 040h
       shifting 32
       inst 33
       vol 13
-            noteL E3, 32
+            noteL E2, 32
       vibrato 07ch
-            note E3
-            note E3
-            note E3
-            noteL E3, 128
+            note E2
+            note E2
+            note E2
+            noteL E2, 128
     countedLoopStart 3
-            noteL E3, 32
+            noteL E2, 32
     countedLoopEnd
-            noteL E3, 128
+            noteL E2, 128
       sustain
-            noteL E3, 1
+            noteL E2, 1
     mainLoopStart
       inst 33
       vol 13
@@ -63,25 +63,25 @@ Music_07_Channel_1:
       stereo 040h
             waitL 127
       sustain
-            noteL E3, 1
+            noteL E2, 1
     mainLoopEnd
 Music_07_Channel_2:
       stereo 0c0h
       inst 33
       vol 13
-            noteL A2, 32
+            noteL A1, 32
       vibrato 07ch
-            note A2
-            note A2
-            note A2
-            note A2
-            noteL A2, 96
+            note A1
+            note A1
+            note A1
+            note A1
+            noteL A1, 96
     countedLoopStart 4
-            noteL A2, 32
+            noteL A1, 32
     countedLoopEnd
-            noteL A2, 96
+            noteL A1, 96
       sustain
-            noteL A2, 1
+            noteL A1, 1
     mainLoopStart
       inst 33
       vol 13
@@ -89,7 +89,7 @@ Music_07_Channel_2:
       stereo 0c0h
             waitL 127
       sustain
-            noteL A2, 1
+            noteL A1, 1
     mainLoopEnd
 Music_07_Channel_3:
       stereo 080h
@@ -98,25 +98,25 @@ Music_07_Channel_3:
       shifting 32
       inst 33
       vol 13
-            noteL Ds3, 32
+            noteL Ds2, 32
       vibrato 07ch
-            note Ds3
-            note Ds3
-            note Ds3
-            note Ds3
-            noteL Ds3, 96
+            note Ds2
+            note Ds2
+            note Ds2
+            note Ds2
+            noteL Ds2, 96
     countedLoopStart 4
-            noteL Ds3, 32
+            noteL Ds2, 32
     countedLoopEnd
       sustain
-            noteL Ds3, 96
+            noteL Ds2, 96
     mainLoopStart
       inst 33
       vol 13
       shifting 32
       stereo 080h
       sustain
-            noteL Ds3, 128
+            noteL Ds2, 128
     mainLoopEnd
 Music_07_Channel_4:
       stereo 080h
@@ -124,24 +124,24 @@ Music_07_Channel_4:
             waitL 1
       inst 33
       vol 13
-            noteL E3, 32
+            noteL E2, 32
       vibrato 07ch
-            note E3
-            note E3
-            note E3
-            noteL E3, 128
+            note E2
+            note E2
+            note E2
+            noteL E2, 128
     countedLoopStart 3
-            noteL E3, 32
+            noteL E2, 32
     countedLoopEnd
       sustain
-            noteL E3, 128
+            noteL E2, 128
     mainLoopStart
       inst 33
       vol 13
       shifting 0
       stereo 080h
       sustain
-            noteL E3, 128
+            noteL E2, 128
     mainLoopEnd
 Music_07_Channel_5:
     channel_end
@@ -149,67 +149,67 @@ Music_07_Channel_6:
       psgInst 097h
       setRelease 16
       vibrato 00h
-            psgNoteL A6, 16
-            psgNote Gs6
+            psgNoteL A7, 16
+            psgNote Gs7
       psgInst 098h
-            psgNote A6
-            psgNote Gs6
+            psgNote A7
+            psgNote Gs7
       psgInst 099h
-            psgNote A6
-            psgNote Gs6
+            psgNote A7
+            psgNote Gs7
       psgInst 09ah
-            psgNote A6
-            psgNote Gs6
+            psgNote A7
+            psgNote Gs7
       psgInst 09bh
     countedLoopStart 11
-            psgNoteL A6, 16
-            psgNote Gs6
+            psgNoteL A7, 16
+            psgNote Gs7
     countedLoopEnd
       sustain
-            psgNoteL A6, 1
+            psgNoteL A7, 1
     mainLoopStart
             waitL 15
       setRelease 16
     countedLoopStart 2
-            psgNoteL Gs6, 16
-            psgNote A6
+            psgNoteL Gs7, 16
+            psgNote A7
     countedLoopEnd
-            psgNote Gs6
+            psgNote Gs7
       sustain
-            psgNoteL A6, 1
+            psgNoteL A7, 1
     mainLoopEnd
 Music_07_Channel_7:
       psgInst 095h
       setRelease 16
       vibrato 00h
-            psgNoteL E6, 16
-            psgNote Ds6
+            psgNoteL E7, 16
+            psgNote Ds7
       psgInst 096h
-            psgNote E6
-            psgNote Ds6
+            psgNote E7
+            psgNote Ds7
       psgInst 097h
-            psgNote E6
-            psgNote Ds6
+            psgNote E7
+            psgNote Ds7
       psgInst 098h
-            psgNote E6
-            psgNote Ds6
+            psgNote E7
+            psgNote Ds7
       psgInst 099h
     countedLoopStart 11
-            psgNoteL E6, 16
-            psgNote Ds6
+            psgNoteL E7, 16
+            psgNote Ds7
     countedLoopEnd
       sustain
-            psgNoteL E6, 1
+            psgNoteL E7, 1
     mainLoopStart
             waitL 15
       setRelease 16
     countedLoopStart 2
-            psgNoteL Ds6, 16
-            psgNote E6
+            psgNoteL Ds7, 16
+            psgNote E7
     countedLoopEnd
-            psgNote Ds6
+            psgNote Ds7
       sustain
-            psgNoteL E6, 1
+            psgNoteL E7, 1
     mainLoopEnd
 Music_07_Channel_8:
     channel_end

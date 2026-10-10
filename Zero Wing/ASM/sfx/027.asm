@@ -10,11 +10,11 @@ Sfx_027_Channel_1:
       inst 21
       sustain
       vibrato 01ah
-            noteL Gs3, 1
+            noteL Gs2, 1
+            note A2
             note A3
-            note A4
-            note Fs3
+            note Fs2
       vol 8
       setRelease 0
-            noteL D6, 1
+            noteL D5, 1
     channel_end

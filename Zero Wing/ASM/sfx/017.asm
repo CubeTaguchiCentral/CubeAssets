@@ -11,5 +11,5 @@ Sfx_017_Channel_1:
       vol 13
       setRelease 0
       vibrato 0e0h
-            noteL G5, 48
+            noteL G4, 48
     mainLoopEnd

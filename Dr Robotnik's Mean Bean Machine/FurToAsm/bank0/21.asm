@@ -19,7 +19,7 @@ Music_21_Channel_0:
       vol 12
       sustain
       vibrato 05ah
-            noteL G5, 16
+            noteL G4, 16
     mainLoopStart
       inst 9
       vol 12
@@ -27,13 +27,13 @@ Music_21_Channel_0:
       stereo 0c0h
       setRelease 1
             waitL 12
-            noteL Fs5, 196
-            noteL F5, 28
-            noteL E5, 196
+            noteL Fs4, 196
+            noteL F4, 28
+            noteL E4, 196
       stereo 0c0h
       vol 12
       sustain
-            noteL G5, 16
+            noteL G4, 16
     mainLoopEnd
 Music_21_Channel_1:
       stereo 040h
@@ -47,10 +47,10 @@ Music_21_Channel_1:
       stereo 040h
             waitL 26
       setRelease 1
-            noteL G4, 182
+            noteL G3, 182
       vibrato 05ah
             waitL 42
-            noteL Fs4, 182
+            noteL Fs3, 182
       stereo 040h
       vol 13
             waitL 16
@@ -61,9 +61,9 @@ Music_21_Channel_2:
       vol 12
       vibrato 05ah
       setRelease 1
-            noteL E3, 14
+            noteL E2, 14
       sustain
-            noteL G3, 2
+            noteL G2, 2
     mainLoopStart
       inst 14
       vol 12
@@ -72,43 +72,43 @@ Music_21_Channel_2:
             waitL 3
     repeatStart
             waitL 9
-            noteL A3, 14
-            noteL G3, 7
-            noteL E3, 21
-            noteL E3, 5
+            noteL A2, 14
+            noteL G2, 7
+            noteL E2, 21
+            noteL E2, 5
             waitL 9
-            noteL A3, 5
+            noteL A2, 5
             waitL 9
     repeatSection1Start
-            noteL D3, 7
-            noteL E3, 21
-            noteL G3, 5
+            noteL D2, 7
+            noteL E2, 21
+            noteL G2, 5
     repeatEnd
     repeatSection2Start
-            noteL B3, 14
-            note E3
+            noteL B2, 14
+            note E2
     repeatStart
-            noteL G3, 5
+            noteL G2, 5
             waitL 9
-            noteL A3, 14
-            noteL G3, 7
-            noteL E3, 21
-            noteL E3, 5
+            noteL A2, 14
+            noteL G2, 7
+            noteL E2, 21
+            noteL E2, 5
             waitL 9
     repeatSection1Start
-            noteL D3, 5
+            noteL D2, 5
             waitL 9
-            noteL Ds3, 7
-            noteL E3, 21
+            noteL Ds2, 7
+            noteL E2, 21
     repeatEnd
     repeatSection2Start
-            noteL A3, 7
-            note B3
-            noteL Gs3, 14
+            noteL A2, 7
+            note B2
+            noteL Gs2, 14
       vol 12
-            note E3
+            note E2
       sustain
-            noteL G3, 2
+            noteL G2, 2
     mainLoopEnd
 Music_21_Channel_3:
       stereo 080h
@@ -122,10 +122,10 @@ Music_21_Channel_3:
       stereo 080h
             waitL 33
       setRelease 1
-            noteL Cs5, 175
+            noteL Cs4, 175
       vibrato 05ah
             waitL 49
-            noteL C5, 175
+            noteL C4, 175
       stereo 080h
       vol 13
             waitL 16
@@ -141,11 +141,11 @@ Music_21_Channel_4:
       inst 9
       vol 9
       setRelease 1
-            noteL G5, 28
+            noteL G4, 28
       vibrato 05ah
-            noteL Fs5, 196
-            noteL F5, 28
-            noteL E5, 196
+            noteL Fs4, 196
+            noteL F4, 28
+            noteL E4, 196
     mainLoopEnd
 Music_21_Channel_5:
             sampleL 0, 16
@@ -168,83 +168,83 @@ Music_21_Channel_6:
       psgInst 09h
       setRelease 1
       vibrato 00h
-            psgNoteL C2, 5
+            psgNoteL C3, 5
             waitL 9
       sustain
-            psgNoteL E2, 2
+            psgNoteL E3, 2
     mainLoopStart
             waitL 3
             waitL 9
       setRelease 1
     repeatStart
-            psgNoteL D2, 7
-            psgNote E2
-            psgNoteL D2, 5
+            psgNoteL D3, 7
+            psgNote E3
+            psgNoteL D3, 5
             waitL 9
-            psgNoteL G2, 5
+            psgNoteL G3, 5
             waitL 9
-            psgNoteL C2, 7
-            psgNote Fs2
-            psgNoteL D2, 5
+            psgNoteL C3, 7
+            psgNote Fs3
+            psgNoteL D3, 5
             waitL 9
-            psgNoteL Fs2, 7
-            psgNote G2
-            psgNoteL C2, 5
+            psgNoteL Fs3, 7
+            psgNote G3
+            psgNoteL C3, 5
             waitL 9
-            psgNoteL E2, 5
+            psgNoteL E3, 5
             waitL 9
-            psgNoteL D2, 7
-            psgNote Fs2
-            psgNoteL C2, 5
+            psgNoteL D3, 7
+            psgNote Fs3
+            psgNoteL C3, 5
             waitL 9
-            psgNoteL G2, 5
+            psgNoteL G3, 5
             waitL 9
-            psgNoteL D2, 7
-            psgNote Fs2
-            psgNoteL C2, 5
+            psgNoteL D3, 7
+            psgNote Fs3
+            psgNoteL C3, 5
             waitL 9
-            psgNoteL G2, 14
-            psgNoteL C2, 5
+            psgNoteL G3, 14
+            psgNoteL C3, 5
             waitL 9
     repeatSection1Start
-            psgNoteL E2, 5
+            psgNoteL E3, 5
             waitL 9
     repeatEnd
     repeatSection2Start
       sustain
-            psgNoteL E2, 2
+            psgNoteL E3, 2
     mainLoopEnd
 Music_21_Channel_7:
       psgInst 0ah
             waitL 14
       sustain
       vibrato 00h
-            psgNoteL C3, 2
+            psgNoteL C4, 2
     mainLoopStart
             waitL 4
             waitL 15
       setRelease 1
     repeatStart
     countedLoopStart 2
-            psgNoteL C3, 6
+            psgNoteL C4, 6
             waitL 15
     countedLoopEnd
-            psgNoteL C3, 7
-            psgNote C3
+            psgNoteL C4, 7
+            psgNote C4
             waitL 14
     countedLoopStart 3
-            psgNoteL C3, 6
+            psgNoteL C4, 6
             waitL 15
     countedLoopEnd
-            psgNoteL C3, 14
+            psgNoteL C4, 14
             wait
     repeatSection1Start
-            psgNoteL C3, 6
+            psgNoteL C4, 6
             waitL 15
     repeatEnd
     repeatSection2Start
       sustain
-            psgNoteL C3, 2
+            psgNoteL C4, 2
     mainLoopEnd
 Music_21_Channel_8:
     channel_end

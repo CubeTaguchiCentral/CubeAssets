@@ -7,14 +7,14 @@ Sfx_096_Channel_0:
       inst 78
       vol 15
       vibrato 070h
-            noteL G2, 96
+            noteL G1, 96
       noSlide
     channel_end
 Sfx_096_Channel_1:
       inst 78
       vol 15
       vibrato 070h
-            noteL D3, 96
+            noteL D2, 96
       noSlide
     channel_end
 Sfx_096_Channel_2:

@@ -8,7 +8,7 @@ Sfx_044_Channel_0:
       vol 10
     mainLoopStart
       sustain
-            noteL Cs3, 5
+            noteL Cs2, 5
     mainLoopEnd
 Sfx_044_Channel_1:
     channel_end

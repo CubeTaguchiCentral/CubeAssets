@@ -7,7 +7,7 @@ Sfx_025_Channel_0:
       noSlide
       inst 59
       vol 0
-            noteL C2, 1
+            noteL C1, 1
       inst 134
       vol 14
       setRelease 1
@@ -16,22 +16,22 @@ Sfx_025_Channel_0:
       shifting 0
       sustain
       vol 6
-            noteL A5, 0
+            noteL A4, 0
       setSlide 14
       setRelease 1
       vol 14
-            noteL E2, 73
+            noteL E1, 73
       noSlide
       inst 3
       vol 12
     repeatStart
-            noteL E4, 5
-            noteL Cs5, 2
-            note Gs5
-            note Ds6
-            note As6
-            note F7
-            note C8
+            noteL E3, 5
+            noteL Cs4, 2
+            note Gs4
+            note Ds5
+            note As5
+            note F6
+            note C7
     repeatSection1Start
       vol 7
     repeatEnd

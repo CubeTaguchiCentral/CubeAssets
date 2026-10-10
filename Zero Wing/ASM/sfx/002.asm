@@ -10,20 +10,20 @@ Sfx_002_Channel_1:
       vol 13
       vibrato 02ah
       sustain
-            noteL C6, 1
+            noteL C5, 1
+            note Cs5
+            note E5
+            note F5
+            note G5
+            note Gs5
+            note As5
+            note C6
             note Cs6
             note E6
             note F6
             note G6
             note Gs6
             note As6
-            note C7
-            note Cs7
-            note E7
-            note F7
-            note G7
-            note Gs7
-            note As7
       setRelease 1
-            noteL C8, 8
+            noteL C7, 8
     channel_end

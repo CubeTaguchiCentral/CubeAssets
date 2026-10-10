@@ -19,17 +19,17 @@ Music_08_Channel_0:
       vol 12
       setRelease 1
       vibrato 02ah
-            noteL E2, 96
+            noteL E1, 96
       inst 44
       vol 12
-            noteL E2, 12
+            noteL E1, 12
             waitL 6
       inst 53
       vol 12
-            noteL E2, 96
+            noteL E1, 96
       inst 54
       vol 12
-            note E2
+            note E1
     mainLoopEnd
 Music_08_Channel_1:
     mainLoopStart
@@ -37,13 +37,13 @@ Music_08_Channel_1:
       vol 12
       setRelease 1
       vibrato 02ah
-            noteL E2, 96
+            noteL E1, 96
       inst 53
       vol 12
-            note B2
+            note B1
       inst 54
       vol 12
-            note E2
+            note E1
     mainLoopEnd
 Music_08_Channel_2:
     mainLoopStart
@@ -51,44 +51,44 @@ Music_08_Channel_2:
       vol 12
       setRelease 1
       vibrato 02ah
-            noteL E2, 12
-            note E2
-            note E2
-            note E2
-            note E2
-            note E2
-            note E2
-            note E2
-            note E2
-            note E2
-            note E2
-            note E2
-            noteL E2, 72
-            noteL E2, 12
-            note E2
-            note E2
-            note E2
-            noteL E2, 6
-            note E2
-            note E2
-            note E2
-            note E2
-            note E2
-            note E2
-            note E2
-            noteL E2, 12
-            note E2
-            note E2
-            note E2
-            noteL E2, 36
-            noteL E2, 12
-            note E2
-            note E2
-            note E2
-            note E2
-            note E2
-            note E2
-            note E2
+            noteL E1, 12
+            note E1
+            note E1
+            note E1
+            note E1
+            note E1
+            note E1
+            note E1
+            note E1
+            note E1
+            note E1
+            note E1
+            noteL E1, 72
+            noteL E1, 12
+            note E1
+            note E1
+            note E1
+            noteL E1, 6
+            note E1
+            note E1
+            note E1
+            note E1
+            note E1
+            note E1
+            note E1
+            noteL E1, 12
+            note E1
+            note E1
+            note E1
+            noteL E1, 36
+            noteL E1, 12
+            note E1
+            note E1
+            note E1
+            note E1
+            note E1
+            note E1
+            note E1
     mainLoopEnd
 Music_08_Channel_3:
     mainLoopStart
@@ -97,36 +97,36 @@ Music_08_Channel_3:
       vol 12
       setRelease 1
       vibrato 02ah
-            noteL C2, 12
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
+            noteL C1, 12
+            note C1
+            note C1
+            note C1
+            note C1
+            note C1
+            note C1
+            note C1
     countedLoopEnd
-            noteL C2, 6
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            noteL C2, 12
-            note C2
-            note C2
-            note C2
-            noteL C2, 36
-            noteL C2, 12
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
-            note C2
+            noteL C1, 6
+            note C1
+            note C1
+            note C1
+            note C1
+            note C1
+            note C1
+            note C1
+            noteL C1, 12
+            note C1
+            note C1
+            note C1
+            noteL C1, 36
+            noteL C1, 12
+            note C1
+            note C1
+            note C1
+            note C1
+            note C1
+            note C1
+            note C1
     mainLoopEnd
 Music_08_Channel_4:
     channel_end
@@ -135,147 +135,147 @@ Music_08_Channel_6:
       psgInst 0ch
       setRelease 1
       vibrato 010h
-            psgNoteL C1, 6
-            psgNoteL F1, 3
-            psgNote As1
+            psgNoteL C2, 6
+            psgNoteL F2, 3
+            psgNote As2
             waitL 6
-            psgNote C1
-            psgNoteL F1, 3
-            psgNote As1
+            psgNote C2
+            psgNoteL F2, 3
+            psgNote As2
             waitL 6
-            psgNote C1
-            psgNoteL Ds2, 2
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Ds2
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Ds2
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Ds2
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Ds2
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Ds2
-            psgNote Gs2
-            psgNote Cs3
-            psgNoteL Fs3, 36
+            psgNote C2
+            psgNoteL Ds3, 2
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Ds3
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Ds3
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Ds3
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Ds3
+            psgNote Gs3
+            psgNote Cs4
+            psgNote Ds3
+            psgNote Gs3
+            psgNote Cs4
+            psgNoteL Fs4, 36
             waitL 3
-            psgNote As1
-            psgNote F1
-            psgNoteL C1, 72
-            psgNoteL C1, 2
-            psgNote C1
-            psgNoteL C1, 12
-            psgNoteL Fs3, 6
-            psgNoteL C1, 2
-            psgNote C1
-            psgNote As1
-            psgNote As1
-            psgNote Fs3
-            psgNote Fs3
-            psgNote Fs3
-            psgNote Fs3
-            psgNote C1
-            psgNote As1
+            psgNote As2
+            psgNote F2
+            psgNoteL C2, 72
+            psgNoteL C2, 2
+            psgNote C2
+            psgNoteL C2, 12
+            psgNoteL Fs4, 6
+            psgNoteL C2, 2
+            psgNote C2
+            psgNote As2
+            psgNote As2
+            psgNote Fs4
+            psgNote Fs4
+            psgNote Fs4
+            psgNote Fs4
+            psgNote C2
+            psgNote As2
             wait
-            psgNote Fs3
-            psgNote Fs3
+            psgNote Fs4
+            psgNote Fs4
             wait
-            psgNote Gs2
+            psgNote Gs3
             wait
-            psgNote Fs3
-            psgNote Fs3
-            psgNoteL C1, 3
-            psgNoteL Gs2, 2
+            psgNote Fs4
+            psgNote Fs4
+            psgNoteL C2, 3
+            psgNoteL Gs3, 2
             wait
-            psgNote Fs3
-            psgNoteL C1, 3
-            psgNoteL C1, 2
-            psgNote As1
+            psgNote Fs4
+            psgNoteL C2, 3
+            psgNoteL C2, 2
+            psgNote As2
             wait
-            psgNote Fs3
-            psgNote Fs3
+            psgNote Fs4
+            psgNote Fs4
             wait
-            psgNote Gs2
+            psgNote Gs3
             wait
-            psgNote Fs3
-            psgNote Fs3
-            psgNoteL C1, 3
-            psgNoteL Gs2, 2
+            psgNote Fs4
+            psgNote Fs4
+            psgNoteL C2, 3
+            psgNoteL Gs3, 2
             wait
-            psgNote Fs3
-            psgNoteL C1, 3
-            psgNoteL C1, 2
-            psgNote As1
+            psgNote Fs4
+            psgNoteL C2, 3
+            psgNoteL C2, 2
+            psgNote As2
             wait
-            psgNote Fs3
-            psgNote Fs3
+            psgNote Fs4
+            psgNote Fs4
             wait
-            psgNote Gs2
+            psgNote Gs3
             wait
-            psgNote Fs3
-            psgNote Fs3
-            psgNoteL C1, 3
-            psgNoteL Gs2, 2
+            psgNote Fs4
+            psgNote Fs4
+            psgNoteL C2, 3
+            psgNoteL Gs3, 2
             wait
-            psgNote Fs3
-            psgNoteL C1, 3
-            psgNoteL C1, 2
-            psgNote As1
+            psgNote Fs4
+            psgNoteL C2, 3
+            psgNoteL C2, 2
+            psgNote As2
             wait
-            psgNote Fs3
-            psgNote Fs3
+            psgNote Fs4
+            psgNote Fs4
             wait
-            psgNote Gs2
+            psgNote Gs3
             wait
-            psgNote Fs3
-            psgNote Fs3
-            psgNoteL C1, 3
-            psgNoteL Gs2, 2
+            psgNote Fs4
+            psgNote Fs4
+            psgNoteL C2, 3
+            psgNoteL Gs3, 2
             wait
-            psgNote Fs3
-            psgNoteL C1, 3
+            psgNote Fs4
+            psgNoteL C2, 3
     mainLoopEnd
 Music_08_Channel_7:
     mainLoopStart
       psgInst 0ch
       setRelease 1
       vibrato 02ah
-            psgNoteL G1, 2
-            psgNote As1
-            psgNote D1
-            psgNote B1
-            psgNote G1
-            psgNoteL C1, 3
-            psgNote B1
-            psgNote E1
-            psgNote F1
-            psgNote D1
-            psgNote C1
-            psgNote B1
-            psgNote E1
-            psgNote F1
-            psgNote D1
-            psgNote C1
-            psgNote B1
-            psgNote E1
-            psgNote F1
-            psgNote D1
-            psgNote C1
-            psgNote B1
-            psgNote E1
-            psgNote F1
-            psgNote D1
-            psgNote C1
-            psgNote B1
-            psgNote E1
-            psgNote F1
-            psgNote D1
-            psgNote G1
-            psgNote As1
-            psgNote D1
+            psgNoteL G2, 2
+            psgNote As2
+            psgNote D2
+            psgNote B2
+            psgNote G2
+            psgNoteL C2, 3
+            psgNote B2
+            psgNote E2
+            psgNote F2
+            psgNote D2
+            psgNote C2
+            psgNote B2
+            psgNote E2
+            psgNote F2
+            psgNote D2
+            psgNote C2
+            psgNote B2
+            psgNote E2
+            psgNote F2
+            psgNote D2
+            psgNote C2
+            psgNote B2
+            psgNote E2
+            psgNote F2
+            psgNote D2
+            psgNote C2
+            psgNote B2
+            psgNote E2
+            psgNote F2
+            psgNote D2
+            psgNote G2
+            psgNote As2
+            psgNote D2
     mainLoopEnd

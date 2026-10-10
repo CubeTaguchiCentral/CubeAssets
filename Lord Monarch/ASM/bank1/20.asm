@@ -22,16 +22,16 @@ Music_20_Channel_0:
     mainLoopStart
       vol 11
     countedLoopStart 2
-            noteL D4, 112
-            note D4
-            noteL Cs4, 224
-            noteL C4, 112
-            note C4
-            note As3
-            note A3
+            noteL D3, 112
+            note D3
+            noteL Cs3, 224
+            noteL C3, 112
+            note C3
+            note As2
+            note A2
     countedLoopEnd
       vol 12
-            noteL D4, 212
+            noteL D3, 212
     mainLoopEnd
 Music_20_Channel_1:
       inst 3
@@ -43,27 +43,27 @@ Music_20_Channel_1:
       vol 9
     countedLoopStart 2
             waitL 28
-            noteL A4, 56
-            note A4
-            note A4
-            note A4
-            note A4
-            note A4
-            note A4
-            note A4
-            note G4
-            note G4
-            note G4
-            note G4
-            note F4
-            noteL D5, 28
-            noteL Cs5, 56
-            note E5
+            noteL A3, 56
+            note A3
+            note A3
+            note A3
+            note A3
+            note A3
+            note A3
+            note A3
+            note G3
+            note G3
+            note G3
+            note G3
+            note F3
+            noteL D4, 28
+            noteL Cs4, 56
+            note E4
     countedLoopEnd
             waitL 4
       vol 9
-            noteL D5, 2
-            noteL D5, 206
+            noteL D4, 2
+            noteL D4, 206
     mainLoopEnd
 Music_20_Channel_2:
       inst 3
@@ -75,22 +75,22 @@ Music_20_Channel_2:
       vol 9
     countedLoopStart 2
             waitL 56
-            noteL F5, 112
-            note F5
-            noteL E5, 56
-            note G5
-            noteL E5, 112
-            note E5
-            note E5
-            noteL As4, 56
+            noteL F4, 112
+            note F4
+            noteL E4, 56
+            note G4
+            noteL E4, 112
+            note E4
+            note E4
+            noteL As3, 56
             waitL 28
-            noteL A4, 56
-            noteL A4, 28
+            noteL A3, 56
+            noteL A3, 28
     countedLoopEnd
             waitL 8
       vol 9
-            noteL F5, 2
-            noteL F5, 202
+            noteL F4, 2
+            noteL F4, 202
     mainLoopEnd
 Music_20_Channel_3:
       inst 3
@@ -103,16 +103,16 @@ Music_20_Channel_3:
       vol 7
     countedLoopStart 2
       shifting 32
-            noteL D4, 112
-            note D4
-            noteL Cs4, 224
-            noteL C4, 112
-            note C4
-            note As3
-            note A3
+            noteL D3, 112
+            note D3
+            noteL Cs3, 224
+            noteL C3, 112
+            note C3
+            note As2
+            note A2
     countedLoopEnd
       vol 8
-            noteL D4, 212
+            noteL D3, 212
     mainLoopEnd
 Music_20_Channel_4:
       inst 3
@@ -127,74 +127,74 @@ Music_20_Channel_4:
       vol 5
       stereo 0c0h
             waitL 28
-            note A4
+            note A3
       stereo 040h
       vol 6
-            note F5
+            note F4
       stereo 0c0h
       vol 5
-            noteL A4, 56
-            noteL A4, 28
+            noteL A3, 56
+            noteL A3, 28
       stereo 040h
       vol 6
-            note F5
+            note F4
       stereo 0c0h
       vol 5
-            noteL A4, 56
-            noteL A4, 28
+            noteL A3, 56
+            noteL A3, 28
       stereo 040h
       vol 6
-            note E5
+            note E4
       stereo 0c0h
       vol 5
-            note A4
+            note A3
       stereo 040h
       vol 6
-            note G5
+            note G4
       stereo 0c0h
       vol 5
-            note A4
+            note A3
       stereo 040h
       vol 6
-            note E5
+            note E4
       stereo 0c0h
       vol 5
-            noteL A4, 56
-            noteL G4, 28
+            noteL A3, 56
+            noteL G3, 28
       stereo 040h
       vol 6
-            note E5
+            note E4
       stereo 0c0h
       vol 5
-            noteL G4, 56
-            noteL G4, 28
+            noteL G3, 56
+            noteL G3, 28
       stereo 040h
       vol 6
-            note E5
+            note E4
       stereo 0c0h
       vol 5
-            noteL G4, 56
-            noteL F4, 28
+            noteL G3, 56
+            noteL F3, 28
       stereo 040h
       vol 6
-            note As4
-            note D5
-            note Cs5
+            note As3
+            note D4
+            note Cs4
       stereo 0c0h
       vol 5
-            note A4
+            note A3
       stereo 040h
       vol 6
-            note E5
+            note E4
       stereo 0c0h
       vol 5
-            note A4
+            note A3
     countedLoopEnd
       stereo 0c0h
       shifting 0
       vol 9
-            noteL C6, 2
-            noteL C6, 210
+            noteL C5, 2
+            noteL C5, 210
     mainLoopEnd
 Music_20_Channel_5:
     channel_end
@@ -209,23 +209,23 @@ Music_20_Channel_6:
     countedLoopEnd
     repeatStart
       psgInst 0bh
-            psgNoteL F5, 196
-            psgNoteL E5, 14
-            psgNote F5
-            psgNoteL G5, 224
-            psgNote E5
-            psgNoteL D5, 84
-            psgNoteL E5, 14
-            psgNote D5
+            psgNoteL F6, 196
+            psgNoteL E6, 14
+            psgNote F6
+            psgNoteL G6, 224
+            psgNote E6
+            psgNoteL D6, 84
+            psgNoteL E6, 14
+            psgNote D6
     repeatSection1Start
-            psgNoteL Cs5, 56
-            psgNote A4
+            psgNoteL Cs6, 56
+            psgNote A5
     repeatEnd
     repeatSection2Start
-            psgNoteL Cs5, 84
-            psgNoteL B4, 14
-            psgNote Cs5
-            psgNoteL D5, 212
+            psgNoteL Cs6, 84
+            psgNoteL B5, 14
+            psgNote Cs6
+            psgNoteL D6, 212
     mainLoopEnd
 Music_20_Channel_7:
       psgInst 00h
@@ -240,21 +240,21 @@ Music_20_Channel_7:
     countedLoopEnd
     repeatStart
       psgInst 09h
-            psgNoteL F5, 196
-            psgNoteL E5, 14
-            psgNote F5
-            psgNoteL G5, 224
-            psgNote E5
-            psgNoteL D5, 84
-            psgNoteL E5, 14
-            psgNote D5
+            psgNoteL F6, 196
+            psgNoteL E6, 14
+            psgNote F6
+            psgNoteL G6, 224
+            psgNote E6
+            psgNoteL D6, 84
+            psgNoteL E6, 14
+            psgNote D6
     repeatSection1Start
-            psgNoteL Cs5, 56
-            psgNote A4
+            psgNoteL Cs6, 56
+            psgNote A5
     repeatEnd
     repeatSection2Start
-            psgNoteL Cs5, 84
-            psgNoteL B4, 14
-            psgNote Cs5
-            psgNoteL D5, 212
+            psgNoteL Cs6, 84
+            psgNoteL B5, 14
+            psgNote Cs6
+            psgNoteL D6, 212
     mainLoopEnd

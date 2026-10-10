@@ -11,5 +11,5 @@ Sfx_005_Channel_1:
       stereo 0c0h
       inst 53
       vol 15
-            noteL Fs2, 50
+            noteL Fs1, 50
     channel_end

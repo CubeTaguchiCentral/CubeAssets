@@ -9,7 +9,7 @@ Sfx_015_Channel_0:
       setRelease 1
       stereo 080h
       vibrato 00h
-            noteL C2, 120
+            noteL C1, 120
     channel_end
 Sfx_015_Channel_1:
       inst 68
@@ -17,11 +17,11 @@ Sfx_015_Channel_1:
       setRelease 1
       vibrato 00h
       stereo 040h
-            noteL B3, 4
-            note E3
-            note C3
-            note B2
-            noteL G2, 116
+            noteL B2, 4
+            note E2
+            note C2
+            note B1
+            noteL G1, 116
     channel_end
 Sfx_015_Channel_2:
     channel_end

@@ -9,9 +9,9 @@ Sfx_024_Channel_0:
       setRelease 1
       stereo 0c0h
       vibrato 021h
-            noteL G7, 2
+            noteL G6, 2
       setRelease 1
-            noteL B6, 72
+            noteL B5, 72
     channel_end
 Sfx_024_Channel_1:
       inst 83
@@ -19,10 +19,10 @@ Sfx_024_Channel_1:
       setRelease 1
       stereo 0c0h
       vibrato 023h
-            noteL B8, 1
+            noteL B7, 1
       inst 92
       vol 13
-            noteL G6, 73
+            noteL G5, 73
     channel_end
 Sfx_024_Channel_2:
     channel_end

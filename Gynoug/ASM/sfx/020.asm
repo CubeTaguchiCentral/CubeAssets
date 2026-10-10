@@ -8,16 +8,16 @@ Sfx_020_Channel_0:
       vol 14
       setRelease 4
       vibrato 0a0h
-            noteL E3, 5
-            note E3
+            noteL E2, 5
+            note E2
       setRelease 3
-            noteL F3, 4
-            note F3
+            noteL F2, 4
+            note F2
       setRelease 2
-            noteL Fs3, 3
-            note Fs3
-            note G3
-            note G3
+            noteL Fs2, 3
+            note Fs2
+            note G2
+            note G2
     channel_end
 Sfx_020_Channel_1:
     channel_end

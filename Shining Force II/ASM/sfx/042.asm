@@ -10,9 +10,9 @@ Sfx_042_Channel_1:
       vol 14
       setRelease 0
       vibrato 0f0h
-            noteL E2, 2
+            noteL E1, 2
             wait
-            note A2
-            note Ds3
+            note A1
+            note Ds2
             waitL 6
     channel_end

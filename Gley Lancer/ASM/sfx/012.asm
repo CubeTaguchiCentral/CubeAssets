@@ -10,8 +10,8 @@ Sfx_012_Channel_1:
       vol 13
       vibrato 02ah
       noSlide
-            noteL F2, 5
-            noteL F2, 0
+            noteL F1, 5
+            noteL F1, 0
       setSlide 16
-            noteL C2, 18
+            noteL C1, 18
     channel_end

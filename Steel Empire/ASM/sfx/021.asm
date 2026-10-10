@@ -9,5 +9,5 @@ Sfx_021_Channel_1:
       inst 83
       vol 12
       setRelease 1
-            noteL A3, 5
+            noteL A2, 5
     channel_end

@@ -9,7 +9,7 @@ Sfx_005_Channel_1:
       noSlide
       inst 59
       vol 0
-            noteL C2, 1
+            noteL C1, 1
       inst 76
       vol 12
       setRelease 1
@@ -17,9 +17,9 @@ Sfx_005_Channel_1:
       stereo 0c0h
       shifting 0
       sustain
-            noteL D4, 2
+            noteL D3, 2
       setSlide 126
       setRelease 1
-            noteL G7, 11
+            noteL G6, 11
       noSlide
     channel_end

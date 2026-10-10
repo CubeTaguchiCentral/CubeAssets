@@ -10,5 +10,5 @@ Sfx_029_Channel_1:
       vol 15
       setRelease 0
       vibrato 010h
-            noteL G7, 26
+            noteL G6, 26
     channel_end

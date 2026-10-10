@@ -10,20 +10,20 @@ Sfx_074_Channel_1:
       vol 15
       setRelease 0
       vibrato 00h
-            noteL F2, 5
-            noteL Fs2, 7
-            noteL G2, 6
-            note Gs2
-            noteL A2, 5
-            noteL A2, 6
-            noteL A2, 7
-            noteL A2, 6
-            note A2
-            noteL A2, 7
-            noteL A2, 6
-            noteL A2, 5
-            noteL A2, 6
-            note Gs2
-            noteL G2, 7
-            noteL Fs2, 5
+            noteL F1, 5
+            noteL Fs1, 7
+            noteL G1, 6
+            note Gs1
+            noteL A1, 5
+            noteL A1, 6
+            noteL A1, 7
+            noteL A1, 6
+            note A1
+            noteL A1, 7
+            noteL A1, 6
+            noteL A1, 5
+            noteL A1, 6
+            note Gs1
+            noteL G1, 7
+            noteL Fs1, 5
     channel_end

@@ -9,12 +9,12 @@ Sfx_049_Channel_1:
       noSlide
       inst 59
       vol 0
-            noteL C2, 1
+            noteL C1, 1
       inst 112
       vol 15
       vibrato 04fh
       stereo 0c0h
       shifting 0
-            noteL C2, 14
+            noteL C1, 14
             waitL 48
     channel_end

@@ -14,9 +14,9 @@ Sfx_015_Channel_1:
       stereo 0c0h
       setRelease 0
       sustain
-            noteL Cs4, 16
+            noteL Cs3, 16
       setSlide 13
       setRelease 1
-            noteL D4, 13
+            noteL D3, 13
       noSlide
     channel_end

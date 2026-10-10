@@ -19,6 +19,27 @@ Music_02_Channel_0:
       vol 12
             waitL 6
       setRelease 1
+            noteL Cs2, 24
+      vibrato 05ah
+      stereo 080h
+            note D2
+      stereo 040h
+            noteL Ds2, 12
+      stereo 080h
+            note E2
+      stereo 0c0h
+      vol 13
+            noteL F2, 6
+            note Fs2
+            note G2
+            noteL Cs2, 78
+    channel_end
+Music_02_Channel_1:
+      stereo 040h
+      inst 22
+      vol 8
+            waitL 6
+      setRelease 1
             noteL Cs3, 24
       vibrato 05ah
       stereo 080h
@@ -28,39 +49,18 @@ Music_02_Channel_0:
       stereo 080h
             note E3
       stereo 0c0h
-      vol 13
+      vol 10
             noteL F3, 6
             note Fs3
             note G3
-            noteL Cs3, 78
-    channel_end
-Music_02_Channel_1:
-      stereo 040h
-      inst 22
-      vol 8
-            waitL 6
-      setRelease 1
-            noteL Cs4, 24
-      vibrato 05ah
-      stereo 080h
-            note D4
-      stereo 040h
-            noteL Ds4, 12
-      stereo 080h
-            note E4
-      stereo 0c0h
-      vol 10
-            noteL F4, 6
-            note Fs4
-            note G4
-            noteL Cs3, 48
+            noteL Cs2, 48
       inst 2
       vol 9
-            noteL Fs5, 6
+            noteL Fs4, 6
             waitL 4
-            noteL Fs5, 6
+            noteL Fs4, 6
             waitL 4
-            noteL Gs5, 6
+            noteL Gs4, 6
             waitL 4
     channel_end
 Music_02_Channel_2:
@@ -70,29 +70,29 @@ Music_02_Channel_2:
             waitL 24
       setRelease 1
       vibrato 05ah
-            noteL E6, 6
+            noteL E5, 6
       stereo 080h
             waitL 18
-            noteL F6, 6
+            noteL F5, 6
       stereo 040h
             waitL 8
-            noteL Fs6, 4
+            noteL Fs5, 4
       stereo 080h
             waitL 8
-            noteL G6, 4
+            noteL G5, 4
       stereo 040h
             waitL 18
       stereo 0c0h
       inst 27
       vol 7
-            noteL Cs5, 48
+            noteL Cs4, 48
       inst 2
       vol 9
-            noteL E6, 6
+            noteL E5, 6
             waitL 4
-            noteL E6, 6
+            noteL E5, 6
             waitL 4
-            noteL Fs6, 6
+            noteL Fs5, 6
             waitL 4
     channel_end
 Music_02_Channel_3:
@@ -102,26 +102,26 @@ Music_02_Channel_3:
             waitL 24
       setRelease 1
       vibrato 060h
-            noteL B5, 6
+            noteL B4, 6
             waitL 18
-            noteL C6, 6
+            noteL C5, 6
             waitL 8
-            noteL Cs6, 4
+            noteL Cs5, 4
       stereo 080h
             waitL 8
-            noteL D6, 4
+            noteL D5, 4
             waitL 18
       stereo 0c0h
       inst 27
       vol 7
-            noteL Cs4, 48
+            noteL Cs3, 48
       inst 2
       vol 9
-            noteL B5, 6
+            noteL B4, 6
             waitL 4
-            noteL B5, 6
+            noteL B4, 6
             waitL 4
-            noteL Cs6, 6
+            noteL Cs5, 6
             waitL 4
     channel_end
 Music_02_Channel_4:
@@ -131,21 +131,21 @@ Music_02_Channel_4:
             waitL 24
       setRelease 1
       vibrato 05ah
-            noteL Fs5, 6
+            noteL Fs4, 6
       stereo 080h
             waitL 18
-            noteL G5, 6
+            noteL G4, 6
       stereo 040h
             waitL 8
-            noteL Gs5, 4
+            noteL Gs4, 4
       stereo 080h
             waitL 8
-            noteL A5, 4
+            noteL A4, 4
             waitL 18
       stereo 0c0h
       inst 22
       vol 10
-            noteL Cs4, 78
+            noteL Cs3, 78
     channel_end
 Music_02_Channel_5:
             waitL 6

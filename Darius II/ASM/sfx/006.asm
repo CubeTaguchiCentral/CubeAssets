@@ -10,13 +10,13 @@ Sfx_006_Channel_1:
       setRelease 0
       vol 12
     countedLoopStart 1
-            noteL Cs4, 2
-            note Cs3
-            noteL Cs4, 3
             noteL Cs3, 2
+            note Cs2
+            noteL Cs3, 3
+            noteL Cs2, 2
     countedLoopEnd
       inst 35
       vol 12
       vibrato 0b0h
-            noteL G7, 6
+            noteL G6, 6
     channel_end

@@ -9,9 +9,9 @@ Sfx_082_Channel_0:
       setRelease 0
       vibrato 070h
       sustain
-            noteL A8, 4
+            noteL A7, 4
       setRelease 1
-            note As8
+            note As7
     channel_end
 Sfx_082_Channel_1:
     channel_end

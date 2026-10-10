@@ -11,5 +11,5 @@ Sfx_072_Channel_1:
       vibrato 00h
       setRelease 1
     mainLoopStart
-            noteL C2, 6
+            noteL C1, 6
     mainLoopEnd

@@ -8,8 +8,8 @@ Sfx_062_Channel_0:
       vol 14
       setRelease 1
       vibrato 02ah
-            noteL G4, 49
-            noteL C2, 7
+            noteL G3, 49
+            noteL C1, 7
     channel_end
 Sfx_062_Channel_1:
     channel_end

@@ -19,11 +19,11 @@ Music_22_Channel_0:
       vol 12
       setRelease 1
       vibrato 02ch
-            noteL D4, 48
-            note G4
+            noteL D3, 48
+            note G3
       vol 13
-            noteL As3, 52
-            noteL A3, 161
+            noteL As2, 52
+            noteL A2, 161
             waitL 24
     channel_end
 Music_22_Channel_1:
@@ -32,10 +32,10 @@ Music_22_Channel_1:
       vol 12
       setRelease 1
       vibrato 02fh
-            noteL F5, 48
-            note A5
-            noteL C6, 52
-            noteL E6, 161
+            noteL F4, 48
+            note A4
+            noteL C5, 52
+            noteL E5, 161
             waitL 24
     channel_end
 Music_22_Channel_2:
@@ -45,19 +45,19 @@ Music_22_Channel_2:
       vibrato 02ch
             waitL 12
       vol 12
-            note F4
-            note A4
-            noteL C5, 24
-            noteL B4, 12
-            note D5
-            noteL F5, 24
-            noteL F4, 12
-            noteL Gs4, 14
-            noteL D5, 28
-            noteL E4, 13
-            noteL A4, 15
-            noteL D5, 17
-            noteL Cs5, 102
+            note F3
+            note A3
+            noteL C4, 24
+            noteL B3, 12
+            note D4
+            noteL F4, 24
+            noteL F3, 12
+            noteL Gs3, 14
+            noteL D4, 28
+            noteL E3, 13
+            noteL A3, 15
+            noteL D4, 17
+            noteL Cs4, 102
             waitL 24
     channel_end
 Music_22_Channel_3:
@@ -68,19 +68,19 @@ Music_22_Channel_3:
       vibrato 02ch
             waitL 18
       vol 11
-            noteL F4, 12
-            note A4
-            noteL C5, 24
-            noteL B4, 12
-            note D5
-            noteL F5, 24
-            noteL F4, 12
-            noteL Gs4, 14
-            noteL D5, 28
-            noteL E4, 13
-            noteL A4, 15
-            noteL D5, 17
-            noteL Cs5, 102
+            noteL F3, 12
+            note A3
+            noteL C4, 24
+            noteL B3, 12
+            note D4
+            noteL F4, 24
+            noteL F3, 12
+            noteL Gs3, 14
+            noteL D4, 28
+            noteL E3, 13
+            noteL A3, 15
+            noteL D4, 17
+            noteL Cs4, 102
             waitL 18
     channel_end
 Music_22_Channel_4:
@@ -91,19 +91,19 @@ Music_22_Channel_4:
       vibrato 02ch
             waitL 24
       vol 10
-            noteL F4, 12
-            note A4
-            noteL C5, 24
-            noteL B4, 12
-            note D5
-            noteL F5, 24
-            noteL F4, 12
-            noteL Gs4, 14
-            noteL D5, 28
-            noteL E4, 13
-            noteL A4, 15
-            noteL D5, 17
-            noteL Cs5, 102
+            noteL F3, 12
+            note A3
+            noteL C4, 24
+            noteL B3, 12
+            note D4
+            noteL F4, 24
+            noteL F3, 12
+            noteL Gs3, 14
+            noteL D4, 28
+            noteL E3, 13
+            noteL A3, 15
+            noteL D4, 17
+            noteL Cs4, 102
             waitL 12
     channel_end
 Music_22_Channel_5:
@@ -114,10 +114,10 @@ Music_22_Channel_5:
       vol 11
       setRelease 1
       vibrato 02fh
-            noteL F5, 48
-            note A5
-            noteL C6, 52
-            noteL E6, 161
+            noteL F4, 48
+            note A4
+            noteL C5, 52
+            noteL E5, 161
             waitL 18
     channel_end
 Music_22_Channel_6:

@@ -16,19 +16,19 @@ Sfx_016_Channel_8:
     mainLoopStart
       psgInst 00h
       vibrato 071h
-            psgNoteL Gs6, 9
+            psgNoteL Gs7, 9
       vibrato 010h
-            psgNote Cs6
+            psgNote Cs7
       vibrato 081h
-            psgNote Fs6
+            psgNote Fs7
     mainLoopEnd
 Sfx_016_Channel_9:
     mainLoopStart
       psgInst 02fh
       setRelease 3
-            psgNoteL C0, 9
+            psgNoteL 07h, 9
       psgInst 02ch
-            psgNote G0
+            psgNote 07h
       psgInst 07fh
-            psgNote G0
+            psgNote 07h
     mainLoopEnd

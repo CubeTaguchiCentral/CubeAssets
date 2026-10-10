@@ -8,11 +8,11 @@ Sfx_025_Channel_0:
       vol 15
       sustain
       vibrato 00h
-            noteL Ds2, 7
-            noteL Ds2, 6
-            noteL Ds2, 5
+            noteL Ds1, 7
+            noteL Ds1, 6
+            noteL Ds1, 5
       setRelease 0
-            noteL Gs2, 4
+            noteL Gs1, 4
     channel_end
 Sfx_025_Channel_1:
     channel_end

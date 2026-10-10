@@ -19,16 +19,16 @@ Music_11_Channel_0:
       setRelease 4
       vibrato 02ch
       stereo 0c0h
-            noteL B5, 12
-            note Ds6
-            note Fs6
-            note B6
+            noteL B4, 12
+            note Ds5
+            note Fs5
+            note B5
             waitL 6
       setRelease 1
-            note B6
-            note B6
-            note B6
-            noteL B6, 78
+            note B5
+            note B5
+            note B5
+            noteL B5, 78
     channel_end
 Music_11_Channel_1:
       inst 21
@@ -36,16 +36,16 @@ Music_11_Channel_1:
       setRelease 4
       vibrato 02ch
       stereo 080h
-            noteL Fs5, 12
-            note B5
-            note Ds6
-            note Fs6
+            noteL Fs4, 12
+            note B4
+            note Ds5
+            note Fs5
             waitL 6
       setRelease 1
-            note Fs6
-            note Fs6
-            note Fs6
-            noteL Fs6, 78
+            note Fs5
+            note Fs5
+            note Fs5
+            noteL Fs5, 78
     channel_end
 Music_11_Channel_2:
       inst 21
@@ -53,16 +53,16 @@ Music_11_Channel_2:
       setRelease 4
       vibrato 02ch
       stereo 040h
-            noteL Ds5, 12
-            note Fs5
-            note B5
-            note Ds6
+            noteL Ds4, 12
+            note Fs4
+            note B4
+            note Ds5
             waitL 6
       setRelease 1
-            note Ds6
-            note Ds6
-            note Ds6
-            noteL Ds6, 78
+            note Ds5
+            note Ds5
+            note Ds5
+            noteL Ds5, 78
     channel_end
 Music_11_Channel_3:
       inst 21
@@ -72,16 +72,16 @@ Music_11_Channel_3:
       shifting 32
       stereo 080h
             waitL 8
-            noteL B5, 12
-            note Ds6
-            note Fs6
-            note B6
+            noteL B4, 12
+            note Ds5
+            note Fs5
+            note B5
             waitL 6
       setRelease 1
-            note B6
-            note B6
-            note B6
-            noteL B6, 70
+            note B5
+            note B5
+            note B5
+            noteL B5, 70
     channel_end
 Music_11_Channel_4:
       inst 21
@@ -91,16 +91,16 @@ Music_11_Channel_4:
       shifting 32
       stereo 040h
             waitL 7
-            noteL Fs5, 12
-            note B5
-            note Ds6
+            noteL Fs4, 12
+            note B4
+            note Ds5
       setRelease 1
-            note Fs6
+            note Fs5
             waitL 6
-            note Fs6
-            note Fs6
-            note Fs6
-            noteL Fs6, 71
+            note Fs5
+            note Fs5
+            note Fs5
+            noteL Fs5, 71
     channel_end
 Music_11_Channel_5:
     channel_end

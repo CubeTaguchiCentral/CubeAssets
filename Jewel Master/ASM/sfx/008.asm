@@ -10,16 +10,16 @@ Sfx_008_Channel_1:
       setRelease 0
       vibrato 00h
       vol 9
-            noteL D4, 1
-            note Ds4
+            noteL D3, 1
+            note Ds3
       vol 10
-            note E4
-            note F4
+            note E3
+            note F3
       vol 11
-            note Fs4
-            note G4
-            note Gs4
+            note Fs3
+            note G3
+            note Gs3
     repeatStart
-            noteL A4, 1
+            noteL A3, 1
     repeatEnd
     channel_end

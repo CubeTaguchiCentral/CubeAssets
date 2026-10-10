@@ -10,10 +10,10 @@ Sfx_037_Channel_0:
       vibrato 02ah
       stereo 040h
       shifting 0
-            noteL A6, 6
-            note D6
-            note G6
-            note C7
+            noteL A5, 6
+            note D5
+            note G5
+            note C6
     channel_end
 Sfx_037_Channel_1:
       inst 80
@@ -23,10 +23,10 @@ Sfx_037_Channel_1:
       stereo 080h
       shifting 0
             waitL 8
-            noteL A6, 6
-            note D6
-            note G6
-            note C7
+            noteL A5, 6
+            note D5
+            note G5
+            note C6
     channel_end
 Sfx_037_Channel_2:
     channel_end

@@ -18,7 +18,7 @@ Music_10_Channel_0:
       inst 55
       vol 11
       setRelease 1
-            noteL A4, 64
+            noteL A3, 64
       vibrato 05ah
     channel_end
 Music_10_Channel_1:
@@ -27,7 +27,7 @@ Music_10_Channel_1:
       vol 11
             waitL 5
       setRelease 1
-            noteL B4, 59
+            noteL B3, 59
       vibrato 05ah
     channel_end
 Music_10_Channel_2:
@@ -36,7 +36,7 @@ Music_10_Channel_2:
       vol 11
             waitL 11
       setRelease 1
-            noteL Cs5, 53
+            noteL Cs4, 53
       vibrato 05ah
     channel_end
 Music_10_Channel_3:
@@ -45,7 +45,7 @@ Music_10_Channel_3:
       vol 11
             waitL 16
       setRelease 1
-            noteL E5, 48
+            noteL E4, 48
       vibrato 05ah
     channel_end
 Music_10_Channel_4:
@@ -55,10 +55,10 @@ Music_10_Channel_4:
       vol 7
       setRelease 1
       vibrato 05ah
-            noteL A4, 5
-            noteL B4, 6
-            noteL Cs5, 5
-            noteL E5, 37
+            noteL A3, 5
+            noteL B3, 6
+            noteL Cs4, 5
+            noteL E4, 37
     channel_end
 Music_10_Channel_5:
     channel_end

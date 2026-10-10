@@ -18,151 +18,151 @@ Music_07_Channel_0:
       vol 12
       setRelease 1
       vibrato 02ah
-            noteL D4, 42
-            note A3
-            noteL G3, 36
+            noteL D3, 42
+            note A2
+            noteL G2, 36
       vol 8
-            noteL G3, 6
+            noteL G2, 6
       vol 12
-            noteL D4, 21
-            note G4
-            noteL C4, 42
-            noteL G4, 21
-            note Fs4
-            noteL F4, 42
-            note A3
-            note B3
-            note F3
-            noteL E3, 30
-            noteL As3, 54
-            noteL A3, 42
-            noteL E4, 37
-            noteL A4, 26
-            noteL Gs4, 21
-            note A4
-            note As4
-            note B4
-            note A4
-            note Gs4
-            note F4
-            note E4
-            note D4
-            note C4
-            note B3
-            note A3
-            note B3
-            note C4
-            note B3
-            note A3
-            note B3
-            note C4
-            note Cs4
-            note D4
-            note E4
-            note F4
-            note Fs4
-            note G4
-            note F4
-            note E4
-            note D4
-            note C4
-            note E3
+            noteL D3, 21
             note G3
-            note C4
+            noteL C3, 42
+            noteL G3, 21
+            note Fs3
+            noteL F3, 42
+            note A2
+            note B2
+            note F2
+            noteL E2, 30
+            noteL As2, 54
+            noteL A2, 42
+            noteL E3, 37
+            noteL A3, 26
+            noteL Gs3, 21
+            note A3
+            note As3
+            note B3
+            note A3
+            note Gs3
             note F3
-            note A3
-            note D4
-            note C4
+            note E3
+            note D3
+            note C3
+            note B2
+            note A2
+            note B2
+            note C3
+            note B2
+            note A2
+            note B2
+            note C3
+            note Cs3
+            note D3
+            note E3
+            note F3
+            note Fs3
+            note G3
+            note F3
+            note E3
+            note D3
+            note C3
+            note E2
+            note G2
+            note C3
+            note F2
+            note A2
+            note D3
+            note C3
+            note B2
+            note C3
+            note D3
+            note Ds3
+            note E3
+            note D3
+            note C3
+            note B2
+            note A2
+            note E3
+            noteL Gs3, 42
+            noteL G3, 32
+            noteL Fs3, 52
+            noteL B2, 21
+            note C3
+            note D3
+            note F3
+            note E3
+            note Gs3
             note B3
-            note C4
-            note D4
-            note Ds4
-            note E4
-            note D4
-            note C4
-            note B3
-            note A3
-            note E4
-            noteL Gs4, 42
-            noteL G4, 32
-            noteL Fs4, 52
-            noteL B3, 21
-            note C4
-            note D4
-            note F4
-            note E4
-            note Gs4
-            note B4
-            note E4
+            note E3
             waitL 11
-            noteL A4, 10
+            noteL A3, 10
             waitL 20
-            noteL A4, 11
+            noteL A3, 11
             waitL 32
-            noteL A4, 11
+            noteL A3, 11
             waitL 20
-            noteL A4, 53
+            noteL A3, 53
     channel_end
 Music_07_Channel_1:
       inst 1
       vol 9
       setRelease 1
       vibrato 02ah
-            noteL A5, 84
-            note G5
-            noteL G5, 53
-            noteL G5, 6
+            noteL A4, 84
+            note G4
+            noteL G4, 53
+            noteL G4, 6
             waitL 25
-            noteL G5, 84
-            noteL F5, 53
-            noteL F5, 6
+            noteL G4, 84
+            noteL F4, 53
+            noteL F4, 6
             waitL 25
-            noteL E5, 11
+            noteL E4, 11
             waitL 19
-            noteL E5, 54
-            noteL E5, 53
-            noteL E5, 6
+            noteL E4, 54
+            noteL E4, 53
+            noteL E4, 6
             waitL 25
-            noteL E5, 84
-            noteL F5, 53
-            noteL F5, 6
+            noteL E4, 84
+            noteL F4, 53
+            noteL F4, 6
             waitL 25
-            noteL E5, 6
+            noteL E4, 6
             waitL 25
-            noteL E5, 53
-            note E5
-            noteL E5, 6
+            noteL E4, 53
+            note E4
+            noteL E4, 6
             waitL 25
-            noteL E5, 53
-            noteL E5, 6
+            noteL E4, 53
+            noteL E4, 6
             waitL 25
-            noteL A5, 84
-            note G5
-            noteL G5, 53
-            noteL G5, 6
+            noteL A4, 84
+            note G4
+            noteL G4, 53
+            noteL G4, 6
             waitL 25
-            noteL G5, 84
-            noteL F5, 53
-            noteL F5, 6
+            noteL G4, 84
+            noteL F4, 53
+            noteL F4, 6
             waitL 25
-            noteL E5, 6
+            noteL E4, 6
             waitL 25
-            noteL E5, 53
-            noteL E5, 42
-            note Gs5
-            noteL G5, 6
+            noteL E4, 53
+            noteL E4, 42
+            note Gs4
+            noteL G4, 6
             waitL 25
-            noteL Fs5, 53
-            noteL F5, 84
-            note E5
+            noteL Fs4, 53
+            noteL F4, 84
+            note E4
             waitL 11
-            noteL A5, 10
+            noteL A4, 10
             waitL 20
-            noteL A5, 8
+            noteL A4, 8
             waitL 35
-            noteL A5, 11
+            noteL A4, 11
             waitL 20
-            noteL A5, 58
+            noteL A4, 58
     channel_end
 Music_07_Channel_2:
       setRelease 1
@@ -170,327 +170,327 @@ Music_07_Channel_2:
     countedLoopStart 6
       inst 41
       vol 10
-            noteL C5, 21
+            noteL C4, 21
       inst 40
       vol 10
-            noteL C5, 14
+            noteL C4, 14
       vol 7
-            noteL C5, 7
+            noteL C4, 7
       inst 41
       vol 10
-            noteL C5, 21
+            noteL C4, 21
       inst 40
       vol 10
-            noteL C5, 14
+            noteL C4, 14
       vol 7
-            noteL C5, 7
+            noteL C4, 7
     countedLoopEnd
       inst 41
       vol 10
-            noteL As3, 21
+            noteL As2, 21
       inst 40
       vol 10
-            noteL Fs3, 14
+            noteL Fs2, 14
       inst 45
       vol 11
-            noteL E3, 7
+            noteL E2, 7
       vol 13
-            note E3
-            note E3
-            note E3
+            note E2
+            note E2
+            note E2
       inst 44
       vol 14
       vibrato 0b0h
       stereo 080h
-            note C4
+            note C3
       stereo 0c0h
-            note A3
+            note A2
       stereo 040h
-            note F3
+            note F2
       vibrato 02ah
       stereo 0c0h
       inst 41
       vol 10
-            noteL As3, 21
+            noteL As2, 21
       inst 40
       vol 10
-            noteL Fs3, 14
-            noteL Fs3, 21
+            noteL Fs2, 14
+            noteL Fs2, 21
       inst 45
       vol 13
-            note E3
+            note E2
       vibrato 0b0h
       stereo 080h
       inst 44
       vol 14
-            noteL C4, 7
+            noteL C3, 7
     repeatStart
     countedLoopStart 1
       stereo 0c0h
       vibrato 02ah
       inst 41
       vol 10
-            noteL As3, 21
+            noteL As2, 21
       inst 40
       vol 10
-            noteL Fs3, 14
+            noteL Fs2, 14
       vol 7
-            noteL Fs3, 7
+            noteL Fs2, 7
       inst 41
       vol 10
-            noteL As3, 21
+            noteL As2, 21
       inst 40
       vol 10
-            noteL Fs3, 14
+            noteL Fs2, 14
       vol 7
-            noteL Fs3, 7
+            noteL Fs2, 7
     countedLoopEnd
     repeatSection1Start
       inst 41
       vol 10
-            noteL As3, 21
+            noteL As2, 21
       inst 40
       vol 10
-            noteL Fs3, 14
+            noteL Fs2, 14
       vol 7
-            noteL Fs3, 7
+            noteL Fs2, 7
       inst 45
       vol 10
-            note E3
+            note E2
       vol 11
-            note E3
+            note E2
       vol 12
-            note E3
+            note E2
       vol 13
-            note E3
-            note E3
-            note E3
+            note E2
+            note E2
+            note E2
     countedLoopStart 1
       inst 41
       vol 10
-            noteL As3, 21
+            noteL As2, 21
       inst 40
       vol 10
-            noteL Fs3, 14
-            noteL Fs3, 21
+            noteL Fs2, 14
+            noteL Fs2, 21
       inst 45
       vol 13
-            note E3
+            note E2
       vibrato 0b0h
       stereo 080h
       inst 44
       vol 14
-            noteL A3, 7
+            noteL A2, 7
       stereo 0c0h
       vibrato 02ah
       inst 41
       vol 10
-            noteL As3, 21
+            noteL As2, 21
       inst 40
       vol 10
-            noteL Fs3, 14
+            noteL Fs2, 14
       vol 7
-            noteL Fs3, 7
+            noteL Fs2, 7
       inst 41
       vol 10
-            noteL As3, 21
+            noteL As2, 21
       inst 40
       vol 10
-            noteL Fs3, 14
+            noteL Fs2, 14
       vol 7
-            noteL Fs3, 7
+            noteL Fs2, 7
     countedLoopEnd
     repeatEnd
     repeatSection2Start
       inst 41
       vol 10
-            noteL As3, 21
+            noteL As2, 21
       inst 40
       vol 10
-            noteL Fs3, 14
-            noteL Fs3, 7
+            noteL Fs2, 14
+            noteL Fs2, 7
       inst 41
       vol 10
-            noteL As3, 14
+            noteL As2, 14
       inst 45
       vol 13
-            noteL E3, 21
+            noteL E2, 21
       inst 40
       vol 10
-            noteL Fs3, 7
+            noteL Fs2, 7
     repeatEnd
     repeatSection3Start
       vibrato 0b0h
       stereo 040h
       inst 44
       vol 14
-            noteL F3, 14
+            noteL F2, 14
       inst 45
       vol 11
       vibrato 02ah
       stereo 0c0h
-            noteL E3, 7
+            noteL E2, 7
       vol 13
-            note E3
-            note E3
-            noteL E3, 11
+            note E2
+            note E2
+            noteL E2, 11
       vol 10
-            noteL E3, 4
-            note E3
-            noteL E3, 3
+            noteL E2, 4
+            note E2
+            noteL E2, 3
       vol 13
-            noteL E3, 20
+            noteL E2, 20
       vibrato 0b0h
       stereo 080h
       inst 44
       vol 12
-            noteL F3, 21
+            noteL F2, 21
       stereo 0c0h
       vibrato 02ah
       inst 40
       vol 12
-            noteL Fs3, 28
+            noteL Fs2, 28
       inst 41
       vol 10
-            noteL As3, 21
+            noteL As2, 21
       stereo 080h
       inst 44
       vol 14
-            note C4
+            note C3
       inst 45
       vol 13
-            noteL E3, 14
+            noteL E2, 14
       stereo 080h
       inst 44
       vol 14
       vibrato 0b0h
-            noteL A3, 7
+            noteL A2, 7
       stereo 040h
-            noteL F3, 10
+            noteL F2, 10
       stereo 0c0h
-            noteL C3, 53
+            noteL C2, 53
     channel_end
 Music_07_Channel_3:
       inst 1
       vol 9
       setRelease 1
       vibrato 02ah
-            noteL C5, 84
-            note B4
-            noteL B4, 53
-            noteL B4, 6
+            noteL C4, 84
+            note B3
+            noteL B3, 53
+            noteL B3, 6
             waitL 25
-            noteL C5, 84
-            noteL A4, 53
-            noteL A4, 6
+            noteL C4, 84
+            noteL A3, 53
+            noteL A3, 6
             waitL 25
-            noteL Gs4, 11
+            noteL Gs3, 11
             waitL 19
-            noteL Gs4, 54
-            noteL G4, 53
-            noteL G4, 6
+            noteL Gs3, 54
+            noteL G3, 53
+            noteL G3, 6
             waitL 25
-            noteL G4, 84
-            noteL A4, 53
-            noteL A4, 6
+            noteL G3, 84
+            noteL A3, 53
+            noteL A3, 6
             waitL 25
-            noteL Gs4, 6
+            noteL Gs3, 6
             waitL 25
-            noteL Gs4, 53
-            note G4
-            noteL G4, 6
+            noteL Gs3, 53
+            note G3
+            noteL G3, 6
             waitL 25
-            noteL G4, 53
-            noteL G4, 6
+            noteL G3, 53
+            noteL G3, 6
             waitL 25
-            noteL C5, 84
-            note B4
-            noteL B4, 53
-            noteL B4, 6
+            noteL C4, 84
+            note B3
+            noteL B3, 53
+            noteL B3, 6
             waitL 25
-            noteL C5, 84
-            noteL A4, 53
-            noteL A4, 6
+            noteL C4, 84
+            noteL A3, 53
+            noteL A3, 6
             waitL 25
-            noteL Gs4, 6
+            noteL Gs3, 6
             waitL 25
-            noteL Gs4, 53
-            noteL G4, 42
+            noteL Gs3, 53
+            noteL G3, 42
             wait
-            noteL B4, 6
+            noteL B3, 6
             waitL 25
-            noteL B4, 53
-            noteL A4, 84
-            note Gs4
+            noteL B3, 53
+            noteL A3, 84
+            note Gs3
             waitL 11
-            noteL C5, 10
+            noteL C4, 10
             waitL 20
-            noteL C5, 8
+            noteL C4, 8
             waitL 35
-            noteL C5, 11
+            noteL C4, 11
             waitL 20
-            noteL C5, 58
+            noteL C4, 58
     channel_end
 Music_07_Channel_4:
       inst 1
       vol 9
       setRelease 1
       vibrato 02ah
-            noteL F5, 84
-            note D5
-            noteL E5, 53
-            noteL E5, 6
+            noteL F4, 84
+            note D4
+            noteL E4, 53
+            noteL E4, 6
             waitL 25
-            noteL D5, 84
-            noteL D5, 53
-            noteL D5, 6
+            noteL D4, 84
+            noteL D4, 53
+            noteL D4, 6
             waitL 25
-            noteL B4, 11
+            noteL B3, 11
             waitL 19
-            noteL B4, 54
-            noteL C5, 53
-            noteL C5, 6
+            noteL B3, 54
+            noteL C4, 53
+            noteL C4, 6
             waitL 25
-            noteL C5, 84
-            noteL D5, 53
-            noteL D5, 6
+            noteL C4, 84
+            noteL D4, 53
+            noteL D4, 6
             waitL 25
-            noteL B4, 6
+            noteL B3, 6
             waitL 25
-            noteL B4, 53
-            note C5
-            noteL C5, 6
+            noteL B3, 53
+            note C4
+            noteL C4, 6
             waitL 25
-            noteL C5, 53
-            noteL C5, 6
+            noteL C4, 53
+            noteL C4, 6
             waitL 25
-            noteL F5, 84
-            note D5
-            noteL E5, 53
-            noteL E5, 6
+            noteL F4, 84
+            note D4
+            noteL E4, 53
+            noteL E4, 6
             waitL 25
-            noteL D5, 84
-            noteL D5, 53
-            noteL D5, 6
+            noteL D4, 84
+            noteL D4, 53
+            noteL D4, 6
             waitL 25
-            noteL B4, 6
+            noteL B3, 6
             waitL 25
-            noteL B4, 53
-            noteL C5, 42
+            noteL B3, 53
+            noteL C4, 42
             wait
-            noteL D5, 6
+            noteL D4, 6
             waitL 25
-            noteL D5, 53
-            noteL D5, 84
-            note B4
+            noteL D4, 53
+            noteL D4, 84
+            note B3
             waitL 11
-            noteL E5, 10
+            noteL E4, 10
             waitL 20
-            noteL E5, 8
+            noteL E4, 8
             waitL 35
-            noteL E5, 11
+            noteL E4, 11
             waitL 20
-            noteL E5, 58
+            noteL E4, 58
     channel_end
 Music_07_Channel_5:
     channel_end

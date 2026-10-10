@@ -22,31 +22,31 @@ Music_27_Channel_0:
       inst 49
       vol 10
       setRelease 1
-            noteL F6, 27
+            noteL F5, 27
       vibrato 05ah
-            noteL D6, 9
-            noteL D6, 36
-            note F6
-            noteL E6, 27
-            noteL C6, 9
-            noteL C6, 180
-            noteL G6, 27
-            noteL D6, 9
-            noteL D6, 36
-            note G6
-            note F6
-            noteL A6, 180
-            noteL As6, 27
-            noteL D6, 9
-            noteL D6, 36
-            note As6
-            note A6
-            noteL F6, 207
-            noteL D6, 9
-            noteL D6, 36
-            note F6
-            note Cs6
-            noteL E6, 180
+            noteL D5, 9
+            noteL D5, 36
+            note F5
+            noteL E5, 27
+            noteL C5, 9
+            noteL C5, 180
+            noteL G5, 27
+            noteL D5, 9
+            noteL D5, 36
+            note G5
+            note F5
+            noteL A5, 180
+            noteL As5, 27
+            noteL D5, 9
+            noteL D5, 36
+            note As5
+            note A5
+            noteL F5, 207
+            noteL D5, 9
+            noteL D5, 36
+            note F5
+            note Cs5
+            noteL E5, 180
     mainLoopEnd
 Music_27_Channel_1:
       stereo 0c0h
@@ -57,30 +57,30 @@ Music_27_Channel_1:
       inst 49
       vol 10
       setRelease 1
-            noteL D6, 27
+            noteL D5, 27
       vibrato 05ah
-            noteL A5, 9
-            noteL A5, 36
-            note D6
-            noteL C6, 27
-            noteL G5, 9
-            noteL G5, 180
-            noteL D6, 27
-            noteL As5, 9
-            noteL As5, 36
-            note D6
-            note D6
-            noteL F6, 207
-            noteL As5, 9
-            noteL As5, 36
-            note F6
-            note F6
-            noteL D6, 207
-            noteL As5, 9
-            noteL As5, 36
-            note D6
-            note As5
-            noteL Cs6, 180
+            noteL A4, 9
+            noteL A4, 36
+            note D5
+            noteL C5, 27
+            noteL G4, 9
+            noteL G4, 180
+            noteL D5, 27
+            noteL As4, 9
+            noteL As4, 36
+            note D5
+            note D5
+            noteL F5, 207
+            noteL As4, 9
+            noteL As4, 36
+            note F5
+            note F5
+            noteL D5, 207
+            noteL As4, 9
+            noteL As4, 36
+            note D5
+            note As4
+            noteL Cs5, 180
     mainLoopEnd
 Music_27_Channel_2:
       stereo 0c0h
@@ -91,31 +91,31 @@ Music_27_Channel_2:
       inst 49
       vol 10
       setRelease 1
-            noteL A5, 27
+            noteL A4, 27
       vibrato 05ah
-            noteL F5, 9
-            noteL F5, 36
-            note A5
-            noteL G5, 27
-            noteL E5, 9
-            noteL E5, 180
-            noteL As5, 27
-            noteL G5, 9
-            noteL G5, 36
-            note As5
-            note A5
-            noteL D6, 207
-            noteL F5, 9
-            noteL F5, 36
-            note D6
-            note D6
-            noteL A5, 180
-            noteL As5, 27
-            noteL F5, 9
-            noteL F5, 36
-            note As5
-            note G5
-            noteL As5, 180
+            noteL F4, 9
+            noteL F4, 36
+            note A4
+            noteL G4, 27
+            noteL E4, 9
+            noteL E4, 180
+            noteL As4, 27
+            noteL G4, 9
+            noteL G4, 36
+            note As4
+            note A4
+            noteL D5, 207
+            noteL F4, 9
+            noteL F4, 36
+            note D5
+            note D5
+            noteL A4, 180
+            noteL As4, 27
+            noteL F4, 9
+            noteL F4, 36
+            note As4
+            note G4
+            noteL As4, 180
     mainLoopEnd
 Music_27_Channel_3:
       stereo 0c0h
@@ -126,15 +126,15 @@ Music_27_Channel_3:
       inst 49
       vol 10
       setRelease 1
-            noteL D5, 108
+            noteL D4, 108
       vibrato 05ah
-            note D5
+            note D4
     countedLoopStart 3
-            noteL D5, 72
+            noteL D4, 72
             waitL 36
-            noteL D5, 108
+            noteL D4, 108
     countedLoopEnd
-            noteL A4, 216
+            noteL A3, 216
     mainLoopEnd
 Music_27_Channel_4:
       stereo 0c0h
@@ -146,16 +146,16 @@ Music_27_Channel_4:
       vol 10
             waitL 180
       setRelease 1
-            noteL A4, 36
+            noteL A3, 36
       vibrato 05ah
     countedLoopStart 1
-            noteL D4, 108
+            noteL D3, 108
             waitL 180
-            noteL A4, 36
+            noteL A3, 36
     countedLoopEnd
-            noteL D4, 108
+            noteL D3, 108
             wait
-            noteL A3, 216
+            noteL A2, 216
     mainLoopEnd
 Music_27_Channel_5:
     channel_end

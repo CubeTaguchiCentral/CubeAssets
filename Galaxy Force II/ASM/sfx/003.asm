@@ -11,5 +11,5 @@ Sfx_003_Channel_1:
       inst 51
       setRelease 1
       vol 15
-            noteL Ds3, 12
+            noteL Ds2, 12
     channel_end

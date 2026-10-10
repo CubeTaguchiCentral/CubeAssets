@@ -10,6 +10,6 @@ Sfx_040_Channel_1:
       vol 11
       setRelease 1
       vibrato 00h
-            noteL C2, 5
+            noteL C1, 5
             waitL 6
     channel_end

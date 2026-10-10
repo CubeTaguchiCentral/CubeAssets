@@ -8,21 +8,21 @@ Sfx_037_Channel_0:
       vol 15
       setRelease 0
       vibrato 00h
-            noteL As8, 4
+            noteL As7, 4
       vol 11
-            note As8
+            note As7
       vol 10
-            note As8
+            note As7
       vol 9
-            note As8
+            note As7
       vol 8
-            note As8
+            note As7
       vol 6
-            note As8
+            note As7
       vol 4
-            note As8
+            note As7
       vol 2
-            note As8
+            note As7
     channel_end
 Sfx_037_Channel_1:
     channel_end

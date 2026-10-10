@@ -10,5 +10,5 @@ Sfx_009_Channel_1:
       vol 10
       setRelease 0
       vibrato 090h
-            noteL As6, 72
+            noteL As5, 72
     channel_end

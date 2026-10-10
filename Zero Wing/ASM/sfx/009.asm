@@ -10,10 +10,10 @@ Sfx_009_Channel_1:
       vol 15
       setRelease 0
       vibrato 04ah
-            noteL C2, 1
-            note C2
-            noteL C2, 6
-            note C2
-            note C2
-            noteL C2, 36
+            noteL C1, 1
+            note C1
+            noteL C1, 6
+            note C1
+            note C1
+            noteL C1, 36
     channel_end

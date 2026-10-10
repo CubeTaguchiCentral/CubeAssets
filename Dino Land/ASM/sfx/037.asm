@@ -10,8 +10,8 @@ Sfx_037_Channel_1:
       vol 14
       setRelease 2
       vibrato 00h
-            noteL A7, 3
-            note A7
-            note A7
-            noteL A7, 6
+            noteL A6, 3
+            note A6
+            note A6
+            noteL A6, 6
     channel_end

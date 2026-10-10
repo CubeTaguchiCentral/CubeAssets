@@ -9,8 +9,8 @@ Sfx_007_Channel_1:
       inst 63
       vol 15
       vibrato 04ah
-            noteL G2, 0
+            noteL G1, 0
       setSlide 8
-            noteL C2, 49
+            noteL C1, 49
       noSlide
     channel_end

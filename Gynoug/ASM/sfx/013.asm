@@ -16,7 +16,7 @@ Sfx_013_Channel_8:
       psgInst 02fh
       setRelease 0
       vibrato 00h
-            psgNoteL A6, 4
+            psgNoteL A7, 4
       psgInst 026h
-            psgNoteL A6, 8
+            psgNoteL A7, 8
     channel_end

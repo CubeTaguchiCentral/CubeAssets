@@ -19,37 +19,37 @@ Music_09_Channel_0:
       vol 13
       setRelease 0
       vibrato 02ah
-            noteL A2, 192
+            noteL A1, 192
     countedLoopStart 7
       inst 51
       vol 15
-            noteL G2, 3
-            note Gs2
-            note A2
+            noteL G1, 3
+            note Gs1
+            note A1
       vol 12
-            note As2
-            note B2
+            note As1
+            note B1
       vol 10
-            note C3
-            note Cs3
+            note C2
+            note Cs2
       vol 8
-            note D3
-            note Ds3
+            note D2
+            note Ds2
       vol 6
-            note E3
-            note F3
+            note E2
+            note F2
     countedLoopEnd
       inst 50
       vol 13
-            noteL F2, 144
-            noteL F2, 6
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
+            noteL F1, 144
+            noteL F1, 6
+            note F1
+            note F1
+            note F1
+            note F1
+            note F1
+            note F1
+            note F1
     channel_end
 Music_09_Channel_1:
             waitL 2
@@ -59,44 +59,65 @@ Music_09_Channel_1:
       setRelease 0
       vibrato 02ah
             waitL 1
-            noteL A2, 192
+            noteL A1, 192
     countedLoopStart 7
       inst 51
       vol 6
-            noteL G2, 3
-            note Gs2
+            noteL G1, 3
+            note Gs1
       vol 8
-            note A2
-            note As2
+            note A1
+            note As1
       vol 10
-            note B2
-            note C3
+            note B1
+            note C2
       vol 12
-            note Cs3
-            note D3
+            note Cs2
+            note D2
       vol 15
-            note Ds3
-            note E3
-            note F3
+            note Ds2
+            note E2
+            note F2
     countedLoopEnd
       inst 50
       vol 13
-            noteL F2, 140
-            noteL F2, 6
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
-            note F2
+            noteL F1, 140
+            noteL F1, 6
+            note F1
+            note F1
+            note F1
+            note F1
+            note F1
+            note F1
+            note F1
     channel_end
 Music_09_Channel_2:
       inst 7
       vol 15
       setRelease 0
       vibrato 02ah
-            noteL G2, 6
+            noteL G1, 6
+            note Gs1
+            note A1
+            note As1
+            note B1
+            note C2
+            note Cs2
+            note D2
+            note Ds2
+            note E2
+            note F2
+            note G2
+            note Gs2
+            note A2
+            note As2
+            note C2
+            note Cs2
+            note D2
+            note Ds2
+            note E2
+            note F2
+            note G2
             note Gs2
             note A2
             note As2
@@ -106,55 +127,34 @@ Music_09_Channel_2:
             note D3
             note Ds3
             note E3
-            note F3
-            note G3
-            note Gs3
-            note A3
-            note As3
+            noteL A2, 3
+            note As2
+            note B2
             note C3
             note Cs3
             note D3
             note Ds3
             note E3
             note F3
-            note G3
-            note Gs3
-            note A3
-            note As3
-            note B3
-            note C4
-            note Cs4
-            note D4
-            note Ds4
-            note E4
-            noteL A3, 3
-            note As3
-            note B3
-            note C4
-            note Cs4
-            note D4
-            note Ds4
-            note E4
-            note F4
-            note Fs4
-            note F4
-            note E4
-            note Ds4
-            note D4
-            note Cs4
-            note C4
-            note B3
-            note As3
-            note A3
-            note Gs3
-            note G3
             note Fs3
+            note F3
             note E3
             note Ds3
+            note D3
             note Cs3
-    countedLoopStart 8
-            noteL E2, 12
+            note C3
+            note B2
+            note As2
+            note A2
+            note Gs2
+            note G2
+            note Fs2
             note E2
+            note Ds2
+            note Cs2
+    countedLoopStart 8
+            noteL E1, 12
+            note E1
             wait
     countedLoopEnd
     channel_end
@@ -164,25 +164,25 @@ Music_09_Channel_3:
       vol 9
       setRelease 0
       vibrato 02ah
-            noteL A2, 96
+            noteL A1, 96
     countedLoopEnd
-            noteL A2, 72
-            noteL A2, 6
-            note A2
-            note A2
-            note A2
-            note A2
-            note A2
-            note A2
-            note A2
-            note A2
-            note A2
-            note A2
-            note A2
-            note A2
-            note A2
-            note A2
-            note A2
+            noteL A1, 72
+            noteL A1, 6
+            note A1
+            note A1
+            note A1
+            note A1
+            note A1
+            note A1
+            note A1
+            note A1
+            note A1
+            note A1
+            note A1
+            note A1
+            note A1
+            note A1
+            note A1
     channel_end
 Music_09_Channel_4:
     channel_end
@@ -190,51 +190,51 @@ Music_09_Channel_6:
       psgInst 0fh
       vibrato 0f0h
       setRelease 0
-            psgNoteL A1, 18
-            waitL 3
-            psgNoteL E3, 12
-            psgNote E3
             psgNoteL A2, 18
             waitL 3
-            psgNoteL E3, 12
-            psgNote E3
-            psgNoteL E2, 36
+            psgNoteL E4, 12
+            psgNote E4
+            psgNoteL A3, 18
+            waitL 3
+            psgNoteL E4, 12
+            psgNote E4
+            psgNoteL E3, 36
     countedLoopStart 31
       psgInst 0ch
-            psgNoteL E2, 2
-            psgNote G2
-            psgNote E2
-            psgNote G2
-            psgNote E2
-            psgNote G2
+            psgNoteL E3, 2
+            psgNote G3
+            psgNote E3
+            psgNote G3
+            psgNote E3
+            psgNote G3
     countedLoopEnd
     channel_end
 Music_09_Channel_7:
       psgInst 0fh
       setRelease 0
       vibrato 0f0h
-            psgNoteL A0, 12
-            psgNote A0
+            psgNoteL A1, 12
+            psgNote A1
             waitL 3
-            psgNoteL E1, 12
-            psgNote E1
-            psgNote A0
-            psgNote A0
+            psgNoteL E2, 12
+            psgNote E2
+            psgNote A1
+            psgNote A1
             waitL 3
-            psgNoteL E1, 12
-            psgNote E1
-            psgNote A0
-            psgNote A0
+            psgNoteL E2, 12
+            psgNote E2
+            psgNote A1
+            psgNote A1
             waitL 3
-            psgNoteL E1, 12
-            psgNote E1
-            psgNoteL E0, 24
+            psgNoteL E2, 12
+            psgNote E2
+            psgNoteL E1, 24
     countedLoopStart 31
-            psgNoteL E0, 2
-            psgNote G0
-            psgNote E0
-            psgNote G0
-            psgNote E0
-            psgNote G0
+            psgNoteL E1, 2
+            psgNote G1
+            psgNote E1
+            psgNote G1
+            psgNote E1
+            psgNote G1
     countedLoopEnd
     channel_end

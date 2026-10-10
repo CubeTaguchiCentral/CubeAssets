@@ -10,5 +10,5 @@ Sfx_031_Channel_1:
       vol 15
       setRelease 1
       vibrato 010h
-            noteL C2, 96
+            noteL C1, 96
     channel_end

@@ -9,21 +9,21 @@ Sfx_064_Channel_0:
       setRelease 1
       vibrato 010h
       stereo 080h
-            noteL C6, 1
-            noteL F6, 2
-            note As6
-            note Ds7
+            noteL C5, 1
+            noteL F5, 2
+            note As5
+            note Ds6
       sustain
-            noteL Gs7, 6
+            noteL Gs6, 6
       vol 11
-            noteL Gs7, 3
+            noteL Gs6, 3
       vol 9
-            note Gs7
+            note Gs6
       vol 7
-            note Gs7
+            note Gs6
       vol 5
       setRelease 1
-            noteL Gs7, 4
+            noteL Gs6, 4
     channel_end
 Sfx_064_Channel_1:
       inst 82
@@ -32,21 +32,21 @@ Sfx_064_Channel_1:
       vibrato 010h
       shifting 32
       stereo 040h
-            noteL C6, 2
-            note F6
-            note As6
-            note Ds7
+            noteL C5, 2
+            note F5
+            note As5
+            note Ds6
       sustain
-            noteL Gs7, 6
+            noteL Gs6, 6
       vol 11
-            noteL Gs7, 3
+            noteL Gs6, 3
       vol 9
-            note Gs7
+            note Gs6
       vol 7
-            note Gs7
+            note Gs6
       vol 5
       setRelease 1
-            note Gs7
+            note Gs6
     channel_end
 Sfx_064_Channel_2:
     channel_end

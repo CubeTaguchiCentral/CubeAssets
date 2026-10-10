@@ -19,51 +19,51 @@ Music_14_Channel_0:
       vol 11
       setRelease 1
       vibrato 05ah
-            noteL D5, 7
+            noteL D4, 7
+            note A3
+            note D4
+            note Fs4
+            note G4
+            note Fs4
+            note E4
+            note D4
+            noteL Cs4, 5
+            note D4
+            note E4
+            note B4
             note A4
-            note D5
-            note Fs5
-            note G5
-            note Fs5
-            note E5
-            note D5
-            noteL Cs5, 5
-            note D5
-            note E5
-            note B5
-            note A5
-            note G5
-            noteL Fs5, 140
+            note G4
+            noteL Fs4, 140
     channel_end
 Music_14_Channel_1:
       stereo 040h
       inst 15
       vol 7
       setRelease 1
-            noteL A4, 56
+            noteL A3, 56
       vibrato 05ah
-            noteL A4, 28
-            noteL A4, 140
+            noteL A3, 28
+            noteL A3, 140
     channel_end
 Music_14_Channel_2:
       stereo 0c0h
       inst 27
       vol 9
       setRelease 1
-            noteL D4, 56
+            noteL D3, 56
       vibrato 05ah
-            noteL D4, 28
-            noteL D4, 140
+            noteL D3, 28
+            noteL D3, 140
     channel_end
 Music_14_Channel_3:
       stereo 080h
       inst 15
       vol 7
       setRelease 1
-            noteL D5, 56
+            noteL D4, 56
       vibrato 05ah
-            noteL G5, 28
-            noteL Fs5, 140
+            noteL G4, 28
+            noteL Fs4, 140
     channel_end
 Music_14_Channel_4:
       stereo 0c0h
@@ -72,21 +72,21 @@ Music_14_Channel_4:
       vol 6
       setRelease 1
       vibrato 05ah
-            noteL D5, 7
+            noteL D4, 7
+            note A3
+            note D4
+            note Fs4
+            note G4
+            note Fs4
+            note E4
+            note D4
+            noteL Cs4, 5
+            note D4
+            note E4
+            note B4
             note A4
-            note D5
-            note Fs5
-            note G5
-            note Fs5
-            note E5
-            note D5
-            noteL Cs5, 5
-            note D5
-            note E5
-            note B5
-            note A5
-            note G5
-            noteL Fs5, 140
+            note G4
+            noteL Fs4, 140
     channel_end
 Music_14_Channel_5:
     channel_end

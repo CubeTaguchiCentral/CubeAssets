@@ -19,7 +19,7 @@ Music_10_Channel_0:
       vibrato 02ah
       stereo 040h
       setRelease 1
-            noteL A4, 64
+            noteL A3, 64
     channel_end
 Music_10_Channel_1:
       inst 55
@@ -28,7 +28,7 @@ Music_10_Channel_1:
       vibrato 02ah
       setRelease 1
             waitL 5
-            noteL B4, 59
+            noteL B3, 59
     channel_end
 Music_10_Channel_2:
       inst 55
@@ -37,7 +37,7 @@ Music_10_Channel_2:
       vibrato 02ah
       setRelease 1
             waitL 11
-            noteL Cs5, 53
+            noteL Cs4, 53
     channel_end
 Music_10_Channel_3:
       inst 55
@@ -46,7 +46,7 @@ Music_10_Channel_3:
       vibrato 02ah
       setRelease 1
             waitL 16
-            noteL E5, 48
+            noteL E4, 48
     channel_end
 Music_10_Channel_4:
             waitL 11
@@ -55,10 +55,10 @@ Music_10_Channel_4:
       vol 7
       vibrato 02ah
       setRelease 1
-            noteL A4, 5
-            noteL B4, 6
-            noteL Cs5, 5
-            noteL E5, 37
+            noteL A3, 5
+            noteL B3, 6
+            noteL Cs4, 5
+            noteL E4, 37
     channel_end
 Music_10_Channel_5:
     channel_end

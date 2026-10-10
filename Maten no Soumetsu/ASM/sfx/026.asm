@@ -10,9 +10,9 @@ Sfx_026_Channel_0:
       vol 15
       setRelease 1
       vibrato 02ah
-            noteL C2, 96
-            note G2
-            note A2
+            noteL C1, 96
+            note G1
+            note A1
     mainLoopEnd
 Sfx_026_Channel_1:
     mainLoopStart
@@ -21,9 +21,9 @@ Sfx_026_Channel_1:
       vol 15
       setRelease 1
       vibrato 02ah
-            noteL C2, 94
-            note G2
-            note B2
+            noteL C1, 94
+            note G1
+            note B1
     mainLoopEnd
 Sfx_026_Channel_2:
     channel_end

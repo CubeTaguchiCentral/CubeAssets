@@ -17,13 +17,13 @@ Sfx_004_Channel_4:
       vol 14
       sustain
       vibrato 0b0h
-            noteL C4, 4
+            noteL C3, 4
       setRelease 1
-            noteL Ds5, 2
+            noteL Ds4, 2
       vibrato 010h
     repeatStart
       setRelease 0
-            noteL As4, 2
-            note C6
+            noteL As3, 2
+            note C5
     repeatEnd
     channel_end

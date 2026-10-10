@@ -19,22 +19,22 @@ Music_16_Channel_0:
       vol 11
       vibrato 05ah
       setRelease 1
-            noteL Gs4, 6
-            note Fs4
+            noteL Gs3, 6
+            note Fs3
+            note Cs3
+            note Ds3
+            wait
+            note Fs3
+            wait
+            note Gs3
+            wait
+            note As3
+            wait
             note Cs4
-            note Ds4
-            wait
-            note Fs4
-            wait
-            note Gs4
-            wait
-            note As4
-            wait
-            note Cs5
-            noteL Ds5, 24
+            noteL Ds4, 24
       vol 13
       sustain
-            noteL Ds3, 10
+            noteL Ds2, 10
     mainLoopStart
       inst 7
       vol 13
@@ -42,16 +42,16 @@ Music_16_Channel_0:
       setRelease 1
             waitL 8
     countedLoopStart 10
-            noteL Cs3, 18
-            noteL Ds3, 12
+            noteL Cs2, 18
+            noteL Ds2, 12
             waitL 48
-            noteL Ds3, 18
+            noteL Ds2, 18
     countedLoopEnd
-            note Cs3
-            noteL Ds3, 12
+            note Cs2
+            noteL Ds2, 12
             waitL 48
       sustain
-            noteL Ds3, 10
+            noteL Ds2, 10
     mainLoopEnd
 Music_16_Channel_1:
       stereo 080h
@@ -59,28 +59,28 @@ Music_16_Channel_1:
       vol 10
       setRelease 1
       vibrato 070h
-            noteL Gs6, 6
-            note Fs6
+            noteL Gs5, 6
+            note Fs5
+            note Cs5
+            note Ds5
+            wait
+            note Fs5
+            wait
+            note Gs5
+            wait
+            note As5
+            wait
             note Cs6
-            note Ds6
-            wait
-            note Fs6
-            wait
-            note Gs6
-            wait
-            note As6
-            wait
-            note Cs7
       sustain
-            note Ds7
+            note Ds6
       setRelease 4
-            noteL D7, 18
+            noteL D6, 18
       stereo 0c0h
       inst 26
       vol 12
       sustain
       vibrato 00h
-            noteL B7, 10
+            noteL B6, 10
     mainLoopStart
       inst 26
       vol 12
@@ -88,71 +88,71 @@ Music_16_Channel_1:
       stereo 0c0h
       sustain
       vibrato 065h
-            noteL B7, 24
+            noteL B6, 24
       setRelease 1
       vibrato 00h
-            noteL Cs8, 86
+            noteL Cs7, 86
       setRelease 2
       vibrato 05ah
-            noteL B7, 24
-            noteL As7, 18
-            note Fs7
-            noteL Cs7, 12
-            noteL Ds7, 18
-            note F7
-            noteL Fs7, 12
+            noteL B6, 24
+            noteL As6, 18
+            note Fs6
+            noteL Cs6, 12
+            noteL Ds6, 18
+            note F6
+            noteL Fs6, 12
       sustain
       vibrato 072h
-            noteL Gs7, 36
+            noteL Gs6, 36
       vibrato 00h
-            noteL G7, 15
+            noteL G6, 15
       setRelease 1
-            noteL Gs7, 91
+            noteL Gs6, 91
             waitL 2
       vibrato 05ah
-            noteL F7, 120
+            noteL F6, 120
       sustain
-            noteL Fs7, 10
+            noteL Fs6, 10
       setRelease 1
-            noteL B7, 14
-            noteL As7, 18
-            note F7
-            noteL Cs7, 12
-            noteL Gs6, 18
-            note B6
+            noteL B6, 14
+            noteL As6, 18
+            note F6
+            noteL Cs6, 12
+            noteL Gs5, 18
+            note B5
       sustain
       vibrato 074h
-            noteL As6, 29
+            noteL As5, 29
       vibrato 00h
-            noteL A6, 17
+            noteL A5, 17
       setRelease 3
-            noteL As6, 62
+            noteL As5, 62
       setRelease 2
-            noteL Ds7, 18
-            note Fs7
-            noteL Gs7, 12
+            noteL Ds6, 18
+            note Fs6
+            noteL Gs6, 12
       sustain
       vibrato 074h
-            noteL As7, 126
+            noteL As6, 126
       setRelease 2
-            noteL Gs7, 66
+            noteL Gs6, 66
     countedLoopStart 1
       sustain
-            noteL B7, 4
-            note C8
+            noteL B6, 4
+            note C7
       setRelease 1
-            noteL Cs8, 40
+            noteL Cs7, 40
     countedLoopEnd
       sustain
-            noteL B7, 4
-            note C8
+            noteL B6, 4
+            note C7
       setRelease 1
       vibrato 00h
-            noteL Cs8, 88
+            noteL Cs7, 88
       stereo 0c0h
       vol 12
       sustain
-            noteL B7, 10
+            noteL B6, 10
     mainLoopEnd
 Music_16_Channel_2:
       stereo 040h
@@ -162,22 +162,22 @@ Music_16_Channel_2:
       vol 10
       setRelease 1
       vibrato 070h
-            noteL Gs6, 6
-            note Fs6
+            noteL Gs5, 6
+            note Fs5
+            note Cs5
+            note Ds5
+            wait
+            note Fs5
+            wait
+            note Gs5
+            wait
+            note As5
+            wait
             note Cs6
-            note Ds6
-            wait
-            note Fs6
-            wait
-            note Gs6
-            wait
-            note As6
-            wait
-            note Cs7
       sustain
-            note Ds7
+            note Ds6
       setRelease 4
-            noteL D7, 18
+            noteL D6, 18
       stereo 0c0h
             waitL 8
     mainLoopStart
@@ -189,100 +189,100 @@ Music_16_Channel_2:
       inst 26
       vol 10
       vibrato 06ah
-            noteL B7, 34
+            noteL B6, 34
       setRelease 1
       vibrato 00h
-            noteL Cs8, 86
+            noteL Cs7, 86
       setRelease 2
       vibrato 05ah
-            noteL B7, 24
-            noteL As7, 18
-            note Fs7
-            noteL Cs7, 12
-            noteL Ds7, 18
-            note F7
-            noteL Fs7, 12
+            noteL B6, 24
+            noteL As6, 18
+            note Fs6
+            noteL Cs6, 12
+            noteL Ds6, 18
+            note F6
+            noteL Fs6, 12
       sustain
       vibrato 072h
-            noteL Gs7, 36
+            noteL Gs6, 36
       vibrato 00h
-            noteL G7, 15
+            noteL G6, 15
       setRelease 1
-            noteL Gs7, 91
+            noteL Gs6, 91
             waitL 2
       vibrato 05ah
-            noteL F7, 120
+            noteL F6, 120
       sustain
-            noteL Fs7, 10
+            noteL Fs6, 10
       setRelease 1
-            noteL B7, 14
-            noteL As7, 18
-            note F7
-            noteL Cs7, 12
-            noteL Gs6, 18
-            note B6
+            noteL B6, 14
+            noteL As6, 18
+            note F6
+            noteL Cs6, 12
+            noteL Gs5, 18
+            note B5
       sustain
       vibrato 074h
-            noteL As6, 29
+            noteL As5, 29
       vibrato 00h
-            noteL A6, 17
+            noteL A5, 17
       setRelease 3
-            noteL As6, 62
+            noteL As5, 62
       setRelease 2
-            noteL Ds7, 18
-            note Fs7
+            noteL Ds6, 18
+            note Fs6
       setRelease 1
-            noteL Gs7, 2
+            noteL Gs6, 2
     countedLoopStart 5
-            noteL As7, 4
-            note F7
-            note Cs7
+            noteL As6, 4
+            note F6
+            note Cs6
     countedLoopEnd
       vibrato 070h
-            note As7
-            note F7
-            note Cs7
-            note As7
-            note F7
-            note Cs7
+            note As6
+            note F6
+            note Cs6
+            note As6
+            note F6
+            note Cs6
     repeatStart
       vibrato 00h
-            note A7
-            note E7
-            note C7
-            note A7
-            note E7
-            note C7
+            note A6
+            note E6
+            note C6
+            note A6
+            note E6
+            note C6
       vibrato 070h
     repeatSection1Start
-            note A7
-            note E7
-            note C7
-            note A7
-            note E7
-            note C7
+            note A6
+            note E6
+            note C6
+            note A6
+            note E6
+            note C6
     repeatEnd
     repeatSection2Start
-            note As7
-            note F7
-            note Cs7
-            note As7
-            note F7
-            note Cs7
+            note As6
+            note F6
+            note Cs6
+            note As6
+            note F6
+            note Cs6
             waitL 10
       sustain
-            noteL B7, 4
+            noteL B6, 4
       vibrato 00h
     countedLoopStart 1
-            noteL C8, 4
+            noteL C7, 4
       setRelease 1
-            noteL Cs8, 40
+            noteL Cs7, 40
       sustain
-            noteL B7, 4
+            noteL B6, 4
     countedLoopEnd
-            note C8
+            note C7
       setRelease 1
-            noteL Cs8, 88
+            noteL Cs7, 88
     mainLoopEnd
 Music_16_Channel_3:
       stereo 0c0h
@@ -290,20 +290,20 @@ Music_16_Channel_3:
       vol 9
       vibrato 076h
       setRelease 1
-            noteL Ds6, 6
-            note Cs6
+            noteL Ds5, 6
+            note Cs5
+            note Gs4
+            note As4
+            wait
+            note Cs5
+            wait
+            note Ds5
+            wait
+            note F5
+            wait
             note Gs5
-            note As5
-            wait
-            note Cs6
-            wait
-            note Ds6
-            wait
-            note F6
-            wait
-            note Gs6
       setRelease 4
-            noteL As6, 24
+            noteL As5, 24
             waitL 10
     mainLoopStart
       inst 2
@@ -315,35 +315,35 @@ Music_16_Channel_3:
       setRelease 1
       vibrato 00h
     repeatStart
-            noteL Fs5, 18
-            note Fs6
-            noteL B6, 12
-            noteL As6, 18
-            note Fs6
-            noteL Cs6, 12
-            noteL Gs5, 18
-            note As6
-            noteL Ds7, 12
+            noteL Fs4, 18
+            note Fs5
+            noteL B5, 12
+            noteL As5, 18
+            note Fs5
+            noteL Cs5, 12
+            noteL Gs4, 18
+            note As5
+            noteL Ds6, 12
     repeatSection1Start
       vibrato 05ah
-            noteL Cs7, 24
+            noteL Cs6, 24
             waitL 120
             waitL 96
     repeatEnd
     repeatSection2Start
-            noteL Cs7, 24
+            noteL Cs6, 24
             wait
       inst 1
       vol 9
     countedLoopStart 2
-            noteL Ds4, 18
-            note Cs4
-            noteL Ds4, 12
+            noteL Ds3, 18
+            note Cs3
+            noteL Ds3, 12
             waitL 48
     countedLoopEnd
-            noteL Ds4, 18
-            note Cs4
-            noteL Ds4, 12
+            noteL Ds3, 18
+            note Cs3
+            noteL Ds3, 12
             waitL 58
     mainLoopEnd
 Music_16_Channel_4:
@@ -355,7 +355,7 @@ Music_16_Channel_4:
             waitL 6
       vibrato 00h
       sustain
-            noteL C5, 4
+            noteL C4, 4
     mainLoopStart
       inst 15
       vol 10
@@ -364,31 +364,31 @@ Music_16_Channel_4:
             waitL 2
     countedLoopStart 10
             waitL 6
-            note C5
+            note C4
             waitL 12
-            noteL C5, 6
-            note C5
-            noteL C5, 12
-            noteL C5, 6
-            note C5
+            noteL C4, 6
+            note C4
+            noteL C4, 12
+            noteL C4, 6
+            note C4
             waitL 24
       vol 10
             waitL 6
-            note C5
+            note C4
     countedLoopEnd
             wait
-            note C5
+            note C4
             waitL 12
-            noteL C5, 6
-            note C5
-            noteL C5, 12
-            noteL C5, 6
-            note C5
+            noteL C4, 6
+            note C4
+            noteL C4, 12
+            noteL C4, 6
+            note C4
             waitL 24
       vol 10
             waitL 6
       sustain
-            noteL C5, 4
+            noteL C4, 4
     mainLoopEnd
 Music_16_Channel_5:
             sampleL 0, 72

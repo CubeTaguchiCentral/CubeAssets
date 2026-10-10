@@ -9,5 +9,5 @@ Sfx_038_Channel_1:
       inst 93
       vol 15
       vibrato 0e0h
-            noteL As3, 39
+            noteL As2, 39
     channel_end

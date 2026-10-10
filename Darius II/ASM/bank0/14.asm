@@ -20,22 +20,22 @@ Music_14_Channel_0:
       vibrato 02ah
     countedLoopStart 23
       stereo 040h
-            noteL Fs7, 6
+            noteL Fs6, 6
             wait
-            note Cs7
+            note Cs6
             wait
-            note Ds7
+            note Ds6
             wait
-            note Fs6
+            note Fs5
             wait
       stereo 080h
-            note Fs7
-            wait
-            note Cs7
-            wait
-            note Ds7
-            wait
             note Fs6
+            wait
+            note Cs6
+            wait
+            note Ds6
+            wait
+            note Fs5
             wait
     countedLoopEnd
             waitL 48
@@ -49,57 +49,57 @@ Music_14_Channel_1:
       vol 10
       inst 2
             waitL 48
-            noteL Gs5, 6
+            noteL Gs4, 6
+            waitL 2
+            noteL Cs5, 6
+            waitL 2
+            noteL Ds5, 6
+            waitL 2
+            noteL B4, 6
+            waitL 2
+            noteL Cs5, 6
+            waitL 2
+            noteL Gs5, 104
+            waitL 48
+            noteL B5, 6
+            waitL 2
+            noteL As5, 6
+            waitL 2
+            noteL Fs5, 6
             waitL 2
             noteL Cs6, 6
             waitL 2
+            noteL Gs5, 6
+            waitL 2
+            noteL As5, 104
+            waitL 48
             noteL Ds6, 6
+            waitL 2
+            noteL Cs6, 6
             waitL 2
             noteL B5, 6
             waitL 2
+            noteL As5, 6
+            waitL 2
             noteL Cs6, 6
             waitL 2
-            noteL Gs6, 104
+            noteL Gs5, 104
             waitL 48
-            noteL B6, 6
-            waitL 2
-            noteL As6, 6
-            waitL 2
-            noteL Fs6, 6
-            waitL 2
-            noteL Cs7, 6
-            waitL 2
-            noteL Gs6, 6
-            waitL 2
-            noteL As6, 104
-            waitL 48
-            noteL Ds7, 6
-            waitL 2
-            noteL Cs7, 6
-            waitL 2
-            noteL B6, 6
-            waitL 2
-            noteL As6, 6
-            waitL 2
-            noteL Cs7, 6
-            waitL 2
-            noteL Gs6, 104
-            waitL 48
-            noteL Fs6, 12
-            note Gs6
-            note B6
-            note As6
-            noteL Cs6, 96
+            noteL Fs5, 12
+            note Gs5
+            note B5
+            note As5
+            noteL Cs5, 96
     countedLoopEnd
       inst 2
-            noteL Gs2, 48
-            noteL As2, 24
-            note B2
+            noteL Gs1, 48
+            noteL As1, 24
+            note B1
+            noteL Cs2, 96
+            noteL Ds2, 48
+            noteL Fs2, 24
+            note As2
             noteL Cs3, 96
-            noteL Ds3, 48
-            noteL Fs3, 24
-            note As3
-            noteL Cs4, 96
     channel_end
 Music_14_Channel_2:
       setRelease 1
@@ -111,56 +111,56 @@ Music_14_Channel_2:
       vol 10
       inst 2
             waitL 72
-            noteL Gs5, 6
+            noteL Gs4, 6
+            waitL 2
+            noteL Cs5, 6
+            waitL 2
+            noteL Ds5, 6
+            waitL 2
+            noteL B4, 6
+            waitL 2
+            noteL Cs5, 6
+            waitL 2
+            noteL Gs5, 104
+            waitL 48
+            noteL B5, 6
+            waitL 2
+            noteL As5, 6
+            waitL 2
+            noteL Fs5, 6
             waitL 2
             noteL Cs6, 6
             waitL 2
+            noteL Gs5, 6
+            waitL 2
+            noteL As5, 104
+            waitL 48
             noteL Ds6, 6
+            waitL 2
+            noteL Cs6, 6
             waitL 2
             noteL B5, 6
             waitL 2
+            noteL As5, 6
+            waitL 2
             noteL Cs6, 6
             waitL 2
-            noteL Gs6, 104
+            noteL Gs5, 104
             waitL 48
-            noteL B6, 6
-            waitL 2
-            noteL As6, 6
-            waitL 2
-            noteL Fs6, 6
-            waitL 2
-            noteL Cs7, 6
-            waitL 2
-            noteL Gs6, 6
-            waitL 2
-            noteL As6, 104
-            waitL 48
-            noteL Ds7, 6
-            waitL 2
-            noteL Cs7, 6
-            waitL 2
-            noteL B6, 6
-            waitL 2
-            noteL As6, 6
-            waitL 2
-            noteL Cs7, 6
-            waitL 2
-            noteL Gs6, 104
-            waitL 48
-            noteL Fs6, 12
-            note Gs6
-            note B6
-            note As6
-            noteL Cs6, 96
+            noteL Fs5, 12
+            note Gs5
+            note B5
+            note As5
+            noteL Cs5, 96
     countedLoopEnd
       inst 2
-            noteL As2, 24
-            note B2
+            noteL As1, 24
+            note B1
+            noteL Cs2, 96
+            noteL Ds2, 48
+            noteL Fs2, 24
+            note As2
             noteL Cs3, 96
-            noteL Ds3, 48
-            noteL Fs3, 24
-            note As3
-            noteL Cs4, 96
     channel_end
 Music_14_Channel_3:
     countedLoopStart 22
@@ -168,9 +168,9 @@ Music_14_Channel_3:
       vol 13
       vibrato 02ah
       inst 6
-            note Fs6
+            note Fs5
             wait
-            note Fs6
+            note Fs5
     countedLoopEnd
     channel_end
 Music_14_Channel_4:
@@ -180,21 +180,21 @@ Music_14_Channel_4:
       vibrato 02ah
             waitL 2
     countedLoopStart 23
-            noteL Fs7, 6
+            noteL Fs6, 6
             wait
-            note Cs7
+            note Cs6
             wait
-            note Ds7
+            note Ds6
             wait
-            note Fs6
-            wait
-            note Fs7
-            wait
-            note Cs7
-            wait
-            note Ds7
+            note Fs5
             wait
             note Fs6
+            wait
+            note Cs6
+            wait
+            note Ds6
+            wait
+            note Fs5
             wait
     countedLoopEnd
     channel_end

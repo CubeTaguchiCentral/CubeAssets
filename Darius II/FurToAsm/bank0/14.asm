@@ -20,41 +20,41 @@ Music_14_Channel_0:
       setRelease 1
       vibrato 00h
     countedLoopStart 22
-            noteL Fs7, 6
+            noteL Fs6, 6
             wait
-            note Cs7
+            note Cs6
             wait
-            note Ds7
+            note Ds6
             wait
-            note Fs6
+            note Fs5
             wait
       stereo 080h
-            note Fs7
-            wait
-            note Cs7
-            wait
-            note Ds7
-            wait
             note Fs6
+            wait
+            note Cs6
+            wait
+            note Ds6
+            wait
+            note Fs5
             wait
       stereo 040h
     countedLoopEnd
-            note Fs7
-            wait
-            note Cs7
-            wait
-            note Ds7
-            wait
             note Fs6
+            wait
+            note Cs6
+            wait
+            note Ds6
+            wait
+            note Fs5
             wait
       stereo 080h
-            note Fs7
-            wait
-            note Cs7
-            wait
-            note Ds7
-            wait
             note Fs6
+            wait
+            note Cs6
+            wait
+            note Ds6
+            wait
+            note Fs5
             waitL 54
     channel_end
 Music_14_Channel_1:
@@ -67,59 +67,59 @@ Music_14_Channel_1:
       vibrato 05ah
       setRelease 1
     repeatStart
-            noteL Gs5, 6
+            noteL Gs4, 6
+            waitL 2
+            noteL Cs5, 6
+            waitL 2
+            noteL Ds5, 6
+            waitL 2
+            noteL B4, 6
+            waitL 2
+            noteL Cs5, 6
+            waitL 2
+            noteL Gs5, 104
+            waitL 48
+            noteL B5, 6
+            waitL 2
+            noteL As5, 6
+            waitL 2
+            noteL Fs5, 6
             waitL 2
             noteL Cs6, 6
             waitL 2
+            noteL Gs5, 6
+            waitL 2
+            noteL As5, 104
+            waitL 48
             noteL Ds6, 6
+            waitL 2
+            noteL Cs6, 6
             waitL 2
             noteL B5, 6
             waitL 2
+            noteL As5, 6
+            waitL 2
             noteL Cs6, 6
             waitL 2
-            noteL Gs6, 104
+            noteL Gs5, 104
             waitL 48
-            noteL B6, 6
-            waitL 2
-            noteL As6, 6
-            waitL 2
-            noteL Fs6, 6
-            waitL 2
-            noteL Cs7, 6
-            waitL 2
-            noteL Gs6, 6
-            waitL 2
-            noteL As6, 104
-            waitL 48
-            noteL Ds7, 6
-            waitL 2
-            noteL Cs7, 6
-            waitL 2
-            noteL B6, 6
-            waitL 2
-            noteL As6, 6
-            waitL 2
-            noteL Cs7, 6
-            waitL 2
-            noteL Gs6, 104
-            waitL 48
-            noteL Fs6, 12
-            note Gs6
-            note B6
-            note As6
-            noteL Cs6, 96
+            noteL Fs5, 12
+            note Gs5
+            note B5
+            note As5
+            noteL Cs5, 96
     repeatSection1Start
             waitL 48
     repeatEnd
     repeatSection2Start
-            noteL Gs2, 48
-            noteL As2, 24
-            note B2
+            noteL Gs1, 48
+            noteL As1, 24
+            note B1
+            noteL Cs2, 96
+            noteL Ds2, 48
+            noteL Fs2, 24
+            note As2
             noteL Cs3, 96
-            noteL Ds3, 48
-            noteL Fs3, 24
-            note As3
-            noteL Cs4, 96
     channel_end
 Music_14_Channel_2:
       stereo 0c0h
@@ -131,58 +131,58 @@ Music_14_Channel_2:
       vibrato 05ah
       setRelease 1
     repeatStart
-            noteL Gs5, 6
+            noteL Gs4, 6
+            waitL 2
+            noteL Cs5, 6
+            waitL 2
+            noteL Ds5, 6
+            waitL 2
+            noteL B4, 6
+            waitL 2
+            noteL Cs5, 6
+            waitL 2
+            noteL Gs5, 104
+            waitL 48
+            noteL B5, 6
+            waitL 2
+            noteL As5, 6
+            waitL 2
+            noteL Fs5, 6
             waitL 2
             noteL Cs6, 6
             waitL 2
+            noteL Gs5, 6
+            waitL 2
+            noteL As5, 104
+            waitL 48
             noteL Ds6, 6
+            waitL 2
+            noteL Cs6, 6
             waitL 2
             noteL B5, 6
             waitL 2
+            noteL As5, 6
+            waitL 2
             noteL Cs6, 6
             waitL 2
-            noteL Gs6, 104
+            noteL Gs5, 104
             waitL 48
-            noteL B6, 6
-            waitL 2
-            noteL As6, 6
-            waitL 2
-            noteL Fs6, 6
-            waitL 2
-            noteL Cs7, 6
-            waitL 2
-            noteL Gs6, 6
-            waitL 2
-            noteL As6, 104
-            waitL 48
-            noteL Ds7, 6
-            waitL 2
-            noteL Cs7, 6
-            waitL 2
-            noteL B6, 6
-            waitL 2
-            noteL As6, 6
-            waitL 2
-            noteL Cs7, 6
-            waitL 2
-            noteL Gs6, 104
-            waitL 48
-            noteL Fs6, 12
-            note Gs6
-            note B6
-            note As6
-            noteL Cs6, 96
+            noteL Fs5, 12
+            note Gs5
+            note B5
+            note As5
+            noteL Cs5, 96
     repeatSection1Start
             waitL 72
     repeatEnd
     repeatSection2Start
-            noteL As2, 24
-            note B2
+            noteL As1, 24
+            note B1
+            noteL Cs2, 96
+            noteL Ds2, 48
+            noteL Fs2, 24
+            note As2
             noteL Cs3, 96
-            noteL Ds3, 48
-            noteL Fs3, 24
-            note As3
-            noteL Cs4, 96
     channel_end
 Music_14_Channel_3:
       stereo 0c0h
@@ -192,11 +192,11 @@ Music_14_Channel_3:
       setRelease 24
       vibrato 05ah
     countedLoopStart 21
-            noteL Fs6, 48
-            note Fs6
+            noteL Fs5, 48
+            note Fs5
     countedLoopEnd
-            note Fs6
-            noteL Fs6, 24
+            note Fs5
+            noteL Fs5, 24
     channel_end
 Music_14_Channel_4:
       stereo 0c0h
@@ -206,21 +206,21 @@ Music_14_Channel_4:
       vibrato 00h
       setRelease 1
     countedLoopStart 23
-            noteL Fs7, 6
+            noteL Fs6, 6
             wait
-            note Cs7
+            note Cs6
             wait
-            note Ds7
+            note Ds6
             wait
-            note Fs6
-            wait
-            note Fs7
-            wait
-            note Cs7
-            wait
-            note Ds7
+            note Fs5
             wait
             note Fs6
+            wait
+            note Cs6
+            wait
+            note Ds6
+            wait
+            note Fs5
             wait
     countedLoopEnd
     channel_end

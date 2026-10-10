@@ -12,21 +12,21 @@ Sfx_007_Channel_1:
       setRelease 1
       stereo 0c0h
       vibrato 014h
-            noteL C3, 4
+            noteL C2, 4
             wait
       vol 13
-            note C3
+            note C2
             wait
       vol 12
-            note C3
+            note C2
             wait
       vol 11
-            note C3
+            note C2
             wait
       vol 10
-            note C3
+            note C2
             wait
       vol 9
-            note C3
+            note C2
             wait
     channel_end

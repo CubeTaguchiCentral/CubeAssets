@@ -7,7 +7,7 @@ Sfx_035_Channel_0:
       inst 96
       vol 13
       vibrato 00h
-            noteL C2, 96
+            noteL C1, 96
     channel_end
 Sfx_035_Channel_1:
     channel_end

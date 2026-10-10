@@ -20,262 +20,262 @@ Music_14_Channel_0:
       setRelease 2
       vibrato 02ch
       stereo 080h
-            noteL C6, 12
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
+            noteL C5, 12
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
     mainLoopEnd
 Music_14_Channel_1:
     mainLoopStart
@@ -288,109 +288,109 @@ Music_14_Channel_1:
             wait
             wait
       sustain
-            noteL C7, 192
-            note C7
+            noteL C6, 192
+            note C6
       setRelease 1
-            note C7
+            note C6
       inst 43
       vol 12
-            noteL C6, 48
-            note G5
-            note C5
+            noteL C5, 48
+            note G4
             note C4
+            note C3
       inst 42
       vol 15
-            note C3
+            note C2
       inst 19
       vol 12
-            note Ds4
-            note Cs4
+            note Ds3
+            note Cs3
             wait
       inst 42
       vol 15
-            note C3
+            note C2
       inst 19
       vol 12
-            note Ds4
-            note E4
+            note Ds3
+            note E3
             wait
       inst 42
       vol 15
-            note C3
+            note C2
       inst 19
       vol 12
-            note Ds4
-            note Cs4
+            note Ds3
+            note Cs3
             wait
       inst 42
       vol 15
-            note C3
+            note C2
       inst 19
       vol 12
-            note Ds4
-            note E4
+            note Ds3
+            note E3
             wait
       inst 42
       vol 15
-            note C3
+            note C2
       inst 19
       vol 12
-            note Ds4
-            note Cs4
+            note Ds3
+            note Cs3
       inst 43
       vol 12
-            note G6
+            note G5
       inst 42
       vol 15
-            note C3
+            note C2
       inst 19
       vol 12
-            note Ds4
-            note E4
+            note Ds3
+            note E3
       inst 43
       vol 12
-            note Fs6
+            note Fs5
       inst 42
       vol 15
-            note C3
+            note C2
       inst 19
       vol 12
-            note Ds4
-            note Cs4
+            note Ds3
+            note Cs3
       inst 43
       vol 12
-            note G6
+            note G5
       inst 42
       vol 15
-            note C3
+            note C2
       inst 19
       vol 12
-            note Ds4
-            note E4
+            note Ds3
+            note E3
       inst 43
       vol 12
-            note Fs6
+            note Fs5
       inst 42
       vol 15
-            note C3
+            note C2
       inst 19
       vol 12
-            note Ds4
-            note Cs4
+            note Ds3
+            note Cs3
       inst 43
       vol 12
-            note G6
+            note G5
       inst 42
       vol 15
-            note C3
+            note C2
       inst 19
       vol 12
-            note Ds4
-            note E4
+            note Ds3
+            note E3
       inst 43
       vol 12
       vibrato 02ch
-            note F6
+            note F5
     mainLoopEnd
 Music_14_Channel_2:
     mainLoopStart
@@ -403,98 +403,98 @@ Music_14_Channel_2:
             wait
             wait
       sustain
-            noteL Cs7, 192
-            note Cs7
+            noteL Cs6, 192
+            note Cs6
       setRelease 1
-            note Cs7
+            note Cs6
       inst 43
       vol 12
       setRelease 2
-            noteL Cs6, 48
-            note Gs5
-            note Cs5
+            noteL Cs5, 48
+            note Gs4
+            note Cs4
             waitL 60
       inst 19
       vol 9
       shifting 32
-            noteL C3, 48
-            note Ds4
-            note Cs4
+            noteL C2, 48
+            note Ds3
+            note Cs3
             wait
-            note C3
-            note Ds4
-            note E4
+            note C2
+            note Ds3
+            note E3
             wait
-            note C3
-            note Ds4
-            note Cs4
+            note C2
+            note Ds3
+            note Cs3
             wait
-            note C3
-            note Ds4
-            note E4
+            note C2
+            note Ds3
+            note E3
             wait
-            note C3
-            note Ds4
-            noteL Cs4, 36
+            note C2
+            note Ds3
+            noteL Cs3, 36
       inst 43
       vol 12
       shifting 0
-            noteL Gs7, 48
+            noteL Gs6, 48
             waitL 12
       inst 19
       vol 9
       shifting 32
-            noteL C3, 48
-            note Ds4
-            noteL E4, 36
+            noteL C2, 48
+            note Ds3
+            noteL E3, 36
       inst 43
       vol 12
       shifting 0
-            noteL G7, 48
+            noteL G6, 48
             waitL 12
       inst 19
       vol 9
       shifting 32
-            noteL C3, 48
-            note Ds4
-            noteL Cs4, 36
+            noteL C2, 48
+            note Ds3
+            noteL Cs3, 36
       inst 43
       vol 12
       shifting 0
-            noteL Gs7, 48
+            noteL Gs6, 48
             waitL 12
       inst 19
       vol 9
       shifting 32
-            noteL C3, 48
-            note Ds4
-            noteL E4, 36
+            noteL C2, 48
+            note Ds3
+            noteL E3, 36
       inst 43
       vol 12
       shifting 0
-            noteL G7, 48
+            noteL G6, 48
             waitL 12
       inst 19
       vol 9
       shifting 32
-            noteL C3, 48
-            note Ds4
-            noteL Cs4, 36
+            noteL C2, 48
+            note Ds3
+            noteL Cs3, 36
       inst 43
       vol 12
       shifting 0
-            noteL Gs7, 48
+            noteL Gs6, 48
             waitL 12
       inst 19
       vol 9
       shifting 32
-            noteL C3, 48
-            note Ds4
-            noteL E4, 36
+            noteL C2, 48
+            note Ds3
+            noteL E3, 36
       inst 43
       vol 12
       shifting 32
-            noteL Fs7, 48
+            noteL Fs6, 48
     mainLoopEnd
 Music_14_Channel_3:
       vol 0
@@ -506,262 +506,262 @@ Music_14_Channel_3:
       vibrato 02ch
       shifting 16
       stereo 040h
-            noteL C6, 12
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
-            note C6
-            note Cs6
-            note Fs6
-            note G6
-            note D6
-            note Ds6
-            note Gs6
-            note A6
+            noteL C5, 12
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
+            note C5
+            note Cs5
+            note Fs5
+            note G5
+            note D5
+            note Ds5
+            note Gs5
+            note A5
     mainLoopEnd
 Music_14_Channel_4:
       vol 0
@@ -777,57 +777,57 @@ Music_14_Channel_4:
             wait
             wait
       sustain
-            noteL C7, 192
+            noteL C6, 192
       shifting 48
-            note C7
+            note C6
       shifting 64
       setRelease 2
-            note C7
+            note C6
       shifting 32
-            noteL C6, 48
-            note G5
-            note C5
+            noteL C5, 48
+            note G4
             note C4
             note C3
-            note Ds4
-            note Cs4
+            note C2
+            note Ds3
+            note Cs3
             wait
-            note C3
-            note Ds4
-            note E4
+            note C2
+            note Ds3
+            note E3
             wait
-            note C3
-            note Ds4
-            note Cs4
+            note C2
+            note Ds3
+            note Cs3
             wait
-            note C3
-            note Ds4
-            note E4
+            note C2
+            note Ds3
+            note E3
             wait
-            note C3
-            note Ds4
-            note Cs4
-            note G6
-            note C3
-            note Ds4
-            note E4
-            note Fs6
-            note C3
-            note Ds4
-            note Cs4
-            note G6
-            note C3
-            note Ds4
-            note E4
-            note Fs6
-            note C3
-            note Ds4
-            note Cs4
-            note G6
-            note C3
-            note Ds4
-            note E4
-            note F6
+            note C2
+            note Ds3
+            note Cs3
+            note G5
+            note C2
+            note Ds3
+            note E3
+            note Fs5
+            note C2
+            note Ds3
+            note Cs3
+            note G5
+            note C2
+            note Ds3
+            note E3
+            note Fs5
+            note C2
+            note Ds3
+            note Cs3
+            note G5
+            note C2
+            note Ds3
+            note E3
+            note F5
     mainLoopEnd
 Music_14_Channel_5:
     mainLoopStart
@@ -836,9 +836,9 @@ Music_14_Channel_5:
       setRelease 1
       vibrato 02ch
             waitL 24
-            noteL D2, 22
+            noteL D1, 22
       vol 10
-            noteL C2, 18
+            noteL C1, 18
             waitL 32
     mainLoopEnd
 Music_14_Channel_6:
@@ -846,24 +846,24 @@ Music_14_Channel_6:
       psgInst 099h
       setRelease 1
       vibrato 04fh
-            psgNoteL C4, 0
+            psgNoteL C5, 0
       setRelease 129
-            psgNoteL D4, 192
-            psgNote Cs4
-            psgNote D4
-            psgNote Cs4
-            psgNote Ds4
-            psgNote D4
-            psgNote Cs4
-            psgNote E4
-            psgNote Ds4
-            psgNote D4
-            psgNote Cs4
-            psgNote E4
-            psgNote F4
-            psgNote E4
-            psgNote D4
-            psgNote Ds4
+            psgNoteL D5, 192
+            psgNote Cs5
+            psgNote D5
+            psgNote Cs5
+            psgNote Ds5
+            psgNote D5
+            psgNote Cs5
+            psgNote E5
+            psgNote Ds5
+            psgNote D5
+            psgNote Cs5
+            psgNote E5
+            psgNote F5
+            psgNote E5
+            psgNote D5
+            psgNote Ds5
       setRelease 255
     mainLoopEnd
 Music_14_Channel_7:
@@ -871,24 +871,24 @@ Music_14_Channel_7:
       psgInst 099h
       setRelease 1
       vibrato 04fh
-            psgNoteL Fs4, 0
+            psgNoteL Fs5, 0
       setRelease 129
-            psgNoteL Gs4, 192
-            psgNote G4
-            psgNote Gs4
-            psgNote G4
-            psgNote A4
-            psgNote Gs4
-            psgNote G4
-            psgNote As4
-            psgNote A4
-            psgNote Gs4
-            psgNote G4
-            psgNote As4
-            psgNote B4
-            psgNote As4
-            psgNote Gs4
-            psgNote A4
+            psgNoteL Gs5, 192
+            psgNote G5
+            psgNote Gs5
+            psgNote G5
+            psgNote A5
+            psgNote Gs5
+            psgNote G5
+            psgNote As5
+            psgNote A5
+            psgNote Gs5
+            psgNote G5
+            psgNote As5
+            psgNote B5
+            psgNote As5
+            psgNote Gs5
+            psgNote A5
       setRelease 255
     mainLoopEnd
 Music_14_Channel_8:

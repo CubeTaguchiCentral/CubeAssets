@@ -14,14 +14,14 @@ Sfx_021_Channel_0:
     channel_end
 Sfx_021_Channel_9:
       setRelease 0
-            psgNoteL C0, 0
+            psgNoteL 07bh, 0
       psgInst 09h
-            psgNoteL C0, 2
+            psgNoteL 07h, 2
       psgInst 0ah
-            psgNoteL C0, 2
+            psgNoteL 07h, 2
       psgInst 0bh
-            psgNoteL C0, 2
+            psgNoteL 07h, 2
     mainLoopStart
       psgInst 0ch
-            psgNoteL C0, 2
+            psgNoteL 07h, 2
     mainLoopEnd

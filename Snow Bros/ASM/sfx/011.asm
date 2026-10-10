@@ -15,19 +15,19 @@ Sfx_011_Channel_1:
     countedLoopStart 2
       sustain
       setSlide 36
-            noteL Ds5, 5
-            note F5
+            noteL Ds4, 5
+            note F4
     countedLoopEnd
       sustain
       vol 10
-            noteL Ds5, 5
+            noteL Ds4, 5
       setRelease 1
-            note F5
+            note F4
       vol 7
-            noteL F5, 8
+            noteL F4, 8
       vol 5
-            note F5
+            note F4
       vol 2
-            note F5
+            note F4
       noSlide
     channel_end

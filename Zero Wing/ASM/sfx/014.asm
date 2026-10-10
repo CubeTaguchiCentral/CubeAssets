@@ -7,26 +7,26 @@ Sfx_014_Channel_0:
       inst 62
       vol 15
       vibrato 010h
-            noteL As7, 0
+            noteL As6, 0
       setSlide 32
-            noteL C2, 7
+            noteL C1, 7
       noSlide
       inst 63
       vol 15
-            noteL C3, 10
-            noteL D2, 100
+            noteL C2, 10
+            noteL D1, 100
     channel_end
 Sfx_014_Channel_1:
       inst 62
       vol 15
       vibrato 02ah
-            noteL C8, 0
+            noteL C7, 0
       setSlide 48
-            noteL C2, 13
+            noteL C1, 13
       noSlide
       inst 63
       vol 15
-            noteL C2, 100
+            noteL C1, 100
     channel_end
 Sfx_014_Channel_2:
     channel_end

@@ -16,16 +16,16 @@ Sfx_051_Channel_8:
       psgInst 00h
       setRelease 0
       vibrato 063h
-            psgNoteL C7, 19
+            psgNoteL C8, 19
     channel_end
 Sfx_051_Channel_9:
       setRelease 0
       psgInst 07bh
-            psgNoteL C0, 4
+            psgNoteL 07h, 4
       psgInst 07dh
-            psgNoteL C0, 4
+            psgNoteL 07h, 4
       psgInst 07fh
-            psgNoteL C0, 5
+            psgNoteL 07h, 5
       psgInst 01fh
-            psgNote G0
+            psgNote 07h
     channel_end

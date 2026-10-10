@@ -9,7 +9,7 @@ Sfx_048_Channel_0:
       inst 79
       vol 14
       setRelease 0
-            noteL C2, 96
+            noteL C1, 96
     mainLoopEnd
 Sfx_048_Channel_1:
     mainLoopStart
@@ -18,7 +18,7 @@ Sfx_048_Channel_1:
       vol 14
       setRelease 0
       shifting 32
-            noteL C2, 96
+            noteL C1, 96
     mainLoopEnd
 Sfx_048_Channel_2:
     channel_end

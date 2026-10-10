@@ -8,9 +8,9 @@ Sfx_011_Channel_0:
       vol 12
       vibrato 00h
       sustain
-            noteL C2, 96
+            noteL C1, 96
       setRelease 1
-            note C2
+            note C1
     channel_end
 Sfx_011_Channel_1:
     channel_end

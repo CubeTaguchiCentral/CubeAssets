@@ -10,34 +10,34 @@ Sfx_097_Channel_1:
       vol 14
       setRelease 1
       vibrato 00h
-            noteL C2, 0
+            noteL C1, 0
       setSlide 38
       sustain
-            noteL B6, 17
+            noteL B5, 17
       setSlide 126
       setRelease 1
-            noteL C2, 10
+            noteL C1, 10
       noSlide
       vol 12
       setRelease 1
       vibrato 00h
-            noteL C2, 0
+            noteL C1, 0
       setSlide 38
       sustain
-            noteL B6, 17
+            noteL B5, 17
       setSlide 126
       setRelease 1
-            noteL C2, 10
+            noteL C1, 10
       noSlide
       vol 10
       setRelease 1
       vibrato 00h
-            noteL C2, 0
+            noteL C1, 0
       setSlide 38
       sustain
-            noteL B6, 17
+            noteL B5, 17
       setSlide 126
       setRelease 1
-            noteL C2, 10
+            noteL C1, 10
       noSlide
     channel_end

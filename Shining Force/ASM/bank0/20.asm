@@ -21,15 +21,15 @@ Music_20_Channel_0:
       stereo 080h
             waitL 144
             wait
-            noteL Fs6, 10
-            note D6
-            note Cs6
-            note B5
-            note Fs5
+            noteL Fs5, 10
             note D5
             note Cs5
             note B4
-            noteL G4, 64
+            note Fs4
+            note D4
+            note Cs4
+            note B3
+            noteL G3, 64
     channel_end
 Music_20_Channel_1:
       inst 15
@@ -37,25 +37,25 @@ Music_20_Channel_1:
       sustain
       vibrato 038h
       stereo 080h
-            noteL Fs3, 144
+            noteL Fs2, 144
       setRelease 1
-            note Fs3
+            note Fs2
       sustain
-            note B3
+            note B2
       setRelease 1
-            note B3
+            note B2
     channel_end
 Music_20_Channel_2:
       inst 5
       vol 14
       setRelease 1
       vibrato 02ch
-            noteL B3, 144
-            note A3
+            noteL B2, 144
+            note A2
       sustain
-            note G3
+            note G2
       setRelease 1
-            note G3
+            note G2
     channel_end
 Music_20_Channel_3:
       inst 16
@@ -63,12 +63,12 @@ Music_20_Channel_3:
       setRelease 1
       stereo 0c0h
       vibrato 036h
-            noteL Cs4, 144
-            note E4
+            noteL Cs3, 144
+            note E3
       sustain
-            note Fs4
+            note Fs3
       setRelease 1
-            note Fs4
+            note Fs3
     channel_end
 Music_20_Channel_4:
       stereo 040h
@@ -76,13 +76,13 @@ Music_20_Channel_4:
       vol 12
       sustain
       vibrato 037h
-            noteL B3, 144
+            noteL B2, 144
       setRelease 1
-            note B3
+            note B2
       sustain
-            note Cs4
+            note Cs3
       setRelease 1
-            note Cs4
+            note Cs3
     channel_end
 Music_20_Channel_5:
     channel_end
@@ -90,21 +90,21 @@ Music_20_Channel_6:
       setRelease 1
       vibrato 05ch
       psgInst 0bh
-            psgNoteL Fs4, 24
-            psgNoteL B4, 8
-            psgNote Cs5
-            psgNote D5
+            psgNoteL Fs5, 24
+            psgNoteL B5, 8
+            psgNote Cs6
+            psgNote D6
       sustain
-            psgNoteL Cs5, 96
+            psgNoteL Cs6, 96
       setRelease 1
-            psgNoteL Cs5, 72
-            psgNoteL B4, 24
-            psgNote Cs5
-            psgNote D5
+            psgNoteL Cs6, 72
+            psgNoteL B5, 24
+            psgNote Cs6
+            psgNote D6
       sustain
-            psgNoteL Fs5, 144
+            psgNoteL Fs6, 144
       setRelease 1
-            psgNote Fs5
+            psgNote Fs6
       psgInst 00h
     channel_end
 Music_20_Channel_7:
@@ -114,41 +114,41 @@ Music_20_Channel_7:
             waitL 144
             wait
       psgInst 0bh
-            psgNoteL Fs3, 8
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
-            psgNote Fs3
-            psgNote G3
+            psgNoteL Fs4, 8
+            psgNote G4
+            psgNote Fs4
+            psgNote G4
+            psgNote Fs4
+            psgNote G4
+            psgNote Fs4
+            psgNote G4
+            psgNote Fs4
+            psgNote G4
+            psgNote Fs4
+            psgNote G4
+            psgNote Fs4
+            psgNote G4
+            psgNote Fs4
+            psgNote G4
+            psgNote Fs4
+            psgNote G4
+            psgNote Fs4
+            psgNote G4
+            psgNote Fs4
+            psgNote G4
+            psgNote Fs4
+            psgNote G4
+            psgNote Fs4
+            psgNote G4
+            psgNote Fs4
+            psgNote G4
+            psgNote Fs4
+            psgNote G4
+            psgNote Fs4
+            psgNote G4
+            psgNote Fs4
+            psgNote G4
+            psgNote Fs4
+            psgNote G4
       psgInst 00h
     channel_end

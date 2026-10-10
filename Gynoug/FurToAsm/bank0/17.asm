@@ -21,18 +21,18 @@ Music_17_Channel_0:
       vibrato 00h
       setRelease 1
     countedLoopStart 1
-            noteL F6, 6
+            noteL F5, 6
             wait
-            note F6
+            note F5
             waitL 18
     countedLoopEnd
-            noteL F6, 6
+            noteL F5, 6
             wait
-            noteL F6, 12
+            noteL F5, 12
             wait
-            note F6
+            note F5
       vol 10
-            note D6
+            note D5
     channel_end
 Music_17_Channel_1:
       stereo 0c0h
@@ -42,18 +42,18 @@ Music_17_Channel_1:
       vibrato 00h
       setRelease 1
     countedLoopStart 1
-            noteL D6, 6
+            noteL D5, 6
             wait
-            note D6
+            note D5
             waitL 18
     countedLoopEnd
-            noteL D6, 6
+            noteL D5, 6
             wait
-            noteL D6, 12
+            noteL D5, 12
             wait
-            note D6
+            note D5
       vol 10
-            note Gs5
+            note Gs4
     channel_end
 Music_17_Channel_2:
       stereo 0c0h
@@ -63,18 +63,18 @@ Music_17_Channel_2:
       vibrato 00h
       setRelease 1
     countedLoopStart 1
-            noteL B5, 6
+            noteL B4, 6
             wait
-            note B5
+            note B4
             waitL 18
     countedLoopEnd
-            noteL B5, 6
+            noteL B4, 6
             wait
-            noteL B5, 12
+            noteL B4, 12
             wait
-            note B5
+            note B4
       vol 10
-            note E5
+            note E4
     channel_end
 Music_17_Channel_3:
       stereo 0c0h
@@ -83,12 +83,12 @@ Music_17_Channel_3:
       vibrato 00h
       setRelease 1
     countedLoopStart 2
-            noteL D5, 12
+            noteL D4, 12
             waitL 24
     countedLoopEnd
-            noteL D5, 12
+            noteL D4, 12
             wait
-            noteL F5, 6
+            noteL F4, 6
     channel_end
 Music_17_Channel_4:
       stereo 0c0h
@@ -97,13 +97,13 @@ Music_17_Channel_4:
       vibrato 00h
       setRelease 1
     countedLoopStart 2
-            noteL D4, 12
+            noteL D3, 12
             waitL 24
     countedLoopEnd
-            noteL D4, 12
+            noteL D3, 12
             wait
       vol 10
-            noteL F4, 6
+            noteL F3, 6
     channel_end
 Music_17_Channel_5:
     countedLoopStart 1
@@ -129,44 +129,44 @@ Music_17_Channel_6:
       psgInst 0ah
       vibrato 00h
     countedLoopStart 8
-            psgNoteL B5, 4
-            psgNote As5
+            psgNoteL B6, 4
+            psgNote As6
       setRelease 1
-            psgNote A5
+            psgNote A6
       sustain
       setRelease 4
     countedLoopEnd
-            psgNote B5
-            psgNote As5
+            psgNote B6
+            psgNote As6
       setRelease 1
-            psgNote A5
+            psgNote A6
       psgInst 0ch
-            psgNoteL B5, 6
-            psgNote C6
-            psgNote Cs6
-            psgNote D6
+            psgNoteL B6, 6
+            psgNote C7
+            psgNote Cs7
+            psgNote D7
     channel_end
 Music_17_Channel_7:
       sustain
       psgInst 0ah
       vibrato 00h
     countedLoopStart 8
-            psgNoteL D6, 4
-            psgNote Cs6
+            psgNoteL D7, 4
+            psgNote Cs7
       setRelease 1
-            psgNote C6
+            psgNote C7
       sustain
       setRelease 4
     countedLoopEnd
-            psgNote D6
-            psgNote Cs6
+            psgNote D7
+            psgNote Cs7
       setRelease 1
-            psgNote C6
+            psgNote C7
       psgInst 0ch
-            psgNoteL D6, 6
-            psgNote Ds6
-            psgNote E6
-            psgNote F6
+            psgNoteL D7, 6
+            psgNote Ds7
+            psgNote E7
+            psgNote F7
     channel_end
 Music_17_Channel_8:
     channel_end

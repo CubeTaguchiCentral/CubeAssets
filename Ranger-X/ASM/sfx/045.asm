@@ -10,12 +10,12 @@ Sfx_045_Channel_1:
       vol 15
       setRelease 0
       vibrato 010h
-            noteL Ds3, 2
-            note Ds3
-            note Ds3
-            note Ds3
-            note Ds3
-            note Ds3
-            note Ds3
-            note Ds3
+            noteL Ds2, 2
+            note Ds2
+            note Ds2
+            note Ds2
+            note Ds2
+            note Ds2
+            note Ds2
+            note Ds2
     channel_end

@@ -19,16 +19,16 @@ Music_11_Channel_0:
       vol 12
       setRelease 1
       vibrato 05ah
-            noteL G5, 6
+            noteL G4, 6
             wait
-            note G5
+            note G4
             wait
-            note G5
+            note G4
             waitL 18
-            noteL G5, 24
-            noteL A5, 6
+            noteL G4, 24
+            noteL A4, 6
             wait
-            noteL B5, 108
+            noteL B4, 108
     channel_end
 Music_11_Channel_1:
       stereo 040h
@@ -36,14 +36,14 @@ Music_11_Channel_1:
       vol 11
       setRelease 1
       vibrato 05ah
-            noteL B4, 12
+            noteL B3, 12
             wait
-            note B4
+            note B3
             wait
-            noteL B4, 24
-            noteL A4, 4
+            noteL B3, 24
+            noteL A3, 4
             waitL 8
-            noteL Gs4, 108
+            noteL Gs3, 108
     channel_end
 Music_11_Channel_2:
       stereo 0c0h
@@ -51,14 +51,14 @@ Music_11_Channel_2:
       vol 11
       setRelease 1
       vibrato 05ah
-            noteL G2, 12
+            noteL G1, 12
             wait
-            note G2
+            note G1
             wait
-            noteL G2, 24
-            noteL F2, 4
+            noteL G1, 24
+            noteL F1, 4
             waitL 8
-            noteL E2, 108
+            noteL E1, 108
     channel_end
 Music_11_Channel_3:
       stereo 080h
@@ -66,16 +66,16 @@ Music_11_Channel_3:
       vol 11
       setRelease 1
       vibrato 05ah
-            noteL D5, 6
+            noteL D4, 6
             wait
-            note D5
+            note D4
             wait
-            note D5
+            note D4
             waitL 18
-            noteL D5, 24
-            noteL E5, 6
+            noteL D4, 24
+            noteL E4, 6
             wait
-            noteL E5, 108
+            noteL E4, 108
     channel_end
 Music_11_Channel_4:
       stereo 0c0h
@@ -84,16 +84,16 @@ Music_11_Channel_4:
       vol 6
       setRelease 1
       vibrato 05ah
-            noteL G5, 6
+            noteL G4, 6
             wait
-            note G5
+            note G4
             wait
-            note G5
+            note G4
             waitL 18
-            noteL G5, 24
-            noteL A5, 6
+            noteL G4, 24
+            noteL A4, 6
             wait
-            noteL B5, 108
+            noteL B4, 108
     channel_end
 Music_11_Channel_5:
             sampleL 0, 24

@@ -12,26 +12,26 @@ Sfx_027_Channel_1:
       vibrato 030h
       stereo 0c0h
       shifting 0
-            noteL F8, 2
-            note G8
-            note A8
-            note Fs8
-            note Cs8
-            note D8
-            note G8
-            note E8
+            noteL F7, 2
+            note G7
+            note A7
+            note Fs7
+            note Cs7
+            note D7
+            note G7
+            note E7
       vol 9
-            note E8
-            note C8
-            note Gs8
+            note E7
+            note C7
+            note Gs7
       vol 7
-            note C8
+            note C7
       vol 6
-            note A8
-            note A8
+            note A7
+            note A7
       vol 3
-            note Fs8
-            note Fs8
-            note E8
-            note F8
+            note Fs7
+            note Fs7
+            note E7
+            note F7
     channel_end

@@ -21,11 +21,11 @@ Music_21_Channel_0:
             waitL 189
       setRelease 1
       vibrato 05ch
-            noteL E7, 14
-            note Ds7
-            noteL E7, 27
-            note C7
-            noteL C7, 162
+            noteL E6, 14
+            note Ds6
+            noteL E6, 27
+            note C6
+            noteL C6, 162
     channel_end
 Music_21_Channel_1:
       stereo 040h
@@ -33,11 +33,11 @@ Music_21_Channel_1:
       sustain
       inst 18
       vol 14
-            noteL C4, 255
+            noteL C3, 255
       vibrato 05ch
       setRelease 1
       vibrato 00h
-            noteL C4, 177
+            noteL C3, 177
     channel_end
 Music_21_Channel_2:
       stereo 0c0h
@@ -46,10 +46,10 @@ Music_21_Channel_2:
       inst 17
       vol 15
       vibrato 05ch
-            noteL F3, 255
+            noteL F2, 255
       setRelease 1
       vibrato 00h
-            noteL F3, 177
+            noteL F2, 177
     channel_end
 Music_21_Channel_3:
       stereo 080h
@@ -58,7 +58,7 @@ Music_21_Channel_3:
       vol 13
             wait
       setRelease 1
-            noteL E5, 216
+            noteL E4, 216
       vibrato 050h
     channel_end
 Music_21_Channel_4:
@@ -67,11 +67,11 @@ Music_21_Channel_4:
       sustain
       inst 18
       vol 13
-            noteL A4, 255
+            noteL A3, 255
       vibrato 057h
       setRelease 1
       vibrato 00h
-            noteL A4, 177
+            noteL A3, 177
     channel_end
 Music_21_Channel_5:
             waitL 255
@@ -83,14 +83,14 @@ Music_21_Channel_6:
       psgInst 07bh
       setRelease 1
       vibrato 04ch
-            psgNoteL C5, 14
-            psgNote B4
-            psgNoteL C5, 27
+            psgNoteL C6, 14
+            psgNote B5
+            psgNoteL C6, 27
       setRelease 163
-            psgNoteL A4, 189
+            psgNoteL A5, 189
       setRelease 1
       vibrato 040h
-            psgNoteL A4, 216
+            psgNoteL A5, 216
     channel_end
 Music_21_Channel_7:
       psgInst 00h
@@ -98,14 +98,14 @@ Music_21_Channel_7:
       psgInst 079h
       setRelease 1
       vibrato 04ch
-            psgNoteL E5, 14
-            psgNote Ds5
-            psgNoteL E5, 27
+            psgNoteL E6, 14
+            psgNote Ds6
+            psgNoteL E6, 27
       setRelease 55
-            psgNoteL C5, 81
+            psgNoteL C6, 81
       setRelease 1
       vibrato 040h
-            psgNoteL C5, 216
+            psgNoteL C6, 216
     channel_end
 Music_21_Channel_8:
     channel_end

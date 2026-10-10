@@ -10,12 +10,12 @@ Sfx_023_Channel_0:
       setRelease 1
       shifting 32
       stereo 040h
-            noteL C2, 3
-            note Cs2
-            noteL A2, 6
-            note F2
-            note D2
-            noteL C2, 96
+            noteL C1, 3
+            note Cs1
+            noteL A1, 6
+            note F1
+            note D1
+            noteL C1, 96
     channel_end
 Sfx_023_Channel_1:
       inst 81
@@ -23,12 +23,12 @@ Sfx_023_Channel_1:
       vibrato 02ah
       setRelease 1
       stereo 080h
-            noteL C2, 3
-            note Cs2
-            noteL A2, 6
-            note F2
-            note D2
-            noteL C2, 96
+            noteL C1, 3
+            note Cs1
+            noteL A1, 6
+            note F1
+            note D1
+            noteL C1, 96
     channel_end
 Sfx_023_Channel_2:
             sampleL 12, 3

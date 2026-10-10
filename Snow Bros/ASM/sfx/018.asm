@@ -14,10 +14,10 @@ Sfx_018_Channel_1:
       stereo 0c0h
     countedLoopStart 2
       sustain
-            noteL F3, 2
+            noteL F2, 2
       setSlide 80
       setRelease 1
-            noteL G3, 4
+            noteL G2, 4
       noSlide
     countedLoopEnd
     channel_end

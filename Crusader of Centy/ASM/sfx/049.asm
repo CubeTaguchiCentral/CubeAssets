@@ -8,10 +8,22 @@ Sfx_049_Channel_0:
       inst 79
       vol 15
       setRelease 0
-            noteL C2, 96
+            noteL C1, 96
       inst 86
       vol 12
-            noteL C4, 1
+            noteL C3, 1
+            note Cs3
+            note D3
+            note Ds3
+            note E3
+            note F3
+            note Fs3
+            note G3
+            note Gs3
+            note A3
+            note As3
+            note B3
+            note C4
             note Cs4
             note D4
             note Ds4
@@ -59,18 +71,6 @@ Sfx_049_Channel_0:
             note A7
             note As7
             note B7
-            note C8
-            note Cs8
-            note D8
-            note Ds8
-            note E8
-            note F8
-            note Fs8
-            note G8
-            note Gs8
-            note A8
-            note As8
-            note B8
     channel_end
 Sfx_049_Channel_1:
       stereo 040h
@@ -78,17 +78,17 @@ Sfx_049_Channel_1:
       vol 15
       setRelease 0
       shifting 32
-            noteL C2, 96
+            noteL C1, 96
       vol 14
-            noteL C2, 6
+            noteL C1, 6
       vol 12
-            note C2
+            note C1
       vol 10
-            note C2
+            note C1
       vol 8
-            note C2
+            note C1
       vol 6
-            note C2
+            note C1
     channel_end
 Sfx_049_Channel_2:
     channel_end

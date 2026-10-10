@@ -15,20 +15,20 @@ Sfx_018_Channel_0:
 Sfx_018_Channel_9:
       setRelease 0
       psgInst 02fh
-            psgNoteL C0, 10
+            psgNoteL 06h, 10
       psgInst 01fh
-            psgNoteL C0, 6
-            psgNoteL C0, 3
+            psgNoteL 05h, 6
+            psgNoteL 04h, 3
       psgInst 01ch
-            psgNoteL C0, 7
-            psgNoteL C0, 5
-            psgNoteL C0, 2
+            psgNoteL 06h, 7
+            psgNoteL 05h, 5
+            psgNoteL 04h, 2
       psgInst 01ah
-            psgNoteL C0, 6
-            psgNoteL C0, 4
-            psgNoteL C0, 2
+            psgNoteL 06h, 6
+            psgNoteL 05h, 4
+            psgNoteL 04h, 2
       psgInst 017h
-            psgNoteL C0, 5
-            psgNoteL C0, 3
-            psgNoteL C0, 1
+            psgNoteL 06h, 5
+            psgNoteL 05h, 3
+            psgNoteL 04h, 1
     channel_end

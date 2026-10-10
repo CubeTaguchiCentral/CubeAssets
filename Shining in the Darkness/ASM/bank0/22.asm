@@ -20,39 +20,39 @@ Music_22_Channel_0:
       vol 11
       setRelease 1
       vibrato 02ah
-            noteL Cs5, 6
+            noteL Cs4, 6
             wait
-            note Ds5
+            note Ds4
             wait
-            note E5
+            note E4
             wait
-            note Fs5
+            note Fs4
             wait
-            note Cs5
+            note Cs4
             wait
-            note Ds5
+            note Ds4
             wait
-            note E5
+            note E4
             wait
-            note Fs5
+            note Fs4
             wait
-            note Cs5
+            note Cs4
             wait
-            note Ds5
+            note Ds4
             wait
-            note E5
+            note E4
             wait
-            note Fs5
+            note Fs4
             wait
-            note Cs5
+            note Cs4
             wait
-            note Ds5
+            note Ds4
             wait
-            note E5
+            note E4
             wait
-            note Fs5
+            note Fs4
             waitL 3
-            noteL As5, 168
+            noteL As4, 168
             waitL 24
     channel_end
 Music_22_Channel_1:
@@ -62,39 +62,39 @@ Music_22_Channel_1:
       vol 11
       setRelease 1
       vibrato 02ah
-            noteL Gs4, 6
+            noteL Gs3, 6
             wait
-            note As4
+            note As3
             wait
-            note B4
+            note B3
             wait
-            note Cs5
+            note Cs4
             wait
-            note Gs4
+            note Gs3
             wait
-            note As4
+            note As3
             wait
-            note B4
+            note B3
             wait
-            note Cs5
+            note Cs4
             wait
-            note Gs4
+            note Gs3
             wait
-            note As4
+            note As3
             wait
-            note B4
+            note B3
             wait
-            note Cs5
+            note Cs4
             wait
-            note Gs4
+            note Gs3
             wait
-            note As4
+            note As3
             wait
-            note B4
+            note B3
             wait
-            note Cs5
+            note Cs4
             waitL 3
-            noteL G5, 168
+            noteL G4, 168
             waitL 24
     channel_end
 Music_22_Channel_2:
@@ -102,46 +102,46 @@ Music_22_Channel_2:
       vol 13
       setRelease 1
       vibrato 02ah
-            noteL Cs4, 192
-            noteL As4, 168
+            noteL Cs3, 192
+            noteL As3, 168
     channel_end
 Music_22_Channel_3:
       inst 26
       vol 13
       setRelease 1
       vibrato 02ah
-            noteL Fs3, 192
-            noteL Ds4, 168
+            noteL Fs2, 192
+            noteL Ds3, 168
     channel_end
 Music_22_Channel_4:
       inst 6
       vol 13
       setRelease 1
       vibrato 02ah
-            noteL Cs7, 12
-            note Gs6
+            noteL Cs6, 12
+            note Gs5
+            note Cs5
+            note Gs5
             note Cs6
-            note Gs6
-            note Cs7
-            note Gs6
+            note Gs5
+            note Cs5
+            note Gs5
             note Cs6
-            note Gs6
-            note Cs7
-            note Gs6
+            note Gs5
+            note Cs5
+            note Gs5
             note Cs6
-            note Gs6
-            note Cs7
-            note Gs6
-            note Cs6
-            note Gs6
-            noteL Ds6, 4
+            note Gs5
+            note Cs5
+            note Gs5
+            noteL Ds5, 4
+            note F5
+            note G5
+            note As5
+            note Ds6
             note F6
             note G6
-            note As6
-            note Ds7
-            note F7
-            note G7
-            noteL As7, 26
+            noteL As6, 26
             waitL 42
     channel_end
 Music_22_Channel_5:
@@ -150,75 +150,75 @@ Music_22_Channel_6:
       setRelease 1
       vibrato 04eh
       psgInst 07ch
-            psgNoteL Cs5, 6
+            psgNoteL Cs6, 6
             wait
-            psgNote Ds5
+            psgNote Ds6
             wait
-            psgNote E5
+            psgNote E6
             wait
-            psgNote Fs5
+            psgNote Fs6
             wait
-            psgNote Cs5
+            psgNote Cs6
             wait
-            psgNote Ds5
+            psgNote Ds6
             wait
-            psgNote E5
+            psgNote E6
             wait
-            psgNote Fs5
+            psgNote Fs6
             wait
-            psgNote Cs5
+            psgNote Cs6
             wait
-            psgNote Ds5
+            psgNote Ds6
             wait
-            psgNote E5
+            psgNote E6
             wait
-            psgNote Fs5
+            psgNote Fs6
             wait
-            psgNote Cs5
+            psgNote Cs6
             wait
-            psgNote Ds5
+            psgNote Ds6
             wait
-            psgNote E5
+            psgNote E6
             wait
-            psgNote Fs5
+            psgNote Fs6
             wait
-            psgNoteL F5, 168
+            psgNoteL F6, 168
     channel_end
 Music_22_Channel_7:
       setRelease 1
       vibrato 04eh
       psgInst 07ch
-            psgNoteL Gs4, 6
+            psgNoteL Gs5, 6
             wait
-            psgNote As4
+            psgNote As5
             wait
-            psgNote B4
+            psgNote B5
             wait
-            psgNote Cs5
+            psgNote Cs6
             wait
-            psgNote Gs4
+            psgNote Gs5
             wait
-            psgNote As4
+            psgNote As5
             wait
-            psgNote B4
+            psgNote B5
             wait
-            psgNote Cs5
+            psgNote Cs6
             wait
-            psgNote Gs4
+            psgNote Gs5
             wait
-            psgNote As4
+            psgNote As5
             wait
-            psgNote B4
+            psgNote B5
             wait
-            psgNote Cs5
+            psgNote Cs6
             wait
-            psgNote Gs4
+            psgNote Gs5
             wait
-            psgNote As4
+            psgNote As5
             wait
-            psgNote B4
+            psgNote B5
             wait
-            psgNote Cs5
+            psgNote Cs6
             wait
-            psgNoteL Ds5, 168
+            psgNoteL Ds6, 168
     channel_end

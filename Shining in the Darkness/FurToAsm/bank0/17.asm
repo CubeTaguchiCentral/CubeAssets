@@ -19,21 +19,21 @@ Music_17_Channel_0:
       vol 10
       vibrato 00h
       setRelease 1
-            noteL C6, 12
-            note Cs6
-            note D6
-            note Ds6
-            note Cs6
-            note D6
-            note Ds6
-            note E6
-            noteL F6, 18
-            noteL C6, 6
-            note C6
+            noteL C5, 12
+            note Cs5
+            note D5
+            note Ds5
+            note Cs5
+            note D5
+            note Ds5
+            note E5
+            noteL F5, 18
+            noteL C5, 6
+            note C5
             wait
-            note F6
+            note F5
             wait
-            note E6
+            note E5
             waitL 42
     channel_end
 Music_17_Channel_1:
@@ -42,21 +42,21 @@ Music_17_Channel_1:
       vol 10
       vibrato 00h
       setRelease 1
-            noteL Gs5, 12
-            note A5
-            note As5
-            note B5
-            note A5
-            note As5
-            note B5
-            note C6
-            noteL C6, 18
-            noteL A5, 6
-            note A5
+            noteL Gs4, 12
+            note A4
+            note As4
+            note B4
+            note A4
+            note As4
+            note B4
+            note C5
+            noteL C5, 18
+            noteL A4, 6
+            note A4
             wait
-            note C6
+            note C5
             wait
-            note C6
+            note C5
             waitL 42
     channel_end
 Music_17_Channel_2:
@@ -65,21 +65,21 @@ Music_17_Channel_2:
       vol 10
       vibrato 00h
       setRelease 1
-            noteL Ds5, 12
-            note E5
-            note F5
-            note Fs5
-            note E5
-            note F5
-            note Fs5
-            note G5
-            noteL A5, 18
-            noteL F5, 6
-            note F5
+            noteL Ds4, 12
+            note E4
+            note F4
+            note Fs4
+            note E4
+            note F4
+            note Fs4
+            note G4
+            noteL A4, 18
+            noteL F4, 6
+            note F4
             wait
-            note A5
+            note A4
             wait
-            note G5
+            note G4
             waitL 42
     channel_end
 Music_17_Channel_3:
@@ -88,9 +88,9 @@ Music_17_Channel_3:
       vol 11
       setRelease 1
       vibrato 05ah
-            noteL C4, 96
-            noteL F4, 48
-            noteL C5, 6
+            noteL C3, 96
+            noteL F3, 48
+            noteL C4, 6
             waitL 42
     channel_end
 Music_17_Channel_4:
@@ -99,9 +99,9 @@ Music_17_Channel_4:
       vol 12
       setRelease 1
       vibrato 05ah
-            noteL C3, 96
-            noteL F3, 48
-            noteL C4, 6
+            noteL C2, 96
+            noteL F2, 48
+            noteL C3, 6
             waitL 42
     channel_end
 Music_17_Channel_5:

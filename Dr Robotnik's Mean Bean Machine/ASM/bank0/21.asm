@@ -21,12 +21,12 @@ Music_21_Channel_0:
       stereo 0c0h
       shifting 5
       sustain
-            noteL F4, 50
+            noteL F3, 50
       setSlide 1
-            noteL F3, 96
-            noteL F3, 48
+            noteL F2, 96
+            noteL F2, 48
       setRelease 1
-            noteL F3, 96
+            noteL F2, 96
       noSlide
     channel_end
 Music_21_Channel_1:
@@ -36,12 +36,12 @@ Music_21_Channel_1:
       stereo 0c0h
       shifting 0
       sustain
-            noteL F3, 34
+            noteL F2, 34
       setSlide 1
-            noteL F2, 112
-            noteL F2, 48
+            noteL F1, 112
+            noteL F1, 48
       setRelease 1
-            noteL F2, 96
+            noteL F1, 96
       noSlide
     channel_end
 Music_21_Channel_2:
@@ -52,12 +52,12 @@ Music_21_Channel_2:
       stereo 0c0h
       shifting 0
       sustain
-            noteL F3, 34
+            noteL F2, 34
       setSlide 1
-            noteL F2, 112
-            noteL F2, 48
+            noteL F1, 112
+            noteL F1, 48
       setRelease 1
-            noteL F2, 96
+            noteL F1, 96
       noSlide
     channel_end
 Music_21_Channel_3:
@@ -68,12 +68,12 @@ Music_21_Channel_3:
       stereo 0c0h
       shifting 0
       sustain
-            noteL F3, 34
+            noteL F2, 34
       setSlide 1
-            noteL F2, 112
-            noteL F2, 48
+            noteL F1, 112
+            noteL F1, 48
       setRelease 1
-            noteL F2, 96
+            noteL F1, 96
       noSlide
     channel_end
 Music_21_Channel_4:
@@ -84,12 +84,12 @@ Music_21_Channel_4:
       stereo 0c0h
       shifting 0
       sustain
-            noteL F3, 34
+            noteL F2, 34
       setSlide 1
-            noteL F2, 112
-            noteL F2, 48
+            noteL F1, 112
+            noteL F1, 48
       setRelease 1
-            noteL F2, 96
+            noteL F1, 96
       noSlide
     channel_end
 Music_21_Channel_5:

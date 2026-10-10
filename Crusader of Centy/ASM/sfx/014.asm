@@ -10,16 +10,16 @@ Sfx_014_Channel_1:
       vol 12
       setRelease 0
       vibrato 00h
-            noteL C2, 6
+            noteL C1, 6
       inst 72
       vol 14
-            noteL D3, 2
+            noteL D2, 2
       vol 9
-            note D3
+            note D2
       vol 7
-            note D3
+            note D2
       vol 5
-            note D3
+            note D2
       vol 3
-            note D3
+            note D2
     channel_end

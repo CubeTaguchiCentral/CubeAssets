@@ -20,21 +20,21 @@ Music_27_Channel_0:
       inst 13
       vol 12
       setRelease 5
-            noteL F6, 8
-            note F6
-            note F6
+            noteL F5, 8
+            note F5
+            note F5
       setRelease 5
-            note F6
+            note F5
       vol 9
-            note F6
+            note F5
       vol 12
-            note F6
+            note F5
       setRelease 1
-            noteL F6, 60
+            noteL F5, 60
       vol 9
-            noteL F6, 6
+            noteL F5, 6
       vol 6
-            note F6
+            note F5
             waitL 12
     channel_end
 Music_27_Channel_1:
@@ -44,20 +44,20 @@ Music_27_Channel_1:
             waitL 21
       inst 13
       vol 13
-            noteL As5, 8
-            note As5
-            note As5
-            note C6
+            noteL As4, 8
+            note As4
+            note As4
+            note C5
       vol 10
-            note C6
+            note C5
       vol 13
-            note As5
+            note As4
       setRelease 1
-            noteL C6, 60
+            noteL C5, 60
       vol 10
-            noteL C6, 6
+            noteL C5, 6
       vol 7
-            note C6
+            note C5
             waitL 12
     channel_end
 Music_27_Channel_2:
@@ -67,17 +67,17 @@ Music_27_Channel_2:
             waitL 21
       inst 3
       vol 12
-            noteL Cs5, 4
+            noteL Cs4, 4
             waitL 20
-            noteL Ds5, 4
+            noteL Ds4, 4
             waitL 12
-            noteL Ds5, 4
+            noteL Ds4, 4
             wait
-            noteL D5, 60
+            noteL D4, 60
       vol 9
-            noteL D5, 6
+            noteL D4, 6
       vol 6
-            note D5
+            note D4
             waitL 12
     channel_end
 Music_27_Channel_3:
@@ -87,17 +87,17 @@ Music_27_Channel_3:
             waitL 21
       inst 3
       vol 13
-            noteL Fs3, 4
+            noteL Fs2, 4
             waitL 20
-            noteL Gs3, 4
+            noteL Gs2, 4
             waitL 12
-            noteL Gs3, 4
+            noteL Gs2, 4
             wait
-            noteL As3, 60
+            noteL As2, 60
       vol 10
-            noteL As3, 6
+            noteL As2, 6
       vol 7
-            note As3
+            note As2
             waitL 12
     channel_end
 Music_27_Channel_4:
@@ -108,20 +108,20 @@ Music_27_Channel_4:
             waitL 25
       inst 13
       vol 11
-            noteL As5, 8
-            note As5
-            note As5
-            note C6
+            noteL As4, 8
+            note As4
+            note As4
+            note C5
       vol 8
-            note C6
+            note C5
       vol 11
-            note As5
+            note As4
       setRelease 1
-            noteL C6, 56
+            noteL C5, 56
       vol 6
-            noteL C6, 6
+            noteL C5, 6
       vol 3
-            note C6
+            note C5
             waitL 12
     channel_end
 Music_27_Channel_5:
@@ -156,39 +156,39 @@ Music_27_Channel_6:
       psgInst 07dh
       setRelease 1
       vibrato 04ch
-            psgNoteL F3, 3
-            psgNote G3
-            psgNote A3
-            psgNote As3
-            psgNote C4
-            psgNote D4
-            psgNote Ds4
-            psgNoteL F4, 4
+            psgNoteL F4, 3
+            psgNote G4
+            psgNote A4
+            psgNote As4
+            psgNote C5
+            psgNote D5
+            psgNote Ds5
+            psgNoteL F5, 4
+            psgNote Fs5
+            psgNote F5
+            psgNote Cs5
+            psgNote As4
             psgNote Fs4
-            psgNote F4
-            psgNote Cs4
-            psgNote As3
-            psgNote Fs3
+            psgNote Ds5
+            psgNote F5
+            psgNote Ds5
+            psgNote C5
+            psgNote Gs4
             psgNote Ds4
+            psgNote D5
+            psgNote Ds5
+            psgNote D5
+            psgNote C5
+            psgNote As4
             psgNote F4
-            psgNote Ds4
-            psgNote C4
-            psgNote Gs3
-            psgNote Ds3
-            psgNote D4
-            psgNote Ds4
-            psgNote D4
-            psgNote C4
-            psgNote As3
-            psgNote F3
-            psgNote As3
-            psgNote F3
-            psgNote As3
-            psgNote C4
-            psgNote D4
+            psgNote As4
             psgNote F4
+            psgNote As4
+            psgNote C5
+            psgNote D5
+            psgNote F5
       psgInst 07dh
-            psgNoteL As4, 6
+            psgNoteL As5, 6
             wait
       psgInst 0ah
             wait
@@ -206,39 +206,39 @@ Music_27_Channel_7:
       psgInst 07bh
       setRelease 1
       vibrato 04ch
-            psgNoteL F3, 3
-            psgNote G3
-            psgNote A3
-            psgNote As3
-            psgNote C4
-            psgNote D4
-            psgNote Ds4
-            psgNoteL F4, 4
+            psgNoteL F4, 3
+            psgNote G4
+            psgNote A4
+            psgNote As4
+            psgNote C5
+            psgNote D5
+            psgNote Ds5
+            psgNoteL F5, 4
+            psgNote Fs5
+            psgNote F5
+            psgNote Cs5
+            psgNote As4
             psgNote Fs4
-            psgNote F4
-            psgNote Cs4
-            psgNote As3
-            psgNote Fs3
+            psgNote Ds5
+            psgNote F5
+            psgNote Ds5
+            psgNote C5
+            psgNote Gs4
             psgNote Ds4
+            psgNote D5
+            psgNote Ds5
+            psgNote D5
+            psgNote C5
+            psgNote As4
             psgNote F4
-            psgNote Ds4
-            psgNote C4
-            psgNote Gs3
-            psgNote Ds3
-            psgNote D4
-            psgNote Ds4
-            psgNote D4
-            psgNote C4
-            psgNote As3
-            psgNote F3
-            psgNote As3
-            psgNote F3
-            psgNote As3
-            psgNote C4
-            psgNote D4
+            psgNote As4
             psgNote F4
+            psgNote As4
+            psgNote C5
+            psgNote D5
+            psgNote F5
       psgInst 07ch
-            psgNoteL As4, 6
+            psgNoteL As5, 6
             wait
       psgInst 08h
             wait

@@ -10,23 +10,23 @@ Sfx_022_Channel_1:
       vol 14
       setRelease 1
       vibrato 04ah
-            noteL C3, 0
+            noteL C2, 0
       setSlide 3
     countedLoopStart 15
-            noteL C2, 4
+            noteL C1, 4
             waitL 1
     countedLoopEnd
     countedLoopStart 2
-            noteL C2, 5
+            noteL C1, 5
             waitL 1
     countedLoopEnd
     countedLoopStart 3
       vol 13
-            noteL C2, 7
+            noteL C1, 7
             waitL 1
     countedLoopEnd
     countedLoopStart 4
-            noteL C2, 9
+            noteL C1, 9
             waitL 1
     countedLoopEnd
       noSlide

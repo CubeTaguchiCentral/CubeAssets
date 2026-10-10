@@ -8,14 +8,14 @@ Sfx_051_Channel_0:
       vol 15
       setRelease 2
       vibrato 00h
-            noteL Ds2, 7
+            noteL Ds1, 7
     channel_end
 Sfx_051_Channel_1:
       inst 67
       vol 15
       setRelease 2
       vibrato 00h
-            noteL E2, 8
+            noteL E1, 8
     channel_end
 Sfx_051_Channel_2:
     channel_end

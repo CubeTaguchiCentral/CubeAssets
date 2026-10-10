@@ -18,32 +18,32 @@ Music_06_Channel_0:
       inst 52
       vol 12
       setRelease 1
-            noteL E2, 24
+            noteL E1, 24
       vibrato 05ah
       inst 44
       vol 12
-            noteL E4, 48
-            noteL B4, 24
+            noteL E3, 48
+            noteL B3, 24
             waitL 6
-            noteL E4, 18
+            noteL E3, 18
             waitL 6
-            note A3
+            note A2
             wait
-            noteL E2, 24
-            noteL B2, 6
+            noteL E1, 24
+            noteL B1, 6
             waitL 9
-            noteL B2, 36
+            noteL B1, 36
       inst 53
       vol 12
-            noteL E2, 96
-            noteL B2, 72
-            noteL E2, 96
-            noteL B2, 48
-            noteL E2, 12
-            noteL A2, 24
-            note E3
-            note B2
-            noteL E2, 96
+            noteL E1, 96
+            noteL B1, 72
+            noteL E1, 96
+            noteL B1, 48
+            noteL E1, 12
+            noteL A1, 24
+            note E2
+            note B1
+            noteL E1, 96
     mainLoopStart
       inst 53
       vol 12
@@ -52,39 +52,39 @@ Music_06_Channel_0:
       inst 54
       vol 12
       setRelease 1
-            noteL E2, 96
+            noteL E1, 96
     mainLoopEnd
 Music_06_Channel_1:
       stereo 080h
       inst 52
       vol 12
       setRelease 1
-            noteL E2, 24
+            noteL E1, 24
       vibrato 05ah
       inst 44
       vol 12
-            noteL E4, 48
-            noteL B4, 24
+            noteL E3, 48
+            noteL B3, 24
             waitL 6
-            noteL E4, 18
+            noteL E3, 18
             waitL 6
-            note A3
+            note A2
             wait
-            noteL E2, 24
-            noteL B2, 6
+            noteL E1, 24
+            noteL B1, 6
             waitL 9
-            noteL B2, 36
+            noteL B1, 36
       inst 53
       vol 12
-            noteL E2, 96
-            noteL E2, 72
-            noteL E2, 96
-            noteL B2, 48
-            noteL E2, 12
-            noteL B2, 24
-            note E2
-            note B2
-            noteL E2, 96
+            noteL E1, 96
+            noteL E1, 72
+            noteL E1, 96
+            noteL B1, 48
+            noteL E1, 12
+            noteL B1, 24
+            note E1
+            note B1
+            noteL E1, 96
     mainLoopStart
       inst 53
       vol 12
@@ -93,7 +93,7 @@ Music_06_Channel_1:
       inst 54
       vol 12
       setRelease 1
-            noteL E2, 96
+            noteL E1, 96
     mainLoopEnd
 Music_06_Channel_2:
       stereo 0c0h
@@ -102,32 +102,32 @@ Music_06_Channel_2:
       vibrato 00h
       setRelease 1
     countedLoopStart 6
-            noteL D2, 16
-            note D2
-            note D2
-            note D2
-            note D2
-            note D2
+            noteL D1, 16
+            note D1
+            note D1
+            note D1
+            note D1
+            note D1
       vol 12
     countedLoopEnd
-            note D2
-            note D2
+            note D1
+            note D1
       sustain
-            noteL D2, 1
+            noteL D1, 1
     mainLoopStart
       inst 7
       vol 12
       shifting 0
       setRelease 1
             waitL 15
-            noteL D2, 16
-            note D2
-            note D2
+            noteL D1, 16
+            note D1
+            note D1
       vol 12
-            note D2
-            note D2
+            note D1
+            note D1
       sustain
-            noteL D2, 1
+            noteL D1, 1
     mainLoopEnd
 Music_06_Channel_3:
       stereo 0c0h
@@ -136,32 +136,32 @@ Music_06_Channel_3:
       vibrato 00h
       setRelease 1
     countedLoopStart 6
-            noteL B2, 16
-            note B2
-            note B2
-            note B2
-            note B2
-            note B2
+            noteL B1, 16
+            note B1
+            note B1
+            note B1
+            note B1
+            note B1
       vol 12
     countedLoopEnd
-            note B2
-            note B2
+            note B1
+            note B1
       sustain
-            noteL B2, 1
+            noteL B1, 1
     mainLoopStart
       inst 2
       vol 12
       shifting 0
       setRelease 1
             waitL 15
-            noteL B2, 16
-            note B2
-            note B2
+            noteL B1, 16
+            note B1
+            note B1
       vol 12
-            note B2
-            note B2
+            note B1
+            note B1
       sustain
-            noteL B2, 1
+            noteL B1, 1
     mainLoopEnd
 Music_06_Channel_4:
       stereo 0c0h
@@ -170,11 +170,11 @@ Music_06_Channel_4:
       setRelease 1
       vibrato 05ah
     countedLoopStart 6
-            noteL A2, 96
+            noteL A1, 96
       vol 12
     countedLoopEnd
       sustain
-            noteL A2, 33
+            noteL A1, 33
     mainLoopStart
       inst 2
       vol 12
@@ -183,7 +183,7 @@ Music_06_Channel_4:
             waitL 63
       vol 12
       sustain
-            noteL A2, 33
+            noteL A1, 33
     mainLoopEnd
 Music_06_Channel_5:
     channel_end

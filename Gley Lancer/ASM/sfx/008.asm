@@ -15,5 +15,5 @@ Sfx_008_Channel_0:
 Sfx_008_Channel_9:
       psgInst 07fh
       setRelease 0
-            psgNoteL C0, 12
+            psgNoteL 06h, 12
     channel_end

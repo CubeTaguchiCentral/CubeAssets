@@ -15,7 +15,7 @@ Music_01:
     dw Music_01_Channel_6
 Music_01_Channel_0:
       setRelease 0
-            noteL Ds3, 100
+            noteL Ds2, 100
     channel_end
 Music_01_Channel_5:
       setRelease 0

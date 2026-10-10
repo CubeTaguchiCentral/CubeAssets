@@ -10,9 +10,9 @@ Sfx_019_Channel_1:
       vol 13
       vibrato 02ah
       sustain
-            noteL C2, 0
+            noteL C1, 0
       setSlide 4
     mainLoopStart
       vol 13
-            noteL C3, 24
+            noteL C2, 24
     mainLoopEnd

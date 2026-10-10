@@ -17,7 +17,7 @@ Sfx_013_Channel_4:
       vol 15
       vibrato 0b0h
       sustain
-            noteL C2, 6
+            noteL C1, 6
       setRelease 0
-            noteL C3, 72
+            noteL C2, 72
     channel_end

@@ -17,15 +17,15 @@ Sfx_011_Channel_8:
       setRelease 0
       vibrato 02ah
     countedLoopStart 15
-            psgNoteL G5, 2
-            psgNote D5
-    countedLoopEnd
-            psgNoteL G5, 1
-            psgNote A5
-            psgNote B5
-            psgNote C6
+            psgNoteL G6, 2
             psgNote D6
-            psgNote E6
-            psgNote F6
-            psgNote G6
+    countedLoopEnd
+            psgNoteL G6, 1
+            psgNote A6
+            psgNote B6
+            psgNote C7
+            psgNote D7
+            psgNote E7
+            psgNote F7
+            psgNote G7
     channel_end

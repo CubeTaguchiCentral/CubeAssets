@@ -21,9 +21,9 @@ Music_15_Channel_0:
       inst 37
     countedLoopStart 4
       stereo 080h
-            noteL D2, 48
+            noteL D1, 48
       stereo 040h
-            note D2
+            note D1
     countedLoopEnd
 Music_15_Channel_1:
       setRelease 1
@@ -35,30 +35,30 @@ Music_15_Channel_1:
       vol 10
             waitL 24
       inst 40
+            note E4
+            note A4
             note E5
-            note A5
-            note E6
-            noteL Ds6, 192
+            noteL Ds5, 192
     channel_end
 Music_15_Channel_2:
       vol 14
       vibrato 02ah
       inst 37
       sustain
-            noteL Cs3, 3
-            note D3
+            noteL Cs2, 3
+            note D2
       setRelease 1
-            note Ds3
+            note Ds2
     countedLoopStart 1
-            noteL E3, 96
+            noteL E2, 96
             waitL 87
       sustain
-            noteL Cs3, 3
-            note D3
+            noteL Cs2, 3
+            note D2
       setRelease 1
-            note Ds3
+            note Ds2
     countedLoopEnd
-            noteL E3, 96
+            noteL E2, 96
     channel_end
 Music_15_Channel_3:
       setRelease 1
@@ -70,10 +70,10 @@ Music_15_Channel_3:
             waitL 24
       vol 10
       inst 40
+            note E4
+            note A4
             note E5
-            note A5
-            note E6
-            noteL Ds6, 96
+            noteL Ds5, 96
     channel_end
 Music_15_Channel_4:
       setRelease 1
@@ -85,10 +85,10 @@ Music_15_Channel_4:
             waitL 40
       vol 8
       inst 40
-            noteL E5, 24
-            note A5
-            note E6
-            noteL Ds6, 176
+            noteL E4, 24
+            note A4
+            note E5
+            noteL Ds5, 176
     channel_end
 Music_15_Channel_5:
     channel_end
@@ -99,8 +99,8 @@ Music_15_Channel_6:
             waitL 9
       psgInst 07h
     countedLoopStart 4
-            psgNoteL E2, 48
-            psgNote E2
+            psgNoteL E3, 48
+            psgNote E3
     countedLoopEnd
     channel_end
 Music_15_Channel_7:
@@ -110,7 +110,7 @@ Music_15_Channel_7:
             waitL 9
       psgInst 07h
     countedLoopStart 4
-            psgNoteL D2, 48
-            psgNote D2
+            psgNoteL D3, 48
+            psgNote D3
     countedLoopEnd
     channel_end

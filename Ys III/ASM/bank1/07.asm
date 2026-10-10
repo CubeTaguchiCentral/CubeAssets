@@ -20,15 +20,15 @@ Music_07_Channel_0:
       vol 13
       setRelease 0
       vibrato 09ch
-            noteL Ds3, 32
-            note Ds3
-            note Ds3
-            note Ds3
-            note Ds3
-            noteL Ds3, 96
+            noteL Ds2, 32
+            note Ds2
+            note Ds2
+            note Ds2
+            note Ds2
+            noteL Ds2, 96
     countedLoopEnd
     mainLoopStart
-            noteL Ds3, 128
+            noteL Ds2, 128
     mainLoopEnd
 Music_07_Channel_1:
     countedLoopStart 1
@@ -38,14 +38,14 @@ Music_07_Channel_1:
       setRelease 0
       vibrato 09ch
       shifting 32
-            noteL E3, 32
-            note E3
-            note E3
-            note E3
-            noteL E3, 128
+            noteL E2, 32
+            note E2
+            note E2
+            note E2
+            noteL E2, 128
     countedLoopEnd
     mainLoopStart
-            noteL E3, 128
+            noteL E2, 128
     mainLoopEnd
 Music_07_Channel_2:
     countedLoopStart 1
@@ -54,15 +54,15 @@ Music_07_Channel_2:
       vol 13
       setRelease 0
       vibrato 09ch
-            noteL A2, 32
-            note A2
-            note A2
-            note A2
-            note A2
-            noteL A2, 96
+            noteL A1, 32
+            note A1
+            note A1
+            note A1
+            note A1
+            noteL A1, 96
     countedLoopEnd
     mainLoopStart
-            noteL A2, 128
+            noteL A1, 128
     mainLoopEnd
 Music_07_Channel_3:
             waitL 1
@@ -73,15 +73,15 @@ Music_07_Channel_3:
       setRelease 0
       vibrato 09ch
       shifting 32
-            noteL Ds3, 32
-            note Ds3
-            note Ds3
-            note Ds3
-            note Ds3
-            noteL Ds3, 96
+            noteL Ds2, 32
+            note Ds2
+            note Ds2
+            note Ds2
+            note Ds2
+            noteL Ds2, 96
     countedLoopEnd
     mainLoopStart
-            noteL Ds3, 128
+            noteL Ds2, 128
     mainLoopEnd
 Music_07_Channel_4:
             waitL 1
@@ -91,14 +91,14 @@ Music_07_Channel_4:
       vol 13
       setRelease 0
       vibrato 09ch
-            noteL E3, 32
-            note E3
-            note E3
-            note E3
-            noteL E3, 128
+            noteL E2, 32
+            note E2
+            note E2
+            note E2
+            noteL E2, 128
     countedLoopEnd
     mainLoopStart
-            noteL E3, 128
+            noteL E2, 128
     mainLoopEnd
 Music_07_Channel_5:
     channel_end
@@ -106,67 +106,67 @@ Music_07_Channel_6:
       psgInst 097h
       setRelease 0
       vibrato 02ah
-            psgNoteL A6, 16
-            psgNote Gs6
+            psgNoteL A7, 16
+            psgNote Gs7
       psgInst 098h
-            psgNote A6
-            psgNote Gs6
+            psgNote A7
+            psgNote Gs7
       psgInst 099h
-            psgNote A6
-            psgNote Gs6
+            psgNote A7
+            psgNote Gs7
       psgInst 09ah
-            psgNote A6
-            psgNote Gs6
+            psgNote A7
+            psgNote Gs7
       psgInst 09bh
-            psgNote A6
-            psgNote Gs6
-            psgNote A6
-            psgNote Gs6
-            psgNote A6
-            psgNote Gs6
-            psgNote A6
-            psgNote Gs6
+            psgNote A7
+            psgNote Gs7
+            psgNote A7
+            psgNote Gs7
+            psgNote A7
+            psgNote Gs7
+            psgNote A7
+            psgNote Gs7
     mainLoopStart
-            psgNoteL A6, 16
-            psgNote Gs6
-            psgNote A6
-            psgNote Gs6
-            psgNote A6
-            psgNote Gs6
-            psgNote A6
-            psgNote Gs6
+            psgNoteL A7, 16
+            psgNote Gs7
+            psgNote A7
+            psgNote Gs7
+            psgNote A7
+            psgNote Gs7
+            psgNote A7
+            psgNote Gs7
     mainLoopEnd
 Music_07_Channel_7:
       psgInst 095h
       setRelease 0
       vibrato 04ah
-            psgNoteL E6, 16
-            psgNote Ds6
+            psgNoteL E7, 16
+            psgNote Ds7
       psgInst 096h
-            psgNote E6
-            psgNote Ds6
+            psgNote E7
+            psgNote Ds7
       psgInst 097h
-            psgNote E6
-            psgNote Ds6
+            psgNote E7
+            psgNote Ds7
       psgInst 098h
-            psgNote E6
-            psgNote Ds6
+            psgNote E7
+            psgNote Ds7
       psgInst 099h
-            psgNote E6
-            psgNote Ds6
-            psgNote E6
-            psgNote Ds6
-            psgNote E6
-            psgNote Ds6
-            psgNote E6
-            psgNote Ds6
+            psgNote E7
+            psgNote Ds7
+            psgNote E7
+            psgNote Ds7
+            psgNote E7
+            psgNote Ds7
+            psgNote E7
+            psgNote Ds7
     mainLoopStart
-            psgNoteL E6, 16
-            psgNote Ds6
-            psgNote E6
-            psgNote Ds6
-            psgNote E6
-            psgNote Ds6
-            psgNote E6
-            psgNote Ds6
+            psgNoteL E7, 16
+            psgNote Ds7
+            psgNote E7
+            psgNote Ds7
+            psgNote E7
+            psgNote Ds7
+            psgNote E7
+            psgNote Ds7
     mainLoopEnd

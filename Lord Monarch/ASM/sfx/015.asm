@@ -8,7 +8,7 @@ Sfx_015_Channel_0:
       inst 72
       vol 11
       vibrato 02ch
-            noteL C2, 192
+            noteL C1, 192
     channel_end
 Sfx_015_Channel_1:
     channel_end

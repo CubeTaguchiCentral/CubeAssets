@@ -18,18 +18,18 @@ Music_15_Channel_0:
       inst 38
       vol 11
       setRelease 4
-            noteL Ds5, 32
+            noteL Ds4, 32
       vibrato 05eh
-            noteL F5, 16
-            noteL G5, 24
+            noteL F4, 16
+            noteL G4, 24
+            note C4
             note C5
-            note C6
-            note D6
-            noteL Ds6, 216
-            noteL C6, 24
-            note Gs5
-            note Ds6
-            noteL C6, 192
+            note D5
+            noteL Ds5, 216
+            noteL C5, 24
+            note Gs4
+            note Ds5
+            noteL C5, 192
     channel_end
 Music_15_Channel_1:
       stereo 0c0h
@@ -37,11 +37,11 @@ Music_15_Channel_1:
       inst 38
       vol 10
       setRelease 1
-            noteL G4, 192
+            noteL G3, 192
       vibrato 05eh
-            noteL Ds4, 96
-            note F4
-            noteL Ds4, 192
+            noteL Ds3, 96
+            note F3
+            noteL Ds3, 192
     channel_end
 Music_15_Channel_2:
       stereo 0c0h
@@ -49,14 +49,14 @@ Music_15_Channel_2:
       inst 38
       vol 14
       setRelease 4
-            note C4
+            note C3
       vibrato 05eh
-            noteL B3, 24
-            note As3
-            noteL A3, 96
-            note Gs3
-            note G3
-            noteL C3, 192
+            noteL B2, 24
+            note As2
+            noteL A2, 96
+            note Gs2
+            note G2
+            noteL C2, 192
     channel_end
 Music_15_Channel_3:
       stereo 0c0h
@@ -65,18 +65,18 @@ Music_15_Channel_3:
       inst 38
       vol 9
       setRelease 4
-            noteL Ds5, 32
+            noteL Ds4, 32
       vibrato 05ch
-            noteL F5, 16
-            noteL G5, 24
+            noteL F4, 16
+            noteL G4, 24
+            note C4
             note C5
-            note C6
-            note D6
-            noteL Ds6, 216
-            noteL C6, 24
-            note Gs5
-            note Ds6
-            noteL C6, 192
+            note D5
+            noteL Ds5, 216
+            noteL C5, 24
+            note Gs4
+            note Ds5
+            noteL C5, 192
     channel_end
 Music_15_Channel_4:
       stereo 0c0h
@@ -84,11 +84,11 @@ Music_15_Channel_4:
       inst 38
       vol 10
       setRelease 1
-            noteL Ds5, 192
+            noteL Ds4, 192
       vibrato 05eh
-            noteL C5, 144
-            noteL B4, 48
-            noteL C5, 192
+            noteL C4, 144
+            noteL B3, 48
+            noteL C4, 192
     channel_end
 Music_15_Channel_5:
     channel_end
@@ -98,15 +98,15 @@ Music_15_Channel_6:
       psgInst 09h
       setRelease 1
       vibrato 04eh
-            psgNoteL C3, 24
-            psgNote D3
-            psgNote Ds3
-            psgNote G3
-            psgNote C4
+            psgNoteL C4, 24
             psgNote D4
-            psgNoteL Ds4, 96
-            psgNote F4
-            psgNoteL Ds4, 192
+            psgNote Ds4
+            psgNote G4
+            psgNote C5
+            psgNote D5
+            psgNoteL Ds5, 96
+            psgNote F5
+            psgNoteL Ds5, 192
     channel_end
 Music_15_Channel_7:
       psgInst 00h
@@ -114,13 +114,13 @@ Music_15_Channel_7:
       psgInst 09h
       setRelease 1
       vibrato 04eh
-            psgNoteL C3, 24
-            psgNote D3
-            psgNote Ds3
-            psgNote G3
-            psgNoteL C4, 144
-            psgNoteL B3, 48
-            psgNoteL G3, 192
+            psgNoteL C4, 24
+            psgNote D4
+            psgNote Ds4
+            psgNote G4
+            psgNoteL C5, 144
+            psgNoteL B4, 48
+            psgNoteL G4, 192
     channel_end
 Music_15_Channel_8:
     channel_end

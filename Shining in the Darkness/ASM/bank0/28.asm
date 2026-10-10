@@ -18,29 +18,39 @@ Music_28_Channel_0:
       vol 11
       setRelease 1
       vibrato 02ch
-            noteL As5, 18
-            note Gs5
-            note Gs5
-            note B5
-            noteL Cs6, 120
+            noteL As4, 18
+            note Gs4
+            note Gs4
+            note B4
+            noteL Cs5, 120
     channel_end
 Music_28_Channel_1:
       inst 44
       vol 11
       setRelease 1
       vibrato 02ch
-            noteL Fs5, 18
-            note E5
-            note E5
-            note Gs5
-            noteL As5, 120
+            noteL Fs4, 18
+            note E4
+            note E4
+            note Gs4
+            noteL As4, 120
     channel_end
 Music_28_Channel_2:
       inst 6
       vol 11
       setRelease 1
       vibrato 02ch
-            noteL E4, 9
+            noteL E3, 9
+            note As3
+            note Fs4
+            note B4
+            note B3
+            note Gs4
+            note Cs5
+            note Cs4
+            note Gs4
+            note E5
+            note E4
             note As4
             note Fs5
             note B5
@@ -50,16 +60,6 @@ Music_28_Channel_2:
             note Cs5
             note Gs5
             note E6
-            note E5
-            note As5
-            note Fs6
-            note B6
-            note B5
-            note Gs6
-            note Cs7
-            note Cs6
-            note Gs6
-            note E7
             waitL 12
     channel_end
 Music_28_Channel_3:
@@ -68,7 +68,17 @@ Music_28_Channel_3:
       inst 6
       vol 11
             waitL 3
-            noteL Fs4, 9
+            noteL Fs3, 9
+            note B3
+            note Gs4
+            note Gs3
+            note Cs4
+            note As4
+            note E5
+            note E4
+            note B4
+            note Fs5
+            note Fs4
             note B4
             note Gs5
             note Gs4
@@ -78,16 +88,6 @@ Music_28_Channel_3:
             note E5
             note B5
             note Fs6
-            note Fs5
-            note B5
-            note Gs6
-            note Gs5
-            note Cs6
-            note As6
-            note E7
-            note E6
-            note B6
-            note Fs7
             wait
     channel_end
 Music_28_Channel_4:
@@ -96,7 +96,17 @@ Music_28_Channel_4:
       inst 6
       vol 11
             waitL 6
-            noteL Gs4, 9
+            noteL Gs3, 9
+            note E4
+            note As4
+            note As3
+            note E4
+            note B4
+            note B3
+            note Fs4
+            note Cs5
+            note Gs5
+            note Gs4
             note E5
             note As5
             note As4
@@ -106,16 +116,6 @@ Music_28_Channel_4:
             note Fs5
             note Cs6
             note Gs6
-            note Gs5
-            note E6
-            note As6
-            note As5
-            note E6
-            note B6
-            note B5
-            note Fs6
-            note Cs7
-            note Gs7
             waitL 6
     channel_end
 Music_28_Channel_5:

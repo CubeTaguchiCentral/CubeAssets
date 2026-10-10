@@ -19,9 +19,9 @@ Music_05_Channel_0:
       vol 12
       setRelease 1
       vibrato 05ch
-            noteL B4, 48
-            note As4
-            noteL A4, 110
+            noteL B3, 48
+            note As3
+            noteL A3, 110
             waitL 6
     channel_end
 Music_05_Channel_1:
@@ -30,9 +30,9 @@ Music_05_Channel_1:
       vol 12
       setRelease 1
       vibrato 05ch
-            noteL E5, 48
-            note Ds5
-            noteL D5, 110
+            noteL E4, 48
+            note Ds4
+            noteL D4, 110
             waitL 6
     channel_end
 Music_05_Channel_2:
@@ -41,9 +41,9 @@ Music_05_Channel_2:
       vol 12
       setRelease 1
       vibrato 05ch
-            noteL A5, 48
-            note Gs5
-            noteL G5, 110
+            noteL A4, 48
+            note Gs4
+            noteL G4, 110
             waitL 6
     channel_end
 Music_05_Channel_3:
@@ -52,9 +52,9 @@ Music_05_Channel_3:
       vol 13
       setRelease 1
       vibrato 05ch
-            noteL F3, 48
-            note B3
-            noteL As3, 110
+            noteL F2, 48
+            note B2
+            noteL As2, 110
             waitL 6
     channel_end
 Music_05_Channel_4:
@@ -65,13 +65,13 @@ Music_05_Channel_4:
             waitL 18
       vibrato 05ch
       setRelease 1
-            noteL G4, 12
-            noteL C5, 24
-            note Cs5
-            note Gs4
-            note A4
-            note D5
-            noteL G5, 62
+            noteL G3, 12
+            noteL C4, 24
+            note Cs4
+            note Gs3
+            note A3
+            note D4
+            noteL G4, 62
     channel_end
 Music_05_Channel_5:
       stereo 0c0h
@@ -80,13 +80,13 @@ Music_05_Channel_5:
             waitL 12
       vibrato 05ch
       setRelease 1
-            note G4
-            noteL C5, 24
-            note Cs5
-            note Gs4
-            note A4
-            note D5
-            noteL G5, 62
+            note G3
+            noteL C4, 24
+            note Cs4
+            note Gs3
+            note A3
+            note D4
+            noteL G4, 62
             waitL 6
     channel_end
 Music_05_Channel_6:

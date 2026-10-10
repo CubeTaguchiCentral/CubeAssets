@@ -10,14 +10,14 @@ Sfx_032_Channel_1:
       vol 14
       vibrato 00h
       sustain
-            noteL C2, 1
+            noteL C1, 1
+            note C2
             note C3
             note C4
             note C5
-            note C6
-            note C5
-            noteL C4, 2
-            noteL C3, 3
+            note C4
+            noteL C3, 2
+            noteL C2, 3
       setRelease 1
-            noteL C2, 18
+            noteL C1, 18
     channel_end

@@ -7,18 +7,18 @@ Sfx_035_Channel_0:
       noSlide
       inst 59
       vol 0
-            noteL C2, 1
+            noteL C1, 1
       inst 47
       vol 13
       setRelease 1
       vibrato 04fh
       stereo 0c0h
       shifting 0
-            noteL C2, 3
+            noteL C1, 3
             waitL 2
-            noteL G5, 0
+            noteL G4, 0
       setSlide 32
-            noteL C4, 20
+            noteL C3, 20
       noSlide
             waitL 24
     channel_end

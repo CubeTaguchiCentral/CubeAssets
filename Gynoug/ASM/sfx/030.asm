@@ -8,8 +8,8 @@ Sfx_030_Channel_0:
       vol 12
       setRelease 1
       vibrato 0b6h
-            noteL C3, 1
-            noteL C3, 24
+            noteL C2, 1
+            noteL C2, 24
     channel_end
 Sfx_030_Channel_1:
     channel_end

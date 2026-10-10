@@ -22,23 +22,23 @@ Music_13_Channel_0:
       sustain
       inst 18
       vol 13
-            noteL A8, 72
+            noteL A7, 72
       vibrato 05ch
       setSlide 7
     countedLoopStart 10
-            noteL As8, 3
+            noteL As7, 3
       noSlide
       setSlide 7
-            note A8
+            note A7
       noSlide
       setSlide 7
     countedLoopEnd
       vol 12
     repeatStart
-            note As8
+            note As7
       noSlide
       setSlide 7
-            note A8
+            note A7
       noSlide
       setSlide 7
     repeatSection1Start
@@ -47,10 +47,10 @@ Music_13_Channel_0:
     repeatSection2Start
       vol 10
     repeatStart
-            note As8
+            note As7
       noSlide
       setSlide 7
-            note A8
+            note A7
       noSlide
       setSlide 7
     repeatSection1Start
@@ -59,10 +59,10 @@ Music_13_Channel_0:
     repeatSection2Start
       vol 8
     repeatStart
-            note As8
+            note As7
       noSlide
       setSlide 7
-            note A8
+            note A7
       noSlide
       setSlide 7
     repeatSection1Start
@@ -71,10 +71,10 @@ Music_13_Channel_0:
     repeatSection2Start
       vol 6
     repeatStart
-            note As8
+            note As7
       noSlide
       setSlide 7
-            note A8
+            note A7
       noSlide
       setSlide 7
     repeatSection1Start
@@ -82,9 +82,9 @@ Music_13_Channel_0:
     repeatEnd
     repeatSection2Start
       vol 4
-            note As8
+            note As7
       setRelease 1
-            note A8
+            note A7
       noSlide
             waitL 192
             waitL 96
@@ -101,42 +101,42 @@ Music_13_Channel_1:
       stereo 040h
       inst 18
       vol 11
-            noteL A8, 72
+            noteL A7, 72
       vibrato 05ch
       setSlide 7
     countedLoopStart 10
-            noteL As8, 3
+            noteL As7, 3
       noSlide
       setSlide 7
-            note A8
+            note A7
       noSlide
       setSlide 7
     countedLoopEnd
       vol 10
-            note As8
+            note As7
       noSlide
       setSlide 7
       vibrato 00h
-            noteL A8, 51
+            noteL A7, 51
       noSlide
       vol 13
       vibrato 05ch
-            noteL A8, 72
+            noteL A7, 72
       setSlide 7
     countedLoopStart 10
-            noteL As8, 3
+            noteL As7, 3
       noSlide
       setSlide 7
-            note A8
+            note A7
       noSlide
       setSlide 7
     countedLoopEnd
       vol 12
     repeatStart
-            note As8
+            note As7
       noSlide
       setSlide 7
-            note A8
+            note A7
       noSlide
       setSlide 7
     repeatSection1Start
@@ -145,10 +145,10 @@ Music_13_Channel_1:
     repeatSection2Start
       vol 10
     repeatStart
-            note As8
+            note As7
       noSlide
       setSlide 7
-            note A8
+            note A7
       noSlide
       setSlide 7
     repeatSection1Start
@@ -157,10 +157,10 @@ Music_13_Channel_1:
     repeatSection2Start
       vol 8
     repeatStart
-            note As8
+            note As7
       noSlide
       setSlide 7
-            note A8
+            note A7
       noSlide
       setSlide 7
     repeatSection1Start
@@ -169,10 +169,10 @@ Music_13_Channel_1:
     repeatSection2Start
       vol 6
     repeatStart
-            note As8
+            note As7
       noSlide
       setSlide 7
-            note A8
+            note A7
       noSlide
       setSlide 7
     repeatSection1Start
@@ -180,9 +180,9 @@ Music_13_Channel_1:
     repeatEnd
     repeatSection2Start
       vol 4
-            note As8
+            note As7
       setRelease 1
-            note A8
+            note A7
       noSlide
             waitL 46
       vol 0
@@ -191,7 +191,7 @@ Music_13_Channel_1:
       stereo 040h
       vol 11
       sustain
-            noteL A8, 46
+            noteL A7, 46
     mainLoopEnd
 Music_13_Channel_2:
       stereo 0c0h
@@ -206,40 +206,40 @@ Music_13_Channel_2:
       shifting 16
       inst 18
       vol 11
-            noteL A8, 72
+            noteL A7, 72
       vibrato 05ch
       setSlide 7
     countedLoopStart 10
-            noteL As8, 3
+            noteL As7, 3
       noSlide
       setSlide 7
-            note A8
+            note A7
       noSlide
       setSlide 7
     countedLoopEnd
       vol 10
-            note As8
+            note As7
       noSlide
       setSlide 7
-            noteL A8, 8
+            noteL A7, 8
       noSlide
       vol 13
-            noteL A8, 72
+            noteL A7, 72
       setSlide 7
     countedLoopStart 10
-            noteL As8, 3
+            noteL As7, 3
       noSlide
       setSlide 7
-            note A8
+            note A7
       noSlide
       setSlide 7
     countedLoopEnd
       vol 12
     repeatStart
-            note As8
+            note As7
       noSlide
       setSlide 7
-            note A8
+            note A7
       noSlide
       setSlide 7
     repeatSection1Start
@@ -248,10 +248,10 @@ Music_13_Channel_2:
     repeatSection2Start
       vol 10
     repeatStart
-            note As8
+            note As7
       noSlide
       setSlide 7
-            note A8
+            note A7
       noSlide
       setSlide 7
     repeatSection1Start
@@ -260,10 +260,10 @@ Music_13_Channel_2:
     repeatSection2Start
       vol 8
     repeatStart
-            note As8
+            note As7
       noSlide
       setSlide 7
-            note A8
+            note A7
       noSlide
       setSlide 7
     repeatSection1Start
@@ -272,10 +272,10 @@ Music_13_Channel_2:
     repeatSection2Start
       vol 6
     repeatStart
-            note As8
+            note As7
       noSlide
       setSlide 7
-            note A8
+            note A7
       noSlide
       setSlide 7
     repeatSection1Start
@@ -283,9 +283,9 @@ Music_13_Channel_2:
     repeatEnd
     repeatSection2Start
       vol 4
-            note As8
+            note As7
       setRelease 1
-            note A8
+            note A7
       noSlide
             waitL 89
       stereo 080h
@@ -294,7 +294,7 @@ Music_13_Channel_2:
       shifting 16
       vol 11
       sustain
-            noteL A8, 48
+            noteL A7, 48
     mainLoopEnd
 Music_13_Channel_3:
     channel_end

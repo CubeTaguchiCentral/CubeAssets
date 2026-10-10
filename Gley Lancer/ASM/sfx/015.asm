@@ -12,5 +12,5 @@ Sfx_015_Channel_1:
       vibrato 04fh
       stereo 0c0h
       shifting 0
-            noteL E6, 3
+            noteL E5, 3
     channel_end

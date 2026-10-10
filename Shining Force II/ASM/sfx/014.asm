@@ -8,14 +8,14 @@ Sfx_014_Channel_0:
       vol 15
       setRelease 0
       vibrato 0f0h
-            noteL A2, 6
+            noteL A1, 6
     channel_end
 Sfx_014_Channel_1:
       inst 70
       vol 11
       setRelease 0
       vibrato 0f0h
-            noteL A2, 6
+            noteL A1, 6
     channel_end
 Sfx_014_Channel_2:
     channel_end

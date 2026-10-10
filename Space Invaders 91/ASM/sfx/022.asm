@@ -17,6 +17,6 @@ Sfx_022_Channel_4:
       vol 14
       setRelease 0
       vibrato 00h
-            noteL Gs8, 5
-            noteL Gs8, 6
+            noteL Gs7, 5
+            noteL Gs7, 6
     channel_end

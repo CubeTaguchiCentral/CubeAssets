@@ -20,12 +20,12 @@ Music_13_Channel_0:
             waitL 48
       setRelease 1
       vibrato 05ch
-            noteL A6, 8
-            note Gs6
-            note E6
-            noteL B5, 3
-            note Ds6
-            noteL Fs6, 66
+            noteL A5, 8
+            note Gs5
+            note E5
+            noteL B4, 3
+            note Ds5
+            noteL Fs5, 66
     channel_end
 Music_13_Channel_1:
       stereo 0c0h
@@ -33,10 +33,10 @@ Music_13_Channel_1:
       vol 14
       setRelease 1
       vibrato 05ch
-            noteL Cs6, 4
+            noteL Cs5, 4
             waitL 12
-            noteL B3, 8
-            noteL B3, 120
+            noteL B2, 8
+            noteL B2, 120
     channel_end
 Music_13_Channel_2:
       stereo 0c0h
@@ -44,10 +44,10 @@ Music_13_Channel_2:
       vol 14
       setRelease 1
       vibrato 05ch
-            noteL B5, 4
+            noteL B4, 4
             waitL 12
-            noteL B2, 8
-            noteL B2, 120
+            noteL B1, 8
+            noteL B1, 120
     channel_end
 Music_13_Channel_3:
       stereo 0c0h
@@ -55,10 +55,10 @@ Music_13_Channel_3:
       vol 14
       setRelease 1
       vibrato 05ch
-            noteL B6, 4
+            noteL B5, 4
             waitL 12
-            noteL B4, 8
-            noteL B4, 120
+            noteL B3, 8
+            noteL B3, 120
     channel_end
 Music_13_Channel_4:
       stereo 0c0h
@@ -66,10 +66,10 @@ Music_13_Channel_4:
       vol 14
       setRelease 1
       vibrato 05ch
-            noteL Fs6, 4
+            noteL Fs5, 4
             waitL 12
-            noteL Fs4, 8
-            noteL Fs4, 120
+            noteL Fs3, 8
+            noteL Fs3, 120
     channel_end
 Music_13_Channel_5:
     channel_end

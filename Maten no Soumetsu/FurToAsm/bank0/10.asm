@@ -19,18 +19,18 @@ Music_10_Channel_0:
       vol 8
       vibrato 05ch
       setRelease 1
-            noteL Gs5, 10
-            note F5
-            note Gs5
-            note G5
-            note Ds5
-            note G5
-            note F5
-            note Cs5
-            noteL F5, 100
-            noteL E5, 8
-            note D5
-            noteL E5, 106
+            noteL Gs4, 10
+            note F4
+            note Gs4
+            note G4
+            note Ds4
+            note G4
+            note F4
+            note Cs4
+            noteL F4, 100
+            noteL E4, 8
+            note D4
+            noteL E4, 106
     channel_end
 Music_10_Channel_1:
       stereo 0c0h
@@ -38,18 +38,18 @@ Music_10_Channel_1:
       vol 8
       vibrato 05ch
       setRelease 1
-            noteL C5, 10
-            note Gs4
-            note C5
-            note As4
-            note G4
-            note As4
-            note Gs4
-            note F4
-            noteL Gs4, 100
-            noteL G4, 8
-            note F4
-            noteL G4, 106
+            noteL C4, 10
+            note Gs3
+            note C4
+            note As3
+            note G3
+            note As3
+            note Gs3
+            note F3
+            noteL Gs3, 100
+            noteL G3, 8
+            note F3
+            noteL G3, 106
     channel_end
 Music_10_Channel_2:
       stereo 0c0h
@@ -57,11 +57,11 @@ Music_10_Channel_2:
       vol 8
       setRelease 1
       vibrato 05ch
-            noteL F3, 30
-            note Ds3
-            noteL Cs3, 76
-            noteL G2, 46
-            noteL C3, 120
+            noteL F2, 30
+            note Ds2
+            noteL Cs2, 76
+            noteL G1, 46
+            noteL C2, 120
     channel_end
 Music_10_Channel_3:
       stereo 080h
@@ -71,18 +71,18 @@ Music_10_Channel_3:
             waitL 12
       setRelease 1
       vibrato 05ch
-            noteL Gs5, 10
-            note F5
-            note Gs5
-            note G5
-            note Ds5
-            note G5
-            note F5
-            note Cs5
-            noteL F5, 100
-            noteL E5, 8
-            note D5
-            noteL E5, 106
+            noteL Gs4, 10
+            note F4
+            note Gs4
+            note G4
+            note Ds4
+            note G4
+            note F4
+            note Cs4
+            noteL F4, 100
+            noteL E4, 8
+            note D4
+            noteL E4, 106
     channel_end
 Music_10_Channel_4:
       stereo 040h
@@ -92,18 +92,18 @@ Music_10_Channel_4:
             waitL 12
       setRelease 1
       vibrato 05ch
-            noteL C5, 10
-            note Gs4
-            note C5
-            note As4
-            note G4
-            note As4
-            note Gs4
-            note F4
-            noteL Gs4, 100
-            noteL G4, 8
-            note F4
-            noteL G4, 106
+            noteL C4, 10
+            note Gs3
+            note C4
+            note As3
+            note G3
+            note As3
+            note Gs3
+            note F3
+            noteL Gs3, 100
+            noteL G3, 8
+            note F3
+            noteL G3, 106
     channel_end
 Music_10_Channel_5:
     channel_end

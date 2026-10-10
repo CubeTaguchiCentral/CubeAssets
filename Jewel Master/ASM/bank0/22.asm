@@ -19,9 +19,9 @@ Music_22_Channel_0:
       vibrato 02ah
       stereo 0c0h
       sustain
-            noteL A3, 192
+            noteL A2, 192
       setRelease 1
-            noteL A3, 232
+            noteL A2, 232
     channel_end
 Music_22_Channel_1:
       stereo 0c0h
@@ -30,13 +30,13 @@ Music_22_Channel_1:
       setRelease 1
       vibrato 02ah
             waitL 48
-            noteL A5, 10
-            noteL C6, 7
-            noteL G6, 5
+            noteL A4, 10
+            noteL C5, 7
+            noteL G5, 5
       sustain
-            noteL Fs6, 122
+            noteL Fs5, 122
       setRelease 1
-            noteL Fs6, 232
+            noteL Fs5, 232
     channel_end
 Music_22_Channel_2:
       stereo 040h
@@ -45,13 +45,13 @@ Music_22_Channel_2:
       setRelease 1
       vibrato 02ah
             waitL 66
-            noteL A5, 10
-            noteL C6, 7
-            noteL G6, 5
+            noteL A4, 10
+            noteL C5, 7
+            noteL G5, 5
       sustain
-            noteL Fs6, 122
+            noteL Fs5, 122
       setRelease 1
-            noteL Fs6, 214
+            noteL Fs5, 214
     channel_end
 Music_22_Channel_3:
       stereo 080h
@@ -60,13 +60,13 @@ Music_22_Channel_3:
       setRelease 1
       vibrato 02ah
             waitL 84
-            noteL A5, 10
-            noteL C6, 7
-            noteL G6, 5
+            noteL A4, 10
+            noteL C5, 7
+            noteL G5, 5
       sustain
-            noteL Fs6, 122
+            noteL Fs5, 122
       setRelease 1
-            noteL Fs6, 196
+            noteL Fs5, 196
     channel_end
 Music_22_Channel_4:
       inst 13
@@ -75,9 +75,9 @@ Music_22_Channel_4:
       stereo 0c0h
       sustain
             waitL 120
-            noteL A3, 192
+            noteL A2, 192
       setRelease 1
-            noteL A3, 112
+            noteL A2, 112
     channel_end
 Music_22_Channel_5:
     channel_end

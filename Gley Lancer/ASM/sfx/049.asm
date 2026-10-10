@@ -11,8 +11,8 @@ Sfx_049_Channel_1:
       vol 11
       setRelease 2
       vibrato 0c2h
-            noteL G3, 10
+            noteL G2, 10
             waitL 5
-            noteL G3, 10
+            noteL G2, 10
             waitL 5
     channel_end

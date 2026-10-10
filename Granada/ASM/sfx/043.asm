@@ -17,18 +17,18 @@ Sfx_043_Channel_8:
       setRelease 0
       vibrato 0e0h
     mainLoopStart
-            psgNoteL B1, 3
-            psgNote D2
-            psgNote F2
-            psgNote G2
-            psgNote As2
-            psgNote C3
+            psgNoteL B2, 3
+            psgNote D3
             psgNote F3
-            psgNote Gs3
+            psgNote G3
+            psgNote As3
             psgNote C4
-            psgNote E4
-            psgNote Fs4
-            psgNote B4
-            psgNote D5
-            psgNote F5
+            psgNote F4
+            psgNote Gs4
+            psgNote C5
+            psgNote E5
+            psgNote Fs5
+            psgNote B5
+            psgNote D6
+            psgNote F6
     mainLoopEnd

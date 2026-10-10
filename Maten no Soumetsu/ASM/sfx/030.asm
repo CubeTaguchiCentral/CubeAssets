@@ -10,10 +10,10 @@ Sfx_030_Channel_1:
       vol 15
       setRelease 1
       vibrato 010h
-            noteL C2, 6
+            noteL C1, 6
       setSlide 126
-            note C8
-            note C2
-            noteL C8, 30
+            note C7
+            note C1
+            noteL C7, 30
       noSlide
     channel_end

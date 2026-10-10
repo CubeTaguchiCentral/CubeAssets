@@ -9,7 +9,7 @@ Sfx_029_Channel_0:
       setRelease 2
       vibrato 00h
     countedLoopStart 16
-            noteL Ds2, 7
+            noteL Ds1, 7
     countedLoopEnd
     channel_end
 Sfx_029_Channel_1:
@@ -18,7 +18,7 @@ Sfx_029_Channel_1:
       setRelease 2
       vibrato 00h
     countedLoopStart 14
-            noteL E2, 8
+            noteL E1, 8
     countedLoopEnd
     channel_end
 Sfx_029_Channel_2:

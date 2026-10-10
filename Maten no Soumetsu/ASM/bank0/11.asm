@@ -18,12 +18,12 @@ Music_11_Channel_0:
       vol 8
       setRelease 1
       vibrato 02ch
-            noteL A5, 24
-            note As5
-            noteL C6, 16
-            note D6
-            note Ds6
-            noteL E6, 96
+            noteL A4, 24
+            note As4
+            noteL C5, 16
+            note D5
+            note Ds5
+            noteL E5, 96
     channel_end
 Music_11_Channel_1:
       stereo 080h
@@ -31,11 +31,11 @@ Music_11_Channel_1:
       vol 8
       setRelease 1
       vibrato 02ch
-            noteL C5, 48
-            noteL A5, 16
-            note As5
-            note B5
-            noteL C6, 96
+            noteL C4, 48
+            noteL A4, 16
+            note As4
+            note B4
+            noteL C5, 96
     channel_end
 Music_11_Channel_2:
       stereo 040h
@@ -43,20 +43,20 @@ Music_11_Channel_2:
       vol 8
       setRelease 1
       vibrato 02ch
-            noteL A4, 48
-            noteL A4, 16
-            note Gs4
-            note G4
-            noteL Fs4, 96
+            noteL A3, 48
+            noteL A3, 16
+            note Gs3
+            note G3
+            noteL Fs3, 96
     channel_end
 Music_11_Channel_3:
       inst 15
       vol 8
       setRelease 1
       vibrato 02ch
-            noteL F4, 72
-            noteL F3, 24
-            noteL Fs3, 96
+            noteL F3, 72
+            noteL F2, 24
+            noteL Fs2, 96
     channel_end
 Music_11_Channel_4:
       inst 15
@@ -65,12 +65,12 @@ Music_11_Channel_4:
       vibrato 02ch
       shifting 32
             waitL 8
-            noteL A5, 24
-            note As5
-            noteL C6, 16
-            note D6
-            note Ds6
-            noteL E6, 96
+            noteL A4, 24
+            note As4
+            noteL C5, 16
+            note D5
+            note Ds5
+            noteL E5, 96
     channel_end
 Music_11_Channel_5:
     channel_end

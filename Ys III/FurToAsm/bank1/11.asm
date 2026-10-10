@@ -19,11 +19,41 @@ Music_11_Channel_0:
       vol 13
       setRelease 1
       vibrato 05ah
-            noteL Cs2, 96
-            noteL C2, 146
+            noteL Cs1, 96
+            noteL C1, 146
     channel_end
 Music_11_Channel_1:
       stereo 080h
+      inst 6
+      vol 12
+      setRelease 1
+            noteL Cs3, 48
+      vibrato 05ah
+            note F3
+            noteL E3, 146
+    channel_end
+Music_11_Channel_2:
+      stereo 080h
+      inst 6
+      vol 12
+      setRelease 1
+            noteL Gs3, 48
+      vibrato 05ah
+            note Cs4
+            noteL C4, 146
+    channel_end
+Music_11_Channel_3:
+      stereo 040h
+      inst 6
+      vol 12
+      setRelease 1
+            noteL F4, 48
+      vibrato 05ah
+            note Gs4
+            noteL G4, 144
+    channel_end
+Music_11_Channel_4:
+      stereo 040h
       inst 6
       vol 12
       setRelease 1
@@ -31,36 +61,6 @@ Music_11_Channel_1:
       vibrato 05ah
             note F4
             noteL E4, 146
-    channel_end
-Music_11_Channel_2:
-      stereo 080h
-      inst 6
-      vol 12
-      setRelease 1
-            noteL Gs4, 48
-      vibrato 05ah
-            note Cs5
-            noteL C5, 146
-    channel_end
-Music_11_Channel_3:
-      stereo 040h
-      inst 6
-      vol 12
-      setRelease 1
-            noteL F5, 48
-      vibrato 05ah
-            note Gs5
-            noteL G5, 144
-    channel_end
-Music_11_Channel_4:
-      stereo 040h
-      inst 6
-      vol 12
-      setRelease 1
-            noteL Cs5, 48
-      vibrato 05ah
-            note F5
-            noteL E5, 146
     channel_end
 Music_11_Channel_5:
     channel_end
@@ -70,45 +70,45 @@ Music_11_Channel_6:
             waitL 6
       setRelease 12
       vibrato 04ah
-            psgNoteL Cs3, 12
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Ds3
-            psgNote F3
-            psgNote Cs3
-            psgNote F3
+            psgNoteL Cs4, 12
             psgNote Gs3
+            psgNote Cs4
+            psgNote Ds4
+            psgNote F4
+            psgNote Cs4
+            psgNote F4
+            psgNote Gs4
       setRelease 15
-            psgNoteL C4, 15
+            psgNoteL C5, 15
       setRelease 18
-            psgNoteL G3, 18
-            psgNote F3
+            psgNoteL G4, 18
+            psgNote F4
       setRelease 24
-            psgNoteL D3, 24
+            psgNoteL D4, 24
       setRelease 63
-            psgNoteL E3, 63
+            psgNoteL E4, 63
     channel_end
 Music_11_Channel_7:
       psgInst 0eh
       setRelease 12
       vibrato 04ah
-            psgNoteL Cs3, 12
-            psgNote Gs2
-            psgNote Cs3
-            psgNote Ds3
-            psgNote F3
-            psgNote Cs3
-            psgNote F3
+            psgNoteL Cs4, 12
             psgNote Gs3
+            psgNote Cs4
+            psgNote Ds4
+            psgNote F4
+            psgNote Cs4
+            psgNote F4
+            psgNote Gs4
       setRelease 15
-            psgNoteL C4, 15
+            psgNoteL C5, 15
       setRelease 18
-            psgNoteL G3, 18
-            psgNote F3
+            psgNoteL G4, 18
+            psgNote F4
       setRelease 24
-            psgNoteL D3, 24
+            psgNoteL D4, 24
       setRelease 69
-            psgNoteL E3, 69
+            psgNoteL E4, 69
     channel_end
 Music_11_Channel_8:
     channel_end

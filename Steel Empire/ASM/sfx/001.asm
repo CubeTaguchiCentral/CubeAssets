@@ -12,7 +12,7 @@ Sfx_001_Channel_1:
       setRelease 1
       stereo 0c0h
       vibrato 02ah
-            noteL A7, 0
+            noteL A6, 0
       setSlide 54
-            noteL G6, 24
+            noteL G5, 24
     channel_end

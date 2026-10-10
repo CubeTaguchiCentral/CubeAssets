@@ -16,11 +16,11 @@ Sfx_043_Channel_8:
       psgInst 02eh
       setRelease 0
       vibrato 00h
-            psgNoteL Fs1, 1
-            psgNote B1
-            psgNote G2
-            psgNote D3
+            psgNoteL Fs2, 1
+            psgNote B2
             psgNote G3
-            psgNote F3
-            psgNote G3
+            psgNote D4
+            psgNote G4
+            psgNote F4
+            psgNote G4
     channel_end

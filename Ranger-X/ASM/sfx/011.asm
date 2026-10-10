@@ -10,21 +10,21 @@ Sfx_011_Channel_1:
       vol 15
       vibrato 010h
       setRelease 0
-            noteL D4, 2
-            note D5
+            noteL D3, 2
+            note D4
       vol 14
+            note D5
             note D6
-            note D7
       vol 13
+            note Ds3
             note Ds4
-            note Ds5
       vol 11
+            note Ds5
             note Ds6
-            note Ds7
       vol 9
+            note C3
             note C4
-            note C5
       vol 7
+            note C5
             note C6
-            note C7
     channel_end

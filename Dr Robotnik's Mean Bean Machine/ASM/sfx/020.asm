@@ -9,7 +9,7 @@ Sfx_020_Channel_1:
       noSlide
       inst 59
       vol 0
-            noteL C2, 1
+            noteL C1, 1
       inst 76
       vol 13
       setRelease 1
@@ -19,17 +19,17 @@ Sfx_020_Channel_1:
     repeatStart
       setRelease 1
       sustain
-            noteL G3, 1
+            noteL G2, 1
+            note C3
+            note G3
             note C4
-            note G4
+            note Fs4
             note C5
-            note Fs5
+            note G5
             note C6
             note G6
-            note C7
-            note G7
       setRelease 1
-            noteL G8, 3
+            noteL G7, 3
             waitL 2
     repeatSection1Start
       vol 10

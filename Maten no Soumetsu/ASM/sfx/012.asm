@@ -11,5 +11,5 @@ Sfx_012_Channel_1:
       vol 13
       setRelease 0
       vibrato 02ah
-            noteL C8, 96
+            noteL C7, 96
     channel_end
